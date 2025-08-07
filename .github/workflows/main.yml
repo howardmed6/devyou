@@ -143,64 +143,107 @@ jobs:
         python << 'EOF'
         import requests
         import os
-        import json
+        import re
+        from urllib.parse import unquote
         
         def download_google_drive_folder():
-            folder_id = "1-NXHDM29JFrNpzVxMFmfFLMMaNgy44ML"
+            folder_url = "https://drive.google.com/drive/folders/1-NXHDM29JFrNpzVxMFmfFLMMaNgy44ML"
             
             # Crear carpeta videos si no existe
             os.makedirs("videos", exist_ok=True)
             
             print("📁 Descargando archivos de Google Drive...")
             
-            # Obtener lista de archivos de la carpeta pública
-            url = f"https://www.googleapis.com/drive/v3/files"
-            params = {
-                'q': f"'{folder_id}' in parents and trashed=false",
-                'fields': 'files(id,name,mimeType,size)',
-                'key': 'AIzaSyD-9tSrke72PouQMnMX-a7UAQXS0jIBuIU'  # API key pública
-            }
-            
             try:
-                response = requests.get(url, params=params)
+                # Obtener la página HTML de la carpeta pública
+                headers = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+                }
+                response = requests.get(folder_url, headers=headers, timeout=30)
+                
                 if response.status_code == 200:
-                    files_data = response.json()
-                    files = files_data.get('files', [])
+                    html_content = response.text
                     
-                    print(f"🔍 Encontrados {len(files)} archivos")
+                    # Buscar archivos en el HTML usando regex
+                    # Patrón para encontrar archivos con sus IDs
+                    file_pattern = r'\["([^"]+)","([^"]+)",[^,]*,"([^"]*)"[^]]*\]'
+                    matches = re.findall(file_pattern, html_content)
                     
-                    for file_info in files:
-                        file_id = file_info['id']
-                        file_name = file_info['name']
-                        mime_type = file_info['mimeType']
+                    if not matches:
+                        # Método alternativo: buscar IDs directamente
+                        id_pattern = r'"([a-zA-Z0-9_-]{25,})"'
+                        file_ids = list(set(re.findall(id_pattern, html_content)))
                         
-                        # Solo descargar imágenes y videos
-                        if mime_type.startswith(('image/', 'video/')):
-                            print(f"⬇️ Descargando: {file_name}")
+                        print(f"🔍 Encontrados {len(file_ids)} posibles archivos")
+                        
+                        for i, file_id in enumerate(file_ids[:20]):  # Limitar a 20 para evitar spam
+                            print(f"⬇️ Intentando descargar archivo {i+1}...")
                             
-                            # URL de descarga directa para archivos públicos
+                            # Probar descarga directa
                             download_url = f"https://drive.google.com/uc?export=download&id={file_id}"
                             
                             try:
-                                file_response = requests.get(download_url, stream=True, timeout=30)
-                                if file_response.status_code == 200:
-                                    file_path = os.path.join("videos", file_name)
+                                file_response = requests.get(download_url, stream=True, timeout=30, headers=headers)
+                                
+                                # Verificar si es un archivo válido
+                                content_type = file_response.headers.get('content-type', '')
+                                if file_response.status_code == 200 and (
+                                    content_type.startswith(('image/', 'video/')) or 
+                                    len(file_response.content) > 1000
+                                ):
+                                    # Intentar obtener nombre del archivo
+                                    content_disposition = file_response.headers.get('content-disposition', '')
+                                    if 'filename=' in content_disposition:
+                                        filename = content_disposition.split('filename=')[1].strip('"')
+                                    else:
+                                        # Generar nombre basado en content-type
+                                        if content_type.startswith('image/'):
+                                            ext = content_type.split('/')[-1]
+                                            filename = f"image_{i+1}.{ext}"
+                                        elif content_type.startswith('video/'):
+                                            ext = content_type.split('/')[-1]
+                                            filename = f"video_{i+1}.{ext}"
+                                        else:
+                                            filename = f"file_{i+1}.bin"
+                                    
+                                    file_path = os.path.join("videos", filename)
                                     with open(file_path, 'wb') as f:
                                         for chunk in file_response.iter_content(chunk_size=8192):
                                             if chunk:
                                                 f.write(chunk)
-                                    print(f"✅ Descargado: {file_name}")
-                                else:
-                                    print(f"❌ Error descargando {file_name}: {file_response.status_code}")
+                                    print(f"✅ Descargado: {filename}")
+                                    
                             except Exception as e:
-                                print(f"❌ Error descargando {file_name}: {e}")
-                        else:
-                            print(f"⏭️ Omitiendo: {file_name} (no es imagen/video)")
+                                print(f"❌ Error descargando archivo {i+1}: {e}")
+                    else:
+                        print(f"🔍 Encontrados {len(matches)} archivos")
+                        for match in matches:
+                            file_id, file_name, mime_type = match
+                            
+                            # Solo descargar si parece ser imagen o video
+                            if any(ext in file_name.lower() for ext in ['.jpg', '.jpeg', '.png', '.gif', '.mp4', '.avi', '.mkv', '.mov', '.webm']):
+                                print(f"⬇️ Descargando: {file_name}")
+                                
+                                download_url = f"https://drive.google.com/uc?export=download&id={file_id}"
+                                
+                                try:
+                                    file_response = requests.get(download_url, stream=True, timeout=30, headers=headers)
+                                    if file_response.status_code == 200:
+                                        file_path = os.path.join("videos", file_name)
+                                        with open(file_path, 'wb') as f:
+                                            for chunk in file_response.iter_content(chunk_size=8192):
+                                                if chunk:
+                                                    f.write(chunk)
+                                        print(f"✅ Descargado: {file_name}")
+                                    else:
+                                        print(f"❌ Error descargando {file_name}: {file_response.status_code}")
+                                except Exception as e:
+                                    print(f"❌ Error descargando {file_name}: {e}")
                     
                     print("🎉 Descarga de Google Drive completada")
                 else:
-                    print(f"❌ Error obteniendo lista de archivos: {response.status_code}")
-                    print(response.text[:200])
+                    print(f"❌ Error accediendo a la carpeta: {response.status_code}")
+                    
             except Exception as e:
                 print(f"💥 Error en descarga de Google Drive: {e}")
         
@@ -284,6 +327,12 @@ jobs:
       run: |
         echo "🧹 Ejecutando 13_clean.py..."
         python 13_clean.py
+
+    - name: Execute 14_add_manual.py
+      if: steps.check_telegram.outputs.should_run == 'true'
+      run: |
+        echo "➕ Ejecutando 14_add_manual.py..."
+        python 14_add_manual.py
 
     - name: Check for changes (excluding specific folders)
       if: steps.check_telegram.outputs.should_run == 'true'
