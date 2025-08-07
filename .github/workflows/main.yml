@@ -285,12 +285,6 @@ jobs:
         echo "🧹 Ejecutando 13_clean.py..."
         python 13_clean.py
 
-    - name: Execute 14_add_manual.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "➕ Ejecutando 14_add_manual.py..."
-        python 14_add_manual.py
-
     - name: Check for changes (excluding specific folders)
       if: steps.check_telegram.outputs.should_run == 'true'
       id: check_changes
