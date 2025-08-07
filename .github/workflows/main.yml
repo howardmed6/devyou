@@ -137,6 +137,76 @@ jobs:
                 f.write("should_run=false\n")
         EOF
 
+    - name: Download from Google Drive (only when executing scripts)
+      if: steps.check_telegram.outputs.should_run == 'true'
+      run: |
+        python << 'EOF'
+        import requests
+        import os
+        import json
+        
+        def download_google_drive_folder():
+            folder_id = "1-NXHDM29JFrNpzVxMFmfFLMMaNgy44ML"
+            
+            # Crear carpeta videos si no existe
+            os.makedirs("videos", exist_ok=True)
+            
+            print("📁 Descargando archivos de Google Drive...")
+            
+            # Obtener lista de archivos de la carpeta pública
+            url = f"https://www.googleapis.com/drive/v3/files"
+            params = {
+                'q': f"'{folder_id}' in parents and trashed=false",
+                'fields': 'files(id,name,mimeType,size)',
+                'key': 'AIzaSyD-9tSrke72PouQMnMX-a7UAQXS0jIBuIU'  # API key pública
+            }
+            
+            try:
+                response = requests.get(url, params=params)
+                if response.status_code == 200:
+                    files_data = response.json()
+                    files = files_data.get('files', [])
+                    
+                    print(f"🔍 Encontrados {len(files)} archivos")
+                    
+                    for file_info in files:
+                        file_id = file_info['id']
+                        file_name = file_info['name']
+                        mime_type = file_info['mimeType']
+                        
+                        # Solo descargar imágenes y videos
+                        if mime_type.startswith(('image/', 'video/')):
+                            print(f"⬇️ Descargando: {file_name}")
+                            
+                            # URL de descarga directa para archivos públicos
+                            download_url = f"https://drive.google.com/uc?export=download&id={file_id}"
+                            
+                            try:
+                                file_response = requests.get(download_url, stream=True, timeout=30)
+                                if file_response.status_code == 200:
+                                    file_path = os.path.join("videos", file_name)
+                                    with open(file_path, 'wb') as f:
+                                        for chunk in file_response.iter_content(chunk_size=8192):
+                                            if chunk:
+                                                f.write(chunk)
+                                    print(f"✅ Descargado: {file_name}")
+                                else:
+                                    print(f"❌ Error descargando {file_name}: {file_response.status_code}")
+                            except Exception as e:
+                                print(f"❌ Error descargando {file_name}: {e}")
+                        else:
+                            print(f"⏭️ Omitiendo: {file_name} (no es imagen/video)")
+                    
+                    print("🎉 Descarga de Google Drive completada")
+                else:
+                    print(f"❌ Error obteniendo lista de archivos: {response.status_code}")
+                    print(response.text[:200])
+            except Exception as e:
+                print(f"💥 Error en descarga de Google Drive: {e}")
+        
+        download_google_drive_folder()
+        EOF
+
     - name: Execute 1_monitor.py
       if: steps.check_telegram.outputs.should_run == 'true'
       run: |
