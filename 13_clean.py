@@ -10,7 +10,7 @@ def main():
         print(f"✅ data.json cargado - Total videos: {len(all_videos)}")
     except FileNotFoundError:
         print("❌ Error: No se encontró data.json")
-        return
+        return 
     
     # Agrupar por canal
     videos_by_channel = defaultdict(list)
@@ -24,7 +24,7 @@ def main():
     for channel, videos in videos_by_channel.items():
         print(f"  {channel}: {len(videos)} videos")
     
-    # Mantener solo los últimos 11 de cada canal
+    # Mantener solo los últimos 20 de cada canal
     videos_to_keep = []
     removed_count = 0
     
@@ -32,14 +32,14 @@ def main():
         # Ordenar por fecha (más reciente primero)
         videos.sort(key=lambda x: x.get('published', ''), reverse=True)
         
-        # Mantener solo los últimos 11
-        keep = videos[:11]
-        remove = videos[11:]
+        # Mantener solo los últimos 20
+        keep = videos[:20]
+        remove = videos[20:]
         
         videos_to_keep.extend(keep)
         removed_count += len(remove)
         
-        if len(videos) > 11:
+        if len(videos) > 20:
             print(f"🗑️  {channel}: eliminando {len(remove)} videos (manteniendo {len(keep)})")
         else:
             print(f"✅ {channel}: manteniendo todos los {len(videos)} videos")
