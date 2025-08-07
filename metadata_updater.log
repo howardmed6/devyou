@@ -1,0 +1,24 @@
+2025-08-07 23:11:56,400 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2025-08-07 23:11:56,400 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2025-08-07 23:11:56,400 - INFO - [START] Iniciando procesamiento de videos editados...
+2025-08-07 23:11:56,400 - INFO - [JSON] Cargados 41 videos desde data.json
+2025-08-07 23:11:56,400 - INFO - [FILTER] Encontrados 0 videos con estado 'edited'
+2025-08-07 23:11:56,400 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
+2025-08-07 23:11:56,813 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2025-08-07 23:11:56,814 - INFO - [FINISH] Proceso completado exitosamente
+2025-08-07 23:17:20,735 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2025-08-07 23:17:20,735 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2025-08-07 23:17:20,735 - INFO - [START] Iniciando procesamiento de videos editados...
+2025-08-07 23:17:20,736 - INFO - [JSON] Cargados 41 videos desde data.json
+2025-08-07 23:17:20,736 - INFO - [FILTER] Encontrados 0 videos con estado 'edited'
+2025-08-07 23:17:20,736 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
+2025-08-07 23:17:21,170 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2025-08-07 23:17:21,170 - INFO - [FINISH] Proceso completado exitosamente
+2025-08-07 23:28:26,921 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2025-08-07 23:28:26,921 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2025-08-07 23:28:26,921 - INFO - [START] Iniciando procesamiento de videos editados...
+2025-08-07 23:28:26,922 - INFO - [JSON] Cargados 41 videos desde data.json
+2025-08-07 23:28:26,922 - INFO - [FILTER] Encontrados 0 videos con estado 'edited'
+2025-08-07 23:28:26,922 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
+2025-08-07 23:28:27,459 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2025-08-07 23:28:27,460 - INFO - [FINISH] Proceso completado exitosamente
