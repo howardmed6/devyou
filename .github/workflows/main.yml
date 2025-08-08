@@ -12,6 +12,11 @@ on:
         required: false
         default: 'false'
         type: boolean
+      skip_interactive:
+        description: 'Skip scripts that require Telegram interaction'
+        required: false
+        default: 'false'
+        type: boolean
 
 jobs:
   telegram-listener:
@@ -107,6 +112,7 @@ jobs:
         
         updates = get_telegram_updates()
         should_run = False
+        skip_interactive = False
         new_last_update_id = last_update_id
         
         for update in updates:
@@ -124,22 +130,30 @@ jobs:
                         print("🚀 Comando de ejecución recibido via Telegram")
                         send_notification("🚀 Iniciando automatización desde GitHub Actions...")
                     
+                    elif text in ["auto", "automatic", "skip-interactive"]:
+                        should_run = True
+                        skip_interactive = True
+                        print("🚀 Comando de ejecución automática (sin interacción)")
+                        send_notification("🚀 Iniciando automatización en modo automático...")
+                    
                     elif text in ["status", "estado"]:
-                        send_notification("📊 GitHub Actions está ejecutándose cada 5 minutos\n💬 Escribe 'yes' para ejecutar scripts ahora")
+                        send_notification("📊 GitHub Actions está ejecutándose cada 5 minutos\n💬 'yes' = ejecución normal\n🤖 'auto' = sin interacción")
         
         # Guardar nuevo last_update_id
         with open('last_update_id.txt', 'w') as f:
             f.write(str(new_last_update_id))
         
-        # Establecer output para siguiente step
+        # Establecer outputs para siguientes steps
         if should_run or os.environ.get('GITHUB_EVENT_NAME') == 'workflow_dispatch':
             print("SHOULD_RUN=true")
             with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
                 f.write("should_run=true\n")
+                f.write(f"skip_interactive={'true' if skip_interactive else 'false'}\n")
         else:
             print("SHOULD_RUN=false") 
             with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
                 f.write("should_run=false\n")
+                f.write("skip_interactive=false\n")
         EOF
 
     - name: Download from Google Drive (only when executing scripts)
@@ -237,84 +251,129 @@ jobs:
         ffmpeg -version
         which ffmpeg
 
-    - name: Execute 1_monitor.py
+    # Función auxiliar para ejecutar scripts con manejo de errores
+    - name: Execute script with error handling
       if: steps.check_telegram.outputs.should_run == 'true'
+      id: script_runner
+      env:
+        BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        SKIP_INTERACTIVE: ${{ steps.check_telegram.outputs.skip_interactive }}
       run: |
-        echo "📊 Ejecutando 1_monitor.py..."
-        python 1_monitor.py
-
-    - name: Execute 2_levelonefilter.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "🔍 Ejecutando 2_levelonefilter.py..."
-        python 2_levelonefilter.py
-
-    - name: Execute 3_metadata.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "📝 Ejecutando 3_metadata.py..."
-        python 3_metadata.py
-
-    - name: Execute 4_metadataextra.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "📋 Ejecutando 4_metadataextra.py..."
-        python 4_metadataextra.py
-
-    - name: Execute 5_update_status.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "🔄 Ejecutando 5_update_status.py..."
-        python 5_update_status.py
-
-    - name: Execute 6_check_metadata.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "✅ Ejecutando 6_check_metadata.py..."
-        python 6_check_metadata.py
-
-    - name: Execute 7_uploadable.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "📤 Ejecutando 7_uploadable.py..."
-        python 7_uploadable.py
-
-    - name: Execute 8_edit.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "✏️ Ejecutando 8_edit.py..."
-        python 8_edit.py
-
-    - name: Execute 9_edit.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "✏️ Ejecutando 9_edit.py..."
-        python 9_edit.py
-
-    - name: Execute 10_edit.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "✏️ Ejecutando 10_edit.py..."
-        python 10_edit.py
-
-    - name: Execute 11_updatemetadata.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "🔄 Ejecutando 11_updatemetadata.py..."
-        python 11_updatemetadata.py
-
-    - name: Execute 12_upload.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "☁️ Ejecutando 12_upload.py..."
-        python 12_upload.py
-
-    - name: Execute 13_clean.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "🧹 Ejecutando 13_clean.py..."
-        python 13_clean.py
+        python << 'EOF'
+        import subprocess
+        import sys
+        import os
+        import requests
         
+        def send_notification(message):
+            bot_token = os.environ.get('BOT_TOKEN')
+            chat_id = os.environ.get('CHAT_ID')
+            
+            try:
+                url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
+                response = requests.post(
+                    url,
+                    {"chat_id": chat_id, "text": message},
+                    timeout=10
+                )
+                return response.status_code == 200
+            except Exception as e:
+                print(f"Error enviando notificación: {e}")
+                return False
+        
+        def run_script_with_timeout(script_name, timeout_seconds=300):
+            """Ejecuta un script con timeout y manejo de errores"""
+            print(f"📊 Ejecutando {script_name}...")
+            
+            # Scripts que pueden requerir interacción
+            interactive_scripts = ['4_metadataextra.py', '8_edit.py', '9_edit.py', '10_edit.py']
+            skip_interactive = os.environ.get('SKIP_INTERACTIVE', 'false') == 'true'
+            
+            if script_name in interactive_scripts and skip_interactive:
+                print(f"⏭️ Omitiendo {script_name} (modo automático)")
+                return True
+            
+            try:
+                # Ejecutar el script con timeout
+                result = subprocess.run([
+                    'python', script_name
+                ], 
+                timeout=timeout_seconds, 
+                capture_output=True, 
+                text=True
+                )
+                
+                if result.returncode == 0:
+                    print(f"✅ {script_name} ejecutado correctamente")
+                    if result.stdout:
+                        print(f"Output: {result.stdout[:200]}...")
+                    return True
+                else:
+                    print(f"❌ {script_name} falló con código {result.returncode}")
+                    if result.stderr:
+                        print(f"Error: {result.stderr[:200]}...")
+                    
+                    # Notificar error crítico
+                    send_notification(f"❌ Error en {script_name}:\n{result.stderr[:100]}...")
+                    return False
+                    
+            except subprocess.TimeoutExpired:
+                print(f"⏰ {script_name} excedió el tiempo límite ({timeout_seconds}s)")
+                send_notification(f"⏰ {script_name} excedió el tiempo límite")
+                return False
+            except Exception as e:
+                print(f"💥 Error ejecutando {script_name}: {e}")
+                send_notification(f"💥 Error crítico en {script_name}")
+                return False
+        
+        # Lista de scripts a ejecutar
+        scripts = [
+            '1_monitor.py',
+            '2_levelonefilter.py', 
+            '3_metadata.py',
+            '4_metadataextra.py',
+            '5_update_status.py',
+            '6_check_metadata.py',
+            '7_uploadable.py',
+            '8_edit.py',
+            '9_edit.py',
+            '10_edit.py',
+            '11_updatemetadata.py',
+            '12_upload.py',
+            '13_clean.py'
+        ]
+        
+        failed_scripts = []
+        
+        for script in scripts:
+            if not run_script_with_timeout(script):
+                failed_scripts.append(script)
+                
+                # Decidir si continuar o parar
+                critical_scripts = ['1_monitor.py', '12_upload.py']
+                if script in critical_scripts:
+                    print(f"💀 Script crítico {script} falló. Deteniendo ejecución.")
+                    send_notification(f"💀 Ejecución detenida por fallo crítico en {script}")
+                    break
+                else:
+                    print(f"⚠️ {script} falló pero continuando...")
+        
+        # Reporte final
+        if failed_scripts:
+            failed_list = ', '.join(failed_scripts)
+            send_notification(f"⚠️ Scripts fallidos: {failed_list}")
+            print(f"Scripts fallidos: {failed_list}")
+            # No fallar el workflow por scripts no críticos
+        else:
+            print("✅ Todos los scripts se ejecutaron correctamente")
+        
+        # Establecer output para el siguiente step
+        with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+            f.write(f"failed_scripts={','.join(failed_scripts)}\n")
+            f.write(f"has_failures={'true' if failed_scripts else 'false'}\n")
+        EOF
+
     - name: Check for changes (excluding specific folders)
       if: steps.check_telegram.outputs.should_run == 'true'
       id: check_changes
@@ -367,7 +426,16 @@ jobs:
                 return False
         
         completion_time = datetime.now().strftime('%H:%M:%S')
-        final_msg = f"✅ Automatización completada - {completion_time}\n💬 Escribe 'yes' para ejecutar de nuevo"
+        has_failures = os.environ.get('has_failures', 'false') == 'true'
+        
+        if has_failures:
+            status_emoji = "⚠️"
+            status_text = "completada con advertencias"
+        else:
+            status_emoji = "✅"
+            status_text = "completada exitosamente"
+        
+        final_msg = f"{status_emoji} Automatización {status_text} - {completion_time}\n💬 'yes' = ejecución normal\n🤖 'auto' = sin interacción"
         send_notification(final_msg)
         EOF
 
