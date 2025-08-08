@@ -33,7 +33,7 @@ class MetadataUpdater:
         
         # Fallback para desarrollo local con tu nueva API key
         if not self.api_key:
-            self.api_key = "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"
+            self.api_key = "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"
         
         if not self.bot_token:
             self.bot_token = "7869024150:AAGFO6ZvpO4-5J4karX_lef252tkD3BhclE"
