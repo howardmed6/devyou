@@ -38,3 +38,19 @@
 2025-08-08 00:08:59,273 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2025-08-08 00:08:59,739 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2025-08-08 00:08:59,740 - INFO - [FINISH] Proceso completado exitosamente
+2025-08-08 00:18:34,561 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2025-08-08 00:18:34,561 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2025-08-08 00:18:34,562 - INFO - [START] Iniciando procesamiento de videos editados...
+2025-08-08 00:18:34,562 - INFO - [JSON] Cargados 41 videos desde data.json
+2025-08-08 00:18:34,562 - INFO - [FILTER] Encontrados 0 videos con estado 'edited'
+2025-08-08 00:18:34,562 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
+2025-08-08 00:18:34,998 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2025-08-08 00:18:34,999 - INFO - [FINISH] Proceso completado exitosamente
+2025-08-08 00:27:14,330 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2025-08-08 00:27:14,330 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2025-08-08 00:27:14,330 - INFO - [START] Iniciando procesamiento de videos editados...
+2025-08-08 00:27:14,331 - INFO - [JSON] Cargados 41 videos desde data.json
+2025-08-08 00:27:14,331 - INFO - [FILTER] Encontrados 0 videos con estado 'edited'
+2025-08-08 00:27:14,331 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
+2025-08-08 00:27:14,747 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2025-08-08 00:27:14,748 - INFO - [FINISH] Proceso completado exitosamente
