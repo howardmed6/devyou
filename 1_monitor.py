@@ -1,9 +1,11 @@
 import json
-import feedparser
+import requests
 from datetime import datetime
-import os
 
 def monitor_channels():
+    # TU API KEY DE YOUTUBE (obtener en Google Cloud Console)
+    API_KEY = "AIzaSyBZUaGb5RXQOSGpVH25MS3vw1wSggAPZnc"  # REEMPLAZAR CON TU API KEY
+    
     # Lista de canales a monitorear
     channels = [
         "UCcVNDl7ZJMf9lC9a34CY4RA",  # Canal original
@@ -25,49 +27,56 @@ def monitor_channels():
     
     new_videos_count = 0
     
-    # Procesar cada canal
     for channel_id in channels:
         try:
             print(f"Monitoreando canal: {channel_id}")
-            rss_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
-            feed = feedparser.parse(rss_url)
             
-            if not feed.entries:
-                print(f"  No se pudieron obtener videos del canal {channel_id}")
+            # YouTube API para obtener 35 videos
+            url = "https://www.googleapis.com/youtube/v3/search"
+            params = {
+                'key': API_KEY,
+                'channelId': channel_id,
+                'part': 'snippet',
+                'order': 'date',
+                'maxResults': 35,
+                'type': 'video'
+            }
+            
+            response = requests.get(url, params=params)
+            data = response.json()
+            
+            if 'items' not in data:
+                print(f"  Error: {data}")
                 continue
             
             channel_new_videos = 0
             
-            # Procesar los últimos 10 videos del canal
-            for entry in feed.entries[:35]:
-                video_id = entry.link.split('=')[-1]
+            for item in data['items']:
+                video_id = item['id']['videoId']
                 
                 if video_id not in existing_ids:
                     video_data = {
                         "video_id": video_id,
-                        "url": entry.link,
-                        "title": entry.title,
-                        "channel": entry.author,
-                        "channel_id": channel_id,  # Agregamos el ID del canal
-                        "published": entry.published,
+                        "url": f"https://www.youtube.com/watch?v={video_id}",
+                        "title": item['snippet']['title'],
+                        "channel": item['snippet']['channelTitle'],
+                        "channel_id": channel_id,
+                        "published": item['snippet']['publishedAt'],
                         "found_at": datetime.now().isoformat(),
                         "status": "pending"
                     }
                     existing_data.append(video_data)
-                    existing_ids.add(video_id)  # Actualizar el set para evitar duplicados
+                    existing_ids.add(video_id)
                     channel_new_videos += 1
                     new_videos_count += 1
-                    print(f"  Nuevo video: {entry.title}")
+                    print(f"  Nuevo video: {item['snippet']['title']}")
             
-            if channel_new_videos == 0:
-                print(f"  No hay videos nuevos en este canal")
-            else:
-                print(f"  Se encontraron {channel_new_videos} videos nuevos")
-                
+            print(f"  Procesados {len(data['items'])} videos, {channel_new_videos} nuevos")
+            
         except Exception as e:
             print(f"Error procesando canal {channel_id}: {e}")
     
-    # Guardar datos actualizados
+    # Guardar datos
     try:
         with open(data_file, 'w', encoding='utf-8') as f:
             json.dump(existing_data, f, indent=2, ensure_ascii=False)
