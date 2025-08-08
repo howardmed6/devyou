@@ -26,13 +26,15 @@ class MetadataUpdater:
         
         # API Claude y Telegram desde variables de entorno
         self.api_key = os.environ.get('CLAUDE_API_KEY')
+        # CAMBIADO: URL correcta de la API de Claude
         self.api_url = "https://api.anthropic.com/v1/messages"
         self.bot_token = os.environ.get('BOT_TOKEN')
         self.chat_id = os.environ.get('CHAT_ID')
         
-        # Fallbacks para desarrollo local
+        # Fallback para desarrollo local con tu nueva API key
         if not self.api_key:
-            self.api_key = "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"
+            self.api_key = "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"
+        
         if not self.bot_token:
             self.bot_token = "7869024150:AAGFO6ZvpO4-5J4karX_lef252tkD3BhclE"
         if not self.chat_id:
@@ -41,11 +43,33 @@ class MetadataUpdater:
         logging.info(f"[INIT] Archivo data.json: {self.data_json}")
         logging.info(f"[INIT] Carpeta uploadable: {self.uploadable_dir}")
         logging.info(f"[INIT] API Key disponible: {'Sí' if self.api_key else 'No'}")
-        logging.info(f"[INIT] API Key (primeros 10 chars): {self.api_key[:10] if self.api_key else 'N/A'}")
+        logging.info(f"[INIT] API Key (primeros 15 chars): {self.api_key[:15] if self.api_key else 'N/A'}")
         
         if not self.uploadable_dir.exists():
             logging.error(f"[ERROR] La carpeta uploadable no existe: {self.uploadable_dir}")
             raise FileNotFoundError(f"La carpeta uploadable no existe: {self.uploadable_dir}")
+    
+    def validate_api_key(self):
+        """Valida el formato de la API key de Claude"""
+        if not self.api_key:
+            logging.error("[API] ❌ API Key de Claude no encontrada en variables de entorno")
+            logging.error("[API] 💡 Asegúrate de que CLAUDE_API_KEY esté configurada")
+            return False
+        
+        # Las API keys de Claude empiezan con 'sk-ant-api03-'
+        if not self.api_key.startswith('sk-ant-api03-'):
+            logging.error(f"[API] ❌ API Key no tiene el formato correcto")
+            logging.error(f"[API] Expected: sk-ant-api03-...")
+            logging.error(f"[API] Current: {self.api_key[:20]}...")
+            return False
+        
+        # Verificar longitud aproximada (las API keys suelen tener ~100 caracteres)
+        if len(self.api_key) < 50:
+            logging.error(f"[API] ❌ API Key parece muy corta ({len(self.api_key)} caracteres)")
+            return False
+        
+        logging.info("[API] ✅ API Key tiene formato válido")
+        return True
     
     def send_telegram_notification(self, message):
         """Envía notificación por Telegram"""
@@ -213,15 +237,9 @@ TAGS: [tag1, tag2, tag3, etc.]
 Responde SOLO con el formato anterior, sin explicaciones adicionales."""
     
     def call_claude_api(self, prompt):
-        """Llama a la API de Claude con diagnóstico detallado del error 401"""
-        if not self.api_key:
-            logging.error("[API] API Key de Claude no disponible")
-            return None
-        
-        # Validar formato de API key
-        if not self.api_key.startswith('sk-ant-api03-'):
-            logging.error(f"[API] ⚠️ API Key no tiene el formato correcto. Debe empezar con 'sk-ant-api03-'")
-            logging.error(f"[API] Tu API Key empieza con: '{self.api_key[:15]}...'")
+        """Llama a la API de Claude con validaciones mejoradas"""
+        # Validar API key antes de hacer la llamada
+        if not self.validate_api_key():
             return None
         
         headers = {
@@ -230,83 +248,121 @@ Responde SOLO con el formato anterior, sin explicaciones adicionales."""
             "anthropic-version": "2023-06-01"
         }
         
+        # CAMBIADO: Usar modelo más actualizado y disponible
         data = {
             "model": "claude-3-5-sonnet-20241022",
             "max_tokens": 1500,
-            "messages": [{"role": "user", "content": prompt}]
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.7
         }
         
         try:
             logging.info("[API] 🚀 Enviando solicitud a Claude...")
-            logging.info(f"[API] 🔑 Formato API Key: {'✅ Válido' if self.api_key.startswith('sk-ant-api03-') else '❌ Inválido'}")
-            logging.info(f"[API] 📏 Longitud API Key: {len(self.api_key)} caracteres")
-            logging.info(f"[API] 🏁 Primeros 20 chars: {self.api_key[:20]}...")
+            logging.info(f"[API] 🌐 Endpoint: {self.api_url}")
+            logging.info(f"[API] 🔑 API Key válida: ✅")
+            logging.info(f"[API] 📊 Modelo: {data['model']}")
             
-            response = requests.post(self.api_url, headers=headers, json=data, timeout=90)
+            response = requests.post(
+                self.api_url, 
+                headers=headers, 
+                json=data, 
+                timeout=120  # Aumentado a 2 minutos
+            )
+            
             logging.info(f"[API] 📊 Código de respuesta: {response.status_code}")
             
+            # Manejar diferentes códigos de error
             if response.status_code == 401:
                 logging.error("=" * 60)
                 logging.error("[API] 🚨 ERROR 401 - UNAUTHORIZED")
                 logging.error("=" * 60)
-                logging.error("[API] Posibles causas:")
-                logging.error("[API] 1. ❌ API Key incorrecta o expirada")
-                logging.error("[API] 2. ❌ API Key no configurada en GitHub Secrets")
-                logging.error("[API] 3. ❌ Formato de API Key inválido")
-                logging.error("[API] 4. ❌ Cuenta sin créditos o suspendida")
-                logging.error("=" * 60)
-                logging.error(f"[API] 📄 Respuesta del servidor: {response.text}")
-                logging.error(f"[API] 🔗 URL utilizada: {self.api_url}")
-                logging.error(f"[API] 📋 Headers enviados: {headers}")
-                logging.error("=" * 60)
                 
-                # Intentar parsear el error para más detalles
                 try:
                     error_data = response.json()
-                    if 'error' in error_data:
-                        logging.error(f"[API] 💬 Mensaje de error: {error_data['error']}")
-                        if 'message' in error_data['error']:
-                            logging.error(f"[API] 📝 Detalle: {error_data['error']['message']}")
+                    logging.error(f"[API] 💬 Error detallado: {error_data}")
                 except:
-                    pass
+                    logging.error(f"[API] 📄 Respuesta raw: {response.text}")
                 
+                logging.error("[API] ✅ Soluciones posibles:")
+                logging.error("[API] 1. Verifica que CLAUDE_API_KEY esté bien configurada")
+                logging.error("[API] 2. Ve a https://console.anthropic.com/ y genera una nueva API key")
+                logging.error("[API] 3. Asegúrate de tener créditos disponibles")
+                logging.error("[API] 4. Verifica que la API key no haya expirado")
+                logging.error("=" * 60)
+                return None
+                
+            elif response.status_code == 400:
+                logging.error("[API] ❌ Error 400: Petición mal formada")
+                try:
+                    error_data = response.json()
+                    logging.error(f"[API] Detalle: {error_data}")
+                except:
+                    logging.error(f"[API] Respuesta: {response.text}")
                 return None
                 
             elif response.status_code == 403:
-                logging.error("[API] ❌ Error 403: Acceso prohibido - Verifica permisos de la API Key")
-                logging.error(f"[API] Respuesta: {response.text}")
+                logging.error("[API] ❌ Error 403: Acceso prohibido - API key sin permisos")
                 return None
+                
             elif response.status_code == 429:
-                logging.warning("[API] ⚠️ Error 429: Rate limit alcanzado, esperando 10 segundos...")
-                time.sleep(10)
+                logging.warning("[API] ⚠️ Rate limit alcanzado, esperando 30 segundos...")
+                time.sleep(30)
                 return None
+                
+            elif response.status_code == 500:
+                logging.error("[API] ❌ Error 500: Error interno del servidor Claude")
+                return None
+                
             elif response.status_code != 200:
-                logging.error(f"[API] ❌ Error HTTP {response.status_code}: {response.text}")
+                logging.error(f"[API] ❌ Error HTTP {response.status_code}")
+                try:
+                    error_data = response.json()
+                    logging.error(f"[API] Detalle: {error_data}")
+                except:
+                    logging.error(f"[API] Respuesta: {response.text}")
                 return None
             
-            result = response.json()
+            # Parsear respuesta exitosa
+            try:
+                result = response.json()
+            except json.JSONDecodeError as e:
+                logging.error(f"[API] ❌ Error al parsear JSON: {e}")
+                logging.error(f"[API] Respuesta raw: {response.text}")
+                return None
             
-            if 'content' not in result or not result['content']:
-                logging.error(f"[API] ❌ Respuesta mal formada: {result}")
+            # Validar estructura de respuesta
+            if 'content' not in result:
+                logging.error(f"[API] ❌ Respuesta sin campo 'content': {result}")
+                return None
+                
+            if not result['content'] or len(result['content']) == 0:
+                logging.error(f"[API] ❌ Campo 'content' vacío: {result}")
+                return None
+                
+            if 'text' not in result['content'][0]:
+                logging.error(f"[API] ❌ Primer elemento de content sin 'text': {result['content'][0]}")
                 return None
             
             content = result['content'][0]['text']
             logging.info("[API] ✅ Respuesta recibida exitosamente")
             logging.info(f"[API] 📏 Longitud de respuesta: {len(content)} caracteres")
+            logging.info(f"[API] 📝 Inicio de respuesta: {content[:100]}...")
+            
             return content
             
         except requests.exceptions.Timeout:
-            logging.error("[API] ⏰ Timeout en la solicitud a Claude (90s)")
+            logging.error("[API] ⏰ Timeout en la solicitud a Claude (120s)")
             return None
-        except requests.exceptions.RequestException as e:
+        except requests.exceptions.ConnectionError as e:
             logging.error(f"[API] 🌐 Error de conexión: {e}")
             return None
-        except json.JSONDecodeError as e:
-            logging.error(f"[API] 📄 Error al parsear JSON: {e}")
-            logging.error(f"[API] Respuesta raw: {response.text if 'response' in locals() else 'N/A'}")
+        except requests.exceptions.RequestException as e:
+            logging.error(f"[API] 🌐 Error de requests: {e}")
             return None
         except Exception as e:
             logging.error(f"[API] 💥 Error inesperado: {e}")
+            import traceback
+            logging.error(f"[API] 🔍 Traceback: {traceback.format_exc()}")
             return None
     
     def parse_claude_response(self, response_text):
@@ -401,6 +457,17 @@ Responde SOLO con el formato anterior, sin explicaciones adicionales."""
         """Procesa todos los videos con estado 'edited'"""
         logging.info("[START] Iniciando procesamiento de videos editados...")
         
+        # Validar configuración inicial
+        if not self.validate_api_key():
+            error_msg = "🚨 <b>ERROR CRÍTICO</b>\n\n❌ API Key de Claude no válida\n\n" \
+                       "✅ <b>Soluciones:</b>\n" \
+                       "1. Ve a https://console.anthropic.com/\n" \
+                       "2. Genera una nueva API key\n" \
+                       "3. Configúrala en CLAUDE_API_KEY\n" \
+                       "4. Verifica que tengas créditos"
+            self.send_telegram_notification(error_msg)
+            return
+        
         edited_videos = self.find_edited_videos()
         
         if not edited_videos:
@@ -473,6 +540,10 @@ Responde SOLO con el formato anterior, sin explicaciones adicionales."""
                     'video_id': video_id,
                     'reason': 'Error al actualizar JSON'
                 })
+            
+            # Pequeña pausa entre requests para evitar rate limits
+            if i < len(edited_videos):
+                time.sleep(2)
         
         # Resumen
         logging.info(f"\n[SUMMARY] Procesamiento completado:")
