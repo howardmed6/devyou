@@ -25,7 +25,7 @@ class MetadataUpdater:
         self.uploadable_dir = self.script_dir / "uploadable"
         
         # API Claude y Telegram
-        self.api_key = "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"
+        self.api_key = "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"
         self.api_url = "https://api.anthropic.com/v1/messages"
         self.bot_token = "7869024150:AAGFO6ZvpO4-5J4karX_lef252tkD3BhclE"
         self.chat_id = "6166225652"
