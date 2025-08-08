@@ -39,7 +39,7 @@ def monitor_channels():
             channel_new_videos = 0
             
             # Procesar los últimos 10 videos del canal
-            for entry in feed.entries[:30]:
+            for entry in feed.entries[:35]:
                 video_id = entry.link.split('=')[-1]
                 
                 if video_id not in existing_ids:
