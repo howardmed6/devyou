@@ -1,386 +1,621 @@
-# .github/workflows/execute-scripts.yml
-name: Execute Python Scripts via Telegram
+import json
+import os
+import time
+import logging
+import requests
+import unicodedata
+from datetime import datetime
+from pathlib import Path
+import re
 
-on:
-  # Ejecutar cada 5 minutos para verificar mensajes de Telegram
-  schedule:
-    - cron: '*/5 * * * *'
-  workflow_dispatch: # Permite ejecutar manualmente
-    inputs:
-      force_run:
-        description: 'Force run all scripts'
-        required: false
-        default: 'false'
-        type: boolean
+# Configurar logging con UTF-8
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('metadata_updater.log', encoding='utf-8'),
+        logging.StreamHandler()
+    ]
+)
 
-jobs:
-  telegram-listener:
-    runs-on: ubuntu-latest
+class MetadataUpdater:
+    def __init__(self):
+        self.script_dir = Path(__file__).parent
+        self.data_json = self.script_dir / "data.json"
+        self.uploadable_dir = self.script_dir / "uploadable"
+        
+        # API Claude y Telegram desde variables de entorno
+        self.api_key = os.environ.get('CLAUDE_API_KEY')
+        # CAMBIADO: URL correcta de la API de Claude
+        self.api_url = "https://api.anthropic.com/v1/messages"
+        self.bot_token = os.environ.get('BOT_TOKEN')
+        self.chat_id = os.environ.get('CHAT_ID')
+        
+        # Fallback para desarrollo local con tu nueva API key
+        if not self.api_key:
+            self.api_key = "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"
+        
+        if not self.bot_token:
+            self.bot_token = "7869024150:AAGFO6ZvpO4-5J4karX_lef252tkD3BhclE"
+        if not self.chat_id:
+            self.chat_id = "6166225652"
+        
+        logging.info(f"[INIT] Archivo data.json: {self.data_json}")
+        logging.info(f"[INIT] Carpeta uploadable: {self.uploadable_dir}")
+        logging.info(f"[INIT] API Key disponible: {'Sí' if self.api_key else 'No'}")
+        logging.info(f"[INIT] API Key (primeros 15 chars): {self.api_key[:15] if self.api_key else 'N/A'}")
+        
+        if not self.uploadable_dir.exists():
+            logging.error(f"[ERROR] La carpeta uploadable no existe: {self.uploadable_dir}")
+            raise FileNotFoundError(f"La carpeta uploadable no existe: {self.uploadable_dir}")
     
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        fetch-depth: 0
-
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.9'
-
-    - name: Install system dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y ffmpeg
-
-    - name: Install Python dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install \
-          feedparser \
-          requests \
-          google-api-python-client \
-          google-auth-httplib2 \
-          google-auth-oauthlib \
-          google-auth \
-          pathlib
-
-    - name: Configure git
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-
-    - name: Check Telegram Messages
-      id: check_telegram
-      env:
-        BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-      run: |
-        python << 'EOF'
-        import requests
-        import json
-        import os
-        import sys
+    def validate_api_key(self):
+        """Valida el formato de la API key de Claude"""
+        if not self.api_key:
+            logging.error("[API] ❌ API Key de Claude no encontrada en variables de entorno")
+            logging.error("[API] 💡 Asegúrate de que CLAUDE_API_KEY esté configurada")
+            return False
         
-        def get_telegram_updates():
-            bot_token = os.environ.get('BOT_TOKEN')
-            if not bot_token:
-                print("BOT_TOKEN no configurado")
-                sys.exit(1)
-                
-            try:
-                url = f"https://api.telegram.org/bot{bot_token}/getUpdates"
-                response = requests.get(url, timeout=10)
-                
-                if response.status_code == 200:
-                    data = response.json()
-                    if data["ok"]:
-                        return data["result"]
-                return []
-            except Exception as e:
-                print(f"Error obteniendo updates: {e}")
-                return []
+        # Las API keys de Claude empiezan con 'sk-ant-api03-'
+        if not self.api_key.startswith('sk-ant-api03-'):
+            logging.error(f"[API] ❌ API Key no tiene el formato correcto")
+            logging.error(f"[API] Expected: sk-ant-api03-...")
+            logging.error(f"[API] Current: {self.api_key[:20]}...")
+            return False
         
-        def send_notification(message):
-            bot_token = os.environ.get('BOT_TOKEN')
-            chat_id = os.environ.get('CHAT_ID')
-            
-            try:
-                url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
-                response = requests.post(
-                    url,
-                    {"chat_id": chat_id, "text": message},
-                    timeout=10
-                )
-                return response.status_code == 200
-            except Exception as e:
-                print(f"Error enviando notificación: {e}")
-                return False
+        # Verificar longitud aproximada (las API keys suelen tener ~100 caracteres)
+        if len(self.api_key) < 50:
+            logging.error(f"[API] ❌ API Key parece muy corta ({len(self.api_key)} caracteres)")
+            return False
         
-        # Obtener último update_id desde archivo
+        logging.info("[API] ✅ API Key tiene formato válido")
+        return True
+    
+    def send_telegram_notification(self, message):
+        """Envía notificación por Telegram"""
         try:
-            with open('last_update_id.txt', 'r') as f:
-                last_update_id = int(f.read().strip())
-        except:
-            last_update_id = 0
-        
-        updates = get_telegram_updates()
-        should_run = False
-        new_last_update_id = last_update_id
-        
-        for update in updates:
-            update_id = update["update_id"]
+            url = f"https://api.telegram.org/bot{self.bot_token}/sendMessage"
+            data = {"chat_id": self.chat_id, "text": message, "parse_mode": "HTML"}
+            response = requests.post(url, data=data, timeout=10)
             
-            if update_id > last_update_id:
-                new_last_update_id = max(new_last_update_id, update_id)
-                
-                if "message" in update:
-                    message = update["message"]
-                    text = message.get("text", "").lower().strip()
-                    
-                    if text in ["yes", "si", "start", "ejecutar", "run"]:
-                        should_run = True
-                        print("🚀 Comando de ejecución recibido via Telegram")
-                        send_notification("🚀 Iniciando automatización desde GitHub Actions...")
-                    
-                    elif text in ["status", "estado"]:
-                        send_notification("📊 GitHub Actions está ejecutándose cada 5 minutos\n💬 Escribe 'yes' para ejecutar scripts ahora")
-        
-        # Guardar nuevo last_update_id
-        with open('last_update_id.txt', 'w') as f:
-            f.write(str(new_last_update_id))
-        
-        # Establecer output para siguiente step
-        if should_run or os.environ.get('GITHUB_EVENT_NAME') == 'workflow_dispatch':
-            print("SHOULD_RUN=true")
-            with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-                f.write("should_run=true\n")
-        else:
-            print("SHOULD_RUN=false") 
-            with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-                f.write("should_run=false\n")
-        EOF
-
-    - name: Download from Google Drive (only when executing scripts)
-      if: steps.check_telegram.outputs.should_run == 'true'
-      env:
-        GOOGLE_DRIVE_CREDENTIALS: ${{ secrets.GOOGLE_DRIVE_CREDENTIALS }}
-      run: |
-        python << 'EOF'
-        import requests
-        import os
-        import json
-        import base64
-        from google.oauth2.service_account import Credentials
-        from googleapiclient.discovery import build
-        from googleapiclient.http import MediaIoBaseDownload
-        import io
-        
-        def download_google_drive_folder():
-            folder_id = "1-NXHDM29JFrNpzVxMFmfFLMMaNgy44ML"
-            
-            # Crear carpeta videos si no existe
-            os.makedirs("videos", exist_ok=True)
-            
-            print("📁 Descargando archivos de Google Drive con Service Account...")
-            
-            try:
-                # Cargar credenciales desde variable de entorno
-                credentials_json = os.environ.get('GOOGLE_DRIVE_CREDENTIALS')
-                if not credentials_json:
-                    print("❌ GOOGLE_DRIVE_CREDENTIALS no configurado")
-                    return
-                
-                # Parsear credenciales
-                credentials_info = json.loads(credentials_json)
-                credentials = Credentials.from_service_account_info(
-                    credentials_info, 
-                    scopes=['https://www.googleapis.com/auth/drive.readonly']
-                )
-                
-                # Crear servicio de Drive
-                service = build('drive', 'v3', credentials=credentials)
-                
-                # Listar archivos en la carpeta
-                results = service.files().list(
-                    q=f"'{folder_id}' in parents and trashed=false",
-                    fields="files(id,name,mimeType,size)"
-                ).execute()
-                
-                files = results.get('files', [])
-                print(f"🔍 Encontrados {len(files)} archivos")
-                
-                for file_info in files:
-                    file_id = file_info['id']
-                    file_name = file_info['name']
-                    mime_type = file_info['mimeType']
-                    
-                    # Solo descargar imágenes y videos
-                    if mime_type.startswith(('image/', 'video/')) or any(
-                        ext in file_name.lower() for ext in ['.jpg', '.jpeg', '.png', '.gif', '.mp4', '.avi', '.mkv', '.mov', '.webm']
-                    ):
-                        print(f"⬇️ Descargando: {file_name}")
-                        
-                        try:
-                            # Descargar archivo
-                            request = service.files().get_media(fileId=file_id)
-                            file_path = os.path.join("videos", file_name)
-                            
-                            with open(file_path, 'wb') as f:
-                                downloader = MediaIoBaseDownload(f, request)
-                                done = False
-                                while done is False:
-                                    status, done = downloader.next_chunk()
-                            
-                            print(f"✅ Descargado: {file_name}")
-                            
-                        except Exception as e:
-                            print(f"❌ Error descargando {file_name}: {e}")
-                    else:
-                        print(f"⏭️ Omitiendo: {file_name} (tipo: {mime_type})")
-                
-                print("🎉 Descarga de Google Drive completada")
-                
-            except Exception as e:
-                print(f"💥 Error en descarga de Google Drive: {e}")
-                import traceback
-                traceback.print_exc()
-        
-        download_google_drive_folder()
-        EOF
-
-    - name: Verify ffmpeg installation
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "🔧 Verificando instalación de ffmpeg..."
-        ffmpeg -version
-        which ffmpeg
-
-    - name: Execute 1_monitor.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "📊 Ejecutando 1_monitor.py..."
-        python 1_monitor.py
-
-    - name: Execute 2_levelonefilter.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "🔍 Ejecutando 2_levelonefilter.py..."
-        python 2_levelonefilter.py
-
-    - name: Execute 3_metadata.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "📝 Ejecutando 3_metadata.py..."
-        python 3_metadata.py
-
-    - name: Execute 4_metadataextra.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "📋 Ejecutando 4_metadataextra.py..."
-        python 4_metadataextra.py
-
-    - name: Execute 5_update_status.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "🔄 Ejecutando 5_update_status.py..."
-        python 5_update_status.py
-
-    - name: Execute 6_check_metadata.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "✅ Ejecutando 6_check_metadata.py..."
-        python 6_check_metadata.py
-
-    - name: Execute 7_uploadable.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "📤 Ejecutando 7_uploadable.py..."
-        python 7_uploadable.py
-
-    - name: Execute 8_edit.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "✏️ Ejecutando 8_edit.py..."
-        python 8_edit.py
-
-    - name: Execute 9_edit.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "✏️ Ejecutando 9_edit.py..."
-        python 9_edit.py
-
-    - name: Execute 10_edit.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "✏️ Ejecutando 10_edit.py..."
-        python 10_edit.py
-
-    - name: Execute 11_updatemetadata.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      env:
-        CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
-        BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-      run: |
-        echo "🔄 Ejecutando 11_updatemetadata.py..."
-        python 11_updatemetadata.py
-
-    - name: Execute 12_upload.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "☁️ Ejecutando 12_upload.py..."
-        timeout 300s python 12_upload.py || echo "⚠️ 12_upload.py terminado por timeout o completado"
-
-    - name: Execute 13_clean.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "🧹 Ejecutando 13_clean.py..."
-        python 13_clean.py
-        
-    - name: Check for changes (excluding specific folders)
-      if: steps.check_telegram.outputs.should_run == 'true'
-      id: check_changes
-      run: |
-        # Verificar cambios excluyendo las carpetas uploadable y videos
-        git add .
-        git reset -- uploadable/ videos/ 2>/dev/null || true
-        
-        # Verificar si hay cambios para commitear
-        if git diff --staged --quiet; then
-          echo "No hay cambios para commitear (excluyendo uploadable/ y videos/)"
-          echo "has_changes=false" >> $GITHUB_OUTPUT
-        else
-          echo "Hay cambios para commitear"
-          echo "has_changes=true" >> $GITHUB_OUTPUT
-        fi
-
-    - name: Commit and push changes
-      if: steps.check_telegram.outputs.should_run == 'true' && steps.check_changes.outputs.has_changes == 'true'
-      run: |
-        # Hacer commit solo de los archivos que no están en uploadable/ y videos/
-        git commit -m "🤖 Automated update: $(date '+%Y-%m-%d %H:%M:%S UTC')"
-        git push origin ${{ github.ref_name }}
-
-    - name: Send completion notification
-      if: steps.check_telegram.outputs.should_run == 'true'
-      env:
-        BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-      run: |
-        python << 'EOF'
-        import requests
-        import os
-        from datetime import datetime
-        
-        def send_notification(message):
-            bot_token = os.environ.get('BOT_TOKEN')
-            chat_id = os.environ.get('CHAT_ID')
-            
-            try:
-                url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
-                response = requests.post(
-                    url,
-                    {"chat_id": chat_id, "text": message},
-                    timeout=10
-                )
-                return response.status_code == 200
-            except Exception as e:
-                print(f"Error enviando notificación: {e}")
+            if response.status_code == 200:
+                logging.info("[TELEGRAM] Notificación enviada exitosamente")
+                return True
+            else:
+                logging.warning(f"[TELEGRAM] Error al enviar notificación: {response.status_code}")
                 return False
+        except Exception as e:
+            logging.error(f"[TELEGRAM] Error en notificación: {e}")
+            return False
+    
+    def load_data_json(self):
+        """Carga el archivo data.json"""
+        if not self.data_json.exists():
+            logging.error(f"[ERROR] Archivo data.json no encontrado: {self.data_json}")
+            return []
         
-        completion_time = datetime.now().strftime('%H:%M:%S')
-        final_msg = f"✅ Automatización completada - {completion_time}\n💬 Escribe 'yes' para ejecutar de nuevo"
-        send_notification(final_msg)
-        EOF
+        try:
+            with open(self.data_json, 'r', encoding='utf-8') as f:
+                videos = json.load(f)
+            logging.info(f"[JSON] Cargados {len(videos)} videos desde data.json")
+            return videos
+        except Exception as e:
+            logging.error(f"[ERROR] Error al leer data.json: {e}")
+            return []
+    
+    def save_data_json(self, videos):
+        """Guarda el archivo data.json actualizado"""
+        try:
+            with open(self.data_json, 'w', encoding='utf-8') as f:
+                json.dump(videos, f, indent=2, ensure_ascii=False)
+            logging.info("[JSON] data.json actualizado exitosamente")
+            return True
+        except Exception as e:
+            logging.error(f"[ERROR] Error al guardar data.json: {e}")
+            return False
+    
+    def find_edited_videos(self):
+        """Encuentra videos con estado 'edited'"""
+        videos = self.load_data_json()
+        if not videos:
+            return []
+        
+        edited_videos = [video for video in videos if video.get('status') == 'edited']
+        logging.info(f"[FILTER] Encontrados {len(edited_videos)} videos con estado 'edited'")
+        return edited_videos
+    
+    def clean_and_get_first_words(self, text, count=3):
+        """Limpia el texto y obtiene las primeras 'count' palabras significativas"""
+        if not text:
+            return []
+        
+        # Quitar paréntesis y contenido
+        if '(' in text:
+            text = text.split('(')[0]
+        
+        # Normalizar caracteres Unicode (quitar tildes)
+        text = unicodedata.normalize('NFD', text)
+        text = ''.join(char for char in text if unicodedata.category(char) != 'Mn')
+        
+        # Limpiar caracteres especiales
+        text = re.sub(r'[¿?¡!:;,.]', '', text)
+        text = text.lower().strip()
+        
+        # Extraer palabras (más de 2 caracteres)
+        words = [word for word in text.split() if len(word) > 2]
+        
+        # Retornar las primeras 'count' palabras
+        return words[:count]
+    
+    def find_json_file_by_title(self, title):
+        """Busca el archivo JSON comparando las primeras 3 palabras del título"""
+        logging.info(f"[SEARCH] Buscando JSON para: '{title}'")
+        
+        if not self.uploadable_dir.exists():
+            logging.error(f"[ERROR] Carpeta uploadable no existe: {self.uploadable_dir}")
+            return None, None
+        
+        # Obtener las primeras 3 palabras del título buscado
+        title_first_words = self.clean_and_get_first_words(title, 3)
+        logging.info(f"[SEARCH] Primeras 3 palabras del título: {title_first_words}")
+        
+        if len(title_first_words) < 3:
+            logging.warning(f"[SEARCH] El título no tiene suficientes palabras para comparar")
+            return None, None
+        
+        # Buscar archivos JSON en la carpeta uploadable
+        json_files = list(self.uploadable_dir.glob("*.json"))
+        logging.info(f"[SEARCH] Encontrados {len(json_files)} archivos JSON en uploadable")
+        
+        for json_file in json_files:
+            try:
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    json_data = json.load(f)
+                
+                json_title = json_data.get('title', '')
+                json_first_words = self.clean_and_get_first_words(json_title, 3)
+                
+                logging.info(f"[COMPARE] Archivo: {json_file.name}")
+                logging.info(f"[COMPARE] Título JSON: '{json_title}'")
+                logging.info(f"[COMPARE] Primeras 3 palabras JSON: {json_first_words}")
+                
+                # Verificar si las primeras 3 palabras coinciden exactamente
+                if len(json_first_words) >= 3 and title_first_words == json_first_words:
+                    logging.info(f"[MATCH] ✓ Coincidencia exacta encontrada: {json_file.name}")
+                    return json_file, json_data
+                    
+            except Exception as e:
+                logging.warning(f"[WARNING] Error al leer {json_file.name}: {e}")
+                continue
+        
+        logging.warning(f"[NOT FOUND] No se encontró JSON con coincidencia exacta para: '{title}'")
+        return None, None
+    
+    def create_claude_prompt(self, video_metadata):
+        """Crea el prompt para la API de Claude"""
+        title = video_metadata.get('title', '')
+        description = video_metadata.get('description', '')
+        tags = video_metadata.get('tags', [])
+        tags_str = ', '.join(tags) if isinstance(tags, list) else str(tags)
+        
+        return f"""Mejora estos metadatos de video de YouTube siguiendo EXACTAMENTE el formato solicitado:
 
-    - name: Update last_update_id file
-      if: always()
-      run: |
-        # Commitear el archivo last_update_id para mantener el tracking
-        if [ -f last_update_id.txt ]; then
-          git add last_update_id.txt
-          git commit -m "Update Telegram last_update_id" || echo "No changes to last_update_id"
-          git push origin ${{ github.ref_name }} || echo "No push needed"
-        fi
+METADATOS ACTUALES:
+TÍTULO: {title}
+DESCRIPCIÓN: {description}
+TAGS ACTUALES: {tags_str}
+
+INSTRUCCIONES ESPECÍFICAS:
+
+1. TÍTULO (sin emojis y sin nombre de actores):
+- Mantener el nombre de película/serie en MAYÚSCULAS
+- SIEMPRE incluir la palabra "Tráiler" o "Trailer"
+- Si menciona "español latino", mantener esas palabras
+- Mantener el año entre paréntesis (2025)
+- Hacer el título más atractivo y profesional
+
+2. DESCRIPCIÓN (300-600 palabras):
+- Crear una descripción completamente nueva y atractiva
+- Incluir emojis relevantes (🎬🔥⚡🎭)
+- Añadir información intrigante sobre la película/serie
+- Incluir llamados a la acción (like, comentario, suscripción)
+- Añadir hashtags relevantes al final, minimo 10
+- Hacer que suene profesional y emocionante
+
+3. TAGS:
+- Quitar al menos 2-3 tags actuales
+- Añadir 3-5 nuevos tags más específicos y relevantes
+- Total final: entre 5-12 tags optimizados
+- Incluir tags en español e inglés
+- Priorizar tags relacionados con trailers, películas, entretenimiento
+
+FORMATO DE RESPUESTA REQUERIDO:
+TÍTULO: [título mejorado sin emojis]
+DESCRIPCIÓN: [descripción completa con emojis y hashtags]
+TAGS: [tag1, tag2, tag3, etc.]
+
+Responde SOLO con el formato anterior, sin explicaciones adicionales."""
+    
+    def call_claude_api(self, prompt):
+        """Llama a la API de Claude con validaciones mejoradas"""
+        # Validar API key antes de hacer la llamada
+        if not self.validate_api_key():
+            return None
+        
+        headers = {
+            "Content-Type": "application/json",
+            "x-api-key": self.api_key,
+            "anthropic-version": "2023-06-01"
+        }
+        
+        # CAMBIADO: Usar modelo más actualizado y disponible
+        data = {
+            "model": "claude-3-5-sonnet-20241022",
+            "max_tokens": 1500,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.7
+        }
+        
+        try:
+            logging.info("[API] 🚀 Enviando solicitud a Claude...")
+            logging.info(f"[API] 🌐 Endpoint: {self.api_url}")
+            logging.info(f"[API] 🔑 API Key válida: ✅")
+            logging.info(f"[API] 📊 Modelo: {data['model']}")
+            
+            response = requests.post(
+                self.api_url, 
+                headers=headers, 
+                json=data, 
+                timeout=120  # Aumentado a 2 minutos
+            )
+            
+            logging.info(f"[API] 📊 Código de respuesta: {response.status_code}")
+            
+            # Manejar diferentes códigos de error
+            if response.status_code == 401:
+                logging.error("=" * 60)
+                logging.error("[API] 🚨 ERROR 401 - UNAUTHORIZED")
+                logging.error("=" * 60)
+                
+                try:
+                    error_data = response.json()
+                    logging.error(f"[API] 💬 Error detallado: {error_data}")
+                except:
+                    logging.error(f"[API] 📄 Respuesta raw: {response.text}")
+                
+                logging.error("[API] ✅ Soluciones posibles:")
+                logging.error("[API] 1. Verifica que CLAUDE_API_KEY esté bien configurada")
+                logging.error("[API] 2. Ve a https://console.anthropic.com/ y genera una nueva API key")
+                logging.error("[API] 3. Asegúrate de tener créditos disponibles")
+                logging.error("[API] 4. Verifica que la API key no haya expirado")
+                logging.error("=" * 60)
+                return None
+                
+            elif response.status_code == 400:
+                logging.error("[API] ❌ Error 400: Petición mal formada")
+                try:
+                    error_data = response.json()
+                    logging.error(f"[API] Detalle: {error_data}")
+                except:
+                    logging.error(f"[API] Respuesta: {response.text}")
+                return None
+                
+            elif response.status_code == 403:
+                logging.error("[API] ❌ Error 403: Acceso prohibido - API key sin permisos")
+                return None
+                
+            elif response.status_code == 429:
+                logging.warning("[API] ⚠️ Rate limit alcanzado, esperando 30 segundos...")
+                time.sleep(30)
+                return None
+                
+            elif response.status_code == 500:
+                logging.error("[API] ❌ Error 500: Error interno del servidor Claude")
+                return None
+                
+            elif response.status_code != 200:
+                logging.error(f"[API] ❌ Error HTTP {response.status_code}")
+                try:
+                    error_data = response.json()
+                    logging.error(f"[API] Detalle: {error_data}")
+                except:
+                    logging.error(f"[API] Respuesta: {response.text}")
+                return None
+            
+            # Parsear respuesta exitosa
+            try:
+                result = response.json()
+            except json.JSONDecodeError as e:
+                logging.error(f"[API] ❌ Error al parsear JSON: {e}")
+                logging.error(f"[API] Respuesta raw: {response.text}")
+                return None
+            
+            # Validar estructura de respuesta
+            if 'content' not in result:
+                logging.error(f"[API] ❌ Respuesta sin campo 'content': {result}")
+                return None
+                
+            if not result['content'] or len(result['content']) == 0:
+                logging.error(f"[API] ❌ Campo 'content' vacío: {result}")
+                return None
+                
+            if 'text' not in result['content'][0]:
+                logging.error(f"[API] ❌ Primer elemento de content sin 'text': {result['content'][0]}")
+                return None
+            
+            content = result['content'][0]['text']
+            logging.info("[API] ✅ Respuesta recibida exitosamente")
+            logging.info(f"[API] 📏 Longitud de respuesta: {len(content)} caracteres")
+            logging.info(f"[API] 📝 Inicio de respuesta: {content[:100]}...")
+            
+            return content
+            
+        except requests.exceptions.Timeout:
+            logging.error("[API] ⏰ Timeout en la solicitud a Claude (120s)")
+            return None
+        except requests.exceptions.ConnectionError as e:
+            logging.error(f"[API] 🌐 Error de conexión: {e}")
+            return None
+        except requests.exceptions.RequestException as e:
+            logging.error(f"[API] 🌐 Error de requests: {e}")
+            return None
+        except Exception as e:
+            logging.error(f"[API] 💥 Error inesperado: {e}")
+            import traceback
+            logging.error(f"[API] 🔍 Traceback: {traceback.format_exc()}")
+            return None
+    
+    def parse_claude_response(self, response_text):
+        """Parsea la respuesta de Claude"""
+        try:
+            logging.info("[PARSE] Parseando respuesta de Claude...")
+            response_text = response_text.strip()
+            parsed_data = {}
+            
+            patterns = {
+                'title': r'TÍTULO:\s*(.+?)(?=\n|$)',
+                'description': r'DESCRIPCIÓN:\s*(.*?)(?=\nTAGS:|$)',
+                'tags': r'TAGS:\s*(.+?)(?=\n|$)'
+            }
+            
+            for key, pattern in patterns.items():
+                match = re.search(pattern, response_text, re.DOTALL | re.IGNORECASE)
+                if match:
+                    value = match.group(1).strip()
+                    
+                    if key == 'tags':
+                        tags_list = [tag.strip() for tag in value.split(',')]
+                        parsed_data[key] = [tag for tag in tags_list if tag]
+                    else:
+                        parsed_data[key] = value
+                else:
+                    logging.warning(f"[PARSE] No se encontró {key} en la respuesta")
+            
+            required_fields = ['title', 'description', 'tags']
+            missing_fields = [field for field in required_fields if field not in parsed_data or not parsed_data[field]]
+            
+            if missing_fields:
+                logging.error(f"[PARSE] Campos faltantes: {missing_fields}")
+                logging.error(f"[PARSE] Respuesta original: {response_text}")
+                return None
+            
+            logging.info("[PARSE] Datos parseados exitosamente:")
+            logging.info(f"  - Título: {parsed_data['title'][:50]}...")
+            logging.info(f"  - Descripción: {len(parsed_data['description'])} caracteres")
+            logging.info(f"  - Tags: {len(parsed_data['tags'])} elementos")
+            
+            return parsed_data
+            
+        except Exception as e:
+            logging.error(f"[PARSE] Error al parsear respuesta: {e}")
+            return None
+    
+    def update_video_json(self, json_file, json_data, claude_metadata):
+        """Actualiza el archivo JSON del video"""
+        try:
+            if claude_metadata:
+                json_data.update({
+                    'title': claude_metadata['title'],
+                    'description': claude_metadata['description'],
+                    'tags': claude_metadata['tags']
+                })
+                logging.info("[UPDATE] Metadatos actualizados con respuesta de Claude")
+            else:
+                logging.warning("[UPDATE] No hay metadatos de Claude, manteniendo originales")
+            
+            json_data['categories'] = ['Trailer']
+            json_data.pop('channel', None)  # Eliminar campo del canal si existe
+            json_data['metadata_updated_at'] = datetime.now().isoformat()
+            
+            with open(json_file, 'w', encoding='utf-8') as f:
+                json.dump(json_data, f, indent=2, ensure_ascii=False)
+            
+            logging.info(f"[UPDATE] JSON actualizado: {json_file.name}")
+            return True
+            
+        except Exception as e:
+            logging.error(f"[UPDATE] Error al actualizar JSON: {e}")
+            return False
+    
+    def update_video_status(self, video_id, new_status='ok'):
+        """Actualiza el estado del video en data.json"""
+        videos = self.load_data_json()
+        if not videos:
+            return False
+        
+        for video in videos:
+            if video.get('video_id', '') == video_id:
+                video['status'] = new_status
+                video['metadata_updated_at'] = datetime.now().isoformat()
+                logging.info(f"[STATUS] Video {video_id} actualizado a '{new_status}'")
+                return self.save_data_json(videos)
+        
+        logging.warning(f"[STATUS] Video {video_id} no encontrado")
+        return False
+    
+    def process_edited_videos(self):
+        """Procesa todos los videos con estado 'edited'"""
+        logging.info("[START] Iniciando procesamiento de videos editados...")
+        
+        # Validar configuración inicial
+        if not self.validate_api_key():
+            error_msg = "🚨 <b>ERROR CRÍTICO</b>\n\n❌ API Key de Claude no válida\n\n" \
+                       "✅ <b>Soluciones:</b>\n" \
+                       "1. Ve a https://console.anthropic.com/\n" \
+                       "2. Genera una nueva API key\n" \
+                       "3. Configúrala en CLAUDE_API_KEY\n" \
+                       "4. Verifica que tengas créditos"
+            self.send_telegram_notification(error_msg)
+            return
+        
+        edited_videos = self.find_edited_videos()
+        
+        if not edited_videos:
+            logging.info("[EMPTY] No hay videos con estado 'edited' para procesar")
+            message = "🤖 <b>Metadata Updater</b>\n\nℹ️ No hay videos con estado 'edited' para procesar."
+            self.send_telegram_notification(message)
+            return
+        
+        logging.info(f"[PROCESS] Procesando {len(edited_videos)} videos...")
+        
+        successful_updates = 0
+        updated_videos = []
+        failed_videos = []
+        
+        for i, video_data in enumerate(edited_videos, 1):
+            logging.info(f"\n--- Procesando video {i}/{len(edited_videos)} ---")
+            
+            title = video_data.get('title', 'Sin título')
+            video_id = video_data.get('video_id', '')
+            
+            logging.info(f"[VIDEO] Título: {title}")
+            logging.info(f"[VIDEO] ID: {video_id}")
+            
+            # Buscar archivo JSON correspondiente
+            json_file, json_data = self.find_json_file_by_title(title)
+            
+            if not json_file or not json_data:
+                logging.error(f"[ERROR] No se encontró JSON para el video: {title}")
+                failed_videos.append({
+                    'title': title,
+                    'video_id': video_id,
+                    'reason': 'JSON no encontrado'
+                })
+                continue
+            
+            # Procesar con Claude
+            prompt = self.create_claude_prompt(json_data)
+            claude_response = self.call_claude_api(prompt)
+            claude_metadata = None
+            
+            if claude_response:
+                claude_metadata = self.parse_claude_response(claude_response)
+                if not claude_metadata:
+                    logging.warning("[WARNING] No se pudo parsear respuesta de Claude")
+            else:
+                logging.warning("[WARNING] No se pudo obtener respuesta de Claude, continuando con datos originales")
+            
+            # Actualizar archivos (incluso si Claude falló)
+            if self.update_video_json(json_file, json_data, claude_metadata):
+                if self.update_video_status(video_id, 'ok'):
+                    successful_updates += 1
+                    updated_videos.append({
+                        'title': title,
+                        'video_id': video_id,
+                        'new_title': claude_metadata['title'] if claude_metadata else title,
+                        'claude_used': bool(claude_metadata)
+                    })
+                    logging.info(f"[SUCCESS] Video {i} procesado exitosamente")
+                else:
+                    logging.error(f"[ERROR] Error al actualizar estado del video {i}")
+                    failed_videos.append({
+                        'title': title,
+                        'video_id': video_id,
+                        'reason': 'Error al actualizar estado'
+                    })
+            else:
+                logging.error(f"[ERROR] Error al actualizar JSON del video {i}")
+                failed_videos.append({
+                    'title': title,
+                    'video_id': video_id,
+                    'reason': 'Error al actualizar JSON'
+                })
+            
+            # Pequeña pausa entre requests para evitar rate limits
+            if i < len(edited_videos):
+                time.sleep(2)
+        
+        # Resumen
+        logging.info(f"\n[SUMMARY] Procesamiento completado:")
+        logging.info(f"[SUMMARY] Videos procesados exitosamente: {successful_updates}")
+        logging.info(f"[SUMMARY] Videos fallidos: {len(edited_videos) - successful_updates}")
+        
+        self.send_process_summary_notification(updated_videos, failed_videos, len(edited_videos))
+    
+    def send_process_summary_notification(self, updated_videos, failed_videos, total_videos):
+        """Envía un resumen del procesamiento por Telegram"""
+        try:
+            claude_success = sum(1 for v in updated_videos if v.get('claude_used', False))
+            claude_failed = len(updated_videos) - claude_success
+            
+            message = "🤖 <b>Metadata Updater - Resumen</b>\n"
+            message += f"📊 <b>Total procesados:</b> {total_videos}\n"
+            message += f"✅ <b>Exitosos:</b> {len(updated_videos)}\n"
+            message += f"❌ <b>Fallidos:</b> {len(failed_videos)}\n"
+            message += f"🤖 <b>Claude exitoso:</b> {claude_success}\n"
+            message += f"⚠️ <b>Sin Claude:</b> {claude_failed}\n\n"
+            
+            if updated_videos:
+                message += "🎬 <b>Videos actualizados:</b>\n"
+                for i, video in enumerate(updated_videos[:5], 1):  # Solo primeros 5
+                    title = video['title'][:50] + "..." if len(video['title']) > 50 else video['title']
+                    claude_emoji = "🤖" if video.get('claude_used') else "⚠️"
+                    
+                    message += f"{i}. {claude_emoji} <code>{video['video_id']}</code>\n"
+                    message += f"   📝 {title}\n"
+                
+                if len(updated_videos) > 5:
+                    message += f"... y {len(updated_videos) - 5} videos más.\n"
+            
+            if failed_videos:
+                message += f"\n❌ <b>Errores ({len(failed_videos)}):</b>\n"
+                for i, video in enumerate(failed_videos[:3], 1):  # Solo primeros 3
+                    title = video['title'][:40] + "..." if len(video['title']) > 40 else video['title']
+                    message += f"{i}. {title}\n"
+                    message += f"   🚫 {video['reason']}\n"
+                
+                if len(failed_videos) > 3:
+                    message += f"... y {len(failed_videos) - 3} errores más.\n"
+            
+            now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            message += f"\n🕒 <b>Completado:</b> {now}"
+            
+            self.send_telegram_notification(message)
+            
+        except Exception as e:
+            logging.error(f"[TELEGRAM] Error al crear mensaje de resumen: {e}")
+            simple_message = f"🤖 Metadata Updater completado\n" \
+                           f"✅ Exitosos: {len(updated_videos)}\n" \
+                           f"❌ Fallidos: {len(failed_videos)}"
+            self.send_telegram_notification(simple_message)
+
+def main():
+    """Función principal"""
+    updater = MetadataUpdater()
+    
+    try:
+        updater.process_edited_videos()
+        logging.info("[FINISH] Proceso completado exitosamente")
+    except Exception as e:
+        logging.error(f"[CRITICAL] Error crítico: {e}")
+        error_message = f"🚨 <b>ERROR CRÍTICO - Metadata Updater</b>\n\n" \
+                       f"💥 Error: {str(e)}\n" \
+                       f"🕒 Tiempo: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+        try:
+            updater.send_telegram_notification(error_message)
+        except:
+            pass
+        raise
+
+if __name__ == "__main__":
+    main()
