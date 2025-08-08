@@ -256,3 +256,36 @@
 2025-08-08 17:29:54,236 - INFO - [SUMMARY] Videos fallidos: 0
 2025-08-08 17:29:54,639 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2025-08-08 17:29:54,640 - INFO - [FINISH] Proceso completado exitosamente
+2025-08-08 17:58:37,449 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2025-08-08 17:58:37,449 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2025-08-08 17:58:37,449 - INFO - [INIT] API Key disponible: Sí
+2025-08-08 17:58:37,449 - INFO - [START] Iniciando procesamiento de videos editados...
+2025-08-08 17:58:37,450 - INFO - [JSON] Cargados 107 videos desde data.json
+2025-08-08 17:58:37,450 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2025-08-08 17:58:37,450 - INFO - [PROCESS] Procesando 1 videos...
+2025-08-08 17:58:37,450 - INFO - 
+--- Procesando video 1/1 ---
+2025-08-08 17:58:37,450 - INFO - [VIDEO] Título: Bon appétit, majestad | AVANCE ESPECIAL | Netflix
+2025-08-08 17:58:37,450 - INFO - [VIDEO] ID: mYvCKNqi1oE
+2025-08-08 17:58:37,450 - INFO - [SEARCH] Buscando JSON para: 'Bon appétit, majestad | AVANCE ESPECIAL | Netflix'
+2025-08-08 17:58:37,455 - INFO - [SEARCH] Primeras 3 palabras del título: ['bon', 'appetit', 'majestad']
+2025-08-08 17:58:37,455 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2025-08-08 17:58:37,455 - INFO - [COMPARE] Archivo: Bon appétit, majestad _ AVANCE ESPECIAL _ Netflix.json
+2025-08-08 17:58:37,456 - INFO - [COMPARE] Título JSON: 'Bon appétit, majestad | AVANCE ESPECIAL | Netflix'
+2025-08-08 17:58:37,456 - INFO - [COMPARE] Primeras 3 palabras JSON: ['bon', 'appetit', 'majestad']
+2025-08-08 17:58:37,456 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Bon appétit, majestad _ AVANCE ESPECIAL _ Netflix.json
+2025-08-08 17:58:37,456 - INFO - [API] Enviando solicitud a Claude...
+2025-08-08 17:58:37,611 - INFO - [API] Código de respuesta: 401
+2025-08-08 17:58:37,611 - ERROR - [API] Error HTTP 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"}}
+2025-08-08 17:58:37,612 - WARNING - [WARNING] No se pudo obtener respuesta de Claude
+2025-08-08 17:58:37,612 - INFO - [UPDATE] JSON actualizado: Bon appétit, majestad _ AVANCE ESPECIAL _ Netflix.json
+2025-08-08 17:58:37,613 - INFO - [JSON] Cargados 107 videos desde data.json
+2025-08-08 17:58:37,613 - INFO - [STATUS] Video mYvCKNqi1oE actualizado a 'ok'
+2025-08-08 17:58:37,615 - INFO - [JSON] data.json actualizado exitosamente
+2025-08-08 17:58:37,615 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2025-08-08 17:58:37,615 - INFO - 
+[SUMMARY] Procesamiento completado:
+2025-08-08 17:58:37,615 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2025-08-08 17:58:37,615 - INFO - [SUMMARY] Videos fallidos: 0
+2025-08-08 17:58:38,091 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2025-08-08 17:58:38,091 - INFO - [FINISH] Proceso completado exitosamente
