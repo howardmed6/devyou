@@ -299,6 +299,10 @@ jobs:
 
     - name: Execute 11_updatemetadata.py
       if: steps.check_telegram.outputs.should_run == 'true'
+      env:
+        CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+        BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       run: |
         echo "🔄 Ejecutando 11_updatemetadata.py..."
         python 11_updatemetadata.py
