@@ -29,6 +29,11 @@ jobs:
       with:
         python-version: '3.9'
 
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y ffmpeg
+
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
@@ -225,6 +230,13 @@ jobs:
         download_google_drive_folder()
         EOF
 
+    - name: Verify ffmpeg installation
+      if: steps.check_telegram.outputs.should_run == 'true'
+      run: |
+        echo "🔧 Verificando instalación de ffmpeg..."
+        ffmpeg -version
+        which ffmpeg
+
     - name: Execute 1_monitor.py
       if: steps.check_telegram.outputs.should_run == 'true'
       run: |
@@ -302,13 +314,7 @@ jobs:
       run: |
         echo "🧹 Ejecutando 13_clean.py..."
         python 13_clean.py
-
-    - name: Execute 14_add_manual.py
-      if: steps.check_telegram.outputs.should_run == 'true'
-      run: |
-        echo "➕ Ejecutando 14_add_manual.py..."
-        python 14_add_manual.py
-
+        
     - name: Check for changes (excluding specific folders)
       if: steps.check_telegram.outputs.should_run == 'true'
       id: check_changes
