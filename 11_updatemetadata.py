@@ -24,26 +24,34 @@ class MetadataUpdater:
         self.data_json = self.script_dir / "data.json"
         self.uploadable_dir = self.script_dir / "uploadable"
         
-        # API Claude y Telegram desde variables de entorno
+        # API Claude y Telegram desde variables de entorno - SIN HARDCODEAR
         self.api_key = os.environ.get('CLAUDE_API_KEY')
-        # CAMBIADO: URL correcta de la API de Claude
         self.api_url = "https://api.anthropic.com/v1/messages"
         self.bot_token = os.environ.get('BOT_TOKEN')
         self.chat_id = os.environ.get('CHAT_ID')
         
-        # Fallback para desarrollo local con tu nueva API key
+        # Validar que las variables de entorno estén disponibles
         if not self.api_key:
-            self.api_key = "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"
+            logging.error("[INIT] ❌ CLAUDE_API_KEY no encontrada en variables de entorno")
+            logging.error("[INIT] 💡 Configura el secreto CLAUDE_API_KEY en GitHub Actions")
         
         if not self.bot_token:
-            self.bot_token = "7869024150:AAGFO6ZvpO4-5J4karX_lef252tkD3BhclE"
+            logging.error("[INIT] ❌ BOT_TOKEN no encontrada en variables de entorno")
+            logging.error("[INIT] 💡 Configura el secreto TELEGRAM_BOT_TOKEN en GitHub Actions")
+            
         if not self.chat_id:
-            self.chat_id = "6166225652"
+            logging.error("[INIT] ❌ CHAT_ID no encontrada en variables de entorno")
+            logging.error("[INIT] 💡 Configura el secreto TELEGRAM_CHAT_ID en GitHub Actions")
         
         logging.info(f"[INIT] Archivo data.json: {self.data_json}")
         logging.info(f"[INIT] Carpeta uploadable: {self.uploadable_dir}")
         logging.info(f"[INIT] API Key disponible: {'Sí' if self.api_key else 'No'}")
-        logging.info(f"[INIT] API Key (primeros 15 chars): {self.api_key[:15] if self.api_key else 'N/A'}")
+        logging.info(f"[INIT] Bot Token disponible: {'Sí' if self.bot_token else 'No'}")
+        logging.info(f"[INIT] Chat ID disponible: {'Sí' if self.chat_id else 'No'}")
+        
+        # Solo mostrar primeros caracteres si la API key existe
+        if self.api_key:
+            logging.info(f"[INIT] API Key (primeros 15 chars): {self.api_key[:15]}...")
         
         if not self.uploadable_dir.exists():
             logging.error(f"[ERROR] La carpeta uploadable no existe: {self.uploadable_dir}")
@@ -53,7 +61,7 @@ class MetadataUpdater:
         """Valida el formato de la API key de Claude"""
         if not self.api_key:
             logging.error("[API] ❌ API Key de Claude no encontrada en variables de entorno")
-            logging.error("[API] 💡 Asegúrate de que CLAUDE_API_KEY esté configurada")
+            logging.error("[API] 💡 Asegúrate de que CLAUDE_API_KEY esté configurada como secreto en GitHub")
             return False
         
         # Las API keys de Claude empiezan con 'sk-ant-api03-'
@@ -73,6 +81,10 @@ class MetadataUpdater:
     
     def send_telegram_notification(self, message):
         """Envía notificación por Telegram"""
+        if not self.bot_token or not self.chat_id:
+            logging.warning("[TELEGRAM] Bot token o chat ID no disponibles")
+            return False
+            
         try:
             url = f"https://api.telegram.org/bot{self.bot_token}/sendMessage"
             data = {"chat_id": self.chat_id, "text": message, "parse_mode": "HTML"}
@@ -248,7 +260,6 @@ Responde SOLO con el formato anterior, sin explicaciones adicionales."""
             "anthropic-version": "2023-06-01"
         }
         
-        # CAMBIADO: Usar modelo más actualizado y disponible
         data = {
             "model": "claude-3-5-sonnet-20241022",
             "max_tokens": 1500,
@@ -266,7 +277,7 @@ Responde SOLO con el formato anterior, sin explicaciones adicionales."""
                 self.api_url, 
                 headers=headers, 
                 json=data, 
-                timeout=120  # Aumentado a 2 minutos
+                timeout=120
             )
             
             logging.info(f"[API] 📊 Código de respuesta: {response.status_code}")
@@ -284,7 +295,7 @@ Responde SOLO con el formato anterior, sin explicaciones adicionales."""
                     logging.error(f"[API] 📄 Respuesta raw: {response.text}")
                 
                 logging.error("[API] ✅ Soluciones posibles:")
-                logging.error("[API] 1. Verifica que CLAUDE_API_KEY esté bien configurada")
+                logging.error("[API] 1. Verifica que CLAUDE_API_KEY esté bien configurada en GitHub Secrets")
                 logging.error("[API] 2. Ve a https://console.anthropic.com/ y genera una nueva API key")
                 logging.error("[API] 3. Asegúrate de tener créditos disponibles")
                 logging.error("[API] 4. Verifica que la API key no haya expirado")
@@ -463,7 +474,7 @@ Responde SOLO con el formato anterior, sin explicaciones adicionales."""
                        "✅ <b>Soluciones:</b>\n" \
                        "1. Ve a https://console.anthropic.com/\n" \
                        "2. Genera una nueva API key\n" \
-                       "3. Configúrala en CLAUDE_API_KEY\n" \
+                       "3. Configúrala como secreto CLAUDE_API_KEY en GitHub\n" \
                        "4. Verifica que tengas créditos"
             self.send_telegram_notification(error_msg)
             return
