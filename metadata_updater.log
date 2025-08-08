@@ -289,3 +289,55 @@
 2025-08-08 17:58:37,615 - INFO - [SUMMARY] Videos fallidos: 0
 2025-08-08 17:58:38,091 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2025-08-08 17:58:38,091 - INFO - [FINISH] Proceso completado exitosamente
+2025-08-08 18:09:03,611 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2025-08-08 18:09:03,611 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2025-08-08 18:09:03,611 - INFO - [INIT] API Key disponible: Sí
+2025-08-08 18:09:03,611 - INFO - [INIT] API Key (primeros 10 chars): sk-ant-api
+2025-08-08 18:09:03,611 - INFO - [START] Iniciando procesamiento de videos editados...
+2025-08-08 18:09:03,612 - INFO - [JSON] Cargados 108 videos desde data.json
+2025-08-08 18:09:03,612 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2025-08-08 18:09:03,612 - INFO - [PROCESS] Procesando 1 videos...
+2025-08-08 18:09:03,612 - INFO - 
+--- Procesando video 1/1 ---
+2025-08-08 18:09:03,612 - INFO - [VIDEO] Título: Bon appétit, majestad | AVANCE ESPECIAL | Netflix
+2025-08-08 18:09:03,612 - INFO - [VIDEO] ID: mYvCKNqi1oE
+2025-08-08 18:09:03,612 - INFO - [SEARCH] Buscando JSON para: 'Bon appétit, majestad | AVANCE ESPECIAL | Netflix'
+2025-08-08 18:09:03,618 - INFO - [SEARCH] Primeras 3 palabras del título: ['bon', 'appetit', 'majestad']
+2025-08-08 18:09:03,619 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2025-08-08 18:09:03,619 - INFO - [COMPARE] Archivo: Bon appétit, majestad _ AVANCE ESPECIAL _ Netflix.json
+2025-08-08 18:09:03,619 - INFO - [COMPARE] Título JSON: 'Bon appétit, majestad | AVANCE ESPECIAL | Netflix'
+2025-08-08 18:09:03,619 - INFO - [COMPARE] Primeras 3 palabras JSON: ['bon', 'appetit', 'majestad']
+2025-08-08 18:09:03,619 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Bon appétit, majestad _ AVANCE ESPECIAL _ Netflix.json
+2025-08-08 18:09:03,619 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2025-08-08 18:09:03,619 - INFO - [API] 🔑 Formato API Key: ✅ Válido
+2025-08-08 18:09:03,619 - INFO - [API] 📏 Longitud API Key: 108 caracteres
+2025-08-08 18:09:03,619 - INFO - [API] 🏁 Primeros 20 chars: sk-ant-api03-klFXojF...
+2025-08-08 18:09:03,738 - INFO - [API] 📊 Código de respuesta: 401
+2025-08-08 18:09:03,738 - ERROR - ============================================================
+2025-08-08 18:09:03,738 - ERROR - [API] 🚨 ERROR 401 - UNAUTHORIZED
+2025-08-08 18:09:03,738 - ERROR - ============================================================
+2025-08-08 18:09:03,738 - ERROR - [API] Posibles causas:
+2025-08-08 18:09:03,738 - ERROR - [API] 1. ❌ API Key incorrecta o expirada
+2025-08-08 18:09:03,738 - ERROR - [API] 2. ❌ API Key no configurada en GitHub Secrets
+2025-08-08 18:09:03,738 - ERROR - [API] 3. ❌ Formato de API Key inválido
+2025-08-08 18:09:03,738 - ERROR - [API] 4. ❌ Cuenta sin créditos o suspendida
+2025-08-08 18:09:03,738 - ERROR - ============================================================
+2025-08-08 18:09:03,739 - ERROR - [API] 📄 Respuesta del servidor: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"}}
+2025-08-08 18:09:03,739 - ERROR - [API] 🔗 URL utilizada: https://api.anthropic.com/v1/messages
+2025-08-08 18:09:03,739 - ERROR - [API] 📋 Headers enviados: {'Content-Type': 'application/json', 'x-api-key': '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', 'anthropic-version': '2023-06-01'}
+2025-08-08 18:09:03,739 - ERROR - ============================================================
+2025-08-08 18:09:03,739 - ERROR - [API] 💬 Mensaje de error: {'type': 'authentication_error', 'message': 'invalid x-api-key'}
+2025-08-08 18:09:03,739 - ERROR - [API] 📝 Detalle: invalid x-api-key
+2025-08-08 18:09:03,739 - WARNING - [WARNING] No se pudo obtener respuesta de Claude, continuando con datos originales
+2025-08-08 18:09:03,739 - WARNING - [UPDATE] No hay metadatos de Claude, manteniendo originales
+2025-08-08 18:09:03,739 - INFO - [UPDATE] JSON actualizado: Bon appétit, majestad _ AVANCE ESPECIAL _ Netflix.json
+2025-08-08 18:09:03,740 - INFO - [JSON] Cargados 108 videos desde data.json
+2025-08-08 18:09:03,740 - INFO - [STATUS] Video mYvCKNqi1oE actualizado a 'ok'
+2025-08-08 18:09:03,741 - INFO - [JSON] data.json actualizado exitosamente
+2025-08-08 18:09:03,741 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2025-08-08 18:09:03,741 - INFO - 
+[SUMMARY] Procesamiento completado:
+2025-08-08 18:09:03,741 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2025-08-08 18:09:03,742 - INFO - [SUMMARY] Videos fallidos: 0
+2025-08-08 18:09:04,157 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2025-08-08 18:09:04,157 - INFO - [FINISH] Proceso completado exitosamente
