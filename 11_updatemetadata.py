@@ -24,14 +24,15 @@ class MetadataUpdater:
         self.data_json = self.script_dir / "data.json"
         self.uploadable_dir = self.script_dir / "uploadable"
         
-        # API Claude y Telegram
-        self.api_key = "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"
+        # API Claude y Telegram desde variables de entorno
+        self.api_key = os.environ.get('CLAUDE_API_KEY') or "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"
         self.api_url = "https://api.anthropic.com/v1/messages"
-        self.bot_token = "7869024150:AAGFO6ZvpO4-5J4karX_lef252tkD3BhclE"
-        self.chat_id = "6166225652"
+        self.bot_token = os.environ.get('BOT_TOKEN') or "7869024150:AAGFO6ZvpO4-5J4karX_lef252tkD3BhclE"
+        self.chat_id = os.environ.get('CHAT_ID') or "6166225652"
         
         logging.info(f"[INIT] Archivo data.json: {self.data_json}")
         logging.info(f"[INIT] Carpeta uploadable: {self.uploadable_dir}")
+        logging.info(f"[INIT] API Key disponible: {'Sí' if self.api_key else 'No'}")
         
         if not self.uploadable_dir.exists():
             logging.error(f"[ERROR] La carpeta uploadable no existe: {self.uploadable_dir}")
@@ -204,6 +205,10 @@ Responde SOLO con el formato anterior, sin explicaciones adicionales."""
     
     def call_claude_api(self, prompt):
         """Llama a la API de Claude"""
+        if not self.api_key:
+            logging.error("[API] API Key de Claude no disponible")
+            return None
+        
         headers = {
             "Content-Type": "application/json",
             "x-api-key": self.api_key,
