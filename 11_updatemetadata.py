@@ -25,14 +25,23 @@ class MetadataUpdater:
         self.uploadable_dir = self.script_dir / "uploadable"
         
         # API Claude y Telegram desde variables de entorno
-        self.api_key = os.environ.get('CLAUDE_API_KEY') or "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"
+        self.api_key = os.environ.get('CLAUDE_API_KEY')
         self.api_url = "https://api.anthropic.com/v1/messages"
-        self.bot_token = os.environ.get('BOT_TOKEN') or "7869024150:AAGFO6ZvpO4-5J4karX_lef252tkD3BhclE"
-        self.chat_id = os.environ.get('CHAT_ID') or "6166225652"
+        self.bot_token = os.environ.get('BOT_TOKEN')
+        self.chat_id = os.environ.get('CHAT_ID')
+        
+        # Fallbacks para desarrollo local
+        if not self.api_key:
+            self.api_key = "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"
+        if not self.bot_token:
+            self.bot_token = "7869024150:AAGFO6ZvpO4-5J4karX_lef252tkD3BhclE"
+        if not self.chat_id:
+            self.chat_id = "6166225652"
         
         logging.info(f"[INIT] Archivo data.json: {self.data_json}")
         logging.info(f"[INIT] Carpeta uploadable: {self.uploadable_dir}")
         logging.info(f"[INIT] API Key disponible: {'Sí' if self.api_key else 'No'}")
+        logging.info(f"[INIT] API Key (primeros 10 chars): {self.api_key[:10] if self.api_key else 'N/A'}")
         
         if not self.uploadable_dir.exists():
             logging.error(f"[ERROR] La carpeta uploadable no existe: {self.uploadable_dir}")
@@ -204,9 +213,15 @@ TAGS: [tag1, tag2, tag3, etc.]
 Responde SOLO con el formato anterior, sin explicaciones adicionales."""
     
     def call_claude_api(self, prompt):
-        """Llama a la API de Claude"""
+        """Llama a la API de Claude con diagnóstico detallado del error 401"""
         if not self.api_key:
             logging.error("[API] API Key de Claude no disponible")
+            return None
+        
+        # Validar formato de API key
+        if not self.api_key.startswith('sk-ant-api03-'):
+            logging.error(f"[API] ⚠️ API Key no tiene el formato correcto. Debe empezar con 'sk-ant-api03-'")
+            logging.error(f"[API] Tu API Key empieza con: '{self.api_key[:15]}...'")
             return None
         
         headers = {
@@ -222,21 +237,76 @@ Responde SOLO con el formato anterior, sin explicaciones adicionales."""
         }
         
         try:
-            logging.info("[API] Enviando solicitud a Claude...")
-            response = requests.post(self.api_url, headers=headers, json=data, timeout=60)
-            logging.info(f"[API] Código de respuesta: {response.status_code}")
+            logging.info("[API] 🚀 Enviando solicitud a Claude...")
+            logging.info(f"[API] 🔑 Formato API Key: {'✅ Válido' if self.api_key.startswith('sk-ant-api03-') else '❌ Inválido'}")
+            logging.info(f"[API] 📏 Longitud API Key: {len(self.api_key)} caracteres")
+            logging.info(f"[API] 🏁 Primeros 20 chars: {self.api_key[:20]}...")
             
-            if response.status_code != 200:
-                logging.error(f"[API] Error HTTP {response.status_code}: {response.text}")
+            response = requests.post(self.api_url, headers=headers, json=data, timeout=90)
+            logging.info(f"[API] 📊 Código de respuesta: {response.status_code}")
+            
+            if response.status_code == 401:
+                logging.error("=" * 60)
+                logging.error("[API] 🚨 ERROR 401 - UNAUTHORIZED")
+                logging.error("=" * 60)
+                logging.error("[API] Posibles causas:")
+                logging.error("[API] 1. ❌ API Key incorrecta o expirada")
+                logging.error("[API] 2. ❌ API Key no configurada en GitHub Secrets")
+                logging.error("[API] 3. ❌ Formato de API Key inválido")
+                logging.error("[API] 4. ❌ Cuenta sin créditos o suspendida")
+                logging.error("=" * 60)
+                logging.error(f"[API] 📄 Respuesta del servidor: {response.text}")
+                logging.error(f"[API] 🔗 URL utilizada: {self.api_url}")
+                logging.error(f"[API] 📋 Headers enviados: {headers}")
+                logging.error("=" * 60)
+                
+                # Intentar parsear el error para más detalles
+                try:
+                    error_data = response.json()
+                    if 'error' in error_data:
+                        logging.error(f"[API] 💬 Mensaje de error: {error_data['error']}")
+                        if 'message' in error_data['error']:
+                            logging.error(f"[API] 📝 Detalle: {error_data['error']['message']}")
+                except:
+                    pass
+                
+                return None
+                
+            elif response.status_code == 403:
+                logging.error("[API] ❌ Error 403: Acceso prohibido - Verifica permisos de la API Key")
+                logging.error(f"[API] Respuesta: {response.text}")
+                return None
+            elif response.status_code == 429:
+                logging.warning("[API] ⚠️ Error 429: Rate limit alcanzado, esperando 10 segundos...")
+                time.sleep(10)
+                return None
+            elif response.status_code != 200:
+                logging.error(f"[API] ❌ Error HTTP {response.status_code}: {response.text}")
                 return None
             
             result = response.json()
+            
+            if 'content' not in result or not result['content']:
+                logging.error(f"[API] ❌ Respuesta mal formada: {result}")
+                return None
+            
             content = result['content'][0]['text']
-            logging.info("[API] Respuesta recibida exitosamente")
+            logging.info("[API] ✅ Respuesta recibida exitosamente")
+            logging.info(f"[API] 📏 Longitud de respuesta: {len(content)} caracteres")
             return content
             
+        except requests.exceptions.Timeout:
+            logging.error("[API] ⏰ Timeout en la solicitud a Claude (90s)")
+            return None
+        except requests.exceptions.RequestException as e:
+            logging.error(f"[API] 🌐 Error de conexión: {e}")
+            return None
+        except json.JSONDecodeError as e:
+            logging.error(f"[API] 📄 Error al parsear JSON: {e}")
+            logging.error(f"[API] Respuesta raw: {response.text if 'response' in locals() else 'N/A'}")
+            return None
         except Exception as e:
-            logging.error(f"[API] Error en la solicitud: {e}")
+            logging.error(f"[API] 💥 Error inesperado: {e}")
             return None
     
     def parse_claude_response(self, response_text):
@@ -270,6 +340,7 @@ Responde SOLO con el formato anterior, sin explicaciones adicionales."""
             
             if missing_fields:
                 logging.error(f"[PARSE] Campos faltantes: {missing_fields}")
+                logging.error(f"[PARSE] Respuesta original: {response_text}")
                 return None
             
             logging.info("[PARSE] Datos parseados exitosamente:")
@@ -292,6 +363,9 @@ Responde SOLO con el formato anterior, sin explicaciones adicionales."""
                     'description': claude_metadata['description'],
                     'tags': claude_metadata['tags']
                 })
+                logging.info("[UPDATE] Metadatos actualizados con respuesta de Claude")
+            else:
+                logging.warning("[UPDATE] No hay metadatos de Claude, manteniendo originales")
             
             json_data['categories'] = ['Trailer']
             json_data.pop('channel', None)  # Eliminar campo del canal si existe
@@ -372,16 +446,17 @@ Responde SOLO con el formato anterior, sin explicaciones adicionales."""
                 if not claude_metadata:
                     logging.warning("[WARNING] No se pudo parsear respuesta de Claude")
             else:
-                logging.warning("[WARNING] No se pudo obtener respuesta de Claude")
+                logging.warning("[WARNING] No se pudo obtener respuesta de Claude, continuando con datos originales")
             
-            # Actualizar archivos
+            # Actualizar archivos (incluso si Claude falló)
             if self.update_video_json(json_file, json_data, claude_metadata):
                 if self.update_video_status(video_id, 'ok'):
                     successful_updates += 1
                     updated_videos.append({
                         'title': title,
                         'video_id': video_id,
-                        'new_title': claude_metadata['title'] if claude_metadata else title
+                        'new_title': claude_metadata['title'] if claude_metadata else title,
+                        'claude_used': bool(claude_metadata)
                     })
                     logging.info(f"[SUCCESS] Video {i} procesado exitosamente")
                 else:
@@ -409,35 +484,37 @@ Responde SOLO con el formato anterior, sin explicaciones adicionales."""
     def send_process_summary_notification(self, updated_videos, failed_videos, total_videos):
         """Envía un resumen del procesamiento por Telegram"""
         try:
+            claude_success = sum(1 for v in updated_videos if v.get('claude_used', False))
+            claude_failed = len(updated_videos) - claude_success
+            
             message = "🤖 <b>Metadata Updater - Resumen</b>\n"
             message += f"📊 <b>Total procesados:</b> {total_videos}\n"
             message += f"✅ <b>Exitosos:</b> {len(updated_videos)}\n"
-            message += f"❌ <b>Fallidos:</b> {len(failed_videos)}\n\n"
+            message += f"❌ <b>Fallidos:</b> {len(failed_videos)}\n"
+            message += f"🤖 <b>Claude exitoso:</b> {claude_success}\n"
+            message += f"⚠️ <b>Sin Claude:</b> {claude_failed}\n\n"
             
             if updated_videos:
-                message += "🎬 <b>Videos actualizados exitosamente:</b>\n"
-                for i, video in enumerate(updated_videos, 1):
-                    title = video['title'][:60] + "..." if len(video['title']) > 60 else video['title']
-                    new_title = video['new_title'][:60] + "..." if len(video['new_title']) > 60 else video['new_title']
+                message += "🎬 <b>Videos actualizados:</b>\n"
+                for i, video in enumerate(updated_videos[:5], 1):  # Solo primeros 5
+                    title = video['title'][:50] + "..." if len(video['title']) > 50 else video['title']
+                    claude_emoji = "🤖" if video.get('claude_used') else "⚠️"
                     
-                    message += f"{i}. <code>{video['video_id']}</code>\n"
-                    message += f"   📝 Título anterior: {title}\n"
-                    message += f"   ✨ Nuevo título: {new_title}\n\n"
-                    
-                    if len(message) > 3500:
-                        message += f"... y {len(updated_videos) - i} videos más.\n"
-                        break
+                    message += f"{i}. {claude_emoji} <code>{video['video_id']}</code>\n"
+                    message += f"   📝 {title}\n"
+                
+                if len(updated_videos) > 5:
+                    message += f"... y {len(updated_videos) - 5} videos más.\n"
             
             if failed_videos:
-                message += "\n❌ <b>Videos con errores:</b>\n"
-                for i, video in enumerate(failed_videos, 1):
-                    title = video['title'][:50] + "..." if len(video['title']) > 50 else video['title']
+                message += f"\n❌ <b>Errores ({len(failed_videos)}):</b>\n"
+                for i, video in enumerate(failed_videos[:3], 1):  # Solo primeros 3
+                    title = video['title'][:40] + "..." if len(video['title']) > 40 else video['title']
                     message += f"{i}. {title}\n"
-                    message += f"   🚫 Razón: {video['reason']}\n"
-                    
-                    if len(message) > 3800:
-                        message += f"... y {len(failed_videos) - i} errores más.\n"
-                        break
+                    message += f"   🚫 {video['reason']}\n"
+                
+                if len(failed_videos) > 3:
+                    message += f"... y {len(failed_videos) - 3} errores más.\n"
             
             now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             message += f"\n🕒 <b>Completado:</b> {now}"
