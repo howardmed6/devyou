@@ -30,3 +30,15 @@
 2025-08-08 01:46:41,151 - INFO - [FILES] JSON: Bon appétit, majestad _ AVANCE ESPECIAL _ Netflix.json
 2025-08-08 01:46:41,152 - ERROR - [ERROR] Faltan archivos para 'Bon appétit, majestad | AVANCE ESPECIAL | Netflix': MP4
 2025-08-08 01:46:41,153 - INFO - [FINISH] Proceso completado
+2025-08-08 17:22:21,032 - INFO - [PROCESS] 1 videos listos
+2025-08-08 17:22:21,032 - INFO - [SEARCH] Buscando archivos para: 'Bon appétit, majestad | AVANCE ESPECIAL | Netflix'
+2025-08-08 17:22:21,032 - INFO - [SEARCH] Palabras clave: ['bon', 'appetit', 'majestad']
+2025-08-08 17:22:21,033 - INFO - [FILES] JSON: Bon appétit, majestad _ AVANCE ESPECIAL _ Netflix.json
+2025-08-08 17:22:21,033 - ERROR - [ERROR] Faltan archivos para 'Bon appétit, majestad | AVANCE ESPECIAL | Netflix': MP4
+2025-08-08 17:22:21,034 - INFO - [FINISH] Proceso completado
+2025-08-08 17:29:55,241 - INFO - [PROCESS] 1 videos listos
+2025-08-08 17:29:55,241 - INFO - [SEARCH] Buscando archivos para: 'Bon appétit, majestad | AVANCE ESPECIAL | Netflix'
+2025-08-08 17:29:55,241 - INFO - [SEARCH] Palabras clave: ['bon', 'appetit', 'majestad']
+2025-08-08 17:29:55,241 - INFO - [FILES] JSON: Bon appétit, majestad _ AVANCE ESPECIAL _ Netflix.json
+2025-08-08 17:29:55,242 - ERROR - [ERROR] Faltan archivos para 'Bon appétit, majestad | AVANCE ESPECIAL | Netflix': MP4
+2025-08-08 17:29:55,243 - INFO - [FINISH] Proceso completado

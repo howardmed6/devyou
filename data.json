@@ -1,5 +1,25 @@
 [
   {
+    "video_id": "NmlLY4SVaSo",
+    "url": "https://www.youtube.com/watch?v=NmlLY4SVaSo",
+    "title": "DEL CIELO AL INFIERNO Tráiler Español Latino Subtitulado (2025) Denzel Washington",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2025-08-08T15:44:42Z",
+    "found_at": "2025-08-08T17:19:56.661808",
+    "status": "pending"
+  },
+  {
+    "video_id": "d6TcMrzXCsA",
+    "url": "https://www.youtube.com/watch?v=d6TcMrzXCsA",
+    "title": "RENTAL FAMILY Tráiler Español (2025) Brendan Fraser",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2025-08-08T10:05:59Z",
+    "found_at": "2025-08-08T17:19:56.661822",
+    "status": "pending"
+  },
+  {
     "video_id": "8gUPq0mcThc",
     "url": "https://www.youtube.com/watch?v=8gUPq0mcThc",
     "title": "ÁNGELES DEL DESIERTO Tráiler Español (2025) Eva Green",
@@ -180,23 +200,23 @@
     "status": "pending"
   },
   {
-    "video_id": "tSN_tThUp2k",
-    "url": "https://www.youtube.com/watch?v=tSN_tThUp2k",
-    "title": "SPIDER-MAN 4: UN NUEVO DÍA &quot;Traje&quot; Teaser (2026) Tom Holland",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2025-08-02T15:28:56Z",
-    "found_at": "2025-08-08T00:44:25.277445",
+    "video_id": "CKfksYj4FNw",
+    "url": "https://www.youtube.com/watch?v=CKfksYj4FNw",
+    "title": "Takedown (en vivo): Las guerreras K-pop 2025  | Clip oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2025-08-08T16:00:27Z",
+    "found_at": "2025-08-08T17:19:56.929974",
     "status": "pending"
   },
   {
-    "video_id": "98Wj42AxQxE",
-    "url": "https://www.youtube.com/watch?v=98Wj42AxQxE",
-    "title": "TIBURÓN BLANCO. LA BESTIA DEL MAR Tráiler Español (2025)",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2025-08-01T16:45:58Z",
-    "found_at": "2025-08-08T00:44:25.277447",
+    "video_id": "By3S35amREw",
+    "url": "https://www.youtube.com/watch?v=By3S35amREw",
+    "title": "Canelo vs Crawford | En vivo solo en Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2025-08-08T15:00:00Z",
+    "found_at": "2025-08-08T17:19:56.929982",
     "status": "pending"
   },
   {
@@ -367,9 +387,9 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-08-04T02:00:01Z",
     "found_at": "2025-08-08T00:44:25.625015",
-    "status": "pending",
-    "metadata_updated_at": "2025-08-08T01:46:40.421263",
-    "uploaded_at": "2025-08-08T01:46:41.152601"
+    "status": "error - faltan: MP4",
+    "metadata_updated_at": "2025-08-08T17:29:54.234906",
+    "uploaded_at": "2025-08-08T17:29:55.242737"
   },
   {
     "video_id": "m7J_lOt7TOY",
@@ -379,26 +399,6 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-08-03T18:00:45Z",
     "found_at": "2025-08-08T00:44:25.625029",
-    "status": "pending"
-  },
-  {
-    "video_id": "TSMf2pr89eQ",
-    "url": "https://www.youtube.com/watch?v=TSMf2pr89eQ",
-    "title": "What It Sounds Like: Las guerreras K-pop 2025  | Clip oficial | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2025-08-03T16:00:48Z",
-    "found_at": "2025-08-08T00:44:25.625032",
-    "status": "pending"
-  },
-  {
-    "video_id": "jCKSNxXKsYo",
-    "url": "https://www.youtube.com/watch?v=jCKSNxXKsYo",
-    "title": "Golden (en vivo): Las guerreras K-pop 2025  | Clip oficial | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2025-08-02T22:00:42Z",
-    "found_at": "2025-08-08T00:44:25.625035",
     "status": "pending"
   },
   {
@@ -559,6 +559,16 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2023-05-03T18:00:21Z",
     "found_at": "2025-08-08T00:44:25.967954",
+    "status": "pending"
+  },
+  {
+    "video_id": "A_vcEiqPR4I",
+    "url": "https://www.youtube.com/watch?v=A_vcEiqPR4I",
+    "title": "No hagan a ENOJAR A CHRIS PRATT #LaListaTerminal #shorts",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2025-08-08T16:30:26Z",
+    "found_at": "2025-08-08T17:19:57.650849",
     "status": "pending"
   },
   {
@@ -749,16 +759,6 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-04-04T22:00:38Z",
     "found_at": "2025-08-08T00:44:26.244329",
-    "status": "pending"
-  },
-  {
-    "video_id": "7fAoVBFwsbo",
-    "url": "https://www.youtube.com/watch?v=7fAoVBFwsbo",
-    "title": "Se acerca el verano y necesito la bebida de Luffy para rehidratarme. 🚰 #OnePieceEpisodeOfAlabasta",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2024-10-27T15:00:31Z",
-    "found_at": "2025-08-08T00:44:26.244332",
     "status": "pending"
   }
 ]
