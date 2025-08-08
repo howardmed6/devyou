@@ -180,8 +180,29 @@ class VideoUploader:
         
         return name.lower().strip()
     
+    def get_single_files_fallback(self):
+        """Obtiene archivos únicos como fallback"""
+        all_files = list(self.uploadable_dir.glob("*"))
+        
+        # Separar archivos por tipo
+        json_files = [f for f in all_files if f.suffix.lower() == '.json']
+        video_files = [f for f in all_files if f.suffix.lower() == '.mp4']
+        thumbnail_files = [f for f in all_files if f.suffix.lower() in ['.jpg', '.jpeg', '.png']]
+        
+        # Solo usar fallback si hay exactamente un archivo de cada tipo necesario
+        single_json = json_files[0] if len(json_files) == 1 else None
+        single_video = video_files[0] if len(video_files) == 1 else None
+        single_thumbnail = thumbnail_files[0] if len(thumbnail_files) == 1 else None
+        
+        logging.info(f"[FALLBACK] Archivos únicos encontrados:")
+        logging.info(f"[FALLBACK] JSON: {single_json.name if single_json else 'Ninguno'} (Total: {len(json_files)})")
+        logging.info(f"[FALLBACK] Video: {single_video.name if single_video else 'Ninguno'} (Total: {len(video_files)})")
+        logging.info(f"[FALLBACK] Thumbnail: {single_thumbnail.name if single_thumbnail else 'Ninguno'} (Total: {len(thumbnail_files)})")
+        
+        return single_json, single_video, single_thumbnail
+    
     def find_exact_match_files(self, title):
-        """Busca archivos que coincidan por las primeras 3 palabras"""
+        """Busca archivos que coincidan por las primeras 3 palabras, con fallback a archivos únicos"""
         logging.info(f"[SEARCH] Buscando archivos para: '{title}'")
         
         all_files = list(self.uploadable_dir.glob("*"))
@@ -227,13 +248,41 @@ class VideoUploader:
                     elif ext in ['.jpg', '.jpeg', '.png'] and not thumbnail_file:
                         thumbnail_file = file_path
         
-        # Registrar archivos encontrados
+        # FALLBACK: Si no se encontraron archivos por coincidencia, usar archivos únicos
+        if not json_file or not video_file:
+            logging.warning(f"[FALLBACK] No se encontraron archivos por coincidencia para '{title}', intentando con archivos únicos...")
+            
+            fallback_json, fallback_video, fallback_thumbnail = self.get_single_files_fallback()
+            
+            # Solo usar fallback si hay exactamente un archivo de cada tipo requerido
+            if not json_file and fallback_json:
+                json_file = fallback_json
+                logging.info(f"[FALLBACK] Usando JSON único: {json_file.name}")
+            
+            if not video_file and fallback_video:
+                video_file = fallback_video
+                logging.info(f"[FALLBACK] Usando video único: {video_file.name}")
+            
+            # Para thumbnail, usar fallback solo si no se encontró uno específico
+            if not thumbnail_file and fallback_thumbnail:
+                thumbnail_file = fallback_thumbnail
+                logging.info(f"[FALLBACK] Usando thumbnail único: {thumbnail_file.name}")
+        
+        # Registrar archivos finales encontrados
         if json_file:
             logging.info(f"[FILES] JSON: {json_file.name}")
+        else:
+            logging.error(f"[FILES] JSON: No encontrado")
+            
         if video_file:
             logging.info(f"[FILES] Video: {video_file.name}")
+        else:
+            logging.error(f"[FILES] Video: No encontrado")
+            
         if thumbnail_file:
             logging.info(f"[FILES] Thumbnail: {thumbnail_file.name}")
+        else:
+            logging.warning(f"[FILES] Thumbnail: No encontrado")
         
         # Cargar metadata del JSON
         json_data = None
@@ -332,7 +381,7 @@ class VideoUploader:
             title = video_data.get('title', 'Sin título')
             video_id = video_data.get('video_id', '')
             
-            # Buscar archivos con coincidencia por primeras 3 palabras
+            # Buscar archivos con coincidencia por primeras 3 palabras o fallback a archivos únicos
             json_file, video_file, thumbnail_file, metadata = self.find_exact_match_files(title)
             
             # Solo requiere JSON con metadata y MP4 (thumbnail es opcional)
@@ -349,7 +398,6 @@ class VideoUploader:
             # Si no hay thumbnail, usar imagen por defecto o continuar sin ella
             if not thumbnail_file:
                 logging.warning(f"[WARNING] No se encontró thumbnail para: {title}, continuando sin thumbnail")
-            
             
             # Enviar preview
             if not self.send_video_preview(video_file, thumbnail_file, video_data):
