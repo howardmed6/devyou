@@ -307,7 +307,7 @@ jobs:
       if: steps.check_telegram.outputs.should_run == 'true'
       run: |
         echo "☁️ Ejecutando 12_upload.py..."
-        python 12_upload.py
+        timeout 300s python 12_upload.py || echo "⚠️ 12_upload.py terminado por timeout o completado"
 
     - name: Execute 13_clean.py
       if: steps.check_telegram.outputs.should_run == 'true'
