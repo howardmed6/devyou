@@ -1,17 +1,17 @@
-# .github/workflows/execute-scripts.yml
 name: Execute Python Scripts via Telegram
 
 on:
-  # Ejecutar cada 5 minutos para verificar mensajes de Telegram
-  schedule:
-    - cron: '*/5 * * * *'
-  workflow_dispatch: # Permite ejecutar manualmente
+  # Webhook desde Azure y manual (SIN cron schedule)
+  workflow_dispatch:
     inputs:
       force_run:
         description: 'Force run all scripts'
         required: false
         default: 'false'
         type: boolean
+  
+  repository_dispatch:
+    types: [telegram_trigger]
 
 jobs:
   telegram-listener:
@@ -51,99 +51,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
 
-    - name: Check Telegram Messages
-      id: check_telegram
-      env:
-        BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-      run: |
-        python << 'EOF'
-        import requests
-        import json
-        import os
-        import sys
-        
-        def get_telegram_updates():
-            bot_token = os.environ.get('BOT_TOKEN')
-            if not bot_token:
-                print("BOT_TOKEN no configurado")
-                sys.exit(1)
-                
-            try:
-                url = f"https://api.telegram.org/bot{bot_token}/getUpdates"
-                response = requests.get(url, timeout=10)
-                
-                if response.status_code == 200:
-                    data = response.json()
-                    if data["ok"]:
-                        return data["result"]
-                return []
-            except Exception as e:
-                print(f"Error obteniendo updates: {e}")
-                return []
-        
-        def send_notification(message):
-            bot_token = os.environ.get('BOT_TOKEN')
-            chat_id = os.environ.get('CHAT_ID')
-            
-            try:
-                url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
-                response = requests.post(
-                    url,
-                    {"chat_id": chat_id, "text": message},
-                    timeout=10
-                )
-                return response.status_code == 200
-            except Exception as e:
-                print(f"Error enviando notificación: {e}")
-                return False
-        
-        # Obtener último update_id desde archivo
-        try:
-            with open('last_update_id.txt', 'r') as f:
-                last_update_id = int(f.read().strip())
-        except:
-            last_update_id = 0
-        
-        updates = get_telegram_updates()
-        should_run = False
-        new_last_update_id = last_update_id
-        
-        for update in updates:
-            update_id = update["update_id"]
-            
-            if update_id > last_update_id:
-                new_last_update_id = max(new_last_update_id, update_id)
-                
-                if "message" in update:
-                    message = update["message"]
-                    text = message.get("text", "").lower().strip()
-                    
-                    if text in ["yes", "si", "start", "ejecutar", "run"]:
-                        should_run = True
-                        print("🚀 Comando de ejecución recibido via Telegram")
-                        send_notification("🚀 Iniciando automatización desde GitHub Actions...")
-                    
-                    elif text in ["status", "estado"]:
-                        send_notification("📊 GitHub Actions está ejecutándose cada 5 minutos\n💬 Escribe 'yes' para ejecutar scripts ahora")
-        
-        # Guardar nuevo last_update_id
-        with open('last_update_id.txt', 'w') as f:
-            f.write(str(new_last_update_id))
-        
-        # Establecer output para siguiente step
-        if should_run or os.environ.get('GITHUB_EVENT_NAME') == 'workflow_dispatch':
-            print("SHOULD_RUN=true")
-            with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-                f.write("should_run=true\n")
-        else:
-            print("SHOULD_RUN=false") 
-            with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-                f.write("should_run=false\n")
-        EOF
-
-    - name: Download from Google Drive (only when executing scripts)
-      if: steps.check_telegram.outputs.should_run == 'true'
+    - name: Download from Google Drive
       env:
         GOOGLE_DRIVE_CREDENTIALS: ${{ secrets.GOOGLE_DRIVE_CREDENTIALS }}
       run: |
@@ -231,74 +139,62 @@ jobs:
         EOF
 
     - name: Verify ffmpeg installation
-      if: steps.check_telegram.outputs.should_run == 'true'
       run: |
         echo "🔧 Verificando instalación de ffmpeg..."
         ffmpeg -version
         which ffmpeg
 
     - name: Execute 1_monitor.py
-      if: steps.check_telegram.outputs.should_run == 'true'
       run: |
         echo "📊 Ejecutando 1_monitor.py..."
         python 1_monitor.py
 
     - name: Execute 2_levelonefilter.py
-      if: steps.check_telegram.outputs.should_run == 'true'
       run: |
         echo "🔍 Ejecutando 2_levelonefilter.py..."
         python 2_levelonefilter.py
 
     - name: Execute 3_metadata.py
-      if: steps.check_telegram.outputs.should_run == 'true'
       run: |
         echo "📝 Ejecutando 3_metadata.py..."
         python 3_metadata.py
 
     - name: Execute 4_metadataextra.py
-      if: steps.check_telegram.outputs.should_run == 'true'
       run: |
         echo "📋 Ejecutando 4_metadataextra.py..."
         python 4_metadataextra.py
 
     - name: Execute 5_update_status.py
-      if: steps.check_telegram.outputs.should_run == 'true'
       run: |
         echo "🔄 Ejecutando 5_update_status.py..."
         python 5_update_status.py
 
     - name: Execute 6_check_metadata.py
-      if: steps.check_telegram.outputs.should_run == 'true'
       run: |
         echo "✅ Ejecutando 6_check_metadata.py..."
         python 6_check_metadata.py
 
     - name: Execute 7_uploadable.py
-      if: steps.check_telegram.outputs.should_run == 'true'
       run: |
         echo "📤 Ejecutando 7_uploadable.py..."
         python 7_uploadable.py
 
     - name: Execute 8_edit.py
-      if: steps.check_telegram.outputs.should_run == 'true'
       run: |
         echo "✏️ Ejecutando 8_edit.py..."
         python 8_edit.py
 
     - name: Execute 9_edit.py
-      if: steps.check_telegram.outputs.should_run == 'true'
       run: |
         echo "✏️ Ejecutando 9_edit.py..."
         python 9_edit.py
 
     - name: Execute 10_edit.py
-      if: steps.check_telegram.outputs.should_run == 'true'
       run: |
         echo "✏️ Ejecutando 10_edit.py..."
         python 10_edit.py
 
     - name: Execute 11_updatemetadata.py
-      if: steps.check_telegram.outputs.should_run == 'true'
       env:
         CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
         BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -308,19 +204,73 @@ jobs:
         python 11_updatemetadata.py
 
     - name: Execute 12_upload.py
-      if: steps.check_telegram.outputs.should_run == 'true'
+      env:
+        BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       run: |
         echo "☁️ Ejecutando 12_upload.py..."
-        timeout 300s python 12_upload.py || echo "⚠️ 12_upload.py terminado por timeout o completado"
+        timeout 600s python << 'EOF' || echo "⚠️ 12_upload.py terminado por timeout o completado"
+        import requests
+        import time
+        import os
+        
+        def get_telegram_updates():
+            bot_token = os.environ.get('BOT_TOKEN')
+            chat_id = os.environ.get('CHAT_ID')
+            
+            try:
+                url = f"https://api.telegram.org/bot{bot_token}/getUpdates"
+                response = requests.get(url, params={'offset': -1, 'limit': 1}, timeout=5)
+                
+                if response.status_code == 200:
+                    data = response.json()
+                    if data.get('result'):
+                        message = data['result'][0]['message']
+                        if str(message['chat']['id']) == chat_id:
+                            return message.get('text', '').strip()
+                return None
+            except:
+                return None
+        
+        def input_with_telegram_fallback(prompt=""):
+            print(prompt, end='', flush=True)
+            
+            bot_token = os.environ.get('BOT_TOKEN')
+            chat_id = os.environ.get('CHAT_ID')
+            
+            if bot_token and chat_id:
+                try:
+                    url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
+                    requests.post(url, {"chat_id": chat_id, "text": f"🤖 Input requerido: {prompt}"}, timeout=5)
+                    
+                    start_time = time.time()
+                    while time.time() - start_time < 300:  # 5 minutos
+                        response = get_telegram_updates()
+                        if response:
+                            print(response)
+                            return response
+                        time.sleep(2)
+                except:
+                    pass
+            
+            # Si no hay respuesta en 5 minutos, responder "y"
+            print("y")
+            return "y"
+        
+        # Reemplazar la función input original
+        import builtins
+        builtins.input = input_with_telegram_fallback
+        
+        # Ejecutar tu script 12_upload.py
+        exec(open('12_upload.py').read())
+        EOF
 
     - name: Execute 13_clean.py
-      if: steps.check_telegram.outputs.should_run == 'true'
       run: |
         echo "🧹 Ejecutando 13_clean.py..."
         python 13_clean.py
         
     - name: Check for changes (excluding specific folders)
-      if: steps.check_telegram.outputs.should_run == 'true'
       id: check_changes
       run: |
         # Verificar cambios excluyendo las carpetas uploadable y videos
@@ -337,14 +287,14 @@ jobs:
         fi
 
     - name: Commit and push changes
-      if: steps.check_telegram.outputs.should_run == 'true' && steps.check_changes.outputs.has_changes == 'true'
+      if: steps.check_changes.outputs.has_changes == 'true'
       run: |
         # Hacer commit solo de los archivos que no están en uploadable/ y videos/
         git commit -m "🤖 Automated update: $(date '+%Y-%m-%d %H:%M:%S UTC')"
         git push origin ${{ github.ref_name }}
 
     - name: Send completion notification
-      if: steps.check_telegram.outputs.should_run == 'true'
+      if: always()
       env:
         BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -371,16 +321,6 @@ jobs:
                 return False
         
         completion_time = datetime.now().strftime('%H:%M:%S')
-        final_msg = f"✅ Automatización completada - {completion_time}\n💬 Escribe 'yes' para ejecutar de nuevo"
+        final_msg = f"✅ Automatización completada - {completion_time}\n💬 Escribe 'start' para ejecutar de nuevo"
         send_notification(final_msg)
         EOF
-
-    - name: Update last_update_id file
-      if: always()
-      run: |
-        # Commitear el archivo last_update_id para mantener el tracking
-        if [ -f last_update_id.txt ]; then
-          git add last_update_id.txt
-          git commit -m "Update Telegram last_update_id" || echo "No changes to last_update_id"
-          git push origin ${{ github.ref_name }} || echo "No push needed"
-        fi

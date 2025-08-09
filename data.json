@@ -17,7 +17,9 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-08-08T10:05:59Z",
     "found_at": "2025-08-08T17:19:56.661822",
-    "status": "pending"
+    "status": "ok",
+    "metadata_updated_at": "2025-08-09T15:47:05.632065",
+    "uploaded_at": "2025-08-09T15:52:10.370771"
   },
   {
     "video_id": "8gUPq0mcThc",
@@ -400,6 +402,26 @@
     "status": "pending",
     "metadata_updated_at": "2025-08-08T18:09:03.740425",
     "uploaded_at": "2025-08-08T17:29:55.242737"
+  },
+  {
+    "video_id": "P_ebgK2Ng9c",
+    "url": "https://www.youtube.com/watch?v=P_ebgK2Ng9c",
+    "title": "Hard Knocks: Training Camp With The Buffalo Bills | Tráiler Oficial | HBO Max",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2025-08-09T15:00:43Z",
+    "found_at": "2025-08-09T15:10:27.145430",
+    "status": "pending"
+  },
+  {
+    "video_id": "CfjoLF-r6mM",
+    "url": "https://www.youtube.com/watch?v=CfjoLF-r6mM",
+    "title": "Al final, fuimos y seremos una bonita vecindad. Gracias. 💛❤️#Chespirito #SinQuererQueriendo",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2025-08-08T21:07:49Z",
+    "found_at": "2025-08-09T14:56:23.346191",
+    "status": "metadata_update"
   },
   {
     "video_id": "xV-Wl1ipnTQ",
