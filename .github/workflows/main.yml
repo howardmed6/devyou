@@ -203,68 +203,14 @@ jobs:
         echo "🔄 Ejecutando 11_updatemetadata.py..."
         python 11_updatemetadata.py
 
-    - name: Execute 12_upload.py
+    - name: Execute 12_upload.py (Auto Upload)
       env:
         BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       run: |
-        echo "☁️ Ejecutando 12_upload.py..."
-        timeout 600s python << 'EOF' || echo "⚠️ 12_upload.py terminado por timeout o completado"
-        import requests
-        import time
-        import os
+        echo "☁️ Ejecutando 12_upload.py (subida automática)..."
+        python 12_upload.py
         
-        def get_telegram_updates():
-            bot_token = os.environ.get('BOT_TOKEN')
-            chat_id = os.environ.get('CHAT_ID')
-            
-            try:
-                url = f"https://api.telegram.org/bot{bot_token}/getUpdates"
-                response = requests.get(url, params={'offset': -1, 'limit': 1}, timeout=5)
-                
-                if response.status_code == 200:
-                    data = response.json()
-                    if data.get('result'):
-                        message = data['result'][0]['message']
-                        if str(message['chat']['id']) == chat_id:
-                            return message.get('text', '').strip()
-                return None
-            except:
-                return None
-        
-        def input_with_telegram_fallback(prompt=""):
-            print(prompt, end='', flush=True)
-            
-            bot_token = os.environ.get('BOT_TOKEN')
-            chat_id = os.environ.get('CHAT_ID')
-            
-            if bot_token and chat_id:
-                try:
-                    url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
-                    requests.post(url, {"chat_id": chat_id, "text": f"🤖 Input requerido: {prompt}"}, timeout=5)
-                    
-                    start_time = time.time()
-                    while time.time() - start_time < 300:  # 5 minutos
-                        response = get_telegram_updates()
-                        if response:
-                            print(response)
-                            return response
-                        time.sleep(2)
-                except:
-                    pass
-            
-            # Si no hay respuesta en 5 minutos, responder "y"
-            print("y")
-            return "y"
-        
-        # Reemplazar la función input original
-        import builtins
-        builtins.input = input_with_telegram_fallback
-        
-        # Ejecutar tu script 12_upload.py
-        exec(open('12_upload.py').read())
-        EOF
-
     - name: Execute 13_clean.py
       run: |
         echo "🧹 Ejecutando 13_clean.py..."
