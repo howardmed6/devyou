@@ -1,34 +1,23 @@
-name: Execute Python Scripts via Telegram Webhook
+name: Execute Python Scripts via Telegram
 
 on:
-  # Solo activación manual y por webhook (SIN cron schedule)
+  # Webhook desde Azure y manual (SIN cron schedule)
   workflow_dispatch:
     inputs:
       force_run:
         description: 'Force run all scripts'
         required: false
-        default: 'true'
+        default: 'false'
         type: boolean
   
-  # Webhook desde Azure (repository_dispatch)
   repository_dispatch:
     types: [telegram_trigger]
 
 jobs:
-  execute-scripts:
+  telegram-listener:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Show trigger info
-      run: |
-        echo "🚀 Workflow disparado por: ${{ github.event_name }}"
-        if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
-          echo "📡 Trigger: Webhook desde Azure"
-          echo "⏰ Timestamp: ${{ github.event.client_payload.timestamp }}"
-        else
-          echo "👤 Trigger: Manual"
-        fi
-
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
@@ -61,43 +50,6 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-
-    - name: Send start notification
-      env:
-        BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-      run: |
-        python << 'EOF'
-        import requests
-        import os
-        from datetime import datetime
-        
-        def send_notification(message):
-            bot_token = os.environ.get('BOT_TOKEN')
-            chat_id = os.environ.get('CHAT_ID')
-            
-            try:
-                url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
-                response = requests.post(
-                    url, 
-                    {"chat_id": chat_id, "text": message, "parse_mode": "HTML"}, 
-                    timeout=10
-                )
-                return response.status_code == 200
-            except Exception as e:
-                print(f"Error enviando notificación: {e}")
-                return False
-        
-        start_time = datetime.now().strftime('%H:%M:%S')
-        trigger_type = "${{ github.event_name }}"
-        
-        if trigger_type == "repository_dispatch":
-            msg = f"🚀 <b>Procesamiento iniciado por webhook</b> - {start_time}\n⚡ Respuesta instantánea activada"
-        else:
-            msg = f"🚀 <b>Procesamiento iniciado manualmente</b> - {start_time}"
-            
-        send_notification(msg)
-        EOF
 
     - name: Download from Google Drive
       env:
@@ -186,36 +138,103 @@ jobs:
         download_google_drive_folder()
         EOF
 
-    - name: Execute all scripts
+    - name: Verify ffmpeg installation
+      run: |
+        echo "🔧 Verificando instalación de ffmpeg..."
+        ffmpeg -version
+        which ffmpeg
+
+    - name: Execute 1_monitor.py
+      run: |
+        echo "📊 Ejecutando 1_monitor.py..."
+        python 1_monitor.py
+
+    - name: Execute 2_levelonefilter.py
+      run: |
+        echo "🔍 Ejecutando 2_levelonefilter.py..."
+        python 2_levelonefilter.py
+
+    - name: Execute 3_metadata.py
+      run: |
+        echo "📝 Ejecutando 3_metadata.py..."
+        python 3_metadata.py
+
+    - name: Execute 4_metadataextra.py
+      run: |
+        echo "📋 Ejecutando 4_metadataextra.py..."
+        python 4_metadataextra.py
+
+    - name: Execute 5_update_status.py
+      run: |
+        echo "🔄 Ejecutando 5_update_status.py..."
+        python 5_update_status.py
+
+    - name: Execute 6_check_metadata.py
+      run: |
+        echo "✅ Ejecutando 6_check_metadata.py..."
+        python 6_check_metadata.py
+
+    - name: Execute 7_uploadable.py
+      run: |
+        echo "📤 Ejecutando 7_uploadable.py..."
+        python 7_uploadable.py
+
+    - name: Execute 8_edit.py
+      run: |
+        echo "✏️ Ejecutando 8_edit.py..."
+        python 8_edit.py
+
+    - name: Execute 9_edit.py
+      run: |
+        echo "✏️ Ejecutando 9_edit.py..."
+        python 9_edit.py
+
+    - name: Execute 10_edit.py
+      run: |
+        echo "✏️ Ejecutando 10_edit.py..."
+        python 10_edit.py
+
+    - name: Execute 11_updatemetadata.py
       env:
         CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
         BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       run: |
-        echo "📊 Ejecutando secuencia completa..."
-        
-        # Lista de scripts a ejecutar
-        scripts=("1_monitor.py" "2_levelonefilter.py" "3_metadata.py" "4_metadataextra.py" "5_update_status.py" "6_check_metadata.py" "7_uploadable.py" "8_edit.py" "9_edit.py" "10_edit.py" "11_updatemetadata.py")
-        
-        for script in "${scripts[@]}"; do
-          echo "🔄 Ejecutando $script..."
-          python "$script" || echo "⚠️ Error en $script, continuando..."
-        done
-        
-        echo "☁️ Ejecutando upload..."
-        timeout 300s python 12_upload.py || echo "⚠️ Upload terminado"
-        
-        echo "🧹 Limpiando..."
-        python 13_clean.py
+        echo "🔄 Ejecutando 11_updatemetadata.py..."
+        python 11_updatemetadata.py
 
-    - name: Commit changes
+    - name: Execute 12_upload.py
       run: |
+        echo "☁️ Ejecutando 12_upload.py..."
+        timeout 300s python 12_upload.py || echo "⚠️ 12_upload.py terminado por timeout o completado"
+
+    - name: Execute 13_clean.py
+      run: |
+        echo "🧹 Ejecutando 13_clean.py..."
+        python 13_clean.py
+        
+    - name: Check for changes (excluding specific folders)
+      id: check_changes
+      run: |
+        # Verificar cambios excluyendo las carpetas uploadable y videos
         git add .
         git reset -- uploadable/ videos/ 2>/dev/null || true
-        git diff --staged --quiet || {
-          git commit -m "🤖 Automated update via webhook: $(date)"
-          git push origin ${{ github.ref_name }}
-        }
+        
+        # Verificar si hay cambios para commitear
+        if git diff --staged --quiet; then
+          echo "No hay cambios para commitear (excluyendo uploadable/ y videos/)"
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "Hay cambios para commitear"
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Commit and push changes
+      if: steps.check_changes.outputs.has_changes == 'true'
+      run: |
+        # Hacer commit solo de los archivos que no están en uploadable/ y videos/
+        git commit -m "🤖 Automated update: $(date '+%Y-%m-%d %H:%M:%S UTC')"
+        git push origin ${{ github.ref_name }}
 
     - name: Send completion notification
       if: always()
@@ -236,7 +255,7 @@ jobs:
                 url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
                 response = requests.post(
                     url,
-                    {"chat_id": chat_id, "text": message, "parse_mode": "HTML"},
+                    {"chat_id": chat_id, "text": message},
                     timeout=10
                 )
                 return response.status_code == 200
@@ -245,19 +264,6 @@ jobs:
                 return False
         
         completion_time = datetime.now().strftime('%H:%M:%S')
-        job_status = "${{ job.status }}"
-        
-        if job_status == "success":
-            final_msg = f"""✅ <b>Automatización completada</b> - {completion_time}
-            
-⚡ <b>Webhook activo</b> - Respuesta instantánea
-💬 Escribe <code>start</code> para ejecutar de nuevo
-📊 <a href="https://github.com/${{ github.repository }}/actions">Ver Actions</a>"""
-        else:
-            final_msg = f"""❌ <b>Error en automatización</b> - {completion_time}
-            
-🔧 <a href="https://github.com/${{ github.repository }}/actions">Revisar logs</a>
-💬 Escribe <code>start</code> para reintentar"""
-            
+        final_msg = f"✅ Automatización completada - {completion_time}\n💬 Escribe 'start' para ejecutar de nuevo"
         send_notification(final_msg)
         EOF
