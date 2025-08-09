@@ -30,19 +30,17 @@ class VideoUploader:
         self.uploadable_dir = self.script_dir / "uploadable"
         
         # Configuración Telegram
-        self.bot_token = "7869024150:AAGFO6ZvpO4-5J4karX_lef252tkD3BhclE"
-        self.chat_id = "6166225652"
+        self.bot_token = os.environ.get('BOT_TOKEN', "7869024150:AAGFO6ZvpO4-5J4karX_lef252tkD3BhclE")
+        self.chat_id = os.environ.get('CHAT_ID', "6166225652")
         
         # Configuración YouTube API
         self.SCOPES = ['https://www.googleapis.com/auth/youtube.upload']
         self.CLIENT_SECRETS_FILE = "client_secrets.json"
         self.TOKEN_FILE = "youtube_token.json"
         
-        self.pending_uploads = {}
-        self.processed_update_ids = set()
-        
         if not self.uploadable_dir.exists():
-            raise FileNotFoundError(f"La carpeta uploadable no existe: {self.uploadable_dir}")
+            logging.warning(f"La carpeta uploadable no existe: {self.uploadable_dir}")
+            self.uploadable_dir.mkdir(exist_ok=True)
     
     def send_telegram_message(self, message):
         """Envía mensaje por Telegram"""
@@ -54,56 +52,6 @@ class VideoUploader:
         except Exception as e:
             logging.error(f"[TELEGRAM] Error: {e}")
             return False
-    
-    def send_video_preview(self, video_file, thumbnail_file, video_data):
-        """Envía preview del video por Telegram"""
-        try:
-            url = f"https://api.telegram.org/bot{self.bot_token}/sendPhoto"
-            with open(thumbnail_file, 'rb') as photo:
-                files = {'photo': photo}
-                data = {
-                    'chat_id': self.chat_id,
-                    'caption': f"🎬 <b>Autorización requerida</b>\n\n"
-                              f"📝 <b>Título:</b> {video_data.get('title', 'Sin título')[:100]}...\n"
-                              f"🆔 <b>Video ID:</b> <code>{video_data.get('video_id', 'N/A')}</code>\n"
-                              f"📁 <b>Video:</b> {video_file.name}\n"
-                              f"🖼️ <b>Thumbnail:</b> {thumbnail_file.name}\n\n"
-                              f"Responde: <code>yes {video_data.get('video_id', 'N/A')}</code>",
-                    'parse_mode': 'HTML'
-                }
-                response = requests.post(url, files=files, data=data, timeout=30)
-                return response.status_code == 200
-        except Exception as e:
-            logging.error(f"[TELEGRAM] Error en preview: {e}")
-            return False
-    
-    def check_telegram_updates(self):
-        """Verifica autorizaciones en Telegram"""
-        try:
-            url = f"https://api.telegram.org/bot{self.bot_token}/getUpdates"
-            response = requests.get(url, timeout=10)
-            
-            if response.status_code == 200:
-                data = response.json()
-                if data['ok'] and data['result']:
-                    for update in data['result']:
-                        update_id = update.get('update_id')
-                        if update_id in self.processed_update_ids:
-                            continue
-                        
-                        self.processed_update_ids.add(update_id)
-                        message_text = update.get('message', {}).get('text', '').strip()
-                        
-                        if message_text.lower().startswith('yes '):
-                            video_id = message_text[4:].strip()
-                            # Buscar coincidencia case-insensitive
-                            for pending_id in self.pending_uploads.keys():
-                                if pending_id.lower() == video_id.lower():
-                                    return pending_id
-            return None
-        except Exception as e:
-            logging.error(f"[TELEGRAM] Error: {e}")
-            return None
     
     def get_youtube_service(self):
         """Obtiene servicio de YouTube API"""
@@ -128,9 +76,12 @@ class VideoUploader:
                     logging.error(f"[YOUTUBE] client_secrets.json no encontrado")
                     return None
                 
-                flow = InstalledAppFlow.from_client_secrets_file(self.CLIENT_SECRETS_FILE, self.SCOPES)
-                credentials = flow.run_local_server(port=0)
-            
+                # En entorno de GitHub Actions, no podemos hacer autenticación interactiva
+                logging.error("[YOUTUBE] Se requiere autenticación interactiva, no disponible en GitHub Actions")
+                return None
+        
+        if credentials:
+            # Guardar credenciales actualizadas
             with open(self.TOKEN_FILE, 'w') as token:
                 token.write(credentials.to_json())
         
@@ -301,6 +252,7 @@ class VideoUploader:
         try:
             youtube = self.get_youtube_service()
             if not youtube:
+                logging.error("[YOUTUBE] No se pudo obtener servicio de YouTube")
                 return False
             
             body = {
@@ -365,21 +317,27 @@ class VideoUploader:
                 return self.save_data_json(videos)
         return False
     
-    def process_ready_videos(self):
-        """Procesa videos listos"""
+    def process_ready_videos_auto(self):
+        """Procesa videos listos automáticamente (SIN AUTORIZACIÓN)"""
         videos = self.load_data_json()
         ready_videos = [v for v in videos if v.get('status') == 'ok']
         
         if not ready_videos:
+            logging.info("[PROCESS] No hay videos listos para subir")
             self.send_telegram_message("ℹ️ No hay videos listos para subir")
             return
         
-        logging.info(f"[PROCESS] {len(ready_videos)} videos listos")
-        self.processed_update_ids.clear()
+        logging.info(f"[PROCESS] {len(ready_videos)} videos listos para subir automáticamente")
+        self.send_telegram_message(f"🚀 Iniciando subida automática de {len(ready_videos)} videos")
+        
+        uploaded_count = 0
+        error_count = 0
         
         for video_data in ready_videos:
             title = video_data.get('title', 'Sin título')
             video_id = video_data.get('video_id', '')
+            
+            logging.info(f"[UPLOAD] Procesando: {title}")
             
             # Buscar archivos con coincidencia por primeras 3 palabras o fallback a archivos únicos
             json_file, video_file, thumbnail_file, metadata = self.find_exact_match_files(title)
@@ -393,95 +351,73 @@ class VideoUploader:
                 
                 logging.error(f"[ERROR] Faltan archivos para '{title}': {', '.join(missing)}")
                 self.update_video_status(video_id, f'error - faltan: {", ".join(missing)}')
+                error_count += 1
                 continue
             
-            # Si no hay thumbnail, usar imagen por defecto o continuar sin ella
+            # Si no hay thumbnail, continuar sin ella
             if not thumbnail_file:
                 logging.warning(f"[WARNING] No se encontró thumbnail para: {title}, continuando sin thumbnail")
             
-            # Enviar preview
-            if not self.send_video_preview(video_file, thumbnail_file, video_data):
-                self.update_video_status(video_id, 'error - preview fallido')
-                continue
+            # Actualizar estado a "uploading"
+            self.update_video_status(video_id, 'uploading')
             
-            # Guardar para autorización
-            self.pending_uploads[video_id] = {
-                'video_data': video_data,
-                'json_file': json_file,
-                'video_file': video_file,
-                'thumbnail_file': thumbnail_file,
-                'metadata': metadata
-            }
-        
-        if self.pending_uploads:
-            self.wait_for_authorizations()
-    
-    def wait_for_authorizations(self):
-        """Espera autorizaciones"""
-        max_wait = min(300 * len(self.pending_uploads), 1800)  # Max 30 min
-        start_time = datetime.now()
-        
-        while self.pending_uploads:
-            if (datetime.now() - start_time).total_seconds() > max_wait:
-                break
+            # Subir a YouTube
+            youtube_id = self.upload_video_to_youtube(video_file, thumbnail_file, metadata)
             
-            authorized_id = self.check_telegram_updates()
-            if authorized_id and authorized_id in self.pending_uploads:
-                upload_data = self.pending_uploads.pop(authorized_id)
+            if youtube_id:
+                # Éxito: actualizar estado y limpiar archivos
+                self.update_video_status(video_id, 'uploaded', youtube_id)
+                uploaded_count += 1
                 
-                self.update_video_status(authorized_id, 'uploading')
+                # Eliminar archivos
+                try:
+                    json_file.unlink()
+                    video_file.unlink()
+                    if thumbnail_file:
+                        thumbnail_file.unlink()
+                    logging.info(f"[CLEANUP] Archivos eliminados: {video_id}")
+                except Exception as e:
+                    logging.warning(f"[CLEANUP] Error: {e}")
                 
-                youtube_id = self.upload_video_to_youtube(
-                    upload_data['video_file'],
-                    upload_data['thumbnail_file'],
-                    upload_data['metadata']
-                )
+                # Notificar éxito
+                success_msg = f"✅ <b>Video subido automáticamente</b>\n\n" \
+                            f"📝 <b>Título:</b> {title[:50]}...\n" \
+                            f"🆔 <b>Video ID:</b> <code>{video_id}</code>\n" \
+                            f"📺 <b>YouTube ID:</b> <code>{youtube_id}</code>\n" \
+                            f"🔗 https://youtube.com/watch?v={youtube_id}"
+                self.send_telegram_message(success_msg)
                 
-                if youtube_id:
-                    self.update_video_status(authorized_id, 'uploaded', youtube_id)
-                    
-                    # Eliminar archivos
-                    try:
-                        upload_data['json_file'].unlink()
-                        upload_data['video_file'].unlink()
-                        if upload_data['thumbnail_file']:
-                            upload_data['thumbnail_file'].unlink()
-                        logging.info(f"[CLEANUP] Archivos eliminados: {authorized_id}")
-                    except Exception as e:
-                        logging.warning(f"[CLEANUP] Error: {e}")
-                    
-                    # Notificar éxito
-                    success_msg = f"✅ <b>Video subido</b>\n\n" \
-                                f"🆔 {authorized_id}\n" \
-                                f"📺 {youtube_id}\n" \
-                                f"🔗 https://youtube.com/watch?v={youtube_id}"
-                    self.send_telegram_message(success_msg)
-                else:
-                    self.update_video_status(authorized_id, 'ok')
-                    error_msg = f"❌ Error subiendo: {authorized_id}"
-                    self.send_telegram_message(error_msg)
+            else:
+                # Error: revertir estado a "ok" para reintentar más tarde
+                self.update_video_status(video_id, 'ok')
+                error_count += 1
+                error_msg = f"❌ <b>Error subiendo video</b>\n\n" \
+                           f"📝 <b>Título:</b> {title[:50]}...\n" \
+                           f"🆔 <b>Video ID:</b> <code>{video_id}</code>"
+                self.send_telegram_message(error_msg)
             
-            time.sleep(5)
+            # Pequeña pausa entre subidas
+            time.sleep(2)
         
-        # Timeout para videos no autorizados
-        if self.pending_uploads:
-            timeout_msg = "⏰ Videos no autorizados:\n"
-            for vid_id in self.pending_uploads.keys():
-                timeout_msg += f"• {vid_id}\n"
-                self.update_video_status(vid_id, 'ok')
-            
-            self.send_telegram_message(timeout_msg)
-            self.pending_uploads.clear()
+        # Resumen final
+        final_msg = f"📊 <b>Resumen de subida automática</b>\n\n" \
+                   f"✅ <b>Subidos:</b> {uploaded_count}\n" \
+                   f"❌ <b>Errores:</b> {error_count}\n" \
+                   f"📊 <b>Total procesados:</b> {uploaded_count + error_count}"
+        
+        self.send_telegram_message(final_msg)
+        logging.info(f"[FINISH] Subida automática completada: {uploaded_count} éxitos, {error_count} errores")
 
 def main():
     uploader = VideoUploader()
     try:
-        uploader.process_ready_videos()
+        # Proceso automático sin autorización
+        uploader.process_ready_videos_auto()
         logging.info("[FINISH] Proceso completado")
     except Exception as e:
         logging.error(f"[CRITICAL] Error: {e}")
         try:
-            uploader.send_telegram_message(f"🚨 ERROR CRÍTICO: {str(e)}")
+            uploader.send_telegram_message(f"🚨 ERROR CRÍTICO EN SUBIDA AUTOMÁTICA: {str(e)}")
         except:
             pass
         raise
