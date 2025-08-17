@@ -227,7 +227,7 @@ INSTRUCCIONES ESPECÍFICAS:
 - Hacer el título más atractivo y profesional
 
 2. DESCRIPCIÓN (300-600 palabras):
-- Crear una descripción completamente nueva y atractiva
+- Crear una descripción completamente nueva y atractiva con base a la info del cine mas reciente
 - Incluir emojis relevantes (🎬🔥⚡🎭)
 - Añadir información intrigante sobre la película/serie
 - Incluir llamados a la acción (like, comentario, suscripción)
