@@ -223,7 +223,7 @@ INSTRUCCIONES ESPECÍFICAS:
 - Mantener el nombre de película/serie en MAYÚSCULAS
 - SIEMPRE incluir la palabra "Tráiler" o "Trailer"
 - Si menciona "español latino", mantener esas palabras
-- Mantener el año entre paréntesis (2025)
+- Mantener el año entre paréntesis (2025) y no poner años anteriores al 2025
 - Hacer el título más atractivo y profesional
 
 2. DESCRIPCIÓN (300-600 palabras):
