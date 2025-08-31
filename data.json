@@ -1,5 +1,55 @@
 [
   {
+    "video_id": "stK5fTq6ZqE",
+    "url": "https://www.youtube.com/watch?v=stK5fTq6ZqE",
+    "title": "SISU 2: Camino A La Venganza Tráiler Español (2025)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2025-08-27T14:10:49Z",
+    "found_at": "2025-08-31T23:25:47.740551",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "rUJ1OCDO0sc",
+    "url": "https://www.youtube.com/watch?v=rUJ1OCDO0sc",
+    "title": "MIÉRCOLES Temporada 2 Parte 2 Tráiler Español (2025)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2025-08-27T12:09:41Z",
+    "found_at": "2025-08-31T23:25:47.740565",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "c9JaXlVCjks",
+    "url": "https://www.youtube.com/watch?v=c9JaXlVCjks",
+    "title": "ALICE IN BORDERLAND Temporada 3 Tráiler 2 Español (2025)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2025-08-27T02:31:54Z",
+    "found_at": "2025-08-31T23:25:47.740569",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "jXvFkUnBxAE",
+    "url": "https://www.youtube.com/watch?v=jXvFkUnBxAE",
+    "title": "RETURN TO SILENT HILL Tráiler (2025)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2025-08-27T01:43:11Z",
+    "found_at": "2025-08-31T23:25:47.740571",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "8di9e5iGPwE",
+    "url": "https://www.youtube.com/watch?v=8di9e5iGPwE",
+    "title": "JUEGO SUCIO Tráiler Español (2025) Mark Wahlberg, Shane Black",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2025-08-26T16:16:17Z",
+    "found_at": "2025-08-31T23:25:47.740574",
+    "status": "metadata_update"
+  },
+  {
     "video_id": "NmlLY4SVaSo",
     "url": "https://www.youtube.com/watch?v=NmlLY4SVaSo",
     "title": "DEL CIELO AL INFIERNO Tráiler Español Latino Subtitulado (2025) Denzel Washington",
@@ -7,7 +57,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-08-08T15:44:42Z",
     "found_at": "2025-08-08T17:19:56.661808",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "d6TcMrzXCsA",
@@ -17,7 +67,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-08-08T10:05:59Z",
     "found_at": "2025-08-08T17:19:56.661822",
-    "status": "pending",
+    "status": "metadata_update",
     "metadata_updated_at": "2025-08-09T15:47:05.632065",
     "uploaded_at": "2025-08-09T15:52:10.370771"
   },
@@ -29,7 +79,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-08-07T16:32:38+00:00",
     "found_at": "2025-08-07T23:11:28.662914",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "4tL6DlDGkH4",
@@ -39,7 +89,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-08-07T15:27:52+00:00",
     "found_at": "2025-08-07T23:11:28.662941",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "Glfc0mhqsZE",
@@ -49,7 +99,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-08-07T13:06:07+00:00",
     "found_at": "2025-08-07T23:11:28.662953",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "rLaA_GHkKh4",
@@ -59,7 +109,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-08-07T00:30:48+00:00",
     "found_at": "2025-08-07T23:11:28.662962",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "acwv1gQgd0Y",
@@ -69,7 +119,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-08-06T15:02:47+00:00",
     "found_at": "2025-08-07T23:11:28.662970",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "wM-lLkS5sNg",
@@ -79,7 +129,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-08-06T12:51:47+00:00",
     "found_at": "2025-08-07T23:11:28.662978",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "6aLn4zDM62E",
@@ -89,7 +139,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-08-05T17:20:23+00:00",
     "found_at": "2025-08-07T23:11:28.662986",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "uOVwgccGOYk",
@@ -99,7 +149,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-08-05T16:30:19+00:00",
     "found_at": "2025-08-07T23:11:28.662994",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "WUxDbrkgXhA",
@@ -109,7 +159,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-08-05T15:30:30+00:00",
     "found_at": "2025-08-07T23:11:28.663003",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "k3o2pN49lM4",
@@ -119,7 +169,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-08-05T14:23:00+00:00",
     "found_at": "2025-08-07T23:11:28.663011",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "XRHAyR-kmM4",
@@ -129,7 +179,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-08-05T14:12:48+00:00",
     "found_at": "2025-08-07T23:11:28.663019",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "SQs3LC9Sj1U",
@@ -139,7 +189,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-08-05T13:55:39+00:00",
     "found_at": "2025-08-07T23:52:42.154620",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "bWbIj1KfCg0",
@@ -149,57 +199,127 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-08-05T13:28:23+00:00",
     "found_at": "2025-08-07T23:52:42.154639",
-    "status": "metadata_update"
-  },
-  {
-    "video_id": "c_vK9NSAEpQ",
-    "url": "https://www.youtube.com/watch?v=c_vK9NSAEpQ",
-    "title": "DRÁCULA Tráiler 2 Español Latino (2025)",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2025-08-05T12:30:54+00:00",
-    "found_at": "2025-08-07T23:52:42.154647",
-    "status": "metadata_update"
-  },
-  {
-    "video_id": "neRcMWY9T6c",
-    "url": "https://www.youtube.com/watch?v=neRcMWY9T6c",
-    "title": "TORMENTA DE NIEVE Tráiler Español Latino (2025) Donnie Yen",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2025-08-05T11:30:43+00:00",
-    "found_at": "2025-08-07T23:52:42.154655",
-    "status": "metadata_update"
-  },
-  {
-    "video_id": "jGI_-Y-0NHk",
-    "url": "https://www.youtube.com/watch?v=jGI_-Y-0NHk",
-    "title": "ELLA MCCAY Tráiler Español (2025) Emma Mackey, Woody Harrelson",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2025-08-04T17:21:19Z",
-    "found_at": "2025-08-08T00:44:25.277423",
     "status": "pending"
   },
   {
-    "video_id": "BLHOYS18bzc",
-    "url": "https://www.youtube.com/watch?v=BLHOYS18bzc",
-    "title": "ELLA MCCAY: IMPERFECTAMENTE PERFECTA Tráiler Español Latino (2025)",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2025-08-04T16:23:20Z",
-    "found_at": "2025-08-08T00:44:25.277439",
-    "status": "pending"
+    "video_id": "njSgmGQzEH0",
+    "url": "https://www.youtube.com/watch?v=njSgmGQzEH0",
+    "title": "French Lover | Tráiler oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2025-08-29T16:00:03Z",
+    "found_at": "2025-08-31T23:25:48.057909",
+    "status": "metadata_update"
   },
   {
-    "video_id": "mKb930Ue44I",
-    "url": "https://www.youtube.com/watch?v=mKb930Ue44I",
-    "title": "SR. BLAKE AO SEU DISPOR Tráiler Español Subtitulado (2025) John Malkovich",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2025-08-04T15:22:55Z",
-    "found_at": "2025-08-08T00:44:25.277442",
-    "status": "pending"
+    "video_id": "wnxStV0YPng",
+    "url": "https://www.youtube.com/watch?v=wnxStV0YPng",
+    "title": "Cuenta atrás: Canelo vs. Crawford | Trailer Oficial | Netflix Latinoamérica",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2025-08-28T22:01:09Z",
+    "found_at": "2025-08-31T23:25:48.057918",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "X5wEGfGR0V8",
+    "url": "https://www.youtube.com/watch?v=X5wEGfGR0V8",
+    "title": "Rut y Booz | Tráiler oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2025-08-28T16:00:00Z",
+    "found_at": "2025-08-31T23:25:48.057922",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "B3NsMQAGMa8",
+    "url": "https://www.youtube.com/watch?v=B3NsMQAGMa8",
+    "title": "Juan Gabriel: Debo, puedo y quiero | Avance oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2025-08-28T15:00:01Z",
+    "found_at": "2025-08-31T23:25:48.057924",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "OE55OWS5G9A",
+    "url": "https://www.youtube.com/watch?v=OE55OWS5G9A",
+    "title": "Incontrolables | Tráiler oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2025-08-28T13:30:00Z",
+    "found_at": "2025-08-31T23:25:48.057926",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "jZ7wEqONESw",
+    "url": "https://www.youtube.com/watch?v=jZ7wEqONESw",
+    "title": "El genio y los deseos | Avance oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2025-08-28T00:00:02Z",
+    "found_at": "2025-08-31T23:25:48.057929",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "V_Qp-8b82XM",
+    "url": "https://www.youtube.com/watch?v=V_Qp-8b82XM",
+    "title": "La huésped | Tráiler oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2025-08-27T13:30:00Z",
+    "found_at": "2025-08-31T23:25:48.057931",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "0PltObdgkcU",
+    "url": "https://www.youtube.com/watch?v=0PltObdgkcU",
+    "title": "Canelo Álvarez vs. Terence Crawford | Tráiler oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2025-08-27T13:00:00Z",
+    "found_at": "2025-08-31T23:25:48.057933",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "56PBIo1zOgQ",
+    "url": "https://www.youtube.com/watch?v=56PBIo1zOgQ",
+    "title": "Alice in Borderland: Temporada 3 | Tráiler oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2025-08-26T21:00:04Z",
+    "found_at": "2025-08-31T23:25:48.057935",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "GL1t4xbHz-M",
+    "url": "https://www.youtube.com/watch?v=GL1t4xbHz-M",
+    "title": "La mujer del camarote 10 | Tráiler oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2025-08-26T12:00:02Z",
+    "found_at": "2025-08-31T23:25:48.057942",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "Ox7nUi1QOkY",
+    "url": "https://www.youtube.com/watch?v=Ox7nUi1QOkY",
+    "title": "Tú y todo lo demás | Tráiler oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2025-08-26T00:00:00Z",
+    "found_at": "2025-08-31T23:25:48.057944",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "Hq4e_1UgtyM",
+    "url": "https://www.youtube.com/watch?v=Hq4e_1UgtyM",
+    "title": "Eres mi sobaco🗣️‼️🔥",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2025-08-22T18:00:18Z",
+    "found_at": "2025-08-31T23:25:48.057947",
+    "status": "metadata_update"
   },
   {
     "video_id": "ZwaNq5skjY4",
@@ -209,7 +329,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-08-08T18:00:00Z",
     "found_at": "2025-08-08T18:07:28.480017",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "CKfksYj4FNw",
@@ -219,7 +339,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-08-08T16:00:27Z",
     "found_at": "2025-08-08T17:19:56.929974",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "By3S35amREw",
@@ -229,7 +349,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-08-08T15:00:00Z",
     "found_at": "2025-08-08T17:19:56.929982",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "UjmiiOLYGq8",
@@ -239,7 +359,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-08-08T00:30:00+00:00",
     "found_at": "2025-08-08T00:31:19.431047",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "hd9qX4Xld-g",
@@ -249,7 +369,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-08-07T22:00:55+00:00",
     "found_at": "2025-08-07T23:11:28.823722",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "Z1hI3Q9SELk",
@@ -259,7 +379,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-08-07T16:01:09+00:00",
     "found_at": "2025-08-07T23:11:28.823743",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "jk5rwKk3Kpo",
@@ -269,7 +389,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-08-07T13:15:00+00:00",
     "found_at": "2025-08-07T23:11:28.823752",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "nmt594aKD9U",
@@ -279,129 +399,47 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-08-06T20:00:38+00:00",
     "found_at": "2025-08-07T23:11:28.823761",
-    "status": "pending"
-  },
-  {
-    "video_id": "Tk3J-37mOLQ",
-    "url": "https://www.youtube.com/watch?v=Tk3J-37mOLQ",
-    "title": "Merlibandida, México te espera | Merlina: Temporada 2 | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2025-08-06T18:00:00+00:00",
-    "found_at": "2025-08-07T23:11:28.823771",
-    "status": "pending"
-  },
-  {
-    "video_id": "xIYeJI2HQqg",
-    "url": "https://www.youtube.com/watch?v=xIYeJI2HQqg",
-    "title": "El otro París | Miranda Cosgrove y Pierson Fodé | Tráiler oficial | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2025-08-06T16:00:01+00:00",
-    "found_at": "2025-08-07T23:11:28.823779",
-    "status": "pending"
-  },
-  {
-    "video_id": "Yqvwaw3YnkI",
-    "url": "https://www.youtube.com/watch?v=Yqvwaw3YnkI",
-    "title": "Oriana Sabatini se postula a la Academia Nevermore | Merlina 2 | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2025-08-06T14:00:00+00:00",
-    "found_at": "2025-08-07T23:11:28.823786",
-    "status": "pending"
-  },
-  {
-    "video_id": "sZfeKQ2ORMc",
-    "url": "https://www.youtube.com/watch?v=sZfeKQ2ORMc",
-    "title": "Pedrito Sola escribe carta a Merlina I Merlina: Temporada 2 I Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2025-08-05T22:00:59+00:00",
-    "found_at": "2025-08-07T23:11:28.823794",
-    "status": "pending"
-  },
-  {
-    "video_id": "chzFBeO5XN0",
-    "url": "https://www.youtube.com/watch?v=chzFBeO5XN0",
-    "title": "Benito hace el doblaje de películas de Adam Sandler | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2025-08-05T18:00:39+00:00",
-    "found_at": "2025-08-07T23:11:28.823801",
-    "status": "pending"
-  },
-  {
-    "video_id": "_Huo5a_m99Q",
-    "url": "https://www.youtube.com/watch?v=_Huo5a_m99Q",
-    "title": "Takedown: Las guerreras K-pop 2025  | Clip oficial | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2025-08-05T16:00:56+00:00",
-    "found_at": "2025-08-07T23:11:28.823809",
-    "status": "pending"
-  },
-  {
-    "video_id": "FZEY7rsExKw",
-    "url": "https://www.youtube.com/watch?v=FZEY7rsExKw",
-    "title": "Mi vida con los chicos Walter: Temporada 2 | Tráiler oficial | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2025-08-05T15:00:00+00:00",
-    "found_at": "2025-08-07T23:11:28.823816",
-    "status": "pending"
-  },
-  {
-    "video_id": "VfToNVXPLhQ",
-    "url": "https://www.youtube.com/watch?v=VfToNVXPLhQ",
-    "title": "Jay Kelly | Avance oficial | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2025-08-05T14:00:04+00:00",
-    "found_at": "2025-08-07T23:52:42.466578",
     "status": "metadata_update"
   },
   {
-    "video_id": "FbNXebJYN3s",
-    "url": "https://www.youtube.com/watch?v=FbNXebJYN3s",
-    "title": "Jay Kelly | Avance oficial | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2025-08-05T14:00:03+00:00",
-    "found_at": "2025-08-07T23:52:42.466595",
+    "video_id": "oFeuxQsjqfI",
+    "url": "https://www.youtube.com/watch?v=oFeuxQsjqfI",
+    "title": "James Gunn + una tómbola misteriosa = Caos garantizado 🦅 #Peacemaker #JamesGunn",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2025-08-29T01:00:57Z",
+    "found_at": "2025-08-31T23:25:48.348296",
     "status": "metadata_update"
   },
   {
-    "video_id": "PdvrBI1RNRw",
-    "url": "https://www.youtube.com/watch?v=PdvrBI1RNRw",
-    "title": "Merlina, tu tierra te llama | Merlina temporada 2 | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2025-08-04T18:00:00+00:00",
-    "found_at": "2025-08-07T23:52:42.466604",
+    "video_id": "-oZ80yoKzJI",
+    "url": "https://www.youtube.com/watch?v=-oZ80yoKzJI",
+    "title": "Marcial Maciel: El Lobo de Dios | Episodio 4 | HBO Max",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2025-08-28T15:00:01Z",
+    "found_at": "2025-08-31T23:25:48.348305",
     "status": "metadata_update"
   },
   {
-    "video_id": "oMi_EVYfso0",
-    "url": "https://www.youtube.com/watch?v=oMi_EVYfso0",
-    "title": "How It's Done: Las guerreras K-pop 2025  | Clip oficial | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2025-08-04T16:01:19+00:00",
-    "found_at": "2025-08-07T23:52:42.466611",
+    "video_id": "q-iAfldQezY",
+    "url": "https://www.youtube.com/watch?v=q-iAfldQezY",
+    "title": "Peacemaker: El Podcast Oficial con James Gunn | Temporada 2 Episodio 1 | HBO Max",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2025-08-26T17:06:39Z",
+    "found_at": "2025-08-31T23:25:48.348308",
     "status": "metadata_update"
   },
   {
-    "video_id": "mYvCKNqi1oE",
-    "url": "https://www.youtube.com/watch?v=mYvCKNqi1oE",
-    "title": "Bon appétit, majestad | AVANCE ESPECIAL | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2025-08-04T02:00:01Z",
-    "found_at": "2025-08-08T00:44:25.625015",
-    "status": "pending",
-    "metadata_updated_at": "2025-08-08T18:09:03.740425",
-    "uploaded_at": "2025-08-08T17:29:55.242737"
+    "video_id": "d6uTAmI6gJY",
+    "url": "https://www.youtube.com/watch?v=d6uTAmI6gJY",
+    "title": "Peacemaker Temporada 2 | Nuevo intro | HBO Max",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2025-08-22T22:02:16Z",
+    "found_at": "2025-08-31T23:25:48.348311",
+    "status": "metadata_update"
   },
   {
     "video_id": "P_ebgK2Ng9c",
@@ -411,7 +449,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-08-09T15:00:43Z",
     "found_at": "2025-08-09T15:10:27.145430",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "CfjoLF-r6mM",
@@ -421,7 +459,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-08-08T21:07:49Z",
     "found_at": "2025-08-09T14:56:23.346191",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "xV-Wl1ipnTQ",
@@ -431,7 +469,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-08-07T00:01:12Z",
     "found_at": "2025-08-08T00:44:25.967923",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "3oFuw8u1AI0",
@@ -441,7 +479,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-07-31T16:17:18+00:00",
     "found_at": "2025-08-07T23:11:29.028889",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "p-xndEqOTNw",
@@ -451,7 +489,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-07-30T23:00:51Z",
     "found_at": "2025-08-08T00:44:25.967938",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "v28Qwgonzf8",
@@ -461,7 +499,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-07-30T17:04:54+00:00",
     "found_at": "2025-08-07T23:11:29.028908",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "EKa6SycBnRo",
@@ -471,7 +509,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-07-30T17:04:52+00:00",
     "found_at": "2025-08-07T23:11:29.028916",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "m5pdLbOsQuo",
@@ -481,7 +519,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-07-27T15:32:11+00:00",
     "found_at": "2025-08-07T23:11:29.028931",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "TdWLJlBwcD8",
@@ -491,7 +529,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-07-27T15:16:00+00:00",
     "found_at": "2025-08-07T23:11:29.028939",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "SfTyKHGC7TU",
@@ -501,7 +539,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-07-26T22:52:59+00:00",
     "found_at": "2025-08-07T23:11:29.028947",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "L04eXyXbL_o",
@@ -511,7 +549,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-07-26T22:51:20+00:00",
     "found_at": "2025-08-07T23:11:29.028954",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "Y1ibG8etPtg",
@@ -521,7 +559,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-07-25T17:00:54+00:00",
     "found_at": "2025-08-07T23:11:29.028978",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "r1hjaB47WCg",
@@ -531,7 +569,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2024-12-23T17:00:53Z",
     "found_at": "2025-08-08T00:44:25.967941",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "wu4yp42uG1o",
@@ -541,7 +579,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2024-10-04T00:13:54Z",
     "found_at": "2025-08-08T00:44:25.967944",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "SJniNyCUuOs",
@@ -551,7 +589,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2024-04-22T21:15:56Z",
     "found_at": "2025-08-08T00:44:25.967947",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "bEknsQNwEKk",
@@ -561,27 +599,127 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2024-04-22T16:00:28Z",
     "found_at": "2025-08-08T00:44:25.967950",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
-    "video_id": "Gvq2FDXXBwQ",
-    "url": "https://www.youtube.com/watch?v=Gvq2FDXXBwQ",
-    "title": "No importa en qué universo cinematográfico te escondas, no podrás escapar de Annabelle",
-    "channel": "HBO Max Latinoamérica",
-    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
-    "published": "2023-11-27T16:45:20Z",
-    "found_at": "2025-08-08T00:44:25.967952",
-    "status": "pending"
+    "video_id": "CQr4pQ6Q7OU",
+    "url": "https://www.youtube.com/watch?v=CQr4pQ6Q7OU",
+    "title": "Para qué un novio que te proteja CUANDO TIENES A MAX BLACK 😮‍💨​ #2BrokeGirls #Shorts",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2025-08-31T21:00:34Z",
+    "found_at": "2025-08-31T23:25:48.632343",
+    "status": "metadata_update"
   },
   {
-    "video_id": "n6AteSN2CxQ",
-    "url": "https://www.youtube.com/watch?v=n6AteSN2CxQ",
-    "title": "Imagina tener vecinos como esos | HBOMax | #Shorts",
-    "channel": "HBO Max Latinoamérica",
-    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
-    "published": "2023-05-03T18:00:21Z",
-    "found_at": "2025-08-08T00:44:25.967954",
-    "status": "pending"
+    "video_id": "geHy25hbrc4",
+    "url": "https://www.youtube.com/watch?v=geHy25hbrc4",
+    "title": "AL MENOS CONSIGUIÓ VACACIONES PAGAS EN ASPEN ¿NO? #TheNanny #Shorts",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2025-08-31T16:00:44Z",
+    "found_at": "2025-08-31T23:25:48.632355",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "FIqk63jc7Y8",
+    "url": "https://www.youtube.com/watch?v=FIqk63jc7Y8",
+    "title": "DETRÁS DEL TERROR hay risas…  ¿sí o no? 🎬​ #Terrifier #Shorts #Detrásdecámaras #BTS",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2025-08-30T21:00:47Z",
+    "found_at": "2025-08-31T23:25:48.632359",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "w_UJomzVxaY",
+    "url": "https://www.youtube.com/watch?v=w_UJomzVxaY",
+    "title": "En el fin del mundo… ¿eres team perrito o team solitario?  ​#Fallout #Shorts #Ghoul #CX404",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2025-08-30T16:00:52Z",
+    "found_at": "2025-08-31T23:25:48.632361",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "Ttd-XUidmcQ",
+    "url": "https://www.youtube.com/watch?v=Ttd-XUidmcQ",
+    "title": "El Verano en que me Enamoré Temporada 3 - Tráiler 2 | Prime Video",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2025-08-29T15:00:56Z",
+    "found_at": "2025-08-31T23:25:48.632364",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "IVavbYpDVZs",
+    "url": "https://www.youtube.com/watch?v=IVavbYpDVZs",
+    "title": "Baby despierta, hay drama la noche antes de la boda. #ElVeranoEnQueMeEnamoré #shorts",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2025-08-28T21:05:16Z",
+    "found_at": "2025-08-31T23:25:48.632367",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "-A-i2mjcTfo",
+    "url": "https://www.youtube.com/watch?v=-A-i2mjcTfo",
+    "title": "LOL Argentina - Temporada 2 | Tráiler oficial",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2025-08-28T14:02:31Z",
+    "found_at": "2025-08-31T23:25:48.632369",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "jBD3reNPf7g",
+    "url": "https://www.youtube.com/watch?v=jBD3reNPf7g",
+    "title": "Hablemos de lo bien que le queda a ​Antony Starr ser Homelander.  #GENV #Shorts",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2025-08-27T21:00:27Z",
+    "found_at": "2025-08-31T23:25:48.632372",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "dRLRsd2a57w",
+    "url": "https://www.youtube.com/watch?v=dRLRsd2a57w",
+    "title": "¿Se atreverían a aplicar los CONSEJOS DE BERTA en la vida real? 😂 #TwoAndAHalfMen #shorts #humor",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2025-08-27T16:13:10Z",
+    "found_at": "2025-08-31T23:25:48.632375",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "8Nbw3FDM5wM",
+    "url": "https://www.youtube.com/watch?v=8Nbw3FDM5wM",
+    "title": "Belly no puede dejar de pensar en Conrad en el club | El Verano en que me Enamoré | Prime Video",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2025-08-26T23:00:51Z",
+    "found_at": "2025-08-31T23:25:48.632377",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "7IF4dMXnORo",
+    "url": "https://www.youtube.com/watch?v=7IF4dMXnORo",
+    "title": "Juego Sucio - Tráiler Oficial | Prime Video",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2025-08-26T14:00:15Z",
+    "found_at": "2025-08-31T23:25:48.632380",
+    "status": "metadata_update"
+  },
+  {
+    "video_id": "Vc7nPBsB45E",
+    "url": "https://www.youtube.com/watch?v=Vc7nPBsB45E",
+    "title": "Dame el mejor primer capítulo de una serie. #TheGoodDoctor #DrShaunMurphy #shorts",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2025-08-11T21:00:30Z",
+    "found_at": "2025-08-31T23:25:48.632382",
+    "status": "metadata_update"
   },
   {
     "video_id": "A_vcEiqPR4I",
@@ -591,7 +729,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-08-08T16:30:26Z",
     "found_at": "2025-08-08T17:19:57.650849",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "kMu98LoCCzs",
@@ -601,7 +739,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-08-07T21:08:49Z",
     "found_at": "2025-08-08T00:44:26.244273",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "2Gbv1Q_k1mI",
@@ -611,7 +749,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-08-07T16:00:32Z",
     "found_at": "2025-08-08T00:44:26.244289",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "iiV026X2K3w",
@@ -621,7 +759,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-08-07T15:01:21+00:00",
     "found_at": "2025-08-07T23:11:29.296510",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "OK-RO7ykOVY",
@@ -631,7 +769,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-08-06T21:00:44Z",
     "found_at": "2025-08-08T00:44:26.244293",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "6dmY6yDR19Q",
@@ -641,7 +779,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-08-06T16:03:04Z",
     "found_at": "2025-08-08T00:44:26.244296",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "4ELM8hOjnU4",
@@ -651,7 +789,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-08-05T21:00:34Z",
     "found_at": "2025-08-08T00:44:26.244299",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "e9pqxfpCWdA",
@@ -661,126 +799,6 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-08-05T17:00:34Z",
     "found_at": "2025-08-08T00:44:26.244302",
-    "status": "pending"
-  },
-  {
-    "video_id": "c0a7F5EXQ2Q",
-    "url": "https://www.youtube.com/watch?v=c0a7F5EXQ2Q",
-    "title": "¿A qué personaje se parece el cast? - Parte 1 | Betty La Fea: La Historia Continúa",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2025-08-04T22:01:34+00:00",
-    "found_at": "2025-08-07T23:11:29.296556",
-    "status": "pending"
-  },
-  {
-    "video_id": "oULMaDZf7Yo",
-    "url": "https://www.youtube.com/watch?v=oULMaDZf7Yo",
-    "title": "Cuando las cosas están escritas, ni Jesus puede cambiarlas… #Shorts #TheChosen",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2025-08-03T22:01:36Z",
-    "found_at": "2025-08-08T00:44:26.244306",
-    "status": "pending"
-  },
-  {
-    "video_id": "GUkBMx_mjz0",
-    "url": "https://www.youtube.com/watch?v=GUkBMx_mjz0",
-    "title": "Lo que llega en agosto 2025",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2025-08-01T22:00:31+00:00",
-    "found_at": "2025-08-07T23:11:29.296606",
-    "status": "pending"
-  },
-  {
-    "video_id": "lG6WbGDpNh4",
-    "url": "https://www.youtube.com/watch?v=lG6WbGDpNh4",
-    "title": "El humor de Prime Video by Adrián Lakerman | Zombies, Steve Carrell y tattoo de Adam Sandler 🤷‍♂️",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2025-07-30T22:03:51Z",
-    "found_at": "2025-08-08T00:44:26.244309",
-    "status": "pending"
-  },
-  {
-    "video_id": "s3jRMkSIeAU",
-    "url": "https://www.youtube.com/watch?v=s3jRMkSIeAU",
-    "title": "Feliz Día del eBook a los que SÍ SUPIERON llegarle al live action 🥶😮‍💨​ #ElSeñorDeLosAnillos",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2025-07-04T17:00:58Z",
-    "found_at": "2025-08-08T00:44:26.244311",
-    "status": "pending"
-  },
-  {
-    "video_id": "3mt7AUVkdSI",
-    "url": "https://www.youtube.com/watch?v=3mt7AUVkdSI",
-    "title": "Quedó atrapado a 90m bajo el agua sin oxígeno Y LO QUE PASÓ CAMBIÓ TODO 🙅 #Shorts #ElÚltimoRespiro",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2025-06-20T21:00:30Z",
-    "found_at": "2025-08-08T00:44:26.244314",
-    "status": "pending"
-  },
-  {
-    "video_id": "X-ckNLw9or8",
-    "url": "https://www.youtube.com/watch?v=X-ckNLw9or8",
-    "title": "No sé si salir CORRIENDO 😳 o entregarme a la experiencia. #NuevePerfectosDesconocidos temporada 2",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2025-06-14T16:00:56Z",
-    "found_at": "2025-08-08T00:44:26.244316",
-    "status": "pending"
-  },
-  {
-    "video_id": "ZHI8RxkL7BA",
-    "url": "https://www.youtube.com/watch?v=ZHI8RxkL7BA",
-    "title": "Hugh Grant, más PERTURBADOR que nunca…  #Shorts #HughGrant #Hereje",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2025-06-12T21:12:52Z",
-    "found_at": "2025-08-08T00:44:26.244319",
-    "status": "pending"
-  },
-  {
-    "video_id": "hDQGST08w58",
-    "url": "https://www.youtube.com/watch?v=hDQGST08w58",
-    "title": "Levántate Luffy, ¡un round más! 🥊 ¡Tú puedes! 🙌  #OnePiece #Luffy #anime",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2025-05-25T16:01:09Z",
-    "found_at": "2025-08-08T00:44:26.244322",
-    "status": "pending"
-  },
-  {
-    "video_id": "OwEy7c80oZc",
-    "url": "https://www.youtube.com/watch?v=OwEy7c80oZc",
-    "title": "¿Qué frase de Tamara eres? La nueva temporada de #ElFinDel Amor ya está en #PrimeVideoLat",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2025-05-09T22:00:13Z",
-    "found_at": "2025-08-08T00:44:26.244324",
-    "status": "pending"
-  },
-  {
-    "video_id": "xDZyNIfur0Y",
-    "url": "https://www.youtube.com/watch?v=xDZyNIfur0Y",
-    "title": "Qué gran personaje, te amamos Leslie Chow. #QuéPasóAyer #BradleyCooper #Shorts",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2025-05-03T22:00:23Z",
-    "found_at": "2025-08-08T00:44:26.244327",
-    "status": "pending"
-  },
-  {
-    "video_id": "khqwnmRdbsk",
-    "url": "https://www.youtube.com/watch?v=khqwnmRdbsk",
-    "title": "¿A quién llaman miserable cocinero? 😡  #OnePiece",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2025-04-04T22:00:38Z",
-    "found_at": "2025-08-08T00:44:26.244329",
-    "status": "pending"
+    "status": "metadata_update"
   }
 ]
