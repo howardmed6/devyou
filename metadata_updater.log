@@ -640,3 +640,29 @@ DESCRIPCIÓN:
 2025-09-04 01:25:47,722 - INFO - [SUMMARY] Videos fallidos: 1
 2025-09-04 01:25:48,242 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2025-09-04 01:25:48,243 - INFO - [FINISH] Proceso completado exitosamente
+2025-09-04 02:56:59,158 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2025-09-04 02:56:59,158 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2025-09-04 02:56:59,158 - INFO - [INIT] API Key disponible: Sí
+2025-09-04 02:56:59,158 - INFO - [INIT] Bot Token disponible: Sí
+2025-09-04 02:56:59,159 - INFO - [INIT] Chat ID disponible: Sí
+2025-09-04 02:56:59,159 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-Zm...
+2025-09-04 02:56:59,159 - INFO - [START] Iniciando procesamiento de videos editados...
+2025-09-04 02:56:59,159 - INFO - [API] ✅ API Key tiene formato válido
+2025-09-04 02:56:59,160 - INFO - [JSON] Cargados 105 videos desde data.json
+2025-09-04 02:56:59,160 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2025-09-04 02:56:59,160 - INFO - [PROCESS] Procesando 1 videos...
+2025-09-04 02:56:59,160 - INFO - 
+--- Procesando video 1/1 ---
+2025-09-04 02:56:59,160 - INFO - [VIDEO] Título: CUMBRES BORRASCOSAS Borrascosas Tráiler Español (2026) Margot Robbie, Jacob Elordi
+2025-09-04 02:56:59,160 - INFO - [VIDEO] ID: S5555oRTCPE
+2025-09-04 02:56:59,160 - INFO - [SEARCH] Buscando JSON para: 'CUMBRES BORRASCOSAS Borrascosas Tráiler Español (2026) Margot Robbie, Jacob Elordi'
+2025-09-04 02:56:59,168 - INFO - [SEARCH] Primeras 3 palabras del título: ['cumbres', 'borrascosas', 'borrascosas']
+2025-09-04 02:56:59,168 - INFO - [SEARCH] Encontrados 0 archivos JSON en uploadable
+2025-09-04 02:56:59,168 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'CUMBRES BORRASCOSAS Borrascosas Tráiler Español (2026) Margot Robbie, Jacob Elordi'
+2025-09-04 02:56:59,168 - ERROR - [ERROR] No se encontró JSON para el video: CUMBRES BORRASCOSAS Borrascosas Tráiler Español (2026) Margot Robbie, Jacob Elordi
+2025-09-04 02:56:59,168 - INFO - 
+[SUMMARY] Procesamiento completado:
+2025-09-04 02:56:59,168 - INFO - [SUMMARY] Videos procesados exitosamente: 0
+2025-09-04 02:56:59,169 - INFO - [SUMMARY] Videos fallidos: 1
+2025-09-04 02:56:59,641 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2025-09-04 02:56:59,642 - INFO - [FINISH] Proceso completado exitosamente
