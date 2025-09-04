@@ -611,3 +611,32 @@ DESCRIPCIÓN:
 2025-09-04 01:04:01,907 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2025-09-04 01:04:02,513 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2025-09-04 01:04:02,514 - INFO - [FINISH] Proceso completado exitosamente
+2025-09-04 01:25:47,708 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2025-09-04 01:25:47,708 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2025-09-04 01:25:47,708 - INFO - [INIT] API Key disponible: Sí
+2025-09-04 01:25:47,709 - INFO - [INIT] Bot Token disponible: Sí
+2025-09-04 01:25:47,709 - INFO - [INIT] Chat ID disponible: Sí
+2025-09-04 01:25:47,709 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-Zm...
+2025-09-04 01:25:47,709 - INFO - [START] Iniciando procesamiento de videos editados...
+2025-09-04 01:25:47,709 - INFO - [API] ✅ API Key tiene formato válido
+2025-09-04 01:25:47,710 - INFO - [JSON] Cargados 105 videos desde data.json
+2025-09-04 01:25:47,710 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2025-09-04 01:25:47,710 - INFO - [PROCESS] Procesando 1 videos...
+2025-09-04 01:25:47,710 - INFO - 
+--- Procesando video 1/1 ---
+2025-09-04 01:25:47,710 - INFO - [VIDEO] Título: CUMBRES BORRASCOSAS Borrascosas Tráiler Español (2026) Margot Robbie, Jacob Elordi
+2025-09-04 01:25:47,710 - INFO - [VIDEO] ID: S5555oRTCPE
+2025-09-04 01:25:47,710 - INFO - [SEARCH] Buscando JSON para: 'CUMBRES BORRASCOSAS Borrascosas Tráiler Español (2026) Margot Robbie, Jacob Elordi'
+2025-09-04 01:25:47,721 - INFO - [SEARCH] Primeras 3 palabras del título: ['cumbres', 'borrascosas', 'borrascosas']
+2025-09-04 01:25:47,722 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2025-09-04 01:25:47,722 - INFO - [COMPARE] Archivo: CUMBRES BORRASCOSAS Tráiler Español Latino (2026).json
+2025-09-04 01:25:47,722 - INFO - [COMPARE] Título JSON: 'CUMBRES BORRASCOSAS Tráiler Español Latino (2026)'
+2025-09-04 01:25:47,722 - INFO - [COMPARE] Primeras 3 palabras JSON: ['cumbres', 'borrascosas', 'trailer']
+2025-09-04 01:25:47,722 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'CUMBRES BORRASCOSAS Borrascosas Tráiler Español (2026) Margot Robbie, Jacob Elordi'
+2025-09-04 01:25:47,722 - ERROR - [ERROR] No se encontró JSON para el video: CUMBRES BORRASCOSAS Borrascosas Tráiler Español (2026) Margot Robbie, Jacob Elordi
+2025-09-04 01:25:47,722 - INFO - 
+[SUMMARY] Procesamiento completado:
+2025-09-04 01:25:47,722 - INFO - [SUMMARY] Videos procesados exitosamente: 0
+2025-09-04 01:25:47,722 - INFO - [SUMMARY] Videos fallidos: 1
+2025-09-04 01:25:48,242 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2025-09-04 01:25:48,243 - INFO - [FINISH] Proceso completado exitosamente
