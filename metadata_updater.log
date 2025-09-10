@@ -718,3 +718,44 @@ DESCRIPCIÓN:
 2025-09-10 18:56:31,369 - INFO - [SUMMARY] Videos fallidos: 1
 2025-09-10 18:56:31,895 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2025-09-10 18:56:31,896 - INFO - [FINISH] Proceso completado exitosamente
+2025-09-10 19:01:07,244 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2025-09-10 19:01:07,244 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2025-09-10 19:01:07,244 - INFO - [INIT] API Key disponible: Sí
+2025-09-10 19:01:07,244 - INFO - [INIT] Bot Token disponible: Sí
+2025-09-10 19:01:07,244 - INFO - [INIT] Chat ID disponible: Sí
+2025-09-10 19:01:07,244 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-Zm...
+2025-09-10 19:01:07,244 - INFO - [START] Iniciando procesamiento de videos editados...
+2025-09-10 19:01:07,244 - INFO - [API] ✅ API Key tiene formato válido
+2025-09-10 19:01:07,245 - INFO - [JSON] Cargados 103 videos desde data.json
+2025-09-10 19:01:07,245 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2025-09-10 19:01:07,245 - INFO - [PROCESS] Procesando 2 videos...
+2025-09-10 19:01:07,245 - INFO - 
+--- Procesando video 1/2 ---
+2025-09-10 19:01:07,245 - INFO - [VIDEO] Título: CULPA NUESTRA Tráiler Español Latino (2025)
+2025-09-10 19:01:07,245 - INFO - [VIDEO] ID: qUYK8QIfLvc
+2025-09-10 19:01:07,245 - INFO - [SEARCH] Buscando JSON para: 'CULPA NUESTRA Tráiler Español Latino (2025)'
+2025-09-10 19:01:07,256 - INFO - [SEARCH] Primeras 3 palabras del título: ['culpa', 'nuestra', 'trailer']
+2025-09-10 19:01:07,256 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2025-09-10 19:01:07,256 - INFO - [COMPARE] Archivo: Culpa Nuestra - Primeros 15 segundos del Trailer _ Prime Video.json
+2025-09-10 19:01:07,256 - INFO - [COMPARE] Título JSON: 'Culpa Nuestra - Primeros 15 segundos del Trailer | Prime Video'
+2025-09-10 19:01:07,256 - INFO - [COMPARE] Primeras 3 palabras JSON: ['culpa', 'nuestra', 'primeros']
+2025-09-10 19:01:07,256 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'CULPA NUESTRA Tráiler Español Latino (2025)'
+2025-09-10 19:01:07,256 - ERROR - [ERROR] No se encontró JSON para el video: CULPA NUESTRA Tráiler Español Latino (2025)
+2025-09-10 19:01:07,257 - INFO - 
+--- Procesando video 2/2 ---
+2025-09-10 19:01:07,257 - INFO - [VIDEO] Título: CUMBRES BORRASCOSAS Borrascosas Tráiler Español (2026) Margot Robbie, Jacob Elordi
+2025-09-10 19:01:07,257 - INFO - [VIDEO] ID: S5555oRTCPE
+2025-09-10 19:01:07,257 - INFO - [SEARCH] Buscando JSON para: 'CUMBRES BORRASCOSAS Borrascosas Tráiler Español (2026) Margot Robbie, Jacob Elordi'
+2025-09-10 19:01:07,257 - INFO - [SEARCH] Primeras 3 palabras del título: ['cumbres', 'borrascosas', 'borrascosas']
+2025-09-10 19:01:07,257 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2025-09-10 19:01:07,257 - INFO - [COMPARE] Archivo: Culpa Nuestra - Primeros 15 segundos del Trailer _ Prime Video.json
+2025-09-10 19:01:07,257 - INFO - [COMPARE] Título JSON: 'Culpa Nuestra - Primeros 15 segundos del Trailer | Prime Video'
+2025-09-10 19:01:07,257 - INFO - [COMPARE] Primeras 3 palabras JSON: ['culpa', 'nuestra', 'primeros']
+2025-09-10 19:01:07,257 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'CUMBRES BORRASCOSAS Borrascosas Tráiler Español (2026) Margot Robbie, Jacob Elordi'
+2025-09-10 19:01:07,257 - ERROR - [ERROR] No se encontró JSON para el video: CUMBRES BORRASCOSAS Borrascosas Tráiler Español (2026) Margot Robbie, Jacob Elordi
+2025-09-10 19:01:07,258 - INFO - 
+[SUMMARY] Procesamiento completado:
+2025-09-10 19:01:07,258 - INFO - [SUMMARY] Videos procesados exitosamente: 0
+2025-09-10 19:01:07,258 - INFO - [SUMMARY] Videos fallidos: 2
+2025-09-10 19:01:07,889 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2025-09-10 19:01:07,889 - INFO - [FINISH] Proceso completado exitosamente
