@@ -65,77 +65,96 @@ jobs:
         from googleapiclient.http import MediaIoBaseDownload
         import io
         
-        def download_google_drive_folder():
+        def download_video_and_thumbnail():
             folder_id = "1-NXHDM29JFrNpzVxMFmfFLMMaNgy44ML"
             
-            # Crear carpeta videos si no existe
             os.makedirs("videos", exist_ok=True)
             
-            print("📁 Descargando archivos de Google Drive con Service Account...")
+            print("📁 Descargando video + miniatura de Google Drive...")
             
             try:
-                # Cargar credenciales desde variable de entorno
                 credentials_json = os.environ.get('GOOGLE_DRIVE_CREDENTIALS')
                 if not credentials_json:
                     print("❌ GOOGLE_DRIVE_CREDENTIALS no configurado")
                     return
                 
-                # Parsear credenciales
                 credentials_info = json.loads(credentials_json)
                 credentials = Credentials.from_service_account_info(
                     credentials_info, 
                     scopes=['https://www.googleapis.com/auth/drive.readonly']
                 )
                 
-                # Crear servicio de Drive
                 service = build('drive', 'v3', credentials=credentials)
                 
-                # Listar archivos en la carpeta
+                # 1. Buscar el video MP4
                 results = service.files().list(
-                    q=f"'{folder_id}' in parents and trashed=false",
-                    fields="files(id,name,mimeType,size)"
+                    q=f"'{folder_id}' in parents and mimeType contains 'video/mp4' and trashed=false",
+                    fields="files(id,name)"
                 ).execute()
                 
-                files = results.get('files', [])
-                print(f"🔍 Encontrados {len(files)} archivos")
+                videos = results.get('files', [])
                 
-                for file_info in files:
-                    file_id = file_info['id']
-                    file_name = file_info['name']
-                    mime_type = file_info['mimeType']
-                    
-                    # Solo descargar imágenes y videos
-                    if mime_type.startswith(('image/', 'video/')) or any(
-                        ext in file_name.lower() for ext in ['.jpg', '.jpeg', '.png', '.gif', '.mp4', '.avi', '.mkv', '.mov', '.webm']
-                    ):
-                        print(f"⬇️ Descargando: {file_name}")
-                        
-                        try:
-                            # Descargar archivo
-                            request = service.files().get_media(fileId=file_id)
-                            file_path = os.path.join("videos", file_name)
-                            
-                            with open(file_path, 'wb') as f:
-                                downloader = MediaIoBaseDownload(f, request)
-                                done = False
-                                while done is False:
-                                    status, done = downloader.next_chunk()
-                            
-                            print(f"✅ Descargado: {file_name}")
-                            
-                        except Exception as e:
-                            print(f"❌ Error descargando {file_name}: {e}")
-                    else:
-                        print(f"⏭️ Omitiendo: {file_name} (tipo: {mime_type})")
+                if not videos:
+                    print("❌ No se encontró video MP4 en Drive")
+                    return
                 
-                print("🎉 Descarga de Google Drive completada")
+                video = videos[0]
+                video_name = video['name']
+                base_name = os.path.splitext(video_name)[0]
+                
+                print(f"🎬 Video encontrado: {video_name}")
+                print(f"📝 Nombre base: {base_name}")
+                
+                # 2. Descargar el video
+                print(f"⬇️ Descargando video...")
+                request = service.files().get_media(fileId=video['id'])
+                video_path = os.path.join("videos", video_name)
+                
+                with open(video_path, 'wb') as f:
+                    downloader = MediaIoBaseDownload(f, request)
+                    done = False
+                    while not done:
+                        status, done = downloader.next_chunk()
+                
+                print(f"✅ Video descargado: {video_name}")
+                
+                # 3. Buscar la imagen con el mismo nombre base
+                thumbnail_name = f"{base_name}.jpg"
+                
+                results = service.files().list(
+                    q=f"'{folder_id}' in parents and name='{thumbnail_name}' and trashed=false",
+                    fields="files(id,name)"
+                ).execute()
+                
+                thumbnails = results.get('files', [])
+                
+                if not thumbnails:
+                    print(f"⚠️ No se encontró miniatura: {thumbnail_name}")
+                    print("ℹ️ Asegúrate de haber quitado el número a la imagen elegida")
+                    return
+                
+                thumbnail = thumbnails[0]
+                
+                # 4. Descargar la miniatura
+                print(f"⬇️ Descargando miniatura: {thumbnail_name}")
+                request = service.files().get_media(fileId=thumbnail['id'])
+                thumbnail_path = os.path.join("videos", thumbnail_name)
+                
+                with open(thumbnail_path, 'wb') as f:
+                    downloader = MediaIoBaseDownload(f, request)
+                    done = False
+                    while not done:
+                        status, done = downloader.next_chunk()
+                
+                print(f"✅ Miniatura descargada: {thumbnail_name}")
+                print("🎉 Descarga completada: 1 video + 1 miniatura")
                 
             except Exception as e:
-                print(f"💥 Error en descarga de Google Drive: {e}")
+                print(f"💥 Error en descarga: {e}")
                 import traceback
                 traceback.print_exc()
         
-        download_google_drive_folder()
+        download_video_and_thumbnail()
         EOF
 
     - name: Verify ffmpeg installation
