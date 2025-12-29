@@ -257,3 +257,17 @@
 2025-12-29 14:53:33,833 - INFO - [FINISH] Proceso completado
 2025-12-29 23:36:26,645 - INFO - [PROCESS] No hay videos listos para subir
 2025-12-29 23:36:27,194 - INFO - [FINISH] Proceso completado
+2025-12-29 23:44:17,790 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2025-12-29 23:44:18,361 - INFO - [UPLOAD] Procesando: Peaky Blinders: El hombre inmortal | Avance oficial | Netflix
+2025-12-29 23:44:18,362 - INFO - [SEARCH] Buscando archivos para: 'Peaky Blinders: El hombre inmortal | Avance oficial | Netflix'
+2025-12-29 23:44:18,362 - INFO - [SEARCH] Palabras clave: ['peaky', 'blinders', 'el']
+2025-12-29 23:44:18,362 - INFO - [FILES] JSON: Peaky Blinders_ El hombre inmortal _ Avance oficial _ Netflix.json
+2025-12-29 23:44:18,362 - INFO - [FILES] Video: Peaky Blinders_ El hombre inmortal _ Avance oficial _ Netflix(1080P_HD).mp4
+2025-12-29 23:44:18,362 - INFO - [FILES] Thumbnail: Peaky Blinders_ El hombre inmortal _ Avance oficial _ Netflix(1080P_HD).jpg
+2025-12-29 23:44:18,378 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-12-29 23:44:18,829 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2025-12-29 23:44:20,907 - INFO - [YOUTUBE] Video subido: BdOl82YqeAM
+2025-12-29 23:44:22,947 - INFO - [YOUTUBE] Thumbnail subido
+2025-12-29 23:44:22,950 - INFO - [CLEANUP] Archivos eliminados: ySautbh-BhA
+2025-12-29 23:44:26,114 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2025-12-29 23:44:26,115 - INFO - [FINISH] Proceso completado

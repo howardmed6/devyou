@@ -1241,3 +1241,53 @@ DESCRIP...
 2025-12-29 23:36:25,855 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2025-12-29 23:36:26,398 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2025-12-29 23:36:26,399 - INFO - [FINISH] Proceso completado exitosamente
+2025-12-29 23:43:59,197 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2025-12-29 23:43:59,197 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2025-12-29 23:43:59,197 - INFO - [INIT] API Key disponible: Sí
+2025-12-29 23:43:59,197 - INFO - [INIT] Bot Token disponible: Sí
+2025-12-29 23:43:59,197 - INFO - [INIT] Chat ID disponible: Sí
+2025-12-29 23:43:59,197 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2025-12-29 23:43:59,197 - INFO - [START] Iniciando procesamiento de videos editados...
+2025-12-29 23:43:59,197 - INFO - [API] ✅ API Key tiene formato válido
+2025-12-29 23:43:59,198 - INFO - [JSON] Cargados 86 videos desde data.json
+2025-12-29 23:43:59,198 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2025-12-29 23:43:59,198 - INFO - [PROCESS] Procesando 1 videos...
+2025-12-29 23:43:59,198 - INFO - 
+--- Procesando video 1/1 ---
+2025-12-29 23:43:59,198 - INFO - [VIDEO] Título: Peaky Blinders: El hombre inmortal | Avance oficial | Netflix
+2025-12-29 23:43:59,198 - INFO - [VIDEO] ID: ySautbh-BhA
+2025-12-29 23:43:59,198 - INFO - [SEARCH] Buscando JSON para: 'Peaky Blinders: El hombre inmortal | Avance oficial | Netflix'
+2025-12-29 23:43:59,198 - INFO - [SEARCH] Primeras 3 palabras del título: ['peaky', 'blinders', 'hombre']
+2025-12-29 23:43:59,199 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2025-12-29 23:43:59,199 - INFO - [COMPARE] Archivo: Peaky Blinders_ El hombre inmortal _ Avance oficial _ Netflix.json
+2025-12-29 23:43:59,199 - INFO - [COMPARE] Título JSON: 'Peaky Blinders: El hombre inmortal | Avance oficial | Netflix'
+2025-12-29 23:43:59,199 - INFO - [COMPARE] Primeras 3 palabras JSON: ['peaky', 'blinders', 'hombre']
+2025-12-29 23:43:59,199 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Peaky Blinders_ El hombre inmortal _ Avance oficial _ Netflix.json
+2025-12-29 23:43:59,199 - INFO - [API] ✅ API Key tiene formato válido
+2025-12-29 23:43:59,199 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2025-12-29 23:43:59,199 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2025-12-29 23:43:59,199 - INFO - [API] 🔑 API Key válida: ✅
+2025-12-29 23:43:59,199 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2025-12-29 23:44:16,872 - INFO - [API] 📊 Código de respuesta: 200
+2025-12-29 23:44:16,872 - INFO - [API] ✅ Respuesta recibida exitosamente
+2025-12-29 23:44:16,872 - INFO - [API] 📏 Longitud de respuesta: 2199 caracteres
+2025-12-29 23:44:16,872 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: PEAKY BLINDERS: EL HOMBRE INMORTAL | Tráiler Oficial en Español | Netflix (2025)
+
+DESCRIPCIÓ...
+2025-12-29 23:44:16,873 - INFO - [PARSE] Parseando respuesta de Claude...
+2025-12-29 23:44:16,874 - INFO - [PARSE] Datos parseados exitosamente:
+2025-12-29 23:44:16,874 - INFO -   - Título: PEAKY BLINDERS: EL HOMBRE INMORTAL | Tráiler Ofici...
+2025-12-29 23:44:16,874 - INFO -   - Descripción: 1848 caracteres
+2025-12-29 23:44:16,874 - INFO -   - Tags: 12 elementos
+2025-12-29 23:44:16,874 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2025-12-29 23:44:16,874 - INFO - [UPDATE] JSON actualizado: Peaky Blinders_ El hombre inmortal _ Avance oficial _ Netflix.json
+2025-12-29 23:44:16,875 - INFO - [JSON] Cargados 86 videos desde data.json
+2025-12-29 23:44:16,875 - INFO - [STATUS] Video ySautbh-BhA actualizado a 'ok'
+2025-12-29 23:44:16,876 - INFO - [JSON] data.json actualizado exitosamente
+2025-12-29 23:44:16,876 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2025-12-29 23:44:16,876 - INFO - 
+[SUMMARY] Procesamiento completado:
+2025-12-29 23:44:16,876 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2025-12-29 23:44:16,876 - INFO - [SUMMARY] Videos fallidos: 0
+2025-12-29 23:44:17,456 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2025-12-29 23:44:17,457 - INFO - [FINISH] Proceso completado exitosamente
