@@ -134,3 +134,15 @@
 2025-12-28 18:47:16,280 - INFO - [FINISH] Proceso completado
 2025-12-28 18:49:12,848 - INFO - [PROCESS] No hay videos listos para subir
 2025-12-28 18:49:13,336 - INFO - [FINISH] Proceso completado
+2025-12-29 03:24:46,019 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2025-12-29 03:24:46,484 - INFO - [UPLOAD] Procesando: VENGADORES: DOOMSDAY Tráiler Español (2026)
+2025-12-29 03:24:46,484 - INFO - [SEARCH] Buscando archivos para: 'VENGADORES: DOOMSDAY Tráiler Español (2026)'
+2025-12-29 03:24:46,485 - INFO - [SEARCH] Palabras clave: ['vengadores', 'doomsday', 'trailer']
+2025-12-29 03:24:46,485 - INFO - [FILES] JSON: VENGADORES_ DOOMSDAY Tráiler Español (2026).json
+2025-12-29 03:24:46,485 - INFO - [FILES] Video: VENGADORES_ DOOMSDAY Tráiler Español (2026)(1080P_HD).mp4
+2025-12-29 03:24:46,485 - INFO - [FILES] Thumbnail: VENGADORES_ DOOMSDAY Tráiler Español (2026)(1080P_HD).jpg
+2025-12-29 03:24:46,656 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-12-29 03:24:46,813 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-12-29 03:24:46,814 - ERROR - [YOUTUBE] Error: <HttpError 403 when requesting None returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-12-29 03:24:49,762 - INFO - [FINISH] Subida automática completada: 0 éxitos, 1 errores
+2025-12-29 03:24:49,762 - INFO - [FINISH] Proceso completado
