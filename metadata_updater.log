@@ -1064,3 +1064,54 @@ DESCRIPCIÓN:
 2025-12-29 04:30:16,969 - INFO - [SUMMARY] Videos fallidos: 0
 2025-12-29 04:30:17,516 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2025-12-29 04:30:17,517 - INFO - [FINISH] Proceso completado exitosamente
+2025-12-29 04:40:04,631 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2025-12-29 04:40:04,631 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2025-12-29 04:40:04,631 - INFO - [INIT] API Key disponible: Sí
+2025-12-29 04:40:04,631 - INFO - [INIT] Bot Token disponible: Sí
+2025-12-29 04:40:04,631 - INFO - [INIT] Chat ID disponible: Sí
+2025-12-29 04:40:04,631 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2025-12-29 04:40:04,631 - INFO - [START] Iniciando procesamiento de videos editados...
+2025-12-29 04:40:04,631 - INFO - [API] ✅ API Key tiene formato válido
+2025-12-29 04:40:04,632 - INFO - [JSON] Cargados 80 videos desde data.json
+2025-12-29 04:40:04,632 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2025-12-29 04:40:04,632 - INFO - [PROCESS] Procesando 1 videos...
+2025-12-29 04:40:04,632 - INFO - 
+--- Procesando video 1/1 ---
+2025-12-29 04:40:04,632 - INFO - [VIDEO] Título: VENGADORES: DOOMSDAY Tráiler Español (2026)
+2025-12-29 04:40:04,632 - INFO - [VIDEO] ID: 14sYDP8cUVE
+2025-12-29 04:40:04,632 - INFO - [SEARCH] Buscando JSON para: 'VENGADORES: DOOMSDAY Tráiler Español (2026)'
+2025-12-29 04:40:04,633 - INFO - [SEARCH] Primeras 3 palabras del título: ['vengadores', 'doomsday', 'trailer']
+2025-12-29 04:40:04,633 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2025-12-29 04:40:04,633 - INFO - [COMPARE] Archivo: VENGADORES_ DOOMSDAY Tráiler Español (2026).json
+2025-12-29 04:40:04,633 - INFO - [COMPARE] Título JSON: 'VENGADORES: DOOMSDAY Tráiler Español (2026)'
+2025-12-29 04:40:04,633 - INFO - [COMPARE] Primeras 3 palabras JSON: ['vengadores', 'doomsday', 'trailer']
+2025-12-29 04:40:04,633 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: VENGADORES_ DOOMSDAY Tráiler Español (2026).json
+2025-12-29 04:40:04,633 - INFO - [API] ✅ API Key tiene formato válido
+2025-12-29 04:40:04,633 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2025-12-29 04:40:04,634 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2025-12-29 04:40:04,634 - INFO - [API] 🔑 API Key válida: ✅
+2025-12-29 04:40:04,634 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2025-12-29 04:40:20,920 - INFO - [API] 📊 Código de respuesta: 200
+2025-12-29 04:40:20,920 - INFO - [API] ✅ Respuesta recibida exitosamente
+2025-12-29 04:40:20,920 - INFO - [API] 📏 Longitud de respuesta: 2074 caracteres
+2025-12-29 04:40:20,920 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: VENGADORES: DOOMSDAY Tráiler Oficial Español (2026) Marvel Studios
+
+DESCRIPCIÓN: 
+🎬 ¡EL EVEN...
+2025-12-29 04:40:20,921 - INFO - [PARSE] Parseando respuesta de Claude...
+2025-12-29 04:40:20,922 - INFO - [PARSE] Datos parseados exitosamente:
+2025-12-29 04:40:20,922 - INFO -   - Título: VENGADORES: DOOMSDAY Tráiler Oficial Español (2026...
+2025-12-29 04:40:20,922 - INFO -   - Descripción: 1759 caracteres
+2025-12-29 04:40:20,922 - INFO -   - Tags: 12 elementos
+2025-12-29 04:40:20,922 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2025-12-29 04:40:20,922 - INFO - [UPDATE] JSON actualizado: VENGADORES_ DOOMSDAY Tráiler Español (2026).json
+2025-12-29 04:40:20,923 - INFO - [JSON] Cargados 80 videos desde data.json
+2025-12-29 04:40:20,923 - INFO - [STATUS] Video 14sYDP8cUVE actualizado a 'ok'
+2025-12-29 04:40:20,924 - INFO - [JSON] data.json actualizado exitosamente
+2025-12-29 04:40:20,924 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2025-12-29 04:40:20,924 - INFO - 
+[SUMMARY] Procesamiento completado:
+2025-12-29 04:40:20,924 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2025-12-29 04:40:20,924 - INFO - [SUMMARY] Videos fallidos: 0
+2025-12-29 04:40:21,462 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2025-12-29 04:40:21,463 - INFO - [FINISH] Proceso completado exitosamente
