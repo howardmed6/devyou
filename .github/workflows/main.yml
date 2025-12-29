@@ -238,9 +238,9 @@ jobs:
     - name: Check for changes (excluding specific folders)
       id: check_changes
       run: |
-        # Verificar cambios excluyendo las carpetas uploadable y videos
         git add .
-        git reset -- uploadable/ videos/ 2>/dev/null || true
+        # Añadimos youtube_token.json para que GitHub no bloquee el push
+        git reset -- uploadable/ videos/ youtube_token.json 2>/dev/null || true
         
         # Verificar si hay cambios para commitear
         if git diff --staged --quiet; then
