@@ -241,3 +241,17 @@
 2025-12-29 13:11:53,233 - INFO - [CLEANUP] Archivos eliminados: 14sYDP8cUVE
 2025-12-29 13:11:56,242 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2025-12-29 13:11:56,243 - INFO - [FINISH] Proceso completado
+2025-12-29 14:53:27,127 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2025-12-29 14:53:27,595 - INFO - [UPLOAD] Procesando: STEEL BALL RUN JoJo’s Bizarre Adventure | Tráiler oficial | Netflix
+2025-12-29 14:53:27,596 - INFO - [SEARCH] Buscando archivos para: 'STEEL BALL RUN JoJo’s Bizarre Adventure | Tráiler oficial | Netflix'
+2025-12-29 14:53:27,596 - INFO - [SEARCH] Palabras clave: ['steel', 'ball', 'run']
+2025-12-29 14:53:27,596 - INFO - [FILES] JSON: STEEL BALL RUN JoJo’s Bizarre Adventure _ Tráiler oficial _ Netflix.json
+2025-12-29 14:53:27,596 - INFO - [FILES] Video: STEEL BALL RUN JoJo_s Bizarre Adventure _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2025-12-29 14:53:27,596 - INFO - [FILES] Thumbnail: STEEL BALL RUN JoJo_s Bizarre Adventure _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2025-12-29 14:53:27,614 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-12-29 14:53:27,705 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2025-12-29 14:53:29,193 - INFO - [YOUTUBE] Video subido: -IiATheqHYo
+2025-12-29 14:53:30,866 - INFO - [YOUTUBE] Thumbnail subido
+2025-12-29 14:53:30,879 - INFO - [CLEANUP] Archivos eliminados: bQu4OHno3nU
+2025-12-29 14:53:33,833 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2025-12-29 14:53:33,833 - INFO - [FINISH] Proceso completado
