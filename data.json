@@ -7,7 +7,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-12-27T15:30:04Z",
     "found_at": "2025-12-28T18:45:38.028177",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "ytDkGJTA92E",
@@ -17,7 +17,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-12-26T16:30:34Z",
     "found_at": "2025-12-28T18:45:38.028193",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "yYBJmYe-i6M",
@@ -27,7 +27,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-12-25T15:30:47Z",
     "found_at": "2025-12-28T18:45:38.028197",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "14sYDP8cUVE",
@@ -37,9 +37,9 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-12-23T15:35:44Z",
     "found_at": "2025-12-28T18:45:38.028199",
-    "status": "ok",
+    "status": "error - faltan: JSON, MP4, metadata",
     "metadata_updated_at": "2025-12-29T03:56:04.303863",
-    "uploaded_at": "2025-12-29T03:56:06.244183"
+    "uploaded_at": "2025-12-29T04:24:08.739417"
   },
   {
     "video_id": "4h3i9_t4n8E",
@@ -49,7 +49,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-12-23T14:17:05Z",
     "found_at": "2025-12-28T18:45:38.028204",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "5-lVerjstX8",
@@ -59,7 +59,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-12-22T16:30:03Z",
     "found_at": "2025-12-28T18:45:38.028206",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "XqcJF46HcJ8",
@@ -69,7 +69,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-10-01T16:44:32Z",
     "found_at": "2025-10-02T00:42:48.296824",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "WkzT-Ld_WGU",
@@ -79,7 +79,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-10-01T15:00:06Z",
     "found_at": "2025-10-02T00:42:48.296843",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "11j2wQFm-tc",
@@ -89,7 +89,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-10-01T13:07:53Z",
     "found_at": "2025-10-02T00:42:48.296847",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "PqT_P1DRXi8",
@@ -99,7 +99,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-09-30T16:17:53Z",
     "found_at": "2025-10-02T00:42:48.296850",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "4xsZm8SjDgU",
@@ -109,7 +109,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-09-30T16:05:03Z",
     "found_at": "2025-10-02T00:42:48.296856",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "X0I7dAv5A-Q",
@@ -119,7 +119,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-09-30T11:00:21Z",
     "found_at": "2025-10-02T00:42:48.296859",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "5WcCm-pceWI",
@@ -129,7 +129,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-09-29T16:11:00Z",
     "found_at": "2025-10-02T00:42:48.296862",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "sIv1YggKK-I",
@@ -139,7 +139,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-09-29T15:07:51Z",
     "found_at": "2025-10-02T00:42:48.296865",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "HJ-KaxtzeCk",
@@ -149,7 +149,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-09-29T13:13:31Z",
     "found_at": "2025-10-02T00:42:48.296868",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "YHD0jaRn5J0",
@@ -159,7 +159,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-09-26T12:28:55Z",
     "found_at": "2025-10-02T00:42:48.296871",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "bzRi1PeJeQw",
@@ -169,7 +169,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-09-25T13:49:24Z",
     "found_at": "2025-10-02T00:42:48.296876",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "ExcyTM9T7_8",
@@ -179,7 +179,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-09-25T13:21:04Z",
     "found_at": "2025-10-02T00:42:48.296880",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "HhFu2fIV1Ic",
@@ -189,7 +189,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-09-24T12:49:40Z",
     "found_at": "2025-10-02T00:42:48.296883",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "sOtKidLTKlI",
@@ -199,7 +199,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2025-09-23T16:45:08Z",
     "found_at": "2025-10-02T00:42:48.296886",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "Sk1p-dWPIXc",
@@ -209,7 +209,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-12-27T22:00:27Z",
     "found_at": "2025-12-28T18:45:38.187601",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "Y5BSt6GhoQ0",
@@ -219,7 +219,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-12-27T17:01:01Z",
     "found_at": "2025-12-28T18:45:38.187615",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "6tH5XnRaGNg",
@@ -229,7 +229,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-12-26T20:00:04Z",
     "found_at": "2025-12-28T18:45:38.187618",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "15KK0jSfDgE",
@@ -239,7 +239,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-12-25T17:30:03Z",
     "found_at": "2025-12-28T18:45:38.187621",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "ZhJ63DAnNOI",
@@ -249,7 +249,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-12-25T13:00:04Z",
     "found_at": "2025-12-28T18:45:38.187624",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "ySautbh-BhA",
@@ -259,7 +259,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-12-24T14:00:00Z",
     "found_at": "2025-12-28T18:45:38.187627",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "F1fuBPpZbWk",
@@ -269,7 +269,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-12-24T02:00:12Z",
     "found_at": "2025-12-28T18:45:38.187629",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "J0ZuTe_tAis",
@@ -279,7 +279,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-12-23T15:00:00Z",
     "found_at": "2025-12-28T18:45:38.187632",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "fb2IucQ_sAY",
@@ -289,7 +289,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-12-21T15:00:00Z",
     "found_at": "2025-12-28T18:45:38.187637",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "bQu4OHno3nU",
@@ -299,7 +299,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-12-19T23:05:01Z",
     "found_at": "2025-12-28T18:45:38.187639",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "FbGAyetd0yo",
@@ -309,7 +309,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-12-19T02:00:00Z",
     "found_at": "2025-12-28T18:45:38.187642",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "OAjHAS78cJc",
@@ -319,7 +319,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-10-02T00:00:25Z",
     "found_at": "2025-10-02T00:42:48.652541",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "4KlykjAHHJw",
@@ -329,7 +329,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-10-01T16:00:06Z",
     "found_at": "2025-10-02T00:42:48.652555",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "nv8VJreUyNk",
@@ -339,7 +339,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-10-01T13:00:03Z",
     "found_at": "2025-10-02T00:42:48.652558",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "-8us-a9-6xs",
@@ -349,7 +349,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-09-30T19:21:09Z",
     "found_at": "2025-10-02T00:42:48.652561",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "pSsm0gGIJN8",
@@ -359,7 +359,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-09-30T14:00:00Z",
     "found_at": "2025-10-02T00:42:48.652563",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "Vs4ksWF9iKQ",
@@ -369,7 +369,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-09-30T13:00:01Z",
     "found_at": "2025-10-02T00:42:48.652566",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "a7fPXeHMA-4",
@@ -379,7 +379,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-09-29T12:00:04Z",
     "found_at": "2025-10-02T00:42:48.652568",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "YAvolNsXtGk",
@@ -389,7 +389,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-09-29T00:00:00Z",
     "found_at": "2025-10-02T00:42:48.652570",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "jNFt0jN9yiI",
@@ -399,7 +399,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2025-09-26T17:00:00Z",
     "found_at": "2025-10-02T00:42:48.652572",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "ncuCzSWrSFM",
@@ -409,7 +409,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-12-28T18:00:50Z",
     "found_at": "2025-12-28T18:45:38.355600",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "ZX07rPeLqdM",
@@ -419,7 +419,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-12-28T18:00:43Z",
     "found_at": "2025-12-28T18:45:38.355615",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "Iw2TkHEvoo0",
@@ -429,7 +429,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-12-28T18:00:32Z",
     "found_at": "2025-12-28T18:45:38.355620",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "zFJyTUPGyic",
@@ -439,7 +439,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-12-19T02:01:09Z",
     "found_at": "2025-12-28T18:45:38.355624",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "PAVQBxEaFFA",
@@ -449,7 +449,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-10-01T23:09:02Z",
     "found_at": "2025-10-02T00:42:48.933769",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "R3JV9FtcWBA",
@@ -459,7 +459,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-10-01T23:00:35Z",
     "found_at": "2025-10-02T00:42:48.933783",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "E1HJ7K3EDOM",
@@ -469,7 +469,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-10-01T20:54:43Z",
     "found_at": "2025-10-02T00:42:48.933787",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "DtuzGfy7thY",
@@ -479,7 +479,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-10-01T19:00:15Z",
     "found_at": "2025-10-02T00:42:48.933789",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "kDD8e_6n_MA",
@@ -489,7 +489,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-10-01T18:01:31Z",
     "found_at": "2025-10-02T00:42:48.933792",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "rqX2ajRHyGs",
@@ -499,7 +499,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-10-01T15:05:52Z",
     "found_at": "2025-10-02T00:42:48.933794",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "xTLPwXJBtos",
@@ -509,7 +509,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-09-30T01:00:58Z",
     "found_at": "2025-10-02T00:42:48.933797",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "MfoA7NfbYGg",
@@ -519,7 +519,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-09-29T23:56:34Z",
     "found_at": "2025-10-02T00:42:48.933799",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "Tkd2zl7Dve8",
@@ -529,7 +529,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-09-27T19:00:16Z",
     "found_at": "2025-10-02T00:42:48.933801",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "W-XeDoDAUOw",
@@ -539,7 +539,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-09-27T17:00:43Z",
     "found_at": "2025-10-02T00:42:48.933803",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "oJKZ7HXpsMQ",
@@ -549,7 +549,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-09-27T00:01:05Z",
     "found_at": "2025-10-02T00:42:48.933805",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "6NuY6POvkbE",
@@ -559,7 +559,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-09-26T21:34:22Z",
     "found_at": "2025-10-02T00:42:48.933808",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "VfCMqjZQ85k",
@@ -569,7 +569,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-09-24T20:45:02Z",
     "found_at": "2025-10-02T00:42:48.933811",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "SXeHztWl0Ec",
@@ -579,7 +579,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-09-23T16:02:04Z",
     "found_at": "2025-10-02T00:42:48.933813",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "urnKc-h9iNk",
@@ -589,7 +589,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-09-15T03:13:09Z",
     "found_at": "2025-10-02T00:42:48.933815",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "MILUOMvRbd4",
@@ -599,7 +599,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-09-10T16:00:28Z",
     "found_at": "2025-09-10T18:55:58.553049",
-    "status": "pending"
+    "status": "metadata_update"
   },
   {
     "video_id": "go0vT_34CwY",
@@ -609,7 +609,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-12-28T16:01:04Z",
     "found_at": "2025-12-28T18:45:38.513943",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "buLAesLu3Mo",
@@ -619,7 +619,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-12-27T21:01:04Z",
     "found_at": "2025-12-28T18:45:38.513957",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "K2x1NNvGjUk",
@@ -629,7 +629,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-12-27T16:00:37Z",
     "found_at": "2025-12-28T18:45:38.513960",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "sMMM6RjXeUY",
@@ -639,7 +639,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-12-27T15:00:32Z",
     "found_at": "2025-12-28T18:45:38.513963",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "NTFXO508lyQ",
@@ -649,7 +649,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-12-27T00:00:51Z",
     "found_at": "2025-12-28T18:45:38.513965",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "COkQmvlw38o",
@@ -659,7 +659,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-12-26T21:00:21Z",
     "found_at": "2025-12-28T18:45:38.513969",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "exIRrFLZVws",
@@ -669,7 +669,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-12-24T00:00:48Z",
     "found_at": "2025-12-28T18:45:38.513971",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "bTgHzX0HQE4",
@@ -679,7 +679,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-12-23T17:00:47Z",
     "found_at": "2025-12-28T18:45:38.513974",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "oZCfWo-Q_g0",
@@ -689,7 +689,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-10-01T21:00:41Z",
     "found_at": "2025-10-02T00:42:49.216721",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "Mj5TJ6LnVM8",
@@ -699,7 +699,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-10-01T16:00:50Z",
     "found_at": "2025-10-02T00:42:49.216734",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "C8-5D6t72Hw",
@@ -709,7 +709,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-10-01T14:36:38Z",
     "found_at": "2025-10-02T00:42:49.216739",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "MsZF-BFGDto",
@@ -719,7 +719,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-09-30T21:01:06Z",
     "found_at": "2025-10-02T00:42:49.216742",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "Gx3FZcRQmgo",
@@ -729,7 +729,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-09-30T20:01:05Z",
     "found_at": "2025-10-02T00:42:49.216745",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "KnyymYUMgck",
@@ -739,7 +739,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-09-30T16:00:46Z",
     "found_at": "2025-10-02T00:42:49.216747",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "V7v6uAsQPcg",
@@ -749,7 +749,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-09-29T21:00:34Z",
     "found_at": "2025-10-02T00:42:49.216750",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "HTCgyZ1_AEY",
@@ -759,7 +759,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-09-29T16:01:38Z",
     "found_at": "2025-10-02T00:42:49.216753",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "onoObLp7UXQ",
@@ -769,7 +769,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-09-28T21:00:27Z",
     "found_at": "2025-10-02T00:42:49.216755",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "B9VxHXMrA7w",
@@ -779,7 +779,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-09-28T16:01:11Z",
     "found_at": "2025-10-02T00:42:49.216758",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "-lIzIUoelR0",
@@ -789,7 +789,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-09-27T21:00:44Z",
     "found_at": "2025-10-02T00:42:49.216760",
-    "status": "metadata_update"
+    "status": "pending"
   },
   {
     "video_id": "usPoVtyLAeo",
@@ -799,6 +799,6 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2025-09-27T17:01:16Z",
     "found_at": "2025-10-02T00:42:49.216762",
-    "status": "metadata_update"
+    "status": "pending"
   }
 ]

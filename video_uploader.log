@@ -173,3 +173,18 @@
 2025-12-29 03:56:06,243 - ERROR - [YOUTUBE] Error: <HttpError 403 when requesting None returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
 2025-12-29 03:56:09,390 - INFO - [FINISH] Subida automática completada: 0 éxitos, 1 errores
 2025-12-29 03:56:09,390 - INFO - [FINISH] Proceso completado
+2025-12-29 04:24:08,249 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2025-12-29 04:24:08,734 - INFO - [UPLOAD] Procesando: VENGADORES: DOOMSDAY Tráiler Español (2026)
+2025-12-29 04:24:08,734 - INFO - [SEARCH] Buscando archivos para: 'VENGADORES: DOOMSDAY Tráiler Español (2026)'
+2025-12-29 04:24:08,738 - INFO - [SEARCH] Palabras clave: ['vengadores', 'doomsday', 'trailer']
+2025-12-29 04:24:08,738 - WARNING - [FALLBACK] No se encontraron archivos por coincidencia para 'VENGADORES: DOOMSDAY Tráiler Español (2026)', intentando con archivos únicos...
+2025-12-29 04:24:08,738 - INFO - [FALLBACK] Archivos únicos encontrados:
+2025-12-29 04:24:08,738 - INFO - [FALLBACK] JSON: Ninguno (Total: 0)
+2025-12-29 04:24:08,738 - INFO - [FALLBACK] Video: Ninguno (Total: 0)
+2025-12-29 04:24:08,738 - INFO - [FALLBACK] Thumbnail: Ninguno (Total: 0)
+2025-12-29 04:24:08,738 - ERROR - [FILES] JSON: No encontrado
+2025-12-29 04:24:08,738 - ERROR - [FILES] Video: No encontrado
+2025-12-29 04:24:08,738 - WARNING - [FILES] Thumbnail: No encontrado
+2025-12-29 04:24:08,738 - ERROR - [ERROR] Faltan archivos para 'VENGADORES: DOOMSDAY Tráiler Español (2026)': JSON, MP4, metadata
+2025-12-29 04:24:09,206 - INFO - [FINISH] Subida automática completada: 0 éxitos, 1 errores
+2025-12-29 04:24:09,207 - INFO - [FINISH] Proceso completado
