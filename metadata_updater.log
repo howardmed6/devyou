@@ -1128,3 +1128,53 @@ DESCRIPCIÓN:
 2025-12-29 13:07:28,911 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2025-12-29 13:07:29,339 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2025-12-29 13:07:29,340 - INFO - [FINISH] Proceso completado exitosamente
+2025-12-29 13:11:30,899 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2025-12-29 13:11:30,899 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2025-12-29 13:11:30,899 - INFO - [INIT] API Key disponible: Sí
+2025-12-29 13:11:30,899 - INFO - [INIT] Bot Token disponible: Sí
+2025-12-29 13:11:30,899 - INFO - [INIT] Chat ID disponible: Sí
+2025-12-29 13:11:30,899 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2025-12-29 13:11:30,900 - INFO - [START] Iniciando procesamiento de videos editados...
+2025-12-29 13:11:30,900 - INFO - [API] ✅ API Key tiene formato válido
+2025-12-29 13:11:30,900 - INFO - [JSON] Cargados 86 videos desde data.json
+2025-12-29 13:11:30,900 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2025-12-29 13:11:30,900 - INFO - [PROCESS] Procesando 1 videos...
+2025-12-29 13:11:30,900 - INFO - 
+--- Procesando video 1/1 ---
+2025-12-29 13:11:30,901 - INFO - [VIDEO] Título: VENGADORES: DOOMSDAY Tráiler Español (2026)
+2025-12-29 13:11:30,901 - INFO - [VIDEO] ID: 14sYDP8cUVE
+2025-12-29 13:11:30,901 - INFO - [SEARCH] Buscando JSON para: 'VENGADORES: DOOMSDAY Tráiler Español (2026)'
+2025-12-29 13:11:30,901 - INFO - [SEARCH] Primeras 3 palabras del título: ['vengadores', 'doomsday', 'trailer']
+2025-12-29 13:11:30,902 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2025-12-29 13:11:30,902 - INFO - [COMPARE] Archivo: VENGADORES_ DOOMSDAY Tráiler Español (2026).json
+2025-12-29 13:11:30,902 - INFO - [COMPARE] Título JSON: 'VENGADORES: DOOMSDAY Tráiler Español (2026)'
+2025-12-29 13:11:30,902 - INFO - [COMPARE] Primeras 3 palabras JSON: ['vengadores', 'doomsday', 'trailer']
+2025-12-29 13:11:30,902 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: VENGADORES_ DOOMSDAY Tráiler Español (2026).json
+2025-12-29 13:11:30,902 - INFO - [API] ✅ API Key tiene formato válido
+2025-12-29 13:11:30,902 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2025-12-29 13:11:30,902 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2025-12-29 13:11:30,902 - INFO - [API] 🔑 API Key válida: ✅
+2025-12-29 13:11:30,902 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2025-12-29 13:11:47,928 - INFO - [API] 📊 Código de respuesta: 200
+2025-12-29 13:11:47,928 - INFO - [API] ✅ Respuesta recibida exitosamente
+2025-12-29 13:11:47,928 - INFO - [API] 📏 Longitud de respuesta: 2097 caracteres
+2025-12-29 13:11:47,928 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: VENGADORES: DOOMSDAY Tráiler Oficial Español Latino (2026)
+
+DESCRIPCIÓN: 🎬 ¡El universo Marv...
+2025-12-29 13:11:47,929 - INFO - [PARSE] Parseando respuesta de Claude...
+2025-12-29 13:11:47,930 - INFO - [PARSE] Datos parseados exitosamente:
+2025-12-29 13:11:47,930 - INFO -   - Título: VENGADORES: DOOMSDAY Tráiler Oficial Español Latin...
+2025-12-29 13:11:47,930 - INFO -   - Descripción: 1789 caracteres
+2025-12-29 13:11:47,930 - INFO -   - Tags: 12 elementos
+2025-12-29 13:11:47,930 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2025-12-29 13:11:47,930 - INFO - [UPDATE] JSON actualizado: VENGADORES_ DOOMSDAY Tráiler Español (2026).json
+2025-12-29 13:11:47,931 - INFO - [JSON] Cargados 86 videos desde data.json
+2025-12-29 13:11:47,931 - INFO - [STATUS] Video 14sYDP8cUVE actualizado a 'ok'
+2025-12-29 13:11:47,932 - INFO - [JSON] data.json actualizado exitosamente
+2025-12-29 13:11:47,932 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2025-12-29 13:11:47,932 - INFO - 
+[SUMMARY] Procesamiento completado:
+2025-12-29 13:11:47,932 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2025-12-29 13:11:47,932 - INFO - [SUMMARY] Videos fallidos: 0
+2025-12-29 13:11:48,429 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2025-12-29 13:11:48,430 - INFO - [FINISH] Proceso completado exitosamente

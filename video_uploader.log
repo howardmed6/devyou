@@ -227,3 +227,17 @@
 2025-12-29 13:07:30,235 - ERROR - [ERROR] Faltan archivos para 'VENGADORES: DOOMSDAY Tráiler Español (2026)': JSON, MP4, metadata
 2025-12-29 13:07:30,664 - INFO - [FINISH] Subida automática completada: 0 éxitos, 1 errores
 2025-12-29 13:07:30,664 - INFO - [FINISH] Proceso completado
+2025-12-29 13:11:48,844 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2025-12-29 13:11:49,356 - INFO - [UPLOAD] Procesando: VENGADORES: DOOMSDAY Tráiler Español (2026)
+2025-12-29 13:11:49,356 - INFO - [SEARCH] Buscando archivos para: 'VENGADORES: DOOMSDAY Tráiler Español (2026)'
+2025-12-29 13:11:49,357 - INFO - [SEARCH] Palabras clave: ['vengadores', 'doomsday', 'trailer']
+2025-12-29 13:11:49,357 - INFO - [FILES] JSON: VENGADORES_ DOOMSDAY Tráiler Español (2026).json
+2025-12-29 13:11:49,357 - INFO - [FILES] Video: VENGADORES_ DOOMSDAY Tráiler Español (2026)(1080P_HD).mp4
+2025-12-29 13:11:49,357 - INFO - [FILES] Thumbnail: VENGADORES_ DOOMSDAY Tráiler Español (2026)(1080P_HD).jpg
+2025-12-29 13:11:49,444 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-12-29 13:11:49,563 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2025-12-29 13:11:51,107 - INFO - [YOUTUBE] Video subido: hsS6J0nV5lE
+2025-12-29 13:11:53,229 - INFO - [YOUTUBE] Thumbnail subido
+2025-12-29 13:11:53,233 - INFO - [CLEANUP] Archivos eliminados: 14sYDP8cUVE
+2025-12-29 13:11:56,242 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2025-12-29 13:11:56,243 - INFO - [FINISH] Proceso completado
