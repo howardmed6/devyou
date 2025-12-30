@@ -1304,3 +1304,55 @@ DESCRIPCIÓ...
 2025-12-30 00:24:10,676 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2025-12-30 00:24:11,293 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2025-12-30 00:24:11,294 - INFO - [FINISH] Proceso completado exitosamente
+2025-12-30 00:35:34,174 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2025-12-30 00:35:34,174 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2025-12-30 00:35:34,174 - INFO - [INIT] API Key disponible: Sí
+2025-12-30 00:35:34,174 - INFO - [INIT] Bot Token disponible: Sí
+2025-12-30 00:35:34,174 - INFO - [INIT] Chat ID disponible: Sí
+2025-12-30 00:35:34,175 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2025-12-30 00:35:34,175 - INFO - [START] Iniciando procesamiento de videos editados...
+2025-12-30 00:35:34,175 - INFO - [API] ✅ API Key tiene formato válido
+2025-12-30 00:35:34,175 - INFO - [JSON] Cargados 86 videos desde data.json
+2025-12-30 00:35:34,175 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2025-12-30 00:35:34,176 - INFO - [PROCESS] Procesando 1 videos...
+2025-12-30 00:35:34,176 - INFO - 
+--- Procesando video 1/1 ---
+2025-12-30 00:35:34,176 - INFO - [VIDEO] Título: Sigue mi Voz - Tráiler Oficial I Prime Video
+2025-12-30 00:35:34,176 - INFO - [VIDEO] ID: sMMM6RjXeUY
+2025-12-30 00:35:34,176 - INFO - [SEARCH] Buscando JSON para: 'Sigue mi Voz - Tráiler Oficial I Prime Video'
+2025-12-30 00:35:34,181 - INFO - [SEARCH] Primeras 3 palabras del título: ['sigue', 'voz', 'trailer']
+2025-12-30 00:35:34,181 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2025-12-30 00:35:34,181 - INFO - [COMPARE] Archivo: Sigue mi Voz - Tráiler Oficial I Prime Video.json
+2025-12-30 00:35:34,181 - INFO - [COMPARE] Título JSON: 'Sigue mi Voz - Tráiler Oficial I Prime Video'
+2025-12-30 00:35:34,181 - INFO - [COMPARE] Primeras 3 palabras JSON: ['sigue', 'voz', 'trailer']
+2025-12-30 00:35:34,181 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Sigue mi Voz - Tráiler Oficial I Prime Video.json
+2025-12-30 00:35:34,182 - INFO - [API] ✅ API Key tiene formato válido
+2025-12-30 00:35:34,182 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2025-12-30 00:35:34,182 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2025-12-30 00:35:34,182 - INFO - [API] 🔑 API Key válida: ✅
+2025-12-30 00:35:34,182 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2025-12-30 00:35:50,428 - INFO - [API] 📊 Código de respuesta: 200
+2025-12-30 00:35:50,429 - INFO - [API] ✅ Respuesta recibida exitosamente
+2025-12-30 00:35:50,429 - INFO - [API] 📏 Longitud de respuesta: 2003 caracteres
+2025-12-30 00:35:50,429 - INFO - [API] 📝 Inicio de respuesta: # TÍTULO: 
+SIGUE MI VOZ Tráiler Oficial en Español (2025) | Prime Video
+
+# DESCRIPCIÓN:
+🎬 ¡Prepárate...
+2025-12-30 00:35:50,430 - INFO - [PARSE] Parseando respuesta de Claude...
+2025-12-30 00:35:50,431 - INFO - [PARSE] Datos parseados exitosamente:
+2025-12-30 00:35:50,431 - INFO -   - Título: SIGUE MI VOZ Tráiler Oficial en Español (2025) | P...
+2025-12-30 00:35:50,431 - INFO -   - Descripción: 1915 caracteres
+2025-12-30 00:35:50,431 - INFO -   - Tags: 12 elementos
+2025-12-30 00:35:50,431 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2025-12-30 00:35:50,431 - INFO - [UPDATE] JSON actualizado: Sigue mi Voz - Tráiler Oficial I Prime Video.json
+2025-12-30 00:35:50,432 - INFO - [JSON] Cargados 86 videos desde data.json
+2025-12-30 00:35:50,432 - INFO - [STATUS] Video sMMM6RjXeUY actualizado a 'ok'
+2025-12-30 00:35:50,433 - INFO - [JSON] data.json actualizado exitosamente
+2025-12-30 00:35:50,433 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2025-12-30 00:35:50,433 - INFO - 
+[SUMMARY] Procesamiento completado:
+2025-12-30 00:35:50,433 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2025-12-30 00:35:50,433 - INFO - [SUMMARY] Videos fallidos: 0
+2025-12-30 00:35:50,921 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2025-12-30 00:35:50,922 - INFO - [FINISH] Proceso completado exitosamente
