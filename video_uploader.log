@@ -301,3 +301,29 @@
 2025-12-30 18:23:26,098 - ERROR - [YOUTUBE] Error: <HttpError 400 when requesting None returned "The request metadata specifies an invalid or empty video title.". Details: "[{'message': 'The request metadata specifies an invalid or empty video title.', 'domain': 'youtube.video', 'reason': 'invalidTitle', 'location': 'body.snippet.title', 'locationType': 'other'}]">
 2025-12-30 18:23:29,055 - INFO - [FINISH] Subida automática completada: 0 éxitos, 1 errores
 2025-12-30 18:23:29,055 - INFO - [FINISH] Proceso completado
+2025-12-30 18:54:27,130 - INFO - [PROCESS] 2 videos listos para subir automáticamente
+2025-12-30 18:54:27,815 - INFO - [UPLOAD] Procesando: Stranger Things 5 | Tráiler de la final | Netflix
+2025-12-30 18:54:27,815 - INFO - [SEARCH] Buscando archivos para: 'Stranger Things 5 | Tráiler de la final | Netflix'
+2025-12-30 18:54:27,815 - INFO - [SEARCH] Palabras clave: ['stranger', 'things', '5']
+2025-12-30 18:54:27,815 - INFO - [FILES] JSON: Stranger Things 5 _ Tráiler de la final _ Netflix.json
+2025-12-30 18:54:27,815 - INFO - [FILES] Video: Stranger Things 5 _ Tráiler de la final _ Netflix(1080P_HD).mp4
+2025-12-30 18:54:27,815 - INFO - [FILES] Thumbnail: Stranger Things 5 _ Tráiler de la final _ Netflix(1080P_HD).jpg
+2025-12-30 18:54:27,832 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-12-30 18:54:27,928 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2025-12-30 18:54:29,902 - INFO - [YOUTUBE] Video subido: kE8Meab4QdM
+2025-12-30 18:54:32,438 - INFO - [YOUTUBE] Thumbnail subido
+2025-12-30 18:54:32,444 - INFO - [CLEANUP] Archivos eliminados: HjHJSbAoTTw
+2025-12-30 18:54:35,149 - INFO - [UPLOAD] Procesando: Stranger Things | El elenco reacciona: La primera partida de Calabozos y Dragones | Netflix
+2025-12-30 18:54:35,150 - INFO - [SEARCH] Buscando archivos para: 'Stranger Things | El elenco reacciona: La primera partida de Calabozos y Dragones | Netflix'
+2025-12-30 18:54:35,150 - INFO - [SEARCH] Palabras clave: ['stranger', 'things', '|']
+2025-12-30 18:54:35,150 - WARNING - [FALLBACK] No se encontraron archivos por coincidencia para 'Stranger Things | El elenco reacciona: La primera partida de Calabozos y Dragones | Netflix', intentando con archivos únicos...
+2025-12-30 18:54:35,150 - INFO - [FALLBACK] Archivos únicos encontrados:
+2025-12-30 18:54:35,150 - INFO - [FALLBACK] JSON: Ninguno (Total: 0)
+2025-12-30 18:54:35,150 - INFO - [FALLBACK] Video: Ninguno (Total: 0)
+2025-12-30 18:54:35,150 - INFO - [FALLBACK] Thumbnail: Ninguno (Total: 0)
+2025-12-30 18:54:35,150 - ERROR - [FILES] JSON: No encontrado
+2025-12-30 18:54:35,150 - ERROR - [FILES] Video: No encontrado
+2025-12-30 18:54:35,150 - WARNING - [FILES] Thumbnail: No encontrado
+2025-12-30 18:54:35,150 - ERROR - [ERROR] Faltan archivos para 'Stranger Things | El elenco reacciona: La primera partida de Calabozos y Dragones | Netflix': JSON, MP4, metadata
+2025-12-30 18:54:35,754 - INFO - [FINISH] Subida automática completada: 1 éxitos, 1 errores
+2025-12-30 18:54:35,754 - INFO - [FINISH] Proceso completado

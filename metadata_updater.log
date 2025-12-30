@@ -1445,3 +1445,65 @@ SIGUE MI VOZ Tráiler Oficial en Español (2025) | Prime Video
 2025-12-30 18:23:24,314 - INFO - [SUMMARY] Videos fallidos: 1
 2025-12-30 18:23:24,793 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2025-12-30 18:23:24,794 - INFO - [FINISH] Proceso completado exitosamente
+2025-12-30 18:54:08,886 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2025-12-30 18:54:08,886 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2025-12-30 18:54:08,886 - INFO - [INIT] API Key disponible: Sí
+2025-12-30 18:54:08,886 - INFO - [INIT] Bot Token disponible: Sí
+2025-12-30 18:54:08,886 - INFO - [INIT] Chat ID disponible: Sí
+2025-12-30 18:54:08,886 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2025-12-30 18:54:08,886 - INFO - [START] Iniciando procesamiento de videos editados...
+2025-12-30 18:54:08,886 - INFO - [API] ✅ API Key tiene formato válido
+2025-12-30 18:54:08,887 - INFO - [JSON] Cargados 86 videos desde data.json
+2025-12-30 18:54:08,887 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2025-12-30 18:54:08,887 - INFO - [PROCESS] Procesando 2 videos...
+2025-12-30 18:54:08,887 - INFO - 
+--- Procesando video 1/2 ---
+2025-12-30 18:54:08,887 - INFO - [VIDEO] Título: STRANGER THINGS Final Tráiler Español Latino (2026) El Final
+2025-12-30 18:54:08,887 - INFO - [VIDEO] ID: VOaeB0kAeyg
+2025-12-30 18:54:08,887 - INFO - [SEARCH] Buscando JSON para: 'STRANGER THINGS Final Tráiler Español Latino (2026) El Final'
+2025-12-30 18:54:08,888 - INFO - [SEARCH] Primeras 3 palabras del título: ['stranger', 'things', 'final']
+2025-12-30 18:54:08,888 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2025-12-30 18:54:08,888 - INFO - [COMPARE] Archivo: Stranger Things 5 _ Tráiler de la final _ Netflix.json
+2025-12-30 18:54:08,888 - INFO - [COMPARE] Título JSON: 'Stranger Things 5 | Tráiler de la final | Netflix'
+2025-12-30 18:54:08,888 - INFO - [COMPARE] Primeras 3 palabras JSON: ['stranger', 'things', 'trailer']
+2025-12-30 18:54:08,888 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'STRANGER THINGS Final Tráiler Español Latino (2026) El Final'
+2025-12-30 18:54:08,888 - ERROR - [ERROR] No se encontró JSON para el video: STRANGER THINGS Final Tráiler Español Latino (2026) El Final
+2025-12-30 18:54:08,888 - INFO - 
+--- Procesando video 2/2 ---
+2025-12-30 18:54:08,889 - INFO - [VIDEO] Título: Stranger Things 5 | Tráiler de la final | Netflix
+2025-12-30 18:54:08,889 - INFO - [VIDEO] ID: HjHJSbAoTTw
+2025-12-30 18:54:08,889 - INFO - [SEARCH] Buscando JSON para: 'Stranger Things 5 | Tráiler de la final | Netflix'
+2025-12-30 18:54:08,889 - INFO - [SEARCH] Primeras 3 palabras del título: ['stranger', 'things', 'trailer']
+2025-12-30 18:54:08,889 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2025-12-30 18:54:08,889 - INFO - [COMPARE] Archivo: Stranger Things 5 _ Tráiler de la final _ Netflix.json
+2025-12-30 18:54:08,889 - INFO - [COMPARE] Título JSON: 'Stranger Things 5 | Tráiler de la final | Netflix'
+2025-12-30 18:54:08,889 - INFO - [COMPARE] Primeras 3 palabras JSON: ['stranger', 'things', 'trailer']
+2025-12-30 18:54:08,889 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Stranger Things 5 _ Tráiler de la final _ Netflix.json
+2025-12-30 18:54:08,889 - INFO - [API] ✅ API Key tiene formato válido
+2025-12-30 18:54:08,889 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2025-12-30 18:54:08,889 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2025-12-30 18:54:08,890 - INFO - [API] 🔑 API Key válida: ✅
+2025-12-30 18:54:08,890 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2025-12-30 18:54:26,103 - INFO - [API] 📊 Código de respuesta: 200
+2025-12-30 18:54:26,103 - INFO - [API] ✅ Respuesta recibida exitosamente
+2025-12-30 18:54:26,103 - INFO - [API] 📏 Longitud de respuesta: 2091 caracteres
+2025-12-30 18:54:26,103 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: STRANGER THINGS 5 | Tráiler Final Oficial en Español Latino (2025) | Netflix
+
+DESCRIPCIÓN: 🔥...
+2025-12-30 18:54:26,104 - INFO - [PARSE] Parseando respuesta de Claude...
+2025-12-30 18:54:26,105 - INFO - [PARSE] Datos parseados exitosamente:
+2025-12-30 18:54:26,105 - INFO -   - Título: STRANGER THINGS 5 | Tráiler Final Oficial en Españ...
+2025-12-30 18:54:26,105 - INFO -   - Descripción: 1748 caracteres
+2025-12-30 18:54:26,105 - INFO -   - Tags: 12 elementos
+2025-12-30 18:54:26,105 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2025-12-30 18:54:26,106 - INFO - [UPDATE] JSON actualizado: Stranger Things 5 _ Tráiler de la final _ Netflix.json
+2025-12-30 18:54:26,106 - INFO - [JSON] Cargados 86 videos desde data.json
+2025-12-30 18:54:26,106 - INFO - [STATUS] Video HjHJSbAoTTw actualizado a 'ok'
+2025-12-30 18:54:26,107 - INFO - [JSON] data.json actualizado exitosamente
+2025-12-30 18:54:26,107 - INFO - [SUCCESS] Video 2 procesado exitosamente
+2025-12-30 18:54:26,107 - INFO - 
+[SUMMARY] Procesamiento completado:
+2025-12-30 18:54:26,107 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2025-12-30 18:54:26,107 - INFO - [SUMMARY] Videos fallidos: 1
+2025-12-30 18:54:26,778 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2025-12-30 18:54:26,779 - INFO - [FINISH] Proceso completado exitosamente
