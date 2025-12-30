@@ -327,3 +327,6 @@
 2025-12-30 18:54:35,150 - ERROR - [ERROR] Faltan archivos para 'Stranger Things | El elenco reacciona: La primera partida de Calabozos y Dragones | Netflix': JSON, MP4, metadata
 2025-12-30 18:54:35,754 - INFO - [FINISH] Subida automática completada: 1 éxitos, 1 errores
 2025-12-30 18:54:35,754 - INFO - [FINISH] Proceso completado
+2025-12-30 19:14:43,353 - INFO - [PROCESS] No hay videos listos para subir
+2025-12-30 19:14:53,365 - ERROR - [TELEGRAM] Error: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7869024150:AAGFO6ZvpO4-5J4karX_lef252tkD3BhclE/sendMessage (Caused by NewConnectionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2025-12-30 19:14:53,365 - INFO - [FINISH] Proceso completado
