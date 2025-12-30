@@ -1385,3 +1385,63 @@ SIGUE MI VOZ Tráiler Oficial en Español (2025) | Prime Video
 2025-12-30 18:09:57,492 - INFO - [SUMMARY] Videos fallidos: 1
 2025-12-30 18:09:57,985 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2025-12-30 18:09:57,986 - INFO - [FINISH] Proceso completado exitosamente
+2025-12-30 18:23:08,038 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2025-12-30 18:23:08,038 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2025-12-30 18:23:08,039 - INFO - [INIT] API Key disponible: Sí
+2025-12-30 18:23:08,039 - INFO - [INIT] Bot Token disponible: Sí
+2025-12-30 18:23:08,039 - INFO - [INIT] Chat ID disponible: Sí
+2025-12-30 18:23:08,039 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2025-12-30 18:23:08,039 - INFO - [START] Iniciando procesamiento de videos editados...
+2025-12-30 18:23:08,039 - INFO - [API] ✅ API Key tiene formato válido
+2025-12-30 18:23:08,040 - INFO - [JSON] Cargados 86 videos desde data.json
+2025-12-30 18:23:08,040 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2025-12-30 18:23:08,040 - INFO - [PROCESS] Procesando 2 videos...
+2025-12-30 18:23:08,040 - INFO - 
+--- Procesando video 1/2 ---
+2025-12-30 18:23:08,040 - INFO - [VIDEO] Título: STRANGER THINGS Final Tráiler Español Latino (2026) El Final
+2025-12-30 18:23:08,040 - INFO - [VIDEO] ID: VOaeB0kAeyg
+2025-12-30 18:23:08,040 - INFO - [SEARCH] Buscando JSON para: 'STRANGER THINGS Final Tráiler Español Latino (2026) El Final'
+2025-12-30 18:23:08,049 - INFO - [SEARCH] Primeras 3 palabras del título: ['stranger', 'things', 'final']
+2025-12-30 18:23:08,050 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2025-12-30 18:23:08,050 - INFO - [COMPARE] Archivo: Stranger Things _ El elenco reacciona_ La primera partida de Calabozos y Dragones _ Netflix.json
+2025-12-30 18:23:08,050 - INFO - [COMPARE] Título JSON: 'Stranger Things | El elenco reacciona: La primera partida de Calabozos y Dragones | Netflix'
+2025-12-30 18:23:08,050 - INFO - [COMPARE] Primeras 3 palabras JSON: ['stranger', 'things', 'elenco']
+2025-12-30 18:23:08,050 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'STRANGER THINGS Final Tráiler Español Latino (2026) El Final'
+2025-12-30 18:23:08,050 - ERROR - [ERROR] No se encontró JSON para el video: STRANGER THINGS Final Tráiler Español Latino (2026) El Final
+2025-12-30 18:23:08,051 - INFO - 
+--- Procesando video 2/2 ---
+2025-12-30 18:23:08,051 - INFO - [VIDEO] Título: Stranger Things | El elenco reacciona: La primera partida de Calabozos y Dragones | Netflix
+2025-12-30 18:23:08,051 - INFO - [VIDEO] ID: -8us-a9-6xs
+2025-12-30 18:23:08,051 - INFO - [SEARCH] Buscando JSON para: 'Stranger Things | El elenco reacciona: La primera partida de Calabozos y Dragones | Netflix'
+2025-12-30 18:23:08,051 - INFO - [SEARCH] Primeras 3 palabras del título: ['stranger', 'things', 'elenco']
+2025-12-30 18:23:08,051 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2025-12-30 18:23:08,051 - INFO - [COMPARE] Archivo: Stranger Things _ El elenco reacciona_ La primera partida de Calabozos y Dragones _ Netflix.json
+2025-12-30 18:23:08,051 - INFO - [COMPARE] Título JSON: 'Stranger Things | El elenco reacciona: La primera partida de Calabozos y Dragones | Netflix'
+2025-12-30 18:23:08,051 - INFO - [COMPARE] Primeras 3 palabras JSON: ['stranger', 'things', 'elenco']
+2025-12-30 18:23:08,051 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Stranger Things _ El elenco reacciona_ La primera partida de Calabozos y Dragones _ Netflix.json
+2025-12-30 18:23:08,051 - INFO - [API] ✅ API Key tiene formato válido
+2025-12-30 18:23:08,052 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2025-12-30 18:23:08,052 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2025-12-30 18:23:08,052 - INFO - [API] 🔑 API Key válida: ✅
+2025-12-30 18:23:08,052 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2025-12-30 18:23:24,310 - INFO - [API] 📊 Código de respuesta: 200
+2025-12-30 18:23:24,310 - INFO - [API] ✅ Respuesta recibida exitosamente
+2025-12-30 18:23:24,310 - INFO - [API] 📏 Longitud de respuesta: 2136 caracteres
+2025-12-30 18:23:24,310 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: STRANGER THINGS | El Elenco Reacciona a la Primera Partida de Calabozos y Dragones | Trailer...
+2025-12-30 18:23:24,311 - INFO - [PARSE] Parseando respuesta de Claude...
+2025-12-30 18:23:24,312 - INFO - [PARSE] Datos parseados exitosamente:
+2025-12-30 18:23:24,312 - INFO -   - Título: STRANGER THINGS | El Elenco Reacciona a la Primera...
+2025-12-30 18:23:24,312 - INFO -   - Descripción: 1755 caracteres
+2025-12-30 18:23:24,312 - INFO -   - Tags: 12 elementos
+2025-12-30 18:23:24,312 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2025-12-30 18:23:24,312 - INFO - [UPDATE] JSON actualizado: Stranger Things _ El elenco reacciona_ La primera partida de Calabozos y Dragones _ Netflix.json
+2025-12-30 18:23:24,313 - INFO - [JSON] Cargados 86 videos desde data.json
+2025-12-30 18:23:24,313 - INFO - [STATUS] Video -8us-a9-6xs actualizado a 'ok'
+2025-12-30 18:23:24,314 - INFO - [JSON] data.json actualizado exitosamente
+2025-12-30 18:23:24,314 - INFO - [SUCCESS] Video 2 procesado exitosamente
+2025-12-30 18:23:24,314 - INFO - 
+[SUMMARY] Procesamiento completado:
+2025-12-30 18:23:24,314 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2025-12-30 18:23:24,314 - INFO - [SUMMARY] Videos fallidos: 1
+2025-12-30 18:23:24,793 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2025-12-30 18:23:24,794 - INFO - [FINISH] Proceso completado exitosamente
