@@ -396,3 +396,17 @@
 2025-12-31 16:03:54,148 - INFO - [CLEANUP] Archivos eliminados: WlK94yAi550
 2025-12-31 16:03:57,326 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2025-12-31 16:03:57,327 - INFO - [FINISH] Proceso completado
+2025-12-31 16:30:17,912 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2025-12-31 16:30:18,337 - INFO - [UPLOAD] Procesando: OTRO AMOR FUERA DE TIEMPO Tráiler Español Latino (2026)
+2025-12-31 16:30:18,337 - INFO - [SEARCH] Buscando archivos para: 'OTRO AMOR FUERA DE TIEMPO Tráiler Español Latino (2026)'
+2025-12-31 16:30:18,338 - INFO - [SEARCH] Palabras clave: ['otro', 'amor', 'fuera']
+2025-12-31 16:30:18,338 - INFO - [FILES] JSON: OTRO AMOR FUERA DE TIEMPO Tráiler Español Latino (2026).json
+2025-12-31 16:30:18,338 - INFO - [FILES] Video: OTRO AMOR FUERA DE TIEMPO Tráiler Español Latino (2026)(1080P_HD).mp4
+2025-12-31 16:30:18,338 - INFO - [FILES] Thumbnail: OTRO AMOR FUERA DE TIEMPO Tráiler Español Latino (2026)(1080P_HD).jpg
+2025-12-31 16:30:18,348 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-12-31 16:30:18,495 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2025-12-31 16:30:20,246 - INFO - [YOUTUBE] Video subido: jGGgk3KnQws
+2025-12-31 16:30:24,279 - INFO - [YOUTUBE] Thumbnail subido
+2025-12-31 16:30:24,287 - INFO - [CLEANUP] Archivos eliminados: yYBJmYe-i6M
+2025-12-31 16:30:27,179 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2025-12-31 16:30:27,180 - INFO - [FINISH] Proceso completado
