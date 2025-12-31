@@ -40,17 +40,16 @@ def download_metadata():
                     name = sanitize(m['snippet']['title'])
                     print(f"Nombre sanitizado: {name}")
                     
-                    # Guardar metadata
-                    video_dir = os.path.join("videos", name)
-                    os.makedirs(video_dir, exist_ok=True)
+                    # Guardar metadata directamente en videos/{nombre}.json
+                    metadata_file = os.path.join("videos", f"{name}.json")
                     
-                    with open(os.path.join(video_dir, "metadata.json"), 'w', encoding='utf-8') as f:
+                    with open(metadata_file, 'w', encoding='utf-8') as f:
                         json.dump(m, f, indent=2, ensure_ascii=False)
                     
                     # Actualizar status
                     v['status'] = 'metadata_downloaded'
                     v['sanitized_name'] = name
-                    print(f"✓ Metadata guardada")
+                    print(f"✓ Metadata guardada en {metadata_file}")
                 else:
                     print(f"Error: No se encontró el video")
                     v['status'] = 'error'
