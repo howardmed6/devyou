@@ -382,3 +382,17 @@
 2025-12-31 15:39:06,700 - INFO - [FINISH] Proceso completado
 2025-12-31 15:48:23,517 - INFO - [PROCESS] No hay videos listos para subir
 2025-12-31 15:48:23,987 - INFO - [FINISH] Proceso completado
+2025-12-31 16:03:48,644 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2025-12-31 16:03:49,234 - INFO - [UPLOAD] Procesando: Cómo Entrenar A Tu Dragón  | Trailer Oficial | HBO Max
+2025-12-31 16:03:49,235 - INFO - [SEARCH] Buscando archivos para: 'Cómo Entrenar A Tu Dragón  | Trailer Oficial | HBO Max'
+2025-12-31 16:03:49,235 - INFO - [SEARCH] Palabras clave: ['como', 'entrenar', 'a']
+2025-12-31 16:03:49,235 - INFO - [FILES] JSON: Cómo Entrenar A Tu Dragón  _ Trailer Oficial _ HBO Max.json
+2025-12-31 16:03:49,236 - INFO - [FILES] Video: Cómo Entrenar A Tu Dragón  _ Trailer Oficial _ HBO Max(1080P_HD).mp4
+2025-12-31 16:03:49,236 - INFO - [FILES] Thumbnail: Cómo Entrenar A Tu Dragón  _ Trailer Oficial _ HBO Max(1080P_HD).jpg
+2025-12-31 16:03:49,254 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-12-31 16:03:49,377 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2025-12-31 16:03:51,865 - INFO - [YOUTUBE] Video subido: Y-YSqqpH7gk
+2025-12-31 16:03:54,137 - INFO - [YOUTUBE] Thumbnail subido
+2025-12-31 16:03:54,148 - INFO - [CLEANUP] Archivos eliminados: WlK94yAi550
+2025-12-31 16:03:57,326 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2025-12-31 16:03:57,327 - INFO - [FINISH] Proceso completado
