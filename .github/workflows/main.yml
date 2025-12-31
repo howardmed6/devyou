@@ -45,6 +45,7 @@ jobs:
           google-auth-oauthlib \
           google-auth \
           pathlib
+          yt-dlp
 
     - name: Configure git
       run: |
