@@ -37,14 +37,25 @@ def download_metadata():
                 
                 if 'items' in result and len(result['items']) > 0:
                     m = result['items'][0]
-                    name = sanitize(m['snippet']['title'])
+                    
+                    # USAR EL TÍTULO DE data.json PARA NOMBRAR EL ARCHIVO
+                    name = sanitize(v['title'])
                     print(f"Nombre sanitizado: {name}")
                     
                     # Guardar metadata directamente en videos/{nombre}.json
+                    # usando el título de data.json
                     metadata_file = os.path.join("videos", f"{name}.json")
                     
+                    # Preparar datos para guardar (con título de la API)
+                    json_data = {
+                        'title': m['snippet']['title'],
+                        'description': m['snippet'].get('description', ''),
+                        'tags': m['snippet'].get('tags', []),
+                        'categories': ['Entertainment']
+                    }
+                    
                     with open(metadata_file, 'w', encoding='utf-8') as f:
-                        json.dump(m, f, indent=2, ensure_ascii=False)
+                        json.dump(json_data, f, indent=2, ensure_ascii=False)
                     
                     # Actualizar status
                     v['status'] = 'metadata_downloaded'
