@@ -20,12 +20,12 @@ def update_status():
     
     updated = 0
     for video in data:
-        if video['status'] == 'pending':
+        if video['status'] == 'metadata_downloaded':
             video['status'] = 'metadata_update'
             updated += 1
     
     if updated > 0:
-        send_notification(f"Cambiados {updated}: pending -> downloaded")
+        send_notification(f"Cambiados {updated}: metadata_downloaded -> metadata_update")
     
     with open("data.json", 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
