@@ -336,3 +336,5 @@
 2025-12-30 19:52:19,093 - INFO - [PROCESS] No hay videos listos para subir
 2025-12-30 19:52:29,105 - ERROR - [TELEGRAM] Error: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7869024150:AAGFO6ZvpO4-5J4karX_lef252tkD3BhclE/sendMessage (Caused by NewConnectionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
 2025-12-30 19:52:29,105 - INFO - [FINISH] Proceso completado
+2025-12-31 00:09:58,900 - INFO - [PROCESS] No hay videos listos para subir
+2025-12-31 00:09:59,461 - INFO - [FINISH] Proceso completado
