@@ -340,3 +340,17 @@
 2025-12-31 00:09:59,461 - INFO - [FINISH] Proceso completado
 2025-12-31 00:12:52,907 - INFO - [PROCESS] No hay videos listos para subir
 2025-12-31 00:12:53,464 - INFO - [FINISH] Proceso completado
+2025-12-31 00:18:52,747 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2025-12-31 00:18:53,196 - INFO - [UPLOAD] Procesando: VENGADORES: DOOMSDAY &quot;Thor&quot; Teaser Tráiler Español (2026)
+2025-12-31 00:18:53,196 - INFO - [SEARCH] Buscando archivos para: 'VENGADORES: DOOMSDAY &quot;Thor&quot; Teaser Tráiler Español (2026)'
+2025-12-31 00:18:53,196 - INFO - [SEARCH] Palabras clave: ['vengadores', 'doomsday', '&quot']
+2025-12-31 00:18:53,197 - INFO - [FILES] JSON: VENGADORES_ DOOMSDAY &quot;Thor&quot; Teaser Tráiler Español (2026).json
+2025-12-31 00:18:53,197 - INFO - [FILES] Video: VENGADORES_ DOOMSDAY _Thor_ Teaser Tráiler Español (2026)(1080P_HD).mp4
+2025-12-31 00:18:53,197 - INFO - [FILES] Thumbnail: VENGADORES_ DOOMSDAY _Thor_ Teaser Tráiler Español (2026)(1080P_HD).jpg
+2025-12-31 00:18:53,215 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-12-31 00:18:53,322 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2025-12-31 00:18:54,629 - INFO - [YOUTUBE] Video subido: 4FGxf16GklI
+2025-12-31 00:18:56,194 - INFO - [YOUTUBE] Thumbnail subido
+2025-12-31 00:18:56,201 - INFO - [CLEANUP] Archivos eliminados: Skqjq4VtU5g
+2025-12-31 00:18:59,164 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2025-12-31 00:18:59,164 - INFO - [FINISH] Proceso completado
