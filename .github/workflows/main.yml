@@ -44,7 +44,7 @@ jobs:
           google-auth-httplib2 \
           google-auth-oauthlib \
           google-auth \
-          pathlib
+          pathlib \
           yt-dlp
 
     - name: Configure git
