@@ -1921,3 +1921,53 @@ DESCRIPCIÓN: 🎬 ¡Prepárate p...
 2025-12-31 16:30:17,114 - INFO - [SUMMARY] Videos fallidos: 0
 2025-12-31 16:30:17,546 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2025-12-31 16:30:17,547 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-02 16:52:11,099 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-02 16:52:11,099 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-02 16:52:11,099 - INFO - [INIT] API Key disponible: Sí
+2026-01-02 16:52:11,099 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-02 16:52:11,099 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-02 16:52:11,099 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-02 16:52:11,099 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-02 16:52:11,099 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-02 16:52:11,100 - INFO - [JSON] Cargados 101 videos desde data.json
+2026-01-02 16:52:11,100 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-01-02 16:52:11,100 - INFO - [PROCESS] Procesando 1 videos...
+2026-01-02 16:52:11,100 - INFO - 
+--- Procesando video 1/1 ---
+2026-01-02 16:52:11,101 - INFO - [VIDEO] Título: ALIENS VS COMMANDOS Tráiler Español (2026)
+2026-01-02 16:52:11,101 - INFO - [VIDEO] ID: vC-OTrm7roo
+2026-01-02 16:52:11,101 - INFO - [SEARCH] Buscando JSON para: 'ALIENS VS COMMANDOS Tráiler Español (2026)'
+2026-01-02 16:52:11,101 - INFO - [SEARCH] Primeras 3 palabras del título: ['aliens', 'commandos', 'trailer']
+2026-01-02 16:52:11,102 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-02 16:52:11,102 - INFO - [COMPARE] Archivo: ALIENS VS COMMANDOS Tráiler Español (2026).json
+2026-01-02 16:52:11,102 - INFO - [COMPARE] Título JSON: 'ALIENS VS COMMANDOS Tráiler Español (2026)'
+2026-01-02 16:52:11,102 - INFO - [COMPARE] Primeras 3 palabras JSON: ['aliens', 'commandos', 'trailer']
+2026-01-02 16:52:11,102 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: ALIENS VS COMMANDOS Tráiler Español (2026).json
+2026-01-02 16:52:11,102 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-02 16:52:11,102 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-01-02 16:52:11,102 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-01-02 16:52:11,102 - INFO - [API] 🔑 API Key válida: ✅
+2026-01-02 16:52:11,102 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-01-02 16:52:26,724 - INFO - [API] 📊 Código de respuesta: 200
+2026-01-02 16:52:26,724 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-01-02 16:52:26,724 - INFO - [API] 📏 Longitud de respuesta: 2066 caracteres
+2026-01-02 16:52:26,724 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: ALIENS VS COMMANDOS Tráiler Oficial en Español (2026) | Ciencia Ficción y Acción Militar
+
+DE...
+2026-01-02 16:52:26,725 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-01-02 16:52:26,726 - INFO - [PARSE] Datos parseados exitosamente:
+2026-01-02 16:52:26,726 - INFO -   - Título: ALIENS VS COMMANDOS Tráiler Oficial en Español (20...
+2026-01-02 16:52:26,726 - INFO -   - Descripción: 1750 caracteres
+2026-01-02 16:52:26,726 - INFO -   - Tags: 11 elementos
+2026-01-02 16:52:26,726 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-01-02 16:52:26,727 - INFO - [UPDATE] JSON actualizado: ALIENS VS COMMANDOS Tráiler Español (2026).json
+2026-01-02 16:52:26,727 - INFO - [JSON] Cargados 101 videos desde data.json
+2026-01-02 16:52:26,728 - INFO - [STATUS] Video vC-OTrm7roo actualizado a 'ok'
+2026-01-02 16:52:26,729 - INFO - [JSON] data.json actualizado exitosamente
+2026-01-02 16:52:26,729 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-01-02 16:52:26,729 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-01-02 16:52:26,729 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-01-02 16:52:26,729 - INFO - [SUMMARY] Videos fallidos: 0
+2026-01-02 16:52:27,205 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-02 16:52:27,206 - INFO - [FINISH] Proceso completado exitosamente

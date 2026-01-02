@@ -410,3 +410,17 @@
 2025-12-31 16:30:24,287 - INFO - [CLEANUP] Archivos eliminados: yYBJmYe-i6M
 2025-12-31 16:30:27,179 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2025-12-31 16:30:27,180 - INFO - [FINISH] Proceso completado
+2026-01-02 16:52:27,591 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-01-02 16:52:28,052 - INFO - [UPLOAD] Procesando: ALIENS VS COMMANDOS Tráiler Español (2026)
+2026-01-02 16:52:28,052 - INFO - [SEARCH] Buscando archivos para: 'ALIENS VS COMMANDOS Tráiler Español (2026)'
+2026-01-02 16:52:28,053 - INFO - [SEARCH] Palabras clave: ['aliens', 'vs', 'commandos']
+2026-01-02 16:52:28,053 - INFO - [FILES] JSON: ALIENS VS COMMANDOS Tráiler Español (2026).json
+2026-01-02 16:52:28,053 - INFO - [FILES] Video: ALIENS VS COMMANDOS Tráiler Español (2026)(1080P_HD).mp4
+2026-01-02 16:52:28,053 - INFO - [FILES] Thumbnail: ALIENS VS COMMANDOS Tráiler Español (2026)(1080P_HD).jpg
+2026-01-02 16:52:28,063 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-02 16:52:28,227 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-01-02 16:52:29,820 - INFO - [YOUTUBE] Video subido: Pj--vEylZyg
+2026-01-02 16:52:31,218 - INFO - [YOUTUBE] Thumbnail subido
+2026-01-02 16:52:31,225 - INFO - [CLEANUP] Archivos eliminados: vC-OTrm7roo
+2026-01-02 16:52:34,196 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-01-02 16:52:34,196 - INFO - [FINISH] Proceso completado
