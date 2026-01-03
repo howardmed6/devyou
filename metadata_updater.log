@@ -1971,3 +1971,53 @@ DE...
 2026-01-02 16:52:26,729 - INFO - [SUMMARY] Videos fallidos: 0
 2026-01-02 16:52:27,205 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-01-02 16:52:27,206 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-03 16:18:36,052 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-03 16:18:36,052 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-03 16:18:36,052 - INFO - [INIT] API Key disponible: Sí
+2026-01-03 16:18:36,052 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-03 16:18:36,052 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-03 16:18:36,052 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-03 16:18:36,052 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-03 16:18:36,052 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-03 16:18:36,053 - INFO - [JSON] Cargados 90 videos desde data.json
+2026-01-03 16:18:36,053 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-01-03 16:18:36,053 - INFO - [PROCESS] Procesando 1 videos...
+2026-01-03 16:18:36,053 - INFO - 
+--- Procesando video 1/1 ---
+2026-01-03 16:18:36,053 - INFO - [VIDEO] Título: EL TESTAMENTO DE ANN LEE Tráiler Español (2026) Amanda Seyfried
+2026-01-03 16:18:36,054 - INFO - [VIDEO] ID: Vygg_KzANRw
+2026-01-03 16:18:36,054 - INFO - [SEARCH] Buscando JSON para: 'EL TESTAMENTO DE ANN LEE Tráiler Español (2026) Amanda Seyfried'
+2026-01-03 16:18:36,062 - INFO - [SEARCH] Primeras 3 palabras del título: ['testamento', 'ann', 'lee']
+2026-01-03 16:18:36,062 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-03 16:18:36,062 - INFO - [COMPARE] Archivo: EL TESTAMENTO DE ANN LEE Tráiler Español (2026) Amanda Seyfried.json
+2026-01-03 16:18:36,062 - INFO - [COMPARE] Título JSON: 'EL TESTAMENTO DE ANN LEE Tráiler Español (2026) Amanda Seyfried'
+2026-01-03 16:18:36,062 - INFO - [COMPARE] Primeras 3 palabras JSON: ['testamento', 'ann', 'lee']
+2026-01-03 16:18:36,062 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: EL TESTAMENTO DE ANN LEE Tráiler Español (2026) Amanda Seyfried.json
+2026-01-03 16:18:36,062 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-03 16:18:36,062 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-01-03 16:18:36,062 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-01-03 16:18:36,062 - INFO - [API] 🔑 API Key válida: ✅
+2026-01-03 16:18:36,063 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-01-03 16:18:51,752 - INFO - [API] 📊 Código de respuesta: 200
+2026-01-03 16:18:51,753 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-01-03 16:18:51,753 - INFO - [API] 📏 Longitud de respuesta: 2100 caracteres
+2026-01-03 16:18:51,753 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: EL TESTAMENTO DE ANN LEE Tráiler Español Latino (2026)
+
+DESCRIPCIÓN: 🎬 ¡Prepárate para uno d...
+2026-01-03 16:18:51,754 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-01-03 16:18:51,755 - INFO - [PARSE] Datos parseados exitosamente:
+2026-01-03 16:18:51,755 - INFO -   - Título: EL TESTAMENTO DE ANN LEE Tráiler Español Latino (2...
+2026-01-03 16:18:51,755 - INFO -   - Descripción: 1788 caracteres
+2026-01-03 16:18:51,755 - INFO -   - Tags: 12 elementos
+2026-01-03 16:18:51,755 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-01-03 16:18:51,755 - INFO - [UPDATE] JSON actualizado: EL TESTAMENTO DE ANN LEE Tráiler Español (2026) Amanda Seyfried.json
+2026-01-03 16:18:51,756 - INFO - [JSON] Cargados 90 videos desde data.json
+2026-01-03 16:18:51,756 - INFO - [STATUS] Video Vygg_KzANRw actualizado a 'ok'
+2026-01-03 16:18:51,757 - INFO - [JSON] data.json actualizado exitosamente
+2026-01-03 16:18:51,757 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-01-03 16:18:51,757 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-01-03 16:18:51,757 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-01-03 16:18:51,758 - INFO - [SUMMARY] Videos fallidos: 0
+2026-01-03 16:18:52,362 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-03 16:18:52,363 - INFO - [FINISH] Proceso completado exitosamente

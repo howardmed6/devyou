@@ -424,3 +424,17 @@
 2026-01-02 16:52:31,225 - INFO - [CLEANUP] Archivos eliminados: vC-OTrm7roo
 2026-01-02 16:52:34,196 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-01-02 16:52:34,196 - INFO - [FINISH] Proceso completado
+2026-01-03 16:18:52,739 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-01-03 16:18:53,369 - INFO - [UPLOAD] Procesando: EL TESTAMENTO DE ANN LEE Tráiler Español (2026) Amanda Seyfried
+2026-01-03 16:18:53,370 - INFO - [SEARCH] Buscando archivos para: 'EL TESTAMENTO DE ANN LEE Tráiler Español (2026) Amanda Seyfried'
+2026-01-03 16:18:53,370 - INFO - [SEARCH] Palabras clave: ['el', 'testamento', 'de']
+2026-01-03 16:18:53,370 - INFO - [FILES] JSON: EL TESTAMENTO DE ANN LEE Tráiler Español (2026) Amanda Seyfried.json
+2026-01-03 16:18:53,370 - INFO - [FILES] Video: EL TESTAMENTO DE ANN LEE Tráiler Español (2026) Amanda Seyfried(1080P_HD).mp4
+2026-01-03 16:18:53,370 - INFO - [FILES] Thumbnail: EL TESTAMENTO DE ANN LEE Tráiler Español (2026) Amanda Seyfried(1080P_HD).jpg
+2026-01-03 16:18:53,391 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-03 16:18:53,561 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-01-03 16:18:55,604 - INFO - [YOUTUBE] Video subido: iqAAUuZnANA
+2026-01-03 16:18:57,995 - INFO - [YOUTUBE] Thumbnail subido
+2026-01-03 16:18:58,001 - INFO - [CLEANUP] Archivos eliminados: Vygg_KzANRw
+2026-01-03 16:19:01,240 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-01-03 16:19:01,241 - INFO - [FINISH] Proceso completado
