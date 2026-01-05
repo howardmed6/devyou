@@ -2084,3 +2084,32 @@ DESCRIPCIÓ...
 2026-01-05 14:15:32,257 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-01-05 14:15:32,881 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-01-05 14:15:32,882 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-05 14:19:47,978 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-05 14:19:47,978 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-05 14:19:47,978 - INFO - [INIT] API Key disponible: Sí
+2026-01-05 14:19:47,978 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-05 14:19:47,978 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-05 14:19:47,978 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-05 14:19:47,978 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-05 14:19:47,978 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-05 14:19:47,979 - INFO - [JSON] Cargados 87 videos desde data.json
+2026-01-05 14:19:47,979 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-01-05 14:19:47,979 - INFO - [PROCESS] Procesando 1 videos...
+2026-01-05 14:19:47,979 - INFO - 
+--- Procesando video 1/1 ---
+2026-01-05 14:19:47,979 - INFO - [VIDEO] Título: EL BOTÍN Tráiler Español Latino (2026) Matt Damon, Ben Affleck
+2026-01-05 14:19:47,979 - INFO - [VIDEO] ID: dHDkZQENiW0
+2026-01-05 14:19:47,979 - INFO - [SEARCH] Buscando JSON para: 'EL BOTÍN Tráiler Español Latino (2026) Matt Damon, Ben Affleck'
+2026-01-05 14:19:47,985 - INFO - [SEARCH] Primeras 3 palabras del título: ['botin', 'trailer', 'espanol']
+2026-01-05 14:19:47,985 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-05 14:19:47,986 - INFO - [COMPARE] Archivo: El botín _ Tráiler oficial _ Netflix.json
+2026-01-05 14:19:47,986 - INFO - [COMPARE] Título JSON: 'El botín | Tráiler oficial | Netflix'
+2026-01-05 14:19:47,986 - INFO - [COMPARE] Primeras 3 palabras JSON: ['botin', 'trailer', 'oficial']
+2026-01-05 14:19:47,986 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'EL BOTÍN Tráiler Español Latino (2026) Matt Damon, Ben Affleck'
+2026-01-05 14:19:47,986 - ERROR - [ERROR] No se encontró JSON para el video: EL BOTÍN Tráiler Español Latino (2026) Matt Damon, Ben Affleck
+2026-01-05 14:19:47,986 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-01-05 14:19:47,986 - INFO - [SUMMARY] Videos procesados exitosamente: 0
+2026-01-05 14:19:47,986 - INFO - [SUMMARY] Videos fallidos: 1
+2026-01-05 14:19:48,511 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-05 14:19:48,512 - INFO - [FINISH] Proceso completado exitosamente
