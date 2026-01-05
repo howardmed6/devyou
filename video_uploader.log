@@ -458,3 +458,17 @@
 2026-01-05 14:19:49,478 - INFO - [FINISH] Proceso completado
 2026-01-05 14:30:20,567 - INFO - [PROCESS] No hay videos listos para subir
 2026-01-05 14:30:21,192 - INFO - [FINISH] Proceso completado
+2026-01-05 14:36:57,090 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-01-05 14:36:57,546 - INFO - [UPLOAD] Procesando: El botín | Tráiler oficial | Netflix
+2026-01-05 14:36:57,546 - INFO - [SEARCH] Buscando archivos para: 'El botín | Tráiler oficial | Netflix'
+2026-01-05 14:36:57,547 - INFO - [SEARCH] Palabras clave: ['el', 'botin', '|']
+2026-01-05 14:36:57,547 - INFO - [FILES] JSON: El botín _ Tráiler oficial _ Netflix.json
+2026-01-05 14:36:57,547 - INFO - [FILES] Video: El botín _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-01-05 14:36:57,547 - INFO - [FILES] Thumbnail: El botín _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-01-05 14:36:57,599 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-05 14:36:57,758 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-01-05 14:36:59,302 - INFO - [YOUTUBE] Video subido: 2fDlFxn59LY
+2026-01-05 14:37:01,225 - INFO - [YOUTUBE] Thumbnail subido
+2026-01-05 14:37:01,232 - INFO - [CLEANUP] Archivos eliminados: 5Ezk_kY0jxo
+2026-01-05 14:37:04,175 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-01-05 14:37:04,176 - INFO - [FINISH] Proceso completado

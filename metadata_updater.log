@@ -2126,3 +2126,53 @@ DESCRIPCIÓ...
 2026-01-05 14:30:19,378 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-01-05 14:30:20,015 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-01-05 14:30:20,016 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-05 14:36:39,410 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-05 14:36:39,410 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-05 14:36:39,410 - INFO - [INIT] API Key disponible: Sí
+2026-01-05 14:36:39,410 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-05 14:36:39,410 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-05 14:36:39,410 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-05 14:36:39,410 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-05 14:36:39,410 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-05 14:36:39,411 - INFO - [JSON] Cargados 87 videos desde data.json
+2026-01-05 14:36:39,411 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-01-05 14:36:39,411 - INFO - [PROCESS] Procesando 1 videos...
+2026-01-05 14:36:39,411 - INFO - 
+--- Procesando video 1/1 ---
+2026-01-05 14:36:39,411 - INFO - [VIDEO] Título: El botín | Tráiler oficial | Netflix
+2026-01-05 14:36:39,411 - INFO - [VIDEO] ID: 5Ezk_kY0jxo
+2026-01-05 14:36:39,411 - INFO - [SEARCH] Buscando JSON para: 'El botín | Tráiler oficial | Netflix'
+2026-01-05 14:36:39,458 - INFO - [SEARCH] Primeras 3 palabras del título: ['botin', 'trailer', 'oficial']
+2026-01-05 14:36:39,459 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-05 14:36:39,459 - INFO - [COMPARE] Archivo: El botín _ Tráiler oficial _ Netflix.json
+2026-01-05 14:36:39,459 - INFO - [COMPARE] Título JSON: 'El botín | Tráiler oficial | Netflix'
+2026-01-05 14:36:39,459 - INFO - [COMPARE] Primeras 3 palabras JSON: ['botin', 'trailer', 'oficial']
+2026-01-05 14:36:39,459 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: El botín _ Tráiler oficial _ Netflix.json
+2026-01-05 14:36:39,459 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-05 14:36:39,459 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-01-05 14:36:39,459 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-01-05 14:36:39,459 - INFO - [API] 🔑 API Key válida: ✅
+2026-01-05 14:36:39,460 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-01-05 14:36:55,869 - INFO - [API] 📊 Código de respuesta: 200
+2026-01-05 14:36:55,869 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-01-05 14:36:55,869 - INFO - [API] 📏 Longitud de respuesta: 2143 caracteres
+2026-01-05 14:36:55,869 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: EL BOTÍN Tráiler Oficial en Español Latino (2025) | Netflix
+
+DESCRIPCIÓN: 🎬 ¡Prepárate para ...
+2026-01-05 14:36:55,870 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-01-05 14:36:55,871 - INFO - [PARSE] Datos parseados exitosamente:
+2026-01-05 14:36:55,871 - INFO -   - Título: EL BOTÍN Tráiler Oficial en Español Latino (2025) ...
+2026-01-05 14:36:55,871 - INFO -   - Descripción: 1781 caracteres
+2026-01-05 14:36:55,871 - INFO -   - Tags: 12 elementos
+2026-01-05 14:36:55,871 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-01-05 14:36:55,872 - INFO - [UPDATE] JSON actualizado: El botín _ Tráiler oficial _ Netflix.json
+2026-01-05 14:36:55,873 - INFO - [JSON] Cargados 87 videos desde data.json
+2026-01-05 14:36:55,873 - INFO - [STATUS] Video 5Ezk_kY0jxo actualizado a 'ok'
+2026-01-05 14:36:55,874 - INFO - [JSON] data.json actualizado exitosamente
+2026-01-05 14:36:55,874 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-01-05 14:36:55,874 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-01-05 14:36:55,874 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-01-05 14:36:55,874 - INFO - [SUMMARY] Videos fallidos: 0
+2026-01-05 14:36:56,425 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-05 14:36:56,426 - INFO - [FINISH] Proceso completado exitosamente
