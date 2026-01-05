@@ -2202,3 +2202,53 @@ DESCRIPCIÓN: 🎬 ¡Prepárate para ...
 2026-01-05 18:43:22,273 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-01-05 18:43:22,698 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-01-05 18:43:22,699 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-05 18:52:43,775 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-05 18:52:43,775 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-05 18:52:43,775 - INFO - [INIT] API Key disponible: Sí
+2026-01-05 18:52:43,775 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-05 18:52:43,775 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-05 18:52:43,775 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-05 18:52:43,776 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-05 18:52:43,776 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-05 18:52:43,776 - INFO - [JSON] Cargados 87 videos desde data.json
+2026-01-05 18:52:43,777 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-01-05 18:52:43,777 - INFO - [PROCESS] Procesando 1 videos...
+2026-01-05 18:52:43,777 - INFO - 
+--- Procesando video 1/1 ---
+2026-01-05 18:52:43,777 - INFO - [VIDEO] Título: TE VAN A MATAR Tráiler Español Latino (2026) Zazie Beetz
+2026-01-05 18:52:43,777 - INFO - [VIDEO] ID: hDf0q8entP8
+2026-01-05 18:52:43,777 - INFO - [SEARCH] Buscando JSON para: 'TE VAN A MATAR Tráiler Español Latino (2026) Zazie Beetz'
+2026-01-05 18:52:43,782 - INFO - [SEARCH] Primeras 3 palabras del título: ['van', 'matar', 'trailer']
+2026-01-05 18:52:43,782 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-05 18:52:43,782 - INFO - [COMPARE] Archivo: TE VAN A MATAR Tráiler Español Latino (2026) Zazie Beetz.json
+2026-01-05 18:52:43,782 - INFO - [COMPARE] Título JSON: 'TE VAN A MATAR Tráiler Español Latino (2026) Zazie Beetz'
+2026-01-05 18:52:43,782 - INFO - [COMPARE] Primeras 3 palabras JSON: ['van', 'matar', 'trailer']
+2026-01-05 18:52:43,782 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: TE VAN A MATAR Tráiler Español Latino (2026) Zazie Beetz.json
+2026-01-05 18:52:43,782 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-05 18:52:43,782 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-01-05 18:52:43,782 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-01-05 18:52:43,783 - INFO - [API] 🔑 API Key válida: ✅
+2026-01-05 18:52:43,783 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-01-05 18:52:58,684 - INFO - [API] 📊 Código de respuesta: 200
+2026-01-05 18:52:58,684 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-01-05 18:52:58,684 - INFO - [API] 📏 Longitud de respuesta: 1800 caracteres
+2026-01-05 18:52:58,684 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: TE VAN A MATAR Tráiler Oficial Español Latino (2025)
+
+DESCRIPCIÓN: 🎬 ¡Prepárate para una exp...
+2026-01-05 18:52:58,685 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-01-05 18:52:58,686 - INFO - [PARSE] Datos parseados exitosamente:
+2026-01-05 18:52:58,686 - INFO -   - Título: TE VAN A MATAR Tráiler Oficial Español Latino (202...
+2026-01-05 18:52:58,686 - INFO -   - Descripción: 1506 caracteres
+2026-01-05 18:52:58,686 - INFO -   - Tags: 12 elementos
+2026-01-05 18:52:58,686 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-01-05 18:52:58,687 - INFO - [UPDATE] JSON actualizado: TE VAN A MATAR Tráiler Español Latino (2026) Zazie Beetz.json
+2026-01-05 18:52:58,688 - INFO - [JSON] Cargados 87 videos desde data.json
+2026-01-05 18:52:58,688 - INFO - [STATUS] Video hDf0q8entP8 actualizado a 'ok'
+2026-01-05 18:52:58,689 - INFO - [JSON] data.json actualizado exitosamente
+2026-01-05 18:52:58,689 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-01-05 18:52:58,689 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-01-05 18:52:58,689 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-01-05 18:52:58,689 - INFO - [SUMMARY] Videos fallidos: 0
+2026-01-05 18:52:59,164 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-05 18:52:59,165 - INFO - [FINISH] Proceso completado exitosamente

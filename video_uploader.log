@@ -476,3 +476,17 @@
 2026-01-05 18:42:22,616 - INFO - [FINISH] Proceso completado
 2026-01-05 18:43:23,141 - INFO - [PROCESS] No hay videos listos para subir
 2026-01-05 18:43:23,564 - INFO - [FINISH] Proceso completado
+2026-01-05 18:52:59,582 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-01-05 18:53:00,066 - INFO - [UPLOAD] Procesando: TE VAN A MATAR Tráiler Español Latino (2026) Zazie Beetz
+2026-01-05 18:53:00,067 - INFO - [SEARCH] Buscando archivos para: 'TE VAN A MATAR Tráiler Español Latino (2026) Zazie Beetz'
+2026-01-05 18:53:00,067 - INFO - [SEARCH] Palabras clave: ['te', 'van', 'a']
+2026-01-05 18:53:00,067 - INFO - [FILES] JSON: TE VAN A MATAR Tráiler Español Latino (2026) Zazie Beetz.json
+2026-01-05 18:53:00,068 - INFO - [FILES] Video: TE VAN A MATAR Tráiler Español Latino (2026) Zazie Beetz(1080P_HD).mp4
+2026-01-05 18:53:00,068 - INFO - [FILES] Thumbnail: TE VAN A MATAR Tráiler Español Latino (2026) Zazie Beetz(1080P_HD).jpg
+2026-01-05 18:53:00,084 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-05 18:53:00,191 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-01-05 18:53:01,752 - INFO - [YOUTUBE] Video subido: Eg1rX_3DzrI
+2026-01-05 18:53:03,983 - INFO - [YOUTUBE] Thumbnail subido
+2026-01-05 18:53:03,993 - INFO - [CLEANUP] Archivos eliminados: hDf0q8entP8
+2026-01-05 18:53:07,010 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-01-05 18:53:07,010 - INFO - [FINISH] Proceso completado
