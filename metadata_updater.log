@@ -2113,3 +2113,16 @@ DESCRIPCIÓ...
 2026-01-05 14:19:47,986 - INFO - [SUMMARY] Videos fallidos: 1
 2026-01-05 14:19:48,511 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-01-05 14:19:48,512 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-05 14:30:19,376 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-05 14:30:19,376 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-05 14:30:19,376 - INFO - [INIT] API Key disponible: Sí
+2026-01-05 14:30:19,376 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-05 14:30:19,376 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-05 14:30:19,376 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-05 14:30:19,377 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-05 14:30:19,377 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-05 14:30:19,377 - INFO - [JSON] Cargados 87 videos desde data.json
+2026-01-05 14:30:19,377 - INFO - [FILTER] Encontrados 0 videos con estado 'edited'
+2026-01-05 14:30:19,378 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
+2026-01-05 14:30:20,015 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-05 14:30:20,016 - INFO - [FINISH] Proceso completado exitosamente
