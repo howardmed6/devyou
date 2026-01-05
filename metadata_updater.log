@@ -2021,3 +2021,53 @@ DESCRIPCIÓN: 🎬 ¡Prepárate para uno d...
 2026-01-03 16:18:51,758 - INFO - [SUMMARY] Videos fallidos: 0
 2026-01-03 16:18:52,362 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-01-03 16:18:52,363 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-05 13:45:35,558 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-05 13:45:35,558 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-05 13:45:35,558 - INFO - [INIT] API Key disponible: Sí
+2026-01-05 13:45:35,558 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-05 13:45:35,558 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-05 13:45:35,558 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-05 13:45:35,558 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-05 13:45:35,558 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-05 13:45:35,559 - INFO - [JSON] Cargados 96 videos desde data.json
+2026-01-05 13:45:35,559 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-01-05 13:45:35,560 - INFO - [PROCESS] Procesando 1 videos...
+2026-01-05 13:45:35,560 - INFO - 
+--- Procesando video 1/1 ---
+2026-01-05 13:45:35,560 - INFO - [VIDEO] Título: ¿Cómo se traduce este amor? | Tráiler oficial | Netflix
+2026-01-05 13:45:35,560 - INFO - [VIDEO] ID: pU5lsSy0Jos
+2026-01-05 13:45:35,560 - INFO - [SEARCH] Buscando JSON para: '¿Cómo se traduce este amor? | Tráiler oficial | Netflix'
+2026-01-05 13:45:35,560 - INFO - [SEARCH] Primeras 3 palabras del título: ['como', 'traduce', 'este']
+2026-01-05 13:45:35,561 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-05 13:45:35,561 - INFO - [COMPARE] Archivo: ¿Cómo se traduce este amor_ _ Tráiler oficial _ Netflix.json
+2026-01-05 13:45:35,561 - INFO - [COMPARE] Título JSON: '¿Cómo se traduce este amor? | Tráiler oficial | Netflix'
+2026-01-05 13:45:35,561 - INFO - [COMPARE] Primeras 3 palabras JSON: ['como', 'traduce', 'este']
+2026-01-05 13:45:35,561 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: ¿Cómo se traduce este amor_ _ Tráiler oficial _ Netflix.json
+2026-01-05 13:45:35,561 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-05 13:45:35,561 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-01-05 13:45:35,561 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-01-05 13:45:35,561 - INFO - [API] 🔑 API Key válida: ✅
+2026-01-05 13:45:35,561 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-01-05 13:45:50,986 - INFO - [API] 📊 Código de respuesta: 200
+2026-01-05 13:45:50,986 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-01-05 13:45:50,986 - INFO - [API] 📏 Longitud de respuesta: 2120 caracteres
+2026-01-05 13:45:50,987 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: ¿CÓMO SE TRADUCE ESTE AMOR? | Tráiler Oficial en Español Latino | Netflix (2025)
+
+DESCRIPCIÓ...
+2026-01-05 13:45:50,988 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-01-05 13:45:50,988 - INFO - [PARSE] Datos parseados exitosamente:
+2026-01-05 13:45:50,988 - INFO -   - Título: ¿CÓMO SE TRADUCE ESTE AMOR? | Tráiler Oficial en E...
+2026-01-05 13:45:50,988 - INFO -   - Descripción: 1761 caracteres
+2026-01-05 13:45:50,989 - INFO -   - Tags: 12 elementos
+2026-01-05 13:45:50,989 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-01-05 13:45:50,989 - INFO - [UPDATE] JSON actualizado: ¿Cómo se traduce este amor_ _ Tráiler oficial _ Netflix.json
+2026-01-05 13:45:50,990 - INFO - [JSON] Cargados 96 videos desde data.json
+2026-01-05 13:45:50,990 - INFO - [STATUS] Video pU5lsSy0Jos actualizado a 'ok'
+2026-01-05 13:45:50,991 - INFO - [JSON] data.json actualizado exitosamente
+2026-01-05 13:45:50,991 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-01-05 13:45:50,991 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-01-05 13:45:50,991 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-01-05 13:45:50,991 - INFO - [SUMMARY] Videos fallidos: 0
+2026-01-05 13:45:51,447 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-05 13:45:51,448 - INFO - [FINISH] Proceso completado exitosamente

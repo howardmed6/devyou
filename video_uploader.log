@@ -438,3 +438,17 @@
 2026-01-03 16:18:58,001 - INFO - [CLEANUP] Archivos eliminados: Vygg_KzANRw
 2026-01-03 16:19:01,240 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-01-03 16:19:01,241 - INFO - [FINISH] Proceso completado
+2026-01-05 13:45:51,879 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-01-05 13:45:52,362 - INFO - [UPLOAD] Procesando: ¿Cómo se traduce este amor? | Tráiler oficial | Netflix
+2026-01-05 13:45:52,362 - INFO - [SEARCH] Buscando archivos para: '¿Cómo se traduce este amor? | Tráiler oficial | Netflix'
+2026-01-05 13:45:52,363 - INFO - [SEARCH] Palabras clave: ['como', 'se', 'traduce']
+2026-01-05 13:45:52,363 - INFO - [FILES] JSON: ¿Cómo se traduce este amor_ _ Tráiler oficial _ Netflix.json
+2026-01-05 13:45:52,363 - INFO - [FILES] Video: ¿Cómo se traduce este amor_ _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-01-05 13:45:52,363 - INFO - [FILES] Thumbnail: ¿Cómo se traduce este amor_ _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-01-05 13:45:52,376 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-05 13:45:52,543 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-01-05 13:45:54,211 - INFO - [YOUTUBE] Video subido: 2Rzoozm6Kh8
+2026-01-05 13:45:56,224 - INFO - [YOUTUBE] Thumbnail subido
+2026-01-05 13:45:56,232 - INFO - [CLEANUP] Archivos eliminados: pU5lsSy0Jos
+2026-01-05 13:45:59,174 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-01-05 13:45:59,175 - INFO - [FINISH] Proceso completado
