@@ -490,3 +490,17 @@
 2026-01-05 18:53:03,993 - INFO - [CLEANUP] Archivos eliminados: hDf0q8entP8
 2026-01-05 18:53:07,010 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-01-05 18:53:07,010 - INFO - [FINISH] Proceso completado
+2026-01-05 21:35:14,839 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-01-05 21:35:15,262 - INFO - [UPLOAD] Procesando: TREN FANTASMA: ESTACIÓN MALDITA Tráiler Español Latino (2026) Terror
+2026-01-05 21:35:15,263 - INFO - [SEARCH] Buscando archivos para: 'TREN FANTASMA: ESTACIÓN MALDITA Tráiler Español Latino (2026) Terror'
+2026-01-05 21:35:15,263 - INFO - [SEARCH] Palabras clave: ['tren', 'fantasma', 'estacion']
+2026-01-05 21:35:15,263 - INFO - [FILES] JSON: TREN FANTASMA_ ESTACIÓN MALDITA Tráiler Español Latino (2026) Terror.json
+2026-01-05 21:35:15,263 - INFO - [FILES] Video: TREN FANTASMA_ ESTACIÓN MALDITA Tráiler Español Latino (2026) Terror(1080P_HD).mp4
+2026-01-05 21:35:15,263 - INFO - [FILES] Thumbnail: TREN FANTASMA_ ESTACIÓN MALDITA Tráiler Español Latino (2026) Terror(1080P_HD).jpg
+2026-01-05 21:35:15,280 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-05 21:35:15,372 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-01-05 21:35:17,045 - INFO - [YOUTUBE] Video subido: hrCXwZ-36Ik
+2026-01-05 21:35:20,057 - INFO - [YOUTUBE] Thumbnail subido
+2026-01-05 21:35:20,063 - INFO - [CLEANUP] Archivos eliminados: 2x16QrU_R1w
+2026-01-05 21:35:22,926 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-01-05 21:35:22,927 - INFO - [FINISH] Proceso completado

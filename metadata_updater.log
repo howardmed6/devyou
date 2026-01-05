@@ -2252,3 +2252,53 @@ DESCRIPCIÓN: 🎬 ¡Prepárate para una exp...
 2026-01-05 18:52:58,689 - INFO - [SUMMARY] Videos fallidos: 0
 2026-01-05 18:52:59,164 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-01-05 18:52:59,165 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-05 21:34:57,666 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-05 21:34:57,666 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-05 21:34:57,666 - INFO - [INIT] API Key disponible: Sí
+2026-01-05 21:34:57,666 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-05 21:34:57,666 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-05 21:34:57,666 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-05 21:34:57,666 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-05 21:34:57,666 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-05 21:34:57,667 - INFO - [JSON] Cargados 89 videos desde data.json
+2026-01-05 21:34:57,667 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-01-05 21:34:57,667 - INFO - [PROCESS] Procesando 1 videos...
+2026-01-05 21:34:57,668 - INFO - 
+--- Procesando video 1/1 ---
+2026-01-05 21:34:57,668 - INFO - [VIDEO] Título: TREN FANTASMA: ESTACIÓN MALDITA Tráiler Español Latino (2026) Terror
+2026-01-05 21:34:57,668 - INFO - [VIDEO] ID: 2x16QrU_R1w
+2026-01-05 21:34:57,668 - INFO - [SEARCH] Buscando JSON para: 'TREN FANTASMA: ESTACIÓN MALDITA Tráiler Español Latino (2026) Terror'
+2026-01-05 21:34:57,672 - INFO - [SEARCH] Primeras 3 palabras del título: ['tren', 'fantasma', 'estacion']
+2026-01-05 21:34:57,673 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-05 21:34:57,673 - INFO - [COMPARE] Archivo: TREN FANTASMA_ ESTACIÓN MALDITA Tráiler Español Latino (2026) Terror.json
+2026-01-05 21:34:57,673 - INFO - [COMPARE] Título JSON: 'TREN FANTASMA: ESTACIÓN MALDITA Tráiler Español Latino (2026) Terror'
+2026-01-05 21:34:57,673 - INFO - [COMPARE] Primeras 3 palabras JSON: ['tren', 'fantasma', 'estacion']
+2026-01-05 21:34:57,673 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: TREN FANTASMA_ ESTACIÓN MALDITA Tráiler Español Latino (2026) Terror.json
+2026-01-05 21:34:57,673 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-05 21:34:57,673 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-01-05 21:34:57,673 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-01-05 21:34:57,673 - INFO - [API] 🔑 API Key válida: ✅
+2026-01-05 21:34:57,673 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-01-05 21:35:14,063 - INFO - [API] 📊 Código de respuesta: 200
+2026-01-05 21:35:14,063 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-01-05 21:35:14,063 - INFO - [API] 📏 Longitud de respuesta: 2090 caracteres
+2026-01-05 21:35:14,063 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: TREN FANTASMA: ESTACIÓN MALDITA Tráiler Oficial Español Latino (2026) Película de Terror
+
+DE...
+2026-01-05 21:35:14,064 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-01-05 21:35:14,065 - INFO - [PARSE] Datos parseados exitosamente:
+2026-01-05 21:35:14,065 - INFO -   - Título: TREN FANTASMA: ESTACIÓN MALDITA Tráiler Oficial Es...
+2026-01-05 21:35:14,065 - INFO -   - Descripción: 1754 caracteres
+2026-01-05 21:35:14,065 - INFO -   - Tags: 10 elementos
+2026-01-05 21:35:14,065 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-01-05 21:35:14,066 - INFO - [UPDATE] JSON actualizado: TREN FANTASMA_ ESTACIÓN MALDITA Tráiler Español Latino (2026) Terror.json
+2026-01-05 21:35:14,066 - INFO - [JSON] Cargados 89 videos desde data.json
+2026-01-05 21:35:14,067 - INFO - [STATUS] Video 2x16QrU_R1w actualizado a 'ok'
+2026-01-05 21:35:14,068 - INFO - [JSON] data.json actualizado exitosamente
+2026-01-05 21:35:14,068 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-01-05 21:35:14,068 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-01-05 21:35:14,068 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-01-05 21:35:14,068 - INFO - [SUMMARY] Videos fallidos: 0
+2026-01-05 21:35:14,500 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-05 21:35:14,501 - INFO - [FINISH] Proceso completado exitosamente
