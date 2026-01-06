@@ -508,3 +508,17 @@
 2026-01-06 13:43:09,253 - INFO - [FINISH] Proceso completado
 2026-01-06 13:50:44,729 - INFO - [PROCESS] No hay videos listos para subir
 2026-01-06 13:50:45,349 - INFO - [FINISH] Proceso completado
+2026-01-06 13:56:29,894 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-01-06 13:56:30,418 - INFO - [UPLOAD] Procesando: La princesa Kaguya del cosmos | Tráiler oficial 2 | Netflix
+2026-01-06 13:56:30,418 - INFO - [SEARCH] Buscando archivos para: 'La princesa Kaguya del cosmos | Tráiler oficial 2 | Netflix'
+2026-01-06 13:56:30,418 - INFO - [SEARCH] Palabras clave: ['la', 'princesa', 'kaguya']
+2026-01-06 13:56:30,419 - INFO - [FILES] JSON: La princesa Kaguya del cosmos _ Tráiler oficial 2 _ Netflix.json
+2026-01-06 13:56:30,419 - INFO - [FILES] Video: La princesa Kaguya del cosmos _ Tráiler oficial 2 _ Netflix(1080P_HD).mp4
+2026-01-06 13:56:30,419 - INFO - [FILES] Thumbnail: La princesa Kaguya del cosmos _ Tráiler oficial 2 _ Netflix(1080P_HD).jpg
+2026-01-06 13:56:30,436 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-06 13:56:30,590 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-01-06 13:56:32,364 - INFO - [YOUTUBE] Video subido: hTJSPQIdFbc
+2026-01-06 13:56:33,904 - INFO - [YOUTUBE] Thumbnail subido
+2026-01-06 13:56:33,913 - INFO - [CLEANUP] Archivos eliminados: QASpfDcxR4k
+2026-01-06 13:56:37,019 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-01-06 13:56:37,019 - INFO - [FINISH] Proceso completado

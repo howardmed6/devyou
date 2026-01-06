@@ -2328,3 +2328,53 @@ DE...
 2026-01-06 13:50:43,718 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-01-06 13:50:44,340 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-01-06 13:50:44,341 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-06 13:56:11,968 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-06 13:56:11,968 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-06 13:56:11,968 - INFO - [INIT] API Key disponible: Sí
+2026-01-06 13:56:11,968 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-06 13:56:11,968 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-06 13:56:11,968 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-06 13:56:11,968 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-06 13:56:11,969 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-06 13:56:11,969 - INFO - [JSON] Cargados 88 videos desde data.json
+2026-01-06 13:56:11,970 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-01-06 13:56:11,970 - INFO - [PROCESS] Procesando 1 videos...
+2026-01-06 13:56:11,970 - INFO - 
+--- Procesando video 1/1 ---
+2026-01-06 13:56:11,970 - INFO - [VIDEO] Título: La princesa Kaguya del cosmos | Tráiler oficial 2 | Netflix
+2026-01-06 13:56:11,970 - INFO - [VIDEO] ID: QASpfDcxR4k
+2026-01-06 13:56:11,970 - INFO - [SEARCH] Buscando JSON para: 'La princesa Kaguya del cosmos | Tráiler oficial 2 | Netflix'
+2026-01-06 13:56:11,975 - INFO - [SEARCH] Primeras 3 palabras del título: ['princesa', 'kaguya', 'del']
+2026-01-06 13:56:11,975 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-06 13:56:11,975 - INFO - [COMPARE] Archivo: La princesa Kaguya del cosmos _ Tráiler oficial 2 _ Netflix.json
+2026-01-06 13:56:11,975 - INFO - [COMPARE] Título JSON: 'La princesa Kaguya del cosmos | Tráiler oficial 2 | Netflix'
+2026-01-06 13:56:11,976 - INFO - [COMPARE] Primeras 3 palabras JSON: ['princesa', 'kaguya', 'del']
+2026-01-06 13:56:11,976 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: La princesa Kaguya del cosmos _ Tráiler oficial 2 _ Netflix.json
+2026-01-06 13:56:11,976 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-06 13:56:11,976 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-01-06 13:56:11,976 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-01-06 13:56:11,976 - INFO - [API] 🔑 API Key válida: ✅
+2026-01-06 13:56:11,976 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-01-06 13:56:29,016 - INFO - [API] 📊 Código de respuesta: 200
+2026-01-06 13:56:29,016 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-01-06 13:56:29,016 - INFO - [API] 📏 Longitud de respuesta: 2189 caracteres
+2026-01-06 13:56:29,016 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: LA PRINCESA KAGUYA DEL COSMOS | Tráiler Oficial 2 en Español Latino | Netflix (2025)
+
+DESCRI...
+2026-01-06 13:56:29,017 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-01-06 13:56:29,018 - INFO - [PARSE] Datos parseados exitosamente:
+2026-01-06 13:56:29,018 - INFO -   - Título: LA PRINCESA KAGUYA DEL COSMOS | Tráiler Oficial 2 ...
+2026-01-06 13:56:29,018 - INFO -   - Descripción: 1824 caracteres
+2026-01-06 13:56:29,018 - INFO -   - Tags: 12 elementos
+2026-01-06 13:56:29,018 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-01-06 13:56:29,019 - INFO - [UPDATE] JSON actualizado: La princesa Kaguya del cosmos _ Tráiler oficial 2 _ Netflix.json
+2026-01-06 13:56:29,019 - INFO - [JSON] Cargados 88 videos desde data.json
+2026-01-06 13:56:29,019 - INFO - [STATUS] Video QASpfDcxR4k actualizado a 'ok'
+2026-01-06 13:56:29,021 - INFO - [JSON] data.json actualizado exitosamente
+2026-01-06 13:56:29,021 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-01-06 13:56:29,021 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-01-06 13:56:29,021 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-01-06 13:56:29,021 - INFO - [SUMMARY] Videos fallidos: 0
+2026-01-06 13:56:29,554 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-06 13:56:29,555 - INFO - [FINISH] Proceso completado exitosamente
