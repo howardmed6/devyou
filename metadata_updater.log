@@ -2433,3 +2433,44 @@ DESCRI...
 2026-01-06 15:38:00,225 - INFO - [SUMMARY] Videos fallidos: 1
 2026-01-06 15:38:00,843 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-01-06 15:38:00,844 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-06 15:47:03,040 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-06 15:47:03,040 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-06 15:47:03,040 - INFO - [INIT] API Key disponible: Sí
+2026-01-06 15:47:03,040 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-06 15:47:03,040 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-06 15:47:03,040 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-06 15:47:03,040 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-06 15:47:03,040 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-06 15:47:03,041 - INFO - [JSON] Cargados 88 videos desde data.json
+2026-01-06 15:47:03,041 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2026-01-06 15:47:03,041 - INFO - [PROCESS] Procesando 2 videos...
+2026-01-06 15:47:03,041 - INFO - 
+--- Procesando video 1/2 ---
+2026-01-06 15:47:03,041 - INFO - [VIDEO] Título: AVENGERS: DOOMSDAY &quot;X-Men&quot; Teaser Tráiler Español Latino (2026)
+2026-01-06 15:47:03,041 - INFO - [VIDEO] ID: FiO1McuFbLY
+2026-01-06 15:47:03,041 - INFO - [SEARCH] Buscando JSON para: 'AVENGERS: DOOMSDAY &quot;X-Men&quot; Teaser Tráiler Español Latino (2026)'
+2026-01-06 15:47:03,052 - INFO - [SEARCH] Primeras 3 palabras del título: ['avengers', 'doomsday', '&quotx-men&quot']
+2026-01-06 15:47:03,052 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-06 15:47:03,052 - INFO - [COMPARE] Archivo: AVENGERS_ DOOMSDAY &quot;X-Men&quot; Teaser Tráiler Español Latino (2026).json
+2026-01-06 15:47:03,052 - INFO - [COMPARE] Título JSON: 'AVENGERS: DOOMSDAY "X-Men" Teaser Tráiler Español Latino (2026)'
+2026-01-06 15:47:03,052 - INFO - [COMPARE] Primeras 3 palabras JSON: ['avengers', 'doomsday', '"x-men"']
+2026-01-06 15:47:03,052 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'AVENGERS: DOOMSDAY &quot;X-Men&quot; Teaser Tráiler Español Latino (2026)'
+2026-01-06 15:47:03,052 - ERROR - [ERROR] No se encontró JSON para el video: AVENGERS: DOOMSDAY &quot;X-Men&quot; Teaser Tráiler Español Latino (2026)
+2026-01-06 15:47:03,052 - INFO - 
+--- Procesando video 2/2 ---
+2026-01-06 15:47:03,052 - INFO - [VIDEO] Título: AVENGERS: DOOMSDAY &quot;Thor&quot; Teaser Tráiler Español Latino (2026)
+2026-01-06 15:47:03,052 - INFO - [VIDEO] ID: p-rasf02sfk
+2026-01-06 15:47:03,053 - INFO - [SEARCH] Buscando JSON para: 'AVENGERS: DOOMSDAY &quot;Thor&quot; Teaser Tráiler Español Latino (2026)'
+2026-01-06 15:47:03,053 - INFO - [SEARCH] Primeras 3 palabras del título: ['avengers', 'doomsday', '&quotthor&quot']
+2026-01-06 15:47:03,053 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-06 15:47:03,053 - INFO - [COMPARE] Archivo: AVENGERS_ DOOMSDAY &quot;X-Men&quot; Teaser Tráiler Español Latino (2026).json
+2026-01-06 15:47:03,053 - INFO - [COMPARE] Título JSON: 'AVENGERS: DOOMSDAY "X-Men" Teaser Tráiler Español Latino (2026)'
+2026-01-06 15:47:03,053 - INFO - [COMPARE] Primeras 3 palabras JSON: ['avengers', 'doomsday', '"x-men"']
+2026-01-06 15:47:03,053 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'AVENGERS: DOOMSDAY &quot;Thor&quot; Teaser Tráiler Español Latino (2026)'
+2026-01-06 15:47:03,053 - ERROR - [ERROR] No se encontró JSON para el video: AVENGERS: DOOMSDAY &quot;Thor&quot; Teaser Tráiler Español Latino (2026)
+2026-01-06 15:47:03,053 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-01-06 15:47:03,053 - INFO - [SUMMARY] Videos procesados exitosamente: 0
+2026-01-06 15:47:03,053 - INFO - [SUMMARY] Videos fallidos: 2
+2026-01-06 15:47:03,484 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-06 15:47:03,485 - INFO - [FINISH] Proceso completado exitosamente
