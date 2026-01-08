@@ -2548,3 +2548,29 @@ DESCRIPCIÓN: 🎬 ¡Pr...
 2026-01-08 16:04:11,987 - INFO - [SUMMARY] Videos fallidos: 2
 2026-01-08 16:04:12,518 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-01-08 16:04:12,519 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-08 16:30:41,543 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-08 16:30:41,543 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-08 16:30:41,543 - INFO - [INIT] API Key disponible: Sí
+2026-01-08 16:30:41,543 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-08 16:30:41,544 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-08 16:30:41,544 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-08 16:30:41,544 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-08 16:30:41,544 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-08 16:30:41,545 - INFO - [JSON] Cargados 102 videos desde data.json
+2026-01-08 16:30:41,545 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-01-08 16:30:41,545 - INFO - [PROCESS] Procesando 1 videos...
+2026-01-08 16:30:41,545 - INFO - 
+--- Procesando video 1/1 ---
+2026-01-08 16:30:41,545 - INFO - [VIDEO] Título: AVENGERS: DOOMSDAY &quot;X-Men&quot; Teaser Tráiler Español Latino (2026)
+2026-01-08 16:30:41,545 - INFO - [VIDEO] ID: FiO1McuFbLY
+2026-01-08 16:30:41,545 - INFO - [SEARCH] Buscando JSON para: 'AVENGERS: DOOMSDAY &quot;X-Men&quot; Teaser Tráiler Español Latino (2026)'
+2026-01-08 16:30:41,551 - INFO - [SEARCH] Primeras 3 palabras del título: ['avengers', 'doomsday', '&quotx-men&quot']
+2026-01-08 16:30:41,551 - INFO - [SEARCH] Encontrados 0 archivos JSON en uploadable
+2026-01-08 16:30:41,551 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'AVENGERS: DOOMSDAY &quot;X-Men&quot; Teaser Tráiler Español Latino (2026)'
+2026-01-08 16:30:41,551 - ERROR - [ERROR] No se encontró JSON para el video: AVENGERS: DOOMSDAY &quot;X-Men&quot; Teaser Tráiler Español Latino (2026)
+2026-01-08 16:30:41,551 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-01-08 16:30:41,551 - INFO - [SUMMARY] Videos procesados exitosamente: 0
+2026-01-08 16:30:41,551 - INFO - [SUMMARY] Videos fallidos: 1
+2026-01-08 16:30:42,178 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-08 16:30:42,179 - INFO - [FINISH] Proceso completado exitosamente
