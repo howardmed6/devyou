@@ -2574,3 +2574,53 @@ DESCRIPCIÓN: 🎬 ¡Pr...
 2026-01-08 16:30:41,551 - INFO - [SUMMARY] Videos fallidos: 1
 2026-01-08 16:30:42,178 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-01-08 16:30:42,179 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-08 16:35:57,169 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-08 16:35:57,170 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-08 16:35:57,170 - INFO - [INIT] API Key disponible: Sí
+2026-01-08 16:35:57,170 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-08 16:35:57,170 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-08 16:35:57,170 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-08 16:35:57,170 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-08 16:35:57,170 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-08 16:35:57,171 - INFO - [JSON] Cargados 99 videos desde data.json
+2026-01-08 16:35:57,171 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-01-08 16:35:57,171 - INFO - [PROCESS] Procesando 1 videos...
+2026-01-08 16:35:57,171 - INFO - 
+--- Procesando video 1/1 ---
+2026-01-08 16:35:57,171 - INFO - [VIDEO] Título: Humana por accidente | TRÁILER OFICIAL | Netflix
+2026-01-08 16:35:57,171 - INFO - [VIDEO] ID: GcLX50YDwoc
+2026-01-08 16:35:57,171 - INFO - [SEARCH] Buscando JSON para: 'Humana por accidente | TRÁILER OFICIAL | Netflix'
+2026-01-08 16:35:57,176 - INFO - [SEARCH] Primeras 3 palabras del título: ['humana', 'por', 'accidente']
+2026-01-08 16:35:57,176 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-08 16:35:57,176 - INFO - [COMPARE] Archivo: Humana por accidente _ TRÁILER OFICIAL _ Netflix.json
+2026-01-08 16:35:57,176 - INFO - [COMPARE] Título JSON: 'Humana por accidente | TRÁILER OFICIAL | Netflix'
+2026-01-08 16:35:57,176 - INFO - [COMPARE] Primeras 3 palabras JSON: ['humana', 'por', 'accidente']
+2026-01-08 16:35:57,176 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Humana por accidente _ TRÁILER OFICIAL _ Netflix.json
+2026-01-08 16:35:57,176 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-08 16:35:57,176 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-01-08 16:35:57,176 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-01-08 16:35:57,177 - INFO - [API] 🔑 API Key válida: ✅
+2026-01-08 16:35:57,177 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-01-08 16:36:17,103 - INFO - [API] 📊 Código de respuesta: 200
+2026-01-08 16:36:17,103 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-01-08 16:36:17,103 - INFO - [API] 📏 Longitud de respuesta: 2280 caracteres
+2026-01-08 16:36:17,103 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: HUMANA POR ACCIDENTE | Tráiler Oficial en Español Latino (2025) | Netflix
+
+DESCRIPCIÓN: 🎬 ¡P...
+2026-01-08 16:36:17,104 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-01-08 16:36:17,105 - INFO - [PARSE] Datos parseados exitosamente:
+2026-01-08 16:36:17,105 - INFO -   - Título: HUMANA POR ACCIDENTE | Tráiler Oficial en Español ...
+2026-01-08 16:36:17,105 - INFO -   - Descripción: 1994 caracteres
+2026-01-08 16:36:17,105 - INFO -   - Tags: 10 elementos
+2026-01-08 16:36:17,105 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-01-08 16:36:17,105 - INFO - [UPDATE] JSON actualizado: Humana por accidente _ TRÁILER OFICIAL _ Netflix.json
+2026-01-08 16:36:17,106 - INFO - [JSON] Cargados 99 videos desde data.json
+2026-01-08 16:36:17,106 - INFO - [STATUS] Video GcLX50YDwoc actualizado a 'ok'
+2026-01-08 16:36:17,107 - INFO - [JSON] data.json actualizado exitosamente
+2026-01-08 16:36:17,108 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-01-08 16:36:17,108 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-01-08 16:36:17,108 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-01-08 16:36:17,108 - INFO - [SUMMARY] Videos fallidos: 0
+2026-01-08 16:36:17,541 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-08 16:36:17,542 - INFO - [FINISH] Proceso completado exitosamente

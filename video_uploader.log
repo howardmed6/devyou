@@ -551,3 +551,18 @@
 2026-01-08 16:04:18,660 - INFO - [FINISH] Proceso completado
 2026-01-08 16:30:42,537 - INFO - [PROCESS] No hay videos listos para subir
 2026-01-08 16:30:43,081 - INFO - [FINISH] Proceso completado
+2026-01-08 16:36:17,956 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-01-08 16:36:18,405 - INFO - [UPLOAD] Procesando: Humana por accidente | TRÁILER OFICIAL | Netflix
+2026-01-08 16:36:18,405 - INFO - [SEARCH] Buscando archivos para: 'Humana por accidente | TRÁILER OFICIAL | Netflix'
+2026-01-08 16:36:18,406 - INFO - [SEARCH] Palabras clave: ['humana', 'por', 'accidente']
+2026-01-08 16:36:18,406 - INFO - [FILES] JSON: Humana por accidente _ TRÁILER OFICIAL _ Netflix.json
+2026-01-08 16:36:18,406 - INFO - [FILES] Video: Humana por accidente _ TRÁILER OFICIAL _ Netflix(1080P_HD).mp4
+2026-01-08 16:36:18,406 - INFO - [FILES] Thumbnail: Humana por accidente _ TRÁILER OFICIAL _ Netflix(1080P_HD).jpg
+2026-01-08 16:36:18,429 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-08 16:36:18,548 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-01-08 16:36:19,760 - INFO - [YOUTUBE] Video subido: e6AkxcotGg4
+2026-01-08 16:36:20,012 - WARNING - Encountered 403 Forbidden with reason "forbidden"
+2026-01-08 16:36:20,013 - WARNING - [YOUTUBE] Error en thumbnail: <HttpError 403 when requesting https://youtube.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=e6AkxcotGg4&alt=json&uploadType=media returned "The thumbnail can't be set for the specified video. The request might not be properly authorized.". Details: "[{'message': "The thumbnail can't be set for the specified video. The request might not be properly authorized.", 'domain': 'youtube.thumbnail', 'reason': 'forbidden', 'location': 'videoId', 'locationType': 'parameter'}]">
+2026-01-08 16:36:20,018 - INFO - [CLEANUP] Archivos eliminados: GcLX50YDwoc
+2026-01-08 16:36:23,006 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-01-08 16:36:23,007 - INFO - [FINISH] Proceso completado
