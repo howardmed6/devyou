@@ -528,3 +528,24 @@
 2026-01-06 15:38:01,829 - INFO - [FINISH] Proceso completado
 2026-01-06 15:47:03,815 - INFO - [PROCESS] No hay videos listos para subir
 2026-01-06 15:47:04,248 - INFO - [FINISH] Proceso completado
+2026-01-08 16:04:12,865 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-01-08 16:04:13,299 - INFO - [UPLOAD] Procesando: EQUIPO DEMOLICIÓN Tráiler Español Latino (2026) Jason Momoa, Dave Bautista
+2026-01-08 16:04:13,299 - INFO - [SEARCH] Buscando archivos para: 'EQUIPO DEMOLICIÓN Tráiler Español Latino (2026) Jason Momoa, Dave Bautista'
+2026-01-08 16:04:13,300 - INFO - [SEARCH] Palabras clave: ['equipo', 'demolicion', 'trailer']
+2026-01-08 16:04:13,300 - WARNING - [FALLBACK] No se encontraron archivos por coincidencia para 'EQUIPO DEMOLICIÓN Tráiler Español Latino (2026) Jason Momoa, Dave Bautista', intentando con archivos únicos...
+2026-01-08 16:04:13,300 - INFO - [FALLBACK] Archivos únicos encontrados:
+2026-01-08 16:04:13,300 - INFO - [FALLBACK] JSON: Equipo Demolición - Trailer Oficial _ Prime Video.json (Total: 1)
+2026-01-08 16:04:13,300 - INFO - [FALLBACK] Video: EQUIPO DEMOLICIÓN Tráiler Español Latino (2026) Jason Momoa_ Dave Bautista(1080P_HD).mp4 (Total: 1)
+2026-01-08 16:04:13,301 - INFO - [FALLBACK] Thumbnail: EQUIPO DEMOLICIÓN Tráiler Español Latino (2026) Jason Momoa_ Dave Bautista(1080P_HD).jpg (Total: 1)
+2026-01-08 16:04:13,301 - INFO - [FALLBACK] Usando JSON único: Equipo Demolición - Trailer Oficial _ Prime Video.json
+2026-01-08 16:04:13,301 - INFO - [FILES] JSON: Equipo Demolición - Trailer Oficial _ Prime Video.json
+2026-01-08 16:04:13,301 - INFO - [FILES] Video: EQUIPO DEMOLICIÓN Tráiler Español Latino (2026) Jason Momoa_ Dave Bautista(1080P_HD).mp4
+2026-01-08 16:04:13,301 - INFO - [FILES] Thumbnail: EQUIPO DEMOLICIÓN Tráiler Español Latino (2026) Jason Momoa_ Dave Bautista(1080P_HD).jpg
+2026-01-08 16:04:13,322 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-08 16:04:13,414 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-01-08 16:04:15,400 - INFO - [YOUTUBE] Video subido: VQMSOMEpG0o
+2026-01-08 16:04:15,762 - WARNING - Encountered 403 Forbidden with reason "forbidden"
+2026-01-08 16:04:15,762 - WARNING - [YOUTUBE] Error en thumbnail: <HttpError 403 when requesting https://youtube.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=VQMSOMEpG0o&alt=json&uploadType=media returned "The thumbnail can't be set for the specified video. The request might not be properly authorized.". Details: "[{'message': "The thumbnail can't be set for the specified video. The request might not be properly authorized.", 'domain': 'youtube.thumbnail', 'reason': 'forbidden', 'location': 'videoId', 'locationType': 'parameter'}]">
+2026-01-08 16:04:15,775 - INFO - [CLEANUP] Archivos eliminados: fQcGIqghfjE
+2026-01-08 16:04:18,659 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-01-08 16:04:18,660 - INFO - [FINISH] Proceso completado

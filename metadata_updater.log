@@ -2474,3 +2474,77 @@ DESCRI...
 2026-01-06 15:47:03,053 - INFO - [SUMMARY] Videos fallidos: 2
 2026-01-06 15:47:03,484 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-01-06 15:47:03,485 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-08 16:03:52,934 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-08 16:03:52,935 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-08 16:03:52,935 - INFO - [INIT] API Key disponible: Sí
+2026-01-08 16:03:52,935 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-08 16:03:52,935 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-08 16:03:52,935 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-08 16:03:52,935 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-08 16:03:52,935 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-08 16:03:52,936 - INFO - [JSON] Cargados 113 videos desde data.json
+2026-01-08 16:03:52,936 - INFO - [FILTER] Encontrados 3 videos con estado 'edited'
+2026-01-08 16:03:52,936 - INFO - [PROCESS] Procesando 3 videos...
+2026-01-08 16:03:52,936 - INFO - 
+--- Procesando video 1/3 ---
+2026-01-08 16:03:52,936 - INFO - [VIDEO] Título: AVENGERS: DOOMSDAY &quot;X-Men&quot; Teaser Tráiler Español Latino (2026)
+2026-01-08 16:03:52,936 - INFO - [VIDEO] ID: FiO1McuFbLY
+2026-01-08 16:03:52,936 - INFO - [SEARCH] Buscando JSON para: 'AVENGERS: DOOMSDAY &quot;X-Men&quot; Teaser Tráiler Español Latino (2026)'
+2026-01-08 16:03:52,941 - INFO - [SEARCH] Primeras 3 palabras del título: ['avengers', 'doomsday', '&quotx-men&quot']
+2026-01-08 16:03:52,941 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-08 16:03:52,941 - INFO - [COMPARE] Archivo: Equipo Demolición - Trailer Oficial _ Prime Video.json
+2026-01-08 16:03:52,941 - INFO - [COMPARE] Título JSON: 'Equipo Demolición - Trailer Oficial | Prime Video'
+2026-01-08 16:03:52,941 - INFO - [COMPARE] Primeras 3 palabras JSON: ['equipo', 'demolicion', 'trailer']
+2026-01-08 16:03:52,941 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'AVENGERS: DOOMSDAY &quot;X-Men&quot; Teaser Tráiler Español Latino (2026)'
+2026-01-08 16:03:52,942 - ERROR - [ERROR] No se encontró JSON para el video: AVENGERS: DOOMSDAY &quot;X-Men&quot; Teaser Tráiler Español Latino (2026)
+2026-01-08 16:03:52,942 - INFO - 
+--- Procesando video 2/3 ---
+2026-01-08 16:03:52,942 - INFO - [VIDEO] Título: AVENGERS: DOOMSDAY &quot;Thor&quot; Teaser Tráiler Español Latino (2026)
+2026-01-08 16:03:52,942 - INFO - [VIDEO] ID: p-rasf02sfk
+2026-01-08 16:03:52,942 - INFO - [SEARCH] Buscando JSON para: 'AVENGERS: DOOMSDAY &quot;Thor&quot; Teaser Tráiler Español Latino (2026)'
+2026-01-08 16:03:52,942 - INFO - [SEARCH] Primeras 3 palabras del título: ['avengers', 'doomsday', '&quotthor&quot']
+2026-01-08 16:03:52,942 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-08 16:03:52,942 - INFO - [COMPARE] Archivo: Equipo Demolición - Trailer Oficial _ Prime Video.json
+2026-01-08 16:03:52,942 - INFO - [COMPARE] Título JSON: 'Equipo Demolición - Trailer Oficial | Prime Video'
+2026-01-08 16:03:52,942 - INFO - [COMPARE] Primeras 3 palabras JSON: ['equipo', 'demolicion', 'trailer']
+2026-01-08 16:03:52,942 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'AVENGERS: DOOMSDAY &quot;Thor&quot; Teaser Tráiler Español Latino (2026)'
+2026-01-08 16:03:52,943 - ERROR - [ERROR] No se encontró JSON para el video: AVENGERS: DOOMSDAY &quot;Thor&quot; Teaser Tráiler Español Latino (2026)
+2026-01-08 16:03:52,943 - INFO - 
+--- Procesando video 3/3 ---
+2026-01-08 16:03:52,943 - INFO - [VIDEO] Título: EQUIPO DEMOLICIÓN Tráiler Español Latino (2026) Jason Momoa, Dave Bautista
+2026-01-08 16:03:52,943 - INFO - [VIDEO] ID: fQcGIqghfjE
+2026-01-08 16:03:52,943 - INFO - [SEARCH] Buscando JSON para: 'EQUIPO DEMOLICIÓN Tráiler Español Latino (2026) Jason Momoa, Dave Bautista'
+2026-01-08 16:03:52,943 - INFO - [SEARCH] Primeras 3 palabras del título: ['equipo', 'demolicion', 'trailer']
+2026-01-08 16:03:52,943 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-08 16:03:52,943 - INFO - [COMPARE] Archivo: Equipo Demolición - Trailer Oficial _ Prime Video.json
+2026-01-08 16:03:52,943 - INFO - [COMPARE] Título JSON: 'Equipo Demolición - Trailer Oficial | Prime Video'
+2026-01-08 16:03:52,943 - INFO - [COMPARE] Primeras 3 palabras JSON: ['equipo', 'demolicion', 'trailer']
+2026-01-08 16:03:52,943 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Equipo Demolición - Trailer Oficial _ Prime Video.json
+2026-01-08 16:03:52,943 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-08 16:03:52,943 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-01-08 16:03:52,944 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-01-08 16:03:52,944 - INFO - [API] 🔑 API Key válida: ✅
+2026-01-08 16:03:52,944 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-01-08 16:04:11,982 - INFO - [API] 📊 Código de respuesta: 200
+2026-01-08 16:04:11,982 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-01-08 16:04:11,982 - INFO - [API] 📏 Longitud de respuesta: 2229 caracteres
+2026-01-08 16:04:11,982 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: EQUIPO DEMOLICIÓN Tráiler Oficial en Español Latino (2025) | Prime Video
+
+DESCRIPCIÓN: 🎬 ¡Pr...
+2026-01-08 16:04:11,983 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-01-08 16:04:11,984 - INFO - [PARSE] Datos parseados exitosamente:
+2026-01-08 16:04:11,984 - INFO -   - Título: EQUIPO DEMOLICIÓN Tráiler Oficial en Español Latin...
+2026-01-08 16:04:11,984 - INFO -   - Descripción: 1888 caracteres
+2026-01-08 16:04:11,984 - INFO -   - Tags: 12 elementos
+2026-01-08 16:04:11,984 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-01-08 16:04:11,984 - INFO - [UPDATE] JSON actualizado: Equipo Demolición - Trailer Oficial _ Prime Video.json
+2026-01-08 16:04:11,985 - INFO - [JSON] Cargados 113 videos desde data.json
+2026-01-08 16:04:11,985 - INFO - [STATUS] Video fQcGIqghfjE actualizado a 'ok'
+2026-01-08 16:04:11,987 - INFO - [JSON] data.json actualizado exitosamente
+2026-01-08 16:04:11,987 - INFO - [SUCCESS] Video 3 procesado exitosamente
+2026-01-08 16:04:11,987 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-01-08 16:04:11,987 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-01-08 16:04:11,987 - INFO - [SUMMARY] Videos fallidos: 2
+2026-01-08 16:04:12,518 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-08 16:04:12,519 - INFO - [FINISH] Proceso completado exitosamente
