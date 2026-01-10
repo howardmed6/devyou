@@ -2687,3 +2687,53 @@ DESCRIPCIÓN: 🎬 ¡Pre...
 2026-01-10 03:50:05,256 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-01-10 03:50:05,705 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-01-10 03:50:05,706 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-10 05:51:35,873 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-10 05:51:35,873 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-10 05:51:35,873 - INFO - [INIT] API Key disponible: Sí
+2026-01-10 05:51:35,873 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-10 05:51:35,873 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-10 05:51:35,873 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-10 05:51:35,873 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-10 05:51:35,873 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-10 05:51:35,874 - INFO - [JSON] Cargados 94 videos desde data.json
+2026-01-10 05:51:35,874 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-01-10 05:51:35,874 - INFO - [PROCESS] Procesando 1 videos...
+2026-01-10 05:51:35,874 - INFO - 
+--- Procesando video 1/1 ---
+2026-01-10 05:51:35,875 - INFO - [VIDEO] Título: La infiltrada Srta. Hong | TRÁILER OFICIAL | Netflix
+2026-01-10 05:51:35,875 - INFO - [VIDEO] ID: qkd2z86KXs0
+2026-01-10 05:51:35,875 - INFO - [SEARCH] Buscando JSON para: 'La infiltrada Srta. Hong | TRÁILER OFICIAL | Netflix'
+2026-01-10 05:51:35,875 - INFO - [SEARCH] Primeras 3 palabras del título: ['infiltrada', 'srta', 'hong']
+2026-01-10 05:51:35,875 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-10 05:51:35,876 - INFO - [COMPARE] Archivo: La infiltrada Srta. Hong _ TRÁILER OFICIAL _ Netflix.json
+2026-01-10 05:51:35,876 - INFO - [COMPARE] Título JSON: 'La infiltrada Srta. Hong | TRÁILER OFICIAL | Netflix'
+2026-01-10 05:51:35,876 - INFO - [COMPARE] Primeras 3 palabras JSON: ['infiltrada', 'srta', 'hong']
+2026-01-10 05:51:35,876 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: La infiltrada Srta. Hong _ TRÁILER OFICIAL _ Netflix.json
+2026-01-10 05:51:35,876 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-10 05:51:35,876 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-01-10 05:51:35,876 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-01-10 05:51:35,876 - INFO - [API] 🔑 API Key válida: ✅
+2026-01-10 05:51:35,876 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-01-10 05:51:52,387 - INFO - [API] 📊 Código de respuesta: 200
+2026-01-10 05:51:52,387 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-01-10 05:51:52,387 - INFO - [API] 📏 Longitud de respuesta: 2179 caracteres
+2026-01-10 05:51:52,387 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: LA INFILTRADA SRTA. HONG | Tráiler Oficial en Español Latino (2025) | Netflix
+
+DESCRIPCIÓN: ...
+2026-01-10 05:51:52,388 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-01-10 05:51:52,389 - INFO - [PARSE] Datos parseados exitosamente:
+2026-01-10 05:51:52,389 - INFO -   - Título: LA INFILTRADA SRTA. HONG | Tráiler Oficial en Espa...
+2026-01-10 05:51:52,389 - INFO -   - Descripción: 1822 caracteres
+2026-01-10 05:51:52,389 - INFO -   - Tags: 11 elementos
+2026-01-10 05:51:52,389 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-01-10 05:51:52,390 - INFO - [UPDATE] JSON actualizado: La infiltrada Srta. Hong _ TRÁILER OFICIAL _ Netflix.json
+2026-01-10 05:51:52,391 - INFO - [JSON] Cargados 94 videos desde data.json
+2026-01-10 05:51:52,391 - INFO - [STATUS] Video qkd2z86KXs0 actualizado a 'ok'
+2026-01-10 05:51:52,392 - INFO - [JSON] data.json actualizado exitosamente
+2026-01-10 05:51:52,392 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-01-10 05:51:52,392 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-01-10 05:51:52,392 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-01-10 05:51:52,392 - INFO - [SUMMARY] Videos fallidos: 0
+2026-01-10 05:51:53,014 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-10 05:51:53,015 - INFO - [FINISH] Proceso completado exitosamente

@@ -582,3 +582,17 @@
 2026-01-10 03:37:34,814 - INFO - [FINISH] Proceso completado
 2026-01-10 03:50:06,027 - INFO - [PROCESS] No hay videos listos para subir
 2026-01-10 03:50:06,483 - INFO - [FINISH] Proceso completado
+2026-01-10 05:51:53,342 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-01-10 05:51:53,991 - INFO - [UPLOAD] Procesando: La infiltrada Srta. Hong | TRÁILER OFICIAL | Netflix
+2026-01-10 05:51:53,992 - INFO - [SEARCH] Buscando archivos para: 'La infiltrada Srta. Hong | TRÁILER OFICIAL | Netflix'
+2026-01-10 05:51:53,992 - INFO - [SEARCH] Palabras clave: ['la', 'infiltrada', 'srta']
+2026-01-10 05:51:53,992 - INFO - [FILES] JSON: La infiltrada Srta. Hong _ TRÁILER OFICIAL _ Netflix.json
+2026-01-10 05:51:53,992 - INFO - [FILES] Video: La infiltrada Srta. Hong _ TRÁILER OFICIAL _ Netflix(1080P_HD).mp4
+2026-01-10 05:51:53,992 - INFO - [FILES] Thumbnail: La infiltrada Srta. Hong _ TRÁILER OFICIAL _ Netflix(1080P_HD).jpg
+2026-01-10 05:51:54,002 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-10 05:51:54,119 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-01-10 05:51:56,693 - INFO - [YOUTUBE] Video subido: Jq5IP2JTKzk
+2026-01-10 05:51:58,746 - INFO - [YOUTUBE] Thumbnail subido
+2026-01-10 05:51:58,753 - INFO - [CLEANUP] Archivos eliminados: qkd2z86KXs0
+2026-01-10 05:52:02,046 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-01-10 05:52:02,047 - INFO - [FINISH] Proceso completado
