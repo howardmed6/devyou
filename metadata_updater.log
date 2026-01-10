@@ -2624,3 +2624,53 @@ DESCRIPCIÓN: 🎬 ¡P...
 2026-01-08 16:36:17,108 - INFO - [SUMMARY] Videos fallidos: 0
 2026-01-08 16:36:17,541 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-01-08 16:36:17,542 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-10 03:37:09,922 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-10 03:37:09,922 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-10 03:37:09,922 - INFO - [INIT] API Key disponible: Sí
+2026-01-10 03:37:09,922 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-10 03:37:09,922 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-10 03:37:09,922 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-10 03:37:09,922 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-10 03:37:09,922 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-10 03:37:09,923 - INFO - [JSON] Cargados 101 videos desde data.json
+2026-01-10 03:37:09,923 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-01-10 03:37:09,923 - INFO - [PROCESS] Procesando 1 videos...
+2026-01-10 03:37:09,923 - INFO - 
+--- Procesando video 1/1 ---
+2026-01-10 03:37:09,923 - INFO - [VIDEO] Título: Rompiendo el hielo | Tráiler oficial | Netflix
+2026-01-10 03:37:09,923 - INFO - [VIDEO] ID: iQ5z4HjD1QE
+2026-01-10 03:37:09,924 - INFO - [SEARCH] Buscando JSON para: 'Rompiendo el hielo | Tráiler oficial | Netflix'
+2026-01-10 03:37:09,934 - INFO - [SEARCH] Primeras 3 palabras del título: ['rompiendo', 'hielo', 'trailer']
+2026-01-10 03:37:09,935 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-10 03:37:09,935 - INFO - [COMPARE] Archivo: Rompiendo el hielo _ Tráiler oficial _ Netflix.json
+2026-01-10 03:37:09,935 - INFO - [COMPARE] Título JSON: 'Rompiendo el hielo | Tráiler oficial | Netflix'
+2026-01-10 03:37:09,935 - INFO - [COMPARE] Primeras 3 palabras JSON: ['rompiendo', 'hielo', 'trailer']
+2026-01-10 03:37:09,935 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Rompiendo el hielo _ Tráiler oficial _ Netflix.json
+2026-01-10 03:37:09,935 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-10 03:37:09,935 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-01-10 03:37:09,935 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-01-10 03:37:09,935 - INFO - [API] 🔑 API Key válida: ✅
+2026-01-10 03:37:09,935 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-01-10 03:37:26,638 - INFO - [API] 📊 Código de respuesta: 200
+2026-01-10 03:37:26,638 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-01-10 03:37:26,638 - INFO - [API] 📏 Longitud de respuesta: 2167 caracteres
+2026-01-10 03:37:26,638 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: ROMPIENDO EL HIELO Tráiler Oficial (2025) | Netflix Anime Drama Escolar
+
+DESCRIPCIÓN: 🎬 ¡Pre...
+2026-01-10 03:37:26,639 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-01-10 03:37:26,640 - INFO - [PARSE] Datos parseados exitosamente:
+2026-01-10 03:37:26,640 - INFO -   - Título: ROMPIENDO EL HIELO Tráiler Oficial (2025) | Netfli...
+2026-01-10 03:37:26,640 - INFO -   - Descripción: 1804 caracteres
+2026-01-10 03:37:26,640 - INFO -   - Tags: 11 elementos
+2026-01-10 03:37:26,640 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-01-10 03:37:26,640 - INFO - [UPDATE] JSON actualizado: Rompiendo el hielo _ Tráiler oficial _ Netflix.json
+2026-01-10 03:37:26,641 - INFO - [JSON] Cargados 101 videos desde data.json
+2026-01-10 03:37:26,641 - INFO - [STATUS] Video iQ5z4HjD1QE actualizado a 'ok'
+2026-01-10 03:37:26,643 - INFO - [JSON] data.json actualizado exitosamente
+2026-01-10 03:37:26,643 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-01-10 03:37:26,643 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-01-10 03:37:26,643 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-01-10 03:37:26,643 - INFO - [SUMMARY] Videos fallidos: 0
+2026-01-10 03:37:27,232 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-10 03:37:27,233 - INFO - [FINISH] Proceso completado exitosamente

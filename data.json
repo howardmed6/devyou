@@ -1,5 +1,16 @@
 [
   {
+    "video_id": "x2eAyCmZZ6c",
+    "url": "https://www.youtube.com/watch?v=x2eAyCmZZ6c",
+    "title": "LA LEYENDA DE OCHI Tráiler Español (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-01-09T16:30:37Z",
+    "found_at": "2026-01-10T03:35:08.551341",
+    "status": "metadata_update",
+    "sanitized_name": "LA LEYENDA DE OCHI Tráiler Español (2026)"
+  },
+  {
     "video_id": "M7GTO_wHpfU",
     "url": "https://www.youtube.com/watch?v=M7GTO_wHpfU",
     "title": "LOS HERMANOS DEMOLICIÓN Tráiler Español (2026)",
@@ -7,7 +18,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-08T14:48:53Z",
     "found_at": "2026-01-08T15:59:40.045251",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "LOS HERMANOS DEMOLICIÓN Tráiler Español (2026)"
   },
   {
@@ -32,7 +43,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-08T11:52:02Z",
     "found_at": "2026-01-08T15:59:40.045278",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "RETURN TO SILENT HILL Tráiler Español Internacional (2026)"
   },
   {
@@ -43,7 +54,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-07T16:31:58Z",
     "found_at": "2026-01-08T15:59:40.045281",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "PINOCHO Tráiler Español Latino (2026)"
   },
   {
@@ -54,7 +65,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-07T15:10:44Z",
     "found_at": "2026-01-08T15:59:40.045286",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "EL ROBO Tráiler Español Latino (2026) Sophie Turner"
   },
   {
@@ -65,7 +76,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-06T19:30:24Z",
     "found_at": "2026-01-08T15:59:40.045289",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "BELLEZA PERFECTA Tráiler Español Latino (2026) Bella Hadid"
   },
   {
@@ -76,7 +87,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-06T16:34:58Z",
     "found_at": "2026-01-08T15:59:40.045291",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "PRIMAL Temporada 3 Tráiler 2 Español Latino (2026)"
   },
   {
@@ -109,7 +120,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-05T19:15:00Z",
     "found_at": "2026-01-05T21:32:49.001828",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "SHELTER EL PROTECTOR Tráiler Español (2026) Jason Statham"
   },
   {
@@ -120,7 +131,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-05T18:01:16Z",
     "found_at": "2026-01-05T18:42:12.460873",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "EL GUARDIAN ÚLTIMO REFUGIO Tráiler Español Latino (2026) Jason Statham, Subtitulado"
   },
   {
@@ -184,7 +195,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-02T16:01:36Z",
     "found_at": "2026-01-02T16:49:23.620904",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "HELLBOY_ EL HOMBRE RETORCIDO Tráiler Español (2026)"
   },
   {
@@ -209,7 +220,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-02T14:47:04Z",
     "found_at": "2026-01-02T16:49:23.620928",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "WONDER MAN Tráiler 2 Español (2026) Marvel"
   },
   {
@@ -220,19 +231,77 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-02T14:14:53Z",
     "found_at": "2026-01-02T16:49:23.620930",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "WONDER MAN Tráiler 2 Español Latino Subtitulado (2026) Marvel"
   },
   {
-    "video_id": "UTEVl-xd6GU",
-    "url": "https://www.youtube.com/watch?v=UTEVl-xd6GU",
-    "title": "NUEVAS PRÓXIMAS PELÍCULAS DE ANIMACIÓN",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2025-12-31T16:30:21Z",
-    "found_at": "2026-01-02T16:49:23.620933",
-    "status": "pending",
-    "sanitized_name": "NUEVAS PRÓXIMAS PELÍCULAS DE ANIMACIÓN"
+    "video_id": "iQ5z4HjD1QE",
+    "url": "https://www.youtube.com/watch?v=iQ5z4HjD1QE",
+    "title": "Rompiendo el hielo | Tráiler oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-01-10T03:00:00Z",
+    "found_at": "2026-01-10T03:35:08.799247",
+    "status": "uploaded",
+    "sanitized_name": "Rompiendo el hielo _ Tráiler oficial _ Netflix",
+    "metadata_updated_at": "2026-01-10T03:37:26.641849",
+    "uploaded_at": "2026-01-10T03:37:31.560769",
+    "youtube_id": "2qA-A1qv_1A"
+  },
+  {
+    "video_id": "csaPxc9HkEw",
+    "url": "https://www.youtube.com/watch?v=csaPxc9HkEw",
+    "title": "La carta de despedida de Finn Wolfhard | Stranger Things 5 | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-01-09T22:00:47Z",
+    "found_at": "2026-01-10T03:35:08.799264",
+    "status": "metadata_update",
+    "sanitized_name": "La carta de despedida de Finn Wolfhard _ Stranger Things 5 _ Netflix"
+  },
+  {
+    "video_id": "lcuSzPz3SOs",
+    "url": "https://www.youtube.com/watch?v=lcuSzPz3SOs",
+    "title": "Once: se lanza / Yo desde el sillón: NOOOOO 😭🔥",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-01-09T17:30:13Z",
+    "found_at": "2026-01-10T03:35:08.799267",
+    "status": "metadata_update",
+    "sanitized_name": "Once_ se lanza _ Yo desde el sillón_ NOOOOO 😭🔥"
+  },
+  {
+    "video_id": "qkd2z86KXs0",
+    "url": "https://www.youtube.com/watch?v=qkd2z86KXs0",
+    "title": "La infiltrada Srta. Hong | TRÁILER OFICIAL | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-01-09T02:00:00Z",
+    "found_at": "2026-01-10T03:35:08.799270",
+    "status": "metadata_update",
+    "sanitized_name": "La infiltrada Srta. Hong _ TRÁILER OFICIAL _ Netflix"
+  },
+  {
+    "video_id": "Hxn2dD3ggck",
+    "url": "https://www.youtube.com/watch?v=Hxn2dD3ggck",
+    "title": "El discurso de graduación de Dustin | Stranger Things 5 ​​| Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-01-08T22:00:28Z",
+    "found_at": "2026-01-10T03:35:08.799272",
+    "status": "metadata_update",
+    "sanitized_name": "El discurso de graduación de Dustin _ Stranger Things 5 ​​_ Netflix"
+  },
+  {
+    "video_id": "2F-j-jdMBEQ",
+    "url": "https://www.youtube.com/watch?v=2F-j-jdMBEQ",
+    "title": "La carta de despedida de Noah Schnapp | Stranger Things 5 | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-01-08T20:00:06Z",
+    "found_at": "2026-01-10T03:35:08.799274",
+    "status": "metadata_update",
+    "sanitized_name": "La carta de despedida de Noah Schnapp _ Stranger Things 5 _ Netflix"
   },
   {
     "video_id": "4b1WKdA-mqs",
@@ -242,7 +311,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-01-08T16:00:06Z",
     "found_at": "2026-01-08T16:30:33.933951",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Steve y Dustin nos llevan al detrás de cámaras de la batalla final 🎥💥"
   },
   {
@@ -267,7 +336,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-01-07T21:00:14Z",
     "found_at": "2026-01-08T15:59:40.285824",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Mi reina justiciera, Joyce Byers 🪓❤️‍🔥"
   },
   {
@@ -278,7 +347,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-01-07T20:00:28Z",
     "found_at": "2026-01-08T15:59:40.285828",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "La carta de despedida de Gaten Matarazzo _ Stranger Things 5 _ Netflix"
   },
   {
@@ -289,7 +358,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-01-07T17:01:30Z",
     "found_at": "2026-01-08T15:59:40.285831",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "¡Por fin! 😍 Vivan los novios. 💕"
   },
   {
@@ -300,7 +369,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-01-07T13:00:05Z",
     "found_at": "2026-01-08T15:59:40.285833",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Descubre tu futuro en 2026 _ ¿Qué sigue_ _ Netflix"
   },
   {
@@ -311,7 +380,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-01-06T21:08:32Z",
     "found_at": "2026-01-08T15:59:40.285836",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "La carta de despedida de Millie Bobby Brown _ Stranger Things 5 _  Netflix"
   },
   {
@@ -322,7 +391,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-01-06T20:00:10Z",
     "found_at": "2026-01-08T15:59:40.285838",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "La carta de despedida de Caleb McLaughlin  _ Stranger Things 5 _ Netflix"
   },
   {
@@ -333,7 +402,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-01-06T19:00:00Z",
     "found_at": "2026-01-08T15:59:40.285841",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Stranger Things 5 _ Detrás de cámaras del episodio 508_ «Este Lado» _ Netflix"
   },
   {
@@ -344,7 +413,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-01-06T18:00:00Z",
     "found_at": "2026-01-08T15:59:40.285843",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "😭💔😭💔😭💔😭💔 &#39;&#39;Yo siempre estaré contigo.&#39;&#39; 😭💔😭💔😭💔😭💔😭💔"
   },
   {
@@ -355,7 +424,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-01-06T16:00:36Z",
     "found_at": "2026-01-08T15:59:40.285846",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "La carta de despedida de Millie Bobby Brown _ Stranger Things 5 _  Netflix"
   },
   {
@@ -366,7 +435,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-01-06T16:00:02Z",
     "found_at": "2026-01-08T15:59:40.285848",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Agatha Christie_ Las Siete Esferas _ Tráiler oficial _ Netflix"
   },
   {
@@ -391,80 +460,19 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-01-06T00:00:00Z",
     "found_at": "2026-01-06T13:42:58.456152",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Cielo para dos_ Temporada 5 _ Tráiler oficial _ Netflix"
   },
   {
-    "video_id": "G0KINZjm9VI",
-    "url": "https://www.youtube.com/watch?v=G0KINZjm9VI",
-    "title": "Los Wheeler jamás escucharon el “mejor no” 😮‍💨 💣",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-01-05T22:00:18Z",
-    "found_at": "2026-01-06T13:42:58.456156",
+    "video_id": "bruJZruT0LY",
+    "url": "https://www.youtube.com/watch?v=bruJZruT0LY",
+    "title": "Cuando el alumno repite el gesto, el maestro no necesita decir nada ❤️‍🩹 #ThePitt T2 ya, por HBOMax",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2026-01-09T01:00:52Z",
+    "found_at": "2026-01-10T03:35:09.048565",
     "status": "metadata_update",
-    "sanitized_name": "Los Wheeler jamás escucharon el “mejor no” 😮‍💨 💣"
-  },
-  {
-    "video_id": "LRFxooNjp5g",
-    "url": "https://www.youtube.com/watch?v=LRFxooNjp5g",
-    "title": "La última escena de corazón a corazón 😭❤️‍🩹",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-01-05T18:00:25Z",
-    "found_at": "2026-01-05T18:42:12.621763",
-    "status": "metadata_update",
-    "sanitized_name": "La última escena de corazón a corazón 😭❤️‍🩹"
-  },
-  {
-    "video_id": "vc_H4myxPIo",
-    "url": "https://www.youtube.com/watch?v=vc_H4myxPIo",
-    "title": "Amor de Oficina | 70 y tantas preguntas con Martita| Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-01-05T15:00:00Z",
-    "found_at": "2026-01-05T18:42:12.621776",
-    "status": "metadata_update",
-    "sanitized_name": "Amor de Oficina _ 70 y tantas preguntas con Martita_ Netflix"
-  },
-  {
-    "video_id": "OprMEtTGGCA",
-    "url": "https://www.youtube.com/watch?v=OprMEtTGGCA",
-    "title": "Una última aventura: Detrás de cámaras de Stranger Things 5 | Tráiler oficial | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-01-05T14:00:00Z",
-    "found_at": "2026-01-05T14:15:24.645484",
-    "status": "metadata_update",
-    "sanitized_name": "Una última aventura_ Detrás de cámaras de Stranger Things 5 _ Tráiler oficial _ Netflix"
-  },
-  {
-    "video_id": "5Ezk_kY0jxo",
-    "url": "https://www.youtube.com/watch?v=5Ezk_kY0jxo",
-    "title": "El botín | Tráiler oficial | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-01-05T13:00:03Z",
-    "found_at": "2026-01-05T13:42:30.042734",
-    "status": "uploaded",
-    "sanitized_name": "El botín _ Tráiler oficial _ Netflix",
-    "metadata_updated_at": "2026-01-05T14:36:55.873075",
-    "uploaded_at": "2026-01-05T14:37:01.226118",
-    "youtube_id": "2fDlFxn59LY"
-  },
-  {
-    "video_id": "pU5lsSy0Jos",
-    "url": "https://www.youtube.com/watch?v=pU5lsSy0Jos",
-    "title": "¿Cómo se traduce este amor? | Tráiler oficial | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-01-05T00:00:00Z",
-    "found_at": "2026-01-05T13:42:30.042750",
-    "status": "uploaded",
-    "sanitized_name": "¿Cómo se traduce este amor_ _ Tráiler oficial _ Netflix",
-    "metadata_updated_at": "2026-01-05T13:45:50.990307",
-    "uploaded_at": "2026-01-05T13:45:56.224811",
-    "youtube_id": "2Rzoozm6Kh8"
+    "sanitized_name": "Cuando el alumno repite el gesto, el maestro no necesita decir nada ❤️‍🩹 #ThePitt T2 ya, por HBOMax"
   },
   {
     "video_id": "Ak9ICucMIHU",
@@ -474,7 +482,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-01-08T16:00:35Z",
     "found_at": "2026-01-08T16:30:34.201998",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Como Agua Para Chocolate - Temporada final _ Teaser Oficial _ HBO Max"
   },
   {
@@ -485,7 +493,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-01-07T16:05:13Z",
     "found_at": "2026-01-08T15:59:40.535491",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Alguien que abrace al Dr. Robby ❤️‍🩹 #ThePitt temporada 2, el 8 de enero por HBO Max."
   },
   {
@@ -496,7 +504,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-01-06T13:00:14Z",
     "found_at": "2026-01-06T13:42:58.789290",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Primal _ Tráiler Oficial _ HBO Max"
   },
   {
@@ -521,7 +529,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-12-29T18:00:44Z",
     "found_at": "2025-12-29T23:36:15.221958",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "No es un despido. Es el prólogo de la temporada 2 de #ThePitt 🩻El 8 de enero por HBO Max."
   },
   {
@@ -532,7 +540,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-12-28T18:00:50Z",
     "found_at": "2025-12-28T18:45:38.355600",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Las facetas de IT frente y detrás de cámara _ IT_ Bienvenidos a Derry _ HBO Max"
   },
   {
@@ -543,7 +551,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-12-28T18:00:43Z",
     "found_at": "2025-12-28T18:45:38.355615",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Las facetas de IT frente y detrás de cámara _ IT_ Bienvenidos a Derry _ HBO Max"
   },
   {
@@ -554,7 +562,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-12-28T18:00:32Z",
     "found_at": "2025-12-28T18:45:38.355620",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "La culpa no se sutura con nada ⚕️💔 #ThePitt 2da Temporada el 8 de enero por HBO Max."
   },
   {
@@ -565,7 +573,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-12-19T02:01:09Z",
     "found_at": "2025-12-28T18:45:38.355624",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Ingrid descubre quién está detrás del disfráz de Pennywise _ IT_ Bienvenidos a Derry _ HBO Max"
   },
   {
@@ -576,7 +584,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-10-01T23:09:02Z",
     "found_at": "2025-10-02T00:42:48.933769",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Debanhi_ ¿Quién mató a nuestra hija _ Episodio 3 Avance _ HBO Max"
   },
   {
@@ -587,7 +595,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-10-01T23:00:35Z",
     "found_at": "2025-10-02T00:42:48.933783",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Pausa el scroll y ve a abrazar a tu perrito 📱🐶 #Superman y DC están en HBO Max."
   },
   {
@@ -598,7 +606,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-10-01T20:54:43Z",
     "found_at": "2025-10-02T00:42:48.933787",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Debanhi_ ¿Quién mató a nuestra hija_ _ Episodio 2 Avance _ HBO Max"
   },
   {
@@ -609,7 +617,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-10-01T19:00:15Z",
     "found_at": "2025-10-02T00:42:48.933789",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Levanten la mano quienes sean team café. Jesse &amp; Joy_ #LoQueNuncaDijimos disponible en HBO Max"
   },
   {
@@ -620,7 +628,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-10-01T18:01:31Z",
     "found_at": "2025-10-02T00:42:48.933792",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "El elenco de #Peacemaker no estaba preparado para esto_ Baile, salsa, un chullo y mucho flow latino"
   },
   {
@@ -631,7 +639,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-10-01T15:05:52Z",
     "found_at": "2025-10-02T00:42:48.933794",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Ângela Diniz_ Asesinada y Condenada _ Teaser Oficial _ HBO Max"
   },
   {
@@ -642,7 +650,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-09-30T01:00:58Z",
     "found_at": "2025-10-02T00:42:48.933797",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Peacemaker - Temporada 2_ Episodio 7 Avance _ HBO Max"
   },
   {
@@ -653,7 +661,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-09-29T23:56:34Z",
     "found_at": "2025-10-02T00:42:48.933799",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Peacemaker_ El Podcast Oficial con James Gunn _ Temporada 2 Episodio 6 _ HBO Max"
   },
   {
@@ -664,7 +672,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-09-27T19:00:16Z",
     "found_at": "2025-10-02T00:42:48.933801",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Max _ 28 Years Later _ Trailer"
   },
   {
@@ -675,19 +683,41 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2025-09-27T17:00:43Z",
     "found_at": "2025-10-02T00:42:48.933803",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "HBO Max _ The Chair _ Trailer"
   },
   {
-    "video_id": "oJKZ7HXpsMQ",
-    "url": "https://www.youtube.com/watch?v=oJKZ7HXpsMQ",
-    "title": "Max | The Brutalist | Tráiler",
-    "channel": "HBO Max Latinoamérica",
-    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
-    "published": "2025-09-27T00:01:05Z",
-    "found_at": "2025-10-02T00:42:48.933805",
+    "video_id": "5XKeEC7sAQo",
+    "url": "https://www.youtube.com/watch?v=5XKeEC7sAQo",
+    "title": "Shhh… esto es ASMR 🎧 Así reaccionamos a los 5 momentos de #DímeloBajito que todavía no superamos.",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-01-09T20:00:10Z",
+    "found_at": "2026-01-10T03:35:09.351252",
     "status": "metadata_update",
-    "sanitized_name": "Max _ The Brutalist _ Tráiler"
+    "sanitized_name": "Shhh… esto es ASMR 🎧 Así reaccionamos a los 5 momentos de #DímeloBajito que todavía no superamos."
+  },
+  {
+    "video_id": "-mKWwttTh7A",
+    "url": "https://www.youtube.com/watch?v=-mKWwttTh7A",
+    "title": "¡Se lo merecía por p3ndejo! #LoQueEllasQuieren #shorts",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-01-09T17:35:56Z",
+    "found_at": "2026-01-10T03:35:09.351268",
+    "status": "metadata_update",
+    "sanitized_name": "¡Se lo merecía por p3ndejo! #LoQueEllasQuieren #shorts"
+  },
+  {
+    "video_id": "J9R0J4K3kDs",
+    "url": "https://www.youtube.com/watch?v=J9R0J4K3kDs",
+    "title": "Un Deathclaw en Las Vegas 💀 ¿ganarán ellos o la criatura? El episodio 4 de #Fallout está disponible",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-01-08T21:01:53Z",
+    "found_at": "2026-01-10T03:35:09.351272",
+    "status": "metadata_update",
+    "sanitized_name": "Un Deathclaw en Las Vegas 💀 ¿ganarán ellos o la criatura_ El episodio 4 de #Fallout está disponible"
   },
   {
     "video_id": "x1nxDczEy-c",
@@ -697,7 +727,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-08T16:01:34Z",
     "found_at": "2026-01-08T16:30:34.465011",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Cross Temporada 2 - Trailer Oficial _ Prime Video"
   },
   {
@@ -708,7 +738,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-08T14:00:11Z",
     "found_at": "2026-01-08T15:59:40.754119",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Equipo Demolición - Trailer Oficial _ Prime Video"
   },
   {
@@ -719,7 +749,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-07T21:00:26Z",
     "found_at": "2026-01-08T15:59:40.754136",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Muéstrenle este video a sus madres, y quedan como hijos ejemplares. 😂 #TwoAndAHalfMen"
   },
   {
@@ -730,7 +760,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-07T14:56:55Z",
     "found_at": "2026-01-08T15:59:40.754140",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "El Robo - Tráiler Oficial I Prime Video"
   },
   {
@@ -741,7 +771,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-07T00:00:32Z",
     "found_at": "2026-01-08T15:59:40.754143",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Un año más cumpliendo 29 #HazmeElFavor #PrimeVideoLat"
   },
   {
@@ -752,7 +782,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-06T21:01:07Z",
     "found_at": "2026-01-08T15:59:40.754145",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Necesito ir a #BeastGames con la suerte de este jugador 🤯 La temporada 2 estrena este 7 de enero"
   },
   {
@@ -763,7 +793,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-06T16:00:48Z",
     "found_at": "2026-01-08T15:59:40.754149",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "¿Eres de los que inicia el año así_ 👀​ #Shorts #HotelHazbin #Enero"
   },
   {
@@ -774,7 +804,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-05T21:00:36Z",
     "found_at": "2026-01-05T21:32:49.659762",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Juan Carlos Bodoque aprende a montar bici - 31 Minutos _ Prime Video"
   },
   {
@@ -785,7 +815,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-05T16:00:27Z",
     "found_at": "2026-01-05T18:42:13.049547",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Por eso no tomo sol... Y PORQUE PREFIERO QUEDARME VIENDO #HOUSE EN CASA. #shorts"
   },
   {
@@ -796,7 +826,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-04T21:00:44Z",
     "found_at": "2026-01-05T13:42:30.423051",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Esta peli es, Y SEGUIRÁ SIENDO, todo lo que está bien 😮‍💨 #QuisieraSerMillonario #Shorts"
   },
   {
@@ -807,7 +837,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-04T16:01:30Z",
     "found_at": "2026-01-05T13:42:30.423067",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "“All 2 U”_ La balada más caótica del infierno - Helluva Boss _ Prime Video"
   },
   {
@@ -818,7 +848,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-03T21:00:49Z",
     "found_at": "2026-01-05T13:42:30.423070",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Así se enfrenta el bullying.​ #Shorts #Reacher #Paulie​"
   },
   {
@@ -829,7 +859,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-03T16:00:28Z",
     "found_at": "2026-01-03T16:16:28.827012",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "¿Pelo mojado y jabón chiquito_ 😏​ #Shorts #BettyLaFea"
   },
   {
@@ -840,7 +870,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-02T21:00:24Z",
     "found_at": "2026-01-03T16:16:28.827027",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "La terapia no es para todos 🤭 El episodio tres de la temporada 2 de #Fallout está disponible."
   },
   {
@@ -851,7 +881,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-02T16:07:36Z",
     "found_at": "2026-01-02T16:49:24.323806",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "POBRE JUANIN, lo que le espera no es nada bueno 🥺 #31minutosLaPelícula #shorts"
   },
   {
@@ -862,7 +892,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-01T21:00:38Z",
     "found_at": "2026-01-02T16:49:24.323822",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "LARGA VIDA al rey Alex... y su papi. #Madagascar2"
   },
   {
@@ -873,40 +903,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-01T16:00:42Z",
     "found_at": "2026-01-02T16:49:24.323826",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Manifestando un autocontrol como el de Alastor para este 2026 🧘‍♀️ #HotelHazbin #shorts"
-  },
-  {
-    "video_id": "_XNDbSkyhII",
-    "url": "https://www.youtube.com/watch?v=_XNDbSkyhII",
-    "title": "Eso y la elocuencia que tiene el gato con botas 🤞 🪄✨​ #Shorts #Shrek2​",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2025-12-31T16:00:23Z",
-    "found_at": "2025-12-31T16:26:22.075200",
-    "status": "metadata_update",
-    "sanitized_name": "Eso y la elocuencia que tiene el gato con botas 🤞 🪄✨​ #Shorts #Shrek2​"
-  },
-  {
-    "video_id": "vUmEw6l5Vys",
-    "url": "https://www.youtube.com/watch?v=vUmEw6l5Vys",
-    "title": "Sí no termino el año así, quiero conocer a alguien para comenzarlo como #Invincible 😘",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2025-12-30T21:00:34Z",
-    "found_at": "2025-12-31T00:09:44.695656",
-    "status": "metadata_update",
-    "sanitized_name": "Sí no termino el año así, quiero conocer a alguien para comenzarlo como #Invincible 😘"
-  },
-  {
-    "video_id": "IDYNGR8-rkk",
-    "url": "https://www.youtube.com/watch?v=IDYNGR8-rkk",
-    "title": "Sí se quedó sin boda al menos denle el pastel, ¿no? #LaNiñera #TheNanny #shorts",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2025-12-30T16:06:01Z",
-    "found_at": "2025-12-30T18:07:26.193898",
-    "status": "metadata_update",
-    "sanitized_name": "Sí se quedó sin boda al menos denle el pastel, ¿no_ #LaNiñera #TheNanny #shorts"
   }
 ]
