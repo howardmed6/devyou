@@ -2800,3 +2800,53 @@ DESCRIPCIÓN: 🎬 ¡Prepá...
 2026-01-13 14:16:34,230 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-01-13 14:16:34,665 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-01-13 14:16:34,666 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-13 14:32:49,986 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-13 14:32:49,986 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-13 14:32:49,986 - INFO - [INIT] API Key disponible: Sí
+2026-01-13 14:32:49,986 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-13 14:32:49,986 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-13 14:32:49,986 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-13 14:32:49,986 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-13 14:32:49,986 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-13 14:32:49,987 - INFO - [JSON] Cargados 97 videos desde data.json
+2026-01-13 14:32:49,987 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-01-13 14:32:49,987 - INFO - [PROCESS] Procesando 1 videos...
+2026-01-13 14:32:49,987 - INFO - 
+--- Procesando video 1/1 ---
+2026-01-13 14:32:49,987 - INFO - [VIDEO] Título: LA MOMIA Tráiler Español (2026) Terror
+2026-01-13 14:32:49,987 - INFO - [VIDEO] ID: M82sIM4425U
+2026-01-13 14:32:49,987 - INFO - [SEARCH] Buscando JSON para: 'LA MOMIA Tráiler Español (2026) Terror'
+2026-01-13 14:32:49,992 - INFO - [SEARCH] Primeras 3 palabras del título: ['momia', 'trailer', 'espanol']
+2026-01-13 14:32:49,993 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-13 14:32:49,993 - INFO - [COMPARE] Archivo: LA MOMIA Tráiler Español (2026) Terror.json
+2026-01-13 14:32:49,993 - INFO - [COMPARE] Título JSON: 'LA MOMIA Tráiler Español (2026) Terror'
+2026-01-13 14:32:49,993 - INFO - [COMPARE] Primeras 3 palabras JSON: ['momia', 'trailer', 'espanol']
+2026-01-13 14:32:49,993 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: LA MOMIA Tráiler Español (2026) Terror.json
+2026-01-13 14:32:49,993 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-13 14:32:49,993 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-01-13 14:32:49,993 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-01-13 14:32:49,993 - INFO - [API] 🔑 API Key válida: ✅
+2026-01-13 14:32:49,993 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-01-13 14:33:05,079 - INFO - [API] 📊 Código de respuesta: 200
+2026-01-13 14:33:05,079 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-01-13 14:33:05,080 - INFO - [API] 📏 Longitud de respuesta: 1856 caracteres
+2026-01-13 14:33:05,080 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: LA MOMIA Tráiler Español (2026) | Película de Terror
+
+DESCRIPCIÓN: 🎬 ¡LA MOMIA regresa a la ...
+2026-01-13 14:33:05,080 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-01-13 14:33:05,081 - INFO - [PARSE] Datos parseados exitosamente:
+2026-01-13 14:33:05,081 - INFO -   - Título: LA MOMIA Tráiler Español (2026) | Película de Terr...
+2026-01-13 14:33:05,081 - INFO -   - Descripción: 1583 caracteres
+2026-01-13 14:33:05,081 - INFO -   - Tags: 12 elementos
+2026-01-13 14:33:05,081 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-01-13 14:33:05,082 - INFO - [UPDATE] JSON actualizado: LA MOMIA Tráiler Español (2026) Terror.json
+2026-01-13 14:33:05,083 - INFO - [JSON] Cargados 97 videos desde data.json
+2026-01-13 14:33:05,083 - INFO - [STATUS] Video M82sIM4425U actualizado a 'ok'
+2026-01-13 14:33:05,084 - INFO - [JSON] data.json actualizado exitosamente
+2026-01-13 14:33:05,084 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-01-13 14:33:05,084 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-01-13 14:33:05,084 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-01-13 14:33:05,084 - INFO - [SUMMARY] Videos fallidos: 0
+2026-01-13 14:33:05,553 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-13 14:33:05,554 - INFO - [FINISH] Proceso completado exitosamente

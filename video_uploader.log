@@ -612,3 +612,17 @@
 2026-01-13 13:27:21,564 - INFO - [FINISH] Proceso completado
 2026-01-13 14:16:35,007 - INFO - [PROCESS] No hay videos listos para subir
 2026-01-13 14:16:35,448 - INFO - [FINISH] Proceso completado
+2026-01-13 14:33:05,868 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-01-13 14:33:06,441 - INFO - [UPLOAD] Procesando: LA MOMIA Tráiler Español (2026) Terror
+2026-01-13 14:33:06,441 - INFO - [SEARCH] Buscando archivos para: 'LA MOMIA Tráiler Español (2026) Terror'
+2026-01-13 14:33:06,442 - INFO - [SEARCH] Palabras clave: ['la', 'momia', 'trailer']
+2026-01-13 14:33:06,442 - INFO - [FILES] JSON: LA MOMIA Tráiler Español (2026) Terror.json
+2026-01-13 14:33:06,442 - INFO - [FILES] Video: LA MOMIA Tráiler Español (2026) Terror(1080P_HD).mp4
+2026-01-13 14:33:06,442 - INFO - [FILES] Thumbnail: LA MOMIA Tráiler Español (2026) Terror(1080P_HD).jpg
+2026-01-13 14:33:06,458 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-13 14:33:06,612 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-01-13 14:33:08,097 - INFO - [YOUTUBE] Video subido: W2__mvx58g8
+2026-01-13 14:33:10,627 - INFO - [YOUTUBE] Thumbnail subido
+2026-01-13 14:33:10,631 - INFO - [CLEANUP] Archivos eliminados: M82sIM4425U
+2026-01-13 14:33:13,584 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-01-13 14:33:13,585 - INFO - [FINISH] Proceso completado
