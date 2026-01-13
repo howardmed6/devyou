@@ -596,3 +596,17 @@
 2026-01-10 05:51:58,753 - INFO - [CLEANUP] Archivos eliminados: qkd2z86KXs0
 2026-01-10 05:52:02,046 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-01-10 05:52:02,047 - INFO - [FINISH] Proceso completado
+2026-01-13 13:27:13,098 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-01-13 13:27:13,519 - INFO - [UPLOAD] Procesando: El arte de Sarah | Avance oficial | Netflix
+2026-01-13 13:27:13,520 - INFO - [SEARCH] Buscando archivos para: 'El arte de Sarah | Avance oficial | Netflix'
+2026-01-13 13:27:13,520 - INFO - [SEARCH] Palabras clave: ['el', 'arte', 'de']
+2026-01-13 13:27:13,520 - INFO - [FILES] JSON: El arte de Sarah _ Avance oficial _ Netflix.json
+2026-01-13 13:27:13,520 - INFO - [FILES] Video: El arte de Sarah _ Avance oficial _ Netflix(1080P_HD).mp4
+2026-01-13 13:27:13,520 - INFO - [FILES] Thumbnail: El arte de Sarah _ Avance oficial _ Netflix(1080P_HD).jpg
+2026-01-13 13:27:13,543 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-13 13:27:13,721 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-01-13 13:27:15,533 - INFO - [YOUTUBE] Video subido: jrrBDiYWzBo
+2026-01-13 13:27:18,684 - INFO - [YOUTUBE] Thumbnail subido
+2026-01-13 13:27:18,689 - INFO - [CLEANUP] Archivos eliminados: toGUPwdk0tI
+2026-01-13 13:27:21,564 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-01-13 13:27:21,564 - INFO - [FINISH] Proceso completado
