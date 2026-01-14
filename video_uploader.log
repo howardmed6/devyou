@@ -628,3 +628,17 @@
 2026-01-13 14:33:13,585 - INFO - [FINISH] Proceso completado
 2026-01-13 14:52:25,310 - INFO - [PROCESS] No hay videos listos para subir
 2026-01-13 14:52:25,800 - INFO - [FINISH] Proceso completado
+2026-01-14 00:02:54,491 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-01-14 00:02:54,920 - INFO - [UPLOAD] Procesando: Papá x2 - Tráiler Oficial I Prime Video
+2026-01-14 00:02:54,920 - INFO - [SEARCH] Buscando archivos para: 'Papá x2 - Tráiler Oficial I Prime Video'
+2026-01-14 00:02:54,921 - INFO - [SEARCH] Palabras clave: ['papa', 'x2', '-']
+2026-01-14 00:02:54,921 - INFO - [FILES] JSON: Papá x2 - Tráiler Oficial I Prime Video.json
+2026-01-14 00:02:54,921 - INFO - [FILES] Video: Papá x2 - Tráiler Oficial I Prime Video(1080P_HD).mp4
+2026-01-14 00:02:54,921 - INFO - [FILES] Thumbnail: Papá x2 - Tráiler Oficial I Prime Video(1080P_HD).jpg
+2026-01-14 00:02:54,931 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-14 00:02:55,015 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-01-14 00:02:56,308 - INFO - [YOUTUBE] Video subido: y4HO3Ep1YrU
+2026-01-14 00:02:59,060 - INFO - [YOUTUBE] Thumbnail subido
+2026-01-14 00:02:59,069 - INFO - [CLEANUP] Archivos eliminados: o-46rmdd7Ng
+2026-01-14 00:03:01,943 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-01-14 00:03:01,943 - INFO - [FINISH] Proceso completado

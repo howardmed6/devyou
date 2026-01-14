@@ -2863,3 +2863,53 @@ DESCRIPCIÓN: 🎬 ¡LA MOMIA regresa a la ...
 2026-01-13 14:52:24,405 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-01-13 14:52:24,898 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-01-13 14:52:24,899 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-14 00:02:37,011 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-14 00:02:37,011 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-14 00:02:37,011 - INFO - [INIT] API Key disponible: Sí
+2026-01-14 00:02:37,011 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-14 00:02:37,011 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-14 00:02:37,011 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-14 00:02:37,011 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-14 00:02:37,011 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-14 00:02:37,012 - INFO - [JSON] Cargados 97 videos desde data.json
+2026-01-14 00:02:37,012 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-01-14 00:02:37,012 - INFO - [PROCESS] Procesando 1 videos...
+2026-01-14 00:02:37,012 - INFO - 
+--- Procesando video 1/1 ---
+2026-01-14 00:02:37,012 - INFO - [VIDEO] Título: Papá x2 - Tráiler Oficial I Prime Video
+2026-01-14 00:02:37,013 - INFO - [VIDEO] ID: o-46rmdd7Ng
+2026-01-14 00:02:37,013 - INFO - [SEARCH] Buscando JSON para: 'Papá x2 - Tráiler Oficial I Prime Video'
+2026-01-14 00:02:37,014 - INFO - [SEARCH] Primeras 3 palabras del título: ['papa', 'trailer', 'oficial']
+2026-01-14 00:02:37,014 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-14 00:02:37,014 - INFO - [COMPARE] Archivo: Papá x2 - Tráiler Oficial I Prime Video.json
+2026-01-14 00:02:37,014 - INFO - [COMPARE] Título JSON: 'Papá x2 - Tráiler Oficial I Prime Video'
+2026-01-14 00:02:37,014 - INFO - [COMPARE] Primeras 3 palabras JSON: ['papa', 'trailer', 'oficial']
+2026-01-14 00:02:37,014 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Papá x2 - Tráiler Oficial I Prime Video.json
+2026-01-14 00:02:37,014 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-14 00:02:37,015 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-01-14 00:02:37,015 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-01-14 00:02:37,015 - INFO - [API] 🔑 API Key válida: ✅
+2026-01-14 00:02:37,015 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-01-14 00:02:53,766 - INFO - [API] 📊 Código de respuesta: 200
+2026-01-14 00:02:53,767 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-01-14 00:02:53,767 - INFO - [API] 📏 Longitud de respuesta: 2005 caracteres
+2026-01-14 00:02:53,767 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: PAPÁ X2 - Tráiler Oficial en Español Latino (2025) | Prime Video
+
+DESCRIPCIÓN: 🎬 ¡Prepárate ...
+2026-01-14 00:02:53,768 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-01-14 00:02:53,768 - INFO - [PARSE] Datos parseados exitosamente:
+2026-01-14 00:02:53,768 - INFO -   - Título: PAPÁ X2 - Tráiler Oficial en Español Latino (2025)...
+2026-01-14 00:02:53,768 - INFO -   - Descripción: 1687 caracteres
+2026-01-14 00:02:53,768 - INFO -   - Tags: 12 elementos
+2026-01-14 00:02:53,769 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-01-14 00:02:53,769 - INFO - [UPDATE] JSON actualizado: Papá x2 - Tráiler Oficial I Prime Video.json
+2026-01-14 00:02:53,770 - INFO - [JSON] Cargados 97 videos desde data.json
+2026-01-14 00:02:53,770 - INFO - [STATUS] Video o-46rmdd7Ng actualizado a 'ok'
+2026-01-14 00:02:53,771 - INFO - [JSON] data.json actualizado exitosamente
+2026-01-14 00:02:53,771 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-01-14 00:02:53,771 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-01-14 00:02:53,771 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-01-14 00:02:53,771 - INFO - [SUMMARY] Videos fallidos: 0
+2026-01-14 00:02:54,201 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-14 00:02:54,202 - INFO - [FINISH] Proceso completado exitosamente
