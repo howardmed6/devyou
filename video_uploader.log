@@ -672,3 +672,17 @@
 2026-01-15 01:48:15,649 - INFO - [CLEANUP] Archivos eliminados: EmTYgxiuDV8
 2026-01-15 01:48:19,006 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-01-15 01:48:19,006 - INFO - [FINISH] Proceso completado
+2026-01-15 13:48:34,227 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-01-15 13:48:34,695 - INFO - [UPLOAD] Procesando: HOKUM Teaser Tráiler Español (2026) Terror
+2026-01-15 13:48:34,695 - INFO - [SEARCH] Buscando archivos para: 'HOKUM Teaser Tráiler Español (2026) Terror'
+2026-01-15 13:48:34,695 - INFO - [SEARCH] Palabras clave: ['hokum', 'teaser', 'trailer']
+2026-01-15 13:48:34,696 - INFO - [FILES] JSON: HOKUM Teaser Tráiler Español (2026) Terror.json
+2026-01-15 13:48:34,696 - INFO - [FILES] Video: HOKUM Teaser Tráiler Español (2026) Terror(1080P_HD).mp4
+2026-01-15 13:48:34,696 - INFO - [FILES] Thumbnail: HOKUM Teaser Tráiler Español (2026) Terror(1080P_HD).jpg
+2026-01-15 13:48:34,717 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-15 13:48:34,878 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-01-15 13:48:36,212 - INFO - [YOUTUBE] Video subido: Jv4ZVc8uJYQ
+2026-01-15 13:48:37,865 - INFO - [YOUTUBE] Thumbnail subido
+2026-01-15 13:48:37,868 - INFO - [CLEANUP] Archivos eliminados: yH-qvsnxPjU
+2026-01-15 13:48:40,843 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-01-15 13:48:40,843 - INFO - [FINISH] Proceso completado

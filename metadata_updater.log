@@ -3026,3 +3026,53 @@ DESCRIPCIÓN: 🎬 ¡El esper...
 2026-01-15 01:48:09,564 - INFO - [SUMMARY] Videos fallidos: 0
 2026-01-15 01:48:10,181 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-01-15 01:48:10,182 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-15 13:48:17,132 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-15 13:48:17,132 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-15 13:48:17,132 - INFO - [INIT] API Key disponible: Sí
+2026-01-15 13:48:17,132 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-15 13:48:17,132 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-15 13:48:17,132 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-15 13:48:17,132 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-15 13:48:17,132 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-15 13:48:17,133 - INFO - [JSON] Cargados 96 videos desde data.json
+2026-01-15 13:48:17,133 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-01-15 13:48:17,133 - INFO - [PROCESS] Procesando 1 videos...
+2026-01-15 13:48:17,133 - INFO - 
+--- Procesando video 1/1 ---
+2026-01-15 13:48:17,133 - INFO - [VIDEO] Título: HOKUM Teaser Tráiler Español (2026) Terror
+2026-01-15 13:48:17,133 - INFO - [VIDEO] ID: yH-qvsnxPjU
+2026-01-15 13:48:17,133 - INFO - [SEARCH] Buscando JSON para: 'HOKUM Teaser Tráiler Español (2026) Terror'
+2026-01-15 13:48:17,140 - INFO - [SEARCH] Primeras 3 palabras del título: ['hokum', 'teaser', 'trailer']
+2026-01-15 13:48:17,140 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-15 13:48:17,140 - INFO - [COMPARE] Archivo: HOKUM Teaser Tráiler Español (2026) Terror.json
+2026-01-15 13:48:17,140 - INFO - [COMPARE] Título JSON: 'HOKUM Teaser Tráiler Español (2026) Terror'
+2026-01-15 13:48:17,140 - INFO - [COMPARE] Primeras 3 palabras JSON: ['hokum', 'teaser', 'trailer']
+2026-01-15 13:48:17,140 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: HOKUM Teaser Tráiler Español (2026) Terror.json
+2026-01-15 13:48:17,140 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-15 13:48:17,140 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-01-15 13:48:17,140 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-01-15 13:48:17,140 - INFO - [API] 🔑 API Key válida: ✅
+2026-01-15 13:48:17,141 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-01-15 13:48:33,408 - INFO - [API] 📊 Código de respuesta: 200
+2026-01-15 13:48:33,408 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-01-15 13:48:33,408 - INFO - [API] 📏 Longitud de respuesta: 2153 caracteres
+2026-01-15 13:48:33,408 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: HOKUM Tráiler Oficial Español (2026) Película de Terror Psicológico
+
+DESCRIPCIÓN: 🎬 ¡Prepára...
+2026-01-15 13:48:33,409 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-01-15 13:48:33,410 - INFO - [PARSE] Datos parseados exitosamente:
+2026-01-15 13:48:33,410 - INFO -   - Título: HOKUM Tráiler Oficial Español (2026) Película de T...
+2026-01-15 13:48:33,410 - INFO -   - Descripción: 1849 caracteres
+2026-01-15 13:48:33,410 - INFO -   - Tags: 12 elementos
+2026-01-15 13:48:33,410 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-01-15 13:48:33,411 - INFO - [UPDATE] JSON actualizado: HOKUM Teaser Tráiler Español (2026) Terror.json
+2026-01-15 13:48:33,411 - INFO - [JSON] Cargados 96 videos desde data.json
+2026-01-15 13:48:33,411 - INFO - [STATUS] Video yH-qvsnxPjU actualizado a 'ok'
+2026-01-15 13:48:33,413 - INFO - [JSON] data.json actualizado exitosamente
+2026-01-15 13:48:33,413 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-01-15 13:48:33,413 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-01-15 13:48:33,413 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-01-15 13:48:33,413 - INFO - [SUMMARY] Videos fallidos: 0
+2026-01-15 13:48:33,916 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-15 13:48:33,917 - INFO - [FINISH] Proceso completado exitosamente
