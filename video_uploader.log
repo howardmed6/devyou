@@ -658,3 +658,17 @@
 2026-01-15 00:13:12,090 - INFO - [FINISH] Proceso completado
 2026-01-15 01:36:38,809 - INFO - [PROCESS] No hay videos listos para subir
 2026-01-15 01:36:39,416 - INFO - [FINISH] Proceso completado
+2026-01-15 01:48:10,518 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-01-15 01:48:11,151 - INFO - [UPLOAD] Procesando: EUPHORIA Temporada 3 Tráiler Español (2026) Zendaya
+2026-01-15 01:48:11,151 - INFO - [SEARCH] Buscando archivos para: 'EUPHORIA Temporada 3 Tráiler Español (2026) Zendaya'
+2026-01-15 01:48:11,152 - INFO - [SEARCH] Palabras clave: ['euphoria', 'temporada', '3']
+2026-01-15 01:48:11,152 - INFO - [FILES] JSON: EUPHORIA Temporada 3 Tráiler Español (2026) Zendaya.json
+2026-01-15 01:48:11,152 - INFO - [FILES] Video: EUPHORIA Temporada 3 Tráiler Español (2026) Zendaya(1080P_HD).mp4
+2026-01-15 01:48:11,152 - INFO - [FILES] Thumbnail: EUPHORIA Temporada 3 Tráiler Español (2026) Zendaya(1080P_HD).jpg
+2026-01-15 01:48:11,169 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-15 01:48:11,270 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-01-15 01:48:13,203 - INFO - [YOUTUBE] Video subido: imAt2YiarLA
+2026-01-15 01:48:15,642 - INFO - [YOUTUBE] Thumbnail subido
+2026-01-15 01:48:15,649 - INFO - [CLEANUP] Archivos eliminados: EmTYgxiuDV8
+2026-01-15 01:48:19,006 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-01-15 01:48:19,006 - INFO - [FINISH] Proceso completado
