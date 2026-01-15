@@ -642,3 +642,17 @@
 2026-01-14 00:02:59,069 - INFO - [CLEANUP] Archivos eliminados: o-46rmdd7Ng
 2026-01-14 00:03:01,943 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-01-14 00:03:01,943 - INFO - [FINISH] Proceso completado
+2026-01-15 00:13:04,004 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-01-15 00:13:04,439 - INFO - [UPLOAD] Procesando: AYUDA Tráiler 2 Español Latino (2026) Dylan O&#39;Brien, Sam Raimi
+2026-01-15 00:13:04,439 - INFO - [SEARCH] Buscando archivos para: 'AYUDA Tráiler 2 Español Latino (2026) Dylan O&#39;Brien, Sam Raimi'
+2026-01-15 00:13:04,440 - INFO - [SEARCH] Palabras clave: ['ayuda', 'trailer', '2']
+2026-01-15 00:13:04,440 - INFO - [FILES] JSON: AYUDA Tráiler 2 Español Latino (2026) Dylan O&#39;Brien, Sam Raimi.json
+2026-01-15 00:13:04,440 - INFO - [FILES] Video: AYUDA Tráiler 2 Español Latino (2026) Dylan O_Brien_ Sam Raimi(1080P_HD).mp4
+2026-01-15 00:13:04,440 - INFO - [FILES] Thumbnail: AYUDA Tráiler 2 Español Latino (2026) Dylan O_Brien_ Sam Raimi(1080P_HD).jpg
+2026-01-15 00:13:04,450 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-15 00:13:04,609 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-01-15 00:13:06,848 - INFO - [YOUTUBE] Video subido: cs-7O9UpmLA
+2026-01-15 00:13:09,189 - INFO - [YOUTUBE] Thumbnail subido
+2026-01-15 00:13:09,198 - INFO - [CLEANUP] Archivos eliminados: bvM0kT3aTyY
+2026-01-15 00:13:12,090 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-01-15 00:13:12,090 - INFO - [FINISH] Proceso completado

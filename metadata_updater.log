@@ -2913,3 +2913,53 @@ DESCRIPCIÓN: 🎬 ¡Prepárate ...
 2026-01-14 00:02:53,771 - INFO - [SUMMARY] Videos fallidos: 0
 2026-01-14 00:02:54,201 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-01-14 00:02:54,202 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-15 00:12:46,639 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-15 00:12:46,639 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-15 00:12:46,639 - INFO - [INIT] API Key disponible: Sí
+2026-01-15 00:12:46,639 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-15 00:12:46,639 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-15 00:12:46,639 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-15 00:12:46,639 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-15 00:12:46,639 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-15 00:12:46,640 - INFO - [JSON] Cargados 102 videos desde data.json
+2026-01-15 00:12:46,640 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-01-15 00:12:46,641 - INFO - [PROCESS] Procesando 1 videos...
+2026-01-15 00:12:46,641 - INFO - 
+--- Procesando video 1/1 ---
+2026-01-15 00:12:46,641 - INFO - [VIDEO] Título: AYUDA Tráiler 2 Español Latino (2026) Dylan O&#39;Brien, Sam Raimi
+2026-01-15 00:12:46,641 - INFO - [VIDEO] ID: bvM0kT3aTyY
+2026-01-15 00:12:46,641 - INFO - [SEARCH] Buscando JSON para: 'AYUDA Tráiler 2 Español Latino (2026) Dylan O&#39;Brien, Sam Raimi'
+2026-01-15 00:12:46,641 - INFO - [SEARCH] Primeras 3 palabras del título: ['ayuda', 'trailer', 'espanol']
+2026-01-15 00:12:46,642 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-15 00:12:46,642 - INFO - [COMPARE] Archivo: AYUDA Tráiler 2 Español Latino (2026) Dylan O&#39;Brien, Sam Raimi.json
+2026-01-15 00:12:46,642 - INFO - [COMPARE] Título JSON: 'AYUDA Tráiler 2 Español Latino (2026) Dylan O'Brien, Sam Raimi'
+2026-01-15 00:12:46,642 - INFO - [COMPARE] Primeras 3 palabras JSON: ['ayuda', 'trailer', 'espanol']
+2026-01-15 00:12:46,642 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: AYUDA Tráiler 2 Español Latino (2026) Dylan O&#39;Brien, Sam Raimi.json
+2026-01-15 00:12:46,642 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-15 00:12:46,642 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-01-15 00:12:46,642 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-01-15 00:12:46,642 - INFO - [API] 🔑 API Key válida: ✅
+2026-01-15 00:12:46,642 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-01-15 00:13:03,188 - INFO - [API] 📊 Código de respuesta: 200
+2026-01-15 00:13:03,188 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-01-15 00:13:03,188 - INFO - [API] 📏 Longitud de respuesta: 2116 caracteres
+2026-01-15 00:13:03,188 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: AYUDA Tráiler 2 Español Latino (2026) | Thriller Sobrenatural
+
+DESCRIPCIÓN: 🎬 ¡Prepárate par...
+2026-01-15 00:13:03,189 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-01-15 00:13:03,190 - INFO - [PARSE] Datos parseados exitosamente:
+2026-01-15 00:13:03,190 - INFO -   - Título: AYUDA Tráiler 2 Español Latino (2026) | Thriller S...
+2026-01-15 00:13:03,190 - INFO -   - Descripción: 1806 caracteres
+2026-01-15 00:13:03,190 - INFO -   - Tags: 10 elementos
+2026-01-15 00:13:03,190 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-01-15 00:13:03,191 - INFO - [UPDATE] JSON actualizado: AYUDA Tráiler 2 Español Latino (2026) Dylan O&#39;Brien, Sam Raimi.json
+2026-01-15 00:13:03,191 - INFO - [JSON] Cargados 102 videos desde data.json
+2026-01-15 00:13:03,192 - INFO - [STATUS] Video bvM0kT3aTyY actualizado a 'ok'
+2026-01-15 00:13:03,193 - INFO - [JSON] data.json actualizado exitosamente
+2026-01-15 00:13:03,193 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-01-15 00:13:03,193 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-01-15 00:13:03,193 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-01-15 00:13:03,193 - INFO - [SUMMARY] Videos fallidos: 0
+2026-01-15 00:13:03,624 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-15 00:13:03,625 - INFO - [FINISH] Proceso completado exitosamente
