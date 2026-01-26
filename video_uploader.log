@@ -686,3 +686,17 @@
 2026-01-15 13:48:37,868 - INFO - [CLEANUP] Archivos eliminados: yH-qvsnxPjU
 2026-01-15 13:48:40,843 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-01-15 13:48:40,843 - INFO - [FINISH] Proceso completado
+2026-01-26 14:19:52,554 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-01-26 14:19:53,500 - INFO - [UPLOAD] Procesando: Bridgerton: Temporada 4 | Conoce a Sophie Baek | Netflix
+2026-01-26 14:19:53,501 - INFO - [SEARCH] Buscando archivos para: 'Bridgerton: Temporada 4 | Conoce a Sophie Baek | Netflix'
+2026-01-26 14:19:53,501 - INFO - [SEARCH] Palabras clave: ['bridgerton', 'temporada', '4']
+2026-01-26 14:19:53,501 - INFO - [FILES] JSON: Bridgerton_ Temporada 4 _ Conoce a Sophie Baek _ Netflix.json
+2026-01-26 14:19:53,501 - INFO - [FILES] Video: Bridgerton_ Temporada 4 _ Conoce a Sophie Baek _ Netflix(1080P_HD).mp4
+2026-01-26 14:19:53,501 - INFO - [FILES] Thumbnail: Bridgerton_ Temporada 4 _ Conoce a Sophie Baek _ Netflix(1080P_HD).jpg
+2026-01-26 14:19:53,511 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-26 14:19:53,672 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-01-26 14:19:56,988 - INFO - [YOUTUBE] Video subido: DjBsnRzBFG4
+2026-01-26 14:19:59,337 - INFO - [YOUTUBE] Thumbnail subido
+2026-01-26 14:19:59,345 - INFO - [CLEANUP] Archivos eliminados: K0LBMMrTJZ8
+2026-01-26 14:20:02,453 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-01-26 14:20:02,454 - INFO - [FINISH] Proceso completado
