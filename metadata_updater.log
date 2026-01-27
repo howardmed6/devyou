@@ -3126,3 +3126,53 @@ DESCRIPC...
 2026-01-26 14:19:51,684 - INFO - [SUMMARY] Videos fallidos: 0
 2026-01-26 14:19:52,223 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-01-26 14:19:52,224 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-27 03:06:20,648 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-27 03:06:20,648 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-27 03:06:20,648 - INFO - [INIT] API Key disponible: Sí
+2026-01-27 03:06:20,648 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-27 03:06:20,648 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-27 03:06:20,649 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-27 03:06:20,649 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-27 03:06:20,649 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-27 03:06:20,650 - INFO - [JSON] Cargados 96 videos desde data.json
+2026-01-27 03:06:20,650 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-01-27 03:06:20,650 - INFO - [PROCESS] Procesando 1 videos...
+2026-01-27 03:06:20,650 - INFO - 
+--- Procesando video 1/1 ---
+2026-01-27 03:06:20,650 - INFO - [VIDEO] Título: El arte de Sarah | Tráiler oficial | Netflix
+2026-01-27 03:06:20,650 - INFO - [VIDEO] ID: MB50R72fSyE
+2026-01-27 03:06:20,650 - INFO - [SEARCH] Buscando JSON para: 'El arte de Sarah | Tráiler oficial | Netflix'
+2026-01-27 03:06:20,657 - INFO - [SEARCH] Primeras 3 palabras del título: ['arte', 'sarah', 'trailer']
+2026-01-27 03:06:20,657 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-27 03:06:20,657 - INFO - [COMPARE] Archivo: El arte de Sarah _ Tráiler oficial _ Netflix.json
+2026-01-27 03:06:20,657 - INFO - [COMPARE] Título JSON: 'El arte de Sarah | Tráiler oficial | Netflix'
+2026-01-27 03:06:20,658 - INFO - [COMPARE] Primeras 3 palabras JSON: ['arte', 'sarah', 'trailer']
+2026-01-27 03:06:20,658 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: El arte de Sarah _ Tráiler oficial _ Netflix.json
+2026-01-27 03:06:20,658 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-27 03:06:20,658 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-01-27 03:06:20,658 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-01-27 03:06:20,658 - INFO - [API] 🔑 API Key válida: ✅
+2026-01-27 03:06:20,658 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-01-27 03:06:35,277 - INFO - [API] 📊 Código de respuesta: 200
+2026-01-27 03:06:35,277 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-01-27 03:06:35,277 - INFO - [API] 📏 Longitud de respuesta: 1926 caracteres
+2026-01-27 03:06:35,277 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: EL ARTE DE SARAH | Tráiler Oficial en Español Latino (2025) | Netflix
+
+DESCRIPCIÓN: 🎬 ¡Prepá...
+2026-01-27 03:06:35,278 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-01-27 03:06:35,279 - INFO - [PARSE] Datos parseados exitosamente:
+2026-01-27 03:06:35,279 - INFO -   - Título: EL ARTE DE SARAH | Tráiler Oficial en Español Lati...
+2026-01-27 03:06:35,279 - INFO -   - Descripción: 1594 caracteres
+2026-01-27 03:06:35,279 - INFO -   - Tags: 11 elementos
+2026-01-27 03:06:35,279 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-01-27 03:06:35,279 - INFO - [UPDATE] JSON actualizado: El arte de Sarah _ Tráiler oficial _ Netflix.json
+2026-01-27 03:06:35,280 - INFO - [JSON] Cargados 96 videos desde data.json
+2026-01-27 03:06:35,280 - INFO - [STATUS] Video MB50R72fSyE actualizado a 'ok'
+2026-01-27 03:06:35,282 - INFO - [JSON] data.json actualizado exitosamente
+2026-01-27 03:06:35,282 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-01-27 03:06:35,282 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-01-27 03:06:35,282 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-01-27 03:06:35,282 - INFO - [SUMMARY] Videos fallidos: 0
+2026-01-27 03:06:35,848 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-27 03:06:35,849 - INFO - [FINISH] Proceso completado exitosamente

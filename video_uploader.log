@@ -700,3 +700,17 @@
 2026-01-26 14:19:59,345 - INFO - [CLEANUP] Archivos eliminados: K0LBMMrTJZ8
 2026-01-26 14:20:02,453 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-01-26 14:20:02,454 - INFO - [FINISH] Proceso completado
+2026-01-27 03:06:36,367 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-01-27 03:06:36,930 - INFO - [UPLOAD] Procesando: El arte de Sarah | Tráiler oficial | Netflix
+2026-01-27 03:06:36,930 - INFO - [SEARCH] Buscando archivos para: 'El arte de Sarah | Tráiler oficial | Netflix'
+2026-01-27 03:06:36,930 - INFO - [SEARCH] Palabras clave: ['el', 'arte', 'de']
+2026-01-27 03:06:36,930 - INFO - [FILES] JSON: El arte de Sarah _ Tráiler oficial _ Netflix.json
+2026-01-27 03:06:36,931 - INFO - [FILES] Video: El arte de Sarah _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-01-27 03:06:36,931 - INFO - [FILES] Thumbnail: El arte de Sarah _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-01-27 03:06:36,963 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-27 03:06:37,199 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-01-27 03:06:38,850 - INFO - [YOUTUBE] Video subido: xzt4DpLECEA
+2026-01-27 03:06:40,926 - INFO - [YOUTUBE] Thumbnail subido
+2026-01-27 03:06:40,934 - INFO - [CLEANUP] Archivos eliminados: MB50R72fSyE
+2026-01-27 03:06:44,084 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-01-27 03:06:44,085 - INFO - [FINISH] Proceso completado
