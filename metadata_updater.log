@@ -3176,3 +3176,51 @@ DESCRIPCIÓN: 🎬 ¡Prepá...
 2026-01-27 03:06:35,282 - INFO - [SUMMARY] Videos fallidos: 0
 2026-01-27 03:06:35,848 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-01-27 03:06:35,849 - INFO - [FINISH] Proceso completado exitosamente
+2026-01-28 02:49:08,642 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-01-28 02:49:08,642 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-01-28 02:49:08,642 - INFO - [INIT] API Key disponible: Sí
+2026-01-28 02:49:08,643 - INFO - [INIT] Bot Token disponible: Sí
+2026-01-28 02:49:08,643 - INFO - [INIT] Chat ID disponible: Sí
+2026-01-28 02:49:08,643 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-01-28 02:49:08,643 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-01-28 02:49:08,643 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-28 02:49:08,644 - INFO - [JSON] Cargados 102 videos desde data.json
+2026-01-28 02:49:08,644 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-01-28 02:49:08,644 - INFO - [PROCESS] Procesando 1 videos...
+2026-01-28 02:49:08,644 - INFO - 
+--- Procesando video 1/1 ---
+2026-01-28 02:49:08,644 - INFO - [VIDEO] Título: Aunque nuestro amor se desvanezca esta noche | TRÁILER OFICIAL | Netflix
+2026-01-28 02:49:08,644 - INFO - [VIDEO] ID: bFQq9Xv49OE
+2026-01-28 02:49:08,644 - INFO - [SEARCH] Buscando JSON para: 'Aunque nuestro amor se desvanezca esta noche | TRÁILER OFICIAL | Netflix'
+2026-01-28 02:49:08,645 - INFO - [SEARCH] Primeras 3 palabras del título: ['aunque', 'nuestro', 'amor']
+2026-01-28 02:49:08,645 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-01-28 02:49:08,645 - INFO - [COMPARE] Archivo: Aunque nuestro amor se desvanezca esta noche _ TRÁILER OFICIAL _ Netflix.json
+2026-01-28 02:49:08,645 - INFO - [COMPARE] Título JSON: 'Aunque nuestro amor se desvanezca esta noche | TRÁILER OFICIAL | Netflix'
+2026-01-28 02:49:08,645 - INFO - [COMPARE] Primeras 3 palabras JSON: ['aunque', 'nuestro', 'amor']
+2026-01-28 02:49:08,645 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Aunque nuestro amor se desvanezca esta noche _ TRÁILER OFICIAL _ Netflix.json
+2026-01-28 02:49:08,645 - INFO - [API] ✅ API Key tiene formato válido
+2026-01-28 02:49:08,645 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-01-28 02:49:08,645 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-01-28 02:49:08,645 - INFO - [API] 🔑 API Key válida: ✅
+2026-01-28 02:49:08,645 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-01-28 02:49:25,673 - INFO - [API] 📊 Código de respuesta: 200
+2026-01-28 02:49:25,673 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-01-28 02:49:25,673 - INFO - [API] 📏 Longitud de respuesta: 2172 caracteres
+2026-01-28 02:49:25,673 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: AUNQUE NUESTRO AMOR SE DESVANEZCA ESTA NOCHE | Tráiler Oficial en Español Latino (2025) | Ne...
+2026-01-28 02:49:25,674 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-01-28 02:49:25,675 - INFO - [PARSE] Datos parseados exitosamente:
+2026-01-28 02:49:25,675 - INFO -   - Título: AUNQUE NUESTRO AMOR SE DESVANEZCA ESTA NOCHE | Trá...
+2026-01-28 02:49:25,675 - INFO -   - Descripción: 1812 caracteres
+2026-01-28 02:49:25,675 - INFO -   - Tags: 10 elementos
+2026-01-28 02:49:25,675 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-01-28 02:49:25,675 - INFO - [UPDATE] JSON actualizado: Aunque nuestro amor se desvanezca esta noche _ TRÁILER OFICIAL _ Netflix.json
+2026-01-28 02:49:25,676 - INFO - [JSON] Cargados 102 videos desde data.json
+2026-01-28 02:49:25,676 - INFO - [STATUS] Video bFQq9Xv49OE actualizado a 'ok'
+2026-01-28 02:49:25,678 - INFO - [JSON] data.json actualizado exitosamente
+2026-01-28 02:49:25,678 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-01-28 02:49:25,678 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-01-28 02:49:25,678 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-01-28 02:49:25,678 - INFO - [SUMMARY] Videos fallidos: 0
+2026-01-28 02:49:26,153 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-01-28 02:49:26,154 - INFO - [FINISH] Proceso completado exitosamente

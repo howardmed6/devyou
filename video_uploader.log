@@ -714,3 +714,17 @@
 2026-01-27 03:06:40,934 - INFO - [CLEANUP] Archivos eliminados: MB50R72fSyE
 2026-01-27 03:06:44,084 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-01-27 03:06:44,085 - INFO - [FINISH] Proceso completado
+2026-01-28 02:49:26,519 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-01-28 02:49:26,986 - INFO - [UPLOAD] Procesando: Aunque nuestro amor se desvanezca esta noche | TRÁILER OFICIAL | Netflix
+2026-01-28 02:49:26,987 - INFO - [SEARCH] Buscando archivos para: 'Aunque nuestro amor se desvanezca esta noche | TRÁILER OFICIAL | Netflix'
+2026-01-28 02:49:26,987 - INFO - [SEARCH] Palabras clave: ['aunque', 'nuestro', 'amor']
+2026-01-28 02:49:26,987 - INFO - [FILES] JSON: Aunque nuestro amor se desvanezca esta noche _ TRÁILER OFICIAL _ Netflix.json
+2026-01-28 02:49:26,987 - INFO - [FILES] Video: Aunque nuestro amor se desvanezca esta noche _ TRÁILER OFICIAL _ Netflix(1080P_HD).mp4
+2026-01-28 02:49:26,988 - INFO - [FILES] Thumbnail: Aunque nuestro amor se desvanezca esta noche _ TRÁILER OFICIAL _ Netflix(1080P_HD).jpg
+2026-01-28 02:49:26,995 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-28 02:49:27,141 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-01-28 02:49:28,858 - INFO - [YOUTUBE] Video subido: xPPIdwcNMKE
+2026-01-28 02:49:30,894 - INFO - [YOUTUBE] Thumbnail subido
+2026-01-28 02:49:30,899 - INFO - [CLEANUP] Archivos eliminados: bFQq9Xv49OE
+2026-01-28 02:49:33,860 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-01-28 02:49:33,860 - INFO - [FINISH] Proceso completado
