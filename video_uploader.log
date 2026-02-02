@@ -736,3 +736,17 @@
 2026-02-02 17:07:05,791 - INFO - [FINISH] Proceso completado
 2026-02-02 17:10:37,815 - INFO - [PROCESS] No hay videos listos para subir
 2026-02-02 17:10:38,416 - INFO - [FINISH] Proceso completado
+2026-02-02 17:17:38,520 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-02-02 17:17:39,029 - INFO - [UPLOAD] Procesando: STRANGER THINGS: RELATOS DEL 85 Tráiler Español
+2026-02-02 17:17:39,029 - INFO - [SEARCH] Buscando archivos para: 'STRANGER THINGS: RELATOS DEL 85 Tráiler Español'
+2026-02-02 17:17:39,030 - INFO - [SEARCH] Palabras clave: ['stranger', 'things', 'relatos']
+2026-02-02 17:17:39,030 - INFO - [FILES] JSON: Stranger Things_ Relatos del 85 _ Avance oficial _ Netflix.json
+2026-02-02 17:17:39,030 - INFO - [FILES] Video: STRANGER THINGS_ RELATOS DEL 85 Tráiler Español Latino (2026)(1080P_HD).mp4
+2026-02-02 17:17:39,030 - INFO - [FILES] Thumbnail: STRANGER THINGS_ RELATOS DEL 85 Tráiler Español Latino (2026)(1080P_HD).jpg
+2026-02-02 17:17:39,050 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-02 17:17:39,171 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-02-02 17:17:40,766 - INFO - [YOUTUBE] Video subido: Ja4kbH5dewc
+2026-02-02 17:17:43,575 - INFO - [YOUTUBE] Thumbnail subido
+2026-02-02 17:17:43,583 - INFO - [CLEANUP] Archivos eliminados: GsaL8T88-oY
+2026-02-02 17:17:46,551 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-02-02 17:17:46,551 - INFO - [FINISH] Proceso completado

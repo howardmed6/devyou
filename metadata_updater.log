@@ -3276,3 +3276,53 @@ DESCRIPCIÓN: 🎬 ¡Prepá...
 2026-02-02 17:10:36,702 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-02-02 17:10:37,311 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-02-02 17:10:37,312 - INFO - [FINISH] Proceso completado exitosamente
+2026-02-02 17:17:19,225 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-02-02 17:17:19,225 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-02-02 17:17:19,225 - INFO - [INIT] API Key disponible: Sí
+2026-02-02 17:17:19,225 - INFO - [INIT] Bot Token disponible: Sí
+2026-02-02 17:17:19,225 - INFO - [INIT] Chat ID disponible: Sí
+2026-02-02 17:17:19,225 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-02-02 17:17:19,225 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-02-02 17:17:19,225 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-02 17:17:19,226 - INFO - [JSON] Cargados 84 videos desde data.json
+2026-02-02 17:17:19,226 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-02-02 17:17:19,226 - INFO - [PROCESS] Procesando 1 videos...
+2026-02-02 17:17:19,226 - INFO - 
+--- Procesando video 1/1 ---
+2026-02-02 17:17:19,226 - INFO - [VIDEO] Título: STRANGER THINGS: RELATOS DEL 85 Tráiler Español
+2026-02-02 17:17:19,226 - INFO - [VIDEO] ID: GsaL8T88-oY
+2026-02-02 17:17:19,226 - INFO - [SEARCH] Buscando JSON para: 'STRANGER THINGS: RELATOS DEL 85 Tráiler Español'
+2026-02-02 17:17:19,233 - INFO - [SEARCH] Primeras 3 palabras del título: ['stranger', 'things', 'relatos']
+2026-02-02 17:17:19,233 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-02 17:17:19,233 - INFO - [COMPARE] Archivo: Stranger Things_ Relatos del 85 _ Avance oficial _ Netflix.json
+2026-02-02 17:17:19,233 - INFO - [COMPARE] Título JSON: 'Stranger Things: Relatos del 85 | Avance oficial | Netflix'
+2026-02-02 17:17:19,233 - INFO - [COMPARE] Primeras 3 palabras JSON: ['stranger', 'things', 'relatos']
+2026-02-02 17:17:19,233 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Stranger Things_ Relatos del 85 _ Avance oficial _ Netflix.json
+2026-02-02 17:17:19,234 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-02 17:17:19,234 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-02-02 17:17:19,234 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-02-02 17:17:19,234 - INFO - [API] 🔑 API Key válida: ✅
+2026-02-02 17:17:19,234 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-02-02 17:17:37,604 - INFO - [API] 📊 Código de respuesta: 200
+2026-02-02 17:17:37,604 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-02-02 17:17:37,605 - INFO - [API] 📏 Longitud de respuesta: 2001 caracteres
+2026-02-02 17:17:37,605 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: STRANGER THINGS: RELATOS DEL 85 | Tráiler Oficial en Español Latino (2025) | Netflix
+
+DESCRI...
+2026-02-02 17:17:37,605 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-02-02 17:17:37,606 - INFO - [PARSE] Datos parseados exitosamente:
+2026-02-02 17:17:37,606 - INFO -   - Título: STRANGER THINGS: RELATOS DEL 85 | Tráiler Oficial ...
+2026-02-02 17:17:37,606 - INFO -   - Descripción: 1651 caracteres
+2026-02-02 17:17:37,607 - INFO -   - Tags: 12 elementos
+2026-02-02 17:17:37,607 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-02-02 17:17:37,607 - INFO - [UPDATE] JSON actualizado: Stranger Things_ Relatos del 85 _ Avance oficial _ Netflix.json
+2026-02-02 17:17:37,607 - INFO - [JSON] Cargados 84 videos desde data.json
+2026-02-02 17:17:37,608 - INFO - [STATUS] Video GsaL8T88-oY actualizado a 'ok'
+2026-02-02 17:17:37,609 - INFO - [JSON] data.json actualizado exitosamente
+2026-02-02 17:17:37,609 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-02-02 17:17:37,609 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-02-02 17:17:37,609 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-02-02 17:17:37,609 - INFO - [SUMMARY] Videos fallidos: 0
+2026-02-02 17:17:38,124 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-02-02 17:17:38,125 - INFO - [FINISH] Proceso completado exitosamente
