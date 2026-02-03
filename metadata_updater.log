@@ -3355,3 +3355,29 @@ DESCRI...
 2026-02-03 17:39:00,425 - INFO - [SUMMARY] Videos fallidos: 1
 2026-02-03 17:39:01,024 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-02-03 17:39:01,025 - INFO - [FINISH] Proceso completado exitosamente
+2026-02-03 17:43:48,364 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-02-03 17:43:48,365 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-02-03 17:43:48,365 - INFO - [INIT] API Key disponible: Sí
+2026-02-03 17:43:48,365 - INFO - [INIT] Bot Token disponible: Sí
+2026-02-03 17:43:48,365 - INFO - [INIT] Chat ID disponible: Sí
+2026-02-03 17:43:48,365 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-02-03 17:43:48,365 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-02-03 17:43:48,365 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-03 17:43:48,366 - INFO - [JSON] Cargados 82 videos desde data.json
+2026-02-03 17:43:48,366 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-02-03 17:43:48,366 - INFO - [PROCESS] Procesando 1 videos...
+2026-02-03 17:43:48,366 - INFO - 
+--- Procesando video 1/1 ---
+2026-02-03 17:43:48,366 - INFO - [VIDEO] Título: Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix
+2026-02-03 17:43:48,366 - INFO - [VIDEO] ID: sJwnZEEXa7E
+2026-02-03 17:43:48,366 - INFO - [SEARCH] Buscando JSON para: 'Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix'
+2026-02-03 17:43:48,370 - INFO - [SEARCH] Primeras 3 palabras del título: ['bridgerton', 'temporada', 'baile']
+2026-02-03 17:43:48,370 - INFO - [SEARCH] Encontrados 0 archivos JSON en uploadable
+2026-02-03 17:43:48,370 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix'
+2026-02-03 17:43:48,370 - ERROR - [ERROR] No se encontró JSON para el video: Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix
+2026-02-03 17:43:48,370 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-02-03 17:43:48,370 - INFO - [SUMMARY] Videos procesados exitosamente: 0
+2026-02-03 17:43:48,370 - INFO - [SUMMARY] Videos fallidos: 1
+2026-02-03 17:43:48,956 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-02-03 17:43:48,957 - INFO - [FINISH] Proceso completado exitosamente
