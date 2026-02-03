@@ -3326,3 +3326,32 @@ DESCRI...
 2026-02-02 17:17:37,609 - INFO - [SUMMARY] Videos fallidos: 0
 2026-02-02 17:17:38,124 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-02-02 17:17:38,125 - INFO - [FINISH] Proceso completado exitosamente
+2026-02-03 17:39:00,414 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-02-03 17:39:00,414 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-02-03 17:39:00,414 - INFO - [INIT] API Key disponible: Sí
+2026-02-03 17:39:00,414 - INFO - [INIT] Bot Token disponible: Sí
+2026-02-03 17:39:00,414 - INFO - [INIT] Chat ID disponible: Sí
+2026-02-03 17:39:00,415 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-02-03 17:39:00,415 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-02-03 17:39:00,415 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-03 17:39:00,415 - INFO - [JSON] Cargados 90 videos desde data.json
+2026-02-03 17:39:00,415 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-02-03 17:39:00,416 - INFO - [PROCESS] Procesando 1 videos...
+2026-02-03 17:39:00,416 - INFO - 
+--- Procesando video 1/1 ---
+2026-02-03 17:39:00,416 - INFO - [VIDEO] Título: Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix
+2026-02-03 17:39:00,416 - INFO - [VIDEO] ID: sJwnZEEXa7E
+2026-02-03 17:39:00,416 - INFO - [SEARCH] Buscando JSON para: 'Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix'
+2026-02-03 17:39:00,424 - INFO - [SEARCH] Primeras 3 palabras del título: ['bridgerton', 'temporada', 'baile']
+2026-02-03 17:39:00,424 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-03 17:39:00,424 - INFO - [COMPARE] Archivo: Bridgerton_ Temporada 4 _ Avance oficial de la parte 2 _ Netflix.json
+2026-02-03 17:39:00,424 - INFO - [COMPARE] Título JSON: 'Bridgerton: Temporada 4 | Avance oficial de la parte 2 | Netflix'
+2026-02-03 17:39:00,424 - INFO - [COMPARE] Primeras 3 palabras JSON: ['bridgerton', 'temporada', 'avance']
+2026-02-03 17:39:00,424 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix'
+2026-02-03 17:39:00,425 - ERROR - [ERROR] No se encontró JSON para el video: Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix
+2026-02-03 17:39:00,425 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-02-03 17:39:00,425 - INFO - [SUMMARY] Videos procesados exitosamente: 0
+2026-02-03 17:39:00,425 - INFO - [SUMMARY] Videos fallidos: 1
+2026-02-03 17:39:01,024 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-02-03 17:39:01,025 - INFO - [FINISH] Proceso completado exitosamente
