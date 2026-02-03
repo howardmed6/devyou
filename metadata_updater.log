@@ -3443,3 +3443,63 @@ DESCRIP...
 2026-02-03 17:50:55,241 - INFO - [SUMMARY] Videos fallidos: 1
 2026-02-03 17:50:55,850 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-02-03 17:50:55,851 - INFO - [FINISH] Proceso completado exitosamente
+2026-02-03 23:49:55,162 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-02-03 23:49:55,162 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-02-03 23:49:55,163 - INFO - [INIT] API Key disponible: Sí
+2026-02-03 23:49:55,163 - INFO - [INIT] Bot Token disponible: Sí
+2026-02-03 23:49:55,163 - INFO - [INIT] Chat ID disponible: Sí
+2026-02-03 23:49:55,163 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-02-03 23:49:55,163 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-02-03 23:49:55,163 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-03 23:49:55,164 - INFO - [JSON] Cargados 88 videos desde data.json
+2026-02-03 23:49:55,164 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2026-02-03 23:49:55,164 - INFO - [PROCESS] Procesando 2 videos...
+2026-02-03 23:49:55,164 - INFO - 
+--- Procesando video 1/2 ---
+2026-02-03 23:49:55,164 - INFO - [VIDEO] Título: Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix
+2026-02-03 23:49:55,164 - INFO - [VIDEO] ID: sJwnZEEXa7E
+2026-02-03 23:49:55,164 - INFO - [SEARCH] Buscando JSON para: 'Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix'
+2026-02-03 23:49:55,168 - INFO - [SEARCH] Primeras 3 palabras del título: ['bridgerton', 'temporada', 'baile']
+2026-02-03 23:49:55,169 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-03 23:49:55,169 - INFO - [COMPARE] Archivo: MONARCH_ Legado de Monstruos Temporada 2 Tráiler Español Latino (2026) Godzilla.json
+2026-02-03 23:49:55,169 - INFO - [COMPARE] Título JSON: 'MONARCH: Legado de Monstruos Temporada 2 Tráiler Español Latino (2026) Godzilla'
+2026-02-03 23:49:55,169 - INFO - [COMPARE] Primeras 3 palabras JSON: ['monarch', 'legado', 'monstruos']
+2026-02-03 23:49:55,169 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix'
+2026-02-03 23:49:55,169 - ERROR - [ERROR] No se encontró JSON para el video: Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix
+2026-02-03 23:49:55,169 - INFO - 
+--- Procesando video 2/2 ---
+2026-02-03 23:49:55,169 - INFO - [VIDEO] Título: MONARCH: Legado de Monstruos Temporada 2 Tráiler Español Latino (2026) Godzilla
+2026-02-03 23:49:55,170 - INFO - [VIDEO] ID: uSfUfrhiz4w
+2026-02-03 23:49:55,170 - INFO - [SEARCH] Buscando JSON para: 'MONARCH: Legado de Monstruos Temporada 2 Tráiler Español Latino (2026) Godzilla'
+2026-02-03 23:49:55,170 - INFO - [SEARCH] Primeras 3 palabras del título: ['monarch', 'legado', 'monstruos']
+2026-02-03 23:49:55,170 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-03 23:49:55,170 - INFO - [COMPARE] Archivo: MONARCH_ Legado de Monstruos Temporada 2 Tráiler Español Latino (2026) Godzilla.json
+2026-02-03 23:49:55,170 - INFO - [COMPARE] Título JSON: 'MONARCH: Legado de Monstruos Temporada 2 Tráiler Español Latino (2026) Godzilla'
+2026-02-03 23:49:55,170 - INFO - [COMPARE] Primeras 3 palabras JSON: ['monarch', 'legado', 'monstruos']
+2026-02-03 23:49:55,170 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: MONARCH_ Legado de Monstruos Temporada 2 Tráiler Español Latino (2026) Godzilla.json
+2026-02-03 23:49:55,170 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-03 23:49:55,170 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-02-03 23:49:55,171 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-02-03 23:49:55,171 - INFO - [API] 🔑 API Key válida: ✅
+2026-02-03 23:49:55,171 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-02-03 23:50:10,195 - INFO - [API] 📊 Código de respuesta: 200
+2026-02-03 23:50:10,196 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-02-03 23:50:10,196 - INFO - [API] 📏 Longitud de respuesta: 2038 caracteres
+2026-02-03 23:50:10,196 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: MONARCH: Legado de Monstruos Temporada 2 Tráiler Oficial Español Latino (2025) Godzilla vs K...
+2026-02-03 23:50:10,197 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-02-03 23:50:10,198 - INFO - [PARSE] Datos parseados exitosamente:
+2026-02-03 23:50:10,198 - INFO -   - Título: MONARCH: Legado de Monstruos Temporada 2 Tráiler O...
+2026-02-03 23:50:10,198 - INFO -   - Descripción: 1724 caracteres
+2026-02-03 23:50:10,198 - INFO -   - Tags: 9 elementos
+2026-02-03 23:50:10,198 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-02-03 23:50:10,198 - INFO - [UPDATE] JSON actualizado: MONARCH_ Legado de Monstruos Temporada 2 Tráiler Español Latino (2026) Godzilla.json
+2026-02-03 23:50:10,199 - INFO - [JSON] Cargados 88 videos desde data.json
+2026-02-03 23:50:10,199 - INFO - [STATUS] Video uSfUfrhiz4w actualizado a 'ok'
+2026-02-03 23:50:10,200 - INFO - [JSON] data.json actualizado exitosamente
+2026-02-03 23:50:10,200 - INFO - [SUCCESS] Video 2 procesado exitosamente
+2026-02-03 23:50:10,200 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-02-03 23:50:10,200 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-02-03 23:50:10,200 - INFO - [SUMMARY] Videos fallidos: 1
+2026-02-03 23:50:10,644 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-02-03 23:50:10,645 - INFO - [FINISH] Proceso completado exitosamente

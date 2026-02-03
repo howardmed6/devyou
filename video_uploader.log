@@ -768,3 +768,17 @@
 2026-02-03 17:51:02,328 - INFO - [CLEANUP] Archivos eliminados: NJXRNXnEVLA
 2026-02-03 17:51:05,555 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-02-03 17:51:05,556 - INFO - [FINISH] Proceso completado
+2026-02-03 23:50:11,039 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-02-03 23:50:11,463 - INFO - [UPLOAD] Procesando: MONARCH: Legado de Monstruos Temporada 2 Tráiler Español Latino (2026) Godzilla
+2026-02-03 23:50:11,463 - INFO - [SEARCH] Buscando archivos para: 'MONARCH: Legado de Monstruos Temporada 2 Tráiler Español Latino (2026) Godzilla'
+2026-02-03 23:50:11,463 - INFO - [SEARCH] Palabras clave: ['monarch', 'legado', 'de']
+2026-02-03 23:50:11,464 - INFO - [FILES] JSON: MONARCH_ Legado de Monstruos Temporada 2 Tráiler Español Latino (2026) Godzilla.json
+2026-02-03 23:50:11,464 - INFO - [FILES] Video: MONARCH_ Legado de Monstruos Temporada 2 Tráiler Español Latino (2026) Godzilla(1080P_HD).mp4
+2026-02-03 23:50:11,464 - INFO - [FILES] Thumbnail: MONARCH_ Legado de Monstruos Temporada 2 Tráiler Español Latino (2026) Godzilla(1080P_HD).jpg
+2026-02-03 23:50:11,479 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-03 23:50:11,557 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-02-03 23:50:13,343 - INFO - [YOUTUBE] Video subido: XXPkKMzeUc4
+2026-02-03 23:50:15,453 - INFO - [YOUTUBE] Thumbnail subido
+2026-02-03 23:50:15,464 - INFO - [CLEANUP] Archivos eliminados: uSfUfrhiz4w
+2026-02-03 23:50:18,328 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-02-03 23:50:18,328 - INFO - [FINISH] Proceso completado
