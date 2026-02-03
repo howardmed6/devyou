@@ -754,3 +754,17 @@
 2026-02-03 17:39:02,025 - INFO - [FINISH] Proceso completado
 2026-02-03 17:43:49,348 - INFO - [PROCESS] No hay videos listos para subir
 2026-02-03 17:43:49,820 - INFO - [FINISH] Proceso completado
+2026-02-03 17:50:56,368 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-02-03 17:50:56,977 - INFO - [UPLOAD] Procesando: Bridgerton: Temporada 4 | Avance oficial de la parte 2 | Netflix
+2026-02-03 17:50:56,977 - INFO - [SEARCH] Buscando archivos para: 'Bridgerton: Temporada 4 | Avance oficial de la parte 2 | Netflix'
+2026-02-03 17:50:56,978 - INFO - [SEARCH] Palabras clave: ['bridgerton', 'temporada', '4']
+2026-02-03 17:50:56,978 - INFO - [FILES] JSON: Bridgerton_ Temporada 4 _ Avance oficial de la parte 2 _ Netflix.json
+2026-02-03 17:50:56,978 - INFO - [FILES] Video: Bridgerton Temporada 4_ Parte 2 _ Benedict_ yo no soy migajera _ Netflix(1080P_HD).mp4
+2026-02-03 17:50:56,978 - INFO - [FILES] Thumbnail: Bridgerton Temporada 4_ Parte 2 _ Benedict_ yo no soy migajera _ Netflix(1080P_HD).jpg
+2026-02-03 17:50:56,998 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-03 17:50:57,104 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-02-03 17:50:59,616 - INFO - [YOUTUBE] Video subido: a35SLUT69_0
+2026-02-03 17:51:02,322 - INFO - [YOUTUBE] Thumbnail subido
+2026-02-03 17:51:02,328 - INFO - [CLEANUP] Archivos eliminados: NJXRNXnEVLA
+2026-02-03 17:51:05,555 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-02-03 17:51:05,556 - INFO - [FINISH] Proceso completado

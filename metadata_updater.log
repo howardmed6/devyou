@@ -3381,3 +3381,65 @@ DESCRI...
 2026-02-03 17:43:48,370 - INFO - [SUMMARY] Videos fallidos: 1
 2026-02-03 17:43:48,956 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-02-03 17:43:48,957 - INFO - [FINISH] Proceso completado exitosamente
+2026-02-03 17:50:34,534 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-02-03 17:50:34,534 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-02-03 17:50:34,534 - INFO - [INIT] API Key disponible: Sí
+2026-02-03 17:50:34,534 - INFO - [INIT] Bot Token disponible: Sí
+2026-02-03 17:50:34,534 - INFO - [INIT] Chat ID disponible: Sí
+2026-02-03 17:50:34,535 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-02-03 17:50:34,535 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-02-03 17:50:34,535 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-03 17:50:34,535 - INFO - [JSON] Cargados 82 videos desde data.json
+2026-02-03 17:50:34,535 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2026-02-03 17:50:34,535 - INFO - [PROCESS] Procesando 2 videos...
+2026-02-03 17:50:34,535 - INFO - 
+--- Procesando video 1/2 ---
+2026-02-03 17:50:34,536 - INFO - [VIDEO] Título: Bridgerton: Temporada 4 | Avance oficial de la parte 2 | Netflix
+2026-02-03 17:50:34,536 - INFO - [VIDEO] ID: NJXRNXnEVLA
+2026-02-03 17:50:34,536 - INFO - [SEARCH] Buscando JSON para: 'Bridgerton: Temporada 4 | Avance oficial de la parte 2 | Netflix'
+2026-02-03 17:50:34,536 - INFO - [SEARCH] Primeras 3 palabras del título: ['bridgerton', 'temporada', 'avance']
+2026-02-03 17:50:34,536 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-03 17:50:34,536 - INFO - [COMPARE] Archivo: Bridgerton_ Temporada 4 _ Avance oficial de la parte 2 _ Netflix.json
+2026-02-03 17:50:34,536 - INFO - [COMPARE] Título JSON: 'Bridgerton: Temporada 4 | Avance oficial de la parte 2 | Netflix'
+2026-02-03 17:50:34,537 - INFO - [COMPARE] Primeras 3 palabras JSON: ['bridgerton', 'temporada', 'avance']
+2026-02-03 17:50:34,537 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Bridgerton_ Temporada 4 _ Avance oficial de la parte 2 _ Netflix.json
+2026-02-03 17:50:34,537 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-03 17:50:34,537 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-02-03 17:50:34,537 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-02-03 17:50:34,537 - INFO - [API] 🔑 API Key válida: ✅
+2026-02-03 17:50:34,537 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-02-03 17:50:53,225 - INFO - [API] 📊 Código de respuesta: 200
+2026-02-03 17:50:53,225 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-02-03 17:50:53,225 - INFO - [API] 📏 Longitud de respuesta: 2541 caracteres
+2026-02-03 17:50:53,225 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: BRIDGERTON Temporada 4 Parte 2 | Tráiler Oficial en Español Latino (2025) | Netflix
+
+DESCRIP...
+2026-02-03 17:50:53,226 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-02-03 17:50:53,227 - INFO - [PARSE] Datos parseados exitosamente:
+2026-02-03 17:50:53,227 - INFO -   - Título: BRIDGERTON Temporada 4 Parte 2 | Tráiler Oficial e...
+2026-02-03 17:50:53,227 - INFO -   - Descripción: 2208 caracteres
+2026-02-03 17:50:53,227 - INFO -   - Tags: 12 elementos
+2026-02-03 17:50:53,227 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-02-03 17:50:53,228 - INFO - [UPDATE] JSON actualizado: Bridgerton_ Temporada 4 _ Avance oficial de la parte 2 _ Netflix.json
+2026-02-03 17:50:53,228 - INFO - [JSON] Cargados 82 videos desde data.json
+2026-02-03 17:50:53,228 - INFO - [STATUS] Video NJXRNXnEVLA actualizado a 'ok'
+2026-02-03 17:50:53,230 - INFO - [JSON] data.json actualizado exitosamente
+2026-02-03 17:50:53,230 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-02-03 17:50:55,232 - INFO - 
+--- Procesando video 2/2 ---
+2026-02-03 17:50:55,232 - INFO - [VIDEO] Título: Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix
+2026-02-03 17:50:55,232 - INFO - [VIDEO] ID: sJwnZEEXa7E
+2026-02-03 17:50:55,232 - INFO - [SEARCH] Buscando JSON para: 'Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix'
+2026-02-03 17:50:55,239 - INFO - [SEARCH] Primeras 3 palabras del título: ['bridgerton', 'temporada', 'baile']
+2026-02-03 17:50:55,240 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-03 17:50:55,240 - INFO - [COMPARE] Archivo: Bridgerton_ Temporada 4 _ Avance oficial de la parte 2 _ Netflix.json
+2026-02-03 17:50:55,240 - INFO - [COMPARE] Título JSON: 'BRIDGERTON Temporada 4 Parte 2 | Tráiler Oficial en Español Latino (2025) | Netflix'
+2026-02-03 17:50:55,240 - INFO - [COMPARE] Primeras 3 palabras JSON: ['bridgerton', 'temporada', 'parte']
+2026-02-03 17:50:55,240 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix'
+2026-02-03 17:50:55,240 - ERROR - [ERROR] No se encontró JSON para el video: Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix
+2026-02-03 17:50:55,240 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-02-03 17:50:55,240 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-02-03 17:50:55,241 - INFO - [SUMMARY] Videos fallidos: 1
+2026-02-03 17:50:55,850 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-02-03 17:50:55,851 - INFO - [FINISH] Proceso completado exitosamente
