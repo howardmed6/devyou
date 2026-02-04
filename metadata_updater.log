@@ -3565,3 +3565,65 @@ DESCRIPCIÓN: 🎬 ¡Prepárate para una...
 2026-02-04 15:03:57,299 - INFO - [SUMMARY] Videos fallidos: 1
 2026-02-04 15:03:57,738 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-02-04 15:03:57,739 - INFO - [FINISH] Proceso completado exitosamente
+2026-02-04 18:47:32,427 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-02-04 18:47:32,427 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-02-04 18:47:32,427 - INFO - [INIT] API Key disponible: Sí
+2026-02-04 18:47:32,427 - INFO - [INIT] Bot Token disponible: Sí
+2026-02-04 18:47:32,427 - INFO - [INIT] Chat ID disponible: Sí
+2026-02-04 18:47:32,427 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-02-04 18:47:32,427 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-02-04 18:47:32,427 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-04 18:47:32,428 - INFO - [JSON] Cargados 84 videos desde data.json
+2026-02-04 18:47:32,428 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2026-02-04 18:47:32,428 - INFO - [PROCESS] Procesando 2 videos...
+2026-02-04 18:47:32,429 - INFO - 
+--- Procesando video 1/2 ---
+2026-02-04 18:47:32,429 - INFO - [VIDEO] Título: Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix
+2026-02-04 18:47:32,429 - INFO - [VIDEO] ID: sJwnZEEXa7E
+2026-02-04 18:47:32,429 - INFO - [SEARCH] Buscando JSON para: 'Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix'
+2026-02-04 18:47:32,439 - INFO - [SEARCH] Primeras 3 palabras del título: ['bridgerton', 'temporada', 'baile']
+2026-02-04 18:47:32,440 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-04 18:47:32,440 - INFO - [COMPARE] Archivo: Máquina de guerra _ Tráiler oficial _ Netflix.json
+2026-02-04 18:47:32,440 - INFO - [COMPARE] Título JSON: 'Máquina de guerra | Tráiler oficial | Netflix'
+2026-02-04 18:47:32,440 - INFO - [COMPARE] Primeras 3 palabras JSON: ['maquina', 'guerra', 'trailer']
+2026-02-04 18:47:32,440 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix'
+2026-02-04 18:47:32,440 - ERROR - [ERROR] No se encontró JSON para el video: Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix
+2026-02-04 18:47:32,440 - INFO - 
+--- Procesando video 2/2 ---
+2026-02-04 18:47:32,440 - INFO - [VIDEO] Título: Máquina de guerra | Tráiler oficial | Netflix
+2026-02-04 18:47:32,441 - INFO - [VIDEO] ID: swBvizspN1E
+2026-02-04 18:47:32,441 - INFO - [SEARCH] Buscando JSON para: 'Máquina de guerra | Tráiler oficial | Netflix'
+2026-02-04 18:47:32,441 - INFO - [SEARCH] Primeras 3 palabras del título: ['maquina', 'guerra', 'trailer']
+2026-02-04 18:47:32,441 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-04 18:47:32,441 - INFO - [COMPARE] Archivo: Máquina de guerra _ Tráiler oficial _ Netflix.json
+2026-02-04 18:47:32,441 - INFO - [COMPARE] Título JSON: 'Máquina de guerra | Tráiler oficial | Netflix'
+2026-02-04 18:47:32,441 - INFO - [COMPARE] Primeras 3 palabras JSON: ['maquina', 'guerra', 'trailer']
+2026-02-04 18:47:32,441 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Máquina de guerra _ Tráiler oficial _ Netflix.json
+2026-02-04 18:47:32,441 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-04 18:47:32,441 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-02-04 18:47:32,441 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-02-04 18:47:32,441 - INFO - [API] 🔑 API Key válida: ✅
+2026-02-04 18:47:32,442 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-02-04 18:47:49,438 - INFO - [API] 📊 Código de respuesta: 200
+2026-02-04 18:47:49,438 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-02-04 18:47:49,438 - INFO - [API] 📏 Longitud de respuesta: 2238 caracteres
+2026-02-04 18:47:49,438 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: MÁQUINA DE GUERRA Tráiler Oficial (2025) Netflix | Thriller Sci-Fi Acción Militar
+
+DESCRIPCI...
+2026-02-04 18:47:49,439 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-02-04 18:47:49,440 - INFO - [PARSE] Datos parseados exitosamente:
+2026-02-04 18:47:49,440 - INFO -   - Título: MÁQUINA DE GUERRA Tráiler Oficial (2025) Netflix |...
+2026-02-04 18:47:49,440 - INFO -   - Descripción: 1834 caracteres
+2026-02-04 18:47:49,440 - INFO -   - Tags: 12 elementos
+2026-02-04 18:47:49,440 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-02-04 18:47:49,440 - INFO - [UPDATE] JSON actualizado: Máquina de guerra _ Tráiler oficial _ Netflix.json
+2026-02-04 18:47:49,441 - INFO - [JSON] Cargados 84 videos desde data.json
+2026-02-04 18:47:49,441 - INFO - [STATUS] Video swBvizspN1E actualizado a 'ok'
+2026-02-04 18:47:49,442 - INFO - [JSON] data.json actualizado exitosamente
+2026-02-04 18:47:49,442 - INFO - [SUCCESS] Video 2 procesado exitosamente
+2026-02-04 18:47:49,442 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-02-04 18:47:49,443 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-02-04 18:47:49,443 - INFO - [SUMMARY] Videos fallidos: 1
+2026-02-04 18:47:50,033 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-02-04 18:47:50,034 - INFO - [FINISH] Proceso completado exitosamente

@@ -796,3 +796,17 @@
 2026-02-04 15:04:02,616 - INFO - [CLEANUP] Archivos eliminados: fvBY77vJ6AA
 2026-02-04 15:04:05,522 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-02-04 15:04:05,522 - INFO - [FINISH] Proceso completado
+2026-02-04 18:47:50,418 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-02-04 18:47:50,984 - INFO - [UPLOAD] Procesando: Máquina de guerra | Tráiler oficial | Netflix
+2026-02-04 18:47:50,984 - INFO - [SEARCH] Buscando archivos para: 'Máquina de guerra | Tráiler oficial | Netflix'
+2026-02-04 18:47:50,984 - INFO - [SEARCH] Palabras clave: ['maquina', 'de', 'guerra']
+2026-02-04 18:47:50,984 - INFO - [FILES] JSON: Máquina de guerra _ Tráiler oficial _ Netflix.json
+2026-02-04 18:47:50,984 - INFO - [FILES] Video: Máquina de guerra _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-02-04 18:47:50,984 - INFO - [FILES] Thumbnail: Máquina de guerra _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-02-04 18:47:51,001 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-04 18:47:51,225 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-02-04 18:47:53,277 - INFO - [YOUTUBE] Video subido: -0YyUSkU21k
+2026-02-04 18:47:55,770 - INFO - [YOUTUBE] Thumbnail subido
+2026-02-04 18:47:55,780 - INFO - [CLEANUP] Archivos eliminados: swBvizspN1E
+2026-02-04 18:47:58,964 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-02-04 18:47:58,965 - INFO - [FINISH] Proceso completado
