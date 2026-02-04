@@ -782,3 +782,17 @@
 2026-02-03 23:50:15,464 - INFO - [CLEANUP] Archivos eliminados: uSfUfrhiz4w
 2026-02-03 23:50:18,328 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-02-03 23:50:18,328 - INFO - [FINISH] Proceso completado
+2026-02-04 15:03:58,345 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-02-04 15:03:58,842 - INFO - [UPLOAD] Procesando: DOC | Tráiler oficial | Netflix
+2026-02-04 15:03:58,842 - INFO - [SEARCH] Buscando archivos para: 'DOC | Tráiler oficial | Netflix'
+2026-02-04 15:03:58,843 - INFO - [SEARCH] Palabras clave: ['doc', '|', 'trailer']
+2026-02-04 15:03:58,843 - INFO - [FILES] JSON: DOC _ Tráiler oficial _ Netflix.json
+2026-02-04 15:03:58,843 - INFO - [FILES] Video: DOC _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-02-04 15:03:58,843 - INFO - [FILES] Thumbnail: DOC _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-02-04 15:03:58,912 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-04 15:03:59,022 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-02-04 15:04:00,467 - INFO - [YOUTUBE] Video subido: W3NpILQaGFI
+2026-02-04 15:04:02,608 - INFO - [YOUTUBE] Thumbnail subido
+2026-02-04 15:04:02,616 - INFO - [CLEANUP] Archivos eliminados: fvBY77vJ6AA
+2026-02-04 15:04:05,522 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-02-04 15:04:05,522 - INFO - [FINISH] Proceso completado

@@ -3503,3 +3503,65 @@ DESCRIP...
 2026-02-03 23:50:10,200 - INFO - [SUMMARY] Videos fallidos: 1
 2026-02-03 23:50:10,644 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-02-03 23:50:10,645 - INFO - [FINISH] Proceso completado exitosamente
+2026-02-04 15:03:38,720 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-02-04 15:03:38,720 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-02-04 15:03:38,720 - INFO - [INIT] API Key disponible: Sí
+2026-02-04 15:03:38,720 - INFO - [INIT] Bot Token disponible: Sí
+2026-02-04 15:03:38,720 - INFO - [INIT] Chat ID disponible: Sí
+2026-02-04 15:03:38,720 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-02-04 15:03:38,721 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-02-04 15:03:38,721 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-04 15:03:38,721 - INFO - [JSON] Cargados 83 videos desde data.json
+2026-02-04 15:03:38,721 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2026-02-04 15:03:38,721 - INFO - [PROCESS] Procesando 2 videos...
+2026-02-04 15:03:38,721 - INFO - 
+--- Procesando video 1/2 ---
+2026-02-04 15:03:38,721 - INFO - [VIDEO] Título: Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix
+2026-02-04 15:03:38,722 - INFO - [VIDEO] ID: sJwnZEEXa7E
+2026-02-04 15:03:38,722 - INFO - [SEARCH] Buscando JSON para: 'Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix'
+2026-02-04 15:03:38,749 - INFO - [SEARCH] Primeras 3 palabras del título: ['bridgerton', 'temporada', 'baile']
+2026-02-04 15:03:38,749 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-04 15:03:38,749 - INFO - [COMPARE] Archivo: DOC _ Tráiler oficial _ Netflix.json
+2026-02-04 15:03:38,749 - INFO - [COMPARE] Título JSON: 'DOC | Tráiler oficial | Netflix'
+2026-02-04 15:03:38,749 - INFO - [COMPARE] Primeras 3 palabras JSON: ['doc', 'trailer', 'oficial']
+2026-02-04 15:03:38,750 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix'
+2026-02-04 15:03:38,750 - ERROR - [ERROR] No se encontró JSON para el video: Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix
+2026-02-04 15:03:38,750 - INFO - 
+--- Procesando video 2/2 ---
+2026-02-04 15:03:38,750 - INFO - [VIDEO] Título: DOC | Tráiler oficial | Netflix
+2026-02-04 15:03:38,750 - INFO - [VIDEO] ID: fvBY77vJ6AA
+2026-02-04 15:03:38,750 - INFO - [SEARCH] Buscando JSON para: 'DOC | Tráiler oficial | Netflix'
+2026-02-04 15:03:38,750 - INFO - [SEARCH] Primeras 3 palabras del título: ['doc', 'trailer', 'oficial']
+2026-02-04 15:03:38,750 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-04 15:03:38,750 - INFO - [COMPARE] Archivo: DOC _ Tráiler oficial _ Netflix.json
+2026-02-04 15:03:38,750 - INFO - [COMPARE] Título JSON: 'DOC | Tráiler oficial | Netflix'
+2026-02-04 15:03:38,750 - INFO - [COMPARE] Primeras 3 palabras JSON: ['doc', 'trailer', 'oficial']
+2026-02-04 15:03:38,750 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: DOC _ Tráiler oficial _ Netflix.json
+2026-02-04 15:03:38,751 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-04 15:03:38,751 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-02-04 15:03:38,751 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-02-04 15:03:38,751 - INFO - [API] 🔑 API Key válida: ✅
+2026-02-04 15:03:38,751 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-02-04 15:03:57,294 - INFO - [API] 📊 Código de respuesta: 200
+2026-02-04 15:03:57,294 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-02-04 15:03:57,294 - INFO - [API] 📏 Longitud de respuesta: 2440 caracteres
+2026-02-04 15:03:57,294 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: DOC | Tráiler Oficial en Español Latino (2025) | Netflix
+
+DESCRIPCIÓN: 🎬 ¡Prepárate para una...
+2026-02-04 15:03:57,296 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-02-04 15:03:57,296 - INFO - [PARSE] Datos parseados exitosamente:
+2026-02-04 15:03:57,296 - INFO -   - Título: DOC | Tráiler Oficial en Español Latino (2025) | N...
+2026-02-04 15:03:57,297 - INFO -   - Descripción: 2125 caracteres
+2026-02-04 15:03:57,297 - INFO -   - Tags: 11 elementos
+2026-02-04 15:03:57,297 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-02-04 15:03:57,297 - INFO - [UPDATE] JSON actualizado: DOC _ Tráiler oficial _ Netflix.json
+2026-02-04 15:03:57,298 - INFO - [JSON] Cargados 83 videos desde data.json
+2026-02-04 15:03:57,298 - INFO - [STATUS] Video fvBY77vJ6AA actualizado a 'ok'
+2026-02-04 15:03:57,299 - INFO - [JSON] data.json actualizado exitosamente
+2026-02-04 15:03:57,299 - INFO - [SUCCESS] Video 2 procesado exitosamente
+2026-02-04 15:03:57,299 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-02-04 15:03:57,299 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-02-04 15:03:57,299 - INFO - [SUMMARY] Videos fallidos: 1
+2026-02-04 15:03:57,738 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-02-04 15:03:57,739 - INFO - [FINISH] Proceso completado exitosamente
