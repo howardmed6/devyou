@@ -3627,3 +3627,65 @@ DESCRIPCI...
 2026-02-04 18:47:49,443 - INFO - [SUMMARY] Videos fallidos: 1
 2026-02-04 18:47:50,033 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-02-04 18:47:50,034 - INFO - [FINISH] Proceso completado exitosamente
+2026-02-05 01:17:04,284 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-02-05 01:17:04,285 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-02-05 01:17:04,285 - INFO - [INIT] API Key disponible: Sí
+2026-02-05 01:17:04,285 - INFO - [INIT] Bot Token disponible: Sí
+2026-02-05 01:17:04,285 - INFO - [INIT] Chat ID disponible: Sí
+2026-02-05 01:17:04,285 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-02-05 01:17:04,285 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-02-05 01:17:04,285 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-05 01:17:04,286 - INFO - [JSON] Cargados 87 videos desde data.json
+2026-02-05 01:17:04,286 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2026-02-05 01:17:04,286 - INFO - [PROCESS] Procesando 2 videos...
+2026-02-05 01:17:04,286 - INFO - 
+--- Procesando video 1/2 ---
+2026-02-05 01:17:04,286 - INFO - [VIDEO] Título: Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix
+2026-02-05 01:17:04,286 - INFO - [VIDEO] ID: sJwnZEEXa7E
+2026-02-05 01:17:04,286 - INFO - [SEARCH] Buscando JSON para: 'Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix'
+2026-02-05 01:17:04,287 - INFO - [SEARCH] Primeras 3 palabras del título: ['bridgerton', 'temporada', 'baile']
+2026-02-05 01:17:04,287 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-05 01:17:04,287 - INFO - [COMPARE] Archivo: Un novio por suscripción _ Avance oficial _ Netflix.json
+2026-02-05 01:17:04,287 - INFO - [COMPARE] Título JSON: 'Un novio por suscripción | Avance oficial | Netflix'
+2026-02-05 01:17:04,287 - INFO - [COMPARE] Primeras 3 palabras JSON: ['novio', 'por', 'suscripcion']
+2026-02-05 01:17:04,287 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix'
+2026-02-05 01:17:04,288 - ERROR - [ERROR] No se encontró JSON para el video: Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix
+2026-02-05 01:17:04,288 - INFO - 
+--- Procesando video 2/2 ---
+2026-02-05 01:17:04,288 - INFO - [VIDEO] Título: Un novio por suscripción | Avance oficial | Netflix
+2026-02-05 01:17:04,288 - INFO - [VIDEO] ID: mP5NYwOeXLI
+2026-02-05 01:17:04,288 - INFO - [SEARCH] Buscando JSON para: 'Un novio por suscripción | Avance oficial | Netflix'
+2026-02-05 01:17:04,288 - INFO - [SEARCH] Primeras 3 palabras del título: ['novio', 'por', 'suscripcion']
+2026-02-05 01:17:04,288 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-05 01:17:04,288 - INFO - [COMPARE] Archivo: Un novio por suscripción _ Avance oficial _ Netflix.json
+2026-02-05 01:17:04,288 - INFO - [COMPARE] Título JSON: 'Un novio por suscripción | Avance oficial | Netflix'
+2026-02-05 01:17:04,288 - INFO - [COMPARE] Primeras 3 palabras JSON: ['novio', 'por', 'suscripcion']
+2026-02-05 01:17:04,288 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Un novio por suscripción _ Avance oficial _ Netflix.json
+2026-02-05 01:17:04,288 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-05 01:17:04,288 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-02-05 01:17:04,288 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-02-05 01:17:04,289 - INFO - [API] 🔑 API Key válida: ✅
+2026-02-05 01:17:04,289 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-02-05 01:17:20,779 - INFO - [API] 📊 Código de respuesta: 200
+2026-02-05 01:17:20,780 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-02-05 01:17:20,780 - INFO - [API] 📏 Longitud de respuesta: 2205 caracteres
+2026-02-05 01:17:20,780 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: UN NOVIO POR SUSCRIPCIÓN | Tráiler Oficial en Español Latino | Netflix (2025)
+
+DESCRIPCIÓN: ...
+2026-02-05 01:17:20,781 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-02-05 01:17:20,781 - INFO - [PARSE] Datos parseados exitosamente:
+2026-02-05 01:17:20,781 - INFO -   - Título: UN NOVIO POR SUSCRIPCIÓN | Tráiler Oficial en Espa...
+2026-02-05 01:17:20,782 - INFO -   - Descripción: 1846 caracteres
+2026-02-05 01:17:20,782 - INFO -   - Tags: 13 elementos
+2026-02-05 01:17:20,782 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-02-05 01:17:20,782 - INFO - [UPDATE] JSON actualizado: Un novio por suscripción _ Avance oficial _ Netflix.json
+2026-02-05 01:17:20,783 - INFO - [JSON] Cargados 87 videos desde data.json
+2026-02-05 01:17:20,783 - INFO - [STATUS] Video mP5NYwOeXLI actualizado a 'ok'
+2026-02-05 01:17:20,784 - INFO - [JSON] data.json actualizado exitosamente
+2026-02-05 01:17:20,784 - INFO - [SUCCESS] Video 2 procesado exitosamente
+2026-02-05 01:17:20,784 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-02-05 01:17:20,784 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-02-05 01:17:20,784 - INFO - [SUMMARY] Videos fallidos: 1
+2026-02-05 01:17:21,214 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-02-05 01:17:21,214 - INFO - [FINISH] Proceso completado exitosamente

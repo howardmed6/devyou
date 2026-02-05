@@ -7,7 +7,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-02-04T17:23:48Z",
     "found_at": "2026-02-04T18:44:07.723569",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "LOS EXTRAÑOS CAPÍTULO 3 Tráiler Español Latino (2026)"
   },
   {
@@ -18,7 +18,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-02-04T10:18:40Z",
     "found_at": "2026-02-04T15:00:33.886063",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "EL DRAMA Tráiler Español Latino (2026) Zendaya, Robert Pattinson"
   },
   {
@@ -43,7 +43,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-02-03T19:18:09Z",
     "found_at": "2026-02-03T23:45:36.669008",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "MONARCH_ El Legado de los Monstruos Temporada 2 Tráiler Español (2026) Godzilla"
   },
   {
@@ -54,7 +54,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-02-03T13:51:23Z",
     "found_at": "2026-02-03T17:36:18.211571",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "EL DESCENDIENTE Tráiler Español (2026)"
   },
   {
@@ -79,7 +79,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-02-02T14:05:11Z",
     "found_at": "2026-02-02T15:30:03.063979",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "MICHAEL Tráiler 2 Español Latino (2026)"
   },
   {
@@ -90,7 +90,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-02-02T10:14:57Z",
     "found_at": "2026-02-02T15:30:03.063983",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "EL DIABLO VISTE DE PRADA 2 Tráiler 2 Español (2026) Anne Hathaway"
   },
   {
@@ -101,7 +101,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-02-02T01:12:00Z",
     "found_at": "2026-02-02T15:30:03.063986",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "EL DIABLO VISTE A LA MODA 2 Tráiler Español Latino (2026)"
   },
   {
@@ -112,7 +112,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-30T16:57:48Z",
     "found_at": "2026-02-02T15:30:03.063988",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "MARSHALS_ UNA HISTORIA DE YELLOWSTONE Tráiler 2 Español Latino (2026)"
   },
   {
@@ -123,7 +123,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-30T13:31:11Z",
     "found_at": "2026-02-02T15:30:03.063990",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "PASAJERO Tráiler Español Latino (2026) Harry Melling, Alexander Skarsgård"
   },
   {
@@ -134,7 +134,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-30T10:58:10Z",
     "found_at": "2026-02-02T15:30:03.063993",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "CLEANER RESCATE VERTICAL Tráiler Español (2026) Daisy Ridley"
   },
   {
@@ -145,7 +145,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-29T14:40:08Z",
     "found_at": "2026-02-02T15:30:03.063997",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "AMARGA NAVIDAD Tráiler Español (2026) Pedro Almodóvar"
   },
   {
@@ -156,7 +156,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-29T13:40:22Z",
     "found_at": "2026-02-02T15:30:03.063999",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "COUTURE Tráiler Español (2026) Angelina Jolie"
   },
   {
@@ -167,7 +167,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-29T11:31:11Z",
     "found_at": "2026-02-02T15:30:03.064001",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "WHISTLE_ EL SILBIDO DEL MAL Tráiler Español (2026) Dafne Keen"
   },
   {
@@ -178,7 +178,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-28T18:19:02Z",
     "found_at": "2026-02-02T15:30:03.064003",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "DTF ST. LOUIS Tráiler Español Latino (2026) David Harbour, Jason Bateman"
   },
   {
@@ -189,7 +189,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-28T14:14:13Z",
     "found_at": "2026-02-02T15:30:03.064005",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "BERLÍN Y LA DAMA DEL ARMIÑO Tráiler Español Latino (2026) La Casa de Papel"
   },
   {
@@ -200,7 +200,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-27T17:43:13Z",
     "found_at": "2026-01-28T02:46:34.748318",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "DAREDEVIL_ BORN AGAIN Temporada 2 Tráiler Español (2026)"
   },
   {
@@ -211,7 +211,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-27T16:04:54Z",
     "found_at": "2026-01-28T02:46:34.748336",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "BUENA SUERTE DIVIÉRTETE NO MUERAS Tráiler 2 Español Latino (2026) Sam Rockwell"
   },
   {
@@ -222,8 +222,33 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-01-27T15:47:06Z",
     "found_at": "2026-01-28T02:46:34.748339",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "DAREDEVIL BORN AGAIN Temporada 2 Tráiler Español Latino (2026)"
+  },
+  {
+    "video_id": "xN4Zl3AOGzw",
+    "url": "https://www.youtube.com/watch?v=xN4Zl3AOGzw",
+    "title": "Baki-Dou: El samurái invencible | Tráiler oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-02-05T01:00:00Z",
+    "found_at": "2026-02-05T01:15:18.867168",
+    "status": "metadata_update",
+    "sanitized_name": "Baki-Dou_ El samurái invencible _ Tráiler oficial _ Netflix"
+  },
+  {
+    "video_id": "mP5NYwOeXLI",
+    "url": "https://www.youtube.com/watch?v=mP5NYwOeXLI",
+    "title": "Un novio por suscripción | Avance oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-02-05T00:00:00Z",
+    "found_at": "2026-02-05T01:15:18.867186",
+    "status": "uploaded",
+    "sanitized_name": "Un novio por suscripción _ Avance oficial _ Netflix",
+    "metadata_updated_at": "2026-02-05T01:17:20.783358",
+    "uploaded_at": "2026-02-05T01:17:26.541998",
+    "youtube_id": "Lns8iIRPyZs"
   },
   {
     "video_id": "swBvizspN1E",
@@ -286,7 +311,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-02-02T21:01:01Z",
     "found_at": "2026-02-03T17:36:18.464669",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Lu Scarpa cocina huevos Benedict(inos) Bridgerton"
   },
   {
@@ -308,7 +333,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-02-02T14:00:00Z",
     "found_at": "2026-02-02T15:30:03.290183",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Stranger Things_ Relatos del 85 _ Avance oficial _ Netflix"
   },
   {
@@ -319,7 +344,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-01-30T21:00:09Z",
     "found_at": "2026-02-02T15:30:03.290196",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "El saludo de Benophie para sus fans argentinos .  Bridgerton 4, parte 1 ya está disponible"
   },
   {
@@ -330,7 +355,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-01-30T14:00:00Z",
     "found_at": "2026-02-02T15:30:03.290200",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "En el barro_ Temporada 2 _ Tráiler oficial _ Netflix"
   },
   {
@@ -341,7 +366,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-01-29T16:00:00Z",
     "found_at": "2026-02-02T15:30:03.290203",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Las brujas fans de Bridgerton _ Netflix"
   },
   {
@@ -352,7 +377,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-01-29T14:00:00Z",
     "found_at": "2026-02-02T15:30:03.290205",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Benedict Bridgerton busca a su favorita _ Ángela Torres _ Netflix"
   },
   {
@@ -363,7 +388,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-01-28T14:00:01Z",
     "found_at": "2026-02-02T15:30:03.290207",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Berlín y la dama del armiño _ Avance oficial _ Netflix"
   },
   {
@@ -388,7 +413,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-01-27T17:04:47Z",
     "found_at": "2026-01-28T02:46:34.942331",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "El 26 de marzo ‼️ALGO TERRIBLE ESTÁ A PUNTO DE SUCEDER‼️"
   },
   {
@@ -399,7 +424,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-01-27T09:00:01Z",
     "found_at": "2026-01-28T02:46:34.942335",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "¿Cómo se traduce este amor_ _ Detrás de cámaras_ Vol. 2 – Italia y Corea _ Netflix"
   },
   {
@@ -438,30 +463,30 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-01-23T09:00:00Z",
     "found_at": "2026-01-26T14:16:31.651102",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "¿Cómo se traduce este amor_ _ Detrás de cámaras_ Vol.1 - Japón y Canadá _ Netflix"
   },
   {
-    "video_id": "gFkJCe-m6tQ",
-    "url": "https://www.youtube.com/watch?v=gFkJCe-m6tQ",
-    "title": "El 2026 tiene algo para todos | ¿Qué sigue? | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-01-22T19:00:00Z",
-    "found_at": "2026-01-26T14:16:31.651107",
-    "status": "pending",
-    "sanitized_name": "El 2026 tiene algo para todos _ ¿Qué sigue_ _ Netflix"
+    "video_id": "SdyyuOoafdU",
+    "url": "https://www.youtube.com/watch?v=SdyyuOoafdU",
+    "title": "The Pitt - Temporada 2 | Promo oficial Episodio 5 | HBO Max",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2026-02-04T20:30:05Z",
+    "found_at": "2026-02-05T01:15:19.184794",
+    "status": "metadata_update",
+    "sanitized_name": "The Pitt - Temporada 2 _ Promo oficial Episodio 5 _ HBO Max"
   },
   {
-    "video_id": "q06x0oCM7vA",
-    "url": "https://www.youtube.com/watch?v=q06x0oCM7vA",
-    "title": "Contenido coreano en Netflix para 2026 | ¿Qué sigue? | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-01-21T00:00:00Z",
-    "found_at": "2026-01-26T14:16:31.651110",
-    "status": "pending",
-    "sanitized_name": "Contenido coreano en Netflix para 2026 _ ¿Qué sigue_ _ Netflix"
+    "video_id": "8l3iuUgIp5Y",
+    "url": "https://www.youtube.com/watch?v=8l3iuUgIp5Y",
+    "title": "No es Nicole ni es la señora Yoshida, 🤩 es NICOSHIDA 🤩 Nueva temporada, ¡más extraña que nunca!",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2026-02-04T19:30:02Z",
+    "found_at": "2026-02-05T01:15:19.184808",
+    "status": "metadata_update",
+    "sanitized_name": "No es Nicole ni es la señora Yoshida, 🤩 es NICOSHIDA 🤩 Nueva temporada, ¡más extraña que nunca!"
   },
   {
     "video_id": "J24tVRFQQ5o",
@@ -471,7 +496,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-02-04T16:09:44Z",
     "found_at": "2026-02-04T18:44:08.153216",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Es un viaje de ida... 😮‍💨🥐#ElCaballerodelosSieteReinos"
   },
   {
@@ -482,7 +507,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-02-03T22:00:53Z",
     "found_at": "2026-02-03T23:45:37.173794",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Tkm, Lyonel Baratheon. #ElCaballeroDeLosSieteReinos #AKnightoftheSevenKingdoms"
   },
   {
@@ -493,7 +518,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-02-03T21:26:40Z",
     "found_at": "2026-02-03T23:45:37.173809",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Había una vez_ Fach _ Margarita _ HBO Max"
   },
   {
@@ -504,7 +529,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-02-03T17:48:10Z",
     "found_at": "2026-02-03T23:45:37.173813",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Podcast_ El Caballero de los Siete Reinos _ Episodio 3 _ HBO Max"
   },
   {
@@ -515,7 +540,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-02-03T16:00:20Z",
     "found_at": "2026-02-03T17:36:18.735322",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Portobello _ Tráiler Oficial _ HBO Max"
   },
   {
@@ -526,7 +551,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-02-02T23:01:01Z",
     "found_at": "2026-02-03T17:36:18.735338",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Quedé frío, helado, hecho una arepa tiesa 😱 #ElCaballerodelosSieteReinos"
   },
   {
@@ -537,7 +562,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-02-02T17:00:52Z",
     "found_at": "2026-02-02T17:06:57.758960",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "El Caballero de los Siete Reinos _ Episodio 4 Avance _ HBO Max"
   },
   {
@@ -548,8 +573,19 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-01-30T22:51:53Z",
     "found_at": "2026-02-02T15:30:03.574157",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Una escena que vivirá para la eternidad. 🕊️ #CatherineOHara #Beetlejuice"
+  },
+  {
+    "video_id": "qML_pGjnDoM",
+    "url": "https://www.youtube.com/watch?v=qML_pGjnDoM",
+    "title": "Eggcelente outfit 😌 #ElCaballerodelosSieteReinos #Egg #AKnightoftheSevenKingdoms",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2026-01-30T19:01:00Z",
+    "found_at": "2026-02-05T01:15:19.184815",
+    "status": "metadata_update",
+    "sanitized_name": "Eggcelente outfit 😌 #ElCaballerodelosSieteReinos #Egg #AKnightoftheSevenKingdoms"
   },
   {
     "video_id": "s30ltv7k4UY",
@@ -559,7 +595,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-01-30T16:01:26Z",
     "found_at": "2026-02-02T15:30:03.574170",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Travesía Atalaya _ El Caballero de los 7 Reinos _ HBO Max"
   },
   {
@@ -570,7 +606,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-01-30T15:01:26Z",
     "found_at": "2026-02-02T15:30:03.574174",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Buen diagnóstico, mal tacto 🥴 The Pitt, cada jueves un nuevo capítulo por HBO Max."
   },
   {
@@ -581,7 +617,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-01-30T01:00:57Z",
     "found_at": "2026-02-02T15:30:03.574176",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Egg lo dio todo 😂 #ElCaballerodelosSieteReinos #Egg #GOT #AKOTSK"
   },
   {
@@ -592,7 +628,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-01-28T22:30:05Z",
     "found_at": "2026-02-02T15:30:03.574179",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "The Pitt - Temporada 2 _ Promo oficial Episodio 4 _ HBO Max"
   },
   {
@@ -603,7 +639,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-01-27T21:59:57Z",
     "found_at": "2026-01-28T02:46:35.145668",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Había una vez_ Delfina _ Margarita _ HBO Max"
   },
   {
@@ -614,7 +650,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-01-27T18:01:07Z",
     "found_at": "2026-01-28T02:46:35.145684",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "El Caballero de los Siete Reinos _ Episodio 3 Avance _ HBO Max"
   },
   {
@@ -625,7 +661,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-01-27T15:00:10Z",
     "found_at": "2026-01-28T02:46:35.145687",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Se vienen cositas épicas 🥐🗡️🛡️"
   },
   {
@@ -636,7 +672,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-01-27T00:00:11Z",
     "found_at": "2026-01-27T03:02:55.394523",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "El Caballero de los Siete Reinos _ En los próximos episodios _ HBO Max"
   },
   {
@@ -647,41 +683,19 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-01-26T19:00:28Z",
     "found_at": "2026-01-27T03:02:55.394538",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Podcast_ El Caballero de los Siete Reinos _ Episodio 2 _ HBO Max"
   },
   {
-    "video_id": "zDU61or2Fkc",
-    "url": "https://www.youtube.com/watch?v=zDU61or2Fkc",
-    "title": "Podcast: El Caballero de los Siete Reinos | Episodio 1 | HBO Max",
-    "channel": "HBO Max Latinoamérica",
-    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
-    "published": "2026-01-26T16:52:09Z",
-    "found_at": "2026-01-27T03:02:55.394541",
+    "video_id": "W1ovBMnOwSQ",
+    "url": "https://www.youtube.com/watch?v=W1ovBMnOwSQ",
+    "title": "Spoiler: Ese funeral es el de su padre 🥴 #EquipoDemolición #DaveBautista #JasonMomoa",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-02-04T21:00:49Z",
+    "found_at": "2026-02-05T01:15:19.411624",
     "status": "metadata_update",
-    "sanitized_name": "Podcast_ El Caballero de los Siete Reinos _ Episodio 1 _ HBO Max"
-  },
-  {
-    "video_id": "eyOi9eKyo7I",
-    "url": "https://www.youtube.com/watch?v=eyOi9eKyo7I",
-    "title": "El mejor escudero de Westeros 😎 #ElCaballerodelosSieteReinos #GOT #Egg #AKnightoftheSevenKingdoms",
-    "channel": "HBO Max Latinoamérica",
-    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
-    "published": "2026-01-26T03:01:46Z",
-    "found_at": "2026-01-26T14:16:31.929385",
-    "status": "pending",
-    "sanitized_name": "El mejor escudero de Westeros 😎 #ElCaballerodelosSieteReinos #GOT #Egg #AKnightoftheSevenKingdoms"
-  },
-  {
-    "video_id": "Qn9D7BGCL1Q",
-    "url": "https://www.youtube.com/watch?v=Qn9D7BGCL1Q",
-    "title": "No contaban con mi astucia (ni con mi estrés) #LosColorado, ya disponible en HBO Max",
-    "channel": "HBO Max Latinoamérica",
-    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
-    "published": "2026-01-24T20:00:15Z",
-    "found_at": "2026-01-26T14:16:31.929401",
-    "status": "pending",
-    "sanitized_name": "No contaban con mi astucia (ni con mi estrés) #LosColorado, ya disponible en HBO Max"
+    "sanitized_name": "Spoiler_ Ese funeral es el de su padre 🥴 #EquipoDemolición #DaveBautista #JasonMomoa"
   },
   {
     "video_id": "t05zGl9hANY",
@@ -691,7 +705,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-02-04T16:00:32Z",
     "found_at": "2026-02-04T18:44:08.393739",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Las prioridades en orden por suerte. #BeastGames"
   },
   {
@@ -702,7 +716,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-02-03T21:00:34Z",
     "found_at": "2026-02-03T23:45:37.464529",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Lo que llega en febrero 2026"
   },
   {
@@ -713,7 +727,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-02-03T16:00:00Z",
     "found_at": "2026-02-03T17:36:19.134299",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "¿Qué tal una maratón de #Fallout AHORA QUE TODA LA TEMPORADA ESTÁ EN NUESTRO CANAL_"
   },
   {
@@ -724,7 +738,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-02-02T21:00:36Z",
     "found_at": "2026-02-03T17:36:19.134314",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "¿INESPERADO_ EN ESTE UNIVERSO NADA LO ES #TheBoysDiabólico"
   },
   {
@@ -735,7 +749,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-02-01T21:00:00Z",
     "found_at": "2026-02-02T15:30:03.818202",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "¿YA TE VISTE LA TEMPORADA 1 #FALLOUT_ ESTÁ COMPLETA EN NUESTRO CANAL 🤠"
   },
   {
@@ -746,7 +760,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-02-01T16:00:23Z",
     "found_at": "2026-02-02T15:30:03.818214",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Si en el juego hay que romper corazones, mi ex se lleva el premio 💔  #BeastGames"
   },
   {
@@ -757,7 +771,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-31T21:00:37Z",
     "found_at": "2026-02-02T15:30:03.818218",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "A mí también me gustaban sus obras. 😂 #HombresDeNegro3 #shorts"
   },
   {
@@ -768,7 +782,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-31T16:00:26Z",
     "found_at": "2026-02-02T15:30:03.818221",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Al menos hubo risas antes de la batalla. 😂#Fallout EPISODIO 7 YA DISPONIBLE"
   },
   {
@@ -779,7 +793,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-30T21:02:01Z",
     "found_at": "2026-02-02T15:30:03.818223",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "No estábamos listos para ver a Tom Hiddleston así 😮‍💨"
   },
   {
@@ -790,7 +804,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-30T16:00:25Z",
     "found_at": "2026-02-02T15:30:03.818225",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Y PAM SE CONVIRTIÓ EN JIM POR UN MOMENTO 😆 #TheOffice #Shorts"
   },
   {
@@ -801,7 +815,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-29T23:00:36Z",
     "found_at": "2026-02-02T15:30:03.818228",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Quién diría que #House tendría un poco de compasión."
   },
   {
@@ -812,7 +826,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-29T17:00:56Z",
     "found_at": "2026-02-02T15:30:03.818231",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "POR SIEMPRE TEAM_ YA NO ERES UNA Z0RR4 PALMER 😌 #UnaEsposaDeMentira #Shorts"
   },
   {
@@ -823,7 +837,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-28T16:00:28Z",
     "found_at": "2026-02-02T15:30:03.818233",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "CUANDO LA MISIÓN ES IMPOSIBLE, LLAMAN A LOS MÁS COOL 😎 #EquipoDemolición Ya disponible"
   },
   {
@@ -834,7 +848,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-28T08:00:00Z",
     "found_at": "2026-02-02T15:30:03.818236",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Fallout _ Temporada 1 - Capítulo 3"
   },
   {
@@ -845,7 +859,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-28T08:00:00Z",
     "found_at": "2026-02-02T15:30:03.818238",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Fallout _ Temporada 1 - Capítulo 1"
   },
   {
@@ -856,7 +870,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-28T08:00:00Z",
     "found_at": "2026-02-02T15:30:03.818240",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Fallout _ Temporada 1 - Capítulo 7"
   },
   {
@@ -867,7 +881,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-28T08:00:00Z",
     "found_at": "2026-02-02T15:30:03.818245",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Fallout _ Temporada 1 - Capítulo 5"
   },
   {
@@ -878,7 +892,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-28T08:00:00Z",
     "found_at": "2026-02-02T15:30:03.818247",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Fallout _ Temporada 1 - Capítulo 2"
   },
   {
@@ -889,18 +903,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-01-28T08:00:00Z",
     "found_at": "2026-02-02T15:30:03.818249",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Fallout _ Temporada 1 - Capítulo 4"
-  },
-  {
-    "video_id": "_y8JoZkeRVk",
-    "url": "https://www.youtube.com/watch?v=_y8JoZkeRVk",
-    "title": "Fallout | Temporada 1 - Capítulo 8",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-01-28T08:00:00Z",
-    "found_at": "2026-02-02T15:30:03.818251",
-    "status": "metadata_update",
-    "sanitized_name": "Fallout _ Temporada 1 - Capítulo 8"
   }
 ]

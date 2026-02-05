@@ -810,3 +810,17 @@
 2026-02-04 18:47:55,780 - INFO - [CLEANUP] Archivos eliminados: swBvizspN1E
 2026-02-04 18:47:58,964 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-02-04 18:47:58,965 - INFO - [FINISH] Proceso completado
+2026-02-05 01:17:21,590 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-02-05 01:17:22,017 - INFO - [UPLOAD] Procesando: Un novio por suscripción | Avance oficial | Netflix
+2026-02-05 01:17:22,017 - INFO - [SEARCH] Buscando archivos para: 'Un novio por suscripción | Avance oficial | Netflix'
+2026-02-05 01:17:22,018 - INFO - [SEARCH] Palabras clave: ['un', 'novio', 'por']
+2026-02-05 01:17:22,018 - INFO - [FILES] JSON: Un novio por suscripción _ Avance oficial _ Netflix.json
+2026-02-05 01:17:22,018 - INFO - [FILES] Video: Un novio por suscripción _ Avance oficial _ Netflix(1080P_HD).mp4
+2026-02-05 01:17:22,018 - INFO - [FILES] Thumbnail: Un novio por suscripción _ Avance oficial _ Netflix(1080P_HD).jpg
+2026-02-05 01:17:22,041 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-05 01:17:22,130 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-02-05 01:17:23,895 - INFO - [YOUTUBE] Video subido: Lns8iIRPyZs
+2026-02-05 01:17:26,541 - INFO - [YOUTUBE] Thumbnail subido
+2026-02-05 01:17:26,546 - INFO - [CLEANUP] Archivos eliminados: mP5NYwOeXLI
+2026-02-05 01:17:29,435 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-02-05 01:17:29,435 - INFO - [FINISH] Proceso completado
