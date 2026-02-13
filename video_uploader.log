@@ -824,3 +824,24 @@
 2026-02-05 01:17:26,546 - INFO - [CLEANUP] Archivos eliminados: mP5NYwOeXLI
 2026-02-05 01:17:29,435 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-02-05 01:17:29,435 - INFO - [FINISH] Proceso completado
+2026-02-13 18:00:21,698 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-02-13 18:00:22,291 - INFO - [UPLOAD] Procesando: BRIDGERTON Temporada 4 Parte 2 Tráiler Español Latino (2026)
+2026-02-13 18:00:22,292 - INFO - [SEARCH] Buscando archivos para: 'BRIDGERTON Temporada 4 Parte 2 Tráiler Español Latino (2026)'
+2026-02-13 18:00:22,292 - INFO - [SEARCH] Palabras clave: ['bridgerton', 'temporada', '4']
+2026-02-13 18:00:22,292 - WARNING - [FALLBACK] No se encontraron archivos por coincidencia para 'BRIDGERTON Temporada 4 Parte 2 Tráiler Español Latino (2026)', intentando con archivos únicos...
+2026-02-13 18:00:22,292 - INFO - [FALLBACK] Archivos únicos encontrados:
+2026-02-13 18:00:22,292 - INFO - [FALLBACK] JSON: BRIDGERTON Temporada 4 Parte 2 Tráiler Español Latino (2026).json (Total: 1)
+2026-02-13 18:00:22,292 - INFO - [FALLBACK] Video: Bridgerton_ Temporada 4 _ Tráiler oficial de la parte 2 _ Netflix(1080P_HD).mp4 (Total: 1)
+2026-02-13 18:00:22,293 - INFO - [FALLBACK] Thumbnail: Bridgerton_ Temporada 4 _ Tráiler oficial de la parte 2 _ Netflix(1080P_HD).jpg (Total: 1)
+2026-02-13 18:00:22,293 - INFO - [FALLBACK] Usando video único: Bridgerton_ Temporada 4 _ Tráiler oficial de la parte 2 _ Netflix(1080P_HD).mp4
+2026-02-13 18:00:22,293 - INFO - [FALLBACK] Usando thumbnail único: Bridgerton_ Temporada 4 _ Tráiler oficial de la parte 2 _ Netflix(1080P_HD).jpg
+2026-02-13 18:00:22,293 - INFO - [FILES] JSON: BRIDGERTON Temporada 4 Parte 2 Tráiler Español Latino (2026).json
+2026-02-13 18:00:22,293 - INFO - [FILES] Video: Bridgerton_ Temporada 4 _ Tráiler oficial de la parte 2 _ Netflix(1080P_HD).mp4
+2026-02-13 18:00:22,293 - INFO - [FILES] Thumbnail: Bridgerton_ Temporada 4 _ Tráiler oficial de la parte 2 _ Netflix(1080P_HD).jpg
+2026-02-13 18:00:22,311 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-13 18:00:22,543 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-02-13 18:00:24,368 - INFO - [YOUTUBE] Video subido: r0diS9_IQU4
+2026-02-13 18:00:26,400 - INFO - [YOUTUBE] Thumbnail subido
+2026-02-13 18:00:26,408 - INFO - [CLEANUP] Archivos eliminados: DTci3k_k_CE
+2026-02-13 18:00:29,578 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-02-13 18:00:29,578 - INFO - [FINISH] Proceso completado
