@@ -845,3 +845,17 @@
 2026-02-13 18:00:26,408 - INFO - [CLEANUP] Archivos eliminados: DTci3k_k_CE
 2026-02-13 18:00:29,578 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-02-13 18:00:29,578 - INFO - [FINISH] Proceso completado
+2026-02-13 19:08:04,121 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-02-13 19:08:04,754 - INFO - [UPLOAD] Procesando: Algo terrible está a punto de suceder | Avance oficial | Netflix
+2026-02-13 19:08:04,754 - INFO - [SEARCH] Buscando archivos para: 'Algo terrible está a punto de suceder | Avance oficial | Netflix'
+2026-02-13 19:08:04,754 - INFO - [SEARCH] Palabras clave: ['algo', 'terrible', 'esta']
+2026-02-13 19:08:04,755 - INFO - [FILES] JSON: Algo terrible está a punto de suceder _ Avance oficial _ Netflix.json
+2026-02-13 19:08:04,755 - INFO - [FILES] Video: Algo terrible está a punto de suceder _ Avance oficial _ Netflix(1080P_HD).mp4
+2026-02-13 19:08:04,755 - INFO - [FILES] Thumbnail: Algo terrible está a punto de suceder _ Avance oficial _ Netflix(1080P_HD).jpg
+2026-02-13 19:08:04,772 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-13 19:08:04,878 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-02-13 19:08:06,694 - INFO - [YOUTUBE] Video subido: TjyNuaTI-Sk
+2026-02-13 19:08:09,000 - INFO - [YOUTUBE] Thumbnail subido
+2026-02-13 19:08:09,004 - INFO - [CLEANUP] Archivos eliminados: UUH8TYvyWJM
+2026-02-13 19:08:12,240 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-02-13 19:08:12,241 - INFO - [FINISH] Proceso completado

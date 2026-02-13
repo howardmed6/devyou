@@ -3751,3 +3751,65 @@ DESCRIPCIÓN: 🎬 ¡La esp...
 2026-02-13 18:00:20,698 - INFO - [SUMMARY] Videos fallidos: 1
 2026-02-13 18:00:21,251 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-02-13 18:00:21,251 - INFO - [FINISH] Proceso completado exitosamente
+2026-02-13 19:07:46,458 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-02-13 19:07:46,458 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-02-13 19:07:46,458 - INFO - [INIT] API Key disponible: Sí
+2026-02-13 19:07:46,458 - INFO - [INIT] Bot Token disponible: Sí
+2026-02-13 19:07:46,458 - INFO - [INIT] Chat ID disponible: Sí
+2026-02-13 19:07:46,458 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-02-13 19:07:46,458 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-02-13 19:07:46,458 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-13 19:07:46,459 - INFO - [JSON] Cargados 83 videos desde data.json
+2026-02-13 19:07:46,459 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2026-02-13 19:07:46,459 - INFO - [PROCESS] Procesando 2 videos...
+2026-02-13 19:07:46,459 - INFO - 
+--- Procesando video 1/2 ---
+2026-02-13 19:07:46,459 - INFO - [VIDEO] Título: Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix
+2026-02-13 19:07:46,459 - INFO - [VIDEO] ID: sJwnZEEXa7E
+2026-02-13 19:07:46,460 - INFO - [SEARCH] Buscando JSON para: 'Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix'
+2026-02-13 19:07:46,464 - INFO - [SEARCH] Primeras 3 palabras del título: ['bridgerton', 'temporada', 'baile']
+2026-02-13 19:07:46,465 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-13 19:07:46,465 - INFO - [COMPARE] Archivo: Algo terrible está a punto de suceder _ Avance oficial _ Netflix.json
+2026-02-13 19:07:46,465 - INFO - [COMPARE] Título JSON: 'Algo terrible está a punto de suceder | Avance oficial | Netflix'
+2026-02-13 19:07:46,465 - INFO - [COMPARE] Primeras 3 palabras JSON: ['algo', 'terrible', 'esta']
+2026-02-13 19:07:46,465 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix'
+2026-02-13 19:07:46,465 - ERROR - [ERROR] No se encontró JSON para el video: Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix
+2026-02-13 19:07:46,465 - INFO - 
+--- Procesando video 2/2 ---
+2026-02-13 19:07:46,465 - INFO - [VIDEO] Título: Algo terrible está a punto de suceder | Avance oficial | Netflix
+2026-02-13 19:07:46,465 - INFO - [VIDEO] ID: UUH8TYvyWJM
+2026-02-13 19:07:46,465 - INFO - [SEARCH] Buscando JSON para: 'Algo terrible está a punto de suceder | Avance oficial | Netflix'
+2026-02-13 19:07:46,465 - INFO - [SEARCH] Primeras 3 palabras del título: ['algo', 'terrible', 'esta']
+2026-02-13 19:07:46,466 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-13 19:07:46,466 - INFO - [COMPARE] Archivo: Algo terrible está a punto de suceder _ Avance oficial _ Netflix.json
+2026-02-13 19:07:46,466 - INFO - [COMPARE] Título JSON: 'Algo terrible está a punto de suceder | Avance oficial | Netflix'
+2026-02-13 19:07:46,466 - INFO - [COMPARE] Primeras 3 palabras JSON: ['algo', 'terrible', 'esta']
+2026-02-13 19:07:46,466 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Algo terrible está a punto de suceder _ Avance oficial _ Netflix.json
+2026-02-13 19:07:46,466 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-13 19:07:46,466 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-02-13 19:07:46,466 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-02-13 19:07:46,466 - INFO - [API] 🔑 API Key válida: ✅
+2026-02-13 19:07:46,466 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-02-13 19:08:03,083 - INFO - [API] 📊 Código de respuesta: 200
+2026-02-13 19:08:03,083 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-02-13 19:08:03,083 - INFO - [API] 📏 Longitud de respuesta: 2256 caracteres
+2026-02-13 19:08:03,083 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: ALGO TERRIBLE ESTÁ A PUNTO DE SUCEDER | Tráiler Oficial en Español Latino (2025) | Netflix
+
+...
+2026-02-13 19:08:03,084 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-02-13 19:08:03,085 - INFO - [PARSE] Datos parseados exitosamente:
+2026-02-13 19:08:03,085 - INFO -   - Título: ALGO TERRIBLE ESTÁ A PUNTO DE SUCEDER | Tráiler Of...
+2026-02-13 19:08:03,085 - INFO -   - Descripción: 1868 caracteres
+2026-02-13 19:08:03,085 - INFO -   - Tags: 12 elementos
+2026-02-13 19:08:03,085 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-02-13 19:08:03,086 - INFO - [UPDATE] JSON actualizado: Algo terrible está a punto de suceder _ Avance oficial _ Netflix.json
+2026-02-13 19:08:03,087 - INFO - [JSON] Cargados 83 videos desde data.json
+2026-02-13 19:08:03,087 - INFO - [STATUS] Video UUH8TYvyWJM actualizado a 'ok'
+2026-02-13 19:08:03,088 - INFO - [JSON] data.json actualizado exitosamente
+2026-02-13 19:08:03,088 - INFO - [SUCCESS] Video 2 procesado exitosamente
+2026-02-13 19:08:03,088 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-02-13 19:08:03,088 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-02-13 19:08:03,088 - INFO - [SUMMARY] Videos fallidos: 1
+2026-02-13 19:08:03,696 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-02-13 19:08:03,698 - INFO - [FINISH] Proceso completado exitosamente
