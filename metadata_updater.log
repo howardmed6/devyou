@@ -3813,3 +3813,65 @@ DESCRIPCIÓN: 🎬 ¡La esp...
 2026-02-13 19:08:03,088 - INFO - [SUMMARY] Videos fallidos: 1
 2026-02-13 19:08:03,696 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-02-13 19:08:03,698 - INFO - [FINISH] Proceso completado exitosamente
+2026-02-17 15:44:58,987 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-02-17 15:44:58,988 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-02-17 15:44:58,988 - INFO - [INIT] API Key disponible: Sí
+2026-02-17 15:44:58,988 - INFO - [INIT] Bot Token disponible: Sí
+2026-02-17 15:44:58,988 - INFO - [INIT] Chat ID disponible: Sí
+2026-02-17 15:44:58,988 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-02-17 15:44:58,988 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-02-17 15:44:58,988 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-17 15:44:58,989 - INFO - [JSON] Cargados 98 videos desde data.json
+2026-02-17 15:44:58,989 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2026-02-17 15:44:58,989 - INFO - [PROCESS] Procesando 2 videos...
+2026-02-17 15:44:58,989 - INFO - 
+--- Procesando video 1/2 ---
+2026-02-17 15:44:58,989 - INFO - [VIDEO] Título: Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix
+2026-02-17 15:44:58,989 - INFO - [VIDEO] ID: sJwnZEEXa7E
+2026-02-17 15:44:58,989 - INFO - [SEARCH] Buscando JSON para: 'Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix'
+2026-02-17 15:44:58,990 - INFO - [SEARCH] Primeras 3 palabras del título: ['bridgerton', 'temporada', 'baile']
+2026-02-17 15:44:58,990 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-17 15:44:58,991 - INFO - [COMPARE] Archivo: THE MANDALORIAN AND GROGU Tráiler 2 Español (2026) Star Wars.json
+2026-02-17 15:44:58,991 - INFO - [COMPARE] Título JSON: 'THE MANDALORIAN AND GROGU Tráiler 2 Español (2026) Star Wars'
+2026-02-17 15:44:58,991 - INFO - [COMPARE] Primeras 3 palabras JSON: ['the', 'mandalorian', 'and']
+2026-02-17 15:44:58,991 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix'
+2026-02-17 15:44:58,991 - ERROR - [ERROR] No se encontró JSON para el video: Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix
+2026-02-17 15:44:58,991 - INFO - 
+--- Procesando video 2/2 ---
+2026-02-17 15:44:58,991 - INFO - [VIDEO] Título: THE MANDALORIAN AND GROGU Tráiler 2 Español (2026) Star Wars
+2026-02-17 15:44:58,991 - INFO - [VIDEO] ID: wrWVh6qesvk
+2026-02-17 15:44:58,991 - INFO - [SEARCH] Buscando JSON para: 'THE MANDALORIAN AND GROGU Tráiler 2 Español (2026) Star Wars'
+2026-02-17 15:44:58,991 - INFO - [SEARCH] Primeras 3 palabras del título: ['the', 'mandalorian', 'and']
+2026-02-17 15:44:58,991 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-17 15:44:58,992 - INFO - [COMPARE] Archivo: THE MANDALORIAN AND GROGU Tráiler 2 Español (2026) Star Wars.json
+2026-02-17 15:44:58,992 - INFO - [COMPARE] Título JSON: 'THE MANDALORIAN AND GROGU Tráiler 2 Español (2026) Star Wars'
+2026-02-17 15:44:58,992 - INFO - [COMPARE] Primeras 3 palabras JSON: ['the', 'mandalorian', 'and']
+2026-02-17 15:44:58,992 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: THE MANDALORIAN AND GROGU Tráiler 2 Español (2026) Star Wars.json
+2026-02-17 15:44:58,992 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-17 15:44:58,992 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-02-17 15:44:58,992 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-02-17 15:44:58,992 - INFO - [API] 🔑 API Key válida: ✅
+2026-02-17 15:44:58,992 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-02-17 15:45:14,042 - INFO - [API] 📊 Código de respuesta: 200
+2026-02-17 15:45:14,043 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-02-17 15:45:14,043 - INFO - [API] 📏 Longitud de respuesta: 2140 caracteres
+2026-02-17 15:45:14,043 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: THE MANDALORIAN AND GROGU Tráiler 2 Español (2026) | Star Wars Película
+
+DESCRIPCIÓN: 🎬 ¡La ...
+2026-02-17 15:45:14,044 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-02-17 15:45:14,045 - INFO - [PARSE] Datos parseados exitosamente:
+2026-02-17 15:45:14,045 - INFO -   - Título: THE MANDALORIAN AND GROGU Tráiler 2 Español (2026)...
+2026-02-17 15:45:14,045 - INFO -   - Descripción: 1837 caracteres
+2026-02-17 15:45:14,045 - INFO -   - Tags: 12 elementos
+2026-02-17 15:45:14,045 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-02-17 15:45:14,045 - INFO - [UPDATE] JSON actualizado: THE MANDALORIAN AND GROGU Tráiler 2 Español (2026) Star Wars.json
+2026-02-17 15:45:14,046 - INFO - [JSON] Cargados 98 videos desde data.json
+2026-02-17 15:45:14,047 - INFO - [STATUS] Video wrWVh6qesvk actualizado a 'ok'
+2026-02-17 15:45:14,048 - INFO - [JSON] data.json actualizado exitosamente
+2026-02-17 15:45:14,048 - INFO - [SUCCESS] Video 2 procesado exitosamente
+2026-02-17 15:45:14,048 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-02-17 15:45:14,048 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-02-17 15:45:14,048 - INFO - [SUMMARY] Videos fallidos: 1
+2026-02-17 15:45:14,624 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-02-17 15:45:14,625 - INFO - [FINISH] Proceso completado exitosamente
