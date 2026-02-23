@@ -3875,3 +3875,65 @@ DESCRIPCIÓN: 🎬 ¡La ...
 2026-02-17 15:45:14,048 - INFO - [SUMMARY] Videos fallidos: 1
 2026-02-17 15:45:14,624 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-02-17 15:45:14,625 - INFO - [FINISH] Proceso completado exitosamente
+2026-02-23 13:33:57,206 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-02-23 13:33:57,207 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-02-23 13:33:57,207 - INFO - [INIT] API Key disponible: Sí
+2026-02-23 13:33:57,207 - INFO - [INIT] Bot Token disponible: Sí
+2026-02-23 13:33:57,207 - INFO - [INIT] Chat ID disponible: Sí
+2026-02-23 13:33:57,207 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-02-23 13:33:57,207 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-02-23 13:33:57,207 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-23 13:33:57,208 - INFO - [JSON] Cargados 115 videos desde data.json
+2026-02-23 13:33:57,208 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2026-02-23 13:33:57,208 - INFO - [PROCESS] Procesando 2 videos...
+2026-02-23 13:33:57,208 - INFO - 
+--- Procesando video 1/2 ---
+2026-02-23 13:33:57,209 - INFO - [VIDEO] Título: Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix
+2026-02-23 13:33:57,209 - INFO - [VIDEO] ID: sJwnZEEXa7E
+2026-02-23 13:33:57,209 - INFO - [SEARCH] Buscando JSON para: 'Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix'
+2026-02-23 13:33:57,227 - INFO - [SEARCH] Primeras 3 palabras del título: ['bridgerton', 'temporada', 'baile']
+2026-02-23 13:33:57,228 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-23 13:33:57,228 - INFO - [COMPARE] Archivo: TOY STORY 5 Tráiler Español (2026).json
+2026-02-23 13:33:57,228 - INFO - [COMPARE] Título JSON: 'TOY STORY 5 Tráiler Español (2026)'
+2026-02-23 13:33:57,228 - INFO - [COMPARE] Primeras 3 palabras JSON: ['toy', 'story', 'trailer']
+2026-02-23 13:33:57,228 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix'
+2026-02-23 13:33:57,228 - ERROR - [ERROR] No se encontró JSON para el video: Bridgerton: Temporada 4 | El baile de máscaras desde adentro | Netflix
+2026-02-23 13:33:57,229 - INFO - 
+--- Procesando video 2/2 ---
+2026-02-23 13:33:57,229 - INFO - [VIDEO] Título: TOY STORY 5 Tráiler Español (2026)
+2026-02-23 13:33:57,229 - INFO - [VIDEO] ID: vM9GMPhs4VI
+2026-02-23 13:33:57,229 - INFO - [SEARCH] Buscando JSON para: 'TOY STORY 5 Tráiler Español (2026)'
+2026-02-23 13:33:57,229 - INFO - [SEARCH] Primeras 3 palabras del título: ['toy', 'story', 'trailer']
+2026-02-23 13:33:57,229 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-23 13:33:57,229 - INFO - [COMPARE] Archivo: TOY STORY 5 Tráiler Español (2026).json
+2026-02-23 13:33:57,229 - INFO - [COMPARE] Título JSON: 'TOY STORY 5 Tráiler Español (2026)'
+2026-02-23 13:33:57,229 - INFO - [COMPARE] Primeras 3 palabras JSON: ['toy', 'story', 'trailer']
+2026-02-23 13:33:57,229 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: TOY STORY 5 Tráiler Español (2026).json
+2026-02-23 13:33:57,229 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-23 13:33:57,229 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-02-23 13:33:57,229 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-02-23 13:33:57,230 - INFO - [API] 🔑 API Key válida: ✅
+2026-02-23 13:33:57,230 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-02-23 13:34:12,595 - INFO - [API] 📊 Código de respuesta: 200
+2026-02-23 13:34:12,595 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-02-23 13:34:12,595 - INFO - [API] 📏 Longitud de respuesta: 2061 caracteres
+2026-02-23 13:34:12,595 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: TOY STORY 5 Tráiler Oficial Español Latino (2026) Pixar
+
+DESCRIPCIÓN: 🎬 ¡El regreso más espe...
+2026-02-23 13:34:12,596 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-02-23 13:34:12,597 - INFO - [PARSE] Datos parseados exitosamente:
+2026-02-23 13:34:12,598 - INFO -   - Título: TOY STORY 5 Tráiler Oficial Español Latino (2026) ...
+2026-02-23 13:34:12,598 - INFO -   - Descripción: 1818 caracteres
+2026-02-23 13:34:12,598 - INFO -   - Tags: 10 elementos
+2026-02-23 13:34:12,598 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-02-23 13:34:12,598 - INFO - [UPDATE] JSON actualizado: TOY STORY 5 Tráiler Español (2026).json
+2026-02-23 13:34:12,599 - INFO - [JSON] Cargados 115 videos desde data.json
+2026-02-23 13:34:12,599 - INFO - [STATUS] Video vM9GMPhs4VI actualizado a 'ok'
+2026-02-23 13:34:12,601 - INFO - [JSON] data.json actualizado exitosamente
+2026-02-23 13:34:12,601 - INFO - [SUCCESS] Video 2 procesado exitosamente
+2026-02-23 13:34:12,601 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-02-23 13:34:12,601 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-02-23 13:34:12,601 - INFO - [SUMMARY] Videos fallidos: 1
+2026-02-23 13:34:13,201 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-02-23 13:34:13,202 - INFO - [FINISH] Proceso completado exitosamente

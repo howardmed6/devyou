@@ -880,3 +880,17 @@
 2026-02-17 15:45:18,984 - INFO - [CLEANUP] Archivos eliminados: wrWVh6qesvk
 2026-02-17 15:45:22,198 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-02-17 15:45:22,198 - INFO - [FINISH] Proceso completado
+2026-02-23 13:34:13,685 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-02-23 13:34:14,298 - INFO - [UPLOAD] Procesando: TOY STORY 5 Tráiler Español (2026)
+2026-02-23 13:34:14,298 - INFO - [SEARCH] Buscando archivos para: 'TOY STORY 5 Tráiler Español (2026)'
+2026-02-23 13:34:14,298 - INFO - [SEARCH] Palabras clave: ['toy', 'story', '5']
+2026-02-23 13:34:14,299 - INFO - [FILES] JSON: TOY STORY 5 Tráiler Español (2026).json
+2026-02-23 13:34:14,299 - INFO - [FILES] Video: TOY STORY 5 Tráiler Español Latino (2026) Pixar(1080P_HD).mp4
+2026-02-23 13:34:14,299 - INFO - [FILES] Thumbnail: TOY STORY 5 Tráiler Español Latino (2026) Pixar(1080P_HD).jpg
+2026-02-23 13:34:14,340 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-23 13:34:14,594 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-02-23 13:34:17,192 - INFO - [YOUTUBE] Video subido: hoxQhP8Rn_0
+2026-02-23 13:34:19,033 - INFO - [YOUTUBE] Thumbnail subido
+2026-02-23 13:34:19,043 - INFO - [CLEANUP] Archivos eliminados: vM9GMPhs4VI
+2026-02-23 13:34:22,256 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-02-23 13:34:22,257 - INFO - [FINISH] Proceso completado
