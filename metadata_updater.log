@@ -3979,3 +3979,53 @@ DESCRIPCIÓN: 🎬 ¡El regreso más espe...
 2026-02-23 15:00:13,502 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-02-23 15:00:14,067 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-02-23 15:00:14,068 - INFO - [FINISH] Proceso completado exitosamente
+2026-02-23 15:04:12,427 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-02-23 15:04:12,427 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-02-23 15:04:12,427 - INFO - [INIT] API Key disponible: Sí
+2026-02-23 15:04:12,428 - INFO - [INIT] Bot Token disponible: Sí
+2026-02-23 15:04:12,428 - INFO - [INIT] Chat ID disponible: Sí
+2026-02-23 15:04:12,428 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-02-23 15:04:12,428 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-02-23 15:04:12,428 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-23 15:04:12,428 - INFO - [JSON] Cargados 80 videos desde data.json
+2026-02-23 15:04:12,428 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-02-23 15:04:12,429 - INFO - [PROCESS] Procesando 1 videos...
+2026-02-23 15:04:12,429 - INFO - 
+--- Procesando video 1/1 ---
+2026-02-23 15:04:12,429 - INFO - [VIDEO] Título: Merlina: Temporada 3 | Anuncio del elenco | Netflix
+2026-02-23 15:04:12,429 - INFO - [VIDEO] ID: fas2dOpnCfw
+2026-02-23 15:04:12,429 - INFO - [SEARCH] Buscando JSON para: 'Merlina: Temporada 3 | Anuncio del elenco | Netflix'
+2026-02-23 15:04:12,429 - INFO - [SEARCH] Primeras 3 palabras del título: ['merlina', 'temporada', 'anuncio']
+2026-02-23 15:04:12,429 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-23 15:04:12,429 - INFO - [COMPARE] Archivo: Merlina_ Temporada 3 _ Anuncio del elenco _ Netflix.json
+2026-02-23 15:04:12,429 - INFO - [COMPARE] Título JSON: 'Merlina: Temporada 3 | Anuncio del elenco | Netflix'
+2026-02-23 15:04:12,429 - INFO - [COMPARE] Primeras 3 palabras JSON: ['merlina', 'temporada', 'anuncio']
+2026-02-23 15:04:12,430 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Merlina_ Temporada 3 _ Anuncio del elenco _ Netflix.json
+2026-02-23 15:04:12,430 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-23 15:04:12,430 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-02-23 15:04:12,430 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-02-23 15:04:12,430 - INFO - [API] 🔑 API Key válida: ✅
+2026-02-23 15:04:12,430 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-02-23 15:04:28,869 - INFO - [API] 📊 Código de respuesta: 200
+2026-02-23 15:04:28,869 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-02-23 15:04:28,869 - INFO - [API] 📏 Longitud de respuesta: 2118 caracteres
+2026-02-23 15:04:28,869 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: MERLINA Temporada 3 - Tráiler Oficial del Elenco (2025) Netflix
+
+DESCRIPCIÓN: 🎬 ¡La oscurida...
+2026-02-23 15:04:28,871 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-02-23 15:04:28,871 - INFO - [PARSE] Datos parseados exitosamente:
+2026-02-23 15:04:28,871 - INFO -   - Título: MERLINA Temporada 3 - Tráiler Oficial del Elenco (...
+2026-02-23 15:04:28,871 - INFO -   - Descripción: 1819 caracteres
+2026-02-23 15:04:28,872 - INFO -   - Tags: 12 elementos
+2026-02-23 15:04:28,872 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-02-23 15:04:28,872 - INFO - [UPDATE] JSON actualizado: Merlina_ Temporada 3 _ Anuncio del elenco _ Netflix.json
+2026-02-23 15:04:28,873 - INFO - [JSON] Cargados 80 videos desde data.json
+2026-02-23 15:04:28,873 - INFO - [STATUS] Video fas2dOpnCfw actualizado a 'ok'
+2026-02-23 15:04:28,874 - INFO - [JSON] data.json actualizado exitosamente
+2026-02-23 15:04:28,874 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-02-23 15:04:28,874 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-02-23 15:04:28,874 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-02-23 15:04:28,874 - INFO - [SUMMARY] Videos fallidos: 0
+2026-02-23 15:04:29,495 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-02-23 15:04:29,496 - INFO - [FINISH] Proceso completado exitosamente

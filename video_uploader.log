@@ -898,3 +898,17 @@
 2026-02-23 14:57:18,598 - INFO - [FINISH] Proceso completado
 2026-02-23 15:00:14,596 - INFO - [PROCESS] No hay videos listos para subir
 2026-02-23 15:00:15,171 - INFO - [FINISH] Proceso completado
+2026-02-23 15:04:30,041 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-02-23 15:04:30,654 - INFO - [UPLOAD] Procesando: Merlina: Temporada 3 | Anuncio del elenco | Netflix
+2026-02-23 15:04:30,654 - INFO - [SEARCH] Buscando archivos para: 'Merlina: Temporada 3 | Anuncio del elenco | Netflix'
+2026-02-23 15:04:30,654 - INFO - [SEARCH] Palabras clave: ['merlina', 'temporada', '3']
+2026-02-23 15:04:30,655 - INFO - [FILES] JSON: Merlina_ Temporada 3 _ Anuncio del elenco _ Netflix.json
+2026-02-23 15:04:30,655 - INFO - [FILES] Video: Merlina_ Temporada 3 _ Anuncio del elenco _ Netflix(1080P_HD).mp4
+2026-02-23 15:04:30,655 - INFO - [FILES] Thumbnail: Merlina_ Temporada 3 _ Anuncio del elenco _ Netflix(1080P_HD).jpg
+2026-02-23 15:04:30,708 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-23 15:04:30,898 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-02-23 15:04:32,955 - INFO - [YOUTUBE] Video subido: YQ9N2SEN4KE
+2026-02-23 15:04:35,166 - INFO - [YOUTUBE] Thumbnail subido
+2026-02-23 15:04:35,171 - INFO - [CLEANUP] Archivos eliminados: fas2dOpnCfw
+2026-02-23 15:04:38,411 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-02-23 15:04:38,412 - INFO - [FINISH] Proceso completado
