@@ -3966,3 +3966,16 @@ DESCRIPCIÓN: 🎬 ¡El regreso más espe...
 2026-02-23 14:57:17,255 - INFO - [SUMMARY] Videos fallidos: 1
 2026-02-23 14:57:17,686 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-02-23 14:57:17,687 - INFO - [FINISH] Proceso completado exitosamente
+2026-02-23 15:00:13,500 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-02-23 15:00:13,501 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-02-23 15:00:13,501 - INFO - [INIT] API Key disponible: Sí
+2026-02-23 15:00:13,501 - INFO - [INIT] Bot Token disponible: Sí
+2026-02-23 15:00:13,501 - INFO - [INIT] Chat ID disponible: Sí
+2026-02-23 15:00:13,501 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-02-23 15:00:13,501 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-02-23 15:00:13,501 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-23 15:00:13,502 - INFO - [JSON] Cargados 81 videos desde data.json
+2026-02-23 15:00:13,502 - INFO - [FILTER] Encontrados 0 videos con estado 'edited'
+2026-02-23 15:00:13,502 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
+2026-02-23 15:00:14,067 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-02-23 15:00:14,068 - INFO - [FINISH] Proceso completado exitosamente
