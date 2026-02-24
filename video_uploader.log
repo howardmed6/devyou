@@ -928,3 +928,17 @@
 2026-02-24 15:20:48,493 - INFO - [FINISH] Proceso completado
 2026-02-24 16:14:35,219 - INFO - [PROCESS] No hay videos listos para subir
 2026-02-24 16:14:35,743 - INFO - [FINISH] Proceso completado
+2026-02-24 16:34:22,776 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-02-24 16:34:28,873 - INFO - [UPLOAD] Procesando: Orgullo y prejuicio | Avance oficial | Netflix
+2026-02-24 16:34:28,874 - INFO - [SEARCH] Buscando archivos para: 'Orgullo y prejuicio | Avance oficial | Netflix'
+2026-02-24 16:34:28,874 - INFO - [SEARCH] Palabras clave: ['orgullo', 'y', 'prejuicio']
+2026-02-24 16:34:28,874 - INFO - [FILES] JSON: Orgullo y prejuicio _ Avance oficial _ Netflix.json
+2026-02-24 16:34:28,874 - INFO - [FILES] Video: Orgullo y prejuicio _ Avance oficial _ Netflix(1080P_HD).mp4
+2026-02-24 16:34:28,874 - INFO - [FILES] Thumbnail: Orgullo y prejuicio _ Avance oficial _ Netflix(1080P_HD).jpg
+2026-02-24 16:34:28,894 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-24 16:34:29,019 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-02-24 16:34:30,431 - INFO - [YOUTUBE] Video subido: k-YdK3oJkpk
+2026-02-24 16:34:32,177 - INFO - [YOUTUBE] Thumbnail subido
+2026-02-24 16:34:32,180 - INFO - [CLEANUP] Archivos eliminados: MMDE8TzgNWA
+2026-02-24 16:34:36,914 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-02-24 16:34:36,914 - INFO - [FINISH] Proceso completado
