@@ -912,3 +912,17 @@
 2026-02-23 15:04:35,171 - INFO - [CLEANUP] Archivos eliminados: fas2dOpnCfw
 2026-02-23 15:04:38,411 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-02-23 15:04:38,412 - INFO - [FINISH] Proceso completado
+2026-02-24 15:20:39,534 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-02-24 15:20:40,124 - INFO - [UPLOAD] Procesando: TURNO DE NOCHE Tráiler Oficial Español (2026) Liam Neeson
+2026-02-24 15:20:40,124 - INFO - [SEARCH] Buscando archivos para: 'TURNO DE NOCHE Tráiler Oficial Español (2026) Liam Neeson'
+2026-02-24 15:20:40,125 - INFO - [SEARCH] Palabras clave: ['turno', 'de', 'noche']
+2026-02-24 15:20:40,125 - INFO - [FILES] JSON: TURNO DE NOCHE Tráiler Oficial Español (2026) Liam Neeson.json
+2026-02-24 15:20:40,125 - INFO - [FILES] Video: TURNO DE NOCHE Tráiler Oficial Español (2026) Liam Neeson(1080P_HD).mp4
+2026-02-24 15:20:40,125 - INFO - [FILES] Thumbnail: TURNO DE NOCHE Tráiler Oficial Español (2026) Liam Neeson(1080P_HD).jpg
+2026-02-24 15:20:40,141 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-24 15:20:40,269 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-02-24 15:20:42,636 - INFO - [YOUTUBE] Video subido: IOhTVmqC0zA
+2026-02-24 15:20:45,228 - INFO - [YOUTUBE] Thumbnail subido
+2026-02-24 15:20:45,237 - INFO - [CLEANUP] Archivos eliminados: h-XM8QkEL2o
+2026-02-24 15:20:48,493 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-02-24 15:20:48,493 - INFO - [FINISH] Proceso completado

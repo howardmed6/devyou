@@ -4029,3 +4029,53 @@ DESCRIPCIÓN: 🎬 ¡La oscurida...
 2026-02-23 15:04:28,874 - INFO - [SUMMARY] Videos fallidos: 0
 2026-02-23 15:04:29,495 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-02-23 15:04:29,496 - INFO - [FINISH] Proceso completado exitosamente
+2026-02-24 15:20:22,263 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-02-24 15:20:22,263 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-02-24 15:20:22,263 - INFO - [INIT] API Key disponible: Sí
+2026-02-24 15:20:22,264 - INFO - [INIT] Bot Token disponible: Sí
+2026-02-24 15:20:22,264 - INFO - [INIT] Chat ID disponible: Sí
+2026-02-24 15:20:22,264 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-02-24 15:20:22,264 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-02-24 15:20:22,264 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-24 15:20:22,264 - INFO - [JSON] Cargados 92 videos desde data.json
+2026-02-24 15:20:22,265 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-02-24 15:20:22,265 - INFO - [PROCESS] Procesando 1 videos...
+2026-02-24 15:20:22,265 - INFO - 
+--- Procesando video 1/1 ---
+2026-02-24 15:20:22,265 - INFO - [VIDEO] Título: TURNO DE NOCHE Tráiler Oficial Español (2026) Liam Neeson
+2026-02-24 15:20:22,265 - INFO - [VIDEO] ID: h-XM8QkEL2o
+2026-02-24 15:20:22,265 - INFO - [SEARCH] Buscando JSON para: 'TURNO DE NOCHE Tráiler Oficial Español (2026) Liam Neeson'
+2026-02-24 15:20:22,271 - INFO - [SEARCH] Primeras 3 palabras del título: ['turno', 'noche', 'trailer']
+2026-02-24 15:20:22,272 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-24 15:20:22,272 - INFO - [COMPARE] Archivo: TURNO DE NOCHE Tráiler Oficial Español (2026) Liam Neeson.json
+2026-02-24 15:20:22,272 - INFO - [COMPARE] Título JSON: 'TURNO DE NOCHE Tráiler Oficial Español (2026) Liam Neeson'
+2026-02-24 15:20:22,272 - INFO - [COMPARE] Primeras 3 palabras JSON: ['turno', 'noche', 'trailer']
+2026-02-24 15:20:22,272 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: TURNO DE NOCHE Tráiler Oficial Español (2026) Liam Neeson.json
+2026-02-24 15:20:22,272 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-24 15:20:22,272 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-02-24 15:20:22,272 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-02-24 15:20:22,272 - INFO - [API] 🔑 API Key válida: ✅
+2026-02-24 15:20:22,272 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-02-24 15:20:38,521 - INFO - [API] 📊 Código de respuesta: 200
+2026-02-24 15:20:38,521 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-02-24 15:20:38,521 - INFO - [API] 📏 Longitud de respuesta: 2129 caracteres
+2026-02-24 15:20:38,521 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: TURNO DE NOCHE Tráiler Oficial en Español (2026) | Thriller de Terror
+
+DESCRIPCIÓN: 🎬 ¡Prepá...
+2026-02-24 15:20:38,522 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-02-24 15:20:38,523 - INFO - [PARSE] Datos parseados exitosamente:
+2026-02-24 15:20:38,523 - INFO -   - Título: TURNO DE NOCHE Tráiler Oficial en Español (2026) |...
+2026-02-24 15:20:38,523 - INFO -   - Descripción: 1838 caracteres
+2026-02-24 15:20:38,523 - INFO -   - Tags: 9 elementos
+2026-02-24 15:20:38,523 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-02-24 15:20:38,523 - INFO - [UPDATE] JSON actualizado: TURNO DE NOCHE Tráiler Oficial Español (2026) Liam Neeson.json
+2026-02-24 15:20:38,524 - INFO - [JSON] Cargados 92 videos desde data.json
+2026-02-24 15:20:38,524 - INFO - [STATUS] Video h-XM8QkEL2o actualizado a 'ok'
+2026-02-24 15:20:38,526 - INFO - [JSON] data.json actualizado exitosamente
+2026-02-24 15:20:38,526 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-02-24 15:20:38,526 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-02-24 15:20:38,526 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-02-24 15:20:38,526 - INFO - [SUMMARY] Videos fallidos: 0
+2026-02-24 15:20:39,156 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-02-24 15:20:39,157 - INFO - [FINISH] Proceso completado exitosamente
