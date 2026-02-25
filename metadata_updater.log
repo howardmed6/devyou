@@ -4142,3 +4142,53 @@ DESCRIPCIÓN: 🎬 ¡El...
 2026-02-24 16:34:20,921 - INFO - [SUMMARY] Videos fallidos: 0
 2026-02-24 16:34:22,342 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-02-24 16:34:22,343 - INFO - [FINISH] Proceso completado exitosamente
+2026-02-25 13:54:34,108 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-02-25 13:54:34,108 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-02-25 13:54:34,108 - INFO - [INIT] API Key disponible: Sí
+2026-02-25 13:54:34,108 - INFO - [INIT] Bot Token disponible: Sí
+2026-02-25 13:54:34,108 - INFO - [INIT] Chat ID disponible: Sí
+2026-02-25 13:54:34,108 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-02-25 13:54:34,108 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-02-25 13:54:34,108 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-25 13:54:34,109 - INFO - [JSON] Cargados 89 videos desde data.json
+2026-02-25 13:54:34,109 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-02-25 13:54:34,109 - INFO - [PROCESS] Procesando 1 videos...
+2026-02-25 13:54:34,109 - INFO - 
+--- Procesando video 1/1 ---
+2026-02-25 13:54:34,109 - INFO - [VIDEO] Título: Brasil 70: La Saga del Tricampeonato | Tráiler oficial | Netflix
+2026-02-25 13:54:34,109 - INFO - [VIDEO] ID: DgkwOAj6ICU
+2026-02-25 13:54:34,110 - INFO - [SEARCH] Buscando JSON para: 'Brasil 70: La Saga del Tricampeonato | Tráiler oficial | Netflix'
+2026-02-25 13:54:34,117 - INFO - [SEARCH] Primeras 3 palabras del título: ['brasil', 'saga', 'del']
+2026-02-25 13:54:34,117 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-25 13:54:34,117 - INFO - [COMPARE] Archivo: Brasil 70_ La Saga del Tricampeonato _ Tráiler oficial _ Netflix.json
+2026-02-25 13:54:34,118 - INFO - [COMPARE] Título JSON: 'Brasil 70: La Saga del Tricampeonato | Tráiler oficial | Netflix'
+2026-02-25 13:54:34,118 - INFO - [COMPARE] Primeras 3 palabras JSON: ['brasil', 'saga', 'del']
+2026-02-25 13:54:34,118 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Brasil 70_ La Saga del Tricampeonato _ Tráiler oficial _ Netflix.json
+2026-02-25 13:54:34,118 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-25 13:54:34,118 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-02-25 13:54:34,118 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-02-25 13:54:34,118 - INFO - [API] 🔑 API Key válida: ✅
+2026-02-25 13:54:34,118 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-02-25 13:54:51,849 - INFO - [API] 📊 Código de respuesta: 200
+2026-02-25 13:54:51,849 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-02-25 13:54:51,849 - INFO - [API] 📏 Longitud de respuesta: 2200 caracteres
+2026-02-25 13:54:51,849 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: BRASIL 70: LA SAGA DEL TRICAMPEONATO | Tráiler Oficial en Español Latino (2025) | Netflix
+
+D...
+2026-02-25 13:54:51,850 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-02-25 13:54:51,851 - INFO - [PARSE] Datos parseados exitosamente:
+2026-02-25 13:54:51,851 - INFO -   - Título: BRASIL 70: LA SAGA DEL TRICAMPEONATO | Tráiler Ofi...
+2026-02-25 13:54:51,851 - INFO -   - Descripción: 1843 caracteres
+2026-02-25 13:54:51,851 - INFO -   - Tags: 12 elementos
+2026-02-25 13:54:51,851 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-02-25 13:54:51,852 - INFO - [UPDATE] JSON actualizado: Brasil 70_ La Saga del Tricampeonato _ Tráiler oficial _ Netflix.json
+2026-02-25 13:54:51,853 - INFO - [JSON] Cargados 89 videos desde data.json
+2026-02-25 13:54:51,853 - INFO - [STATUS] Video DgkwOAj6ICU actualizado a 'ok'
+2026-02-25 13:54:51,854 - INFO - [JSON] data.json actualizado exitosamente
+2026-02-25 13:54:51,855 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-02-25 13:54:51,855 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-02-25 13:54:51,855 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-02-25 13:54:51,855 - INFO - [SUMMARY] Videos fallidos: 0
+2026-02-25 13:54:52,469 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-02-25 13:54:52,470 - INFO - [FINISH] Proceso completado exitosamente

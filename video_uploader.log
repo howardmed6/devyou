@@ -942,3 +942,17 @@
 2026-02-24 16:34:32,180 - INFO - [CLEANUP] Archivos eliminados: MMDE8TzgNWA
 2026-02-24 16:34:36,914 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-02-24 16:34:36,914 - INFO - [FINISH] Proceso completado
+2026-02-25 13:54:53,122 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-02-25 13:54:53,740 - INFO - [UPLOAD] Procesando: Brasil 70: La Saga del Tricampeonato | Tráiler oficial | Netflix
+2026-02-25 13:54:53,740 - INFO - [SEARCH] Buscando archivos para: 'Brasil 70: La Saga del Tricampeonato | Tráiler oficial | Netflix'
+2026-02-25 13:54:53,740 - INFO - [SEARCH] Palabras clave: ['brasil', '70', 'la']
+2026-02-25 13:54:53,741 - INFO - [FILES] JSON: Brasil 70_ La Saga del Tricampeonato _ Tráiler oficial _ Netflix.json
+2026-02-25 13:54:53,741 - INFO - [FILES] Video: Brasil 70_ La Saga del Tricampeonato _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-02-25 13:54:53,741 - INFO - [FILES] Thumbnail: Brasil 70_ La Saga del Tricampeonato _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-02-25 13:54:53,784 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-25 13:54:53,967 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-02-25 13:54:55,982 - INFO - [YOUTUBE] Video subido: VcV5dXfTXU8
+2026-02-25 13:54:58,163 - INFO - [YOUTUBE] Thumbnail subido
+2026-02-25 13:54:58,173 - INFO - [CLEANUP] Archivos eliminados: DgkwOAj6ICU
+2026-02-25 13:55:01,479 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-02-25 13:55:01,480 - INFO - [FINISH] Proceso completado
