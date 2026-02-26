@@ -956,3 +956,24 @@
 2026-02-25 13:54:58,173 - INFO - [CLEANUP] Archivos eliminados: DgkwOAj6ICU
 2026-02-25 13:55:01,479 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-02-25 13:55:01,480 - INFO - [FINISH] Proceso completado
+2026-02-26 16:13:58,586 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-02-26 16:13:59,055 - INFO - [UPLOAD] Procesando: Harry Hole, de Jo Nesbø | Tráiler oficial | Netflix
+2026-02-26 16:13:59,056 - INFO - [SEARCH] Buscando archivos para: 'Harry Hole, de Jo Nesbø | Tráiler oficial | Netflix'
+2026-02-26 16:13:59,056 - INFO - [SEARCH] Palabras clave: ['harry', 'hole', 'de']
+2026-02-26 16:13:59,056 - WARNING - [FALLBACK] No se encontraron archivos por coincidencia para 'Harry Hole, de Jo Nesbø | Tráiler oficial | Netflix', intentando con archivos únicos...
+2026-02-26 16:13:59,056 - INFO - [FALLBACK] Archivos únicos encontrados:
+2026-02-26 16:13:59,056 - INFO - [FALLBACK] JSON: Harry Hole, de Jo Nesbø _ Tráiler oficial _ Netflix.json (Total: 1)
+2026-02-26 16:13:59,056 - INFO - [FALLBACK] Video: Harry Hole_ de Jo Nesbø _ Tráiler oficial _ Netflix(1080P_HD).mp4 (Total: 1)
+2026-02-26 16:13:59,056 - INFO - [FALLBACK] Thumbnail: Harry Hole_ de Jo Nesbø _ Tráiler oficial _ Netflix(1080P_HD).jpg (Total: 1)
+2026-02-26 16:13:59,057 - INFO - [FALLBACK] Usando video único: Harry Hole_ de Jo Nesbø _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-02-26 16:13:59,057 - INFO - [FALLBACK] Usando thumbnail único: Harry Hole_ de Jo Nesbø _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-02-26 16:13:59,057 - INFO - [FILES] JSON: Harry Hole, de Jo Nesbø _ Tráiler oficial _ Netflix.json
+2026-02-26 16:13:59,057 - INFO - [FILES] Video: Harry Hole_ de Jo Nesbø _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-02-26 16:13:59,057 - INFO - [FILES] Thumbnail: Harry Hole_ de Jo Nesbø _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-02-26 16:13:59,073 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-26 16:13:59,175 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-02-26 16:14:00,855 - INFO - [YOUTUBE] Video subido: Ju7oE90ZEdA
+2026-02-26 16:14:03,739 - INFO - [YOUTUBE] Thumbnail subido
+2026-02-26 16:14:03,745 - INFO - [CLEANUP] Archivos eliminados: CXpqy7wrTAU
+2026-02-26 16:14:06,731 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-02-26 16:14:06,731 - INFO - [FINISH] Proceso completado

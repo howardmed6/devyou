@@ -4192,3 +4192,53 @@ D...
 2026-02-25 13:54:51,855 - INFO - [SUMMARY] Videos fallidos: 0
 2026-02-25 13:54:52,469 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-02-25 13:54:52,470 - INFO - [FINISH] Proceso completado exitosamente
+2026-02-26 16:13:40,370 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-02-26 16:13:40,370 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-02-26 16:13:40,370 - INFO - [INIT] API Key disponible: Sí
+2026-02-26 16:13:40,370 - INFO - [INIT] Bot Token disponible: Sí
+2026-02-26 16:13:40,371 - INFO - [INIT] Chat ID disponible: Sí
+2026-02-26 16:13:40,371 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-02-26 16:13:40,371 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-02-26 16:13:40,371 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-26 16:13:40,372 - INFO - [JSON] Cargados 96 videos desde data.json
+2026-02-26 16:13:40,372 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-02-26 16:13:40,372 - INFO - [PROCESS] Procesando 1 videos...
+2026-02-26 16:13:40,372 - INFO - 
+--- Procesando video 1/1 ---
+2026-02-26 16:13:40,372 - INFO - [VIDEO] Título: Harry Hole, de Jo Nesbø | Tráiler oficial | Netflix
+2026-02-26 16:13:40,372 - INFO - [VIDEO] ID: CXpqy7wrTAU
+2026-02-26 16:13:40,372 - INFO - [SEARCH] Buscando JSON para: 'Harry Hole, de Jo Nesbø | Tráiler oficial | Netflix'
+2026-02-26 16:13:40,388 - INFO - [SEARCH] Primeras 3 palabras del título: ['harry', 'hole', 'nesbø']
+2026-02-26 16:13:40,388 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-26 16:13:40,388 - INFO - [COMPARE] Archivo: Harry Hole, de Jo Nesbø _ Tráiler oficial _ Netflix.json
+2026-02-26 16:13:40,388 - INFO - [COMPARE] Título JSON: 'Harry Hole, de Jo Nesbø | Tráiler oficial | Netflix'
+2026-02-26 16:13:40,388 - INFO - [COMPARE] Primeras 3 palabras JSON: ['harry', 'hole', 'nesbø']
+2026-02-26 16:13:40,389 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Harry Hole, de Jo Nesbø _ Tráiler oficial _ Netflix.json
+2026-02-26 16:13:40,389 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-26 16:13:40,389 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-02-26 16:13:40,389 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-02-26 16:13:40,389 - INFO - [API] 🔑 API Key válida: ✅
+2026-02-26 16:13:40,389 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-02-26 16:13:57,703 - INFO - [API] 📊 Código de respuesta: 200
+2026-02-26 16:13:57,703 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-02-26 16:13:57,703 - INFO - [API] 📏 Longitud de respuesta: 2374 caracteres
+2026-02-26 16:13:57,703 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: HARRY HOLE de Jo Nesbø | Tráiler Oficial en Español | Netflix (2025)
+
+DESCRIPCIÓN: 🔥 ¡Prepár...
+2026-02-26 16:13:57,704 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-02-26 16:13:57,705 - INFO - [PARSE] Datos parseados exitosamente:
+2026-02-26 16:13:57,705 - INFO -   - Título: HARRY HOLE de Jo Nesbø | Tráiler Oficial en Españo...
+2026-02-26 16:13:57,705 - INFO -   - Descripción: 2027 caracteres
+2026-02-26 16:13:57,706 - INFO -   - Tags: 12 elementos
+2026-02-26 16:13:57,706 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-02-26 16:13:57,706 - INFO - [UPDATE] JSON actualizado: Harry Hole, de Jo Nesbø _ Tráiler oficial _ Netflix.json
+2026-02-26 16:13:57,707 - INFO - [JSON] Cargados 96 videos desde data.json
+2026-02-26 16:13:57,707 - INFO - [STATUS] Video CXpqy7wrTAU actualizado a 'ok'
+2026-02-26 16:13:57,708 - INFO - [JSON] data.json actualizado exitosamente
+2026-02-26 16:13:57,708 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-02-26 16:13:57,709 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-02-26 16:13:57,709 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-02-26 16:13:57,709 - INFO - [SUMMARY] Videos fallidos: 0
+2026-02-26 16:13:58,210 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-02-26 16:13:58,211 - INFO - [FINISH] Proceso completado exitosamente
