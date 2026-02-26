@@ -979,3 +979,17 @@
 2026-02-26 16:14:06,731 - INFO - [FINISH] Proceso completado
 2026-02-26 18:10:04,533 - INFO - [PROCESS] No hay videos listos para subir
 2026-02-26 18:10:04,963 - INFO - [FINISH] Proceso completado
+2026-02-26 18:15:36,987 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-02-26 18:15:37,429 - INFO - [UPLOAD] Procesando: IRON LUNG: OCÉANO DE SANGRE Tráiler Español Latino (2026) Markiplier
+2026-02-26 18:15:37,429 - INFO - [SEARCH] Buscando archivos para: 'IRON LUNG: OCÉANO DE SANGRE Tráiler Español Latino (2026) Markiplier'
+2026-02-26 18:15:37,429 - INFO - [SEARCH] Palabras clave: ['iron', 'lung', 'oceano']
+2026-02-26 18:15:37,430 - INFO - [FILES] JSON: IRON LUNG_ OCÉANO DE SANGRE Tráiler Español Latino (2026) Markiplier.json
+2026-02-26 18:15:37,430 - INFO - [FILES] Video: IRON LUNG_ OCÉANO DE SANGRE Tráiler Español Latino (2026) Markiplier(1080P_HD).mp4
+2026-02-26 18:15:37,430 - INFO - [FILES] Thumbnail: IRON LUNG_ OCÉANO DE SANGRE Tráiler Español Latino (2026) Markiplier(1080P_HD).jpg
+2026-02-26 18:15:37,446 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-02-26 18:15:37,578 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-02-26 18:15:39,447 - INFO - [YOUTUBE] Video subido: pHoyJ2lt6dU
+2026-02-26 18:15:41,379 - INFO - [YOUTUBE] Thumbnail subido
+2026-02-26 18:15:41,385 - INFO - [CLEANUP] Archivos eliminados: XXUXYG1cO0w
+2026-02-26 18:15:44,342 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-02-26 18:15:44,342 - INFO - [FINISH] Proceso completado

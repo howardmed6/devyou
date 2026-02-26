@@ -4255,3 +4255,53 @@ DESCRIPCIÓN: 🔥 ¡Prepár...
 2026-02-26 18:10:03,604 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-02-26 18:10:04,037 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-02-26 18:10:04,039 - INFO - [FINISH] Proceso completado exitosamente
+2026-02-26 18:15:19,649 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-02-26 18:15:19,649 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-02-26 18:15:19,649 - INFO - [INIT] API Key disponible: Sí
+2026-02-26 18:15:19,649 - INFO - [INIT] Bot Token disponible: Sí
+2026-02-26 18:15:19,649 - INFO - [INIT] Chat ID disponible: Sí
+2026-02-26 18:15:19,649 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-02-26 18:15:19,650 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-02-26 18:15:19,650 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-26 18:15:19,651 - INFO - [JSON] Cargados 85 videos desde data.json
+2026-02-26 18:15:19,651 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-02-26 18:15:19,651 - INFO - [PROCESS] Procesando 1 videos...
+2026-02-26 18:15:19,651 - INFO - 
+--- Procesando video 1/1 ---
+2026-02-26 18:15:19,651 - INFO - [VIDEO] Título: IRON LUNG: OCÉANO DE SANGRE Tráiler Español Latino (2026) Markiplier
+2026-02-26 18:15:19,651 - INFO - [VIDEO] ID: XXUXYG1cO0w
+2026-02-26 18:15:19,651 - INFO - [SEARCH] Buscando JSON para: 'IRON LUNG: OCÉANO DE SANGRE Tráiler Español Latino (2026) Markiplier'
+2026-02-26 18:15:19,657 - INFO - [SEARCH] Primeras 3 palabras del título: ['iron', 'lung', 'oceano']
+2026-02-26 18:15:19,657 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-02-26 18:15:19,657 - INFO - [COMPARE] Archivo: IRON LUNG_ OCÉANO DE SANGRE Tráiler Español Latino (2026) Markiplier.json
+2026-02-26 18:15:19,657 - INFO - [COMPARE] Título JSON: 'IRON LUNG: OCÉANO DE SANGRE Tráiler Español Latino (2026) Markiplier'
+2026-02-26 18:15:19,657 - INFO - [COMPARE] Primeras 3 palabras JSON: ['iron', 'lung', 'oceano']
+2026-02-26 18:15:19,657 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: IRON LUNG_ OCÉANO DE SANGRE Tráiler Español Latino (2026) Markiplier.json
+2026-02-26 18:15:19,657 - INFO - [API] ✅ API Key tiene formato válido
+2026-02-26 18:15:19,658 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-02-26 18:15:19,658 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-02-26 18:15:19,658 - INFO - [API] 🔑 API Key válida: ✅
+2026-02-26 18:15:19,658 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-02-26 18:15:36,156 - INFO - [API] 📊 Código de respuesta: 200
+2026-02-26 18:15:36,156 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-02-26 18:15:36,156 - INFO - [API] 📏 Longitud de respuesta: 2152 caracteres
+2026-02-26 18:15:36,156 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: IRON LUNG: OCÉANO DE SANGRE Tráiler Oficial Español Latino (2025) | Terror Sci-Fi
+
+DESCRIPCI...
+2026-02-26 18:15:36,157 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-02-26 18:15:36,158 - INFO - [PARSE] Datos parseados exitosamente:
+2026-02-26 18:15:36,158 - INFO -   - Título: IRON LUNG: OCÉANO DE SANGRE Tráiler Oficial Españo...
+2026-02-26 18:15:36,158 - INFO -   - Descripción: 1847 caracteres
+2026-02-26 18:15:36,158 - INFO -   - Tags: 12 elementos
+2026-02-26 18:15:36,158 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-02-26 18:15:36,159 - INFO - [UPDATE] JSON actualizado: IRON LUNG_ OCÉANO DE SANGRE Tráiler Español Latino (2026) Markiplier.json
+2026-02-26 18:15:36,159 - INFO - [JSON] Cargados 85 videos desde data.json
+2026-02-26 18:15:36,160 - INFO - [STATUS] Video XXUXYG1cO0w actualizado a 'ok'
+2026-02-26 18:15:36,161 - INFO - [JSON] data.json actualizado exitosamente
+2026-02-26 18:15:36,161 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-02-26 18:15:36,161 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-02-26 18:15:36,161 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-02-26 18:15:36,161 - INFO - [SUMMARY] Videos fallidos: 0
+2026-02-26 18:15:36,589 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-02-26 18:15:36,590 - INFO - [FINISH] Proceso completado exitosamente
