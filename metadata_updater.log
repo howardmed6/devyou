@@ -4355,3 +4355,16 @@ DESCRIPCIÓN: 🎬 ¡La saga de comedia d...
 2026-03-02 18:33:56,894 - INFO - [SUMMARY] Videos fallidos: 0
 2026-03-02 18:33:57,458 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-03-02 18:33:57,459 - INFO - [FINISH] Proceso completado exitosamente
+2026-03-02 18:58:58,730 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-03-02 18:58:58,730 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-03-02 18:58:58,730 - INFO - [INIT] API Key disponible: Sí
+2026-03-02 18:58:58,730 - INFO - [INIT] Bot Token disponible: Sí
+2026-03-02 18:58:58,730 - INFO - [INIT] Chat ID disponible: Sí
+2026-03-02 18:58:58,730 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-03-02 18:58:58,730 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-03-02 18:58:58,730 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-02 18:58:58,731 - INFO - [JSON] Cargados 81 videos desde data.json
+2026-03-02 18:58:58,731 - INFO - [FILTER] Encontrados 0 videos con estado 'edited'
+2026-03-02 18:58:58,731 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
+2026-03-02 18:58:59,369 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-03-02 18:58:59,370 - INFO - [FINISH] Proceso completado exitosamente
