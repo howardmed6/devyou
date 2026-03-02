@@ -4305,3 +4305,53 @@ DESCRIPCI...
 2026-02-26 18:15:36,161 - INFO - [SUMMARY] Videos fallidos: 0
 2026-02-26 18:15:36,589 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-02-26 18:15:36,590 - INFO - [FINISH] Proceso completado exitosamente
+2026-03-02 18:33:40,684 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-03-02 18:33:40,684 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-03-02 18:33:40,684 - INFO - [INIT] API Key disponible: Sí
+2026-03-02 18:33:40,684 - INFO - [INIT] Bot Token disponible: Sí
+2026-03-02 18:33:40,684 - INFO - [INIT] Chat ID disponible: Sí
+2026-03-02 18:33:40,684 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-03-02 18:33:40,684 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-03-02 18:33:40,684 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-02 18:33:40,685 - INFO - [JSON] Cargados 109 videos desde data.json
+2026-03-02 18:33:40,685 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-03-02 18:33:40,686 - INFO - [PROCESS] Procesando 1 videos...
+2026-03-02 18:33:40,686 - INFO - 
+--- Procesando video 1/1 ---
+2026-03-02 18:33:40,686 - INFO - [VIDEO] Título: SCARY MOVIE 6 Tráiler Español Latino Oficial (2026)
+2026-03-02 18:33:40,686 - INFO - [VIDEO] ID: UPDjaBBJThU
+2026-03-02 18:33:40,686 - INFO - [SEARCH] Buscando JSON para: 'SCARY MOVIE 6 Tráiler Español Latino Oficial (2026)'
+2026-03-02 18:33:40,694 - INFO - [SEARCH] Primeras 3 palabras del título: ['scary', 'movie', 'trailer']
+2026-03-02 18:33:40,695 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-03-02 18:33:40,695 - INFO - [COMPARE] Archivo: SCARY MOVIE 6 Tráiler Español Oficial (2026).json
+2026-03-02 18:33:40,695 - INFO - [COMPARE] Título JSON: 'SCARY MOVIE 6 Tráiler Español Oficial (2026)'
+2026-03-02 18:33:40,695 - INFO - [COMPARE] Primeras 3 palabras JSON: ['scary', 'movie', 'trailer']
+2026-03-02 18:33:40,695 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: SCARY MOVIE 6 Tráiler Español Oficial (2026).json
+2026-03-02 18:33:40,695 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-02 18:33:40,695 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-03-02 18:33:40,695 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-03-02 18:33:40,696 - INFO - [API] 🔑 API Key válida: ✅
+2026-03-02 18:33:40,696 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-03-02 18:33:56,888 - INFO - [API] 📊 Código de respuesta: 200
+2026-03-02 18:33:56,889 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-03-02 18:33:56,889 - INFO - [API] 📏 Longitud de respuesta: 2080 caracteres
+2026-03-02 18:33:56,889 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: SCARY MOVIE 6 Tráiler Oficial en Español Latino (2026)
+
+DESCRIPCIÓN: 🎬 ¡La saga de comedia d...
+2026-03-02 18:33:56,890 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-03-02 18:33:56,891 - INFO - [PARSE] Datos parseados exitosamente:
+2026-03-02 18:33:56,891 - INFO -   - Título: SCARY MOVIE 6 Tráiler Oficial en Español Latino (2...
+2026-03-02 18:33:56,891 - INFO -   - Descripción: 1807 caracteres
+2026-03-02 18:33:56,891 - INFO -   - Tags: 10 elementos
+2026-03-02 18:33:56,891 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-03-02 18:33:56,891 - INFO - [UPDATE] JSON actualizado: SCARY MOVIE 6 Tráiler Español Oficial (2026).json
+2026-03-02 18:33:56,892 - INFO - [JSON] Cargados 109 videos desde data.json
+2026-03-02 18:33:56,892 - INFO - [STATUS] Video UPDjaBBJThU actualizado a 'ok'
+2026-03-02 18:33:56,894 - INFO - [JSON] data.json actualizado exitosamente
+2026-03-02 18:33:56,894 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-03-02 18:33:56,894 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-03-02 18:33:56,894 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-03-02 18:33:56,894 - INFO - [SUMMARY] Videos fallidos: 0
+2026-03-02 18:33:57,458 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-03-02 18:33:57,459 - INFO - [FINISH] Proceso completado exitosamente

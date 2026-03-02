@@ -993,3 +993,17 @@
 2026-02-26 18:15:41,385 - INFO - [CLEANUP] Archivos eliminados: XXUXYG1cO0w
 2026-02-26 18:15:44,342 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-02-26 18:15:44,342 - INFO - [FINISH] Proceso completado
+2026-03-02 18:33:57,945 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-02 18:33:58,531 - INFO - [UPLOAD] Procesando: SCARY MOVIE 6 Tráiler Español Latino Oficial (2026)
+2026-03-02 18:33:58,531 - INFO - [SEARCH] Buscando archivos para: 'SCARY MOVIE 6 Tráiler Español Latino Oficial (2026)'
+2026-03-02 18:33:58,531 - INFO - [SEARCH] Palabras clave: ['scary', 'movie', '6']
+2026-03-02 18:33:58,532 - INFO - [FILES] JSON: SCARY MOVIE 6 Tráiler Español Oficial (2026).json
+2026-03-02 18:33:58,532 - INFO - [FILES] Video: SCARY MOVIE 6 Tráiler Español Latino Oficial (2026)(1080P_HD).mp4
+2026-03-02 18:33:58,532 - INFO - [FILES] Thumbnail: SCARY MOVIE 6 Tráiler Español Latino Oficial (2026)(1080P_HD).jpg
+2026-03-02 18:33:58,549 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-02 18:33:58,777 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-02 18:34:00,670 - INFO - [YOUTUBE] Video subido: KPPy116Ra9o
+2026-03-02 18:34:02,975 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-02 18:34:02,984 - INFO - [CLEANUP] Archivos eliminados: UPDjaBBJThU
+2026-03-02 18:34:06,211 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-02 18:34:06,211 - INFO - [FINISH] Proceso completado
