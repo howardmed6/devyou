@@ -1009,3 +1009,17 @@
 2026-03-02 18:34:06,211 - INFO - [FINISH] Proceso completado
 2026-03-02 18:58:59,755 - INFO - [PROCESS] No hay videos listos para subir
 2026-03-02 18:59:00,383 - INFO - [FINISH] Proceso completado
+2026-03-02 19:02:50,479 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-02 19:02:50,956 - INFO - [UPLOAD] Procesando: Aún es de noche en Caracas | Tráiler oficial | Netflix
+2026-03-02 19:02:50,956 - INFO - [SEARCH] Buscando archivos para: 'Aún es de noche en Caracas | Tráiler oficial | Netflix'
+2026-03-02 19:02:50,956 - INFO - [SEARCH] Palabras clave: ['aun', 'es', 'de']
+2026-03-02 19:02:50,956 - INFO - [FILES] JSON: Aún es de noche en Caracas _ Tráiler oficial _ Netflix.json
+2026-03-02 19:02:50,957 - INFO - [FILES] Video: Aún es de noche en Caracas _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-03-02 19:02:50,957 - INFO - [FILES] Thumbnail: Aún es de noche en Caracas _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-03-02 19:02:50,980 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-02 19:02:51,144 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-02 19:02:52,648 - INFO - [YOUTUBE] Video subido: mu9JpKgiYdM
+2026-03-02 19:02:54,625 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-02 19:02:54,631 - INFO - [CLEANUP] Archivos eliminados: HZjBkwY4jE8
+2026-03-02 19:02:57,617 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-02 19:02:57,617 - INFO - [FINISH] Proceso completado
