@@ -4481,3 +4481,53 @@ DESCRIPCIÓN: 🔥 ¡...
 2026-03-04 00:30:28,585 - INFO - [SUMMARY] Videos fallidos: 0
 2026-03-04 00:30:29,191 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-03-04 00:30:29,192 - INFO - [FINISH] Proceso completado exitosamente
+2026-03-04 14:09:40,726 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-03-04 14:09:40,726 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-03-04 14:09:40,726 - INFO - [INIT] API Key disponible: Sí
+2026-03-04 14:09:40,726 - INFO - [INIT] Bot Token disponible: Sí
+2026-03-04 14:09:40,727 - INFO - [INIT] Chat ID disponible: Sí
+2026-03-04 14:09:40,727 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-03-04 14:09:40,727 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-03-04 14:09:40,727 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-04 14:09:40,728 - INFO - [JSON] Cargados 86 videos desde data.json
+2026-03-04 14:09:40,728 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-03-04 14:09:40,728 - INFO - [PROCESS] Procesando 1 videos...
+2026-03-04 14:09:40,728 - INFO - 
+--- Procesando video 1/1 ---
+2026-03-04 14:09:40,728 - INFO - [VIDEO] Título: El último gigante | Tráiler oficial | Netflix
+2026-03-04 14:09:40,728 - INFO - [VIDEO] ID: ojssghBcAac
+2026-03-04 14:09:40,728 - INFO - [SEARCH] Buscando JSON para: 'El último gigante | Tráiler oficial | Netflix'
+2026-03-04 14:09:40,735 - INFO - [SEARCH] Primeras 3 palabras del título: ['ultimo', 'gigante', 'trailer']
+2026-03-04 14:09:40,735 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-03-04 14:09:40,735 - INFO - [COMPARE] Archivo: El último gigante _ Tráiler oficial _ Netflix.json
+2026-03-04 14:09:40,735 - INFO - [COMPARE] Título JSON: 'El último gigante | Tráiler oficial | Netflix'
+2026-03-04 14:09:40,735 - INFO - [COMPARE] Primeras 3 palabras JSON: ['ultimo', 'gigante', 'trailer']
+2026-03-04 14:09:40,735 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: El último gigante _ Tráiler oficial _ Netflix.json
+2026-03-04 14:09:40,735 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-04 14:09:40,735 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-03-04 14:09:40,736 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-03-04 14:09:40,736 - INFO - [API] 🔑 API Key válida: ✅
+2026-03-04 14:09:40,736 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-03-04 14:09:55,683 - INFO - [API] 📊 Código de respuesta: 200
+2026-03-04 14:09:55,683 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-03-04 14:09:55,683 - INFO - [API] 📏 Longitud de respuesta: 2210 caracteres
+2026-03-04 14:09:55,683 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: EL ÚLTIMO GIGANTE | Tráiler Oficial en Español Latino (2025) | Netflix
+
+DESCRIPCIÓN: 🎬 ¡Prep...
+2026-03-04 14:09:55,684 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-03-04 14:09:55,685 - INFO - [PARSE] Datos parseados exitosamente:
+2026-03-04 14:09:55,685 - INFO -   - Título: EL ÚLTIMO GIGANTE | Tráiler Oficial en Español Lat...
+2026-03-04 14:09:55,686 - INFO -   - Descripción: 1899 caracteres
+2026-03-04 14:09:55,686 - INFO -   - Tags: 12 elementos
+2026-03-04 14:09:55,686 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-03-04 14:09:55,686 - INFO - [UPDATE] JSON actualizado: El último gigante _ Tráiler oficial _ Netflix.json
+2026-03-04 14:09:55,687 - INFO - [JSON] Cargados 86 videos desde data.json
+2026-03-04 14:09:55,687 - INFO - [STATUS] Video ojssghBcAac actualizado a 'ok'
+2026-03-04 14:09:55,688 - INFO - [JSON] data.json actualizado exitosamente
+2026-03-04 14:09:55,688 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-03-04 14:09:55,688 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-03-04 14:09:55,688 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-03-04 14:09:55,688 - INFO - [SUMMARY] Videos fallidos: 0
+2026-03-04 14:09:56,295 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-03-04 14:09:56,296 - INFO - [FINISH] Proceso completado exitosamente

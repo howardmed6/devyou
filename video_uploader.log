@@ -1039,3 +1039,17 @@
 2026-03-04 00:30:34,190 - INFO - [CLEANUP] Archivos eliminados: 2Y2rMq2IW2k
 2026-03-04 00:30:37,465 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-03-04 00:30:37,465 - INFO - [FINISH] Proceso completado
+2026-03-04 14:09:56,693 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-04 14:09:57,349 - INFO - [UPLOAD] Procesando: El último gigante | Tráiler oficial | Netflix
+2026-03-04 14:09:57,350 - INFO - [SEARCH] Buscando archivos para: 'El último gigante | Tráiler oficial | Netflix'
+2026-03-04 14:09:57,350 - INFO - [SEARCH] Palabras clave: ['el', 'ultimo', 'gigante']
+2026-03-04 14:09:57,350 - INFO - [FILES] JSON: El último gigante _ Tráiler oficial _ Netflix.json
+2026-03-04 14:09:57,350 - INFO - [FILES] Video: El último gigante _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-03-04 14:09:57,350 - INFO - [FILES] Thumbnail: El último gigante _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-03-04 14:09:57,368 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-04 14:09:57,557 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-04 14:09:59,635 - INFO - [YOUTUBE] Video subido: nB98PoaJHI4
+2026-03-04 14:10:01,790 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-04 14:10:01,799 - INFO - [CLEANUP] Archivos eliminados: ojssghBcAac
+2026-03-04 14:10:05,036 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-04 14:10:05,036 - INFO - [FINISH] Proceso completado
