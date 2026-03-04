@@ -1069,3 +1069,17 @@
 2026-03-04 15:23:24,666 - INFO - [CLEANUP] Archivos eliminados: HnKUpQdDjGU
 2026-03-04 15:23:27,950 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-03-04 15:23:27,951 - INFO - [FINISH] Proceso completado
+2026-03-04 15:42:54,851 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-04 15:42:55,272 - INFO - [UPLOAD] Procesando: La luz que aún nos guía | TRÁILER OFICIAL | Netflix
+2026-03-04 15:42:55,273 - INFO - [SEARCH] Buscando archivos para: 'La luz que aún nos guía | TRÁILER OFICIAL | Netflix'
+2026-03-04 15:42:55,273 - INFO - [SEARCH] Palabras clave: ['la', 'luz', 'que']
+2026-03-04 15:42:55,273 - INFO - [FILES] JSON: La luz que aún nos guía _ TRÁILER OFICIAL _ Netflix.json
+2026-03-04 15:42:55,273 - INFO - [FILES] Video: La luz que aún nos guía _ TRÁILER OFICIAL _ Netflix(1080P_HD).mp4
+2026-03-04 15:42:55,273 - INFO - [FILES] Thumbnail: La luz que aún nos guía _ TRÁILER OFICIAL _ Netflix(1080P_HD).jpg
+2026-03-04 15:42:55,299 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-04 15:42:55,399 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-04 15:42:57,677 - INFO - [YOUTUBE] Video subido: lVXo9fENTEA
+2026-03-04 15:42:59,555 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-04 15:42:59,560 - INFO - [CLEANUP] Archivos eliminados: KbXh8bm8gog
+2026-03-04 15:43:02,428 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-04 15:43:02,428 - INFO - [FINISH] Proceso completado
