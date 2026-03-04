@@ -1025,3 +1025,17 @@
 2026-03-02 19:02:57,617 - INFO - [FINISH] Proceso completado
 2026-03-03 16:49:47,750 - INFO - [PROCESS] No hay videos listos para subir
 2026-03-03 16:49:48,372 - INFO - [FINISH] Proceso completado
+2026-03-04 00:30:29,540 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-04 00:30:30,177 - INFO - [UPLOAD] Procesando: Sabuesos: Temporada 2 | Avance oficial | Netflix
+2026-03-04 00:30:30,177 - INFO - [SEARCH] Buscando archivos para: 'Sabuesos: Temporada 2 | Avance oficial | Netflix'
+2026-03-04 00:30:30,178 - INFO - [SEARCH] Palabras clave: ['sabuesos', 'temporada', '2']
+2026-03-04 00:30:30,178 - INFO - [FILES] JSON: Sabuesos_ Temporada 2 _ Avance oficial _ Netflix.json
+2026-03-04 00:30:30,178 - INFO - [FILES] Video: Sabuesos_ Temporada 2 _ Avance oficial _ Netflix(1080P_HD).mp4
+2026-03-04 00:30:30,178 - INFO - [FILES] Thumbnail: Sabuesos_ Temporada 2 _ Avance oficial _ Netflix(1080P_HD).jpg
+2026-03-04 00:30:30,187 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-04 00:30:30,289 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-04 00:30:32,097 - INFO - [YOUTUBE] Video subido: a9QGIUnocmI
+2026-03-04 00:30:34,184 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-04 00:30:34,190 - INFO - [CLEANUP] Archivos eliminados: 2Y2rMq2IW2k
+2026-03-04 00:30:37,465 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-04 00:30:37,465 - INFO - [FINISH] Proceso completado
