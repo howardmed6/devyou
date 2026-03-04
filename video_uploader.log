@@ -1055,3 +1055,17 @@
 2026-03-04 14:10:05,036 - INFO - [FINISH] Proceso completado
 2026-03-04 14:57:59,355 - INFO - [PROCESS] No hay videos listos para subir
 2026-03-04 14:57:59,994 - INFO - [FINISH] Proceso completado
+2026-03-04 15:23:20,295 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-04 15:23:20,933 - INFO - [UPLOAD] Procesando: LOS NO ELEGIDOS Tráiler Español Latino (2026) Asa Butterfield
+2026-03-04 15:23:20,933 - INFO - [SEARCH] Buscando archivos para: 'LOS NO ELEGIDOS Tráiler Español Latino (2026) Asa Butterfield'
+2026-03-04 15:23:20,934 - INFO - [SEARCH] Palabras clave: ['los', 'no', 'elegidos']
+2026-03-04 15:23:20,934 - INFO - [FILES] JSON: LOS NO ELEGIDOS Tráiler Español Latino (2026) Asa Butterfield.json
+2026-03-04 15:23:20,934 - INFO - [FILES] Video: Los no elegidos _ Avance oficial _ Netflix(1080P_HD).mp4
+2026-03-04 15:23:20,934 - INFO - [FILES] Thumbnail: Los no elegidos _ Avance oficial _ Netflix(1080P_HD).jpg
+2026-03-04 15:23:20,943 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-04 15:23:21,045 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-04 15:23:23,070 - INFO - [YOUTUBE] Video subido: oF9lR43tgwY
+2026-03-04 15:23:24,661 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-04 15:23:24,666 - INFO - [CLEANUP] Archivos eliminados: HnKUpQdDjGU
+2026-03-04 15:23:27,950 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-04 15:23:27,951 - INFO - [FINISH] Proceso completado
