@@ -4670,3 +4670,51 @@ DESCRIPCIÓN: 🎬...
 2026-03-05 16:17:59,770 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-03-05 16:18:00,346 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-03-05 16:18:00,347 - INFO - [FINISH] Proceso completado exitosamente
+2026-03-05 16:29:00,660 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-03-05 16:29:00,660 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-03-05 16:29:00,660 - INFO - [INIT] API Key disponible: Sí
+2026-03-05 16:29:00,661 - INFO - [INIT] Bot Token disponible: Sí
+2026-03-05 16:29:00,661 - INFO - [INIT] Chat ID disponible: Sí
+2026-03-05 16:29:00,661 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-03-05 16:29:00,661 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-03-05 16:29:00,661 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-05 16:29:00,662 - INFO - [JSON] Cargados 84 videos desde data.json
+2026-03-05 16:29:00,662 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-03-05 16:29:00,662 - INFO - [PROCESS] Procesando 1 videos...
+2026-03-05 16:29:00,662 - INFO - 
+--- Procesando video 1/1 ---
+2026-03-05 16:29:00,662 - INFO - [VIDEO] Título: LOS TESTAMENTOS: DE LAS HIJAS DE GILEAD Tráiler Español Latino (2026) The Handmaid&#39;s Tale Sequel
+2026-03-05 16:29:00,662 - INFO - [VIDEO] ID: quEC5L6t3UI
+2026-03-05 16:29:00,662 - INFO - [SEARCH] Buscando JSON para: 'LOS TESTAMENTOS: DE LAS HIJAS DE GILEAD Tráiler Español Latino (2026) The Handmaid&#39;s Tale Sequel'
+2026-03-05 16:29:00,667 - INFO - [SEARCH] Primeras 3 palabras del título: ['los', 'testamentos', 'las']
+2026-03-05 16:29:00,668 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-03-05 16:29:00,668 - INFO - [COMPARE] Archivo: LOS TESTAMENTOS_ DE LAS HIJAS DE GILEAD Tráiler Español Latino (2026) The Handmaid&#39;s Tale Sequel.json
+2026-03-05 16:29:00,668 - INFO - [COMPARE] Título JSON: 'LOS TESTAMENTOS: DE LAS HIJAS DE GILEAD Tráiler Español Latino (2026) The Handmaid's Tale Sequel'
+2026-03-05 16:29:00,668 - INFO - [COMPARE] Primeras 3 palabras JSON: ['los', 'testamentos', 'las']
+2026-03-05 16:29:00,668 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: LOS TESTAMENTOS_ DE LAS HIJAS DE GILEAD Tráiler Español Latino (2026) The Handmaid&#39;s Tale Sequel.json
+2026-03-05 16:29:00,669 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-05 16:29:00,669 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-03-05 16:29:00,669 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-03-05 16:29:00,669 - INFO - [API] 🔑 API Key válida: ✅
+2026-03-05 16:29:00,669 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-03-05 16:29:18,085 - INFO - [API] 📊 Código de respuesta: 200
+2026-03-05 16:29:18,085 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-03-05 16:29:18,085 - INFO - [API] 📏 Longitud de respuesta: 2253 caracteres
+2026-03-05 16:29:18,086 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: LOS TESTAMENTOS: DE LAS HIJAS DE GILEAD Tráiler Español Latino (2026) Secuela de The Handmai...
+2026-03-05 16:29:18,087 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-03-05 16:29:18,088 - INFO - [PARSE] Datos parseados exitosamente:
+2026-03-05 16:29:18,088 - INFO -   - Título: LOS TESTAMENTOS: DE LAS HIJAS DE GILEAD Tráiler Es...
+2026-03-05 16:29:18,088 - INFO -   - Descripción: 1916 caracteres
+2026-03-05 16:29:18,088 - INFO -   - Tags: 9 elementos
+2026-03-05 16:29:18,088 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-03-05 16:29:18,088 - INFO - [UPDATE] JSON actualizado: LOS TESTAMENTOS_ DE LAS HIJAS DE GILEAD Tráiler Español Latino (2026) The Handmaid&#39;s Tale Sequel.json
+2026-03-05 16:29:18,089 - INFO - [JSON] Cargados 84 videos desde data.json
+2026-03-05 16:29:18,089 - INFO - [STATUS] Video quEC5L6t3UI actualizado a 'ok'
+2026-03-05 16:29:18,091 - INFO - [JSON] data.json actualizado exitosamente
+2026-03-05 16:29:18,091 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-03-05 16:29:18,091 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-03-05 16:29:18,091 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-03-05 16:29:18,091 - INFO - [SUMMARY] Videos fallidos: 0
+2026-03-05 16:29:18,686 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-03-05 16:29:18,687 - INFO - [FINISH] Proceso completado exitosamente

@@ -1087,3 +1087,17 @@
 2026-03-05 15:59:07,360 - INFO - [FINISH] Proceso completado
 2026-03-05 16:18:00,772 - INFO - [PROCESS] No hay videos listos para subir
 2026-03-05 16:18:01,393 - INFO - [FINISH] Proceso completado
+2026-03-05 16:29:19,126 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-05 16:29:19,728 - INFO - [UPLOAD] Procesando: LOS TESTAMENTOS: DE LAS HIJAS DE GILEAD Tráiler Español Latino (2026) The Handmaid&#39;s Tale Sequel
+2026-03-05 16:29:19,729 - INFO - [SEARCH] Buscando archivos para: 'LOS TESTAMENTOS: DE LAS HIJAS DE GILEAD Tráiler Español Latino (2026) The Handmaid&#39;s Tale Sequel'
+2026-03-05 16:29:19,729 - INFO - [SEARCH] Palabras clave: ['los', 'testamentos', 'de']
+2026-03-05 16:29:19,729 - INFO - [FILES] JSON: LOS TESTAMENTOS_ DE LAS HIJAS DE GILEAD Tráiler Español Latino (2026) The Handmaid&#39;s Tale Sequel.json
+2026-03-05 16:29:19,730 - INFO - [FILES] Video: LOS TESTAMENTOS_ DE LAS HIJAS DE GILEAD Tráiler Español Latino (2026) The Handmaid_s Tale Sequel(1080P_HD).mp4
+2026-03-05 16:29:19,730 - INFO - [FILES] Thumbnail: LOS TESTAMENTOS_ DE LAS HIJAS DE GILEAD Tráiler Español Latino (2026) The Handmaid_s Tale Sequel(1080P_HD).jpg
+2026-03-05 16:29:19,749 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-05 16:29:19,931 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-05 16:29:23,302 - INFO - [YOUTUBE] Video subido: u81wJVcEC6w
+2026-03-05 16:29:25,646 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-05 16:29:25,653 - INFO - [CLEANUP] Archivos eliminados: quEC5L6t3UI
+2026-03-05 16:29:28,870 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-05 16:29:28,871 - INFO - [FINISH] Proceso completado
