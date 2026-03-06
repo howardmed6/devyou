@@ -4718,3 +4718,53 @@ DESCRIPCIÓN: 🎬...
 2026-03-05 16:29:18,091 - INFO - [SUMMARY] Videos fallidos: 0
 2026-03-05 16:29:18,686 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-03-05 16:29:18,687 - INFO - [FINISH] Proceso completado exitosamente
+2026-03-06 22:31:07,520 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-03-06 22:31:07,520 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-03-06 22:31:07,520 - INFO - [INIT] API Key disponible: Sí
+2026-03-06 22:31:07,521 - INFO - [INIT] Bot Token disponible: Sí
+2026-03-06 22:31:07,521 - INFO - [INIT] Chat ID disponible: Sí
+2026-03-06 22:31:07,521 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-03-06 22:31:07,521 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-03-06 22:31:07,521 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-06 22:31:07,522 - INFO - [JSON] Cargados 93 videos desde data.json
+2026-03-06 22:31:07,522 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-03-06 22:31:07,522 - INFO - [PROCESS] Procesando 1 videos...
+2026-03-06 22:31:07,522 - INFO - 
+--- Procesando video 1/1 ---
+2026-03-06 22:31:07,522 - INFO - [VIDEO] Título: The Boys– Temporada Final | Trailer Oficial | Prime Video
+2026-03-06 22:31:07,522 - INFO - [VIDEO] ID: HK0PrzNOfck
+2026-03-06 22:31:07,522 - INFO - [SEARCH] Buscando JSON para: 'The Boys– Temporada Final | Trailer Oficial | Prime Video'
+2026-03-06 22:31:07,522 - INFO - [SEARCH] Primeras 3 palabras del título: ['the', 'boys–', 'temporada']
+2026-03-06 22:31:07,523 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-03-06 22:31:07,523 - INFO - [COMPARE] Archivo: The Boys– Temporada Final _ Trailer Oficial _ Prime Video.json
+2026-03-06 22:31:07,523 - INFO - [COMPARE] Título JSON: 'The Boys– Temporada Final | Trailer Oficial | Prime Video'
+2026-03-06 22:31:07,523 - INFO - [COMPARE] Primeras 3 palabras JSON: ['the', 'boys–', 'temporada']
+2026-03-06 22:31:07,523 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: The Boys– Temporada Final _ Trailer Oficial _ Prime Video.json
+2026-03-06 22:31:07,523 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-06 22:31:07,523 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-03-06 22:31:07,523 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-03-06 22:31:07,523 - INFO - [API] 🔑 API Key válida: ✅
+2026-03-06 22:31:07,523 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-03-06 22:31:24,787 - INFO - [API] 📊 Código de respuesta: 200
+2026-03-06 22:31:24,787 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-03-06 22:31:24,788 - INFO - [API] 📏 Longitud de respuesta: 2395 caracteres
+2026-03-06 22:31:24,788 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: THE BOYS – Temporada Final (2025) | Tráiler Oficial en Español Latino | Prime Video
+
+DESCRIP...
+2026-03-06 22:31:24,788 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-03-06 22:31:24,789 - INFO - [PARSE] Datos parseados exitosamente:
+2026-03-06 22:31:24,789 - INFO -   - Título: THE BOYS – Temporada Final (2025) | Tráiler Oficia...
+2026-03-06 22:31:24,789 - INFO -   - Descripción: 2049 caracteres
+2026-03-06 22:31:24,790 - INFO -   - Tags: 11 elementos
+2026-03-06 22:31:24,790 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-03-06 22:31:24,790 - INFO - [UPDATE] JSON actualizado: The Boys– Temporada Final _ Trailer Oficial _ Prime Video.json
+2026-03-06 22:31:24,791 - INFO - [JSON] Cargados 93 videos desde data.json
+2026-03-06 22:31:24,791 - INFO - [STATUS] Video HK0PrzNOfck actualizado a 'ok'
+2026-03-06 22:31:24,792 - INFO - [JSON] data.json actualizado exitosamente
+2026-03-06 22:31:24,792 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-03-06 22:31:24,792 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-03-06 22:31:24,792 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-03-06 22:31:24,792 - INFO - [SUMMARY] Videos fallidos: 0
+2026-03-06 22:31:25,327 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-03-06 22:31:25,328 - INFO - [FINISH] Proceso completado exitosamente

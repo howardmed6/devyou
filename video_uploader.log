@@ -1101,3 +1101,17 @@
 2026-03-05 16:29:25,653 - INFO - [CLEANUP] Archivos eliminados: quEC5L6t3UI
 2026-03-05 16:29:28,870 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-03-05 16:29:28,871 - INFO - [FINISH] Proceso completado
+2026-03-06 22:31:25,664 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-06 22:31:26,187 - INFO - [UPLOAD] Procesando: The Boys– Temporada Final | Trailer Oficial | Prime Video
+2026-03-06 22:31:26,187 - INFO - [SEARCH] Buscando archivos para: 'The Boys– Temporada Final | Trailer Oficial | Prime Video'
+2026-03-06 22:31:26,187 - INFO - [SEARCH] Palabras clave: ['the', 'boys–', 'temporada']
+2026-03-06 22:31:26,187 - INFO - [FILES] JSON: The Boys– Temporada Final _ Trailer Oficial _ Prime Video.json
+2026-03-06 22:31:26,188 - INFO - [FILES] Video: The Boys– Temporada Final _ Trailer Oficial _ Prime Video(1080P_HD).mp4
+2026-03-06 22:31:26,188 - INFO - [FILES] Thumbnail: The Boys– Temporada Final _ Trailer Oficial _ Prime Video(1080P_HD).jpg
+2026-03-06 22:31:26,196 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-06 22:31:26,334 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-06 22:31:28,048 - INFO - [YOUTUBE] Video subido: IUmeTe3Xx5w
+2026-03-06 22:31:29,556 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-06 22:31:29,565 - INFO - [CLEANUP] Archivos eliminados: HK0PrzNOfck
+2026-03-06 22:31:32,691 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-06 22:31:32,691 - INFO - [FINISH] Proceso completado
