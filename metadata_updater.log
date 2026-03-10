@@ -4768,3 +4768,53 @@ DESCRIP...
 2026-03-06 22:31:24,792 - INFO - [SUMMARY] Videos fallidos: 0
 2026-03-06 22:31:25,327 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-03-06 22:31:25,328 - INFO - [FINISH] Proceso completado exitosamente
+2026-03-10 14:09:21,004 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-03-10 14:09:21,005 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-03-10 14:09:21,005 - INFO - [INIT] API Key disponible: Sí
+2026-03-10 14:09:21,005 - INFO - [INIT] Bot Token disponible: Sí
+2026-03-10 14:09:21,005 - INFO - [INIT] Chat ID disponible: Sí
+2026-03-10 14:09:21,005 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-03-10 14:09:21,005 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-03-10 14:09:21,005 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-10 14:09:21,006 - INFO - [JSON] Cargados 100 videos desde data.json
+2026-03-10 14:09:21,006 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-03-10 14:09:21,006 - INFO - [PROCESS] Procesando 1 videos...
+2026-03-10 14:09:21,006 - INFO - 
+--- Procesando video 1/1 ---
+2026-03-10 14:09:21,006 - INFO - [VIDEO] Título: La fiscal | Tráiler oficial | Netflix
+2026-03-10 14:09:21,006 - INFO - [VIDEO] ID: lstquA9d6O4
+2026-03-10 14:09:21,007 - INFO - [SEARCH] Buscando JSON para: 'La fiscal | Tráiler oficial | Netflix'
+2026-03-10 14:09:21,033 - INFO - [SEARCH] Primeras 3 palabras del título: ['fiscal', 'trailer', 'oficial']
+2026-03-10 14:09:21,034 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-03-10 14:09:21,034 - INFO - [COMPARE] Archivo: La fiscal _ Tráiler oficial _ Netflix.json
+2026-03-10 14:09:21,034 - INFO - [COMPARE] Título JSON: 'La fiscal | Tráiler oficial | Netflix'
+2026-03-10 14:09:21,034 - INFO - [COMPARE] Primeras 3 palabras JSON: ['fiscal', 'trailer', 'oficial']
+2026-03-10 14:09:21,034 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: La fiscal _ Tráiler oficial _ Netflix.json
+2026-03-10 14:09:21,034 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-10 14:09:21,034 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-03-10 14:09:21,034 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-03-10 14:09:21,034 - INFO - [API] 🔑 API Key válida: ✅
+2026-03-10 14:09:21,034 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-03-10 14:09:36,070 - INFO - [API] 📊 Código de respuesta: 200
+2026-03-10 14:09:36,070 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-03-10 14:09:36,070 - INFO - [API] 📏 Longitud de respuesta: 2357 caracteres
+2026-03-10 14:09:36,070 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: LA FISCAL | Tráiler Oficial en Español Latino (2025) | Netflix
+
+DESCRIPCIÓN: 🎬 LA FISCAL lle...
+2026-03-10 14:09:36,071 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-03-10 14:09:36,072 - INFO - [PARSE] Datos parseados exitosamente:
+2026-03-10 14:09:36,072 - INFO -   - Título: LA FISCAL | Tráiler Oficial en Español Latino (202...
+2026-03-10 14:09:36,072 - INFO -   - Descripción: 2075 caracteres
+2026-03-10 14:09:36,072 - INFO -   - Tags: 12 elementos
+2026-03-10 14:09:36,072 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-03-10 14:09:36,073 - INFO - [UPDATE] JSON actualizado: La fiscal _ Tráiler oficial _ Netflix.json
+2026-03-10 14:09:36,074 - INFO - [JSON] Cargados 100 videos desde data.json
+2026-03-10 14:09:36,074 - INFO - [STATUS] Video lstquA9d6O4 actualizado a 'ok'
+2026-03-10 14:09:36,075 - INFO - [JSON] data.json actualizado exitosamente
+2026-03-10 14:09:36,075 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-03-10 14:09:36,075 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-03-10 14:09:36,075 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-03-10 14:09:36,075 - INFO - [SUMMARY] Videos fallidos: 0
+2026-03-10 14:09:36,518 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-03-10 14:09:36,519 - INFO - [FINISH] Proceso completado exitosamente

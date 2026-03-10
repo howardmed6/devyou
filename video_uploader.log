@@ -1115,3 +1115,17 @@
 2026-03-06 22:31:29,565 - INFO - [CLEANUP] Archivos eliminados: HK0PrzNOfck
 2026-03-06 22:31:32,691 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-03-06 22:31:32,691 - INFO - [FINISH] Proceso completado
+2026-03-10 14:09:37,298 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-10 14:09:37,762 - INFO - [UPLOAD] Procesando: La fiscal | Tráiler oficial | Netflix
+2026-03-10 14:09:37,762 - INFO - [SEARCH] Buscando archivos para: 'La fiscal | Tráiler oficial | Netflix'
+2026-03-10 14:09:37,763 - INFO - [SEARCH] Palabras clave: ['la', 'fiscal', '|']
+2026-03-10 14:09:37,763 - INFO - [FILES] JSON: La fiscal _ Tráiler oficial _ Netflix.json
+2026-03-10 14:09:37,763 - INFO - [FILES] Video: La fiscal _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-03-10 14:09:37,763 - INFO - [FILES] Thumbnail: La fiscal _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-03-10 14:09:37,832 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-10 14:09:37,995 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-10 14:09:39,544 - INFO - [YOUTUBE] Video subido: Jq69KFzVZEs
+2026-03-10 14:09:41,631 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-10 14:09:41,639 - INFO - [CLEANUP] Archivos eliminados: lstquA9d6O4
+2026-03-10 14:09:44,532 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-10 14:09:44,533 - INFO - [FINISH] Proceso completado
