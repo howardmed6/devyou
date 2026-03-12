@@ -4818,3 +4818,53 @@ DESCRIPCIÓN: 🎬 LA FISCAL lle...
 2026-03-10 14:09:36,075 - INFO - [SUMMARY] Videos fallidos: 0
 2026-03-10 14:09:36,518 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-03-10 14:09:36,519 - INFO - [FINISH] Proceso completado exitosamente
+2026-03-12 03:22:46,272 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-03-12 03:22:46,272 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-03-12 03:22:46,272 - INFO - [INIT] API Key disponible: Sí
+2026-03-12 03:22:46,272 - INFO - [INIT] Bot Token disponible: Sí
+2026-03-12 03:22:46,272 - INFO - [INIT] Chat ID disponible: Sí
+2026-03-12 03:22:46,272 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-03-12 03:22:46,272 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-03-12 03:22:46,272 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-12 03:22:46,273 - INFO - [JSON] Cargados 97 videos desde data.json
+2026-03-12 03:22:46,273 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-03-12 03:22:46,273 - INFO - [PROCESS] Procesando 1 videos...
+2026-03-12 03:22:46,273 - INFO - 
+--- Procesando video 1/1 ---
+2026-03-12 03:22:46,274 - INFO - [VIDEO] Título: Rompiendo el hielo | Tráiler oficial 2 | Netflix
+2026-03-12 03:22:46,274 - INFO - [VIDEO] ID: b4ETWVp_fEg
+2026-03-12 03:22:46,274 - INFO - [SEARCH] Buscando JSON para: 'Rompiendo el hielo | Tráiler oficial 2 | Netflix'
+2026-03-12 03:22:46,280 - INFO - [SEARCH] Primeras 3 palabras del título: ['rompiendo', 'hielo', 'trailer']
+2026-03-12 03:22:46,281 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-03-12 03:22:46,281 - INFO - [COMPARE] Archivo: Rompiendo el hielo _ Tráiler oficial 2 _ Netflix.json
+2026-03-12 03:22:46,281 - INFO - [COMPARE] Título JSON: 'Rompiendo el hielo | Tráiler oficial 2 | Netflix'
+2026-03-12 03:22:46,281 - INFO - [COMPARE] Primeras 3 palabras JSON: ['rompiendo', 'hielo', 'trailer']
+2026-03-12 03:22:46,281 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Rompiendo el hielo _ Tráiler oficial 2 _ Netflix.json
+2026-03-12 03:22:46,281 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-12 03:22:46,281 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-03-12 03:22:46,282 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-03-12 03:22:46,282 - INFO - [API] 🔑 API Key válida: ✅
+2026-03-12 03:22:46,282 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-03-12 03:23:00,778 - INFO - [API] 📊 Código de respuesta: 200
+2026-03-12 03:23:00,778 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-03-12 03:23:00,778 - INFO - [API] 📏 Longitud de respuesta: 1851 caracteres
+2026-03-12 03:23:00,778 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: ROMPIENDO EL HIELO | Tráiler Oficial 2 en Español Latino | Netflix (2025)
+
+DESCRIPCIÓN: 🎬 ¡P...
+2026-03-12 03:23:00,779 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-03-12 03:23:00,780 - INFO - [PARSE] Datos parseados exitosamente:
+2026-03-12 03:23:00,780 - INFO -   - Título: ROMPIENDO EL HIELO | Tráiler Oficial 2 en Español ...
+2026-03-12 03:23:00,780 - INFO -   - Descripción: 1552 caracteres
+2026-03-12 03:23:00,781 - INFO -   - Tags: 10 elementos
+2026-03-12 03:23:00,781 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-03-12 03:23:00,781 - INFO - [UPDATE] JSON actualizado: Rompiendo el hielo _ Tráiler oficial 2 _ Netflix.json
+2026-03-12 03:23:00,782 - INFO - [JSON] Cargados 97 videos desde data.json
+2026-03-12 03:23:00,782 - INFO - [STATUS] Video b4ETWVp_fEg actualizado a 'ok'
+2026-03-12 03:23:00,783 - INFO - [JSON] data.json actualizado exitosamente
+2026-03-12 03:23:00,783 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-03-12 03:23:00,784 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-03-12 03:23:00,784 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-03-12 03:23:00,784 - INFO - [SUMMARY] Videos fallidos: 0
+2026-03-12 03:23:01,227 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-03-12 03:23:01,228 - INFO - [FINISH] Proceso completado exitosamente

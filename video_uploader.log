@@ -1129,3 +1129,17 @@
 2026-03-10 14:09:41,639 - INFO - [CLEANUP] Archivos eliminados: lstquA9d6O4
 2026-03-10 14:09:44,532 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-03-10 14:09:44,533 - INFO - [FINISH] Proceso completado
+2026-03-12 03:23:01,675 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-12 03:23:02,096 - INFO - [UPLOAD] Procesando: Rompiendo el hielo | Tráiler oficial 2 | Netflix
+2026-03-12 03:23:02,097 - INFO - [SEARCH] Buscando archivos para: 'Rompiendo el hielo | Tráiler oficial 2 | Netflix'
+2026-03-12 03:23:02,097 - INFO - [SEARCH] Palabras clave: ['rompiendo', 'el', 'hielo']
+2026-03-12 03:23:02,098 - INFO - [FILES] JSON: Rompiendo el hielo _ Tráiler oficial 2 _ Netflix.json
+2026-03-12 03:23:02,098 - INFO - [FILES] Video: Rompiendo el hielo _ Tráiler oficial 2 _ Netflix(1080P_HD).mp4
+2026-03-12 03:23:02,098 - INFO - [FILES] Thumbnail: Rompiendo el hielo _ Tráiler oficial 2 _ Netflix(1080P_HD).jpg
+2026-03-12 03:23:02,117 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-12 03:23:02,249 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-12 03:23:03,845 - INFO - [YOUTUBE] Video subido: 1Q3neXAF5OU
+2026-03-12 03:23:05,876 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-12 03:23:05,882 - INFO - [CLEANUP] Archivos eliminados: b4ETWVp_fEg
+2026-03-12 03:23:08,854 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-12 03:23:08,855 - INFO - [FINISH] Proceso completado
