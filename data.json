@@ -1,5 +1,151 @@
 [
   {
+    "video_id": "b_hKNltvlKU",
+    "url": "https://www.youtube.com/watch?v=b_hKNltvlKU",
+    "title": "SPIDER-MAN: BRAND NEW DAY Tráiler Español (2026) Tom Holland, Zendaya",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-03-18T11:15:36Z",
+    "found_at": "2026-03-19T02:56:09.198668",
+    "status": "metadata_update",
+    "sanitized_name": "SPIDER-MAN_ BRAND NEW DAY Tráiler Español (2026) Tom Holland, Zendaya"
+  },
+  {
+    "video_id": "dZJ9_sgGXKg",
+    "url": "https://www.youtube.com/watch?v=dZJ9_sgGXKg",
+    "title": "SPIDER-MAN: UN NUEVO DÍA Tráiler Español Latino (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-03-18T11:10:20Z",
+    "found_at": "2026-03-19T02:56:09.198683",
+    "status": "uploaded",
+    "sanitized_name": "SPIDER-MAN_ UN NUEVO DÍA Tráiler Español Latino (2026)",
+    "metadata_updated_at": "2026-03-19T03:00:28.606031",
+    "uploaded_at": "2026-03-19T03:00:33.744290",
+    "youtube_id": "VpEK7xEgm8U"
+  },
+  {
+    "video_id": "keoE1ugRdTM",
+    "url": "https://www.youtube.com/watch?v=keoE1ugRdTM",
+    "title": "DUNE 3 Tráiler Español (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-03-17T16:41:39Z",
+    "found_at": "2026-03-19T02:56:09.198687",
+    "status": "metadata_update",
+    "sanitized_name": "DUNE 3 Tráiler Español (2026)"
+  },
+  {
+    "video_id": "fQRnR3Pcp9o",
+    "url": "https://www.youtube.com/watch?v=fQRnR3Pcp9o",
+    "title": "DUNA 3 Tráiler Español Latino (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-03-17T16:28:43Z",
+    "found_at": "2026-03-19T02:56:09.198690",
+    "status": "metadata_update",
+    "sanitized_name": "DUNA 3 Tráiler Español Latino (2026)"
+  },
+  {
+    "video_id": "40J3QkxXJf0",
+    "url": "https://www.youtube.com/watch?v=40J3QkxXJf0",
+    "title": "HOKUM: LA MALDICIÓN DE LA BRUJA Tráiler Español Latino (2026) Adam Scott",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-03-17T15:01:53Z",
+    "found_at": "2026-03-19T02:56:09.198692",
+    "status": "metadata_update",
+    "sanitized_name": "HOKUM_ LA MALDICIÓN DE LA BRUJA Tráiler Español Latino (2026) Adam Scott"
+  },
+  {
+    "video_id": "EeXcPmuGK0s",
+    "url": "https://www.youtube.com/watch?v=EeXcPmuGK0s",
+    "title": "STAR WARS: MAUL Lord de las Sombras Tráiler 2 Español Latino Doblado (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-03-16T18:51:25Z",
+    "found_at": "2026-03-19T02:56:09.198694",
+    "status": "metadata_update",
+    "sanitized_name": "STAR WARS_ MAUL Lord de las Sombras Tráiler 2 Español Latino Doblado (2026)"
+  },
+  {
+    "video_id": "urr6Xa5ep0M",
+    "url": "https://www.youtube.com/watch?v=urr6Xa5ep0M",
+    "title": "STAR WARS: MAUL Señor de las sombras Tráiler 2 Español (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-03-16T17:52:53Z",
+    "found_at": "2026-03-19T02:56:09.198699",
+    "status": "metadata_update",
+    "sanitized_name": "STAR WARS_ MAUL Señor de las sombras Tráiler 2 Español (2026)"
+  },
+  {
+    "video_id": "R8-SfEaU1Vg",
+    "url": "https://www.youtube.com/watch?v=R8-SfEaU1Vg",
+    "title": "BOULEVARD Tráiler Español Latino (2026) Esther Acebo",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-03-16T17:34:37Z",
+    "found_at": "2026-03-19T02:56:09.198703",
+    "status": "metadata_update",
+    "sanitized_name": "BOULEVARD Tráiler Español Latino (2026) Esther Acebo"
+  },
+  {
+    "video_id": "tl7T0QPuK04",
+    "url": "https://www.youtube.com/watch?v=tl7T0QPuK04",
+    "title": "MAMUT: EL REGRESO DE LOS DINOSAURIOS Tráiler Español Latino (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-03-13T17:04:07Z",
+    "found_at": "2026-03-19T02:56:09.198708",
+    "status": "metadata_update",
+    "sanitized_name": "MAMUT_ EL REGRESO DE LOS DINOSAURIOS Tráiler Español Latino (2026)"
+  },
+  {
+    "video_id": "dE1lmBpCEig",
+    "url": "https://www.youtube.com/watch?v=dE1lmBpCEig",
+    "title": "MALCOLM: DE MAL EN PEOR Tráiler Español (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-03-13T10:37:16Z",
+    "found_at": "2026-03-19T02:56:09.198710",
+    "status": "metadata_update",
+    "sanitized_name": "MALCOLM_ DE MAL EN PEOR Tráiler Español (2026)"
+  },
+  {
+    "video_id": "AcdpY5oh8oA",
+    "url": "https://www.youtube.com/watch?v=AcdpY5oh8oA",
+    "title": "MALCOLM IN THE MIDDLE: La Vida Sigue Siendo Injusta Tráiler Español Latino (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-03-12T20:42:14Z",
+    "found_at": "2026-03-19T02:56:09.198712",
+    "status": "metadata_update",
+    "sanitized_name": "MALCOLM IN THE MIDDLE_ La Vida Sigue Siendo Injusta Tráiler Español Latino (2026)"
+  },
+  {
+    "video_id": "DsnVP8x4B_c",
+    "url": "https://www.youtube.com/watch?v=DsnVP8x4B_c",
+    "title": "EMBESTIDA Tráiler Español Latino (2026) Cine Catástrofe, Tiburón",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-03-12T13:32:54Z",
+    "found_at": "2026-03-19T02:56:09.198714",
+    "status": "metadata_update",
+    "sanitized_name": "EMBESTIDA Tráiler Español Latino (2026) Cine Catástrofe, Tiburón"
+  },
+  {
+    "video_id": "DzOcyksh6LI",
+    "url": "https://www.youtube.com/watch?v=DzOcyksh6LI",
+    "title": "BACKROOMS Tráiler Español (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-03-12T12:07:05Z",
+    "found_at": "2026-03-19T02:56:09.198717",
+    "status": "metadata_update",
+    "sanitized_name": "BACKROOMS Tráiler Español (2026)"
+  },
+  {
     "video_id": "iq5K1rzmktQ",
     "url": "https://www.youtube.com/watch?v=iq5K1rzmktQ",
     "title": "PADRE MADRE HERMANA HERMANO Tráiler Español Latino Subtitulado (2026) Adam Driver",
@@ -7,7 +153,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-03-11T16:01:46Z",
     "found_at": "2026-03-12T03:20:25.473521",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "PADRE MADRE HERMANA HERMANO Tráiler Español Latino Subtitulado (2026) Adam Driver"
   },
   {
@@ -18,7 +164,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-03-11T10:17:16Z",
     "found_at": "2026-03-12T03:20:25.473539",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "BUENA SUERTE, PÁSALO BIEN, NO MUERAS Tráiler Español (2026) Haley Lu Richardson"
   },
   {
@@ -29,7 +175,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-03-10T17:14:52Z",
     "found_at": "2026-03-12T03:20:25.473543",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "HOMBRE EN LLAMAS Tráiler Español Latino (2026)"
   },
   {
@@ -40,7 +186,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-03-10T15:10:32Z",
     "found_at": "2026-03-12T03:20:25.473548",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "EL SEÑUELO Tráiler Español Latino (2026) Riz Ahmed"
   },
   {
@@ -51,7 +197,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-03-09T17:25:06Z",
     "found_at": "2026-03-10T14:06:25.074679",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "EN LA ZONA GRIS Tráiler Español Latino Subtitulado (2026)"
   },
   {
@@ -62,7 +208,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-03-09T16:01:27Z",
     "found_at": "2026-03-10T14:06:25.074694",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "EL MAESTRO DEL CRIMEN Tráiler Español (2026) Christoph Waltz, Lucy Liu"
   },
   {
@@ -73,160 +219,96 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-03-09T11:36:56Z",
     "found_at": "2026-03-10T14:06:25.074698",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "ESCUADRÓN LETAL Tráiler Español (2026) Jackie Chan"
   },
   {
-    "video_id": "KdlLrx45JOg",
-    "url": "https://www.youtube.com/watch?v=KdlLrx45JOg",
-    "title": "DAREDEVIL BORN AGAIN Temporada 2 Tráiler Teaser 2 (2026) Marvel",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-03-06T17:36:20Z",
-    "found_at": "2026-03-06T22:27:18.802679",
+    "video_id": "iaqykGWMPLM",
+    "url": "https://www.youtube.com/watch?v=iaqykGWMPLM",
+    "title": "Sabuesos: Temporada 2 | Tráiler oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-03-19T00:00:01Z",
+    "found_at": "2026-03-19T02:56:09.471104",
     "status": "metadata_update",
-    "sanitized_name": "DAREDEVIL BORN AGAIN Temporada 2 Tráiler Teaser 2 (2026) Marvel"
+    "sanitized_name": "Sabuesos_ Temporada 2 _ Tráiler oficial _ Netflix"
   },
   {
-    "video_id": "ZBm2alb0Njs",
-    "url": "https://www.youtube.com/watch?v=ZBm2alb0Njs",
-    "title": "THE BOYS Temporada 5 Tráiler Español (2026)",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-03-05T18:40:03Z",
-    "found_at": "2026-03-06T22:27:18.802691",
+    "video_id": "G8gmpdvJfTw",
+    "url": "https://www.youtube.com/watch?v=G8gmpdvJfTw",
+    "title": "3-2-1... ¡TUDUM! 🎶 &#39;BTS: EL COMEBACK EN VIVO | ARIRANG&#39;.",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-03-18T23:00:31Z",
+    "found_at": "2026-03-19T02:56:09.471120",
     "status": "metadata_update",
-    "sanitized_name": "THE BOYS Temporada 5 Tráiler Español (2026)"
+    "sanitized_name": "3-2-1... ¡TUDUM! 🎶 &#39;BTS_ EL COMEBACK EN VIVO _ ARIRANG&#39;."
   },
   {
-    "video_id": "_OWHu4kvJ8Y",
-    "url": "https://www.youtube.com/watch?v=_OWHu4kvJ8Y",
-    "title": "THE BOYS Temporada Final Tráiler Español Latino (2026)",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-03-05T17:08:40Z",
-    "found_at": "2026-03-06T22:27:18.802697",
+    "video_id": "2D_HAClREBw",
+    "url": "https://www.youtube.com/watch?v=2D_HAClREBw",
+    "title": "¡El elenco de &#39;Besos, Kitty&#39; está igual de emocionado que nosotros por el regreso de BTS! 🤩😍",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-03-18T18:00:05Z",
+    "found_at": "2026-03-19T02:56:09.471123",
     "status": "metadata_update",
-    "sanitized_name": "THE BOYS Temporada Final Tráiler Español Latino (2026)"
+    "sanitized_name": "¡El elenco de &#39;Besos, Kitty&#39; está igual de emocionado que nosotros por el regreso de BTS! 🤩😍"
   },
   {
-    "video_id": "qYBdLbxXBl8",
-    "url": "https://www.youtube.com/watch?v=qYBdLbxXBl8",
-    "title": "BRONCA Temporada 2 Tráiler Español Latino (2026) Oscar Isaac",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-03-05T15:45:07Z",
-    "found_at": "2026-03-05T15:58:59.115834",
-    "status": "pending",
-    "sanitized_name": "BRONCA Temporada 2 Tráiler Español Latino (2026) Oscar Isaac"
-  },
-  {
-    "video_id": "ZKuz8LpEYiM",
-    "url": "https://www.youtube.com/watch?v=ZKuz8LpEYiM",
-    "title": "LINTERNAS Tráiler Español (2026) Kyle Chandler, Aaron Pierre",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-03-05T15:22:30Z",
-    "found_at": "2026-03-05T15:58:59.115852",
-    "status": "pending",
-    "sanitized_name": "LINTERNAS Tráiler Español (2026) Kyle Chandler, Aaron Pierre"
-  },
-  {
-    "video_id": "quEC5L6t3UI",
-    "url": "https://www.youtube.com/watch?v=quEC5L6t3UI",
-    "title": "LOS TESTAMENTOS: DE LAS HIJAS DE GILEAD Tráiler Español Latino (2026) The Handmaid&#39;s Tale Sequel",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-03-05T15:09:00Z",
-    "found_at": "2026-03-05T15:58:59.115857",
-    "status": "uploaded",
-    "sanitized_name": "LOS TESTAMENTOS_ DE LAS HIJAS DE GILEAD Tráiler Español Latino (2026) The Handmaid&#39;s Tale Sequel",
-    "metadata_updated_at": "2026-03-05T16:29:18.089700",
-    "uploaded_at": "2026-03-05T16:29:25.646883",
-    "youtube_id": "u81wJVcEC6w"
-  },
-  {
-    "video_id": "sFLHxOARswg",
-    "url": "https://www.youtube.com/watch?v=sFLHxOARswg",
-    "title": "LINTERNAS Tráiler Español Latino (2026) Linterna Verde, DC",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-03-04T19:30:42Z",
-    "found_at": "2026-03-05T15:58:59.115860",
-    "status": "pending",
-    "sanitized_name": "LINTERNAS Tráiler Español Latino (2026) Linterna Verde, DC"
-  },
-  {
-    "video_id": "GP-mpuKC7tw",
-    "url": "https://www.youtube.com/watch?v=GP-mpuKC7tw",
-    "title": "INVENCIBLE Temporada 4 &quot;Thragg&quot; Tráiler Español Latino (2026)",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-03-04T17:47:32Z",
-    "found_at": "2026-03-05T15:58:59.115863",
-    "status": "pending",
-    "sanitized_name": "INVENCIBLE Temporada 4 &quot;Thragg&quot; Tráiler Español Latino (2026)"
-  },
-  {
-    "video_id": "HnKUpQdDjGU",
-    "url": "https://www.youtube.com/watch?v=HnKUpQdDjGU",
-    "title": "LOS NO ELEGIDOS Tráiler Español Latino (2026) Asa Butterfield",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-03-04T11:10:36Z",
-    "found_at": "2026-03-04T14:06:44.818659",
-    "status": "uploaded",
-    "sanitized_name": "LOS NO ELEGIDOS Tráiler Español Latino (2026) Asa Butterfield",
-    "metadata_updated_at": "2026-03-04T15:23:19.319079",
-    "uploaded_at": "2026-03-04T15:23:24.662309",
-    "youtube_id": "oF9lR43tgwY"
-  },
-  {
-    "video_id": "0YaJZfsaOGg",
-    "url": "https://www.youtube.com/watch?v=0YaJZfsaOGg",
-    "title": "LA NIÑA Tráiler Español Latino (2026)",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-03-03T16:01:20Z",
-    "found_at": "2026-03-03T16:49:38.790660",
-    "status": "pending",
-    "sanitized_name": "LA NIÑA Tráiler Español Latino (2026)"
-  },
-  {
-    "video_id": "YRay82VpdNE",
-    "url": "https://www.youtube.com/watch?v=YRay82VpdNE",
-    "title": "MIKE &amp; NICK &amp; NIKE &amp; ALICE Tráiler Español Latino (2026)",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-03-02T18:25:45Z",
-    "found_at": "2026-03-02T18:30:24.540239",
+    "video_id": "je5pauQvusY",
+    "url": "https://www.youtube.com/watch?v=je5pauQvusY",
+    "title": "Un pasillo para esta peli. Peaky Blinders: El Hombre Inmortal estrena el 20 de marzo | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-03-18T16:00:00Z",
+    "found_at": "2026-03-19T02:56:09.471126",
     "status": "metadata_update",
-    "sanitized_name": "MIKE &amp; NICK &amp; NIKE &amp; ALICE Tráiler Español Latino (2026)"
+    "sanitized_name": "Un pasillo para esta peli. Peaky Blinders_ El Hombre Inmortal estrena el 20 de marzo _ Netflix"
   },
   {
-    "video_id": "5P_HkI-p5tg",
-    "url": "https://www.youtube.com/watch?v=5P_HkI-p5tg",
-    "title": "ONE PIECE: Temporada 2 Tráiler Final  Español Latino (2026) Brogy",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-03-02T16:42:36Z",
-    "found_at": "2026-03-02T18:30:24.540249",
+    "video_id": "YaG32VdN2Yc",
+    "url": "https://www.youtube.com/watch?v=YaG32VdN2Yc",
+    "title": "Compañeras de cuarto | Tráiler oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-03-17T17:16:30Z",
+    "found_at": "2026-03-19T02:56:09.471129",
     "status": "metadata_update",
-    "sanitized_name": "ONE PIECE_ Temporada 2 Tráiler Final  Español Latino (2026) Brogy"
+    "sanitized_name": "Compañeras de cuarto _ Tráiler oficial _ Netflix"
   },
   {
-    "video_id": "UPDjaBBJThU",
-    "url": "https://www.youtube.com/watch?v=UPDjaBBJThU",
-    "title": "SCARY MOVIE 6 Tráiler Español Latino Oficial (2026)",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-03-02T14:43:42Z",
-    "found_at": "2026-03-02T18:30:24.540253",
-    "status": "uploaded",
-    "sanitized_name": "SCARY MOVIE 6 Tráiler Español Latino Oficial (2026)",
-    "metadata_updated_at": "2026-03-02T18:33:56.892685",
-    "uploaded_at": "2026-03-02T18:34:02.976518",
-    "youtube_id": "KPPy116Ra9o"
+    "video_id": "VfNcyWeULjw",
+    "url": "https://www.youtube.com/watch?v=VfNcyWeULjw",
+    "title": "BTS: EL REGRESO | Documental | Tráiler oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-03-16T23:00:01Z",
+    "found_at": "2026-03-19T02:56:09.471131",
+    "status": "metadata_update",
+    "sanitized_name": "BTS_ EL REGRESO _ Documental _ Tráiler oficial _ Netflix"
+  },
+  {
+    "video_id": "M9OOqeeFZPI",
+    "url": "https://www.youtube.com/watch?v=M9OOqeeFZPI",
+    "title": "Algo terrible está a punto de suceder | Tráiler oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-03-13T15:00:01Z",
+    "found_at": "2026-03-19T02:56:09.471134",
+    "status": "metadata_update",
+    "sanitized_name": "Algo terrible está a punto de suceder _ Tráiler oficial _ Netflix"
+  },
+  {
+    "video_id": "-CO1UNAtpNg",
+    "url": "https://www.youtube.com/watch?v=-CO1UNAtpNg",
+    "title": "Embestida | Tráiler oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-03-12T13:00:00Z",
+    "found_at": "2026-03-19T02:56:09.471136",
+    "status": "metadata_update",
+    "sanitized_name": "Embestida _ Tráiler oficial _ Netflix"
   },
   {
     "video_id": "b4ETWVp_fEg",
@@ -250,7 +332,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-03-11T13:30:04Z",
     "found_at": "2026-03-12T03:20:25.715963",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "El Halcón _ Presentación de personaje_ Lonnie Hawkins _ Netflix"
   },
   {
@@ -261,7 +343,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-03-10T17:00:01Z",
     "found_at": "2026-03-12T03:20:25.715966",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Hombre en llamas _ Avance oficial _ Netflix"
   },
   {
@@ -272,7 +354,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-03-10T14:00:00Z",
     "found_at": "2026-03-10T14:06:25.345998",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Criaturas luminosas _ Avance oficial _ Netflix"
   },
   {
@@ -297,7 +379,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-03-09T15:00:01Z",
     "found_at": "2026-03-10T14:06:25.346013",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "XO, Kitty_ Temporada 3 _ Tráiler oficial _ Netflix"
   },
   {
@@ -308,7 +390,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-03-08T15:00:00Z",
     "found_at": "2026-03-10T14:06:25.346016",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Campanella, Brandoni y Blanco_ charla entre actores y director _ Parque Lezama _ Netflix"
   },
   {
@@ -319,7 +401,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-03-08T03:00:01Z",
     "found_at": "2026-03-10T14:06:25.346018",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Dorohedoro_ Temporada 2 _ Tráiler oficial _ Netflix"
   },
   {
@@ -330,7 +412,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-03-05T15:00:01Z",
     "found_at": "2026-03-05T15:58:59.371533",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Bronca_ Temporada 2 _ Avance oficial _ Netflix"
   },
   {
@@ -341,7 +423,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-03-05T00:00:04Z",
     "found_at": "2026-03-05T15:58:59.371548",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "BTS_ EL COMEBACK EN VIVO _ ARIRANG _ Tráiler oficial _ Netflix"
   },
   {
@@ -366,105 +448,85 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-03-04T11:00:02Z",
     "found_at": "2026-03-04T14:06:45.008758",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Los no elegidos _ Avance oficial _ Netflix"
   },
   {
-    "video_id": "2Y2rMq2IW2k",
-    "url": "https://www.youtube.com/watch?v=2Y2rMq2IW2k",
-    "title": "Sabuesos: Temporada 2 | Avance oficial | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-03-04T00:00:00Z",
-    "found_at": "2026-03-04T00:27:48.567450",
-    "status": "uploaded",
-    "sanitized_name": "Sabuesos_ Temporada 2 _ Avance oficial _ Netflix",
-    "metadata_updated_at": "2026-03-04T00:30:28.583601",
-    "uploaded_at": "2026-03-04T00:30:34.185347",
-    "youtube_id": "a9QGIUnocmI"
-  },
-  {
-    "video_id": "87-l7TXLxDo",
-    "url": "https://www.youtube.com/watch?v=87-l7TXLxDo",
-    "title": "Harry Styles: Una noche en Mánchester | Anuncio | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-03-02T17:00:02Z",
-    "found_at": "2026-03-02T18:30:24.757112",
+    "video_id": "mxOw3juIl3c",
+    "url": "https://www.youtube.com/watch?v=mxOw3juIl3c",
+    "title": "Había una vez: Zeki | Margarita | HBO Max",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2026-03-17T21:01:02Z",
+    "found_at": "2026-03-19T02:56:09.713641",
     "status": "metadata_update",
-    "sanitized_name": "Harry Styles_ Una noche en Mánchester _ Anuncio _ Netflix"
+    "sanitized_name": "Había una vez_ Zeki _ Margarita _ HBO Max"
   },
   {
-    "video_id": "0D6eswBTSa0",
-    "url": "https://www.youtube.com/watch?v=0D6eswBTSa0",
-    "title": "ONE PIECE: Temporada 2 | Tráiler final | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-03-02T14:00:05Z",
-    "found_at": "2026-03-02T18:30:24.757120",
+    "video_id": "i1vmBWeGVrA",
+    "url": "https://www.youtube.com/watch?v=i1vmBWeGVrA",
+    "title": "Recap | Máxima | HBO Max",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2026-03-17T15:01:19Z",
+    "found_at": "2026-03-19T02:56:09.713651",
     "status": "metadata_update",
-    "sanitized_name": "ONE PIECE_ Temporada 2 _ Tráiler final _ Netflix"
+    "sanitized_name": "Recap _ Máxima _ HBO Max"
   },
   {
-    "video_id": "phkr_z21b9I",
-    "url": "https://www.youtube.com/watch?v=phkr_z21b9I",
-    "title": "La directora Geeta Gandbhir explica los orígenes de &#39;La vecina perfecta&#39; | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-02-28T01:02:04Z",
-    "found_at": "2026-03-02T18:30:24.757123",
+    "video_id": "Bjpstl1wXSM",
+    "url": "https://www.youtube.com/watch?v=Bjpstl1wXSM",
+    "title": "Como Agua Para Chocolate - Temporada final | Avance Episodio 6 | HBO Max",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2026-03-16T16:00:28Z",
+    "found_at": "2026-03-19T02:56:09.713654",
     "status": "metadata_update",
-    "sanitized_name": "La directora Geeta Gandbhir explica los orígenes de &#39;La vecina perfecta&#39; _ Netflix"
+    "sanitized_name": "Como Agua Para Chocolate - Temporada final _ Avance Episodio 6 _ HBO Max"
   },
   {
-    "video_id": "Q3KrIs9zk7Y",
-    "url": "https://www.youtube.com/watch?v=Q3KrIs9zk7Y",
-    "title": "BEASTARS: Temporada final (Parte 2) | Tráiler final | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-02-28T00:00:02Z",
-    "found_at": "2026-03-02T18:30:24.757126",
+    "video_id": "jepgsYVSCt4",
+    "url": "https://www.youtube.com/watch?v=jepgsYVSCt4",
+    "title": "La virgen de la tosquera | Tráiler | HBO Max.",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2026-03-16T15:01:17Z",
+    "found_at": "2026-03-19T02:56:09.713657",
     "status": "metadata_update",
-    "sanitized_name": "BEASTARS_ Temporada final (Parte 2) _ Tráiler final _ Netflix"
+    "sanitized_name": "La virgen de la tosquera _ Tráiler _ HBO Max."
   },
   {
-    "video_id": "HZjBkwY4jE8",
-    "url": "https://www.youtube.com/watch?v=HZjBkwY4jE8",
-    "title": "Aún es de noche en Caracas | Tráiler oficial | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-02-27T12:00:00Z",
-    "found_at": "2026-03-02T18:30:24.757128",
-    "status": "uploaded",
-    "sanitized_name": "Aún es de noche en Caracas _ Tráiler oficial _ Netflix",
-    "metadata_updated_at": "2026-03-02T19:02:49.603179",
-    "uploaded_at": "2026-03-02T19:02:54.626670",
-    "youtube_id": "mu9JpKgiYdM"
-  },
-  {
-    "video_id": "KbXh8bm8gog",
-    "url": "https://www.youtube.com/watch?v=KbXh8bm8gog",
-    "title": "La luz que aún nos guía | TRÁILER OFICIAL | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-02-27T02:00:00Z",
-    "found_at": "2026-03-02T18:30:24.757130",
-    "status": "uploaded",
-    "sanitized_name": "La luz que aún nos guía _ TRÁILER OFICIAL _ Netflix",
-    "metadata_updated_at": "2026-03-04T15:42:53.960777",
-    "uploaded_at": "2026-03-04T15:42:59.556384",
-    "youtube_id": "lVXo9fENTEA"
-  },
-  {
-    "video_id": "fYQUjQwwKr4",
-    "url": "https://www.youtube.com/watch?v=fYQUjQwwKr4",
-    "title": "Entrenamiento One Piece Mexico I Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-02-27T01:46:21Z",
-    "found_at": "2026-03-02T18:30:24.757132",
+    "video_id": "I0z70bK5JYo",
+    "url": "https://www.youtube.com/watch?v=I0z70bK5JYo",
+    "title": "Tan fuerte que pausé la escena tres veces para procesarlo 👁️👄👁️ #ComoAguaParaChocolate",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2026-03-15T21:00:30Z",
+    "found_at": "2026-03-19T02:56:09.713659",
     "status": "metadata_update",
-    "sanitized_name": "Entrenamiento One Piece Mexico I Netflix"
+    "sanitized_name": "Tan fuerte que pausé la escena tres veces para procesarlo 👁️👄👁️ #ComoAguaParaChocolate"
+  },
+  {
+    "video_id": "hPpr1qqnN7I",
+    "url": "https://www.youtube.com/watch?v=hPpr1qqnN7I",
+    "title": "Rosaura, mente de tiburón en negocios matrimoniales 🙄 Nuevo episodio de #ComoAguaParaChocolate.",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2026-03-15T16:00:58Z",
+    "found_at": "2026-03-19T02:56:09.713662",
+    "status": "metadata_update",
+    "sanitized_name": "Rosaura, mente de tiburón en negocios matrimoniales 🙄 Nuevo episodio de #ComoAguaParaChocolate."
+  },
+  {
+    "video_id": "unBVCTVH6mg",
+    "url": "https://www.youtube.com/watch?v=unBVCTVH6mg",
+    "title": "Rick &amp; Morty | Temporada 9 - Vamos a entrenar | HBO Max",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2026-03-12T20:11:08Z",
+    "found_at": "2026-03-19T02:56:09.713664",
+    "status": "metadata_update",
+    "sanitized_name": "Rick &amp; Morty _ Temporada 9 - Vamos a entrenar _ HBO Max"
   },
   {
     "video_id": "6b990cPiCtk",
@@ -474,7 +536,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-12T00:00:16Z",
     "found_at": "2026-03-12T03:20:25.983496",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "No estoy llorando, se me metió esta escena de #ComoAguaParaChocolate en el ojo 😭😭"
   },
   {
@@ -485,7 +547,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-11T21:01:00Z",
     "found_at": "2026-03-12T03:20:25.983510",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Recap_ Pipe _ Margarita _ HBO Max"
   },
   {
@@ -496,7 +558,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-11T15:57:03Z",
     "found_at": "2026-03-12T03:20:25.983514",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Tomar los momentos más pequeños y convertirlos en algo más grande. #Euphoria"
   },
   {
@@ -507,7 +569,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-11T00:08:10Z",
     "found_at": "2026-03-12T03:20:25.983517",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Y ustedes, ¿qué consejo le darían a Tita_ 🤔 #ComoAguaParaChocolate"
   },
   {
@@ -518,7 +580,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-10T21:00:29Z",
     "found_at": "2026-03-12T03:20:25.983520",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Había una vez_ Pipe _ Margarita _ HBO Max"
   },
   {
@@ -529,7 +591,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-10T16:09:28Z",
     "found_at": "2026-03-12T03:20:25.983525",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Los Asesinos de Colosio _ Tráiler Oficial _ HBO Max"
   },
   {
@@ -540,7 +602,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-09T22:00:51Z",
     "found_at": "2026-03-10T14:06:25.609941",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "¡Ay Tita! ¿Qué vas a hacer ahora_ #ComoAguaParaChocolate"
   },
   {
@@ -551,7 +613,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-09T17:00:44Z",
     "found_at": "2026-03-10T14:06:25.609952",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Como Agua Para Chocolate - Temporada final _ Avance Episodio 5 _ HBO Max"
   },
   {
@@ -562,7 +624,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-09T01:00:12Z",
     "found_at": "2026-03-10T14:06:25.609955",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Yo le hubiera respondido_ ¡¿Como cuando te casaste con Rosaura_! ¿no_.. 😅 #ComoAguaParaChocolate"
   },
   {
@@ -573,7 +635,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-08T00:00:54Z",
     "found_at": "2026-03-10T14:06:25.609958",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Tomar fuego valyrio no te convierte en dragón...#GameOfThrones #ElCaballeroDeLosSieteReinos"
   },
   {
@@ -584,7 +646,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-06T20:00:13Z",
     "found_at": "2026-03-06T22:27:19.314148",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Privilegios _ Tráiler Oficial _ HBO Max"
   },
   {
@@ -595,7 +657,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-05T22:00:10Z",
     "found_at": "2026-03-06T22:27:19.314162",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Yo le pondría_ una madre cariñosa… solo para Gertrudis. #ComoAguaParaChocolate"
   },
   {
@@ -606,85 +668,140 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-05T21:00:00Z",
     "found_at": "2026-03-06T22:27:19.314166",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Recap_ Rey _ Margarita _ HBO Max"
   },
   {
-    "video_id": "W4HGyFgpxTM",
-    "url": "https://www.youtube.com/watch?v=W4HGyFgpxTM",
-    "title": "Nua na Rede | Tráiler Oficial | HBO Max",
-    "channel": "HBO Max Latinoamérica",
-    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
-    "published": "2026-03-05T15:29:48Z",
-    "found_at": "2026-03-05T15:58:59.652441",
-    "status": "pending",
-    "sanitized_name": "Nua na Rede _ Tráiler Oficial _ HBO Max"
-  },
-  {
-    "video_id": "_lZtC3aHnjM",
-    "url": "https://www.youtube.com/watch?v=_lZtC3aHnjM",
-    "title": "Rick &amp; Morty Megaesfera | Temporada 9 | HBO Max",
-    "channel": "HBO Max Latinoamérica",
-    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
-    "published": "2026-03-05T15:02:30Z",
-    "found_at": "2026-03-05T15:58:59.652457",
-    "status": "pending",
-    "sanitized_name": "Rick &amp; Morty Megaesfera _ Temporada 9 _ HBO Max"
-  },
-  {
-    "video_id": "2yzgwSBzCV4",
-    "url": "https://www.youtube.com/watch?v=2yzgwSBzCV4",
-    "title": "Había una vez: Rey | Margarita | HBO Max",
-    "channel": "HBO Max Latinoamérica",
-    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
-    "published": "2026-03-04T21:06:57Z",
-    "found_at": "2026-03-05T15:58:59.652460",
-    "status": "pending",
-    "sanitized_name": "Había una vez_ Rey _ Margarita _ HBO Max"
-  },
-  {
-    "video_id": "oIEtDSbrAOE",
-    "url": "https://www.youtube.com/watch?v=oIEtDSbrAOE",
-    "title": "¿Soy yo o hace calor aquí? 🔥🥵 #ComoAguaParaChocolate #TitadelaGarza #PedroMuzquiz",
-    "channel": "HBO Max Latinoamérica",
-    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
-    "published": "2026-03-04T21:00:51Z",
-    "found_at": "2026-03-05T15:58:59.652463",
-    "status": "pending",
-    "sanitized_name": "¿Soy yo o hace calor aquí_ 🔥🥵 #ComoAguaParaChocolate #TitadelaGarza #PedroMuzquiz"
-  },
-  {
-    "video_id": "rj-AlWROi8I",
-    "url": "https://www.youtube.com/watch?v=rj-AlWROi8I",
-    "title": "Linternas | Teaser Oficial | HBO Max",
-    "channel": "HBO Max Latinoamérica",
-    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
-    "published": "2026-03-04T19:22:12Z",
-    "found_at": "2026-03-05T15:58:59.652466",
-    "status": "pending",
-    "sanitized_name": "Linternas _ Teaser Oficial _ HBO Max"
-  },
-  {
-    "video_id": "k-TbXK8AuK0",
-    "url": "https://www.youtube.com/watch?v=k-TbXK8AuK0",
-    "title": "Recomendación médica: no combinar con lasaña 🍝🩺 The Pitt, nuevo episodio cada jueves por HBO Max.",
-    "channel": "HBO Max Latinoamérica",
-    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
-    "published": "2026-03-04T18:00:48Z",
-    "found_at": "2026-03-05T15:58:59.652469",
-    "status": "pending",
-    "sanitized_name": "Recomendación médica_ no combinar con lasaña 🍝🩺 The Pitt, nuevo episodio cada jueves por HBO Max."
-  },
-  {
-    "video_id": "iSf5D4T2-jE",
-    "url": "https://www.youtube.com/watch?v=iSf5D4T2-jE",
-    "title": "Lila Downs - Detrás de cámaras | Como Agua Para Chocolate - Temporada final | HBO Max",
-    "channel": "HBO Max Latinoamérica",
-    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
-    "published": "2026-03-03T22:00:46Z",
-    "found_at": "2026-03-04T00:27:48.906851",
+    "video_id": "rS7hqWkWCkQ",
+    "url": "https://www.youtube.com/watch?v=rS7hqWkWCkQ",
+    "title": "No es fácil ser un héroe. Invincible Temporada 4, ya disponible. #Invincible #shorts",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-03-18T20:00:39Z",
+    "found_at": "2026-03-19T02:56:09.930533",
     "status": "metadata_update",
-    "sanitized_name": "Lila Downs - Detrás de cámaras _ Como Agua Para Chocolate - Temporada final _ HBO Max"
+    "sanitized_name": "No es fácil ser un héroe. Invincible Temporada 4, ya disponible. #Invincible #shorts"
+  },
+  {
+    "video_id": "6_-NciZ7GDc",
+    "url": "https://www.youtube.com/watch?v=6_-NciZ7GDc",
+    "title": "SI NO CANTA, NO SE ENTIENDE. #HotelHazbin",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-03-18T17:00:48Z",
+    "found_at": "2026-03-19T02:56:09.930549",
+    "status": "metadata_update",
+    "sanitized_name": "SI NO CANTA, NO SE ENTIENDE. #HotelHazbin"
+  },
+  {
+    "video_id": "VfivjmRtuzs",
+    "url": "https://www.youtube.com/watch?v=VfivjmRtuzs",
+    "title": "¿ES UNA LECCIÓN DE HUMILDAD O UNA JUGADA MAESTRA DE MYCROFT?#ElJovenSherlock",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-03-17T22:15:36Z",
+    "found_at": "2026-03-19T02:56:09.930552",
+    "status": "metadata_update",
+    "sanitized_name": "¿ES UNA LECCIÓN DE HUMILDAD O UNA JUGADA MAESTRA DE MYCROFT_#ElJovenSherlock"
+  },
+  {
+    "video_id": "HeR6Sqdqmxo",
+    "url": "https://www.youtube.com/watch?v=HeR6Sqdqmxo",
+    "title": "La ESCENA OCULTA que cambia TODO en FALLOUT ☢️",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-03-17T21:00:00Z",
+    "found_at": "2026-03-19T02:56:09.930554",
+    "status": "metadata_update",
+    "sanitized_name": "La ESCENA OCULTA que cambia TODO en FALLOUT ☢️"
+  },
+  {
+    "video_id": "Muo-HOZ03Hs",
+    "url": "https://www.youtube.com/watch?v=Muo-HOZ03Hs",
+    "title": "CUALQUIER PARECIDO CON LA REALIDAD… 😨 #2012 #JohnCusack #Shorts",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-03-17T17:30:28Z",
+    "found_at": "2026-03-19T02:56:09.930557",
+    "status": "metadata_update",
+    "sanitized_name": "CUALQUIER PARECIDO CON LA REALIDAD… 😨 #2012 #JohnCusack #Shorts"
+  },
+  {
+    "video_id": "_waOywhL7Ow",
+    "url": "https://www.youtube.com/watch?v=_waOywhL7Ow",
+    "title": "AÚN CON 28 AÑOS DE DIFERENCIA, SCARPETTA ESTÁ EN LA JUGADA 🧤 🔬 🧬 #Scarpetta #Shorts",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-03-16T21:00:26Z",
+    "found_at": "2026-03-19T02:56:09.930560",
+    "status": "metadata_update",
+    "sanitized_name": "AÚN CON 28 AÑOS DE DIFERENCIA, SCARPETTA ESTÁ EN LA JUGADA 🧤 🔬 🧬 #Scarpetta #Shorts"
+  },
+  {
+    "video_id": "a5PWKcq64JI",
+    "url": "https://www.youtube.com/watch?v=a5PWKcq64JI",
+    "title": "COLT SEAVERS TIENE UN ALGO QUE LO HACE IRRESISTIBLE PERO DESESPERANTE 🙄 #ProfesiónPeligro #Shorts",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-03-16T17:00:49Z",
+    "found_at": "2026-03-19T02:56:09.930562",
+    "status": "metadata_update",
+    "sanitized_name": "COLT SEAVERS TIENE UN ALGO QUE LO HACE IRRESISTIBLE PERO DESESPERANTE 🙄 #ProfesiónPeligro #Shorts"
+  },
+  {
+    "video_id": "4R08kDIYkjI",
+    "url": "https://www.youtube.com/watch?v=4R08kDIYkjI",
+    "title": "POR ESTE TIPO DE COSAS ES QUE LOS ABANDONARON 😔 #TheBoysDiabolical #shorts",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-03-15T21:30:27Z",
+    "found_at": "2026-03-19T02:56:09.930565",
+    "status": "metadata_update",
+    "sanitized_name": "POR ESTE TIPO DE COSAS ES QUE LOS ABANDONARON 😔 #TheBoysDiabolical #shorts"
+  },
+  {
+    "video_id": "zflgcubpEJ4",
+    "url": "https://www.youtube.com/watch?v=zflgcubpEJ4",
+    "title": "A ESO LLAMO UN TRABAJO EN CUBIERTO. #HOUSE",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-03-15T17:00:32Z",
+    "found_at": "2026-03-19T02:56:09.930567",
+    "status": "metadata_update",
+    "sanitized_name": "A ESO LLAMO UN TRABAJO EN CUBIERTO. #HOUSE"
+  },
+  {
+    "video_id": "p_yVq1KimUY",
+    "url": "https://www.youtube.com/watch?v=p_yVq1KimUY",
+    "title": "El Joven Sherlock - Hero Fiennes Tiffin es el NUEVO Sherlock 🕵️‍♂️ | Prime Video",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-03-15T16:00:00Z",
+    "found_at": "2026-03-19T02:56:09.930569",
+    "status": "metadata_update",
+    "sanitized_name": "El Joven Sherlock - Hero Fiennes Tiffin es el NUEVO Sherlock 🕵️‍♂️ _ Prime Video"
+  },
+  {
+    "video_id": "FDyCWZl3zjc",
+    "url": "https://www.youtube.com/watch?v=FDyCWZl3zjc",
+    "title": "Pero qué GALÁN Parker. #SpiderMan",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-03-14T16:00:46Z",
+    "found_at": "2026-03-19T02:56:09.930571",
+    "status": "metadata_update",
+    "sanitized_name": "Pero qué GALÁN Parker. #SpiderMan"
+  },
+  {
+    "video_id": "R2u7yLxUVio",
+    "url": "https://www.youtube.com/watch?v=R2u7yLxUVio",
+    "title": "CASI LE DA UN ATAQUE A FRAN (Y A NILES 😠)    #TheNanny #shorts",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-03-13T21:00:36Z",
+    "found_at": "2026-03-19T02:56:09.930576",
+    "status": "metadata_update",
+    "sanitized_name": "CASI LE DA UN ATAQUE A FRAN (Y A NILES 😠)    #TheNanny #shorts"
   },
   {
     "video_id": "KjP2rXrrvvE",
@@ -694,7 +811,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-03-11T22:00:35Z",
     "found_at": "2026-03-12T03:20:26.227891",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "MORIARTY ES EXPERTO EN PONER A SHERLOCK EN APUROS, POR SU BIEN. #ElJovenSherlock #Shorts"
   },
   {
@@ -705,7 +822,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-03-11T16:00:37Z",
     "found_at": "2026-03-12T03:20:26.227906",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "SCARPETTA YA DISPONIBLE 🤩 #Scarpetta #NicoleKidman #shorts"
   },
   {
@@ -716,7 +833,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-03-10T21:30:46Z",
     "found_at": "2026-03-12T03:20:26.227911",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Una vez pirata... siempre pirata, no importa cuanto trates huir. 🏴‍☠️ #ElEngaño #shorts"
   },
   {
@@ -727,7 +844,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-03-10T17:14:43Z",
     "found_at": "2026-03-12T03:20:26.227914",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "¿HISTERIA COLECTIVA O INTOXICACIÓN REAL_#DrHouse #Shorts"
   },
   {
@@ -738,7 +855,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-03-10T14:01:27Z",
     "found_at": "2026-03-10T14:06:25.875245",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "El Señuelo - Tráiler Oficial I Prime Video"
   },
   {
@@ -749,7 +866,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-03-09T21:00:32Z",
     "found_at": "2026-03-10T14:06:25.875257",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "UN TRATO CON EL DIABLO. #Fargo #shorts"
   },
   {
@@ -760,7 +877,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-03-09T16:00:25Z",
     "found_at": "2026-03-10T14:06:25.875260",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "LA TEMPORADA 4 DE INVINCIBLE ESTARÁ DISPONIBLE EL 18 DE MARZO 👌 #Invencible #MarkGrayson #Shorts"
   },
   {
@@ -771,142 +888,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-03-08T21:30:41Z",
     "found_at": "2026-03-10T14:06:25.875263",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "HACIENDO AMIGOS dondequiera que van #ElJovenSherlock #YoungSherlock #Shorts"
-  },
-  {
-    "video_id": "zOKUU8vgWUE",
-    "url": "https://www.youtube.com/watch?v=zOKUU8vgWUE",
-    "title": "Y NOS DIO CÁTEDRA DE CÓMO MANEJAR A HOMELANDER #TheBoys #Homelander #Shorts",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-03-08T19:00:37Z",
-    "found_at": "2026-03-10T14:06:25.875265",
-    "status": "pending",
-    "sanitized_name": "Y NOS DIO CÁTEDRA DE CÓMO MANEJAR A HOMELANDER #TheBoys #Homelander #Shorts"
-  },
-  {
-    "video_id": "OVpeWX3PLIE",
-    "url": "https://www.youtube.com/watch?v=OVpeWX3PLIE",
-    "title": "PRIMERA CITA de Ciara y Oliver - 56 Días | Prime Video",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-03-08T16:00:00Z",
-    "found_at": "2026-03-10T14:06:25.875267",
-    "status": "pending",
-    "sanitized_name": "PRIMERA CITA de Ciara y Oliver - 56 Días _ Prime Video"
-  },
-  {
-    "video_id": "ADcVNVTNOyw",
-    "url": "https://www.youtube.com/watch?v=ADcVNVTNOyw",
-    "title": "¿Atracción en medio de presiones escolares? Sí, por favor 🤭 “Amor Fuera de Tiempo” 12 de marzo.",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-03-07T21:00:28Z",
-    "found_at": "2026-03-10T14:06:25.875270",
-    "status": "pending",
-    "sanitized_name": "¿Atracción en medio de presiones escolares_ Sí, por favor 🤭 “Amor Fuera de Tiempo” 12 de marzo."
-  },
-  {
-    "video_id": "LJQSXJW6DNA",
-    "url": "https://www.youtube.com/watch?v=LJQSXJW6DNA",
-    "title": "GRACIAS POR TANTO SEÑOR SHEFFIELD 🥺🫶🏻💞 #TheNanny #Shorts",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-03-07T17:30:25Z",
-    "found_at": "2026-03-10T14:06:25.875272",
-    "status": "pending",
-    "sanitized_name": "GRACIAS POR TANTO SEÑOR SHEFFIELD 🥺🫶🏻💞 #TheNanny #Shorts"
-  },
-  {
-    "video_id": "v-Ya8Gk4WWo",
-    "url": "https://www.youtube.com/watch?v=v-Ya8Gk4WWo",
-    "title": "¿Usarían la crema? YO DESCONFÍO HASTA DE ENTRAR A VOUGHT #TheBoysDiabolical #shorts",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-03-06T22:00:44Z",
-    "found_at": "2026-03-06T22:27:19.581514",
-    "status": "metadata_update",
-    "sanitized_name": "¿Usarían la crema_ YO DESCONFÍO HASTA DE ENTRAR A VOUGHT #TheBoysDiabolical #shorts"
-  },
-  {
-    "video_id": "ufFN9lOiAGw",
-    "url": "https://www.youtube.com/watch?v=ufFN9lOiAGw",
-    "title": "LA CONDENA AUMENTABA CADA VEZ QUE HABLABA 😩  #YoungSherlock #shorts #HeroFiennesTiffin",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-03-06T19:30:23Z",
-    "found_at": "2026-03-06T22:27:19.581524",
-    "status": "metadata_update",
-    "sanitized_name": "LA CONDENA AUMENTABA CADA VEZ QUE HABLABA 😩  #YoungSherlock #shorts #HeroFiennesTiffin"
-  },
-  {
-    "video_id": "HuJcwkCPBJc",
-    "url": "https://www.youtube.com/watch?v=HuJcwkCPBJc",
-    "title": "¿Quién más ha querido hacer esto alguna vez?  🙋‍♂️🙋‍♀️​ #Sweetpea #EllaPurnell #Shorts",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-03-06T16:00:45Z",
-    "found_at": "2026-03-06T22:27:19.581528",
-    "status": "metadata_update",
-    "sanitized_name": "¿Quién más ha querido hacer esto alguna vez_  🙋‍♂️🙋‍♀️​ #Sweetpea #EllaPurnell #Shorts"
-  },
-  {
-    "video_id": "UxWWvQsQf5g",
-    "url": "https://www.youtube.com/watch?v=UxWWvQsQf5g",
-    "title": "QUE ALGUIEN LE DE UN ÓSCAR A WILLEM DAFOE POR FAVOR Y GRACIAS 🤯 #ElFaro #Shorts",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-03-05T21:00:33Z",
-    "found_at": "2026-03-06T22:27:19.581531",
-    "status": "metadata_update",
-    "sanitized_name": "QUE ALGUIEN LE DE UN ÓSCAR A WILLEM DAFOE POR FAVOR Y GRACIAS 🤯 #ElFaro #Shorts"
-  },
-  {
-    "video_id": "HK0PrzNOfck",
-    "url": "https://www.youtube.com/watch?v=HK0PrzNOfck",
-    "title": "The Boys– Temporada Final | Trailer Oficial | Prime Video",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-03-05T17:00:00Z",
-    "found_at": "2026-03-06T22:27:19.581534",
-    "status": "uploaded",
-    "sanitized_name": "The Boys– Temporada Final _ Trailer Oficial _ Prime Video",
-    "metadata_updated_at": "2026-03-06T22:31:24.791184",
-    "uploaded_at": "2026-03-06T22:31:29.557566",
-    "youtube_id": "IUmeTe3Xx5w"
-  },
-  {
-    "video_id": "RB9vTXxz34w",
-    "url": "https://www.youtube.com/watch?v=RB9vTXxz34w",
-    "title": "ÉL EVITATIVO + ELLA INSEGURA = 🚩🚩🚩 #56Días #DoveCameron #AvanJogia #Shorts",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-03-04T22:30:22Z",
-    "found_at": "2026-03-05T15:58:59.898479",
-    "status": "pending",
-    "sanitized_name": "ÉL EVITATIVO + ELLA INSEGURA = 🚩🚩🚩 #56Días #DoveCameron #AvanJogia #Shorts"
-  },
-  {
-    "video_id": "mWrHwPGbE-U",
-    "url": "https://www.youtube.com/watch?v=mWrHwPGbE-U",
-    "title": "¿QUÉ CREEN QUE LE HARÁ? Corran a ver esta 💎 de película #DulceVenganza",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-03-04T19:30:22Z",
-    "found_at": "2026-03-05T15:58:59.898494",
-    "status": "pending",
-    "sanitized_name": "¿QUÉ CREEN QUE LE HARÁ_ Corran a ver esta 💎 de película #DulceVenganza"
-  },
-  {
-    "video_id": "WrsQA1y197M",
-    "url": "https://www.youtube.com/watch?v=WrsQA1y197M",
-    "title": "Y CREEMOS QUE ESO ES MUY HERMOSO 🫶🏻  #YoungSherlock YA DISPONIBLE",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-03-04T15:30:47Z",
-    "found_at": "2026-03-04T15:40:55.728422",
-    "status": "metadata_update",
-    "sanitized_name": "Y CREEMOS QUE ESO ES MUY HERMOSO 🫶🏻  #YoungSherlock YA DISPONIBLE"
   }
 ]

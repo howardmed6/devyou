@@ -1143,3 +1143,17 @@
 2026-03-12 03:23:05,882 - INFO - [CLEANUP] Archivos eliminados: b4ETWVp_fEg
 2026-03-12 03:23:08,854 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-03-12 03:23:08,855 - INFO - [FINISH] Proceso completado
+2026-03-19 03:00:29,460 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-19 03:00:29,934 - INFO - [UPLOAD] Procesando: SPIDER-MAN: UN NUEVO DÍA Tráiler Español Latino (2026)
+2026-03-19 03:00:29,934 - INFO - [SEARCH] Buscando archivos para: 'SPIDER-MAN: UN NUEVO DÍA Tráiler Español Latino (2026)'
+2026-03-19 03:00:29,935 - INFO - [SEARCH] Palabras clave: ['spider-man', 'un', 'nuevo']
+2026-03-19 03:00:29,935 - INFO - [FILES] JSON: SPIDER-MAN_ UN NUEVO DÍA Tráiler Español Latino (2026).json
+2026-03-19 03:00:29,935 - INFO - [FILES] Video: SPIDER-MAN_ UN NUEVO DÍA Tráiler Español Latino (2026)(1080P_HD).mp4
+2026-03-19 03:00:29,935 - INFO - [FILES] Thumbnail: SPIDER-MAN_ UN NUEVO DÍA Tráiler Español Latino (2026)(1080P_HD).jpg
+2026-03-19 03:00:29,944 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-19 03:00:30,112 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-19 03:00:31,692 - INFO - [YOUTUBE] Video subido: VpEK7xEgm8U
+2026-03-19 03:00:33,743 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-19 03:00:33,753 - INFO - [CLEANUP] Archivos eliminados: dZJ9_sgGXKg
+2026-03-19 03:00:36,840 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-19 03:00:36,840 - INFO - [FINISH] Proceso completado
