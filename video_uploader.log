@@ -1163,3 +1163,17 @@
 2026-03-24 20:38:02,386 - INFO - [FINISH] Proceso completado
 2026-03-24 20:40:12,333 - INFO - [PROCESS] No hay videos listos para subir
 2026-03-24 20:40:12,757 - INFO - [FINISH] Proceso completado
+2026-03-24 20:46:55,270 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-24 20:46:55,829 - INFO - [UPLOAD] Procesando: Los no elegidos | Tráiler oficial | Netflix
+2026-03-24 20:46:55,829 - INFO - [SEARCH] Buscando archivos para: 'Los no elegidos | Tráiler oficial | Netflix'
+2026-03-24 20:46:55,830 - INFO - [SEARCH] Palabras clave: ['los', 'no', 'elegidos']
+2026-03-24 20:46:55,830 - INFO - [FILES] JSON: Los no elegidos _ Tráiler oficial _ Netflix.json
+2026-03-24 20:46:55,830 - INFO - [FILES] Video: Los no elegidos _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-03-24 20:46:55,830 - INFO - [FILES] Thumbnail: Los no elegidos _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-03-24 20:46:55,843 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-24 20:46:55,928 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-24 20:46:57,357 - INFO - [YOUTUBE] Video subido: zVpw33kQbJ0
+2026-03-24 20:46:58,981 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-24 20:46:58,987 - INFO - [CLEANUP] Archivos eliminados: zUyzbl24Wo8
+2026-03-24 20:47:01,928 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-24 20:47:01,929 - INFO - [FINISH] Proceso completado

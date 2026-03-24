@@ -4973,3 +4973,53 @@ DESCRIPCIÓN: ...
 2026-03-24 20:40:11,537 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-03-24 20:40:11,964 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-03-24 20:40:11,965 - INFO - [FINISH] Proceso completado exitosamente
+2026-03-24 20:46:37,492 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-03-24 20:46:37,492 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-03-24 20:46:37,492 - INFO - [INIT] API Key disponible: Sí
+2026-03-24 20:46:37,492 - INFO - [INIT] Bot Token disponible: Sí
+2026-03-24 20:46:37,492 - INFO - [INIT] Chat ID disponible: Sí
+2026-03-24 20:46:37,492 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-03-24 20:46:37,492 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-03-24 20:46:37,492 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-24 20:46:37,493 - INFO - [JSON] Cargados 80 videos desde data.json
+2026-03-24 20:46:37,493 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-03-24 20:46:37,493 - INFO - [PROCESS] Procesando 1 videos...
+2026-03-24 20:46:37,493 - INFO - 
+--- Procesando video 1/1 ---
+2026-03-24 20:46:37,494 - INFO - [VIDEO] Título: Los no elegidos | Tráiler oficial | Netflix
+2026-03-24 20:46:37,494 - INFO - [VIDEO] ID: zUyzbl24Wo8
+2026-03-24 20:46:37,494 - INFO - [SEARCH] Buscando JSON para: 'Los no elegidos | Tráiler oficial | Netflix'
+2026-03-24 20:46:37,501 - INFO - [SEARCH] Primeras 3 palabras del título: ['los', 'elegidos', 'trailer']
+2026-03-24 20:46:37,501 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-03-24 20:46:37,502 - INFO - [COMPARE] Archivo: Los no elegidos _ Tráiler oficial _ Netflix.json
+2026-03-24 20:46:37,502 - INFO - [COMPARE] Título JSON: 'Los no elegidos | Tráiler oficial | Netflix'
+2026-03-24 20:46:37,502 - INFO - [COMPARE] Primeras 3 palabras JSON: ['los', 'elegidos', 'trailer']
+2026-03-24 20:46:37,502 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Los no elegidos _ Tráiler oficial _ Netflix.json
+2026-03-24 20:46:37,502 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-24 20:46:37,502 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-03-24 20:46:37,502 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-03-24 20:46:37,502 - INFO - [API] 🔑 API Key válida: ✅
+2026-03-24 20:46:37,502 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-03-24 20:46:54,396 - INFO - [API] 📊 Código de respuesta: 200
+2026-03-24 20:46:54,396 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-03-24 20:46:54,396 - INFO - [API] 📏 Longitud de respuesta: 2267 caracteres
+2026-03-24 20:46:54,396 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: LOS NO ELEGIDOS | Tráiler Oficial en Español Latino (2025) | Netflix
+
+DESCRIPCIÓN: 🎬 ¡Prepár...
+2026-03-24 20:46:54,397 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-03-24 20:46:54,398 - INFO - [PARSE] Datos parseados exitosamente:
+2026-03-24 20:46:54,398 - INFO -   - Título: LOS NO ELEGIDOS | Tráiler Oficial en Español Latin...
+2026-03-24 20:46:54,398 - INFO -   - Descripción: 1946 caracteres
+2026-03-24 20:46:54,398 - INFO -   - Tags: 10 elementos
+2026-03-24 20:46:54,399 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-03-24 20:46:54,399 - INFO - [UPDATE] JSON actualizado: Los no elegidos _ Tráiler oficial _ Netflix.json
+2026-03-24 20:46:54,400 - INFO - [JSON] Cargados 80 videos desde data.json
+2026-03-24 20:46:54,400 - INFO - [STATUS] Video zUyzbl24Wo8 actualizado a 'ok'
+2026-03-24 20:46:54,401 - INFO - [JSON] data.json actualizado exitosamente
+2026-03-24 20:46:54,401 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-03-24 20:46:54,401 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-03-24 20:46:54,401 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-03-24 20:46:54,401 - INFO - [SUMMARY] Videos fallidos: 0
+2026-03-24 20:46:54,858 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-03-24 20:46:54,859 - INFO - [FINISH] Proceso completado exitosamente
