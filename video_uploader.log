@@ -1179,3 +1179,17 @@
 2026-03-24 20:47:01,929 - INFO - [FINISH] Proceso completado
 2026-03-24 21:14:18,960 - INFO - [PROCESS] No hay videos listos para subir
 2026-03-24 21:14:19,583 - INFO - [FINISH] Proceso completado
+2026-03-24 21:19:22,548 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-24 21:19:23,014 - INFO - [UPLOAD] Procesando: MOANA Tráiler Español Latino Doblado (2026)
+2026-03-24 21:19:23,015 - INFO - [SEARCH] Buscando archivos para: 'MOANA Tráiler Español Latino Doblado (2026)'
+2026-03-24 21:19:23,015 - INFO - [SEARCH] Palabras clave: ['moana', 'trailer', 'espanol']
+2026-03-24 21:19:23,015 - INFO - [FILES] JSON: MOANA Tráiler Español Latino Doblado (2026).json
+2026-03-24 21:19:23,015 - INFO - [FILES] Video: MOANA Tráiler Español Latino Doblado (2026)(1080P_HD).mp4
+2026-03-24 21:19:23,015 - INFO - [FILES] Thumbnail: MOANA Tráiler Español Latino Doblado (2026)(1080P_HD).jpg
+2026-03-24 21:19:23,032 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-24 21:19:23,116 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-24 21:19:24,757 - INFO - [YOUTUBE] Video subido: 6EHHU48tCwE
+2026-03-24 21:19:26,440 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-24 21:19:26,449 - INFO - [CLEANUP] Archivos eliminados: CxpDJoP5Z8I
+2026-03-24 21:19:29,414 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-24 21:19:29,414 - INFO - [FINISH] Proceso completado
