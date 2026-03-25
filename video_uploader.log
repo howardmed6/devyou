@@ -1193,3 +1193,17 @@
 2026-03-24 21:19:26,449 - INFO - [CLEANUP] Archivos eliminados: CxpDJoP5Z8I
 2026-03-24 21:19:29,414 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-03-24 21:19:29,414 - INFO - [FINISH] Proceso completado
+2026-03-25 02:27:31,119 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-25 02:27:31,600 - INFO - [UPLOAD] Procesando: INTHUM | TRÁILER OFICIAL | Netflix
+2026-03-25 02:27:31,600 - INFO - [SEARCH] Buscando archivos para: 'INTHUM | TRÁILER OFICIAL | Netflix'
+2026-03-25 02:27:31,601 - INFO - [SEARCH] Palabras clave: ['inthum', '|', 'trailer']
+2026-03-25 02:27:31,601 - INFO - [FILES] JSON: INTHUM _ TRÁILER OFICIAL _ Netflix.json
+2026-03-25 02:27:31,601 - INFO - [FILES] Video: INTHUM _ TRÁILER OFICIAL _ Netflix(1080P_HD).mp4
+2026-03-25 02:27:31,601 - INFO - [FILES] Thumbnail: INTHUM _ TRÁILER OFICIAL _ Netflix(1080P_HD).jpg
+2026-03-25 02:27:31,613 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-25 02:27:31,821 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-25 02:27:33,569 - INFO - [YOUTUBE] Video subido: 57D2RJ8MOKs
+2026-03-25 02:27:35,174 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-25 02:27:35,177 - INFO - [CLEANUP] Archivos eliminados: WgJUGw7SsqE
+2026-03-25 02:27:38,179 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-25 02:27:38,179 - INFO - [FINISH] Proceso completado

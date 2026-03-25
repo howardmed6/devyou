@@ -5086,3 +5086,53 @@ DESCRIPCIÓN: 🎬 ¡La leyenda regresa...
 2026-03-24 21:19:21,713 - INFO - [SUMMARY] Videos fallidos: 0
 2026-03-24 21:19:22,170 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-03-24 21:19:22,171 - INFO - [FINISH] Proceso completado exitosamente
+2026-03-25 02:27:12,396 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-03-25 02:27:12,397 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-03-25 02:27:12,397 - INFO - [INIT] API Key disponible: Sí
+2026-03-25 02:27:12,397 - INFO - [INIT] Bot Token disponible: Sí
+2026-03-25 02:27:12,397 - INFO - [INIT] Chat ID disponible: Sí
+2026-03-25 02:27:12,397 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-03-25 02:27:12,397 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-03-25 02:27:12,397 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-25 02:27:12,397 - INFO - [JSON] Cargados 83 videos desde data.json
+2026-03-25 02:27:12,398 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-03-25 02:27:12,398 - INFO - [PROCESS] Procesando 1 videos...
+2026-03-25 02:27:12,398 - INFO - 
+--- Procesando video 1/1 ---
+2026-03-25 02:27:12,398 - INFO - [VIDEO] Título: INTHUM | TRÁILER OFICIAL | Netflix
+2026-03-25 02:27:12,398 - INFO - [VIDEO] ID: WgJUGw7SsqE
+2026-03-25 02:27:12,398 - INFO - [SEARCH] Buscando JSON para: 'INTHUM | TRÁILER OFICIAL | Netflix'
+2026-03-25 02:27:12,398 - INFO - [SEARCH] Primeras 3 palabras del título: ['inthum', 'trailer', 'oficial']
+2026-03-25 02:27:12,398 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-03-25 02:27:12,399 - INFO - [COMPARE] Archivo: INTHUM _ TRÁILER OFICIAL _ Netflix.json
+2026-03-25 02:27:12,399 - INFO - [COMPARE] Título JSON: 'INTHUM | TRÁILER OFICIAL | Netflix'
+2026-03-25 02:27:12,399 - INFO - [COMPARE] Primeras 3 palabras JSON: ['inthum', 'trailer', 'oficial']
+2026-03-25 02:27:12,399 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: INTHUM _ TRÁILER OFICIAL _ Netflix.json
+2026-03-25 02:27:12,399 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-25 02:27:12,399 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-03-25 02:27:12,399 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-03-25 02:27:12,399 - INFO - [API] 🔑 API Key válida: ✅
+2026-03-25 02:27:12,399 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-03-25 02:27:30,318 - INFO - [API] 📊 Código de respuesta: 200
+2026-03-25 02:27:30,318 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-03-25 02:27:30,318 - INFO - [API] 📏 Longitud de respuesta: 2495 caracteres
+2026-03-25 02:27:30,318 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: INTHUM | Tráiler Oficial en Español Latino (2025) | Netflix
+
+DESCRIPCIÓN: 🎬 ¡Prepárate para ...
+2026-03-25 02:27:30,319 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-03-25 02:27:30,320 - INFO - [PARSE] Datos parseados exitosamente:
+2026-03-25 02:27:30,320 - INFO -   - Título: INTHUM | Tráiler Oficial en Español Latino (2025) ...
+2026-03-25 02:27:30,320 - INFO -   - Descripción: 2213 caracteres
+2026-03-25 02:27:30,320 - INFO -   - Tags: 12 elementos
+2026-03-25 02:27:30,320 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-03-25 02:27:30,320 - INFO - [UPDATE] JSON actualizado: INTHUM _ TRÁILER OFICIAL _ Netflix.json
+2026-03-25 02:27:30,321 - INFO - [JSON] Cargados 83 videos desde data.json
+2026-03-25 02:27:30,321 - INFO - [STATUS] Video WgJUGw7SsqE actualizado a 'ok'
+2026-03-25 02:27:30,322 - INFO - [JSON] data.json actualizado exitosamente
+2026-03-25 02:27:30,322 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-03-25 02:27:30,323 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-03-25 02:27:30,323 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-03-25 02:27:30,323 - INFO - [SUMMARY] Videos fallidos: 0
+2026-03-25 02:27:30,805 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-03-25 02:27:30,806 - INFO - [FINISH] Proceso completado exitosamente
