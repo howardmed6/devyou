@@ -5136,3 +5136,54 @@ DESCRIPCIÓN: 🎬 ¡Prepárate para ...
 2026-03-25 02:27:30,323 - INFO - [SUMMARY] Videos fallidos: 0
 2026-03-25 02:27:30,805 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-03-25 02:27:30,806 - INFO - [FINISH] Proceso completado exitosamente
+2026-03-26 03:59:55,641 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-03-26 03:59:55,641 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-03-26 03:59:55,641 - INFO - [INIT] API Key disponible: Sí
+2026-03-26 03:59:55,641 - INFO - [INIT] Bot Token disponible: Sí
+2026-03-26 03:59:55,641 - INFO - [INIT] Chat ID disponible: Sí
+2026-03-26 03:59:55,641 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-03-26 03:59:55,641 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-03-26 03:59:55,641 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-26 03:59:55,642 - INFO - [JSON] Cargados 93 videos desde data.json
+2026-03-26 03:59:55,642 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-03-26 03:59:55,642 - INFO - [PROCESS] Procesando 1 videos...
+2026-03-26 03:59:55,642 - INFO - 
+--- Procesando video 1/1 ---
+2026-03-26 03:59:55,642 - INFO - [VIDEO] Título: ÁPEX Tráiler Español Latino (2026) Taron Egerton, Charlize Theron
+2026-03-26 03:59:55,642 - INFO - [VIDEO] ID: gp-Q2NwRxns
+2026-03-26 03:59:55,642 - INFO - [SEARCH] Buscando JSON para: 'ÁPEX Tráiler Español Latino (2026) Taron Egerton, Charlize Theron'
+2026-03-26 03:59:55,649 - INFO - [SEARCH] Primeras 3 palabras del título: ['apex', 'trailer', 'espanol']
+2026-03-26 03:59:55,650 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-03-26 03:59:55,650 - INFO - [COMPARE] Archivo: ÁPEX Tráiler Español Latino (2026) Taron Egerton, Charlize Theron.json
+2026-03-26 03:59:55,650 - INFO - [COMPARE] Título JSON: 'ÁPEX Tráiler Español Latino (2026) Taron Egerton, Charlize Theron'
+2026-03-26 03:59:55,650 - INFO - [COMPARE] Primeras 3 palabras JSON: ['apex', 'trailer', 'espanol']
+2026-03-26 03:59:55,650 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: ÁPEX Tráiler Español Latino (2026) Taron Egerton, Charlize Theron.json
+2026-03-26 03:59:55,650 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-26 03:59:55,650 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-03-26 03:59:55,650 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-03-26 03:59:55,650 - INFO - [API] 🔑 API Key válida: ✅
+2026-03-26 03:59:55,651 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-03-26 04:00:09,749 - INFO - [API] 📊 Código de respuesta: 200
+2026-03-26 04:00:09,749 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-03-26 04:00:09,749 - INFO - [API] 📏 Longitud de respuesta: 1716 caracteres
+2026-03-26 04:00:09,749 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: ÁPEX Tráiler Oficial Español Latino (2026) | Thriller de Acción Netflix
+
+DESCRIPCIÓN: 
+🎬 ¡PR...
+2026-03-26 04:00:09,750 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-03-26 04:00:09,751 - INFO - [PARSE] Datos parseados exitosamente:
+2026-03-26 04:00:09,751 - INFO -   - Título: ÁPEX Tráiler Oficial Español Latino (2026) | Thril...
+2026-03-26 04:00:09,751 - INFO -   - Descripción: 1427 caracteres
+2026-03-26 04:00:09,751 - INFO -   - Tags: 11 elementos
+2026-03-26 04:00:09,751 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-03-26 04:00:09,751 - INFO - [UPDATE] JSON actualizado: ÁPEX Tráiler Español Latino (2026) Taron Egerton, Charlize Theron.json
+2026-03-26 04:00:09,752 - INFO - [JSON] Cargados 93 videos desde data.json
+2026-03-26 04:00:09,752 - INFO - [STATUS] Video gp-Q2NwRxns actualizado a 'ok'
+2026-03-26 04:00:09,754 - INFO - [JSON] data.json actualizado exitosamente
+2026-03-26 04:00:09,754 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-03-26 04:00:09,754 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-03-26 04:00:09,754 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-03-26 04:00:09,754 - INFO - [SUMMARY] Videos fallidos: 0
+2026-03-26 04:00:10,232 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-03-26 04:00:10,232 - INFO - [FINISH] Proceso completado exitosamente

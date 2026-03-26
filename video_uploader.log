@@ -1207,3 +1207,24 @@
 2026-03-25 02:27:35,177 - INFO - [CLEANUP] Archivos eliminados: WgJUGw7SsqE
 2026-03-25 02:27:38,179 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-03-25 02:27:38,179 - INFO - [FINISH] Proceso completado
+2026-03-26 04:00:10,642 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-26 04:00:11,246 - INFO - [UPLOAD] Procesando: ÁPEX Tráiler Español Latino (2026) Taron Egerton, Charlize Theron
+2026-03-26 04:00:11,246 - INFO - [SEARCH] Buscando archivos para: 'ÁPEX Tráiler Español Latino (2026) Taron Egerton, Charlize Theron'
+2026-03-26 04:00:11,246 - INFO - [SEARCH] Palabras clave: ['apex', 'trailer', 'espanol']
+2026-03-26 04:00:11,247 - WARNING - [FALLBACK] No se encontraron archivos por coincidencia para 'ÁPEX Tráiler Español Latino (2026) Taron Egerton, Charlize Theron', intentando con archivos únicos...
+2026-03-26 04:00:11,247 - INFO - [FALLBACK] Archivos únicos encontrados:
+2026-03-26 04:00:11,247 - INFO - [FALLBACK] JSON: ÁPEX Tráiler Español Latino (2026) Taron Egerton, Charlize Theron.json (Total: 1)
+2026-03-26 04:00:11,247 - INFO - [FALLBACK] Video: Ápex _ Tráiler oficial _ Netflix(1080P_HD).mp4 (Total: 1)
+2026-03-26 04:00:11,247 - INFO - [FALLBACK] Thumbnail: Ápex _ Tráiler oficial _ Netflix(1080P_HD).jpg (Total: 1)
+2026-03-26 04:00:11,247 - INFO - [FALLBACK] Usando video único: Ápex _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-03-26 04:00:11,247 - INFO - [FALLBACK] Usando thumbnail único: Ápex _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-03-26 04:00:11,247 - INFO - [FILES] JSON: ÁPEX Tráiler Español Latino (2026) Taron Egerton, Charlize Theron.json
+2026-03-26 04:00:11,247 - INFO - [FILES] Video: Ápex _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-03-26 04:00:11,247 - INFO - [FILES] Thumbnail: Ápex _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-03-26 04:00:11,260 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-26 04:00:11,395 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-26 04:00:13,046 - INFO - [YOUTUBE] Video subido: 5O2BwL-sDgc
+2026-03-26 04:00:15,066 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-26 04:00:15,076 - INFO - [CLEANUP] Archivos eliminados: gp-Q2NwRxns
+2026-03-26 04:00:18,054 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-26 04:00:18,054 - INFO - [FINISH] Proceso completado
