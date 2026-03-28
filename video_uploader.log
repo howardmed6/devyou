@@ -1246,3 +1246,17 @@
 2026-03-28 03:18:15,084 - INFO - [CLEANUP] Archivos eliminados: yv7g2YyZLG0
 2026-03-28 03:18:17,978 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-03-28 03:18:17,979 - INFO - [FINISH] Proceso completado
+2026-03-28 17:34:05,051 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-28 17:34:05,675 - INFO - [UPLOAD] Procesando: Diente de león | Tráiler oficial | Netflix
+2026-03-28 17:34:05,676 - INFO - [SEARCH] Buscando archivos para: 'Diente de león | Tráiler oficial | Netflix'
+2026-03-28 17:34:05,676 - INFO - [SEARCH] Palabras clave: ['diente', 'de', 'leon']
+2026-03-28 17:34:05,676 - INFO - [FILES] JSON: Diente de león _ Tráiler oficial _ Netflix.json
+2026-03-28 17:34:05,676 - INFO - [FILES] Video: Diente de león _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-03-28 17:34:05,676 - INFO - [FILES] Thumbnail: Diente de león _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-03-28 17:34:05,696 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-28 17:34:05,796 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-28 17:34:07,608 - INFO - [YOUTUBE] Video subido: hXFCzZsxpcY
+2026-03-28 17:34:09,616 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-28 17:34:09,621 - INFO - [CLEANUP] Archivos eliminados: yKN3Vjbj_8Y
+2026-03-28 17:34:12,906 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-28 17:34:12,906 - INFO - [FINISH] Proceso completado

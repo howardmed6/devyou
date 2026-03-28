@@ -5263,3 +5263,53 @@ DESCRIPCIÓN:...
 2026-03-28 03:18:09,888 - INFO - [SUMMARY] Videos fallidos: 0
 2026-03-28 03:18:10,320 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-03-28 03:18:10,321 - INFO - [FINISH] Proceso completado exitosamente
+2026-03-28 17:33:48,317 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-03-28 17:33:48,317 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-03-28 17:33:48,317 - INFO - [INIT] API Key disponible: Sí
+2026-03-28 17:33:48,317 - INFO - [INIT] Bot Token disponible: Sí
+2026-03-28 17:33:48,317 - INFO - [INIT] Chat ID disponible: Sí
+2026-03-28 17:33:48,317 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-03-28 17:33:48,317 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-03-28 17:33:48,317 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-28 17:33:48,318 - INFO - [JSON] Cargados 86 videos desde data.json
+2026-03-28 17:33:48,318 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-03-28 17:33:48,318 - INFO - [PROCESS] Procesando 1 videos...
+2026-03-28 17:33:48,318 - INFO - 
+--- Procesando video 1/1 ---
+2026-03-28 17:33:48,319 - INFO - [VIDEO] Título: Diente de león | Tráiler oficial | Netflix
+2026-03-28 17:33:48,319 - INFO - [VIDEO] ID: yKN3Vjbj_8Y
+2026-03-28 17:33:48,319 - INFO - [SEARCH] Buscando JSON para: 'Diente de león | Tráiler oficial | Netflix'
+2026-03-28 17:33:48,319 - INFO - [SEARCH] Primeras 3 palabras del título: ['diente', 'leon', 'trailer']
+2026-03-28 17:33:48,319 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-03-28 17:33:48,319 - INFO - [COMPARE] Archivo: Diente de león _ Tráiler oficial _ Netflix.json
+2026-03-28 17:33:48,320 - INFO - [COMPARE] Título JSON: 'Diente de león | Tráiler oficial | Netflix'
+2026-03-28 17:33:48,320 - INFO - [COMPARE] Primeras 3 palabras JSON: ['diente', 'leon', 'trailer']
+2026-03-28 17:33:48,320 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Diente de león _ Tráiler oficial _ Netflix.json
+2026-03-28 17:33:48,320 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-28 17:33:48,320 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-03-28 17:33:48,320 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-03-28 17:33:48,320 - INFO - [API] 🔑 API Key válida: ✅
+2026-03-28 17:33:48,320 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-03-28 17:34:04,044 - INFO - [API] 📊 Código de respuesta: 200
+2026-03-28 17:34:04,044 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-03-28 17:34:04,044 - INFO - [API] 📏 Longitud de respuesta: 2068 caracteres
+2026-03-28 17:34:04,044 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: DIENTE DE LEÓN | Tráiler Oficial en Español Latino | Netflix (2025)
+
+DESCRIPCIÓN: 🎬 ¡Prepára...
+2026-03-28 17:34:04,045 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-03-28 17:34:04,046 - INFO - [PARSE] Datos parseados exitosamente:
+2026-03-28 17:34:04,046 - INFO -   - Título: DIENTE DE LEÓN | Tráiler Oficial en Español Latino...
+2026-03-28 17:34:04,046 - INFO -   - Descripción: 1763 caracteres
+2026-03-28 17:34:04,046 - INFO -   - Tags: 11 elementos
+2026-03-28 17:34:04,046 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-03-28 17:34:04,047 - INFO - [UPDATE] JSON actualizado: Diente de león _ Tráiler oficial _ Netflix.json
+2026-03-28 17:34:04,047 - INFO - [JSON] Cargados 86 videos desde data.json
+2026-03-28 17:34:04,048 - INFO - [STATUS] Video yKN3Vjbj_8Y actualizado a 'ok'
+2026-03-28 17:34:04,049 - INFO - [JSON] data.json actualizado exitosamente
+2026-03-28 17:34:04,049 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-03-28 17:34:04,049 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-03-28 17:34:04,049 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-03-28 17:34:04,049 - INFO - [SUMMARY] Videos fallidos: 0
+2026-03-28 17:34:04,675 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-03-28 17:34:04,676 - INFO - [FINISH] Proceso completado exitosamente
