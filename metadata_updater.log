@@ -5213,3 +5213,53 @@ DESCRIPCIÓN:
 2026-03-28 03:12:43,231 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-03-28 03:12:43,663 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-03-28 03:12:43,664 - INFO - [FINISH] Proceso completado exitosamente
+2026-03-28 03:17:53,793 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-03-28 03:17:53,793 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-03-28 03:17:53,794 - INFO - [INIT] API Key disponible: Sí
+2026-03-28 03:17:53,794 - INFO - [INIT] Bot Token disponible: Sí
+2026-03-28 03:17:53,794 - INFO - [INIT] Chat ID disponible: Sí
+2026-03-28 03:17:53,794 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-03-28 03:17:53,794 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-03-28 03:17:53,794 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-28 03:17:53,795 - INFO - [JSON] Cargados 84 videos desde data.json
+2026-03-28 03:17:53,795 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-03-28 03:17:53,795 - INFO - [PROCESS] Procesando 1 videos...
+2026-03-28 03:17:53,795 - INFO - 
+--- Procesando video 1/1 ---
+2026-03-28 03:17:53,795 - INFO - [VIDEO] Título: La caja azul: Temporada 2 | Avance oficial | Netflix
+2026-03-28 03:17:53,795 - INFO - [VIDEO] ID: yv7g2YyZLG0
+2026-03-28 03:17:53,795 - INFO - [SEARCH] Buscando JSON para: 'La caja azul: Temporada 2 | Avance oficial | Netflix'
+2026-03-28 03:17:53,795 - INFO - [SEARCH] Primeras 3 palabras del título: ['caja', 'azul', 'temporada']
+2026-03-28 03:17:53,796 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-03-28 03:17:53,796 - INFO - [COMPARE] Archivo: La caja azul_ Temporada 2 _ Avance oficial _ Netflix.json
+2026-03-28 03:17:53,796 - INFO - [COMPARE] Título JSON: 'La caja azul: Temporada 2 | Avance oficial | Netflix'
+2026-03-28 03:17:53,796 - INFO - [COMPARE] Primeras 3 palabras JSON: ['caja', 'azul', 'temporada']
+2026-03-28 03:17:53,796 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: La caja azul_ Temporada 2 _ Avance oficial _ Netflix.json
+2026-03-28 03:17:53,796 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-28 03:17:53,796 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-03-28 03:17:53,796 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-03-28 03:17:53,796 - INFO - [API] 🔑 API Key válida: ✅
+2026-03-28 03:17:53,797 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-03-28 03:18:09,883 - INFO - [API] 📊 Código de respuesta: 200
+2026-03-28 03:18:09,883 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-03-28 03:18:09,883 - INFO - [API] 📏 Longitud de respuesta: 2144 caracteres
+2026-03-28 03:18:09,883 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: LA CAJA AZUL: Temporada 2 | Tráiler Oficial en Español Latino | Netflix (2026)
+
+DESCRIPCIÓN:...
+2026-03-28 03:18:09,884 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-03-28 03:18:09,885 - INFO - [PARSE] Datos parseados exitosamente:
+2026-03-28 03:18:09,885 - INFO -   - Título: LA CAJA AZUL: Temporada 2 | Tráiler Oficial en Esp...
+2026-03-28 03:18:09,885 - INFO -   - Descripción: 1829 caracteres
+2026-03-28 03:18:09,885 - INFO -   - Tags: 10 elementos
+2026-03-28 03:18:09,885 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-03-28 03:18:09,886 - INFO - [UPDATE] JSON actualizado: La caja azul_ Temporada 2 _ Avance oficial _ Netflix.json
+2026-03-28 03:18:09,886 - INFO - [JSON] Cargados 84 videos desde data.json
+2026-03-28 03:18:09,887 - INFO - [STATUS] Video yv7g2YyZLG0 actualizado a 'ok'
+2026-03-28 03:18:09,888 - INFO - [JSON] data.json actualizado exitosamente
+2026-03-28 03:18:09,888 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-03-28 03:18:09,888 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-03-28 03:18:09,888 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-03-28 03:18:09,888 - INFO - [SUMMARY] Videos fallidos: 0
+2026-03-28 03:18:10,320 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-03-28 03:18:10,321 - INFO - [FINISH] Proceso completado exitosamente

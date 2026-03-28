@@ -1232,3 +1232,17 @@
 2026-03-28 02:55:01,591 - INFO - [FINISH] Proceso completado
 2026-03-28 03:12:44,065 - INFO - [PROCESS] No hay videos listos para subir
 2026-03-28 03:12:44,497 - INFO - [FINISH] Proceso completado
+2026-03-28 03:18:10,678 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-28 03:18:11,112 - INFO - [UPLOAD] Procesando: La caja azul: Temporada 2 | Avance oficial | Netflix
+2026-03-28 03:18:11,112 - INFO - [SEARCH] Buscando archivos para: 'La caja azul: Temporada 2 | Avance oficial | Netflix'
+2026-03-28 03:18:11,112 - INFO - [SEARCH] Palabras clave: ['la', 'caja', 'azul']
+2026-03-28 03:18:11,112 - INFO - [FILES] JSON: La caja azul_ Temporada 2 _ Avance oficial _ Netflix.json
+2026-03-28 03:18:11,113 - INFO - [FILES] Video: La caja azul_ Temporada 2 _ Avance oficial _ Netflix(1080P_HD).mp4
+2026-03-28 03:18:11,113 - INFO - [FILES] Thumbnail: La caja azul_ Temporada 2 _ Avance oficial _ Netflix(1080P_HD).jpg
+2026-03-28 03:18:11,121 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-28 03:18:11,271 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-28 03:18:12,639 - INFO - [YOUTUBE] Video subido: 6lQkV-Lnj7E
+2026-03-28 03:18:15,081 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-28 03:18:15,084 - INFO - [CLEANUP] Archivos eliminados: yv7g2YyZLG0
+2026-03-28 03:18:17,978 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-28 03:18:17,979 - INFO - [FINISH] Proceso completado
