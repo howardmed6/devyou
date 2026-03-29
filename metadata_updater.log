@@ -5313,3 +5313,51 @@ DESCRIPCIÓN: 🎬 ¡Prepára...
 2026-03-28 17:34:04,049 - INFO - [SUMMARY] Videos fallidos: 0
 2026-03-28 17:34:04,675 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-03-28 17:34:04,676 - INFO - [FINISH] Proceso completado exitosamente
+2026-03-29 05:10:18,553 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-03-29 05:10:18,553 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-03-29 05:10:18,553 - INFO - [INIT] API Key disponible: Sí
+2026-03-29 05:10:18,553 - INFO - [INIT] Bot Token disponible: Sí
+2026-03-29 05:10:18,553 - INFO - [INIT] Chat ID disponible: Sí
+2026-03-29 05:10:18,553 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-03-29 05:10:18,553 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-03-29 05:10:18,553 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-29 05:10:18,554 - INFO - [JSON] Cargados 84 videos desde data.json
+2026-03-29 05:10:18,554 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-03-29 05:10:18,554 - INFO - [PROCESS] Procesando 1 videos...
+2026-03-29 05:10:18,554 - INFO - 
+--- Procesando video 1/1 ---
+2026-03-29 05:10:18,555 - INFO - [VIDEO] Título: Baki-Dou: El samurái invencible | Avance oficial | Netflix
+2026-03-29 05:10:18,555 - INFO - [VIDEO] ID: PLgxTkE_Ylk
+2026-03-29 05:10:18,555 - INFO - [SEARCH] Buscando JSON para: 'Baki-Dou: El samurái invencible | Avance oficial | Netflix'
+2026-03-29 05:10:18,555 - INFO - [SEARCH] Primeras 3 palabras del título: ['baki-dou', 'samurai', 'invencible']
+2026-03-29 05:10:18,555 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-03-29 05:10:18,555 - INFO - [COMPARE] Archivo: Baki-Dou_ El samurái invencible _ Avance oficial _ Netflix.json
+2026-03-29 05:10:18,555 - INFO - [COMPARE] Título JSON: 'Baki-Dou: El samurái invencible | Avance oficial | Netflix'
+2026-03-29 05:10:18,556 - INFO - [COMPARE] Primeras 3 palabras JSON: ['baki-dou', 'samurai', 'invencible']
+2026-03-29 05:10:18,556 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Baki-Dou_ El samurái invencible _ Avance oficial _ Netflix.json
+2026-03-29 05:10:18,556 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-29 05:10:18,556 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-03-29 05:10:18,556 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-03-29 05:10:18,556 - INFO - [API] 🔑 API Key válida: ✅
+2026-03-29 05:10:18,556 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-03-29 05:10:38,474 - INFO - [API] 📊 Código de respuesta: 200
+2026-03-29 05:10:38,474 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-03-29 05:10:38,475 - INFO - [API] 📏 Longitud de respuesta: 2337 caracteres
+2026-03-29 05:10:38,475 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: BAKI-DOU: EL SAMURÁI INVENCIBLE Parte 2 | Tráiler Oficial en Español Latino | Netflix (2025)...
+2026-03-29 05:10:38,476 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-03-29 05:10:38,477 - INFO - [PARSE] Datos parseados exitosamente:
+2026-03-29 05:10:38,477 - INFO -   - Título: BAKI-DOU: EL SAMURÁI INVENCIBLE Parte 2 | Tráiler ...
+2026-03-29 05:10:38,477 - INFO -   - Descripción: 1951 caracteres
+2026-03-29 05:10:38,477 - INFO -   - Tags: 12 elementos
+2026-03-29 05:10:38,477 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-03-29 05:10:38,477 - INFO - [UPDATE] JSON actualizado: Baki-Dou_ El samurái invencible _ Avance oficial _ Netflix.json
+2026-03-29 05:10:38,478 - INFO - [JSON] Cargados 84 videos desde data.json
+2026-03-29 05:10:38,478 - INFO - [STATUS] Video PLgxTkE_Ylk actualizado a 'ok'
+2026-03-29 05:10:38,479 - INFO - [JSON] data.json actualizado exitosamente
+2026-03-29 05:10:38,479 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-03-29 05:10:38,479 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-03-29 05:10:38,480 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-03-29 05:10:38,480 - INFO - [SUMMARY] Videos fallidos: 0
+2026-03-29 05:10:39,014 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-03-29 05:10:39,015 - INFO - [FINISH] Proceso completado exitosamente

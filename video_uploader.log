@@ -1260,3 +1260,17 @@
 2026-03-28 17:34:09,621 - INFO - [CLEANUP] Archivos eliminados: yKN3Vjbj_8Y
 2026-03-28 17:34:12,906 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-03-28 17:34:12,906 - INFO - [FINISH] Proceso completado
+2026-03-29 05:10:39,403 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-29 05:10:39,932 - INFO - [UPLOAD] Procesando: Baki-Dou: El samurái invencible | Avance oficial | Netflix
+2026-03-29 05:10:39,932 - INFO - [SEARCH] Buscando archivos para: 'Baki-Dou: El samurái invencible | Avance oficial | Netflix'
+2026-03-29 05:10:39,933 - INFO - [SEARCH] Palabras clave: ['baki-dou', 'el', 'samurai']
+2026-03-29 05:10:39,933 - INFO - [FILES] JSON: Baki-Dou_ El samurái invencible _ Avance oficial _ Netflix.json
+2026-03-29 05:10:39,933 - INFO - [FILES] Video: Baki-Dou_ El samurái invencible _ Avance oficial _ Netflix(1080P_HD).mp4
+2026-03-29 05:10:39,933 - INFO - [FILES] Thumbnail: Baki-Dou_ El samurái invencible _ Avance oficial _ Netflix(1080P_HD).jpg
+2026-03-29 05:10:39,954 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-29 05:10:40,085 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-29 05:10:41,664 - INFO - [YOUTUBE] Video subido: 5qM-07KeFW8
+2026-03-29 05:10:43,472 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-29 05:10:43,475 - INFO - [CLEANUP] Archivos eliminados: PLgxTkE_Ylk
+2026-03-29 05:10:46,583 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-29 05:10:46,584 - INFO - [FINISH] Proceso completado
