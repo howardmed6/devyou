@@ -1278,3 +1278,17 @@
 2026-03-29 05:20:07,602 - INFO - [FINISH] Proceso completado
 2026-03-29 06:45:25,451 - INFO - [PROCESS] No hay videos listos para subir
 2026-03-29 06:45:26,102 - INFO - [FINISH] Proceso completado
+2026-03-29 12:45:05,274 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-29 12:45:05,749 - INFO - [UPLOAD] Procesando: Destellos del mañana | Tráiler oficial | Netflix
+2026-03-29 12:45:05,749 - INFO - [SEARCH] Buscando archivos para: 'Destellos del mañana | Tráiler oficial | Netflix'
+2026-03-29 12:45:05,750 - INFO - [SEARCH] Palabras clave: ['destellos', 'del', 'manana']
+2026-03-29 12:45:05,750 - INFO - [FILES] JSON: Destellos del mañana _ Tráiler oficial _ Netflix.json
+2026-03-29 12:45:05,750 - INFO - [FILES] Video: Destellos del mañana _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-03-29 12:45:05,750 - INFO - [FILES] Thumbnail: Destellos del mañana _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-03-29 12:45:05,770 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-29 12:45:05,857 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-29 12:45:07,457 - INFO - [YOUTUBE] Video subido: 6Sw0D2C_Jc8
+2026-03-29 12:45:08,988 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-29 12:45:08,994 - INFO - [CLEANUP] Archivos eliminados: deEArwhX4WE
+2026-03-29 12:45:11,943 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-29 12:45:11,944 - INFO - [FINISH] Proceso completado
