@@ -1306,3 +1306,17 @@
 2026-03-30 02:29:28,019 - INFO - [CLEANUP] Archivos eliminados: ie8Mfm8QCws
 2026-03-30 02:29:31,038 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-03-30 02:29:31,038 - INFO - [FINISH] Proceso completado
+2026-03-30 13:30:50,648 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-30 13:30:51,293 - INFO - [UPLOAD] Procesando: Caminos del Crimen - Tráiler Oficial I Prime Video
+2026-03-30 13:30:51,294 - INFO - [SEARCH] Buscando archivos para: 'Caminos del Crimen - Tráiler Oficial I Prime Video'
+2026-03-30 13:30:51,294 - INFO - [SEARCH] Palabras clave: ['caminos', 'del', 'crimen']
+2026-03-30 13:30:51,294 - INFO - [FILES] JSON: Caminos del Crimen - Tráiler Oficial I Prime Video.json
+2026-03-30 13:30:51,294 - INFO - [FILES] Video: Caminos del Crimen - Tráiler Oficial I Prime Video(1080P_HD).mp4
+2026-03-30 13:30:51,294 - INFO - [FILES] Thumbnail: Caminos del Crimen - Tráiler Oficial I Prime Video(1080P_HD).jpg
+2026-03-30 13:30:51,359 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-30 13:30:51,457 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-30 13:30:53,493 - INFO - [YOUTUBE] Video subido: vcMNK5kqfMo
+2026-03-30 13:30:55,823 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-30 13:30:55,827 - INFO - [CLEANUP] Archivos eliminados: mZb6ypqlqlE
+2026-03-30 13:30:59,091 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-30 13:30:59,091 - INFO - [FINISH] Proceso completado

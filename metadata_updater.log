@@ -5487,3 +5487,53 @@ DESCRIPCIÓN: 🎬 ¡P...
 2026-03-30 02:29:22,899 - INFO - [SUMMARY] Videos fallidos: 0
 2026-03-30 02:29:23,331 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-03-30 02:29:23,332 - INFO - [FINISH] Proceso completado exitosamente
+2026-03-30 13:30:32,840 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-03-30 13:30:32,840 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-03-30 13:30:32,840 - INFO - [INIT] API Key disponible: Sí
+2026-03-30 13:30:32,840 - INFO - [INIT] Bot Token disponible: Sí
+2026-03-30 13:30:32,840 - INFO - [INIT] Chat ID disponible: Sí
+2026-03-30 13:30:32,840 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-03-30 13:30:32,840 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-03-30 13:30:32,841 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-30 13:30:32,841 - INFO - [JSON] Cargados 84 videos desde data.json
+2026-03-30 13:30:32,841 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-03-30 13:30:32,841 - INFO - [PROCESS] Procesando 1 videos...
+2026-03-30 13:30:32,842 - INFO - 
+--- Procesando video 1/1 ---
+2026-03-30 13:30:32,842 - INFO - [VIDEO] Título: Caminos del Crimen - Tráiler Oficial I Prime Video
+2026-03-30 13:30:32,842 - INFO - [VIDEO] ID: mZb6ypqlqlE
+2026-03-30 13:30:32,842 - INFO - [SEARCH] Buscando JSON para: 'Caminos del Crimen - Tráiler Oficial I Prime Video'
+2026-03-30 13:30:32,842 - INFO - [SEARCH] Primeras 3 palabras del título: ['caminos', 'del', 'crimen']
+2026-03-30 13:30:32,842 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-03-30 13:30:32,843 - INFO - [COMPARE] Archivo: Caminos del Crimen - Tráiler Oficial I Prime Video.json
+2026-03-30 13:30:32,843 - INFO - [COMPARE] Título JSON: 'Caminos del Crimen - Tráiler Oficial I Prime Video'
+2026-03-30 13:30:32,843 - INFO - [COMPARE] Primeras 3 palabras JSON: ['caminos', 'del', 'crimen']
+2026-03-30 13:30:32,843 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Caminos del Crimen - Tráiler Oficial I Prime Video.json
+2026-03-30 13:30:32,843 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-30 13:30:32,843 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-03-30 13:30:32,843 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-03-30 13:30:32,843 - INFO - [API] 🔑 API Key válida: ✅
+2026-03-30 13:30:32,843 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-03-30 13:30:49,414 - INFO - [API] 📊 Código de respuesta: 200
+2026-03-30 13:30:49,414 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-03-30 13:30:49,414 - INFO - [API] 📏 Longitud de respuesta: 2370 caracteres
+2026-03-30 13:30:49,414 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: CAMINOS DEL CRIMEN - Tráiler Oficial en Español Latino (2025) | Prime Video
+
+DESCRIPCIÓN: 🎬 ...
+2026-03-30 13:30:49,415 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-03-30 13:30:49,416 - INFO - [PARSE] Datos parseados exitosamente:
+2026-03-30 13:30:49,416 - INFO -   - Título: CAMINOS DEL CRIMEN - Tráiler Oficial en Español La...
+2026-03-30 13:30:49,416 - INFO -   - Descripción: 2053 caracteres
+2026-03-30 13:30:49,416 - INFO -   - Tags: 12 elementos
+2026-03-30 13:30:49,416 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-03-30 13:30:49,417 - INFO - [UPDATE] JSON actualizado: Caminos del Crimen - Tráiler Oficial I Prime Video.json
+2026-03-30 13:30:49,417 - INFO - [JSON] Cargados 84 videos desde data.json
+2026-03-30 13:30:49,417 - INFO - [STATUS] Video mZb6ypqlqlE actualizado a 'ok'
+2026-03-30 13:30:49,419 - INFO - [JSON] data.json actualizado exitosamente
+2026-03-30 13:30:49,419 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-03-30 13:30:49,419 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-03-30 13:30:49,419 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-03-30 13:30:49,419 - INFO - [SUMMARY] Videos fallidos: 0
+2026-03-30 13:30:50,042 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-03-30 13:30:50,043 - INFO - [FINISH] Proceso completado exitosamente
