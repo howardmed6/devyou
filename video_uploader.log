@@ -1320,3 +1320,24 @@
 2026-03-30 13:30:55,827 - INFO - [CLEANUP] Archivos eliminados: mZb6ypqlqlE
 2026-03-30 13:30:59,091 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-03-30 13:30:59,091 - INFO - [FINISH] Proceso completado
+2026-03-30 19:18:45,586 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-30 19:18:46,045 - INFO - [UPLOAD] Procesando: EUPHORIA Temporada 3 Tráiler Español 2 (2026) Zendaya, Sydnwey Sweeney
+2026-03-30 19:18:46,045 - INFO - [SEARCH] Buscando archivos para: 'EUPHORIA Temporada 3 Tráiler Español 2 (2026) Zendaya, Sydnwey Sweeney'
+2026-03-30 19:18:46,045 - INFO - [SEARCH] Palabras clave: ['euphoria', 'temporada', '3']
+2026-03-30 19:18:46,045 - WARNING - [FALLBACK] No se encontraron archivos por coincidencia para 'EUPHORIA Temporada 3 Tráiler Español 2 (2026) Zendaya, Sydnwey Sweeney', intentando con archivos únicos...
+2026-03-30 19:18:46,046 - INFO - [FALLBACK] Archivos únicos encontrados:
+2026-03-30 19:18:46,046 - INFO - [FALLBACK] JSON: EUPHORIA Temporada 3 Tráiler Español 2 (2026) Zendaya, Sydnwey Sweeney.json (Total: 1)
+2026-03-30 19:18:46,046 - INFO - [FALLBACK] Video: Euphoria - Temporada 3 _ Tráiler 2 en Español _ HBO Max(1080P_HD).mp4 (Total: 1)
+2026-03-30 19:18:46,046 - INFO - [FALLBACK] Thumbnail: Euphoria - Temporada 3 _ Tráiler 2 en Español _ HBO Max(1080P_HD).jpg (Total: 1)
+2026-03-30 19:18:46,046 - INFO - [FALLBACK] Usando video único: Euphoria - Temporada 3 _ Tráiler 2 en Español _ HBO Max(1080P_HD).mp4
+2026-03-30 19:18:46,046 - INFO - [FALLBACK] Usando thumbnail único: Euphoria - Temporada 3 _ Tráiler 2 en Español _ HBO Max(1080P_HD).jpg
+2026-03-30 19:18:46,046 - INFO - [FILES] JSON: EUPHORIA Temporada 3 Tráiler Español 2 (2026) Zendaya, Sydnwey Sweeney.json
+2026-03-30 19:18:46,046 - INFO - [FILES] Video: Euphoria - Temporada 3 _ Tráiler 2 en Español _ HBO Max(1080P_HD).mp4
+2026-03-30 19:18:46,046 - INFO - [FILES] Thumbnail: Euphoria - Temporada 3 _ Tráiler 2 en Español _ HBO Max(1080P_HD).jpg
+2026-03-30 19:18:46,092 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-30 19:18:46,236 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-30 19:18:47,788 - INFO - [YOUTUBE] Video subido: axA9Qmw7oeQ
+2026-03-30 19:18:49,707 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-30 19:18:49,711 - INFO - [CLEANUP] Archivos eliminados: bVB0Fd9Rk9A
+2026-03-30 19:18:52,790 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-30 19:18:52,790 - INFO - [FINISH] Proceso completado

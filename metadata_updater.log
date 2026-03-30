@@ -5537,3 +5537,53 @@ DESCRIPCIÓN: 🎬 ...
 2026-03-30 13:30:49,419 - INFO - [SUMMARY] Videos fallidos: 0
 2026-03-30 13:30:50,042 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-03-30 13:30:50,043 - INFO - [FINISH] Proceso completado exitosamente
+2026-03-30 19:18:29,875 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-03-30 19:18:29,875 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-03-30 19:18:29,875 - INFO - [INIT] API Key disponible: Sí
+2026-03-30 19:18:29,875 - INFO - [INIT] Bot Token disponible: Sí
+2026-03-30 19:18:29,875 - INFO - [INIT] Chat ID disponible: Sí
+2026-03-30 19:18:29,875 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-03-30 19:18:29,875 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-03-30 19:18:29,875 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-30 19:18:29,876 - INFO - [JSON] Cargados 86 videos desde data.json
+2026-03-30 19:18:29,876 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-03-30 19:18:29,876 - INFO - [PROCESS] Procesando 1 videos...
+2026-03-30 19:18:29,876 - INFO - 
+--- Procesando video 1/1 ---
+2026-03-30 19:18:29,876 - INFO - [VIDEO] Título: EUPHORIA Temporada 3 Tráiler Español 2 (2026) Zendaya, Sydnwey Sweeney
+2026-03-30 19:18:29,877 - INFO - [VIDEO] ID: bVB0Fd9Rk9A
+2026-03-30 19:18:29,877 - INFO - [SEARCH] Buscando JSON para: 'EUPHORIA Temporada 3 Tráiler Español 2 (2026) Zendaya, Sydnwey Sweeney'
+2026-03-30 19:18:29,877 - INFO - [SEARCH] Primeras 3 palabras del título: ['euphoria', 'temporada', 'trailer']
+2026-03-30 19:18:29,877 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-03-30 19:18:29,877 - INFO - [COMPARE] Archivo: EUPHORIA Temporada 3 Tráiler Español 2 (2026) Zendaya, Sydnwey Sweeney.json
+2026-03-30 19:18:29,877 - INFO - [COMPARE] Título JSON: 'EUPHORIA Temporada 3 Tráiler Español 2 (2026) Zendaya, Sydnwey Sweeney'
+2026-03-30 19:18:29,877 - INFO - [COMPARE] Primeras 3 palabras JSON: ['euphoria', 'temporada', 'trailer']
+2026-03-30 19:18:29,877 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: EUPHORIA Temporada 3 Tráiler Español 2 (2026) Zendaya, Sydnwey Sweeney.json
+2026-03-30 19:18:29,878 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-30 19:18:29,878 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-03-30 19:18:29,878 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-03-30 19:18:29,878 - INFO - [API] 🔑 API Key válida: ✅
+2026-03-30 19:18:29,878 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-03-30 19:18:44,652 - INFO - [API] 📊 Código de respuesta: 200
+2026-03-30 19:18:44,652 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-03-30 19:18:44,652 - INFO - [API] 📏 Longitud de respuesta: 2053 caracteres
+2026-03-30 19:18:44,652 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: EUPHORIA Temporada 3 Tráiler Oficial Español Latino (2025)
+
+DESCRIPCIÓN: 🔥 ¡LA ESPERA TERMIN...
+2026-03-30 19:18:44,653 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-03-30 19:18:44,654 - INFO - [PARSE] Datos parseados exitosamente:
+2026-03-30 19:18:44,654 - INFO -   - Título: EUPHORIA Temporada 3 Tráiler Oficial Español Latin...
+2026-03-30 19:18:44,654 - INFO -   - Descripción: 1798 caracteres
+2026-03-30 19:18:44,654 - INFO -   - Tags: 10 elementos
+2026-03-30 19:18:44,654 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-03-30 19:18:44,655 - INFO - [UPDATE] JSON actualizado: EUPHORIA Temporada 3 Tráiler Español 2 (2026) Zendaya, Sydnwey Sweeney.json
+2026-03-30 19:18:44,655 - INFO - [JSON] Cargados 86 videos desde data.json
+2026-03-30 19:18:44,655 - INFO - [STATUS] Video bVB0Fd9Rk9A actualizado a 'ok'
+2026-03-30 19:18:44,657 - INFO - [JSON] data.json actualizado exitosamente
+2026-03-30 19:18:44,657 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-03-30 19:18:44,657 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-03-30 19:18:44,657 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-03-30 19:18:44,657 - INFO - [SUMMARY] Videos fallidos: 0
+2026-03-30 19:18:45,152 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-03-30 19:18:45,153 - INFO - [FINISH] Proceso completado exitosamente
