@@ -5437,3 +5437,53 @@ DESCRIPCIÓN...
 2026-03-29 12:45:04,344 - INFO - [SUMMARY] Videos fallidos: 0
 2026-03-29 12:45:04,817 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-03-29 12:45:04,818 - INFO - [FINISH] Proceso completado exitosamente
+2026-03-30 02:29:04,214 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-03-30 02:29:04,214 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-03-30 02:29:04,214 - INFO - [INIT] API Key disponible: Sí
+2026-03-30 02:29:04,214 - INFO - [INIT] Bot Token disponible: Sí
+2026-03-30 02:29:04,214 - INFO - [INIT] Chat ID disponible: Sí
+2026-03-30 02:29:04,214 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-03-30 02:29:04,214 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-03-30 02:29:04,214 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-30 02:29:04,215 - INFO - [JSON] Cargados 84 videos desde data.json
+2026-03-30 02:29:04,215 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-03-30 02:29:04,215 - INFO - [PROCESS] Procesando 1 videos...
+2026-03-30 02:29:04,215 - INFO - 
+--- Procesando video 1/1 ---
+2026-03-30 02:29:04,215 - INFO - [VIDEO] Título: Hacemos lo que podemos | TRÁILER OFICIAL | Netflix
+2026-03-30 02:29:04,215 - INFO - [VIDEO] ID: ie8Mfm8QCws
+2026-03-30 02:29:04,215 - INFO - [SEARCH] Buscando JSON para: 'Hacemos lo que podemos | TRÁILER OFICIAL | Netflix'
+2026-03-30 02:29:04,216 - INFO - [SEARCH] Primeras 3 palabras del título: ['hacemos', 'que', 'podemos']
+2026-03-30 02:29:04,216 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-03-30 02:29:04,216 - INFO - [COMPARE] Archivo: Hacemos lo que podemos _ TRÁILER OFICIAL _ Netflix.json
+2026-03-30 02:29:04,216 - INFO - [COMPARE] Título JSON: 'Hacemos lo que podemos | TRÁILER OFICIAL | Netflix'
+2026-03-30 02:29:04,216 - INFO - [COMPARE] Primeras 3 palabras JSON: ['hacemos', 'que', 'podemos']
+2026-03-30 02:29:04,216 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Hacemos lo que podemos _ TRÁILER OFICIAL _ Netflix.json
+2026-03-30 02:29:04,216 - INFO - [API] ✅ API Key tiene formato válido
+2026-03-30 02:29:04,216 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-03-30 02:29:04,216 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-03-30 02:29:04,216 - INFO - [API] 🔑 API Key válida: ✅
+2026-03-30 02:29:04,216 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-03-30 02:29:22,894 - INFO - [API] 📊 Código de respuesta: 200
+2026-03-30 02:29:22,895 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-03-30 02:29:22,895 - INFO - [API] 📏 Longitud de respuesta: 2248 caracteres
+2026-03-30 02:29:22,895 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: HACEMOS LO QUE PODEMOS Tráiler Oficial en Español Latino (2025) | Netflix
+
+DESCRIPCIÓN: 🎬 ¡P...
+2026-03-30 02:29:22,896 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-03-30 02:29:22,896 - INFO - [PARSE] Datos parseados exitosamente:
+2026-03-30 02:29:22,896 - INFO -   - Título: HACEMOS LO QUE PODEMOS Tráiler Oficial en Español ...
+2026-03-30 02:29:22,897 - INFO -   - Descripción: 1923 caracteres
+2026-03-30 02:29:22,897 - INFO -   - Tags: 10 elementos
+2026-03-30 02:29:22,897 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-03-30 02:29:22,897 - INFO - [UPDATE] JSON actualizado: Hacemos lo que podemos _ TRÁILER OFICIAL _ Netflix.json
+2026-03-30 02:29:22,898 - INFO - [JSON] Cargados 84 videos desde data.json
+2026-03-30 02:29:22,898 - INFO - [STATUS] Video ie8Mfm8QCws actualizado a 'ok'
+2026-03-30 02:29:22,899 - INFO - [JSON] data.json actualizado exitosamente
+2026-03-30 02:29:22,899 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-03-30 02:29:22,899 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-03-30 02:29:22,899 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-03-30 02:29:22,899 - INFO - [SUMMARY] Videos fallidos: 0
+2026-03-30 02:29:23,331 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-03-30 02:29:23,332 - INFO - [FINISH] Proceso completado exitosamente

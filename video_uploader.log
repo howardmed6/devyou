@@ -1292,3 +1292,17 @@
 2026-03-29 12:45:08,994 - INFO - [CLEANUP] Archivos eliminados: deEArwhX4WE
 2026-03-29 12:45:11,943 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-03-29 12:45:11,944 - INFO - [FINISH] Proceso completado
+2026-03-30 02:29:23,722 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-30 02:29:24,180 - INFO - [UPLOAD] Procesando: Hacemos lo que podemos | TRÁILER OFICIAL | Netflix
+2026-03-30 02:29:24,180 - INFO - [SEARCH] Buscando archivos para: 'Hacemos lo que podemos | TRÁILER OFICIAL | Netflix'
+2026-03-30 02:29:24,180 - INFO - [SEARCH] Palabras clave: ['hacemos', 'lo', 'que']
+2026-03-30 02:29:24,181 - INFO - [FILES] JSON: Hacemos lo que podemos _ TRÁILER OFICIAL _ Netflix.json
+2026-03-30 02:29:24,181 - INFO - [FILES] Video: Hacemos lo que podemos _ TRÁILER OFICIAL _ Netflix(1080P_HD).mp4
+2026-03-30 02:29:24,181 - INFO - [FILES] Thumbnail: Hacemos lo que podemos _ TRÁILER OFICIAL _ Netflix(1080P_HD).jpg
+2026-03-30 02:29:24,197 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-30 02:29:24,308 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-30 02:29:25,823 - INFO - [YOUTUBE] Video subido: z8YVPVFm4oA
+2026-03-30 02:29:28,016 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-30 02:29:28,019 - INFO - [CLEANUP] Archivos eliminados: ie8Mfm8QCws
+2026-03-30 02:29:31,038 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-30 02:29:31,038 - INFO - [FINISH] Proceso completado
