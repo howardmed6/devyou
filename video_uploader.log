@@ -1341,3 +1341,17 @@
 2026-03-30 19:18:49,711 - INFO - [CLEANUP] Archivos eliminados: bVB0Fd9Rk9A
 2026-03-30 19:18:52,790 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-03-30 19:18:52,790 - INFO - [FINISH] Proceso completado
+2026-03-31 21:21:33,317 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-03-31 21:21:33,842 - INFO - [UPLOAD] Procesando: El yerno | Tráiler oficial | Netflix
+2026-03-31 21:21:33,842 - INFO - [SEARCH] Buscando archivos para: 'El yerno | Tráiler oficial | Netflix'
+2026-03-31 21:21:33,843 - INFO - [SEARCH] Palabras clave: ['el', 'yerno', '|']
+2026-03-31 21:21:33,843 - INFO - [FILES] JSON: El yerno _ Tráiler oficial _ Netflix.json
+2026-03-31 21:21:33,843 - INFO - [FILES] Video: El yerno _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-03-31 21:21:33,843 - INFO - [FILES] Thumbnail: El yerno _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-03-31 21:21:33,860 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-03-31 21:21:33,992 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-03-31 21:21:35,812 - INFO - [YOUTUBE] Video subido: TLTm4Vg11xo
+2026-03-31 21:21:37,315 - INFO - [YOUTUBE] Thumbnail subido
+2026-03-31 21:21:37,320 - INFO - [CLEANUP] Archivos eliminados: _UdFj8Aec3o
+2026-03-31 21:21:40,458 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-03-31 21:21:40,458 - INFO - [FINISH] Proceso completado
