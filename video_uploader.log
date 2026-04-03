@@ -1359,3 +1359,17 @@
 2026-04-03 13:42:43,176 - INFO - [FINISH] Proceso completado
 2026-04-03 14:02:03,480 - INFO - [PROCESS] No hay videos listos para subir
 2026-04-03 14:02:04,104 - INFO - [FINISH] Proceso completado
+2026-04-03 14:14:46,590 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-04-03 14:14:47,044 - INFO - [UPLOAD] Procesando: Perfil falso: Temporada 3 | Tráiler oficial | Netflix
+2026-04-03 14:14:47,045 - INFO - [SEARCH] Buscando archivos para: 'Perfil falso: Temporada 3 | Tráiler oficial | Netflix'
+2026-04-03 14:14:47,045 - INFO - [SEARCH] Palabras clave: ['perfil', 'falso', 'temporada']
+2026-04-03 14:14:47,045 - INFO - [FILES] JSON: Perfil falso_ Temporada 3 _ Tráiler oficial _ Netflix.json
+2026-04-03 14:14:47,045 - INFO - [FILES] Video: Perfil falso_ Temporada 3 _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-04-03 14:14:47,045 - INFO - [FILES] Thumbnail: Perfil falso_ Temporada 3 _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-04-03 14:14:47,053 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-03 14:14:47,148 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-04-03 14:14:48,658 - INFO - [YOUTUBE] Video subido: IwAl8Cqmn9U
+2026-04-03 14:14:50,415 - INFO - [YOUTUBE] Thumbnail subido
+2026-04-03 14:14:50,419 - INFO - [CLEANUP] Archivos eliminados: jQZAOD_T928
+2026-04-03 14:14:53,407 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-04-03 14:14:53,407 - INFO - [FINISH] Proceso completado
