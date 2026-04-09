@@ -1,5 +1,16 @@
 [
   {
+    "video_id": "FRf8Bi0took",
+    "url": "https://www.youtube.com/watch?v=FRf8Bi0took",
+    "title": "THE PUNISHER: La Última Muerte Tráiler Español Latino (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-04-09T16:38:52Z",
+    "found_at": "2026-04-09T16:46:37.223066",
+    "status": "metadata_update",
+    "sanitized_name": "THE PUNISHER_ La Última Muerte Tráiler Español Latino (2026)"
+  },
+  {
     "video_id": "X3GwTYrRBc8",
     "url": "https://www.youtube.com/watch?v=X3GwTYrRBc8",
     "title": "HOKUM Tráiler Español (2026) Adam Scott, Terror",
@@ -7,7 +18,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-09T13:30:41Z",
     "found_at": "2026-04-09T14:32:20.391099",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "HOKUM Tráiler Español (2026) Adam Scott, Terror"
   },
   {
@@ -18,7 +29,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-09T10:30:05Z",
     "found_at": "2026-04-09T14:32:20.391120",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "INVOCACIÓN Tráiler Español Latino (2026) Colby Minifie"
   },
   {
@@ -29,7 +40,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-08T14:30:55Z",
     "found_at": "2026-04-09T14:32:20.391126",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "ENGENDRO Tráiler Español Latino (2026) Rupert Grint"
   },
   {
@@ -40,7 +51,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-08T10:01:55Z",
     "found_at": "2026-04-09T14:32:20.391130",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "RICK &amp; MORTY Temporada 9 Tráiler Español Latino (2026)"
   },
   {
@@ -51,7 +62,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-08T10:01:43Z",
     "found_at": "2026-04-09T14:32:20.391128",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "LEGO ONE PIECE Teaser Tráiler Español Latino (2026)"
   },
   {
@@ -62,7 +73,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-07T13:16:15Z",
     "found_at": "2026-04-09T14:32:20.391133",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "LEGO ONE PIECE Teaser Tráiler Español (2026)"
   },
   {
@@ -73,7 +84,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-06T16:55:21Z",
     "found_at": "2026-04-09T14:32:20.391135",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "EL DIABLO VISTE DE PRADA 2 Tráiler Español Final (2026)"
   },
   {
@@ -84,7 +95,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-06T16:33:30Z",
     "found_at": "2026-04-09T14:32:20.391137",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "EL DIABLO VISTE A LA MODA 2 Tráiler Español Latino Final (2026)"
   },
   {
@@ -95,7 +106,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-05T17:02:01Z",
     "found_at": "2026-04-09T14:32:20.391139",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "OUTCOME Tráiler Español Doblado (2026) Keanu Reeves"
   },
   {
@@ -106,7 +117,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-04T17:02:01Z",
     "found_at": "2026-04-09T14:32:20.391141",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "CAPE FEAR Tráiler Español (2026)"
   },
   {
@@ -117,7 +128,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-03T13:30:23Z",
     "found_at": "2026-04-03T13:42:34.018354",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "INTERCAMBIOS Tráiler Español (2026)"
   },
   {
@@ -128,7 +139,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-02T22:38:26Z",
     "found_at": "2026-04-03T13:42:34.018381",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "OUTCOME Tráiler Español Latino Doblado (2026) Keanu Reeves"
   },
   {
@@ -139,7 +150,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-02T15:30:08Z",
     "found_at": "2026-04-03T13:42:34.018387",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "PEQUEÑOS MONSTRUOS Tráiler Español Latino (2026)"
   },
   {
@@ -150,7 +161,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-02T14:30:32Z",
     "found_at": "2026-04-03T13:42:34.018391",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "LA HUELLA DEL ORO Tráiler Español Latino (2026)"
   },
   {
@@ -161,7 +172,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-02T13:13:10Z",
     "found_at": "2026-04-03T13:42:34.018396",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "INTERCAMBIADOS Tráiler Español Latino (2026)"
   },
   {
@@ -172,7 +183,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-01T13:30:25Z",
     "found_at": "2026-04-03T13:42:34.018400",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "BACKROOMS Tráiler Español Latino (2026)"
   },
   {
@@ -183,7 +194,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-03-31T20:44:17Z",
     "found_at": "2026-03-31T21:17:35.152727",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "CABO DE MIEDO Tráiler Español Latino (2026)"
   },
   {
@@ -194,7 +205,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-03-31T19:16:09Z",
     "found_at": "2026-03-31T21:17:35.152746",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "BACKROOMS Tráiler Español (2026)"
   },
   {
@@ -205,19 +216,19 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-03-31T16:14:51Z",
     "found_at": "2026-03-31T21:17:35.152749",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "SUPERGIRL Tráiler Español Latino (2026) Milly Alcock"
   },
   {
-    "video_id": "co2MCCGxFuo",
-    "url": "https://www.youtube.com/watch?v=co2MCCGxFuo",
-    "title": "SUPERGIRL Tráiler Español (2026) Superman",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-03-31T16:09:40Z",
-    "found_at": "2026-03-31T21:17:35.152752",
+    "video_id": "KWwZPAMjEDk",
+    "url": "https://www.youtube.com/watch?v=KWwZPAMjEDk",
+    "title": "Supernova Génesis | Tráiler oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-04-09T16:00:00Z",
+    "found_at": "2026-04-09T16:46:37.533505",
     "status": "metadata_update",
-    "sanitized_name": "SUPERGIRL Tráiler Español (2026) Superman"
+    "sanitized_name": "Supernova Génesis _ Tráiler oficial _ Netflix"
   },
   {
     "video_id": "g4AbkiHJWdw",
@@ -227,7 +238,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-09T14:05:00Z",
     "found_at": "2026-04-09T14:32:20.645644",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Si los deseos mataran... _ Tráiler oficial _ Netflix"
   },
   {
@@ -252,7 +263,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-09T13:00:01Z",
     "found_at": "2026-04-09T14:32:20.645665",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Perfecta_ La voz de Silvina Luna _ Primer vistazo _ Netflix"
   },
   {
@@ -263,7 +274,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-08T19:00:41Z",
     "found_at": "2026-04-09T14:32:20.645669",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Clip de apoyo emocional. 🫶"
   },
   {
@@ -274,7 +285,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-08T19:00:00Z",
     "found_at": "2026-04-09T14:32:20.645672",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Nada más argentino que Mafalda _ Hecho en Argentina"
   },
   {
@@ -285,7 +296,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-08T18:30:00Z",
     "found_at": "2026-04-09T14:32:20.645675",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Lo viejo funciona, según Ariel Staltari _ Hecho en Argentina"
   },
   {
@@ -296,7 +307,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-08T18:00:00Z",
     "found_at": "2026-04-09T14:32:20.645677",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Carla Peterson y Jerónimo Bosia viajan en el tiempo _ Hecho en Argentina"
   },
   {
@@ -307,7 +318,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-08T17:30:00Z",
     "found_at": "2026-04-09T14:32:20.645679",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Caro Pardíaco ama lo Hecho en Argentina"
   },
   {
@@ -318,7 +329,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-08T17:00:00Z",
     "found_at": "2026-04-09T14:32:20.645682",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Yoyi Francella habla de series en terapia _ Hecho en Argentina"
   },
   {
@@ -329,7 +340,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-08T16:30:00Z",
     "found_at": "2026-04-09T14:32:20.645684",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Alex Pelao ahora tiene pelo _ Hecho en Argentina"
   },
   {
@@ -340,7 +351,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-08T16:00:00Z",
     "found_at": "2026-04-09T14:32:20.645686",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Ana Garibaldi entra con respeto a su sesión con Fernanda _ Hecho en Argentina"
   },
   {
@@ -351,7 +362,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-08T15:30:00Z",
     "found_at": "2026-04-09T14:32:20.645688",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "¿Chino Darín en una serie sobre rusos_ _ Hecho en Argentina"
   },
   {
@@ -362,7 +373,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-08T15:00:00Z",
     "found_at": "2026-04-09T14:32:20.645690",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Peter Lanzani NO está en una publicidad de Netflix _ Hecho en Argentina"
   },
   {
@@ -373,7 +384,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-08T14:30:00Z",
     "found_at": "2026-04-09T14:32:20.645692",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Ariel Staltari y Matías Recalt hacen terapia por su fobia a la nieve _ Hecho en Argentina"
   },
   {
@@ -384,7 +395,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-08T14:00:01Z",
     "found_at": "2026-04-09T14:32:20.645694",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Mercedes Morán ve gente muerta _ Hecho en Argentina"
   },
   {
@@ -395,7 +406,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-08T13:30:00Z",
     "found_at": "2026-04-09T14:32:20.645696",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Se viene una película de Dibu Martínez _ Hecho en Argentina"
   },
   {
@@ -406,7 +417,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-08T13:00:00Z",
     "found_at": "2026-04-09T14:32:20.645698",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "María Becerra está obsesionada con &quot;7 vidas&quot; _ Hecho en Argentina"
   },
   {
@@ -417,7 +428,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-08T12:30:00Z",
     "found_at": "2026-04-09T14:32:20.645700",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Caro Pardíaco quiere hacer otra serie _ Hecho en Argentina"
   },
   {
@@ -428,19 +439,8 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-08T12:00:00Z",
     "found_at": "2026-04-09T14:32:20.645702",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Griselda Siciliani y Cecilia Roth hablan con Fernanda sobre ser Moria _ Hecho en Argentina"
-  },
-  {
-    "video_id": "NHmgliE1-6U",
-    "url": "https://www.youtube.com/watch?v=NHmgliE1-6U",
-    "title": "Moria Casán y Sofía Gala Castiglione no quieren contar nada sobre la serie | Hecho en Argentina",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-04-08T11:30:00Z",
-    "found_at": "2026-04-09T14:32:20.645707",
-    "status": "metadata_update",
-    "sanitized_name": "Moria Casán y Sofía Gala Castiglione no quieren contar nada sobre la serie _ Hecho en Argentina"
   },
   {
     "video_id": "iKbxBpLFleE",
@@ -450,7 +450,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-08T21:00:46Z",
     "found_at": "2026-04-09T14:32:20.888142",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Half Man _ Tráiler Oficial _ HBO Max"
   },
   {
@@ -461,7 +461,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-07T16:48:51Z",
     "found_at": "2026-04-09T14:32:20.888159",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Rick &amp; Morty - Temporada 9 _ Tráiler Oficial _ HBO Max"
   },
   {
@@ -472,7 +472,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-07T15:07:30Z",
     "found_at": "2026-04-09T14:32:20.888163",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Sociedad De La Virtud _ Tráiler Oficial _ HBO Max y [adult swim]"
   },
   {
@@ -483,7 +483,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-06T20:00:34Z",
     "found_at": "2026-04-09T14:32:20.888165",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Sociedad de La Virtud_ La Serie _ Teaser Oficial _ HBO Max"
   },
   {
@@ -494,7 +494,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-06T19:03:08Z",
     "found_at": "2026-04-09T14:32:20.888168",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "La Huella Del Oro _ Mario Castañeda _ HBO Max"
   },
   {
@@ -505,7 +505,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-06T18:50:13Z",
     "found_at": "2026-04-09T14:32:20.888171",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "En busca de Harry_ El arte detrás de la magia ya está disponible en HBO Max. #HarryPotterHBO"
   },
   {
@@ -516,7 +516,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-02T19:00:03Z",
     "found_at": "2026-04-03T13:42:34.581552",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Esto no se arregla ni reiniciando el sistema 💻 Qué intenso que está The Pitt, por HBO Max"
   },
   {
@@ -527,7 +527,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-02T17:33:00Z",
     "found_at": "2026-04-03T13:42:34.581570",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Smiling Friends _ Últimos Episodios _ HBO Max"
   },
   {
@@ -538,7 +538,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-02T13:00:37Z",
     "found_at": "2026-04-03T13:42:34.581574",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "En Busca de Harry_ El Arte Detrás De La Magia _ Trailer Oficial _ HBO Max"
   },
   {
@@ -549,7 +549,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-01T18:26:16Z",
     "found_at": "2026-04-03T13:42:34.581577",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Cada batalla. Cada traición. Cada muerte. Esto es El Reinado de los Tronos #GOT15"
   },
   {
@@ -560,7 +560,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-31T16:00:28Z",
     "found_at": "2026-03-31T21:17:35.722650",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Rick &amp; Morty - 9ª Temporada _ Teaser Bailando _ HBO Max"
   },
   {
@@ -571,7 +571,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-30T20:00:19Z",
     "found_at": "2026-03-31T21:17:35.722666",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "La Huella Del Oro _ Tráiler Oficial _ HBO Max"
   },
   {
@@ -582,7 +582,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-30T17:16:01Z",
     "found_at": "2026-03-30T19:14:51.810090",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Euphoria - Temporada 3 _ Tráiler 2 Subtitulado _ HBO Max"
   },
   {
@@ -593,7 +593,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-30T17:02:23Z",
     "found_at": "2026-03-30T19:14:51.810107",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Euphoria - Temporada 3 _ Tráiler 2 en Español _ HBO Max"
   },
   {
@@ -604,7 +604,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-28T17:00:01Z",
     "found_at": "2026-03-28T17:30:43.864453",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Tres hermanas, tres historias que nos llegaron al corazón ❤️‍🔥 #ComoAguaParaChocolate"
   },
   {
@@ -615,7 +615,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-27T21:00:20Z",
     "found_at": "2026-03-28T02:54:55.410319",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Recap_ Única y Alaska _ Margarita _ HBO Max"
   },
   {
@@ -626,7 +626,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-27T17:03:15Z",
     "found_at": "2026-03-28T02:54:55.410338",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "¡NUEVA SERIE! Un show más_ Las cintas perdidas 📼 11 de mayo _ HBO Max"
   },
   {
@@ -637,7 +637,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-27T17:03:01Z",
     "found_at": "2026-03-28T02:54:55.410334",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "¡NUEVA SERIE! Un show más_ Las cintas perdidas 📼 TEASER OFICIAL _ 11 de mayo _ HBO Max"
   },
   {
@@ -648,7 +648,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-27T02:00:34Z",
     "found_at": "2026-03-28T02:54:55.410341",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "La manera tan linda en que hablan de sus personajes. ✨😍🫰#ComoAguaParaChocolate"
   },
   {
@@ -659,8 +659,19 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-03-25T19:02:22Z",
     "found_at": "2026-03-26T03:56:28.229827",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Harry Potter y la Piedra Filosofal _ Teaser Oficial _ HBO Max"
+  },
+  {
+    "video_id": "UcKb_bfqHbE",
+    "url": "https://www.youtube.com/watch?v=UcKb_bfqHbE",
+    "title": "El otro viltrumita: Me piro vampiro. 🏃💨 #Invincible #shorts",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-04-09T15:37:59Z",
+    "found_at": "2026-04-09T16:46:38.084542",
+    "status": "metadata_update",
+    "sanitized_name": "El otro viltrumita_ Me piro vampiro. 🏃💨 #Invincible #shorts"
   },
   {
     "video_id": "Y4Vt_nmzekU",
@@ -670,7 +681,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-08T22:30:20Z",
     "found_at": "2026-04-09T14:32:21.167338",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Robarle al ladrón. #CaminosDelCrimen está disponible"
   },
   {
@@ -681,7 +692,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-08T19:30:55Z",
     "found_at": "2026-04-09T14:32:21.167354",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "DESPIERTA, SOLDIER BOY, TU HIJO TE NECESITA 🫨#TheBoys Capítulos 1 y 2 ya disponibles"
   },
   {
@@ -692,7 +703,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-08T14:15:34Z",
     "found_at": "2026-04-09T14:32:21.167358",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Recordatorio_ NO DORMIR CERCA DE UN LEÓN HAMBRIENTO. #Madagascar #shorts"
   },
   {
@@ -703,7 +714,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-08T13:30:08Z",
     "found_at": "2026-04-09T14:32:21.167361",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "No es país para solteros - Tráiler Oficial I Prime Video"
   },
   {
@@ -714,7 +725,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-07T20:58:38Z",
     "found_at": "2026-04-09T14:32:21.167364",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "LA TRAICIÓN QUE CAMBIÓ LA HISTORIA #TheChosen #Shorts"
   },
   {
@@ -725,7 +736,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-07T16:09:03Z",
     "found_at": "2026-04-09T14:32:21.167366",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "HASTA EL DEMONIO SE PREOCUPÓ POR LOS NIÑOS. #GoodOmens #shorts"
   },
   {
@@ -736,7 +747,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-06T20:42:33Z",
     "found_at": "2026-04-09T14:32:21.167369",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "LA SONRISITA DEL FINAL 🙏😮‍💨 #Supernatural #DeanWinchester #Shorts"
   },
   {
@@ -747,7 +758,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-06T17:27:55Z",
     "found_at": "2026-04-09T14:32:21.167372",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "El regreso triunfal del rey y David. #LaCasaDeDavid Temporada 2, YA DISPONIBLE."
   },
   {
@@ -758,7 +769,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-06T14:29:13Z",
     "found_at": "2026-04-09T14:32:21.167375",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "¿CÓMO QUE CRINGE_ MÁS RESPETO AL CINE 🗣️ #ConTodosMenosContigo #SidneySweeney #Shorts"
   },
   {
@@ -769,7 +780,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-03-31T19:00:30Z",
     "found_at": "2026-03-31T21:17:36.006642",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Niles es mi ANIMAL ESPIRITUAL. #TheNanny #Shorts"
   },
   {
@@ -780,7 +791,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-03-30T23:05:56Z",
     "found_at": "2026-03-31T21:17:36.006657",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Estos aliens NO APRENDEN, ¿verdad_ #Invincible #shorts"
   },
   {
@@ -791,7 +802,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-03-30T16:00:38Z",
     "found_at": "2026-03-30T19:14:52.095128",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "NO ESTÁBAMOS LISTOS PARA TODOS ESTOS GIROS ARGUMENTALES 😵‍💫 #Zeta #Shorts"
   },
   {
@@ -816,7 +827,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-03-29T21:00:34Z",
     "found_at": "2026-03-30T02:27:34.651354",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Ahora pediré QUE SE DISCULPEN ASÍ CONMIGO. #GoodOmens"
   },
   {
@@ -827,7 +838,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-03-29T16:00:00Z",
     "found_at": "2026-03-30T02:27:34.651370",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Invincible se une a Satanás contra Volcanikka - Invincible Temporada 4 - Prime Video"
   },
   {
@@ -838,7 +849,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-03-29T15:00:35Z",
     "found_at": "2026-03-30T02:27:34.651374",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "LA CARA DE SYLVIA FINE AL FINAL 👌 #TheNanny #Shorts"
   },
   {
@@ -849,7 +860,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-03-28T21:00:22Z",
     "found_at": "2026-03-29T05:08:24.691300",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "LIKE SI TAMBIÉN MANDAS AL C4R4J0 A LOS QUE DAN MALAS VIBRAS. #Invincible #Shorts"
   },
   {
@@ -860,7 +871,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-03-28T16:00:41Z",
     "found_at": "2026-03-28T17:30:44.097153",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "EN CINE ES EFECTO 😮‍💨 #DjangoSinCadenas #QuentinTarantino #Shorts"
   },
   {
@@ -871,18 +882,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-03-27T21:00:33Z",
     "found_at": "2026-03-28T02:54:55.688151",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Sólo los VERDADEROS FANÁTICOS de #HOUSE saben por qué NO QUERÍA OPERARSE."
-  },
-  {
-    "video_id": "Klk5LFKnYCY",
-    "url": "https://www.youtube.com/watch?v=Klk5LFKnYCY",
-    "title": "¿VISTE LA PISTA ANTES QUE ÉL? 👀 #ElJovenSherlock #Shorts",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-03-26T21:00:29Z",
-    "found_at": "2026-03-28T02:54:55.688167",
-    "status": "pending",
-    "sanitized_name": "¿VISTE LA PISTA ANTES QUE ÉL_ 👀 #ElJovenSherlock #Shorts"
   }
 ]
