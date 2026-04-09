@@ -5713,3 +5713,53 @@ DESCRIPCIÓN: ...
 2026-04-03 14:14:45,766 - INFO - [SUMMARY] Videos fallidos: 0
 2026-04-03 14:14:46,267 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-04-03 14:14:46,267 - INFO - [FINISH] Proceso completado exitosamente
+2026-04-09 14:35:49,369 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-04-09 14:35:49,369 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-04-09 14:35:49,369 - INFO - [INIT] API Key disponible: Sí
+2026-04-09 14:35:49,369 - INFO - [INIT] Bot Token disponible: Sí
+2026-04-09 14:35:49,370 - INFO - [INIT] Chat ID disponible: Sí
+2026-04-09 14:35:49,370 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-04-09 14:35:49,370 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-04-09 14:35:49,370 - INFO - [API] ✅ API Key tiene formato válido
+2026-04-09 14:35:49,371 - INFO - [JSON] Cargados 130 videos desde data.json
+2026-04-09 14:35:49,371 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-04-09 14:35:49,371 - INFO - [PROCESS] Procesando 1 videos...
+2026-04-09 14:35:49,371 - INFO - 
+--- Procesando video 1/1 ---
+2026-04-09 14:35:49,371 - INFO - [VIDEO] Título: Leyendas | Tráiler oficial | Netflix
+2026-04-09 14:35:49,371 - INFO - [VIDEO] ID: 6ewwEofkFcI
+2026-04-09 14:35:49,371 - INFO - [SEARCH] Buscando JSON para: 'Leyendas | Tráiler oficial | Netflix'
+2026-04-09 14:35:49,371 - INFO - [SEARCH] Primeras 3 palabras del título: ['leyendas', 'trailer', 'oficial']
+2026-04-09 14:35:49,371 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-04-09 14:35:49,372 - INFO - [COMPARE] Archivo: Leyendas _ Tráiler oficial _ Netflix.json
+2026-04-09 14:35:49,372 - INFO - [COMPARE] Título JSON: 'Leyendas | Tráiler oficial | Netflix'
+2026-04-09 14:35:49,372 - INFO - [COMPARE] Primeras 3 palabras JSON: ['leyendas', 'trailer', 'oficial']
+2026-04-09 14:35:49,372 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Leyendas _ Tráiler oficial _ Netflix.json
+2026-04-09 14:35:49,372 - INFO - [API] ✅ API Key tiene formato válido
+2026-04-09 14:35:49,372 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-04-09 14:35:49,372 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-04-09 14:35:49,372 - INFO - [API] 🔑 API Key válida: ✅
+2026-04-09 14:35:49,372 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-04-09 14:36:06,630 - INFO - [API] 📊 Código de respuesta: 200
+2026-04-09 14:36:06,630 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-04-09 14:36:06,630 - INFO - [API] 📏 Longitud de respuesta: 2202 caracteres
+2026-04-09 14:36:06,631 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: LEYENDAS Tráiler Oficial en Español Latino (2025) | Netflix Serie de Espionaje
+
+DESCRIPCIÓN:...
+2026-04-09 14:36:06,632 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-04-09 14:36:06,632 - INFO - [PARSE] Datos parseados exitosamente:
+2026-04-09 14:36:06,632 - INFO -   - Título: LEYENDAS Tráiler Oficial en Español Latino (2025) ...
+2026-04-09 14:36:06,632 - INFO -   - Descripción: 1887 caracteres
+2026-04-09 14:36:06,632 - INFO -   - Tags: 10 elementos
+2026-04-09 14:36:06,632 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-04-09 14:36:06,633 - INFO - [UPDATE] JSON actualizado: Leyendas _ Tráiler oficial _ Netflix.json
+2026-04-09 14:36:06,634 - INFO - [JSON] Cargados 130 videos desde data.json
+2026-04-09 14:36:06,634 - INFO - [STATUS] Video 6ewwEofkFcI actualizado a 'ok'
+2026-04-09 14:36:06,636 - INFO - [JSON] data.json actualizado exitosamente
+2026-04-09 14:36:06,636 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-04-09 14:36:06,636 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-04-09 14:36:06,636 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-04-09 14:36:06,636 - INFO - [SUMMARY] Videos fallidos: 0
+2026-04-09 14:36:07,060 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-04-09 14:36:07,062 - INFO - [FINISH] Proceso completado exitosamente

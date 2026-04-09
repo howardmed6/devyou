@@ -1373,3 +1373,17 @@
 2026-04-03 14:14:50,419 - INFO - [CLEANUP] Archivos eliminados: jQZAOD_T928
 2026-04-03 14:14:53,407 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-04-03 14:14:53,407 - INFO - [FINISH] Proceso completado
+2026-04-09 14:36:07,456 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-04-09 14:36:07,887 - INFO - [UPLOAD] Procesando: Leyendas | Tráiler oficial | Netflix
+2026-04-09 14:36:07,888 - INFO - [SEARCH] Buscando archivos para: 'Leyendas | Tráiler oficial | Netflix'
+2026-04-09 14:36:07,888 - INFO - [SEARCH] Palabras clave: ['leyendas', '|', 'trailer']
+2026-04-09 14:36:07,888 - INFO - [FILES] JSON: Leyendas _ Tráiler oficial _ Netflix.json
+2026-04-09 14:36:07,888 - INFO - [FILES] Video: Leyendas _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-04-09 14:36:07,888 - INFO - [FILES] Thumbnail: Leyendas _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-04-09 14:36:07,907 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-09 14:36:08,006 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-04-09 14:36:09,647 - INFO - [YOUTUBE] Video subido: d9Zzh0hG3ZY
+2026-04-09 14:36:11,800 - INFO - [YOUTUBE] Thumbnail subido
+2026-04-09 14:36:11,805 - INFO - [CLEANUP] Archivos eliminados: 6ewwEofkFcI
+2026-04-09 14:36:14,777 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-04-09 14:36:14,777 - INFO - [FINISH] Proceso completado
