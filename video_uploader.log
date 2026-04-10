@@ -1389,3 +1389,17 @@
 2026-04-09 14:36:14,777 - INFO - [FINISH] Proceso completado
 2026-04-09 16:46:44,224 - INFO - [PROCESS] No hay videos listos para subir
 2026-04-09 16:46:44,627 - INFO - [FINISH] Proceso completado
+2026-04-10 05:47:04,374 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-04-10 05:47:05,030 - INFO - [UPLOAD] Procesando: Si los deseos mataran... | Tráiler oficial | Netflix
+2026-04-10 05:47:05,030 - INFO - [SEARCH] Buscando archivos para: 'Si los deseos mataran... | Tráiler oficial | Netflix'
+2026-04-10 05:47:05,030 - INFO - [SEARCH] Palabras clave: ['si', 'los', 'deseos']
+2026-04-10 05:47:05,031 - INFO - [FILES] JSON: Si los deseos mataran... _ Tráiler oficial _ Netflix.json
+2026-04-10 05:47:05,031 - INFO - [FILES] Video: Si los deseos mataran... _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-04-10 05:47:05,031 - INFO - [FILES] Thumbnail: Si los deseos mataran... _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-04-10 05:47:05,047 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 05:47:05,230 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-04-10 05:47:07,097 - INFO - [YOUTUBE] Video subido: 5LcE43EnMn8
+2026-04-10 05:47:09,450 - INFO - [YOUTUBE] Thumbnail subido
+2026-04-10 05:47:09,454 - INFO - [CLEANUP] Archivos eliminados: g4AbkiHJWdw
+2026-04-10 05:47:12,703 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-04-10 05:47:12,704 - INFO - [FINISH] Proceso completado

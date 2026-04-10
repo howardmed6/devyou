@@ -5776,3 +5776,53 @@ DESCRIPCIÓN:...
 2026-04-09 16:46:43,520 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-04-09 16:46:43,925 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-04-09 16:46:43,926 - INFO - [FINISH] Proceso completado exitosamente
+2026-04-10 05:46:45,037 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-04-10 05:46:45,038 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-04-10 05:46:45,038 - INFO - [INIT] API Key disponible: Sí
+2026-04-10 05:46:45,038 - INFO - [INIT] Bot Token disponible: Sí
+2026-04-10 05:46:45,038 - INFO - [INIT] Chat ID disponible: Sí
+2026-04-10 05:46:45,038 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-04-10 05:46:45,038 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-04-10 05:46:45,038 - INFO - [API] ✅ API Key tiene formato válido
+2026-04-10 05:46:45,039 - INFO - [JSON] Cargados 96 videos desde data.json
+2026-04-10 05:46:45,039 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-04-10 05:46:45,039 - INFO - [PROCESS] Procesando 1 videos...
+2026-04-10 05:46:45,039 - INFO - 
+--- Procesando video 1/1 ---
+2026-04-10 05:46:45,039 - INFO - [VIDEO] Título: Si los deseos mataran... | Tráiler oficial | Netflix
+2026-04-10 05:46:45,039 - INFO - [VIDEO] ID: g4AbkiHJWdw
+2026-04-10 05:46:45,039 - INFO - [SEARCH] Buscando JSON para: 'Si los deseos mataran... | Tráiler oficial | Netflix'
+2026-04-10 05:46:45,040 - INFO - [SEARCH] Primeras 3 palabras del título: ['los', 'deseos', 'mataran']
+2026-04-10 05:46:45,040 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-04-10 05:46:45,040 - INFO - [COMPARE] Archivo: Si los deseos mataran... _ Tráiler oficial _ Netflix.json
+2026-04-10 05:46:45,040 - INFO - [COMPARE] Título JSON: 'Si los deseos mataran... | Tráiler oficial | Netflix'
+2026-04-10 05:46:45,040 - INFO - [COMPARE] Primeras 3 palabras JSON: ['los', 'deseos', 'mataran']
+2026-04-10 05:46:45,040 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Si los deseos mataran... _ Tráiler oficial _ Netflix.json
+2026-04-10 05:46:45,040 - INFO - [API] ✅ API Key tiene formato válido
+2026-04-10 05:46:45,040 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-04-10 05:46:45,041 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-04-10 05:46:45,041 - INFO - [API] 🔑 API Key válida: ✅
+2026-04-10 05:46:45,041 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-04-10 05:47:03,396 - INFO - [API] 📊 Código de respuesta: 200
+2026-04-10 05:47:03,396 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-04-10 05:47:03,397 - INFO - [API] 📏 Longitud de respuesta: 2099 caracteres
+2026-04-10 05:47:03,397 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: SI LOS DESEOS MATARAN Tráiler Oficial en Español Latino (2025) | Netflix
+
+DESCRIPCIÓN: 🎬 ¿Qu...
+2026-04-10 05:47:03,398 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-04-10 05:47:03,398 - INFO - [PARSE] Datos parseados exitosamente:
+2026-04-10 05:47:03,398 - INFO -   - Título: SI LOS DESEOS MATARAN Tráiler Oficial en Español L...
+2026-04-10 05:47:03,399 - INFO -   - Descripción: 1800 caracteres
+2026-04-10 05:47:03,399 - INFO -   - Tags: 10 elementos
+2026-04-10 05:47:03,399 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-04-10 05:47:03,399 - INFO - [UPDATE] JSON actualizado: Si los deseos mataran... _ Tráiler oficial _ Netflix.json
+2026-04-10 05:47:03,400 - INFO - [JSON] Cargados 96 videos desde data.json
+2026-04-10 05:47:03,400 - INFO - [STATUS] Video g4AbkiHJWdw actualizado a 'ok'
+2026-04-10 05:47:03,401 - INFO - [JSON] data.json actualizado exitosamente
+2026-04-10 05:47:03,401 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-04-10 05:47:03,401 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-04-10 05:47:03,401 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-04-10 05:47:03,402 - INFO - [SUMMARY] Videos fallidos: 0
+2026-04-10 05:47:04,015 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-04-10 05:47:04,016 - INFO - [FINISH] Proceso completado exitosamente
