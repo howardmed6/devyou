@@ -5826,3 +5826,53 @@ DESCRIPCIÓN: 🎬 ¿Qu...
 2026-04-10 05:47:03,402 - INFO - [SUMMARY] Videos fallidos: 0
 2026-04-10 05:47:04,015 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-04-10 05:47:04,016 - INFO - [FINISH] Proceso completado exitosamente
+2026-04-23 23:37:58,611 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-04-23 23:37:58,611 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-04-23 23:37:58,612 - INFO - [INIT] API Key disponible: Sí
+2026-04-23 23:37:58,612 - INFO - [INIT] Bot Token disponible: Sí
+2026-04-23 23:37:58,612 - INFO - [INIT] Chat ID disponible: Sí
+2026-04-23 23:37:58,612 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-04-23 23:37:58,612 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-04-23 23:37:58,612 - INFO - [API] ✅ API Key tiene formato válido
+2026-04-23 23:37:58,613 - INFO - [JSON] Cargados 126 videos desde data.json
+2026-04-23 23:37:58,613 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-04-23 23:37:58,613 - INFO - [PROCESS] Procesando 1 videos...
+2026-04-23 23:37:58,613 - INFO - 
+--- Procesando video 1/1 ---
+2026-04-23 23:37:58,613 - INFO - [VIDEO] Título: The WONDERfools | Avance oficial | Netflix
+2026-04-23 23:37:58,613 - INFO - [VIDEO] ID: 3KB4gODk8LU
+2026-04-23 23:37:58,613 - INFO - [SEARCH] Buscando JSON para: 'The WONDERfools | Avance oficial | Netflix'
+2026-04-23 23:37:58,614 - INFO - [SEARCH] Primeras 3 palabras del título: ['the', 'wonderfools', 'avance']
+2026-04-23 23:37:58,614 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-04-23 23:37:58,614 - INFO - [COMPARE] Archivo: The WONDERfools _ Avance oficial _ Netflix.json
+2026-04-23 23:37:58,614 - INFO - [COMPARE] Título JSON: 'The WONDERfools | Avance oficial | Netflix'
+2026-04-23 23:37:58,614 - INFO - [COMPARE] Primeras 3 palabras JSON: ['the', 'wonderfools', 'avance']
+2026-04-23 23:37:58,614 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: The WONDERfools _ Avance oficial _ Netflix.json
+2026-04-23 23:37:58,614 - INFO - [API] ✅ API Key tiene formato válido
+2026-04-23 23:37:58,614 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-04-23 23:37:58,614 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-04-23 23:37:58,614 - INFO - [API] 🔑 API Key válida: ✅
+2026-04-23 23:37:58,614 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-04-23 23:38:19,305 - INFO - [API] 📊 Código de respuesta: 200
+2026-04-23 23:38:19,305 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-04-23 23:38:19,305 - INFO - [API] 📏 Longitud de respuesta: 2185 caracteres
+2026-04-23 23:38:19,305 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: THE WONDERFOOLS Tráiler Oficial en Español Latino (2025) | Netflix
+
+DESCRIPCIÓN: 🎬 ¡Prepárat...
+2026-04-23 23:38:19,306 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-04-23 23:38:19,307 - INFO - [PARSE] Datos parseados exitosamente:
+2026-04-23 23:38:19,307 - INFO -   - Título: THE WONDERFOOLS Tráiler Oficial en Español Latino ...
+2026-04-23 23:38:19,307 - INFO -   - Descripción: 1890 caracteres
+2026-04-23 23:38:19,307 - INFO -   - Tags: 12 elementos
+2026-04-23 23:38:19,307 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-04-23 23:38:19,308 - INFO - [UPDATE] JSON actualizado: The WONDERfools _ Avance oficial _ Netflix.json
+2026-04-23 23:38:19,309 - INFO - [JSON] Cargados 126 videos desde data.json
+2026-04-23 23:38:19,309 - INFO - [STATUS] Video 3KB4gODk8LU actualizado a 'ok'
+2026-04-23 23:38:19,311 - INFO - [JSON] data.json actualizado exitosamente
+2026-04-23 23:38:19,311 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-04-23 23:38:19,311 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-04-23 23:38:19,311 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-04-23 23:38:19,311 - INFO - [SUMMARY] Videos fallidos: 0
+2026-04-23 23:38:19,733 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-04-23 23:38:19,734 - INFO - [FINISH] Proceso completado exitosamente

@@ -1403,3 +1403,17 @@
 2026-04-10 05:47:09,454 - INFO - [CLEANUP] Archivos eliminados: g4AbkiHJWdw
 2026-04-10 05:47:12,703 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-04-10 05:47:12,704 - INFO - [FINISH] Proceso completado
+2026-04-23 23:38:20,134 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-04-23 23:38:20,570 - INFO - [UPLOAD] Procesando: The WONDERfools | Avance oficial | Netflix
+2026-04-23 23:38:20,570 - INFO - [SEARCH] Buscando archivos para: 'The WONDERfools | Avance oficial | Netflix'
+2026-04-23 23:38:20,571 - INFO - [SEARCH] Palabras clave: ['the', 'wonderfools', '|']
+2026-04-23 23:38:20,571 - INFO - [FILES] JSON: The WONDERfools _ Avance oficial _ Netflix.json
+2026-04-23 23:38:20,571 - INFO - [FILES] Video: The WONDERfools _ Avance oficial _ Netflix(1080P_HD).mp4
+2026-04-23 23:38:20,571 - INFO - [FILES] Thumbnail: The WONDERfools _ Avance oficial _ Netflix(1080P_HD).jpg
+2026-04-23 23:38:20,592 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-23 23:38:20,691 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-04-23 23:38:21,988 - INFO - [YOUTUBE] Video subido: 3UQEbsnqas4
+2026-04-23 23:38:23,897 - INFO - [YOUTUBE] Thumbnail subido
+2026-04-23 23:38:23,901 - INFO - [CLEANUP] Archivos eliminados: 3KB4gODk8LU
+2026-04-23 23:38:26,810 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-04-23 23:38:26,810 - INFO - [FINISH] Proceso completado
