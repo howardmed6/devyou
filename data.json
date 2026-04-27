@@ -1,5 +1,71 @@
 [
   {
+    "video_id": "GHm1wWxhlco",
+    "url": "https://www.youtube.com/watch?v=GHm1wWxhlco",
+    "title": "LA CASA DEL DRAGÓN Temporada 3 Tráiler 2 Español Doblado (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-04-27T14:59:33Z",
+    "found_at": "2026-04-27T18:23:42.950770",
+    "status": "metadata_update",
+    "sanitized_name": "LA CASA DEL DRAGÓN Temporada 3 Tráiler 2 Español Doblado (2026)"
+  },
+  {
+    "video_id": "_yq02lnBxz0",
+    "url": "https://www.youtube.com/watch?v=_yq02lnBxz0",
+    "title": "LA CASA DEL DRAGÓN Temporada 3 Tráiler 2 Español Latino (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-04-27T14:48:11Z",
+    "found_at": "2026-04-27T18:23:42.950792",
+    "status": "metadata_update",
+    "sanitized_name": "LA CASA DEL DRAGÓN Temporada 3 Tráiler 2 Español Latino (2026)"
+  },
+  {
+    "video_id": "B4IQ4P-2uCc",
+    "url": "https://www.youtube.com/watch?v=B4IQ4P-2uCc",
+    "title": "CUENTA ATRÁS Tráiler Español (2026) Aaron Taylor-Johnson",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-04-27T14:01:34Z",
+    "found_at": "2026-04-27T18:23:42.950795",
+    "status": "metadata_update",
+    "sanitized_name": "CUENTA ATRÁS Tráiler Español (2026) Aaron Taylor-Johnson"
+  },
+  {
+    "video_id": "P6gshiCqbus",
+    "url": "https://www.youtube.com/watch?v=P6gshiCqbus",
+    "title": "JACKASS: LO MEJOR PARA EL FINAL Tráiler Español (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-04-27T13:41:13Z",
+    "found_at": "2026-04-27T18:23:42.950798",
+    "status": "metadata_update",
+    "sanitized_name": "JACKASS_ LO MEJOR PARA EL FINAL Tráiler Español (2026)"
+  },
+  {
+    "video_id": "5vnrJ5vXV8Y",
+    "url": "https://www.youtube.com/watch?v=5vnrJ5vXV8Y",
+    "title": "JACKASS LA ÚLTIMA Y NOS VAMOS Tráiler Español Latino (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-04-27T13:15:12Z",
+    "found_at": "2026-04-27T18:23:42.950800",
+    "status": "metadata_update",
+    "sanitized_name": "JACKASS LA ÚLTIMA Y NOS VAMOS Tráiler Español Latino (2026)"
+  },
+  {
+    "video_id": "phEj0O1fdsU",
+    "url": "https://www.youtube.com/watch?v=phEj0O1fdsU",
+    "title": "HOKUM: La Maldición De La Bruja Tráiler Español Latino Final (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-04-27T09:31:04Z",
+    "found_at": "2026-04-27T18:23:42.950803",
+    "status": "metadata_update",
+    "sanitized_name": "HOKUM_ La Maldición De La Bruja Tráiler Español Latino Final (2026)"
+  },
+  {
     "video_id": "x5hslfqG9xs",
     "url": "https://www.youtube.com/watch?v=x5hslfqG9xs",
     "title": "SPIDER-NOIR Tráiler 2 Español Latino + Color (2026) Nicolas Cage",
@@ -7,7 +73,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-26T04:33:17Z",
     "found_at": "2026-04-27T03:05:14.708890",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "SPIDER-NOIR Tráiler 2 Español Latino + Color (2026) Nicolas Cage"
   },
   {
@@ -18,7 +84,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-24T13:25:58Z",
     "found_at": "2026-04-27T03:05:14.708909",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "HE-MAN Y LOS MASTERS DEL UNIVERSO Tráiler 3 Español Doblado (2026)"
   },
   {
@@ -40,7 +106,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-23T13:16:38Z",
     "found_at": "2026-04-23T23:35:28.344789",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "AMOS DEL UNIVERSO Tráiler 3 Español Latino Doblado (2026)"
   },
   {
@@ -51,7 +117,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-23T13:02:03Z",
     "found_at": "2026-04-23T23:35:28.344812",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "OFF CAMPUS Tráiler Español Latino (2026)"
   },
   {
@@ -62,7 +128,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-23T09:39:12Z",
     "found_at": "2026-04-23T23:35:28.344815",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "COYOTE VS ACME Tráiler Español Latino (2026) John Cena"
   },
   {
@@ -73,7 +139,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-22T16:35:04Z",
     "found_at": "2026-04-23T23:35:28.344818",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "SCARY MOVIE 6 Tráiler 2 Español Doblado (2026)"
   },
   {
@@ -84,7 +150,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-22T16:27:49Z",
     "found_at": "2026-04-23T23:35:28.344821",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "SCARY MOVIE 6 Tráiler 2 Español Latino (2026)"
   },
   {
@@ -95,7 +161,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-21T16:54:07Z",
     "found_at": "2026-04-23T23:35:28.344823",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "EVIL DEAD_ EN LLAMAS Teaser Tráiler Español Latino (2026)"
   },
   {
@@ -106,7 +172,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-21T15:30:14Z",
     "found_at": "2026-04-23T23:35:28.344825",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "HECHIZO DE AMOR_ LA MAGIA CONTINÚA Tráiler Español Latino (2026) Sandra Bullock"
   },
   {
@@ -117,7 +183,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-18T01:43:59Z",
     "found_at": "2026-04-23T23:35:28.344827",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "VENGANZA Tráiler Español Latino (2026)"
   },
   {
@@ -128,7 +194,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-17T17:01:20Z",
     "found_at": "2026-04-23T23:35:28.344830",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "LOS MEJORES TRÁILERS DE LAS PELÍCULAS PRÓXIMAS (2026)"
   },
   {
@@ -139,7 +205,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-16T22:42:05Z",
     "found_at": "2026-04-23T23:35:28.344832",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "STAR WARS_ THE MANDALORIAN AND GROGU Tráiler Final Español Latino (2026)"
   },
   {
@@ -150,74 +216,8 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-04-16T13:36:02Z",
     "found_at": "2026-04-23T23:35:28.344837",
-    "status": "pending",
-    "sanitized_name": "STREET FIGHTER Tráiler 2 Español (2026)"
-  },
-  {
-    "video_id": "cukjVSLyYLQ",
-    "url": "https://www.youtube.com/watch?v=cukjVSLyYLQ",
-    "title": "STREET FIGHTER Tráiler 2 Español Latino (2026) Jason Momoa",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-04-16T13:13:27Z",
-    "found_at": "2026-04-23T23:35:28.344839",
-    "status": "pending",
-    "sanitized_name": "STREET FIGHTER Tráiler 2 Español Latino (2026) Jason Momoa"
-  },
-  {
-    "video_id": "jwMnqtlD0Uc",
-    "url": "https://www.youtube.com/watch?v=jwMnqtlD0Uc",
-    "title": "LA NOCHE DEL DEMONIO 6: ESTÁN ENTRE NOSOTROS Tráiler Español Latino (2026)",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-04-14T14:30:41Z",
-    "found_at": "2026-04-23T23:35:28.344842",
-    "status": "pending",
-    "sanitized_name": "LA NOCHE DEL DEMONIO 6_ ESTÁN ENTRE NOSOTROS Tráiler Español Latino (2026)"
-  },
-  {
-    "video_id": "TYft7-Iv66M",
-    "url": "https://www.youtube.com/watch?v=TYft7-Iv66M",
-    "title": "EL PASAJERO DEL DIABLO Tráiler Español Latino (2026) Terror",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-04-14T13:14:32Z",
-    "found_at": "2026-04-23T23:35:28.344845",
-    "status": "pending",
-    "sanitized_name": "EL PASAJERO DEL DIABLO Tráiler Español Latino (2026) Terror"
-  },
-  {
-    "video_id": "jgagTebSZrM",
-    "url": "https://www.youtube.com/watch?v=jgagTebSZrM",
-    "title": "INSIDIOUS 6: FUERA DEL MÁS ALLÁ Tráiler Español (2026)",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-04-14T09:42:59Z",
-    "found_at": "2026-04-23T23:35:28.344847",
-    "status": "pending",
-    "sanitized_name": "INSIDIOUS 6_ FUERA DEL MÁS ALLÁ Tráiler Español (2026)"
-  },
-  {
-    "video_id": "rVKgndIEJkU",
-    "url": "https://www.youtube.com/watch?v=rVKgndIEJkU",
-    "title": "CÓDIGO: VENGANZA Tráiler Español Latino (2026) Jason Statham",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-04-09T21:47:51Z",
-    "found_at": "2026-04-10T05:44:19.522782",
     "status": "metadata_update",
-    "sanitized_name": "CÓDIGO_ VENGANZA Tráiler Español Latino (2026) Jason Statham"
-  },
-  {
-    "video_id": "FRf8Bi0took",
-    "url": "https://www.youtube.com/watch?v=FRf8Bi0took",
-    "title": "THE PUNISHER: La Última Muerte Tráiler Español Latino (2026)",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-04-09T16:38:52Z",
-    "found_at": "2026-04-09T16:46:37.223066",
-    "status": "pending",
-    "sanitized_name": "THE PUNISHER_ La Última Muerte Tráiler Español Latino (2026)"
+    "sanitized_name": "STREET FIGHTER Tráiler 2 Español (2026)"
   },
   {
     "video_id": "-GDrLyVecUM",
@@ -241,7 +241,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-24T13:00:00Z",
     "found_at": "2026-04-27T03:05:14.972950",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Gordon _ Primer vistazo _ Netflix"
   },
   {
@@ -252,7 +252,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-23T16:01:13Z",
     "found_at": "2026-04-23T23:35:28.608778",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Toda la verdad sobre Yiya Murano, en el nuevo documental de Netflix"
   },
   {
@@ -263,7 +263,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-23T13:00:00Z",
     "found_at": "2026-04-23T23:35:28.608797",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Lo dejamos acá _ Primer vistazo _ Netflix"
   },
   {
@@ -288,7 +288,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-22T13:00:00Z",
     "found_at": "2026-04-23T23:35:28.608804",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "México 86 _ Tráiler oficial _ Netflix"
   },
   {
@@ -299,7 +299,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-22T12:00:10Z",
     "found_at": "2026-04-23T23:35:28.608807",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Carísima, la serie de Caro Pardíaco, se estrena el 20 de mayo en Netflix"
   },
   {
@@ -310,7 +310,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-21T18:00:00Z",
     "found_at": "2026-04-23T23:35:28.608809",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Los personajes de Felicidades, la película argentina de Álex de la Iglesia _ Netflix"
   },
   {
@@ -321,7 +321,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-21T15:00:01Z",
     "found_at": "2026-04-23T23:35:28.608812",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Devil May Cry_ Temporada 2 _ Tráiler oficial _ Netflix"
   },
   {
@@ -332,7 +332,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-17T00:30:11Z",
     "found_at": "2026-04-23T23:35:28.608814",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Ora 👁️👄👁️ La temporada 2 de &#39;Beauty in black&#39; ya está disponible. ☕"
   },
   {
@@ -343,7 +343,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-16T17:00:00Z",
     "found_at": "2026-04-23T23:35:28.608819",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Hombre en llamas _ Tráiler oficial _ Netflix"
   },
   {
@@ -354,7 +354,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-15T13:00:00Z",
     "found_at": "2026-04-23T23:35:28.608822",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Envidiosa_ Temporada 4 _ Tráiler oficial _ Netflix"
   },
   {
@@ -365,7 +365,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-10T02:00:00Z",
     "found_at": "2026-04-10T05:44:19.817245",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Un amor que no se agota _ TRÁILER OFICIAL _ Netflix"
   },
   {
@@ -376,7 +376,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-09T20:10:08Z",
     "found_at": "2026-04-10T05:44:19.817259",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Entendí la referencia 💖😭🥺"
   },
   {
@@ -387,7 +387,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-09T17:00:00Z",
     "found_at": "2026-04-10T05:44:19.817262",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Criaturas luminosas _ Tráiler oficial _ Netflix"
   },
   {
@@ -398,7 +398,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-09T16:00:00Z",
     "found_at": "2026-04-09T16:46:37.533505",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Supernova Génesis _ Tráiler oficial _ Netflix"
   },
   {
@@ -437,7 +437,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-09T13:00:01Z",
     "found_at": "2026-04-09T14:32:20.645665",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Perfecta_ La voz de Silvina Luna _ Primer vistazo _ Netflix"
   },
   {
@@ -448,8 +448,30 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-04-08T19:00:41Z",
     "found_at": "2026-04-09T14:32:20.645669",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Clip de apoyo emocional. 🫶"
+  },
+  {
+    "video_id": "HVhn1-WmHtY",
+    "url": "https://www.youtube.com/watch?v=HVhn1-WmHtY",
+    "title": "La Casa del Dragón - Temporada 3 | Tráiler Oficial Subtitulado | HBO Max",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2026-04-27T14:37:00Z",
+    "found_at": "2026-04-27T18:23:43.639848",
+    "status": "metadata_update",
+    "sanitized_name": "La Casa del Dragón - Temporada 3 _ Tráiler Oficial Subtitulado _ HBO Max"
+  },
+  {
+    "video_id": "n9ANzBmOxho",
+    "url": "https://www.youtube.com/watch?v=n9ANzBmOxho",
+    "title": "La Casa del Dragón - Temporada 3 | Tráiler Oficial en Español | HBO Max",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2026-04-27T14:37:00Z",
+    "found_at": "2026-04-27T18:23:43.639865",
+    "status": "metadata_update",
+    "sanitized_name": "La Casa del Dragón - Temporada 3 _ Tráiler Oficial en Español _ HBO Max"
   },
   {
     "video_id": "xpCu3lPk8IE",
@@ -459,7 +481,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-27T02:42:27Z",
     "found_at": "2026-04-27T03:05:15.240674",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Euphoria - Temporada 3 _ Avance episodio 4 _ HBO Max"
   },
   {
@@ -470,7 +492,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-26T14:07:06Z",
     "found_at": "2026-04-27T03:05:15.240688",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "El reino contiene la respiración. Tráiler mañana. #LaCasaDelDragon temporada 3."
   },
   {
@@ -481,7 +503,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-25T22:00:59Z",
     "found_at": "2026-04-27T03:05:15.240692",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Cumbres Borrascosas _ Tráiler Oficial _ HBO Max"
   },
   {
@@ -492,7 +514,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-21T02:00:40Z",
     "found_at": "2026-04-23T23:35:28.858242",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "¿Y si le mandan un detective privado_ #Euphoria #series #HBOMax #Rosalía"
   },
   {
@@ -503,7 +525,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-20T21:57:33Z",
     "found_at": "2026-04-23T23:35:28.858261",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Define una entrada perfecta_ Maddy en corto 🔥 #Euphoria"
   },
   {
@@ -514,7 +536,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-20T03:15:31Z",
     "found_at": "2026-04-23T23:35:28.858266",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Euphoria - Temporada 3 _ Avance episodio 3 _ HBO Max"
   },
   {
@@ -525,7 +547,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-14T19:00:25Z",
     "found_at": "2026-04-23T23:35:28.858269",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Euphoria - Temporada 3 _ Avance episodio 2 _ HBO Max"
   },
   {
@@ -536,7 +558,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-09T23:01:07Z",
     "found_at": "2026-04-10T05:44:20.104478",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Mateo heredando problemas que no son suyos😱 El turno nocturno llegó a #ThePitt, el final se acerca."
   },
   {
@@ -547,7 +569,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-08T21:00:46Z",
     "found_at": "2026-04-09T14:32:20.888142",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Half Man _ Tráiler Oficial _ HBO Max"
   },
   {
@@ -558,7 +580,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-07T16:48:51Z",
     "found_at": "2026-04-09T14:32:20.888159",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Rick &amp; Morty - Temporada 9 _ Tráiler Oficial _ HBO Max"
   },
   {
@@ -569,7 +591,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-07T15:07:30Z",
     "found_at": "2026-04-09T14:32:20.888163",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Sociedad De La Virtud _ Tráiler Oficial _ HBO Max y [adult swim]"
   },
   {
@@ -580,7 +602,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-06T20:00:34Z",
     "found_at": "2026-04-09T14:32:20.888165",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Sociedad de La Virtud_ La Serie _ Teaser Oficial _ HBO Max"
   },
   {
@@ -591,7 +613,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-06T19:03:08Z",
     "found_at": "2026-04-09T14:32:20.888168",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "La Huella Del Oro _ Mario Castañeda _ HBO Max"
   },
   {
@@ -602,7 +624,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-06T18:50:13Z",
     "found_at": "2026-04-09T14:32:20.888171",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "En busca de Harry_ El arte detrás de la magia ya está disponible en HBO Max. #HarryPotterHBO"
   },
   {
@@ -613,7 +635,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-02T19:00:03Z",
     "found_at": "2026-04-03T13:42:34.581552",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Esto no se arregla ni reiniciando el sistema 💻 Qué intenso que está The Pitt, por HBO Max"
   },
   {
@@ -624,7 +646,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-02T17:33:00Z",
     "found_at": "2026-04-03T13:42:34.581570",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Smiling Friends _ Últimos Episodios _ HBO Max"
   },
   {
@@ -635,7 +657,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-02T13:00:37Z",
     "found_at": "2026-04-03T13:42:34.581574",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "En Busca de Harry_ El Arte Detrás De La Magia _ Trailer Oficial _ HBO Max"
   },
   {
@@ -646,30 +668,33 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-01T18:26:16Z",
     "found_at": "2026-04-03T13:42:34.581577",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Cada batalla. Cada traición. Cada muerte. Esto es El Reinado de los Tronos #GOT15"
   },
   {
-    "video_id": "cZSbX3vdMz4",
-    "url": "https://www.youtube.com/watch?v=cZSbX3vdMz4",
-    "title": "Rick &amp; Morty - 9ª Temporada | Teaser Bailando | HBO Max",
-    "channel": "HBO Max Latinoamérica",
-    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
-    "published": "2026-03-31T16:00:28Z",
-    "found_at": "2026-03-31T21:17:35.722650",
+    "video_id": "fVPQ2nSETn8",
+    "url": "https://www.youtube.com/watch?v=fVPQ2nSETn8",
+    "title": "No sé si quiero sus poderes o su habilidad con los globos. #LaMáscara #shorts #JimCarrey",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-04-27T17:30:23Z",
+    "found_at": "2026-04-27T18:23:43.916641",
     "status": "metadata_update",
-    "sanitized_name": "Rick &amp; Morty - 9ª Temporada _ Teaser Bailando _ HBO Max"
+    "sanitized_name": "No sé si quiero sus poderes o su habilidad con los globos. #LaMáscara #shorts #JimCarrey"
   },
   {
-    "video_id": "vXDr6KqZ-kc",
-    "url": "https://www.youtube.com/watch?v=vXDr6KqZ-kc",
-    "title": "La Huella Del Oro | Tráiler Oficial | HBO Max",
-    "channel": "HBO Max Latinoamérica",
-    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
-    "published": "2026-03-30T20:00:19Z",
-    "found_at": "2026-03-31T21:17:35.722666",
-    "status": "metadata_update",
-    "sanitized_name": "La Huella Del Oro _ Tráiler Oficial _ HBO Max"
+    "video_id": "eFtgaj7XJRc",
+    "url": "https://www.youtube.com/watch?v=eFtgaj7XJRc",
+    "title": "Barrabrava - Nueva Temporada | Tráiler Oficial | Prime Video",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-04-27T14:00:35Z",
+    "found_at": "2026-04-27T18:23:43.916658",
+    "status": "uploaded",
+    "sanitized_name": "Barrabrava - Nueva Temporada _ Tráiler Oficial _ Prime Video",
+    "metadata_updated_at": "2026-04-27T18:27:47.542151",
+    "uploaded_at": "2026-04-27T18:27:53.625024",
+    "youtube_id": "3n5RpH6uvQE"
   },
   {
     "video_id": "UHSUUxI0F08",
@@ -679,7 +704,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-26T21:00:30Z",
     "found_at": "2026-04-27T03:05:15.522399",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Creo que NADIE quería saber eso. 😂 #TheBoys #Homelander #SoldierBoy"
   },
   {
@@ -690,7 +715,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-26T16:00:48Z",
     "found_at": "2026-04-27T03:05:15.522414",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "COMO LA SACABA DE LA CASA 🤣 #TheNanny #Shorts #FranFine"
   },
   {
@@ -701,7 +726,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-26T15:00:00Z",
     "found_at": "2026-04-27T03:05:15.522417",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Thragg y Mark hacen un trato - Invincible _ Prime Video"
   },
   {
@@ -712,7 +737,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-26T00:27:28Z",
     "found_at": "2026-04-27T03:05:15.522420",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "“Spider-Noir” - Tráiler _ Prime Video"
   },
   {
@@ -723,7 +748,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-25T21:00:29Z",
     "found_at": "2026-04-27T03:05:15.522422",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Es una relación de amor y odio. TODOS los episodios de #Invincible Temporada 4, ya disponibles"
   },
   {
@@ -734,7 +759,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-25T16:00:27Z",
     "found_at": "2026-04-27T03:05:15.522426",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Si no está hechizado, entonces cambiaron los actores. 🙄 #Supernatural #shorts"
   },
   {
@@ -745,7 +770,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-24T21:00:34Z",
     "found_at": "2026-04-27T03:05:15.522431",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "NADIE MÁS PODRÍA HABLAR DE LAS ÉLITES CON TANTA ELEGANCIA 🎬 #OjosBienCerrados #TomCruise #Kubrick"
   },
   {
@@ -756,7 +781,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-24T19:00:24Z",
     "found_at": "2026-04-27T03:05:15.522433",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "ME PARECE QUE ANGIE NO DIJO ESO, PERO COMO NO SOY PEZ, NO OPINO. 🐟 #EspantaTiburones"
   },
   {
@@ -767,7 +792,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-24T17:05:43Z",
     "found_at": "2026-04-27T03:05:15.522436",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Resumen Oficial de Barrabrava_ Temporada 1 _ Prime Video"
   },
   {
@@ -778,7 +803,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-24T16:12:43Z",
     "found_at": "2026-04-27T03:05:15.522444",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Barrabrava T1 E8 - El Ascenso I Prime Video"
   },
   {
@@ -789,7 +814,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-24T16:12:40Z",
     "found_at": "2026-04-27T03:05:15.522442",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Barrabrava T1 E7 - Amor Eterno I Prime Video"
   },
   {
@@ -800,7 +825,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-24T16:12:36Z",
     "found_at": "2026-04-27T03:05:15.522440",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Barrabrava T1 E6 - Hermanos de Sangre I Prime Video"
   },
   {
@@ -811,7 +836,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-24T16:12:27Z",
     "found_at": "2026-04-27T03:05:15.522446",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Barrabrava T1 E5 - Algo Sospechoso I Prime Video"
   },
   {
@@ -822,7 +847,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-24T16:12:18Z",
     "found_at": "2026-04-27T03:05:15.522438",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Barrabrava T1 E4 - El Retorno I Prime Video"
   },
   {
@@ -833,7 +858,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-24T16:12:08Z",
     "found_at": "2026-04-27T03:05:15.522454",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Barrabrava T1 E3 - Breijart I Prime Video"
   },
   {
@@ -844,7 +869,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-24T16:11:56Z",
     "found_at": "2026-04-27T03:05:15.522448",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Barrabrava T1 E2 - El Fénix I Prime Video"
   },
   {
@@ -855,7 +880,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-24T16:11:23Z",
     "found_at": "2026-04-27T03:05:15.522456",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Barrabrava T1 E1 - La Banda del Tío I Prime Video"
   },
   {
@@ -866,29 +891,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-04-23T21:00:26Z",
     "found_at": "2026-04-23T23:35:29.181154",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "¡Acelérele, señor! 💀 #CaminosDelCrimen #ChrisHemsworth #shorts"
-  },
-  {
-    "video_id": "gH0mzQ6MLcw",
-    "url": "https://www.youtube.com/watch?v=gH0mzQ6MLcw",
-    "title": "¿CAMBIARÍAS 5 AÑOS DE TU VIDA POR EL “CUERPO PERFECTO”? 🤔 #Fleabag  #Shorts",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-04-23T17:00:33Z",
-    "found_at": "2026-04-23T23:35:29.181174",
-    "status": "pending",
-    "sanitized_name": "¿CAMBIARÍAS 5 AÑOS DE TU VIDA POR EL “CUERPO PERFECTO”_ 🤔 #Fleabag  #Shorts"
-  },
-  {
-    "video_id": "req-jLGe0iw",
-    "url": "https://www.youtube.com/watch?v=req-jLGe0iw",
-    "title": "Off Campus T1 Tráiler Oficial | Prime Video",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-04-23T12:26:52Z",
-    "found_at": "2026-04-23T23:35:29.181177",
-    "status": "pending",
-    "sanitized_name": "Off Campus T1 Tráiler Oficial _ Prime Video"
   }
 ]

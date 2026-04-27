@@ -1431,3 +1431,17 @@
 2026-04-27 03:07:32,171 - INFO - [CLEANUP] Archivos eliminados: -GDrLyVecUM
 2026-04-27 03:07:35,027 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-04-27 03:07:35,027 - INFO - [FINISH] Proceso completado
+2026-04-27 18:27:48,455 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-04-27 18:27:48,890 - INFO - [UPLOAD] Procesando: Barrabrava - Nueva Temporada | Tráiler Oficial | Prime Video
+2026-04-27 18:27:48,890 - INFO - [SEARCH] Buscando archivos para: 'Barrabrava - Nueva Temporada | Tráiler Oficial | Prime Video'
+2026-04-27 18:27:48,891 - INFO - [SEARCH] Palabras clave: ['barrabrava', '-', 'nueva']
+2026-04-27 18:27:48,891 - INFO - [FILES] JSON: Barrabrava - Nueva Temporada _ Tráiler Oficial _ Prime Video.json
+2026-04-27 18:27:48,891 - INFO - [FILES] Video: Barrabrava - Nueva Temporada _ Tráiler Oficial _ Prime Video(1080P_HD).mp4
+2026-04-27 18:27:48,891 - INFO - [FILES] Thumbnail: Barrabrava - Nueva Temporada _ Tráiler Oficial _ Prime Video(1080P_HD).jpg
+2026-04-27 18:27:48,949 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-27 18:27:49,122 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-04-27 18:27:51,350 - INFO - [YOUTUBE] Video subido: 3n5RpH6uvQE
+2026-04-27 18:27:53,624 - INFO - [YOUTUBE] Thumbnail subido
+2026-04-27 18:27:53,628 - INFO - [CLEANUP] Archivos eliminados: eFtgaj7XJRc
+2026-04-27 18:27:56,516 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-04-27 18:27:56,516 - INFO - [FINISH] Proceso completado

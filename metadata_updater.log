@@ -5926,3 +5926,53 @@ DESCRI...
 2026-04-27 03:07:26,805 - INFO - [SUMMARY] Videos fallidos: 0
 2026-04-27 03:07:27,213 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-04-27 03:07:27,214 - INFO - [FINISH] Proceso completado exitosamente
+2026-04-27 18:27:30,663 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-04-27 18:27:30,663 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-04-27 18:27:30,663 - INFO - [INIT] API Key disponible: Sí
+2026-04-27 18:27:30,663 - INFO - [INIT] Bot Token disponible: Sí
+2026-04-27 18:27:30,663 - INFO - [INIT] Chat ID disponible: Sí
+2026-04-27 18:27:30,663 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-04-27 18:27:30,663 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-04-27 18:27:30,663 - INFO - [API] ✅ API Key tiene formato válido
+2026-04-27 18:27:30,664 - INFO - [JSON] Cargados 93 videos desde data.json
+2026-04-27 18:27:30,664 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-04-27 18:27:30,664 - INFO - [PROCESS] Procesando 1 videos...
+2026-04-27 18:27:30,664 - INFO - 
+--- Procesando video 1/1 ---
+2026-04-27 18:27:30,664 - INFO - [VIDEO] Título: Barrabrava - Nueva Temporada | Tráiler Oficial | Prime Video
+2026-04-27 18:27:30,665 - INFO - [VIDEO] ID: eFtgaj7XJRc
+2026-04-27 18:27:30,665 - INFO - [SEARCH] Buscando JSON para: 'Barrabrava - Nueva Temporada | Tráiler Oficial | Prime Video'
+2026-04-27 18:27:30,696 - INFO - [SEARCH] Primeras 3 palabras del título: ['barrabrava', 'nueva', 'temporada']
+2026-04-27 18:27:30,696 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-04-27 18:27:30,696 - INFO - [COMPARE] Archivo: Barrabrava - Nueva Temporada _ Tráiler Oficial _ Prime Video.json
+2026-04-27 18:27:30,697 - INFO - [COMPARE] Título JSON: 'Barrabrava - Nueva Temporada | Tráiler Oficial | Prime Video'
+2026-04-27 18:27:30,697 - INFO - [COMPARE] Primeras 3 palabras JSON: ['barrabrava', 'nueva', 'temporada']
+2026-04-27 18:27:30,697 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Barrabrava - Nueva Temporada _ Tráiler Oficial _ Prime Video.json
+2026-04-27 18:27:30,697 - INFO - [API] ✅ API Key tiene formato válido
+2026-04-27 18:27:30,697 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-04-27 18:27:30,697 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-04-27 18:27:30,697 - INFO - [API] 🔑 API Key válida: ✅
+2026-04-27 18:27:30,697 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-04-27 18:27:47,538 - INFO - [API] 📊 Código de respuesta: 200
+2026-04-27 18:27:47,538 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-04-27 18:27:47,538 - INFO - [API] 📏 Longitud de respuesta: 2223 caracteres
+2026-04-27 18:27:47,538 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: BARRABRAVA Temporada 2 - Tráiler Oficial (2026) | Prime Video Español Latino
+
+DESCRIPCIÓN: 🔥...
+2026-04-27 18:27:47,539 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-04-27 18:27:47,540 - INFO - [PARSE] Datos parseados exitosamente:
+2026-04-27 18:27:47,540 - INFO -   - Título: BARRABRAVA Temporada 2 - Tráiler Oficial (2026) | ...
+2026-04-27 18:27:47,540 - INFO -   - Descripción: 1870 caracteres
+2026-04-27 18:27:47,540 - INFO -   - Tags: 12 elementos
+2026-04-27 18:27:47,540 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-04-27 18:27:47,541 - INFO - [UPDATE] JSON actualizado: Barrabrava - Nueva Temporada _ Tráiler Oficial _ Prime Video.json
+2026-04-27 18:27:47,542 - INFO - [JSON] Cargados 93 videos desde data.json
+2026-04-27 18:27:47,542 - INFO - [STATUS] Video eFtgaj7XJRc actualizado a 'ok'
+2026-04-27 18:27:47,543 - INFO - [JSON] data.json actualizado exitosamente
+2026-04-27 18:27:47,543 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-04-27 18:27:47,543 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-04-27 18:27:47,543 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-04-27 18:27:47,543 - INFO - [SUMMARY] Videos fallidos: 0
+2026-04-27 18:27:47,967 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-04-27 18:27:47,968 - INFO - [FINISH] Proceso completado exitosamente
