@@ -1463,3 +1463,17 @@
 2026-04-28 17:48:42,358 - INFO - [CLEANUP] Archivos eliminados: _LIrDXTKh80
 2026-04-28 17:48:45,231 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-04-28 17:48:45,232 - INFO - [FINISH] Proceso completado
+2026-04-28 18:44:14,478 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-04-28 18:44:14,913 - INFO - [UPLOAD] Procesando: VERITY: LA SOMBRA DE UN ENGAÑO Tráiler Español Latino (2026) Dakota Johnson
+2026-04-28 18:44:14,913 - INFO - [SEARCH] Buscando archivos para: 'VERITY: LA SOMBRA DE UN ENGAÑO Tráiler Español Latino (2026) Dakota Johnson'
+2026-04-28 18:44:14,914 - INFO - [SEARCH] Palabras clave: ['verity', 'la', 'sombra']
+2026-04-28 18:44:14,914 - INFO - [FILES] JSON: VERITY_ LA SOMBRA DE UN ENGAÑO Tráiler Español Latino (2026) Dakota Johnson.json
+2026-04-28 18:44:14,914 - INFO - [FILES] Video: VERITY_ LA SOMBRA DE UN ENGAÑO Tráiler Español Latino (2026) Dakota Johnson(1080P_HD).mp4
+2026-04-28 18:44:14,914 - INFO - [FILES] Thumbnail: VERITY_ LA SOMBRA DE UN ENGAÑO Tráiler Español Latino (2026) Dakota Johnson(1080P_HD).jpg
+2026-04-28 18:44:14,923 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-28 18:44:15,022 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-04-28 18:44:16,599 - INFO - [YOUTUBE] Video subido: jm-hRQ69Dpk
+2026-04-28 18:44:18,659 - INFO - [YOUTUBE] Thumbnail subido
+2026-04-28 18:44:18,663 - INFO - [CLEANUP] Archivos eliminados: GoTYo3B1nhk
+2026-04-28 18:44:21,508 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-04-28 18:44:21,508 - INFO - [FINISH] Proceso completado

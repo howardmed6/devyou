@@ -6052,3 +6052,53 @@ DESCRIPCIÓN: 🎬 ¡Pre...
 2026-04-28 17:48:35,450 - INFO - [SUMMARY] Videos fallidos: 0
 2026-04-28 17:48:35,869 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-04-28 17:48:35,871 - INFO - [FINISH] Proceso completado exitosamente
+2026-04-28 18:43:57,644 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-04-28 18:43:57,644 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-04-28 18:43:57,644 - INFO - [INIT] API Key disponible: Sí
+2026-04-28 18:43:57,644 - INFO - [INIT] Bot Token disponible: Sí
+2026-04-28 18:43:57,644 - INFO - [INIT] Chat ID disponible: Sí
+2026-04-28 18:43:57,644 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-04-28 18:43:57,645 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-04-28 18:43:57,645 - INFO - [API] ✅ API Key tiene formato válido
+2026-04-28 18:43:57,646 - INFO - [JSON] Cargados 86 videos desde data.json
+2026-04-28 18:43:57,646 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-04-28 18:43:57,646 - INFO - [PROCESS] Procesando 1 videos...
+2026-04-28 18:43:57,646 - INFO - 
+--- Procesando video 1/1 ---
+2026-04-28 18:43:57,646 - INFO - [VIDEO] Título: VERITY: LA SOMBRA DE UN ENGAÑO Tráiler Español Latino (2026) Dakota Johnson
+2026-04-28 18:43:57,646 - INFO - [VIDEO] ID: GoTYo3B1nhk
+2026-04-28 18:43:57,646 - INFO - [SEARCH] Buscando JSON para: 'VERITY: LA SOMBRA DE UN ENGAÑO Tráiler Español Latino (2026) Dakota Johnson'
+2026-04-28 18:43:57,647 - INFO - [SEARCH] Primeras 3 palabras del título: ['verity', 'sombra', 'engano']
+2026-04-28 18:43:57,647 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-04-28 18:43:57,647 - INFO - [COMPARE] Archivo: VERITY_ LA SOMBRA DE UN ENGAÑO Tráiler Español Latino (2026) Dakota Johnson.json
+2026-04-28 18:43:57,647 - INFO - [COMPARE] Título JSON: 'VERITY: LA SOMBRA DE UN ENGAÑO Tráiler Español Latino (2026) Dakota Johnson'
+2026-04-28 18:43:57,647 - INFO - [COMPARE] Primeras 3 palabras JSON: ['verity', 'sombra', 'engano']
+2026-04-28 18:43:57,647 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: VERITY_ LA SOMBRA DE UN ENGAÑO Tráiler Español Latino (2026) Dakota Johnson.json
+2026-04-28 18:43:57,647 - INFO - [API] ✅ API Key tiene formato válido
+2026-04-28 18:43:57,648 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-04-28 18:43:57,648 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-04-28 18:43:57,648 - INFO - [API] 🔑 API Key válida: ✅
+2026-04-28 18:43:57,648 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-04-28 18:44:13,747 - INFO - [API] 📊 Código de respuesta: 200
+2026-04-28 18:44:13,747 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-04-28 18:44:13,747 - INFO - [API] 📏 Longitud de respuesta: 2115 caracteres
+2026-04-28 18:44:13,748 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: VERITY: LA SOMBRA DE UN ENGAÑO Tráiler Oficial Español Latino (2026)
+
+DESCRIPCIÓN: 🎬 ¡Prepár...
+2026-04-28 18:44:13,748 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-04-28 18:44:13,749 - INFO - [PARSE] Datos parseados exitosamente:
+2026-04-28 18:44:13,749 - INFO -   - Título: VERITY: LA SOMBRA DE UN ENGAÑO Tráiler Oficial Esp...
+2026-04-28 18:44:13,749 - INFO -   - Descripción: 1862 caracteres
+2026-04-28 18:44:13,749 - INFO -   - Tags: 9 elementos
+2026-04-28 18:44:13,749 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-04-28 18:44:13,750 - INFO - [UPDATE] JSON actualizado: VERITY_ LA SOMBRA DE UN ENGAÑO Tráiler Español Latino (2026) Dakota Johnson.json
+2026-04-28 18:44:13,750 - INFO - [JSON] Cargados 86 videos desde data.json
+2026-04-28 18:44:13,751 - INFO - [STATUS] Video GoTYo3B1nhk actualizado a 'ok'
+2026-04-28 18:44:13,752 - INFO - [JSON] data.json actualizado exitosamente
+2026-04-28 18:44:13,752 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-04-28 18:44:13,752 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-04-28 18:44:13,752 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-04-28 18:44:13,752 - INFO - [SUMMARY] Videos fallidos: 0
+2026-04-28 18:44:14,164 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-04-28 18:44:14,165 - INFO - [FINISH] Proceso completado exitosamente
