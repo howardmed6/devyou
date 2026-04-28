@@ -1449,3 +1449,17 @@
 2026-04-28 17:34:20,806 - INFO - [FINISH] Proceso completado
 2026-04-28 17:44:04,252 - INFO - [PROCESS] No hay videos listos para subir
 2026-04-28 17:44:04,714 - INFO - [FINISH] Proceso completado
+2026-04-28 17:48:36,383 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-04-28 17:48:36,821 - INFO - [UPLOAD] Procesando: Entre padre e hijo | Tráiler oficial | Netflix
+2026-04-28 17:48:36,822 - INFO - [SEARCH] Buscando archivos para: 'Entre padre e hijo | Tráiler oficial | Netflix'
+2026-04-28 17:48:36,822 - INFO - [SEARCH] Palabras clave: ['entre', 'padre', 'e']
+2026-04-28 17:48:36,822 - INFO - [FILES] JSON: Entre padre e hijo _ Tráiler oficial _ Netflix.json
+2026-04-28 17:48:36,822 - INFO - [FILES] Video: Entre padre e hijo _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-04-28 17:48:36,822 - INFO - [FILES] Thumbnail: Entre padre e hijo _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-04-28 17:48:36,862 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-28 17:48:37,008 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-04-28 17:48:40,294 - INFO - [YOUTUBE] Video subido: HJZj0rwqhns
+2026-04-28 17:48:42,354 - INFO - [YOUTUBE] Thumbnail subido
+2026-04-28 17:48:42,358 - INFO - [CLEANUP] Archivos eliminados: _LIrDXTKh80
+2026-04-28 17:48:45,231 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-04-28 17:48:45,232 - INFO - [FINISH] Proceso completado

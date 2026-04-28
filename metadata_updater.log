@@ -6002,3 +6002,53 @@ DESCRIPCIÓN: 🔥...
 2026-04-28 17:44:03,349 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-04-28 17:44:03,766 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-04-28 17:44:03,767 - INFO - [FINISH] Proceso completado exitosamente
+2026-04-28 17:48:20,321 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-04-28 17:48:20,321 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-04-28 17:48:20,321 - INFO - [INIT] API Key disponible: Sí
+2026-04-28 17:48:20,321 - INFO - [INIT] Bot Token disponible: Sí
+2026-04-28 17:48:20,321 - INFO - [INIT] Chat ID disponible: Sí
+2026-04-28 17:48:20,321 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-04-28 17:48:20,321 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-04-28 17:48:20,321 - INFO - [API] ✅ API Key tiene formato válido
+2026-04-28 17:48:20,322 - INFO - [JSON] Cargados 84 videos desde data.json
+2026-04-28 17:48:20,322 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-04-28 17:48:20,322 - INFO - [PROCESS] Procesando 1 videos...
+2026-04-28 17:48:20,322 - INFO - 
+--- Procesando video 1/1 ---
+2026-04-28 17:48:20,322 - INFO - [VIDEO] Título: Entre padre e hijo | Tráiler oficial | Netflix
+2026-04-28 17:48:20,322 - INFO - [VIDEO] ID: _LIrDXTKh80
+2026-04-28 17:48:20,322 - INFO - [SEARCH] Buscando JSON para: 'Entre padre e hijo | Tráiler oficial | Netflix'
+2026-04-28 17:48:20,343 - INFO - [SEARCH] Primeras 3 palabras del título: ['entre', 'padre', 'hijo']
+2026-04-28 17:48:20,344 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-04-28 17:48:20,344 - INFO - [COMPARE] Archivo: Entre padre e hijo _ Tráiler oficial _ Netflix.json
+2026-04-28 17:48:20,344 - INFO - [COMPARE] Título JSON: 'Entre padre e hijo | Tráiler oficial | Netflix'
+2026-04-28 17:48:20,344 - INFO - [COMPARE] Primeras 3 palabras JSON: ['entre', 'padre', 'hijo']
+2026-04-28 17:48:20,344 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Entre padre e hijo _ Tráiler oficial _ Netflix.json
+2026-04-28 17:48:20,344 - INFO - [API] ✅ API Key tiene formato válido
+2026-04-28 17:48:20,344 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-04-28 17:48:20,344 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-04-28 17:48:20,345 - INFO - [API] 🔑 API Key válida: ✅
+2026-04-28 17:48:20,345 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-04-28 17:48:35,444 - INFO - [API] 📊 Código de respuesta: 200
+2026-04-28 17:48:35,445 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-04-28 17:48:35,445 - INFO - [API] 📏 Longitud de respuesta: 2185 caracteres
+2026-04-28 17:48:35,445 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: ENTRE PADRE E HIJO | Tráiler Oficial en Español Latino (2025) | Netflix
+
+DESCRIPCIÓN: 🎬 ¡Pre...
+2026-04-28 17:48:35,446 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-04-28 17:48:35,447 - INFO - [PARSE] Datos parseados exitosamente:
+2026-04-28 17:48:35,447 - INFO -   - Título: ENTRE PADRE E HIJO | Tráiler Oficial en Español La...
+2026-04-28 17:48:35,447 - INFO -   - Descripción: 1892 caracteres
+2026-04-28 17:48:35,447 - INFO -   - Tags: 11 elementos
+2026-04-28 17:48:35,447 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-04-28 17:48:35,447 - INFO - [UPDATE] JSON actualizado: Entre padre e hijo _ Tráiler oficial _ Netflix.json
+2026-04-28 17:48:35,448 - INFO - [JSON] Cargados 84 videos desde data.json
+2026-04-28 17:48:35,448 - INFO - [STATUS] Video _LIrDXTKh80 actualizado a 'ok'
+2026-04-28 17:48:35,449 - INFO - [JSON] data.json actualizado exitosamente
+2026-04-28 17:48:35,449 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-04-28 17:48:35,450 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-04-28 17:48:35,450 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-04-28 17:48:35,450 - INFO - [SUMMARY] Videos fallidos: 0
+2026-04-28 17:48:35,869 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-04-28 17:48:35,871 - INFO - [FINISH] Proceso completado exitosamente
