@@ -1477,3 +1477,17 @@
 2026-04-28 18:44:18,663 - INFO - [CLEANUP] Archivos eliminados: GoTYo3B1nhk
 2026-04-28 18:44:21,508 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-04-28 18:44:21,508 - INFO - [FINISH] Proceso completado
+2026-04-29 16:23:23,346 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-04-29 16:23:23,942 - INFO - [UPLOAD] Procesando: Futuro desierto | Tráiler oficial | Netflix
+2026-04-29 16:23:23,943 - INFO - [SEARCH] Buscando archivos para: 'Futuro desierto | Tráiler oficial | Netflix'
+2026-04-29 16:23:23,943 - INFO - [SEARCH] Palabras clave: ['futuro', 'desierto', '|']
+2026-04-29 16:23:23,943 - INFO - [FILES] JSON: Futuro desierto _ Tráiler oficial _ Netflix.json
+2026-04-29 16:23:23,943 - INFO - [FILES] Video: Futuro desierto _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-04-29 16:23:23,943 - INFO - [FILES] Thumbnail: Futuro desierto _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-04-29 16:23:23,984 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-29 16:23:24,252 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-04-29 16:23:26,822 - INFO - [YOUTUBE] Video subido: izSyuWiSgtY
+2026-04-29 16:23:29,199 - INFO - [YOUTUBE] Thumbnail subido
+2026-04-29 16:23:29,203 - INFO - [CLEANUP] Archivos eliminados: XD7zX5gk8wg
+2026-04-29 16:23:32,400 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-04-29 16:23:32,400 - INFO - [FINISH] Proceso completado

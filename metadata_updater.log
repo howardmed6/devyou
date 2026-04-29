@@ -6102,3 +6102,53 @@ DESCRIPCIÓN: 🎬 ¡Prepár...
 2026-04-28 18:44:13,752 - INFO - [SUMMARY] Videos fallidos: 0
 2026-04-28 18:44:14,164 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-04-28 18:44:14,165 - INFO - [FINISH] Proceso completado exitosamente
+2026-04-29 16:23:08,109 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-04-29 16:23:08,109 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-04-29 16:23:08,109 - INFO - [INIT] API Key disponible: Sí
+2026-04-29 16:23:08,109 - INFO - [INIT] Bot Token disponible: Sí
+2026-04-29 16:23:08,109 - INFO - [INIT] Chat ID disponible: Sí
+2026-04-29 16:23:08,109 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-04-29 16:23:08,109 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-04-29 16:23:08,109 - INFO - [API] ✅ API Key tiene formato válido
+2026-04-29 16:23:08,110 - INFO - [JSON] Cargados 85 videos desde data.json
+2026-04-29 16:23:08,110 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-04-29 16:23:08,110 - INFO - [PROCESS] Procesando 1 videos...
+2026-04-29 16:23:08,110 - INFO - 
+--- Procesando video 1/1 ---
+2026-04-29 16:23:08,110 - INFO - [VIDEO] Título: Futuro desierto | Tráiler oficial | Netflix
+2026-04-29 16:23:08,110 - INFO - [VIDEO] ID: XD7zX5gk8wg
+2026-04-29 16:23:08,111 - INFO - [SEARCH] Buscando JSON para: 'Futuro desierto | Tráiler oficial | Netflix'
+2026-04-29 16:23:08,111 - INFO - [SEARCH] Primeras 3 palabras del título: ['futuro', 'desierto', 'trailer']
+2026-04-29 16:23:08,111 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-04-29 16:23:08,111 - INFO - [COMPARE] Archivo: Futuro desierto _ Tráiler oficial _ Netflix.json
+2026-04-29 16:23:08,111 - INFO - [COMPARE] Título JSON: 'Futuro desierto | Tráiler oficial | Netflix'
+2026-04-29 16:23:08,111 - INFO - [COMPARE] Primeras 3 palabras JSON: ['futuro', 'desierto', 'trailer']
+2026-04-29 16:23:08,111 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Futuro desierto _ Tráiler oficial _ Netflix.json
+2026-04-29 16:23:08,111 - INFO - [API] ✅ API Key tiene formato válido
+2026-04-29 16:23:08,111 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-04-29 16:23:08,111 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-04-29 16:23:08,111 - INFO - [API] 🔑 API Key válida: ✅
+2026-04-29 16:23:08,111 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-04-29 16:23:22,304 - INFO - [API] 📊 Código de respuesta: 200
+2026-04-29 16:23:22,304 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-04-29 16:23:22,304 - INFO - [API] 📏 Longitud de respuesta: 1973 caracteres
+2026-04-29 16:23:22,304 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: FUTURO DESIERTO | Tráiler Oficial en Español Latino (2025) | Netflix
+
+DESCRIPCIÓN: 🎬 ¡Prepár...
+2026-04-29 16:23:22,305 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-04-29 16:23:22,306 - INFO - [PARSE] Datos parseados exitosamente:
+2026-04-29 16:23:22,306 - INFO -   - Título: FUTURO DESIERTO | Tráiler Oficial en Español Latin...
+2026-04-29 16:23:22,306 - INFO -   - Descripción: 1656 caracteres
+2026-04-29 16:23:22,306 - INFO -   - Tags: 12 elementos
+2026-04-29 16:23:22,306 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-04-29 16:23:22,306 - INFO - [UPDATE] JSON actualizado: Futuro desierto _ Tráiler oficial _ Netflix.json
+2026-04-29 16:23:22,307 - INFO - [JSON] Cargados 85 videos desde data.json
+2026-04-29 16:23:22,307 - INFO - [STATUS] Video XD7zX5gk8wg actualizado a 'ok'
+2026-04-29 16:23:22,308 - INFO - [JSON] data.json actualizado exitosamente
+2026-04-29 16:23:22,308 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-04-29 16:23:22,309 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-04-29 16:23:22,309 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-04-29 16:23:22,309 - INFO - [SUMMARY] Videos fallidos: 0
+2026-04-29 16:23:22,896 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-04-29 16:23:22,897 - INFO - [FINISH] Proceso completado exitosamente
