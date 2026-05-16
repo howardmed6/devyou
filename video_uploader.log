@@ -1505,3 +1505,17 @@
 2026-04-30 00:38:58,832 - INFO - [CLEANUP] Archivos eliminados: lrp7Q4DuAtA
 2026-04-30 00:39:01,681 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-04-30 00:39:01,682 - INFO - [FINISH] Proceso completado
+2026-05-16 04:17:37,648 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-05-16 04:17:38,060 - INFO - [UPLOAD] Procesando: ¡La Novia! | Tráiler Oficial | HBO Max
+2026-05-16 04:17:38,061 - INFO - [SEARCH] Buscando archivos para: '¡La Novia! | Tráiler Oficial | HBO Max'
+2026-05-16 04:17:38,061 - INFO - [SEARCH] Palabras clave: ['la', 'novia', '|']
+2026-05-16 04:17:38,061 - INFO - [FILES] JSON: ¡La Novia! _ Tráiler Oficial _ HBO Max.json
+2026-05-16 04:17:38,061 - INFO - [FILES] Video: ¡La Novia_ _ Tráiler Oficial _ HBO Max(1080P_HD).mp4
+2026-05-16 04:17:38,061 - INFO - [FILES] Thumbnail: ¡La Novia_ _ Tráiler Oficial _ HBO Max(1080P_HD).jpg
+2026-05-16 04:17:38,080 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-16 04:17:38,136 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-05-16 04:17:39,766 - INFO - [YOUTUBE] Video subido: -IDVkZn9j04
+2026-05-16 04:17:41,442 - INFO - [YOUTUBE] Thumbnail subido
+2026-05-16 04:17:41,448 - INFO - [CLEANUP] Archivos eliminados: MM4Hoyp2770
+2026-05-16 04:17:44,424 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-05-16 04:17:44,424 - INFO - [FINISH] Proceso completado

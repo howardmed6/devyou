@@ -6202,3 +6202,53 @@ DESCRIPCIÓN: 🎬 ¡Prepár...
 2026-04-30 00:38:53,568 - INFO - [SUMMARY] Videos fallidos: 0
 2026-04-30 00:38:53,979 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-04-30 00:38:53,980 - INFO - [FINISH] Proceso completado exitosamente
+2026-05-16 04:17:19,418 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-05-16 04:17:19,418 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-05-16 04:17:19,418 - INFO - [INIT] API Key disponible: Sí
+2026-05-16 04:17:19,418 - INFO - [INIT] Bot Token disponible: Sí
+2026-05-16 04:17:19,418 - INFO - [INIT] Chat ID disponible: Sí
+2026-05-16 04:17:19,418 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-05-16 04:17:19,418 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-05-16 04:17:19,418 - INFO - [API] ✅ API Key tiene formato válido
+2026-05-16 04:17:19,420 - INFO - [JSON] Cargados 127 videos desde data.json
+2026-05-16 04:17:19,420 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-05-16 04:17:19,420 - INFO - [PROCESS] Procesando 1 videos...
+2026-05-16 04:17:19,420 - INFO - 
+--- Procesando video 1/1 ---
+2026-05-16 04:17:19,420 - INFO - [VIDEO] Título: ¡La Novia! | Tráiler Oficial | HBO Max
+2026-05-16 04:17:19,420 - INFO - [VIDEO] ID: MM4Hoyp2770
+2026-05-16 04:17:19,420 - INFO - [SEARCH] Buscando JSON para: '¡La Novia! | Tráiler Oficial | HBO Max'
+2026-05-16 04:17:19,428 - INFO - [SEARCH] Primeras 3 palabras del título: ['novia', 'trailer', 'oficial']
+2026-05-16 04:17:19,428 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-05-16 04:17:19,429 - INFO - [COMPARE] Archivo: ¡La Novia! _ Tráiler Oficial _ HBO Max.json
+2026-05-16 04:17:19,429 - INFO - [COMPARE] Título JSON: '¡La Novia! | Tráiler Oficial | HBO Max'
+2026-05-16 04:17:19,429 - INFO - [COMPARE] Primeras 3 palabras JSON: ['novia', 'trailer', 'oficial']
+2026-05-16 04:17:19,429 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: ¡La Novia! _ Tráiler Oficial _ HBO Max.json
+2026-05-16 04:17:19,429 - INFO - [API] ✅ API Key tiene formato válido
+2026-05-16 04:17:19,429 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-05-16 04:17:19,429 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-05-16 04:17:19,429 - INFO - [API] 🔑 API Key válida: ✅
+2026-05-16 04:17:19,429 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-05-16 04:17:36,735 - INFO - [API] 📊 Código de respuesta: 200
+2026-05-16 04:17:36,735 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-05-16 04:17:36,735 - INFO - [API] 📏 Longitud de respuesta: 2093 caracteres
+2026-05-16 04:17:36,735 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: LA NOVIA Tráiler Oficial (2025) | HBO Max Español Latino
+
+DESCRIPCIÓN: 🎬 ¡Prepárate para una...
+2026-05-16 04:17:36,736 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-05-16 04:17:36,737 - INFO - [PARSE] Datos parseados exitosamente:
+2026-05-16 04:17:36,737 - INFO -   - Título: LA NOVIA Tráiler Oficial (2025) | HBO Max Español ...
+2026-05-16 04:17:36,737 - INFO -   - Descripción: 1839 caracteres
+2026-05-16 04:17:36,737 - INFO -   - Tags: 10 elementos
+2026-05-16 04:17:36,737 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-05-16 04:17:36,737 - INFO - [UPDATE] JSON actualizado: ¡La Novia! _ Tráiler Oficial _ HBO Max.json
+2026-05-16 04:17:36,738 - INFO - [JSON] Cargados 127 videos desde data.json
+2026-05-16 04:17:36,738 - INFO - [STATUS] Video MM4Hoyp2770 actualizado a 'ok'
+2026-05-16 04:17:36,740 - INFO - [JSON] data.json actualizado exitosamente
+2026-05-16 04:17:36,740 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-05-16 04:17:36,740 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-05-16 04:17:36,740 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-05-16 04:17:36,740 - INFO - [SUMMARY] Videos fallidos: 0
+2026-05-16 04:17:37,151 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-05-16 04:17:37,152 - INFO - [FINISH] Proceso completado exitosamente
