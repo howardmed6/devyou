@@ -6252,3 +6252,53 @@ DESCRIPCIÓN: 🎬 ¡Prepárate para una...
 2026-05-16 04:17:36,740 - INFO - [SUMMARY] Videos fallidos: 0
 2026-05-16 04:17:37,151 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-05-16 04:17:37,152 - INFO - [FINISH] Proceso completado exitosamente
+2026-05-29 01:23:39,109 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-05-29 01:23:39,109 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-05-29 01:23:39,109 - INFO - [INIT] API Key disponible: Sí
+2026-05-29 01:23:39,109 - INFO - [INIT] Bot Token disponible: Sí
+2026-05-29 01:23:39,109 - INFO - [INIT] Chat ID disponible: Sí
+2026-05-29 01:23:39,109 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-05-29 01:23:39,109 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-05-29 01:23:39,110 - INFO - [API] ✅ API Key tiene formato válido
+2026-05-29 01:23:39,111 - INFO - [JSON] Cargados 135 videos desde data.json
+2026-05-29 01:23:39,111 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-05-29 01:23:39,111 - INFO - [PROCESS] Procesando 1 videos...
+2026-05-29 01:23:39,111 - INFO - 
+--- Procesando video 1/1 ---
+2026-05-29 01:23:39,111 - INFO - [VIDEO] Título: El chico de la última fila | Avance oficial | Netflix
+2026-05-29 01:23:39,111 - INFO - [VIDEO] ID: Ey0NYyR5rnA
+2026-05-29 01:23:39,111 - INFO - [SEARCH] Buscando JSON para: 'El chico de la última fila | Avance oficial | Netflix'
+2026-05-29 01:23:39,112 - INFO - [SEARCH] Primeras 3 palabras del título: ['chico', 'ultima', 'fila']
+2026-05-29 01:23:39,112 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-05-29 01:23:39,112 - INFO - [COMPARE] Archivo: El chico de la última fila _ Avance oficial _ Netflix.json
+2026-05-29 01:23:39,112 - INFO - [COMPARE] Título JSON: 'El chico de la última fila | Avance oficial | Netflix'
+2026-05-29 01:23:39,112 - INFO - [COMPARE] Primeras 3 palabras JSON: ['chico', 'ultima', 'fila']
+2026-05-29 01:23:39,112 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: El chico de la última fila _ Avance oficial _ Netflix.json
+2026-05-29 01:23:39,112 - INFO - [API] ✅ API Key tiene formato válido
+2026-05-29 01:23:39,112 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-05-29 01:23:39,112 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-05-29 01:23:39,113 - INFO - [API] 🔑 API Key válida: ✅
+2026-05-29 01:23:39,113 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-05-29 01:23:57,231 - INFO - [API] 📊 Código de respuesta: 200
+2026-05-29 01:23:57,231 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-05-29 01:23:57,231 - INFO - [API] 📏 Longitud de respuesta: 1959 caracteres
+2026-05-29 01:23:57,231 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: EL CHICO DE LA ÚLTIMA FILA Tráiler Oficial en Español Latino (2025) Netflix
+
+DESCRIPCIÓN: 🎬 ...
+2026-05-29 01:23:57,232 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-05-29 01:23:57,233 - INFO - [PARSE] Datos parseados exitosamente:
+2026-05-29 01:23:57,233 - INFO -   - Título: EL CHICO DE LA ÚLTIMA FILA Tráiler Oficial en Espa...
+2026-05-29 01:23:57,233 - INFO -   - Descripción: 1617 caracteres
+2026-05-29 01:23:57,233 - INFO -   - Tags: 12 elementos
+2026-05-29 01:23:57,233 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-05-29 01:23:57,234 - INFO - [UPDATE] JSON actualizado: El chico de la última fila _ Avance oficial _ Netflix.json
+2026-05-29 01:23:57,235 - INFO - [JSON] Cargados 135 videos desde data.json
+2026-05-29 01:23:57,235 - INFO - [STATUS] Video Ey0NYyR5rnA actualizado a 'ok'
+2026-05-29 01:23:57,236 - INFO - [JSON] data.json actualizado exitosamente
+2026-05-29 01:23:57,237 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-05-29 01:23:57,237 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-05-29 01:23:57,237 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-05-29 01:23:57,237 - INFO - [SUMMARY] Videos fallidos: 0
+2026-05-29 01:23:57,803 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-05-29 01:23:57,804 - INFO - [FINISH] Proceso completado exitosamente

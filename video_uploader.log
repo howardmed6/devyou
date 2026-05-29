@@ -1519,3 +1519,17 @@
 2026-05-16 04:17:41,448 - INFO - [CLEANUP] Archivos eliminados: MM4Hoyp2770
 2026-05-16 04:17:44,424 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-05-16 04:17:44,424 - INFO - [FINISH] Proceso completado
+2026-05-29 01:23:58,118 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-05-29 01:23:58,682 - INFO - [UPLOAD] Procesando: El chico de la última fila | Avance oficial | Netflix
+2026-05-29 01:23:58,683 - INFO - [SEARCH] Buscando archivos para: 'El chico de la última fila | Avance oficial | Netflix'
+2026-05-29 01:23:58,683 - INFO - [SEARCH] Palabras clave: ['el', 'chico', 'de']
+2026-05-29 01:23:58,683 - INFO - [FILES] JSON: El chico de la última fila _ Avance oficial _ Netflix.json
+2026-05-29 01:23:58,683 - INFO - [FILES] Video: El chico de la última fila _ Avance oficial _ Netflix(1080P_HD).mp4
+2026-05-29 01:23:58,683 - INFO - [FILES] Thumbnail: El chico de la última fila _ Avance oficial _ Netflix(1080P_HD).jpg
+2026-05-29 01:23:58,692 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-29 01:23:58,919 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-05-29 01:24:00,907 - INFO - [YOUTUBE] Video subido: g_4W2HJNb14
+2026-05-29 01:24:02,810 - INFO - [YOUTUBE] Thumbnail subido
+2026-05-29 01:24:02,814 - INFO - [CLEANUP] Archivos eliminados: Ey0NYyR5rnA
+2026-05-29 01:24:05,974 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-05-29 01:24:05,975 - INFO - [FINISH] Proceso completado
