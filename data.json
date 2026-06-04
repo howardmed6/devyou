@@ -1,5 +1,93 @@
 [
   {
+    "video_id": "asR1ph6tmxc",
+    "url": "https://www.youtube.com/watch?v=asR1ph6tmxc",
+    "title": "SUPERGIRL Tráiler Final Español Latino (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-06-03T16:25:16Z",
+    "found_at": "2026-06-04T00:57:37.647601",
+    "status": "metadata_update",
+    "sanitized_name": "SUPERGIRL Tráiler Final Español Latino (2026)"
+  },
+  {
+    "video_id": "fRvKgjN2CtI",
+    "url": "https://www.youtube.com/watch?v=fRvKgjN2CtI",
+    "title": "SUPERGIRL Tráiler Final Español Doblado (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-06-03T16:16:01Z",
+    "found_at": "2026-06-04T00:57:37.647613",
+    "status": "metadata_update",
+    "sanitized_name": "SUPERGIRL Tráiler Final Español Doblado (2026)"
+  },
+  {
+    "video_id": "0Vw_EfRmVpo",
+    "url": "https://www.youtube.com/watch?v=0Vw_EfRmVpo",
+    "title": "TOMB RAIDER: Legacy of Atlantis Tráiler Español Latino Dublado (2027)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-06-03T15:01:12Z",
+    "found_at": "2026-06-04T00:57:37.647618",
+    "status": "metadata_update",
+    "sanitized_name": "TOMB RAIDER_ Legacy of Atlantis Tráiler Español Latino Dublado (2027)"
+  },
+  {
+    "video_id": "jmiw5CfbIyA",
+    "url": "https://www.youtube.com/watch?v=jmiw5CfbIyA",
+    "title": "CUENTO DIABÓLICO Tráiler Español Latino (2026) Terror",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-06-02T17:30:27Z",
+    "found_at": "2026-06-04T00:57:37.647623",
+    "status": "metadata_update",
+    "sanitized_name": "CUENTO DIABÓLICO Tráiler Español Latino (2026) Terror"
+  },
+  {
+    "video_id": "rKUGYYSVGVw",
+    "url": "https://www.youtube.com/watch?v=rKUGYYSVGVw",
+    "title": "CÓMO ROBAR UN BANCO Tráiler Español (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-06-02T15:30:44Z",
+    "found_at": "2026-06-04T00:57:37.647625",
+    "status": "metadata_update",
+    "sanitized_name": "CÓMO ROBAR UN BANCO Tráiler Español (2026)"
+  },
+  {
+    "video_id": "0OK4XYNvMJI",
+    "url": "https://www.youtube.com/watch?v=0OK4XYNvMJI",
+    "title": "&quot;Los juguetes entran en pánico al ver a Lilypad&quot; TOY STORY 5 Tráiler Español (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-06-02T15:07:12Z",
+    "found_at": "2026-06-04T00:57:37.647627",
+    "status": "metadata_update",
+    "sanitized_name": "&quot;Los juguetes entran en pánico al ver a Lilypad&quot; TOY STORY 5 Tráiler Español (2026)"
+  },
+  {
+    "video_id": "TA6CNXPl4p4",
+    "url": "https://www.youtube.com/watch?v=TA6CNXPl4p4",
+    "title": "CÓMO ROBAR UN BANCO Tráiler Español Latino (2026) Nicholas Hoult",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-06-02T13:24:43Z",
+    "found_at": "2026-06-04T00:57:37.647629",
+    "status": "metadata_update",
+    "sanitized_name": "CÓMO ROBAR UN BANCO Tráiler Español Latino (2026) Nicholas Hoult"
+  },
+  {
+    "video_id": "gmqQuFUTAc0",
+    "url": "https://www.youtube.com/watch?v=gmqQuFUTAc0",
+    "title": "NORTHEM LOS VIKINGOS Tráiler Español (2026)",
+    "channel": "ONE Media Español",
+    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
+    "published": "2026-06-01T16:30:23Z",
+    "found_at": "2026-06-04T00:57:37.647631",
+    "status": "metadata_update",
+    "sanitized_name": "NORTHEM LOS VIKINGOS Tráiler Español (2026)"
+  },
+  {
     "video_id": "Qg3arbZWdcg",
     "url": "https://www.youtube.com/watch?v=Qg3arbZWdcg",
     "title": "THE FURIOUS Tráiler Español (2026) Artes Marciales",
@@ -7,7 +95,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-06-01T14:30:39Z",
     "found_at": "2026-06-01T16:06:59.610988",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "THE FURIOUS Tráiler Español (2026) Artes Marciales"
   },
   {
@@ -18,7 +106,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-06-01T13:24:38Z",
     "found_at": "2026-06-01T16:06:59.611006",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "EL FINAL DE OAK STREET Tráiler 2 Español (2026) Anne Hathaway, Dinosaurios"
   },
   {
@@ -29,7 +117,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-06-01T13:11:21Z",
     "found_at": "2026-06-01T16:06:59.611012",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "EL FINAL DE LA CALLE OAK Tráiler 2 Español Latino (2026) Anne Hathaway, Ewan McGregor"
   },
   {
@@ -40,7 +128,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-06-01T12:21:07Z",
     "found_at": "2026-06-01T16:06:59.611017",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "LA MUERTE DE ROBIN HOOD Tráiler 2 Español (2026) Hugh Jackman"
   },
   {
@@ -51,7 +139,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-05-31T09:36:43Z",
     "found_at": "2026-06-01T16:06:59.611020",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "MINECRAFT 2_ SQUARED First Look Teaser (2027)"
   },
   {
@@ -62,7 +150,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-05-29T14:22:52Z",
     "found_at": "2026-06-01T16:06:59.611024",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "LA CASA DEL DRAGÓN Temporada 3 Tráiler Final Español Latino (2026)"
   },
   {
@@ -73,7 +161,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-05-29T14:15:04Z",
     "found_at": "2026-06-01T16:06:59.611027",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "LA CASA DEL DRAGÓN Temporada 3 Tráiler Final Español Doblado (2026)"
   },
   {
@@ -84,7 +172,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-05-28T18:01:27Z",
     "found_at": "2026-05-29T01:21:32.683647",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "BACKROOMS Todos Los Tráilers Español Latino (2026)"
   },
   {
@@ -95,7 +183,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-05-28T10:03:11Z",
     "found_at": "2026-05-29T01:21:32.683668",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "TU CORAZÓN SERÁ DESTROZADO Tráiler Español Latino (2026)"
   },
   {
@@ -106,7 +194,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-05-28T10:01:33Z",
     "found_at": "2026-05-29T01:21:32.683671",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "EUPHORIA Temporada 3 Episodio Final Tráiler Español Latino (2026) Sydney Sweeney"
   },
   {
@@ -117,7 +205,7 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-05-27T16:44:39Z",
     "found_at": "2026-05-29T01:21:32.683677",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "X-MEN &#39;97 Temporada 2 Tráiler Español Latino (2026)"
   },
   {
@@ -128,96 +216,55 @@
     "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
     "published": "2026-05-27T14:14:25Z",
     "found_at": "2026-05-29T01:21:32.683679",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "ENOLA HOLMES 3 Tráiler Español (2026)"
   },
   {
-    "video_id": "LgufnTNUQ6s",
-    "url": "https://www.youtube.com/watch?v=LgufnTNUQ6s",
-    "title": "MARSUPILAMI Tráiler Español (2026)",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-05-27T12:30:29Z",
-    "found_at": "2026-05-29T01:21:32.683683",
-    "status": "pending",
-    "sanitized_name": "MARSUPILAMI Tráiler Español (2026)"
+    "video_id": "D7fzFxx7NhM",
+    "url": "https://www.youtube.com/watch?v=D7fzFxx7NhM",
+    "title": "Baki-Dou: El samurái invencible Parte 2 | Tráiler oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-06-03T23:00:00Z",
+    "found_at": "2026-06-04T00:57:37.863358",
+    "status": "uploaded",
+    "sanitized_name": "Baki-Dou_ El samurái invencible Parte 2 _ Tráiler oficial _ Netflix",
+    "metadata_updated_at": "2026-06-04T01:01:03.501117",
+    "uploaded_at": "2026-06-04T01:01:09.144537",
+    "youtube_id": "EFu3YyYAI8w"
   },
   {
-    "video_id": "qME4ZKh1XN8",
-    "url": "https://www.youtube.com/watch?v=qME4ZKh1XN8",
-    "title": "ENOLA HOLMES 3 Tráiler Español Latino (2026) Millie Bobby Brown",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-05-27T12:11:14Z",
-    "found_at": "2026-05-29T01:21:32.683686",
-    "status": "pending",
-    "sanitized_name": "ENOLA HOLMES 3 Tráiler Español Latino (2026) Millie Bobby Brown"
+    "video_id": "81zaz6zlmZI",
+    "url": "https://www.youtube.com/watch?v=81zaz6zlmZI",
+    "title": "México 86 | Figuras que Cambiaron la Historia: Martín de la Torre | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-06-03T14:00:00Z",
+    "found_at": "2026-06-04T00:57:37.863368",
+    "status": "metadata_update",
+    "sanitized_name": "México 86 _ Figuras que Cambiaron la Historia_ Martín de la Torre _ Netflix"
   },
   {
-    "video_id": "54ZlWaqNMuE",
-    "url": "https://www.youtube.com/watch?v=54ZlWaqNMuE",
-    "title": "ATROPIA Tráiler Español (2026)",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-05-27T11:01:10Z",
-    "found_at": "2026-05-29T01:21:32.683691",
-    "status": "pending",
-    "sanitized_name": "ATROPIA Tráiler Español (2026)"
+    "video_id": "ScDJ5SX_eHA",
+    "url": "https://www.youtube.com/watch?v=ScDJ5SX_eHA",
+    "title": "Dibu conoce al Dibu | Dibu Martínez: El pibe que ataja el tiempo | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-06-02T18:00:00Z",
+    "found_at": "2026-06-04T00:57:37.863371",
+    "status": "metadata_update",
+    "sanitized_name": "Dibu conoce al Dibu _ Dibu Martínez_ El pibe que ataja el tiempo _ Netflix"
   },
   {
-    "video_id": "q5F6Pg_5FEI",
-    "url": "https://www.youtube.com/watch?v=q5F6Pg_5FEI",
-    "title": "LA LADRONA DEL TIEMPO Tráiler 2 Español Latino (2026)",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-05-26T15:30:09Z",
-    "found_at": "2026-05-29T01:21:32.683693",
-    "status": "pending",
-    "sanitized_name": "LA LADRONA DEL TIEMPO Tráiler 2 Español Latino (2026)"
-  },
-  {
-    "video_id": "sew2M2WNkxo",
-    "url": "https://www.youtube.com/watch?v=sew2M2WNkxo",
-    "title": "UN TALENTO ÚNICO Tráiler Español (2026) Dustin Hoffman",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-05-26T10:01:06Z",
-    "found_at": "2026-05-29T01:21:32.683696",
-    "status": "pending",
-    "sanitized_name": "UN TALENTO ÚNICO Tráiler Español (2026) Dustin Hoffman"
-  },
-  {
-    "video_id": "u_gzOX4KYM0",
-    "url": "https://www.youtube.com/watch?v=u_gzOX4KYM0",
-    "title": "VOUGHT RISING Tráiler Español (2027) The Boys Spin-Off",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-05-22T14:25:01Z",
-    "found_at": "2026-05-29T01:21:32.683698",
-    "status": "pending",
-    "sanitized_name": "VOUGHT RISING Tráiler Español (2027) The Boys Spin-Off"
-  },
-  {
-    "video_id": "loU7OCmViW0",
-    "url": "https://www.youtube.com/watch?v=loU7OCmViW0",
-    "title": "VOUGHT RISING Tráiler Español Latino (2027) The Boys Spin-Off",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-05-22T14:15:32Z",
-    "found_at": "2026-05-29T01:21:32.683700",
-    "status": "pending",
-    "sanitized_name": "VOUGHT RISING Tráiler Español Latino (2027) The Boys Spin-Off"
-  },
-  {
-    "video_id": "CegQ7rSCuoM",
-    "url": "https://www.youtube.com/watch?v=CegQ7rSCuoM",
-    "title": "AVATAR: LA LEYENDA DE AANG Temporada 2 Tráiler Español Latino (2026)",
-    "channel": "ONE Media Español",
-    "channel_id": "UCcVNDl7ZJMf9lC9a34CY4RA",
-    "published": "2026-05-21T13:21:02Z",
-    "found_at": "2026-05-29T01:21:32.683702",
-    "status": "pending",
-    "sanitized_name": "AVATAR_ LA LEYENDA DE AANG Temporada 2 Tráiler Español Latino (2026)"
+    "video_id": "Ps1cUTdjah4",
+    "url": "https://www.youtube.com/watch?v=Ps1cUTdjah4",
+    "title": "Maridos en acción | Tráiler oficial | Netflix",
+    "channel": "Netflix Latinoamérica",
+    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+    "published": "2026-06-02T00:00:01Z",
+    "found_at": "2026-06-04T00:57:37.863374",
+    "status": "metadata_update",
+    "sanitized_name": "Maridos en acción _ Tráiler oficial _ Netflix"
   },
   {
     "video_id": "S42SamCmi8o",
@@ -255,7 +302,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-05-28T15:00:00Z",
     "found_at": "2026-05-29T01:21:32.919191",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Soy Frankelda _ Tráiler oficial _ Netflix"
   },
   {
@@ -266,7 +313,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-05-27T16:30:00Z",
     "found_at": "2026-05-29T01:21:32.919195",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Brasil 70_ La saga del Tricampeonato _ Detrás de Cámaras _ Netflix"
   },
   {
@@ -277,7 +324,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-05-27T15:05:43Z",
     "found_at": "2026-05-29T01:21:32.919198",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Oda-San ha llegado a Alabasta. 🏜️"
   },
   {
@@ -288,7 +335,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-05-27T12:00:00Z",
     "found_at": "2026-05-29T01:21:32.919201",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Enola Holmes 3 _ Avance oficial _ Netflix"
   },
   {
@@ -299,7 +346,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-05-26T18:00:08Z",
     "found_at": "2026-05-29T01:21:32.919203",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Recomendación para las nuevas generaciones_ ver &#39;Austin Powers en Goldmember&#39;.🕺🏻"
   },
   {
@@ -310,7 +357,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-05-26T12:00:00Z",
     "found_at": "2026-05-29T01:21:32.919206",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "La heroína del moño _ Avance oficial _ Netflix"
   },
   {
@@ -321,7 +368,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-05-21T16:00:05Z",
     "found_at": "2026-05-29T01:21:32.919208",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "See U in Hell _ Devil May Cry_ Temporada 2 _ Video oficial _ Netflix"
   },
   {
@@ -332,7 +379,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-05-21T13:00:00Z",
     "found_at": "2026-05-29T01:21:32.919210",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Avatar_ La leyenda de Aang _ Temporada 2 _ Tráiler oficial _ Netflix"
   },
   {
@@ -343,7 +390,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-05-20T14:00:00Z",
     "found_at": "2026-05-29T01:21:32.919213",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Hermanito _ Tráiler oficial _ Netflix"
   },
   {
@@ -354,7 +401,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-05-20T12:00:00Z",
     "found_at": "2026-05-29T01:21:32.919215",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Cien años de soledad_ Segunda parte _ Avance oficial _ Netflix"
   },
   {
@@ -365,7 +412,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-05-19T16:10:00Z",
     "found_at": "2026-05-29T01:21:32.919218",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Mensajes de voz para Isabelle _ Tráiler oficial _ Netflix"
   },
   {
@@ -376,7 +423,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-05-19T14:00:02Z",
     "found_at": "2026-05-29T01:21:32.919220",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Rosario Tijeras_ Temporada 5 _ Tráiler oficial _ Netflix"
   },
   {
@@ -387,7 +434,7 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-05-13T19:05:02Z",
     "found_at": "2026-05-16T04:13:30.818555",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "El Halcón _ Avance oficial _ Netflix"
   },
   {
@@ -398,52 +445,30 @@
     "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
     "published": "2026-05-13T18:56:00Z",
     "found_at": "2026-05-16T04:13:30.818573",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Al este del Edén _ Avance oficial _ Netflix"
   },
   {
-    "video_id": "GsNGM1eQCa8",
-    "url": "https://www.youtube.com/watch?v=GsNGM1eQCa8",
-    "title": "Kemalito explica qué son las series cortitas | Anuncio Especial | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-05-13T03:13:33Z",
-    "found_at": "2026-05-16T04:13:30.818577",
+    "video_id": "YYm98lRV84Y",
+    "url": "https://www.youtube.com/watch?v=YYm98lRV84Y",
+    "title": "¿Querías ver a los creadores de Un Show Más reaccionando a sus memes? Concedido. 👇🔥 #RegularShow",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2026-06-03T23:00:32Z",
+    "found_at": "2026-06-04T00:57:38.067846",
     "status": "metadata_update",
-    "sanitized_name": "Kemalito explica qué son las series cortitas _ Anuncio Especial _ Netflix"
+    "sanitized_name": "¿Querías ver a los creadores de Un Show Más reaccionando a sus memes_ Concedido. 👇🔥 #RegularShow"
   },
   {
-    "video_id": "b3WohgnwkIs",
-    "url": "https://www.youtube.com/watch?v=b3WohgnwkIs",
-    "title": "¿Roba más Berlín o El Pollo Álvarez? | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-05-12T15:00:04Z",
-    "found_at": "2026-05-16T04:13:30.818579",
+    "video_id": "Fdvmnb1Gt2s",
+    "url": "https://www.youtube.com/watch?v=Fdvmnb1Gt2s",
+    "title": "Los Topuria | Tráiler Oficial | HBO Max",
+    "channel": "HBO Max Latinoamérica",
+    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
+    "published": "2026-06-03T16:00:11Z",
+    "found_at": "2026-06-04T00:57:38.067857",
     "status": "metadata_update",
-    "sanitized_name": "¿Roba más Berlín o El Pollo Álvarez_ _ Netflix"
-  },
-  {
-    "video_id": "WTSKEvNtCQM",
-    "url": "https://www.youtube.com/watch?v=WTSKEvNtCQM",
-    "title": "El efecto Netflix | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-05-12T10:00:01Z",
-    "found_at": "2026-05-16T04:13:30.818582",
-    "status": "metadata_update",
-    "sanitized_name": "El efecto Netflix _ Netflix"
-  },
-  {
-    "video_id": "0UKCspBkapQ",
-    "url": "https://www.youtube.com/watch?v=0UKCspBkapQ",
-    "title": "La casa de la pradera | Avance oficial 2 | Netflix",
-    "channel": "Netflix Latinoamérica",
-    "channel_id": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
-    "published": "2026-05-11T18:00:05Z",
-    "found_at": "2026-05-16T04:13:30.818584",
-    "status": "metadata_update",
-    "sanitized_name": "La casa de la pradera _ Avance oficial 2 _ Netflix"
+    "sanitized_name": "Los Topuria _ Tráiler Oficial _ HBO Max"
   },
   {
     "video_id": "9mh1ezYex8c",
@@ -453,7 +478,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-05-30T21:00:38Z",
     "found_at": "2026-06-01T16:07:00.224541",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Lo importante es tener pensamiento positivo, ¿no_ 😀#UnShowMásCintasPerdidas"
   },
   {
@@ -464,7 +489,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-05-29T14:19:27Z",
     "found_at": "2026-06-01T16:07:00.224555",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "La Casa del Dragón - Temporada 3 _ Tráiler Final _ HBO Max"
   },
   {
@@ -475,7 +500,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-05-28T18:00:10Z",
     "found_at": "2026-05-29T01:21:33.123546",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "El Morty migajero sí existe 😭 Nueva temporada de #RickandMorty ya en HBO Max."
   },
   {
@@ -486,7 +511,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-05-27T22:00:39Z",
     "found_at": "2026-05-29T01:21:33.123564",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "¿Cómo se supone que voy a ser normal si crecí viendo ESTO…_ 👁️👄👁️#UnShowMásCintasPerdidas"
   },
   {
@@ -497,7 +522,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-05-27T20:30:26Z",
     "found_at": "2026-05-29T01:21:33.123569",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Euphoria - Temporada 3 _ Avance episodio 8 _ HBO Max"
   },
   {
@@ -508,7 +533,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-05-26T18:00:04Z",
     "found_at": "2026-05-29T01:21:33.123572",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Querida Maddy_ Por favor, nunca cambies. #Euphoria #HBOMax #MaddyPerez"
   },
   {
@@ -519,7 +544,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-05-25T16:14:50Z",
     "found_at": "2026-05-29T01:21:33.123575",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Aún hay mucho por ver _ HBO Max Chile"
   },
   {
@@ -530,7 +555,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-05-25T16:01:47Z",
     "found_at": "2026-05-29T01:21:33.123577",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Aún hay mucho por ver _ HBO Max México"
   },
   {
@@ -541,7 +566,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-05-24T16:01:30Z",
     "found_at": "2026-05-29T01:21:33.123579",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Aún hay mucho por ver _ HBO Max"
   },
   {
@@ -566,7 +591,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-05-15T19:00:28Z",
     "found_at": "2026-05-16T04:13:31.898398",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "El mejor tipo de amistad existe ☝️ Nuevos episodios de Un Show Más_ Cintas Perdidas ya en HBO Max 🔥"
   },
   {
@@ -577,7 +602,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-05-14T19:00:43Z",
     "found_at": "2026-05-16T04:13:31.898403",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Vi a Papaleta haciendo sus cositas y yo estaba así 🥺 Un Show Más ya en HBO Max 🔥"
   },
   {
@@ -588,7 +613,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-05-13T23:00:32Z",
     "found_at": "2026-05-16T04:13:31.898406",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Ese jefe SÚPER saludable 👁️👄👁️ Un Show Más_ Las Cintas Perdidas ya está en HBO Max"
   },
   {
@@ -599,7 +624,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-05-13T19:31:31Z",
     "found_at": "2026-05-16T04:13:31.898410",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "La Casa del Dragón - Temporada 3 _ El elenco vuelve al set _ HBO Max"
   },
   {
@@ -610,7 +635,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-05-13T15:13:54Z",
     "found_at": "2026-05-16T04:13:31.898413",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Stuart No Logra Salvar el Universo _ Teaser Oficial _ HBO Max"
   },
   {
@@ -621,7 +646,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-05-11T02:30:19Z",
     "found_at": "2026-05-16T04:13:31.898415",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Euphoria - Temporada 3 _ Avance episodio 6 _ HBO Max"
   },
   {
@@ -632,7 +657,7 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-28T18:01:00Z",
     "found_at": "2026-04-28T18:41:09.090555",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Toda la temporada esperando esta charla 😰😮‍💨 Ya puedes ver el turno completo de The Pitt por HBO Max"
   },
   {
@@ -643,30 +668,74 @@
     "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
     "published": "2026-04-28T14:05:46Z",
     "found_at": "2026-04-28T17:34:12.631861",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Siéntate bb, que en esta mesa estamos para chismear la boda de Cassie y Nate. ¡TRAKA! #euphoria"
   },
   {
-    "video_id": "HVhn1-WmHtY",
-    "url": "https://www.youtube.com/watch?v=HVhn1-WmHtY",
-    "title": "La Casa del Dragón - Temporada 3 | Tráiler Oficial Subtitulado | HBO Max",
-    "channel": "HBO Max Latinoamérica",
-    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
-    "published": "2026-04-27T14:37:00Z",
-    "found_at": "2026-04-27T18:23:43.639848",
-    "status": "pending",
-    "sanitized_name": "La Casa del Dragón - Temporada 3 _ Tráiler Oficial Subtitulado _ HBO Max"
+    "video_id": "qYiDMF-gQ5A",
+    "url": "https://www.youtube.com/watch?v=qYiDMF-gQ5A",
+    "title": "El final es la cereza del pastel 😂 #TheOffice #Shorts",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-06-03T22:00:50Z",
+    "found_at": "2026-06-04T00:57:38.267426",
+    "status": "metadata_update",
+    "sanitized_name": "El final es la cereza del pastel 😂 #TheOffice #Shorts"
   },
   {
-    "video_id": "n9ANzBmOxho",
-    "url": "https://www.youtube.com/watch?v=n9ANzBmOxho",
-    "title": "La Casa del Dragón - Temporada 3 | Tráiler Oficial en Español | HBO Max",
-    "channel": "HBO Max Latinoamérica",
-    "channel_id": "UCjq5m8s71qA9ZMfJw0q7Fgw",
-    "published": "2026-04-27T14:37:00Z",
-    "found_at": "2026-04-27T18:23:43.639865",
-    "status": "pending",
-    "sanitized_name": "La Casa del Dragón - Temporada 3 _ Tráiler Oficial en Español _ HBO Max"
+    "video_id": "RLY8OvOd6Ak",
+    "url": "https://www.youtube.com/watch?v=RLY8OvOd6Ak",
+    "title": "Y desde ese entonces te amamos #StephenKalyn  #OffCampus #GenV #Shorts",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-06-03T19:00:36Z",
+    "found_at": "2026-06-04T00:57:38.267438",
+    "status": "metadata_update",
+    "sanitized_name": "Y desde ese entonces te amamos #StephenKalyn  #OffCampus #GenV #Shorts"
+  },
+  {
+    "video_id": "ralb5QRrnkc",
+    "url": "https://www.youtube.com/watch?v=ralb5QRrnkc",
+    "title": "La última batalla de Homelander - Temporada final de The Boys | Prime Video",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-06-03T16:14:22Z",
+    "found_at": "2026-06-04T00:57:38.267443",
+    "status": "metadata_update",
+    "sanitized_name": "La última batalla de Homelander - Temporada final de The Boys _ Prime Video"
+  },
+  {
+    "video_id": "gCemnrmzGd4",
+    "url": "https://www.youtube.com/watch?v=gCemnrmzGd4",
+    "title": "Fran está completamente delulu. #TheNanny",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-06-02T22:00:43Z",
+    "found_at": "2026-06-04T00:57:38.267449",
+    "status": "metadata_update",
+    "sanitized_name": "Fran está completamente delulu. #TheNanny"
+  },
+  {
+    "video_id": "ZVphZFLbtm4",
+    "url": "https://www.youtube.com/watch?v=ZVphZFLbtm4",
+    "title": "Un mundo ideal es este hotel para mí 🎶 #HotelHazbin #Shorts",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-06-02T16:01:14Z",
+    "found_at": "2026-06-04T00:57:38.267453",
+    "status": "metadata_update",
+    "sanitized_name": "Un mundo ideal es este hotel para mí 🎶 #HotelHazbin #Shorts"
+  },
+  {
+    "video_id": "ibb-_eDkHjo",
+    "url": "https://www.youtube.com/watch?v=ibb-_eDkHjo",
+    "title": "Si no me van a pedir disculpas con una coreografía, ni se molesten. #GoodOmens",
+    "channel": "Prime Video Latinoamérica",
+    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
+    "published": "2026-06-01T21:00:19Z",
+    "found_at": "2026-06-04T00:57:38.267456",
+    "status": "metadata_update",
+    "sanitized_name": "Si no me van a pedir disculpas con una coreografía, ni se molesten. #GoodOmens"
   },
   {
     "video_id": "uzMr9eT3DtI",
@@ -676,7 +745,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-06-01T16:00:31Z",
     "found_at": "2026-06-01T16:07:00.517043",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "¿Ya les habíamos recomendado #TheBoysDiabolical_ #shorts"
   },
   {
@@ -687,7 +756,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-05-31T21:00:35Z",
     "found_at": "2026-06-01T16:07:00.517059",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "¿TIENEN PARÁSITOS_ #House #Shorts"
   },
   {
@@ -698,7 +767,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-05-31T16:00:19Z",
     "found_at": "2026-06-01T16:07:00.517062",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "Off Campus_ Garrett y Dean hablan _ Prime Video"
   },
   {
@@ -709,7 +778,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-05-30T21:00:20Z",
     "found_at": "2026-06-01T16:07:00.517065",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "¿Su bro de confianza_ 🙄  #TheBoys #TheDeep #Starlight #ChanceCrawford #ErinMoriarty"
   },
   {
@@ -720,7 +789,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-05-30T19:00:28Z",
     "found_at": "2026-06-01T16:07:00.517069",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "La Araña combate contra un villano electrificante - Spider-Noir I Prime Video"
   },
   {
@@ -731,7 +800,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-05-30T16:00:44Z",
     "found_at": "2026-06-01T16:07:00.517071",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "No tenemos pruebas, pero tampoco dudas #VirgenALos40 #Shorts"
   },
   {
@@ -742,7 +811,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-05-29T21:00:34Z",
     "found_at": "2026-06-01T16:07:00.517074",
-    "status": "metadata_update",
+    "status": "pending",
     "sanitized_name": "No importa cómo lo escuches, siempre da risa 😂 #Shrek #Burro"
   },
   {
@@ -753,7 +822,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-05-29T00:38:59Z",
     "found_at": "2026-05-29T01:21:33.384540",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "No importa qué esté haciendo, Mary Jane siempre está en aprietos. 😂 #ElHombreAraña"
   },
   {
@@ -764,7 +833,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-05-28T19:00:28Z",
     "found_at": "2026-05-29T01:21:33.384574",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "El agente K tiene su corazoncito 🥹 #HombresDeNegro3 #shorts"
   },
   {
@@ -775,7 +844,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-05-28T16:00:32Z",
     "found_at": "2026-05-29T01:21:33.384580",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Seguramente Hannah y Garrett lo recordarán siempre. #OffCampus #Shorts"
   },
   {
@@ -786,7 +855,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-05-27T21:00:25Z",
     "found_at": "2026-05-29T01:21:33.384584",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "La persecución ha comenzado otra vez. 😎#JackRyanGuerraFantasma #TomClancy #JoknKrasinski #Shorts"
   },
   {
@@ -797,7 +866,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-05-27T19:28:12Z",
     "found_at": "2026-05-29T01:21:33.384588",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Dándoles a los mafiosos algo en qué meditar.#SpiderNoir YA está disponible en #PrimeVideoLAT"
   },
   {
@@ -808,7 +877,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-05-27T17:00:48Z",
     "found_at": "2026-05-29T01:21:33.384592",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Cómo caen los poderosos. #TheBoys #Homelander #Butcher #Shorts"
   },
   {
@@ -819,73 +888,7 @@
     "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
     "published": "2026-05-26T21:00:48Z",
     "found_at": "2026-05-29T01:21:33.384595",
-    "status": "pending",
+    "status": "metadata_update",
     "sanitized_name": "Perdón Fran, pero esta vez estoy del lado de tu mamá. 😌 #LaNiñera"
-  },
-  {
-    "video_id": "hcCbrVo7FxI",
-    "url": "https://www.youtube.com/watch?v=hcCbrVo7FxI",
-    "title": "Ahora Sister Sage comerá sus tacos tranquila. #TheBoys #shorts",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-05-26T16:00:31Z",
-    "found_at": "2026-05-29T01:21:33.384599",
-    "status": "pending",
-    "sanitized_name": "Ahora Sister Sage comerá sus tacos tranquila. #TheBoys #shorts"
-  },
-  {
-    "video_id": "itqC1x9Jxlk",
-    "url": "https://www.youtube.com/watch?v=itqC1x9Jxlk",
-    "title": "Sobre tu cadáver - Tráiler Oficial I Prime Video",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-05-25T22:00:59Z",
-    "found_at": "2026-05-29T01:21:33.384602",
-    "status": "pending",
-    "sanitized_name": "Sobre tu cadáver - Tráiler Oficial I Prime Video"
-  },
-  {
-    "video_id": "_PK2eGcuQr0",
-    "url": "https://www.youtube.com/watch?v=_PK2eGcuQr0",
-    "title": "Oiga, estoy planeando. 🗣️ #MissSimpatia #SandraBullock #VictorMelling #shorts",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-05-25T21:00:38Z",
-    "found_at": "2026-05-29T01:21:33.384606",
-    "status": "pending",
-    "sanitized_name": "Oiga, estoy planeando. 🗣️ #MissSimpatia #SandraBullock #VictorMelling #shorts"
-  },
-  {
-    "video_id": "Q9WbBxeiHwc",
-    "url": "https://www.youtube.com/watch?v=Q9WbBxeiHwc",
-    "title": "Ya no son 6 semestres de finanzas, son 8 y 3 días de modelaje intensivo  #BettyLaFea #Shorts",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-05-24T16:00:42Z",
-    "found_at": "2026-05-29T01:21:33.384610",
-    "status": "pending",
-    "sanitized_name": "Ya no son 6 semestres de finanzas, son 8 y 3 días de modelaje intensivo  #BettyLaFea #Shorts"
-  },
-  {
-    "video_id": "xSCfWrTgwKw",
-    "url": "https://www.youtube.com/watch?v=xSCfWrTgwKw",
-    "title": "Vought Rising - Primer vistazo | Prime Video",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-05-22T14:00:13Z",
-    "found_at": "2026-05-29T01:21:33.384613",
-    "status": "pending",
-    "sanitized_name": "Vought Rising - Primer vistazo _ Prime Video"
-  },
-  {
-    "video_id": "KjbZpc4s-1Y",
-    "url": "https://www.youtube.com/watch?v=KjbZpc4s-1Y",
-    "title": "Estábamos esperando este reencuentro #TheBoys",
-    "channel": "Prime Video Latinoamérica",
-    "channel_id": "UCP7i-E6AYr-UChpNcO0EEag",
-    "published": "2026-05-20T17:00:39Z",
-    "found_at": "2026-05-29T01:21:33.384616",
-    "status": "pending",
-    "sanitized_name": "Estábamos esperando este reencuentro #TheBoys"
   }
 ]

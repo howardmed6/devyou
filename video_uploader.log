@@ -1547,3 +1547,17 @@
 2026-06-01 16:10:28,424 - INFO - [CLEANUP] Archivos eliminados: S42SamCmi8o
 2026-06-01 16:10:31,737 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-06-01 16:10:31,738 - INFO - [FINISH] Proceso completado
+2026-06-04 01:01:04,411 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-04 01:01:04,956 - INFO - [UPLOAD] Procesando: Baki-Dou: El samurái invencible Parte 2 | Tráiler oficial | Netflix
+2026-06-04 01:01:04,957 - INFO - [SEARCH] Buscando archivos para: 'Baki-Dou: El samurái invencible Parte 2 | Tráiler oficial | Netflix'
+2026-06-04 01:01:04,957 - INFO - [SEARCH] Palabras clave: ['baki-dou', 'el', 'samurai']
+2026-06-04 01:01:04,957 - INFO - [FILES] JSON: Baki-Dou_ El samurái invencible Parte 2 _ Tráiler oficial _ Netflix.json
+2026-06-04 01:01:04,957 - INFO - [FILES] Video: Baki-Dou_ El samurái invencible Parte 2 _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-06-04 01:01:04,957 - INFO - [FILES] Thumbnail: Baki-Dou_ El samurái invencible Parte 2 _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-06-04 01:01:04,973 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-04 01:01:05,212 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-04 01:01:07,185 - INFO - [YOUTUBE] Video subido: EFu3YyYAI8w
+2026-06-04 01:01:09,143 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-04 01:01:09,147 - INFO - [CLEANUP] Archivos eliminados: D7fzFxx7NhM
+2026-06-04 01:01:12,254 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-04 01:01:12,255 - INFO - [FINISH] Proceso completado
