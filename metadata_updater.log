@@ -6465,3 +6465,53 @@ DESCRIPCIÓN: 🎬 ¡Prepárate pa...
 2026-06-08 17:17:26,891 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-06-08 17:17:27,534 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-08 17:17:27,535 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-08 17:30:56,711 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-08 17:30:56,711 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-08 17:30:56,711 - INFO - [INIT] API Key disponible: Sí
+2026-06-08 17:30:56,711 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-08 17:30:56,711 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-08 17:30:56,711 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-08 17:30:56,711 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-08 17:30:56,711 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-08 17:30:56,712 - INFO - [JSON] Cargados 83 videos desde data.json
+2026-06-08 17:30:56,712 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-06-08 17:30:56,712 - INFO - [PROCESS] Procesando 1 videos...
+2026-06-08 17:30:56,712 - INFO - 
+--- Procesando video 1/1 ---
+2026-06-08 17:30:56,712 - INFO - [VIDEO] Título: DESCENDIENTES: UN MALVADO PAÍS DE LAS MARAVILLAS Tráiler Español Latino (2026)
+2026-06-08 17:30:56,712 - INFO - [VIDEO] ID: nl57KeI0tfU
+2026-06-08 17:30:56,712 - INFO - [SEARCH] Buscando JSON para: 'DESCENDIENTES: UN MALVADO PAÍS DE LAS MARAVILLAS Tráiler Español Latino (2026)'
+2026-06-08 17:30:56,719 - INFO - [SEARCH] Primeras 3 palabras del título: ['descendientes', 'malvado', 'pais']
+2026-06-08 17:30:56,720 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-08 17:30:56,720 - INFO - [COMPARE] Archivo: DESCENDIENTES_ UN MALVADO PAÍS DE LAS MARAVILLAS Tráiler Español Latino (2026).json
+2026-06-08 17:30:56,720 - INFO - [COMPARE] Título JSON: 'DESCENDIENTES: UN MALVADO PAÍS DE LAS MARAVILLAS Tráiler Español Latino (2026)'
+2026-06-08 17:30:56,720 - INFO - [COMPARE] Primeras 3 palabras JSON: ['descendientes', 'malvado', 'pais']
+2026-06-08 17:30:56,720 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: DESCENDIENTES_ UN MALVADO PAÍS DE LAS MARAVILLAS Tráiler Español Latino (2026).json
+2026-06-08 17:30:56,720 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-08 17:30:56,720 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-06-08 17:30:56,720 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-06-08 17:30:56,720 - INFO - [API] 🔑 API Key válida: ✅
+2026-06-08 17:30:56,720 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-06-08 17:31:12,619 - INFO - [API] 📊 Código de respuesta: 200
+2026-06-08 17:31:12,619 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-06-08 17:31:12,619 - INFO - [API] 📏 Longitud de respuesta: 2055 caracteres
+2026-06-08 17:31:12,619 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: DESCENDIENTES: UN MALVADO PAÍS DE LAS MARAVILLAS Tráiler Oficial Español Latino (2025)
+
+DESC...
+2026-06-08 17:31:12,620 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-06-08 17:31:12,621 - INFO - [PARSE] Datos parseados exitosamente:
+2026-06-08 17:31:12,621 - INFO -   - Título: DESCENDIENTES: UN MALVADO PAÍS DE LAS MARAVILLAS T...
+2026-06-08 17:31:12,621 - INFO -   - Descripción: 1703 caracteres
+2026-06-08 17:31:12,621 - INFO -   - Tags: 10 elementos
+2026-06-08 17:31:12,621 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-06-08 17:31:12,621 - INFO - [UPDATE] JSON actualizado: DESCENDIENTES_ UN MALVADO PAÍS DE LAS MARAVILLAS Tráiler Español Latino (2026).json
+2026-06-08 17:31:12,622 - INFO - [JSON] Cargados 83 videos desde data.json
+2026-06-08 17:31:12,622 - INFO - [STATUS] Video nl57KeI0tfU actualizado a 'ok'
+2026-06-08 17:31:12,624 - INFO - [JSON] data.json actualizado exitosamente
+2026-06-08 17:31:12,624 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-06-08 17:31:12,624 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-06-08 17:31:12,624 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-06-08 17:31:12,624 - INFO - [SUMMARY] Videos fallidos: 0
+2026-06-08 17:31:13,040 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-08 17:31:13,041 - INFO - [FINISH] Proceso completado exitosamente

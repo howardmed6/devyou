@@ -1577,3 +1577,15 @@
 2026-06-08 16:53:13,401 - INFO - [FINISH] Proceso completado
 2026-06-08 17:17:27,909 - INFO - [PROCESS] No hay videos listos para subir
 2026-06-08 17:17:28,529 - INFO - [FINISH] Proceso completado
+2026-06-08 17:31:13,620 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-08 17:31:14,050 - INFO - [UPLOAD] Procesando: DESCENDIENTES: UN MALVADO PAÍS DE LAS MARAVILLAS Tráiler Español Latino (2026)
+2026-06-08 17:31:14,050 - INFO - [SEARCH] Buscando archivos para: 'DESCENDIENTES: UN MALVADO PAÍS DE LAS MARAVILLAS Tráiler Español Latino (2026)'
+2026-06-08 17:31:14,051 - INFO - [SEARCH] Palabras clave: ['descendientes', 'un', 'malvado']
+2026-06-08 17:31:14,051 - INFO - [FILES] JSON: DESCENDIENTES_ UN MALVADO PAÍS DE LAS MARAVILLAS Tráiler Español Latino (2026).json
+2026-06-08 17:31:14,051 - INFO - [FILES] Video: DESCENDIENTES_ UN MALVADO PAÍS DE LAS MARAVILLAS Tráiler Español Latino (2026)(1080P_HD).mp4
+2026-06-08 17:31:14,051 - INFO - [FILES] Thumbnail: DESCENDIENTES_ UN MALVADO PAÍS DE LAS MARAVILLAS Tráiler Español Latino (2026)(1080P_HD).jpg
+2026-06-08 17:31:14,068 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-08 17:31:14,698 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-08 17:31:15,614 - ERROR - [YOUTUBE] Error: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+2026-06-08 17:31:18,494 - INFO - [FINISH] Subida automática completada: 0 éxitos, 1 errores
+2026-06-08 17:31:18,494 - INFO - [FINISH] Proceso completado
