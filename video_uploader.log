@@ -1561,3 +1561,17 @@
 2026-06-04 01:01:09,147 - INFO - [CLEANUP] Archivos eliminados: D7fzFxx7NhM
 2026-06-04 01:01:12,254 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-06-04 01:01:12,255 - INFO - [FINISH] Proceso completado
+2026-06-08 16:53:03,619 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-08 16:53:04,041 - INFO - [UPLOAD] Procesando: JUNTAS MUERTAS Tráiler Español Latino (2026)
+2026-06-08 16:53:04,041 - INFO - [SEARCH] Buscando archivos para: 'JUNTAS MUERTAS Tráiler Español Latino (2026)'
+2026-06-08 16:53:04,041 - INFO - [SEARCH] Palabras clave: ['juntas', 'muertas', 'trailer']
+2026-06-08 16:53:04,041 - INFO - [FILES] JSON: Juntas Muertas - Tráiler Oficial _ Prime Video.json
+2026-06-08 16:53:04,041 - INFO - [FILES] Video: Juntas Muertas - Tráiler Oficial _ Prime Video(1080P_HD).mp4
+2026-06-08 16:53:04,042 - INFO - [FILES] Thumbnail: Juntas Muertas - Tráiler Oficial _ Prime Video(1080P_HD).jpg
+2026-06-08 16:53:04,084 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-08 16:53:04,168 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-08 16:53:08,547 - INFO - [YOUTUBE] Video subido: QNMsgjqi3p0
+2026-06-08 16:53:10,547 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-08 16:53:10,552 - INFO - [CLEANUP] Archivos eliminados: JacThFGUAdM
+2026-06-08 16:53:13,401 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-08 16:53:13,401 - INFO - [FINISH] Proceso completado

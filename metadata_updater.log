@@ -6402,3 +6402,53 @@ D...
 2026-06-04 01:01:03,502 - INFO - [SUMMARY] Videos fallidos: 0
 2026-06-04 01:01:04,052 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-04 01:01:04,052 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-08 16:52:46,811 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-08 16:52:46,811 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-08 16:52:46,811 - INFO - [INIT] API Key disponible: Sí
+2026-06-08 16:52:46,811 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-08 16:52:46,812 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-08 16:52:46,812 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-08 16:52:46,812 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-08 16:52:46,812 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-08 16:52:46,813 - INFO - [JSON] Cargados 108 videos desde data.json
+2026-06-08 16:52:46,813 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-06-08 16:52:46,813 - INFO - [PROCESS] Procesando 1 videos...
+2026-06-08 16:52:46,813 - INFO - 
+--- Procesando video 1/1 ---
+2026-06-08 16:52:46,813 - INFO - [VIDEO] Título: JUNTAS MUERTAS Tráiler Español Latino (2026)
+2026-06-08 16:52:46,813 - INFO - [VIDEO] ID: JacThFGUAdM
+2026-06-08 16:52:46,813 - INFO - [SEARCH] Buscando JSON para: 'JUNTAS MUERTAS Tráiler Español Latino (2026)'
+2026-06-08 16:52:46,820 - INFO - [SEARCH] Primeras 3 palabras del título: ['juntas', 'muertas', 'trailer']
+2026-06-08 16:52:46,820 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-08 16:52:46,820 - INFO - [COMPARE] Archivo: Juntas Muertas - Tráiler Oficial _ Prime Video.json
+2026-06-08 16:52:46,820 - INFO - [COMPARE] Título JSON: 'Juntas Muertas - Tráiler Oficial | Prime Video'
+2026-06-08 16:52:46,820 - INFO - [COMPARE] Primeras 3 palabras JSON: ['juntas', 'muertas', 'trailer']
+2026-06-08 16:52:46,820 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Juntas Muertas - Tráiler Oficial _ Prime Video.json
+2026-06-08 16:52:46,820 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-08 16:52:46,820 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-06-08 16:52:46,821 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-06-08 16:52:46,821 - INFO - [API] 🔑 API Key válida: ✅
+2026-06-08 16:52:46,821 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-06-08 16:53:02,812 - INFO - [API] 📊 Código de respuesta: 200
+2026-06-08 16:53:02,813 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-06-08 16:53:02,813 - INFO - [API] 📏 Longitud de respuesta: 1997 caracteres
+2026-06-08 16:53:02,813 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: JUNTAS MUERTAS Tráiler Oficial en Español (2025) | Prime Video
+
+DESCRIPCIÓN: 🎬 ¡Prepárate pa...
+2026-06-08 16:53:02,814 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-06-08 16:53:02,814 - INFO - [PARSE] Datos parseados exitosamente:
+2026-06-08 16:53:02,815 - INFO -   - Título: JUNTAS MUERTAS Tráiler Oficial en Español (2025) |...
+2026-06-08 16:53:02,815 - INFO -   - Descripción: 1661 caracteres
+2026-06-08 16:53:02,815 - INFO -   - Tags: 11 elementos
+2026-06-08 16:53:02,815 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-06-08 16:53:02,815 - INFO - [UPDATE] JSON actualizado: Juntas Muertas - Tráiler Oficial _ Prime Video.json
+2026-06-08 16:53:02,816 - INFO - [JSON] Cargados 108 videos desde data.json
+2026-06-08 16:53:02,816 - INFO - [STATUS] Video JacThFGUAdM actualizado a 'ok'
+2026-06-08 16:53:02,818 - INFO - [JSON] data.json actualizado exitosamente
+2026-06-08 16:53:02,818 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-06-08 16:53:02,818 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-06-08 16:53:02,818 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-06-08 16:53:02,818 - INFO - [SUMMARY] Videos fallidos: 0
+2026-06-08 16:53:03,230 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-08 16:53:03,231 - INFO - [FINISH] Proceso completado exitosamente
