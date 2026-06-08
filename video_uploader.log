@@ -1589,3 +1589,18 @@
 2026-06-08 17:31:15,614 - ERROR - [YOUTUBE] Error: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
 2026-06-08 17:31:18,494 - INFO - [FINISH] Subida automática completada: 0 éxitos, 1 errores
 2026-06-08 17:31:18,494 - INFO - [FINISH] Proceso completado
+2026-06-08 17:33:24,262 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-08 17:33:24,746 - INFO - [UPLOAD] Procesando: DESCENDIENTES: UN MALVADO PAÍS DE LAS MARAVILLAS Tráiler Español Latino (2026)
+2026-06-08 17:33:24,746 - INFO - [SEARCH] Buscando archivos para: 'DESCENDIENTES: UN MALVADO PAÍS DE LAS MARAVILLAS Tráiler Español Latino (2026)'
+2026-06-08 17:33:24,750 - INFO - [SEARCH] Palabras clave: ['descendientes', 'un', 'malvado']
+2026-06-08 17:33:24,750 - WARNING - [FALLBACK] No se encontraron archivos por coincidencia para 'DESCENDIENTES: UN MALVADO PAÍS DE LAS MARAVILLAS Tráiler Español Latino (2026)', intentando con archivos únicos...
+2026-06-08 17:33:24,751 - INFO - [FALLBACK] Archivos únicos encontrados:
+2026-06-08 17:33:24,751 - INFO - [FALLBACK] JSON: Ninguno (Total: 0)
+2026-06-08 17:33:24,751 - INFO - [FALLBACK] Video: Ninguno (Total: 0)
+2026-06-08 17:33:24,751 - INFO - [FALLBACK] Thumbnail: Ninguno (Total: 0)
+2026-06-08 17:33:24,751 - ERROR - [FILES] JSON: No encontrado
+2026-06-08 17:33:24,751 - ERROR - [FILES] Video: No encontrado
+2026-06-08 17:33:24,751 - WARNING - [FILES] Thumbnail: No encontrado
+2026-06-08 17:33:24,751 - ERROR - [ERROR] Faltan archivos para 'DESCENDIENTES: UN MALVADO PAÍS DE LAS MARAVILLAS Tráiler Español Latino (2026)': JSON, MP4, metadata
+2026-06-08 17:33:25,231 - INFO - [FINISH] Subida automática completada: 0 éxitos, 1 errores
+2026-06-08 17:33:25,231 - INFO - [FINISH] Proceso completado
