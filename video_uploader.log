@@ -1640,3 +1640,17 @@
 2026-06-09 17:54:04,090 - INFO - [FINISH] Proceso completado
 2026-06-09 18:38:22,751 - INFO - [PROCESS] No hay videos listos para subir
 2026-06-09 18:38:23,376 - INFO - [FINISH] Proceso completado
+2026-06-09 18:44:24,968 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-09 18:44:25,460 - INFO - [UPLOAD] Procesando: Elle - Tráiler Oficial | Prime Video
+2026-06-09 18:44:25,461 - INFO - [SEARCH] Buscando archivos para: 'Elle - Tráiler Oficial | Prime Video'
+2026-06-09 18:44:25,461 - INFO - [SEARCH] Palabras clave: ['elle', '-', 'trailer']
+2026-06-09 18:44:25,461 - INFO - [FILES] JSON: Elle - Tráiler Oficial _ Prime Video.json
+2026-06-09 18:44:25,461 - INFO - [FILES] Video: Elle - Tráiler Oficial _ Prime Video(1080P_HD).mp4
+2026-06-09 18:44:25,461 - INFO - [FILES] Thumbnail: Elle - Tráiler Oficial _ Prime Video(1080P_HD).jpg
+2026-06-09 18:44:25,469 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-09 18:44:25,589 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-09 18:44:27,639 - INFO - [YOUTUBE] Video subido: Q_bfYF7-XNo
+2026-06-09 18:44:29,428 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-09 18:44:29,433 - INFO - [CLEANUP] Archivos eliminados: 08G3TjVxQZw
+2026-06-09 18:44:32,391 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-09 18:44:32,392 - INFO - [FINISH] Proceso completado

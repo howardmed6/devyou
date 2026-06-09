@@ -6633,3 +6633,65 @@ DESC...
 2026-06-09 18:38:21,760 - INFO - [SUMMARY] Videos fallidos: 1
 2026-06-09 18:38:22,377 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-09 18:38:22,378 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-09 18:44:09,457 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-09 18:44:09,457 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-09 18:44:09,457 - INFO - [INIT] API Key disponible: Sí
+2026-06-09 18:44:09,457 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-09 18:44:09,457 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-09 18:44:09,457 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-09 18:44:09,457 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-09 18:44:09,457 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-09 18:44:09,458 - INFO - [JSON] Cargados 85 videos desde data.json
+2026-06-09 18:44:09,458 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2026-06-09 18:44:09,458 - INFO - [PROCESS] Procesando 2 videos...
+2026-06-09 18:44:09,458 - INFO - 
+--- Procesando video 1/2 ---
+2026-06-09 18:44:09,458 - INFO - [VIDEO] Título: Enola Holmes 3 | Avance oficial | Netflix
+2026-06-09 18:44:09,458 - INFO - [VIDEO] ID: RGwcY-tS7b0
+2026-06-09 18:44:09,458 - INFO - [SEARCH] Buscando JSON para: 'Enola Holmes 3 | Avance oficial | Netflix'
+2026-06-09 18:44:09,459 - INFO - [SEARCH] Primeras 3 palabras del título: ['enola', 'holmes', 'avance']
+2026-06-09 18:44:09,459 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-09 18:44:09,459 - INFO - [COMPARE] Archivo: Elle - Tráiler Oficial _ Prime Video.json
+2026-06-09 18:44:09,459 - INFO - [COMPARE] Título JSON: 'Elle - Tráiler Oficial | Prime Video'
+2026-06-09 18:44:09,460 - INFO - [COMPARE] Primeras 3 palabras JSON: ['elle', 'trailer', 'oficial']
+2026-06-09 18:44:09,460 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Enola Holmes 3 | Avance oficial | Netflix'
+2026-06-09 18:44:09,460 - ERROR - [ERROR] No se encontró JSON para el video: Enola Holmes 3 | Avance oficial | Netflix
+2026-06-09 18:44:09,460 - INFO - 
+--- Procesando video 2/2 ---
+2026-06-09 18:44:09,460 - INFO - [VIDEO] Título: Elle - Tráiler Oficial | Prime Video
+2026-06-09 18:44:09,460 - INFO - [VIDEO] ID: 08G3TjVxQZw
+2026-06-09 18:44:09,460 - INFO - [SEARCH] Buscando JSON para: 'Elle - Tráiler Oficial | Prime Video'
+2026-06-09 18:44:09,460 - INFO - [SEARCH] Primeras 3 palabras del título: ['elle', 'trailer', 'oficial']
+2026-06-09 18:44:09,460 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-09 18:44:09,460 - INFO - [COMPARE] Archivo: Elle - Tráiler Oficial _ Prime Video.json
+2026-06-09 18:44:09,461 - INFO - [COMPARE] Título JSON: 'Elle - Tráiler Oficial | Prime Video'
+2026-06-09 18:44:09,461 - INFO - [COMPARE] Primeras 3 palabras JSON: ['elle', 'trailer', 'oficial']
+2026-06-09 18:44:09,461 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Elle - Tráiler Oficial _ Prime Video.json
+2026-06-09 18:44:09,461 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-09 18:44:09,461 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-06-09 18:44:09,461 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-06-09 18:44:09,461 - INFO - [API] 🔑 API Key válida: ✅
+2026-06-09 18:44:09,461 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-06-09 18:44:24,108 - INFO - [API] 📊 Código de respuesta: 200
+2026-06-09 18:44:24,108 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-06-09 18:44:24,109 - INFO - [API] 📏 Longitud de respuesta: 1931 caracteres
+2026-06-09 18:44:24,109 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: ELLE Tráiler Oficial (2025) | Serie Spin-off de Legalmente Rubia | Prime Video
+
+DESCRIPCIÓN:...
+2026-06-09 18:44:24,110 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-06-09 18:44:24,110 - INFO - [PARSE] Datos parseados exitosamente:
+2026-06-09 18:44:24,110 - INFO -   - Título: ELLE Tráiler Oficial (2025) | Serie Spin-off de Le...
+2026-06-09 18:44:24,110 - INFO -   - Descripción: 1617 caracteres
+2026-06-09 18:44:24,111 - INFO -   - Tags: 10 elementos
+2026-06-09 18:44:24,111 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-06-09 18:44:24,111 - INFO - [UPDATE] JSON actualizado: Elle - Tráiler Oficial _ Prime Video.json
+2026-06-09 18:44:24,112 - INFO - [JSON] Cargados 85 videos desde data.json
+2026-06-09 18:44:24,112 - INFO - [STATUS] Video 08G3TjVxQZw actualizado a 'ok'
+2026-06-09 18:44:24,113 - INFO - [JSON] data.json actualizado exitosamente
+2026-06-09 18:44:24,113 - INFO - [SUCCESS] Video 2 procesado exitosamente
+2026-06-09 18:44:24,113 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-06-09 18:44:24,113 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-06-09 18:44:24,113 - INFO - [SUMMARY] Videos fallidos: 1
+2026-06-09 18:44:24,628 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-09 18:44:24,629 - INFO - [FINISH] Proceso completado exitosamente
