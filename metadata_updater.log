@@ -6607,3 +6607,29 @@ DESC...
 2026-06-09 17:53:54,740 - INFO - [SUMMARY] Videos fallidos: 1
 2026-06-09 17:53:55,319 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-09 17:53:55,320 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-09 18:38:21,758 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-09 18:38:21,758 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-09 18:38:21,758 - INFO - [INIT] API Key disponible: Sí
+2026-06-09 18:38:21,758 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-09 18:38:21,758 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-09 18:38:21,758 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-09 18:38:21,758 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-09 18:38:21,758 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-09 18:38:21,759 - INFO - [JSON] Cargados 85 videos desde data.json
+2026-06-09 18:38:21,759 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-06-09 18:38:21,759 - INFO - [PROCESS] Procesando 1 videos...
+2026-06-09 18:38:21,759 - INFO - 
+--- Procesando video 1/1 ---
+2026-06-09 18:38:21,759 - INFO - [VIDEO] Título: Enola Holmes 3 | Avance oficial | Netflix
+2026-06-09 18:38:21,759 - INFO - [VIDEO] ID: RGwcY-tS7b0
+2026-06-09 18:38:21,759 - INFO - [SEARCH] Buscando JSON para: 'Enola Holmes 3 | Avance oficial | Netflix'
+2026-06-09 18:38:21,759 - INFO - [SEARCH] Primeras 3 palabras del título: ['enola', 'holmes', 'avance']
+2026-06-09 18:38:21,760 - INFO - [SEARCH] Encontrados 0 archivos JSON en uploadable
+2026-06-09 18:38:21,760 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Enola Holmes 3 | Avance oficial | Netflix'
+2026-06-09 18:38:21,760 - ERROR - [ERROR] No se encontró JSON para el video: Enola Holmes 3 | Avance oficial | Netflix
+2026-06-09 18:38:21,760 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-06-09 18:38:21,760 - INFO - [SUMMARY] Videos procesados exitosamente: 0
+2026-06-09 18:38:21,760 - INFO - [SUMMARY] Videos fallidos: 1
+2026-06-09 18:38:22,377 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-09 18:38:22,378 - INFO - [FINISH] Proceso completado exitosamente
