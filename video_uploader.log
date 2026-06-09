@@ -1616,3 +1616,25 @@
 2026-06-08 17:46:54,827 - ERROR - [YOUTUBE] Error: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
 2026-06-08 17:46:57,936 - INFO - [FINISH] Subida automática completada: 0 éxitos, 1 errores
 2026-06-08 17:46:57,937 - INFO - [FINISH] Proceso completado
+2026-06-09 17:53:55,823 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-09 17:53:56,390 - INFO - [UPLOAD] Procesando: DESCENDIENTES: UN MALVADO PAÍS DE LAS MARAVILLAS Tráiler Español Latino (2026)
+2026-06-09 17:53:56,391 - INFO - [SEARCH] Buscando archivos para: 'DESCENDIENTES: UN MALVADO PAÍS DE LAS MARAVILLAS Tráiler Español Latino (2026)'
+2026-06-09 17:53:56,391 - INFO - [SEARCH] Palabras clave: ['descendientes', 'un', 'malvado']
+2026-06-09 17:53:56,391 - WARNING - [FALLBACK] No se encontraron archivos por coincidencia para 'DESCENDIENTES: UN MALVADO PAÍS DE LAS MARAVILLAS Tráiler Español Latino (2026)', intentando con archivos únicos...
+2026-06-09 17:53:56,391 - INFO - [FALLBACK] Archivos únicos encontrados:
+2026-06-09 17:53:56,392 - INFO - [FALLBACK] JSON: Enola Holmes 3 _ Tráiler oficial _ Netflix.json (Total: 1)
+2026-06-09 17:53:56,392 - INFO - [FALLBACK] Video: Enola Holmes 3 _ Tráiler oficial _ Netflix(1080P_HD).mp4 (Total: 1)
+2026-06-09 17:53:56,392 - INFO - [FALLBACK] Thumbnail: Enola Holmes 3 _ Tráiler oficial _ Netflix(1080P_HD).jpg (Total: 1)
+2026-06-09 17:53:56,392 - INFO - [FALLBACK] Usando JSON único: Enola Holmes 3 _ Tráiler oficial _ Netflix.json
+2026-06-09 17:53:56,392 - INFO - [FALLBACK] Usando video único: Enola Holmes 3 _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-06-09 17:53:56,392 - INFO - [FALLBACK] Usando thumbnail único: Enola Holmes 3 _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-06-09 17:53:56,392 - INFO - [FILES] JSON: Enola Holmes 3 _ Tráiler oficial _ Netflix.json
+2026-06-09 17:53:56,392 - INFO - [FILES] Video: Enola Holmes 3 _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-06-09 17:53:56,392 - INFO - [FILES] Thumbnail: Enola Holmes 3 _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-06-09 17:53:56,409 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-09 17:53:56,535 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-09 17:53:58,868 - INFO - [YOUTUBE] Video subido: e3phOjcPLII
+2026-06-09 17:54:00,841 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-09 17:54:00,845 - INFO - [CLEANUP] Archivos eliminados: nl57KeI0tfU
+2026-06-09 17:54:04,089 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-09 17:54:04,090 - INFO - [FINISH] Proceso completado
