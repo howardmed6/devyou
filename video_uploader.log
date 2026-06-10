@@ -1654,3 +1654,17 @@
 2026-06-09 18:44:29,433 - INFO - [CLEANUP] Archivos eliminados: 08G3TjVxQZw
 2026-06-09 18:44:32,391 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-06-09 18:44:32,392 - INFO - [FINISH] Proceso completado
+2026-06-10 18:55:27,226 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-10 18:55:27,790 - INFO - [UPLOAD] Procesando: VAIANA Tráiler Final Español Doblado (2026) Dwayne Johnson
+2026-06-10 18:55:27,790 - INFO - [SEARCH] Buscando archivos para: 'VAIANA Tráiler Final Español Doblado (2026) Dwayne Johnson'
+2026-06-10 18:55:27,791 - INFO - [SEARCH] Palabras clave: ['vaiana', 'trailer', 'final']
+2026-06-10 18:55:27,791 - INFO - [FILES] JSON: VAIANA Tráiler Final Español Doblado (2026) Dwayne Johnson.json
+2026-06-10 18:55:27,791 - INFO - [FILES] Video: VAIANA Tráiler Final Español Doblado (2026) Dwayne Johnson(1080P_HD).mp4
+2026-06-10 18:55:27,791 - INFO - [FILES] Thumbnail: VAIANA Tráiler Final Español Doblado (2026) Dwayne Johnson(1080P_HD).jpg
+2026-06-10 18:55:27,811 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-10 18:55:27,943 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-10 18:55:29,938 - INFO - [YOUTUBE] Video subido: sVYqh2SzCyk
+2026-06-10 18:55:31,584 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-10 18:55:31,588 - INFO - [CLEANUP] Archivos eliminados: rEbO5-yXNAI
+2026-06-10 18:55:34,749 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-10 18:55:34,749 - INFO - [FINISH] Proceso completado

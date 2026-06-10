@@ -6695,3 +6695,65 @@ DESCRIPCIÓN:...
 2026-06-09 18:44:24,113 - INFO - [SUMMARY] Videos fallidos: 1
 2026-06-09 18:44:24,628 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-09 18:44:24,629 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-10 18:55:07,510 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-10 18:55:07,510 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-10 18:55:07,510 - INFO - [INIT] API Key disponible: Sí
+2026-06-10 18:55:07,511 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-10 18:55:07,511 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-10 18:55:07,511 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-10 18:55:07,511 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-10 18:55:07,511 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-10 18:55:07,512 - INFO - [JSON] Cargados 95 videos desde data.json
+2026-06-10 18:55:07,512 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2026-06-10 18:55:07,512 - INFO - [PROCESS] Procesando 2 videos...
+2026-06-10 18:55:07,512 - INFO - 
+--- Procesando video 1/2 ---
+2026-06-10 18:55:07,512 - INFO - [VIDEO] Título: Enola Holmes 3 | Avance oficial | Netflix
+2026-06-10 18:55:07,512 - INFO - [VIDEO] ID: RGwcY-tS7b0
+2026-06-10 18:55:07,512 - INFO - [SEARCH] Buscando JSON para: 'Enola Holmes 3 | Avance oficial | Netflix'
+2026-06-10 18:55:07,512 - INFO - [SEARCH] Primeras 3 palabras del título: ['enola', 'holmes', 'avance']
+2026-06-10 18:55:07,512 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-10 18:55:07,512 - INFO - [COMPARE] Archivo: VAIANA Tráiler Final Español Doblado (2026) Dwayne Johnson.json
+2026-06-10 18:55:07,512 - INFO - [COMPARE] Título JSON: 'VAIANA Tráiler Final Español Doblado (2026) Dwayne Johnson'
+2026-06-10 18:55:07,512 - INFO - [COMPARE] Primeras 3 palabras JSON: ['vaiana', 'trailer', 'final']
+2026-06-10 18:55:07,512 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Enola Holmes 3 | Avance oficial | Netflix'
+2026-06-10 18:55:07,512 - ERROR - [ERROR] No se encontró JSON para el video: Enola Holmes 3 | Avance oficial | Netflix
+2026-06-10 18:55:07,513 - INFO - 
+--- Procesando video 2/2 ---
+2026-06-10 18:55:07,513 - INFO - [VIDEO] Título: VAIANA Tráiler Final Español Doblado (2026) Dwayne Johnson
+2026-06-10 18:55:07,513 - INFO - [VIDEO] ID: rEbO5-yXNAI
+2026-06-10 18:55:07,513 - INFO - [SEARCH] Buscando JSON para: 'VAIANA Tráiler Final Español Doblado (2026) Dwayne Johnson'
+2026-06-10 18:55:07,513 - INFO - [SEARCH] Primeras 3 palabras del título: ['vaiana', 'trailer', 'final']
+2026-06-10 18:55:07,513 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-10 18:55:07,513 - INFO - [COMPARE] Archivo: VAIANA Tráiler Final Español Doblado (2026) Dwayne Johnson.json
+2026-06-10 18:55:07,513 - INFO - [COMPARE] Título JSON: 'VAIANA Tráiler Final Español Doblado (2026) Dwayne Johnson'
+2026-06-10 18:55:07,513 - INFO - [COMPARE] Primeras 3 palabras JSON: ['vaiana', 'trailer', 'final']
+2026-06-10 18:55:07,513 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: VAIANA Tráiler Final Español Doblado (2026) Dwayne Johnson.json
+2026-06-10 18:55:07,513 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-10 18:55:07,513 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-06-10 18:55:07,513 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-06-10 18:55:07,513 - INFO - [API] 🔑 API Key válida: ✅
+2026-06-10 18:55:07,513 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-06-10 18:55:26,048 - INFO - [API] 📊 Código de respuesta: 200
+2026-06-10 18:55:26,048 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-06-10 18:55:26,048 - INFO - [API] 📏 Longitud de respuesta: 2273 caracteres
+2026-06-10 18:55:26,048 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: VAIANA Tráiler Final Español Doblado (2026) Live Action Disney
+
+DESCRIPCIÓN: 🎬 ¡La leyenda r...
+2026-06-10 18:55:26,049 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-06-10 18:55:26,050 - INFO - [PARSE] Datos parseados exitosamente:
+2026-06-10 18:55:26,050 - INFO -   - Título: VAIANA Tráiler Final Español Doblado (2026) Live A...
+2026-06-10 18:55:26,050 - INFO -   - Descripción: 2022 caracteres
+2026-06-10 18:55:26,050 - INFO -   - Tags: 10 elementos
+2026-06-10 18:55:26,050 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-06-10 18:55:26,050 - INFO - [UPDATE] JSON actualizado: VAIANA Tráiler Final Español Doblado (2026) Dwayne Johnson.json
+2026-06-10 18:55:26,051 - INFO - [JSON] Cargados 95 videos desde data.json
+2026-06-10 18:55:26,051 - INFO - [STATUS] Video rEbO5-yXNAI actualizado a 'ok'
+2026-06-10 18:55:26,052 - INFO - [JSON] data.json actualizado exitosamente
+2026-06-10 18:55:26,052 - INFO - [SUCCESS] Video 2 procesado exitosamente
+2026-06-10 18:55:26,052 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-06-10 18:55:26,052 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-06-10 18:55:26,052 - INFO - [SUMMARY] Videos fallidos: 1
+2026-06-10 18:55:26,602 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-10 18:55:26,603 - INFO - [FINISH] Proceso completado exitosamente
