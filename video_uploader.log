@@ -1668,3 +1668,17 @@
 2026-06-10 18:55:31,588 - INFO - [CLEANUP] Archivos eliminados: rEbO5-yXNAI
 2026-06-10 18:55:34,749 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-06-10 18:55:34,749 - INFO - [FINISH] Proceso completado
+2026-06-11 17:27:17,626 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-11 17:27:18,243 - INFO - [UPLOAD] Procesando: La casa de la pradera | Tráiler oficial | Netflix
+2026-06-11 17:27:18,244 - INFO - [SEARCH] Buscando archivos para: 'La casa de la pradera | Tráiler oficial | Netflix'
+2026-06-11 17:27:18,244 - INFO - [SEARCH] Palabras clave: ['la', 'casa', 'de']
+2026-06-11 17:27:18,244 - INFO - [FILES] JSON: La casa de la pradera _ Tráiler oficial _ Netflix.json
+2026-06-11 17:27:18,244 - INFO - [FILES] Video: La casa de la pradera _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-06-11 17:27:18,244 - INFO - [FILES] Thumbnail: La casa de la pradera _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-06-11 17:27:18,303 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-11 17:27:18,399 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-11 17:27:20,100 - INFO - [YOUTUBE] Video subido: oMBMcrcXVX4
+2026-06-11 17:27:22,331 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-11 17:27:22,336 - INFO - [CLEANUP] Archivos eliminados: kV3ot7s55vs
+2026-06-11 17:27:25,591 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-11 17:27:25,592 - INFO - [FINISH] Proceso completado

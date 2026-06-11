@@ -6757,3 +6757,65 @@ DESCRIPCIÓN: 🎬 ¡La leyenda r...
 2026-06-10 18:55:26,052 - INFO - [SUMMARY] Videos fallidos: 1
 2026-06-10 18:55:26,602 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-10 18:55:26,603 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-11 17:26:57,251 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-11 17:26:57,251 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-11 17:26:57,251 - INFO - [INIT] API Key disponible: Sí
+2026-06-11 17:26:57,251 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-11 17:26:57,251 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-11 17:26:57,251 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-11 17:26:57,251 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-11 17:26:57,251 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-11 17:26:57,252 - INFO - [JSON] Cargados 95 videos desde data.json
+2026-06-11 17:26:57,252 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2026-06-11 17:26:57,252 - INFO - [PROCESS] Procesando 2 videos...
+2026-06-11 17:26:57,252 - INFO - 
+--- Procesando video 1/2 ---
+2026-06-11 17:26:57,252 - INFO - [VIDEO] Título: Enola Holmes 3 | Avance oficial | Netflix
+2026-06-11 17:26:57,253 - INFO - [VIDEO] ID: RGwcY-tS7b0
+2026-06-11 17:26:57,253 - INFO - [SEARCH] Buscando JSON para: 'Enola Holmes 3 | Avance oficial | Netflix'
+2026-06-11 17:26:57,253 - INFO - [SEARCH] Primeras 3 palabras del título: ['enola', 'holmes', 'avance']
+2026-06-11 17:26:57,253 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-11 17:26:57,272 - INFO - [COMPARE] Archivo: La casa de la pradera _ Tráiler oficial _ Netflix.json
+2026-06-11 17:26:57,272 - INFO - [COMPARE] Título JSON: 'La casa de la pradera | Tráiler oficial | Netflix'
+2026-06-11 17:26:57,273 - INFO - [COMPARE] Primeras 3 palabras JSON: ['casa', 'pradera', 'trailer']
+2026-06-11 17:26:57,273 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Enola Holmes 3 | Avance oficial | Netflix'
+2026-06-11 17:26:57,273 - ERROR - [ERROR] No se encontró JSON para el video: Enola Holmes 3 | Avance oficial | Netflix
+2026-06-11 17:26:57,273 - INFO - 
+--- Procesando video 2/2 ---
+2026-06-11 17:26:57,273 - INFO - [VIDEO] Título: La casa de la pradera | Tráiler oficial | Netflix
+2026-06-11 17:26:57,273 - INFO - [VIDEO] ID: kV3ot7s55vs
+2026-06-11 17:26:57,273 - INFO - [SEARCH] Buscando JSON para: 'La casa de la pradera | Tráiler oficial | Netflix'
+2026-06-11 17:26:57,273 - INFO - [SEARCH] Primeras 3 palabras del título: ['casa', 'pradera', 'trailer']
+2026-06-11 17:26:57,273 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-11 17:26:57,273 - INFO - [COMPARE] Archivo: La casa de la pradera _ Tráiler oficial _ Netflix.json
+2026-06-11 17:26:57,273 - INFO - [COMPARE] Título JSON: 'La casa de la pradera | Tráiler oficial | Netflix'
+2026-06-11 17:26:57,274 - INFO - [COMPARE] Primeras 3 palabras JSON: ['casa', 'pradera', 'trailer']
+2026-06-11 17:26:57,274 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: La casa de la pradera _ Tráiler oficial _ Netflix.json
+2026-06-11 17:26:57,274 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-11 17:26:57,274 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-06-11 17:26:57,274 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-06-11 17:26:57,274 - INFO - [API] 🔑 API Key válida: ✅
+2026-06-11 17:26:57,274 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-06-11 17:27:16,488 - INFO - [API] 📊 Código de respuesta: 200
+2026-06-11 17:27:16,488 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-06-11 17:27:16,488 - INFO - [API] 📏 Longitud de respuesta: 2344 caracteres
+2026-06-11 17:27:16,488 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: LA CASA DE LA PRADERA (2025) | Tráiler Oficial en Español Latino | Netflix
+
+DESCRIPCIÓN: 🎬 ¡...
+2026-06-11 17:27:16,489 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-06-11 17:27:16,490 - INFO - [PARSE] Datos parseados exitosamente:
+2026-06-11 17:27:16,490 - INFO -   - Título: LA CASA DE LA PRADERA (2025) | Tráiler Oficial en ...
+2026-06-11 17:27:16,490 - INFO -   - Descripción: 1988 caracteres
+2026-06-11 17:27:16,490 - INFO -   - Tags: 12 elementos
+2026-06-11 17:27:16,490 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-06-11 17:27:16,490 - INFO - [UPDATE] JSON actualizado: La casa de la pradera _ Tráiler oficial _ Netflix.json
+2026-06-11 17:27:16,491 - INFO - [JSON] Cargados 95 videos desde data.json
+2026-06-11 17:27:16,491 - INFO - [STATUS] Video kV3ot7s55vs actualizado a 'ok'
+2026-06-11 17:27:16,493 - INFO - [JSON] data.json actualizado exitosamente
+2026-06-11 17:27:16,493 - INFO - [SUCCESS] Video 2 procesado exitosamente
+2026-06-11 17:27:16,493 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-06-11 17:27:16,493 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-06-11 17:27:16,493 - INFO - [SUMMARY] Videos fallidos: 1
+2026-06-11 17:27:17,102 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-11 17:27:17,102 - INFO - [FINISH] Proceso completado exitosamente
