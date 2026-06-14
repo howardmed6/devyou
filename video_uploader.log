@@ -1686,3 +1686,17 @@
 2026-06-14 02:32:51,821 - INFO - [FINISH] Proceso completado
 2026-06-14 02:40:32,021 - INFO - [PROCESS] No hay videos listos para subir
 2026-06-14 02:40:32,447 - INFO - [FINISH] Proceso completado
+2026-06-14 03:24:30,826 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-14 03:24:31,248 - INFO - [UPLOAD] Procesando: Mi némesis con aires de realeza | TRÁILER FINAL | Netflix
+2026-06-14 03:24:31,249 - INFO - [SEARCH] Buscando archivos para: 'Mi némesis con aires de realeza | TRÁILER FINAL | Netflix'
+2026-06-14 03:24:31,249 - INFO - [SEARCH] Palabras clave: ['mi', 'nemesis', 'con']
+2026-06-14 03:24:31,249 - INFO - [FILES] JSON: Mi némesis con aires de realeza _ TRÁILER FINAL _ Netflix.json
+2026-06-14 03:24:31,249 - INFO - [FILES] Video: Mi némesis con aires de realeza _ TRÁILER FINAL _ Netflix(1080P_HD).mp4
+2026-06-14 03:24:31,249 - INFO - [FILES] Thumbnail: Mi némesis con aires de realeza _ TRÁILER FINAL _ Netflix(1080P_HD).jpg
+2026-06-14 03:24:31,258 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-14 03:24:31,368 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-14 03:24:33,052 - INFO - [YOUTUBE] Video subido: jX-Gegc7qbg
+2026-06-14 03:24:35,282 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-14 03:24:35,285 - INFO - [CLEANUP] Archivos eliminados: RlGFytwNF78
+2026-06-14 03:24:38,146 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-14 03:24:38,147 - INFO - [FINISH] Proceso completado

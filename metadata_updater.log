@@ -6845,3 +6845,53 @@ DESCRIPCIÓN: 🎬 ¡...
 2026-06-14 02:40:31,236 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-06-14 02:40:31,656 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-14 02:40:31,657 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-14 03:24:12,837 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-14 03:24:12,837 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-14 03:24:12,837 - INFO - [INIT] API Key disponible: Sí
+2026-06-14 03:24:12,837 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-14 03:24:12,837 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-14 03:24:12,837 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-14 03:24:12,837 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-14 03:24:12,838 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-14 03:24:12,839 - INFO - [JSON] Cargados 87 videos desde data.json
+2026-06-14 03:24:12,839 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-06-14 03:24:12,839 - INFO - [PROCESS] Procesando 1 videos...
+2026-06-14 03:24:12,839 - INFO - 
+--- Procesando video 1/1 ---
+2026-06-14 03:24:12,839 - INFO - [VIDEO] Título: Mi némesis con aires de realeza | TRÁILER FINAL | Netflix
+2026-06-14 03:24:12,839 - INFO - [VIDEO] ID: RlGFytwNF78
+2026-06-14 03:24:12,839 - INFO - [SEARCH] Buscando JSON para: 'Mi némesis con aires de realeza | TRÁILER FINAL | Netflix'
+2026-06-14 03:24:12,849 - INFO - [SEARCH] Primeras 3 palabras del título: ['nemesis', 'con', 'aires']
+2026-06-14 03:24:12,850 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-14 03:24:12,850 - INFO - [COMPARE] Archivo: Mi némesis con aires de realeza _ TRÁILER FINAL _ Netflix.json
+2026-06-14 03:24:12,850 - INFO - [COMPARE] Título JSON: 'Mi némesis con aires de realeza | TRÁILER FINAL | Netflix'
+2026-06-14 03:24:12,850 - INFO - [COMPARE] Primeras 3 palabras JSON: ['nemesis', 'con', 'aires']
+2026-06-14 03:24:12,850 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Mi némesis con aires de realeza _ TRÁILER FINAL _ Netflix.json
+2026-06-14 03:24:12,850 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-14 03:24:12,850 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-06-14 03:24:12,850 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-06-14 03:24:12,850 - INFO - [API] 🔑 API Key válida: ✅
+2026-06-14 03:24:12,850 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-06-14 03:24:29,944 - INFO - [API] 📊 Código de respuesta: 200
+2026-06-14 03:24:29,944 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-06-14 03:24:29,945 - INFO - [API] 📏 Longitud de respuesta: 2199 caracteres
+2026-06-14 03:24:29,945 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: MI NÉMESIS CON AIRES DE REALEZA | Tráiler Final en Español Latino (2025) | Netflix
+
+DESCRIPC...
+2026-06-14 03:24:29,945 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-06-14 03:24:29,946 - INFO - [PARSE] Datos parseados exitosamente:
+2026-06-14 03:24:29,946 - INFO -   - Título: MI NÉMESIS CON AIRES DE REALEZA | Tráiler Final en...
+2026-06-14 03:24:29,946 - INFO -   - Descripción: 1868 caracteres
+2026-06-14 03:24:29,946 - INFO -   - Tags: 12 elementos
+2026-06-14 03:24:29,946 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-06-14 03:24:29,947 - INFO - [UPDATE] JSON actualizado: Mi némesis con aires de realeza _ TRÁILER FINAL _ Netflix.json
+2026-06-14 03:24:29,948 - INFO - [JSON] Cargados 87 videos desde data.json
+2026-06-14 03:24:29,948 - INFO - [STATUS] Video RlGFytwNF78 actualizado a 'ok'
+2026-06-14 03:24:29,949 - INFO - [JSON] data.json actualizado exitosamente
+2026-06-14 03:24:29,949 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-06-14 03:24:29,949 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-06-14 03:24:29,949 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-06-14 03:24:29,949 - INFO - [SUMMARY] Videos fallidos: 0
+2026-06-14 03:24:30,376 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-14 03:24:30,377 - INFO - [FINISH] Proceso completado exitosamente
