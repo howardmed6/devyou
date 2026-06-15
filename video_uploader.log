@@ -1756,3 +1756,17 @@
 2026-06-15 17:21:52,867 - INFO - [CLEANUP] Archivos eliminados: 0ao9c5b6jCg
 2026-06-15 17:21:55,825 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-06-15 17:21:55,825 - INFO - [FINISH] Proceso completado
+2026-06-15 18:47:38,651 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-15 18:47:39,266 - INFO - [UPLOAD] Procesando: EL MOTÍN Tráiler 2 Español (2026) Jason Statham
+2026-06-15 18:47:39,266 - INFO - [SEARCH] Buscando archivos para: 'EL MOTÍN Tráiler 2 Español (2026) Jason Statham'
+2026-06-15 18:47:39,267 - INFO - [SEARCH] Palabras clave: ['el', 'motin', 'trailer']
+2026-06-15 18:47:39,267 - INFO - [FILES] JSON: EL MOTÍN Tráiler 2 Español (2026) Jason Statham.json
+2026-06-15 18:47:39,267 - INFO - [FILES] Video: EL MOTÍN Tráiler 2 Español (2026) Jason Statham(1080P_HD).mp4
+2026-06-15 18:47:39,267 - INFO - [FILES] Thumbnail: EL MOTÍN Tráiler 2 Español (2026) Jason Statham(1080P_HD).jpg
+2026-06-15 18:47:39,287 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-15 18:47:39,384 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-15 18:47:41,448 - INFO - [YOUTUBE] Video subido: 0jce3qDJlKk
+2026-06-15 18:47:43,334 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-15 18:47:43,338 - INFO - [CLEANUP] Archivos eliminados: ESSvGe92aC0
+2026-06-15 18:47:46,607 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-15 18:47:46,607 - INFO - [FINISH] Proceso completado

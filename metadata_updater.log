@@ -7136,3 +7136,53 @@ DESCRIPCIÓN: 🎬 ¡La espera ...
 2026-06-15 17:21:48,292 - INFO - [SUMMARY] Videos fallidos: 0
 2026-06-15 17:21:48,746 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-15 17:21:48,747 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-15 18:47:20,045 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-15 18:47:20,045 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-15 18:47:20,045 - INFO - [INIT] API Key disponible: Sí
+2026-06-15 18:47:20,045 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-15 18:47:20,045 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-15 18:47:20,045 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-15 18:47:20,046 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-15 18:47:20,046 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-15 18:47:20,046 - INFO - [JSON] Cargados 85 videos desde data.json
+2026-06-15 18:47:20,047 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-06-15 18:47:20,047 - INFO - [PROCESS] Procesando 1 videos...
+2026-06-15 18:47:20,047 - INFO - 
+--- Procesando video 1/1 ---
+2026-06-15 18:47:20,047 - INFO - [VIDEO] Título: EL MOTÍN Tráiler 2 Español (2026) Jason Statham
+2026-06-15 18:47:20,047 - INFO - [VIDEO] ID: ESSvGe92aC0
+2026-06-15 18:47:20,047 - INFO - [SEARCH] Buscando JSON para: 'EL MOTÍN Tráiler 2 Español (2026) Jason Statham'
+2026-06-15 18:47:20,055 - INFO - [SEARCH] Primeras 3 palabras del título: ['motin', 'trailer', 'espanol']
+2026-06-15 18:47:20,055 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-15 18:47:20,056 - INFO - [COMPARE] Archivo: EL MOTÍN Tráiler 2 Español (2026) Jason Statham.json
+2026-06-15 18:47:20,056 - INFO - [COMPARE] Título JSON: 'EL MOTÍN Tráiler 2 Español (2026) Jason Statham'
+2026-06-15 18:47:20,056 - INFO - [COMPARE] Primeras 3 palabras JSON: ['motin', 'trailer', 'espanol']
+2026-06-15 18:47:20,056 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: EL MOTÍN Tráiler 2 Español (2026) Jason Statham.json
+2026-06-15 18:47:20,056 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-15 18:47:20,056 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-06-15 18:47:20,056 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-06-15 18:47:20,056 - INFO - [API] 🔑 API Key válida: ✅
+2026-06-15 18:47:20,056 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-06-15 18:47:37,608 - INFO - [API] 📊 Código de respuesta: 200
+2026-06-15 18:47:37,609 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-06-15 18:47:37,609 - INFO - [API] 📏 Longitud de respuesta: 2092 caracteres
+2026-06-15 18:47:37,609 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: EL MOTÍN Tráiler 2 Español Latino (2026) | Thriller de Acción
+
+DESCRIPCIÓN: 🎬 ¡PREPÁRATE PAR...
+2026-06-15 18:47:37,610 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-06-15 18:47:37,611 - INFO - [PARSE] Datos parseados exitosamente:
+2026-06-15 18:47:37,611 - INFO -   - Título: EL MOTÍN Tráiler 2 Español Latino (2026) | Thrille...
+2026-06-15 18:47:37,611 - INFO -   - Descripción: 1827 caracteres
+2026-06-15 18:47:37,611 - INFO -   - Tags: 10 elementos
+2026-06-15 18:47:37,611 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-06-15 18:47:37,611 - INFO - [UPDATE] JSON actualizado: EL MOTÍN Tráiler 2 Español (2026) Jason Statham.json
+2026-06-15 18:47:37,612 - INFO - [JSON] Cargados 85 videos desde data.json
+2026-06-15 18:47:37,612 - INFO - [STATUS] Video ESSvGe92aC0 actualizado a 'ok'
+2026-06-15 18:47:37,613 - INFO - [JSON] data.json actualizado exitosamente
+2026-06-15 18:47:37,614 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-06-15 18:47:37,614 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-06-15 18:47:37,614 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-06-15 18:47:37,614 - INFO - [SUMMARY] Videos fallidos: 0
+2026-06-15 18:47:38,232 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-15 18:47:38,233 - INFO - [FINISH] Proceso completado exitosamente
