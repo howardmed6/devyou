@@ -1726,3 +1726,17 @@
 2026-06-15 15:37:59,445 - INFO - [FINISH] Proceso completado
 2026-06-15 15:40:06,245 - INFO - [PROCESS] No hay videos listos para subir
 2026-06-15 15:40:06,716 - INFO - [FINISH] Proceso completado
+2026-06-15 15:45:53,502 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-15 15:45:53,967 - INFO - [UPLOAD] Procesando: La última casa | Greta Lee y Wagner Moura | Tráiler oficial | Netflix
+2026-06-15 15:45:53,967 - INFO - [SEARCH] Buscando archivos para: 'La última casa | Greta Lee y Wagner Moura | Tráiler oficial | Netflix'
+2026-06-15 15:45:53,968 - INFO - [SEARCH] Palabras clave: ['la', 'ultima', 'casa']
+2026-06-15 15:45:53,968 - INFO - [FILES] JSON: La última casa _ Greta Lee y Wagner Moura _ Tráiler oficial _ Netflix.json
+2026-06-15 15:45:53,968 - INFO - [FILES] Video: La última casa _ Greta Lee y Wagner Moura _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-06-15 15:45:53,968 - INFO - [FILES] Thumbnail: La última casa _ Greta Lee y Wagner Moura _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-06-15 15:45:53,986 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-15 15:45:54,046 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-15 15:45:55,982 - INFO - [YOUTUBE] Video subido: orQsEH-wuSo
+2026-06-15 15:45:57,693 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-15 15:45:57,699 - INFO - [CLEANUP] Archivos eliminados: mnkbWWab-7M
+2026-06-15 15:46:00,556 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-15 15:46:00,556 - INFO - [FINISH] Proceso completado
