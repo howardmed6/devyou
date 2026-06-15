@@ -62,7 +62,7 @@ def get_video_resolution(video_path):
         print(f"Error obteniendo resolución de {video_path}: {e}")
         return None, None
 
-def edit_video(input_path, complement_path, output_path, cut_seconds=12):
+def edit_video(input_path, complement_path, output_path, cut_seconds=13):
     """Edita el video: quita los ultimos segundos y agrega el complemento"""
     try:
         # Obtener duracion del video original
