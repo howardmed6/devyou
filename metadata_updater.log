@@ -6895,3 +6895,53 @@ DESCRIPC...
 2026-06-14 03:24:29,949 - INFO - [SUMMARY] Videos fallidos: 0
 2026-06-14 03:24:30,376 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-14 03:24:30,377 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-15 02:51:42,043 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-15 02:51:42,043 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-15 02:51:42,043 - INFO - [INIT] API Key disponible: Sí
+2026-06-15 02:51:42,043 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-15 02:51:42,043 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-15 02:51:42,043 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-15 02:51:42,043 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-15 02:51:42,043 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-15 02:51:42,044 - INFO - [JSON] Cargados 88 videos desde data.json
+2026-06-15 02:51:42,044 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-06-15 02:51:42,044 - INFO - [PROCESS] Procesando 1 videos...
+2026-06-15 02:51:42,044 - INFO - 
+--- Procesando video 1/1 ---
+2026-06-15 02:51:42,044 - INFO - [VIDEO] Título: Agente Kim reactivado | TRÁILER OFICIAL | Netflix
+2026-06-15 02:51:42,044 - INFO - [VIDEO] ID: xOejF1An3J8
+2026-06-15 02:51:42,044 - INFO - [SEARCH] Buscando JSON para: 'Agente Kim reactivado | TRÁILER OFICIAL | Netflix'
+2026-06-15 02:51:42,053 - INFO - [SEARCH] Primeras 3 palabras del título: ['agente', 'kim', 'reactivado']
+2026-06-15 02:51:42,054 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-15 02:51:42,054 - INFO - [COMPARE] Archivo: Agente Kim reactivado _ TRÁILER OFICIAL _ Netflix.json
+2026-06-15 02:51:42,054 - INFO - [COMPARE] Título JSON: 'Agente Kim reactivado | TRÁILER OFICIAL | Netflix'
+2026-06-15 02:51:42,054 - INFO - [COMPARE] Primeras 3 palabras JSON: ['agente', 'kim', 'reactivado']
+2026-06-15 02:51:42,054 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Agente Kim reactivado _ TRÁILER OFICIAL _ Netflix.json
+2026-06-15 02:51:42,054 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-15 02:51:42,054 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-06-15 02:51:42,054 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-06-15 02:51:42,054 - INFO - [API] 🔑 API Key válida: ✅
+2026-06-15 02:51:42,054 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-06-15 02:52:01,949 - INFO - [API] 📊 Código de respuesta: 200
+2026-06-15 02:52:01,949 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-06-15 02:52:01,949 - INFO - [API] 📏 Longitud de respuesta: 2485 caracteres
+2026-06-15 02:52:01,949 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: AGENTE KIM REACTIVADO Tráiler Oficial en Español Latino (2025) | Netflix
+
+DESCRIPCIÓN: 🎬 ¡Pr...
+2026-06-15 02:52:01,950 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-06-15 02:52:01,951 - INFO - [PARSE] Datos parseados exitosamente:
+2026-06-15 02:52:01,951 - INFO -   - Título: AGENTE KIM REACTIVADO Tráiler Oficial en Español L...
+2026-06-15 02:52:01,951 - INFO -   - Descripción: 2155 caracteres
+2026-06-15 02:52:01,951 - INFO -   - Tags: 12 elementos
+2026-06-15 02:52:01,951 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-06-15 02:52:01,952 - INFO - [UPDATE] JSON actualizado: Agente Kim reactivado _ TRÁILER OFICIAL _ Netflix.json
+2026-06-15 02:52:01,952 - INFO - [JSON] Cargados 88 videos desde data.json
+2026-06-15 02:52:01,953 - INFO - [STATUS] Video xOejF1An3J8 actualizado a 'ok'
+2026-06-15 02:52:01,954 - INFO - [JSON] data.json actualizado exitosamente
+2026-06-15 02:52:01,954 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-06-15 02:52:01,954 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-06-15 02:52:01,954 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-06-15 02:52:01,954 - INFO - [SUMMARY] Videos fallidos: 0
+2026-06-15 02:52:02,578 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-15 02:52:02,579 - INFO - [FINISH] Proceso completado exitosamente

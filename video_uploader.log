@@ -1700,3 +1700,17 @@
 2026-06-14 03:24:35,285 - INFO - [CLEANUP] Archivos eliminados: RlGFytwNF78
 2026-06-14 03:24:38,146 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-06-14 03:24:38,147 - INFO - [FINISH] Proceso completado
+2026-06-15 02:52:03,188 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-15 02:52:03,813 - INFO - [UPLOAD] Procesando: Agente Kim reactivado | TRÁILER OFICIAL | Netflix
+2026-06-15 02:52:03,814 - INFO - [SEARCH] Buscando archivos para: 'Agente Kim reactivado | TRÁILER OFICIAL | Netflix'
+2026-06-15 02:52:03,814 - INFO - [SEARCH] Palabras clave: ['agente', 'kim', 'reactivado']
+2026-06-15 02:52:03,814 - INFO - [FILES] JSON: Agente Kim reactivado _ TRÁILER OFICIAL _ Netflix.json
+2026-06-15 02:52:03,814 - INFO - [FILES] Video: Agente Kim reactivado _ TRÁILER OFICIAL _ Netflix(1080P_HD).mp4
+2026-06-15 02:52:03,814 - INFO - [FILES] Thumbnail: Agente Kim reactivado _ TRÁILER OFICIAL _ Netflix(1080P_HD).jpg
+2026-06-15 02:52:03,833 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-15 02:52:04,056 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-15 02:52:05,765 - INFO - [YOUTUBE] Video subido: j4h3UYzzMHg
+2026-06-15 02:52:07,548 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-15 02:52:07,550 - INFO - [CLEANUP] Archivos eliminados: xOejF1An3J8
+2026-06-15 02:52:10,789 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-15 02:52:10,790 - INFO - [FINISH] Proceso completado
