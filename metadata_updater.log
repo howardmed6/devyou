@@ -7086,3 +7086,53 @@ DESCRIPCIÓN: 🎬 ¡Prepára...
 2026-06-15 17:19:31,932 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-06-15 17:19:32,375 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-15 17:19:32,376 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-15 17:21:31,116 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-15 17:21:31,116 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-15 17:21:31,116 - INFO - [INIT] API Key disponible: Sí
+2026-06-15 17:21:31,116 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-15 17:21:31,116 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-15 17:21:31,116 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-15 17:21:31,116 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-15 17:21:31,116 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-15 17:21:31,117 - INFO - [JSON] Cargados 85 videos desde data.json
+2026-06-15 17:21:31,117 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-06-15 17:21:31,117 - INFO - [PROCESS] Procesando 1 videos...
+2026-06-15 17:21:31,117 - INFO - 
+--- Procesando video 1/1 ---
+2026-06-15 17:21:31,117 - INFO - [VIDEO] Título: Boulevard - Tráiler Oficial | Prime Video
+2026-06-15 17:21:31,117 - INFO - [VIDEO] ID: 0ao9c5b6jCg
+2026-06-15 17:21:31,117 - INFO - [SEARCH] Buscando JSON para: 'Boulevard - Tráiler Oficial | Prime Video'
+2026-06-15 17:21:31,122 - INFO - [SEARCH] Primeras 3 palabras del título: ['boulevard', 'trailer', 'oficial']
+2026-06-15 17:21:31,122 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-15 17:21:31,123 - INFO - [COMPARE] Archivo: Boulevard - Tráiler Oficial _ Prime Video.json
+2026-06-15 17:21:31,123 - INFO - [COMPARE] Título JSON: 'Boulevard - Tráiler Oficial | Prime Video'
+2026-06-15 17:21:31,123 - INFO - [COMPARE] Primeras 3 palabras JSON: ['boulevard', 'trailer', 'oficial']
+2026-06-15 17:21:31,123 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Boulevard - Tráiler Oficial _ Prime Video.json
+2026-06-15 17:21:31,123 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-15 17:21:31,123 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-06-15 17:21:31,123 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-06-15 17:21:31,123 - INFO - [API] 🔑 API Key válida: ✅
+2026-06-15 17:21:31,123 - INFO - [API] 📊 Modelo: claude-sonnet-4-5
+2026-06-15 17:21:48,286 - INFO - [API] 📊 Código de respuesta: 200
+2026-06-15 17:21:48,287 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-06-15 17:21:48,287 - INFO - [API] 📏 Longitud de respuesta: 2273 caracteres
+2026-06-15 17:21:48,287 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: BOULEVARD Tráiler Oficial en Español Latino (2025) | Prime Video
+
+DESCRIPCIÓN: 🎬 ¡La espera ...
+2026-06-15 17:21:48,288 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-06-15 17:21:48,289 - INFO - [PARSE] Datos parseados exitosamente:
+2026-06-15 17:21:48,289 - INFO -   - Título: BOULEVARD Tráiler Oficial en Español Latino (2025)...
+2026-06-15 17:21:48,289 - INFO -   - Descripción: 1951 caracteres
+2026-06-15 17:21:48,289 - INFO -   - Tags: 12 elementos
+2026-06-15 17:21:48,289 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-06-15 17:21:48,289 - INFO - [UPDATE] JSON actualizado: Boulevard - Tráiler Oficial _ Prime Video.json
+2026-06-15 17:21:48,290 - INFO - [JSON] Cargados 85 videos desde data.json
+2026-06-15 17:21:48,290 - INFO - [STATUS] Video 0ao9c5b6jCg actualizado a 'ok'
+2026-06-15 17:21:48,291 - INFO - [JSON] data.json actualizado exitosamente
+2026-06-15 17:21:48,291 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-06-15 17:21:48,292 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-06-15 17:21:48,292 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-06-15 17:21:48,292 - INFO - [SUMMARY] Videos fallidos: 0
+2026-06-15 17:21:48,746 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-15 17:21:48,747 - INFO - [FINISH] Proceso completado exitosamente

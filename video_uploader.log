@@ -1742,3 +1742,17 @@
 2026-06-15 15:46:00,556 - INFO - [FINISH] Proceso completado
 2026-06-15 17:19:32,831 - INFO - [PROCESS] No hay videos listos para subir
 2026-06-15 17:19:33,257 - INFO - [FINISH] Proceso completado
+2026-06-15 17:21:49,089 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-15 17:21:49,544 - INFO - [UPLOAD] Procesando: Boulevard - Tráiler Oficial | Prime Video
+2026-06-15 17:21:49,545 - INFO - [SEARCH] Buscando archivos para: 'Boulevard - Tráiler Oficial | Prime Video'
+2026-06-15 17:21:49,545 - INFO - [SEARCH] Palabras clave: ['boulevard', '-', 'trailer']
+2026-06-15 17:21:49,545 - INFO - [FILES] JSON: Boulevard - Tráiler Oficial _ Prime Video.json
+2026-06-15 17:21:49,545 - INFO - [FILES] Video: Boulevard - Tráiler Oficial _ Prime Video(1080P_HD).mp4
+2026-06-15 17:21:49,545 - INFO - [FILES] Thumbnail: Boulevard - Tráiler Oficial _ Prime Video(1080P_HD).jpg
+2026-06-15 17:21:49,560 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-15 17:21:49,653 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-15 17:21:51,224 - INFO - [YOUTUBE] Video subido: PW72ONgufhU
+2026-06-15 17:21:52,864 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-15 17:21:52,867 - INFO - [CLEANUP] Archivos eliminados: 0ao9c5b6jCg
+2026-06-15 17:21:55,825 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-15 17:21:55,825 - INFO - [FINISH] Proceso completado
