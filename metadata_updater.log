@@ -7186,3 +7186,53 @@ DESCRIPCIÓN: 🎬 ¡PREPÁRATE PAR...
 2026-06-15 18:47:37,614 - INFO - [SUMMARY] Videos fallidos: 0
 2026-06-15 18:47:38,232 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-15 18:47:38,233 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-16 18:56:43,839 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-16 18:56:43,839 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-16 18:56:43,839 - INFO - [INIT] API Key disponible: Sí
+2026-06-16 18:56:43,839 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-16 18:56:43,839 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-16 18:56:43,840 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-16 18:56:43,840 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-16 18:56:43,840 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-16 18:56:43,841 - INFO - [JSON] Cargados 88 videos desde data.json
+2026-06-16 18:56:43,841 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-06-16 18:56:43,841 - INFO - [PROCESS] Procesando 1 videos...
+2026-06-16 18:56:43,841 - INFO - 
+--- Procesando video 1/1 ---
+2026-06-16 18:56:43,841 - INFO - [VIDEO] Título: Licencia para robar - Tráiler Oficial | Prime Video
+2026-06-16 18:56:43,841 - INFO - [VIDEO] ID: V3h52a9MHgE
+2026-06-16 18:56:43,841 - INFO - [SEARCH] Buscando JSON para: 'Licencia para robar - Tráiler Oficial | Prime Video'
+2026-06-16 18:56:43,841 - INFO - [SEARCH] Primeras 3 palabras del título: ['licencia', 'para', 'robar']
+2026-06-16 18:56:43,842 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-16 18:56:43,842 - INFO - [COMPARE] Archivo: Licencia para robar - Tráiler Oficial _ Prime Video.json
+2026-06-16 18:56:43,842 - INFO - [COMPARE] Título JSON: 'Licencia para robar - Tráiler Oficial | Prime Video'
+2026-06-16 18:56:43,842 - INFO - [COMPARE] Primeras 3 palabras JSON: ['licencia', 'para', 'robar']
+2026-06-16 18:56:43,842 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Licencia para robar - Tráiler Oficial _ Prime Video.json
+2026-06-16 18:56:43,842 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-16 18:56:43,842 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-06-16 18:56:43,842 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-06-16 18:56:43,842 - INFO - [API] 🔑 API Key válida: ✅
+2026-06-16 18:56:43,842 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-06-16 18:56:59,251 - INFO - [API] 📊 Código de respuesta: 200
+2026-06-16 18:56:59,251 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-06-16 18:56:59,252 - INFO - [API] 📏 Longitud de respuesta: 2219 caracteres
+2026-06-16 18:56:59,252 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: LICENCIA PARA ROBAR - Tráiler Oficial (2025) | Prime Video
+
+DESCRIPCIÓN: 🎬 ¿Qué pasa cuando ...
+2026-06-16 18:56:59,252 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-06-16 18:56:59,253 - INFO - [PARSE] Datos parseados exitosamente:
+2026-06-16 18:56:59,253 - INFO -   - Título: LICENCIA PARA ROBAR - Tráiler Oficial (2025) | Pri...
+2026-06-16 18:56:59,253 - INFO -   - Descripción: 1927 caracteres
+2026-06-16 18:56:59,253 - INFO -   - Tags: 10 elementos
+2026-06-16 18:56:59,253 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-06-16 18:56:59,254 - INFO - [UPDATE] JSON actualizado: Licencia para robar - Tráiler Oficial _ Prime Video.json
+2026-06-16 18:56:59,254 - INFO - [JSON] Cargados 88 videos desde data.json
+2026-06-16 18:56:59,255 - INFO - [STATUS] Video V3h52a9MHgE actualizado a 'ok'
+2026-06-16 18:56:59,256 - INFO - [JSON] data.json actualizado exitosamente
+2026-06-16 18:56:59,256 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-06-16 18:56:59,256 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-06-16 18:56:59,256 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-06-16 18:56:59,256 - INFO - [SUMMARY] Videos fallidos: 0
+2026-06-16 18:56:59,684 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-16 18:56:59,685 - INFO - [FINISH] Proceso completado exitosamente

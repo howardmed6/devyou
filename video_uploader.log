@@ -1770,3 +1770,17 @@
 2026-06-15 18:47:43,338 - INFO - [CLEANUP] Archivos eliminados: ESSvGe92aC0
 2026-06-15 18:47:46,607 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-06-15 18:47:46,607 - INFO - [FINISH] Proceso completado
+2026-06-16 18:57:00,070 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-16 18:57:00,494 - INFO - [UPLOAD] Procesando: Licencia para robar - Tráiler Oficial | Prime Video
+2026-06-16 18:57:00,494 - INFO - [SEARCH] Buscando archivos para: 'Licencia para robar - Tráiler Oficial | Prime Video'
+2026-06-16 18:57:00,494 - INFO - [SEARCH] Palabras clave: ['licencia', 'para', 'robar']
+2026-06-16 18:57:00,494 - INFO - [FILES] JSON: Licencia para robar - Tráiler Oficial _ Prime Video.json
+2026-06-16 18:57:00,494 - INFO - [FILES] Video: Licencia para robar - Tráiler Oficial _ Prime Video(1080P_HD).mp4
+2026-06-16 18:57:00,495 - INFO - [FILES] Thumbnail: Licencia para robar - Tráiler Oficial _ Prime Video(1080P_HD).jpg
+2026-06-16 18:57:00,503 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-16 18:57:00,616 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-16 18:57:02,148 - INFO - [YOUTUBE] Video subido: tkkYmF3brCE
+2026-06-16 18:57:04,038 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-16 18:57:04,043 - INFO - [CLEANUP] Archivos eliminados: V3h52a9MHgE
+2026-06-16 18:57:06,935 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-16 18:57:06,935 - INFO - [FINISH] Proceso completado
