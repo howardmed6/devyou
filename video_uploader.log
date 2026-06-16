@@ -1786,3 +1786,17 @@
 2026-06-16 18:57:06,935 - INFO - [FINISH] Proceso completado
 2026-06-16 21:02:48,935 - INFO - [PROCESS] No hay videos listos para subir
 2026-06-16 21:02:49,343 - INFO - [FINISH] Proceso completado
+2026-06-16 22:46:51,656 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-16 22:46:52,296 - INFO - [UPLOAD] Procesando: HECHIZO: BIENVENIDOS A HEXE Tráiler Español (2026)
+2026-06-16 22:46:52,296 - INFO - [SEARCH] Buscando archivos para: 'HECHIZO: BIENVENIDOS A HEXE Tráiler Español (2026)'
+2026-06-16 22:46:52,297 - INFO - [SEARCH] Palabras clave: ['hechizo', 'bienvenidos', 'a']
+2026-06-16 22:46:52,297 - INFO - [FILES] JSON: HECHIZO_ BIENVENIDOS A HEXE Tráiler Español (2026).json
+2026-06-16 22:46:52,297 - INFO - [FILES] Video: HECHIZO_ BIENVENIDOS A HEXE Tráiler Español Latino (2026) Disney(1080P_HD).mp4
+2026-06-16 22:46:52,297 - INFO - [FILES] Thumbnail: HECHIZO_ BIENVENIDOS A HEXE Tráiler Español Latino (2026) Disney(1080P_HD).jpg
+2026-06-16 22:46:52,305 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-16 22:46:52,448 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-16 22:46:54,351 - INFO - [YOUTUBE] Video subido: tNj6vjs4BoE
+2026-06-16 22:46:57,007 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-16 22:46:57,012 - INFO - [CLEANUP] Archivos eliminados: 0Rvk8VDGqf8
+2026-06-16 22:47:00,306 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-16 22:47:00,306 - INFO - [FINISH] Proceso completado

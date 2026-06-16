@@ -7249,3 +7249,53 @@ DESCRIPCIÓN: 🎬 ¿Qué pasa cuando ...
 2026-06-16 21:02:48,136 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-06-16 21:02:48,557 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-16 21:02:48,558 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-16 22:46:34,911 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-16 22:46:34,911 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-16 22:46:34,911 - INFO - [INIT] API Key disponible: Sí
+2026-06-16 22:46:34,911 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-16 22:46:34,911 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-16 22:46:34,911 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-16 22:46:34,911 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-16 22:46:34,911 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-16 22:46:34,912 - INFO - [JSON] Cargados 85 videos desde data.json
+2026-06-16 22:46:34,912 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-06-16 22:46:34,912 - INFO - [PROCESS] Procesando 1 videos...
+2026-06-16 22:46:34,912 - INFO - 
+--- Procesando video 1/1 ---
+2026-06-16 22:46:34,912 - INFO - [VIDEO] Título: HECHIZO: BIENVENIDOS A HEXE Tráiler Español (2026)
+2026-06-16 22:46:34,912 - INFO - [VIDEO] ID: 0Rvk8VDGqf8
+2026-06-16 22:46:34,912 - INFO - [SEARCH] Buscando JSON para: 'HECHIZO: BIENVENIDOS A HEXE Tráiler Español (2026)'
+2026-06-16 22:46:34,913 - INFO - [SEARCH] Primeras 3 palabras del título: ['hechizo', 'bienvenidos', 'hexe']
+2026-06-16 22:46:34,913 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-16 22:46:34,913 - INFO - [COMPARE] Archivo: HECHIZO_ BIENVENIDOS A HEXE Tráiler Español (2026).json
+2026-06-16 22:46:34,913 - INFO - [COMPARE] Título JSON: 'HECHIZO: BIENVENIDOS A HEXE Tráiler Español (2026)'
+2026-06-16 22:46:34,914 - INFO - [COMPARE] Primeras 3 palabras JSON: ['hechizo', 'bienvenidos', 'hexe']
+2026-06-16 22:46:34,914 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: HECHIZO_ BIENVENIDOS A HEXE Tráiler Español (2026).json
+2026-06-16 22:46:34,914 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-16 22:46:34,914 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-06-16 22:46:34,914 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-06-16 22:46:34,914 - INFO - [API] 🔑 API Key válida: ✅
+2026-06-16 22:46:34,914 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-06-16 22:46:50,582 - INFO - [API] 📊 Código de respuesta: 200
+2026-06-16 22:46:50,582 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-06-16 22:46:50,582 - INFO - [API] 📏 Longitud de respuesta: 2218 caracteres
+2026-06-16 22:46:50,582 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: HECHIZO: BIENVENIDOS A HEXE Tráiler Oficial en Español (2026)
+
+DESCRIPCIÓN: 🎬 ¡El mundo de l...
+2026-06-16 22:46:50,583 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-06-16 22:46:50,584 - INFO - [PARSE] Datos parseados exitosamente:
+2026-06-16 22:46:50,584 - INFO -   - Título: HECHIZO: BIENVENIDOS A HEXE Tráiler Oficial en Esp...
+2026-06-16 22:46:50,584 - INFO -   - Descripción: 1921 caracteres
+2026-06-16 22:46:50,584 - INFO -   - Tags: 10 elementos
+2026-06-16 22:46:50,584 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-06-16 22:46:50,585 - INFO - [UPDATE] JSON actualizado: HECHIZO_ BIENVENIDOS A HEXE Tráiler Español (2026).json
+2026-06-16 22:46:50,585 - INFO - [JSON] Cargados 85 videos desde data.json
+2026-06-16 22:46:50,586 - INFO - [STATUS] Video 0Rvk8VDGqf8 actualizado a 'ok'
+2026-06-16 22:46:50,587 - INFO - [JSON] data.json actualizado exitosamente
+2026-06-16 22:46:50,587 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-06-16 22:46:50,587 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-06-16 22:46:50,587 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-06-16 22:46:50,587 - INFO - [SUMMARY] Videos fallidos: 0
+2026-06-16 22:46:51,224 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-16 22:46:51,225 - INFO - [FINISH] Proceso completado exitosamente
