@@ -261,7 +261,7 @@ Responde SOLO con el formato anterior, sin explicaciones adicionales."""
         }
         
         data = {
-            "model": "claude-sonnet-4-5",
+            "model": "claude-sonnet-4-6",
             "max_tokens": 1500,
             "messages": [{"role": "user", "content": prompt}],
             "temperature": 0.7
