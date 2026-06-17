@@ -7375,3 +7375,53 @@ DESCRIPCIÓN: 🎬 Dos amigas. U...
 2026-06-17 18:25:51,707 - INFO - [SUMMARY] Videos fallidos: 0
 2026-06-17 18:25:52,268 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-17 18:25:52,269 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-17 20:54:32,107 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-17 20:54:32,107 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-17 20:54:32,108 - INFO - [INIT] API Key disponible: Sí
+2026-06-17 20:54:32,108 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-17 20:54:32,108 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-17 20:54:32,108 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-17 20:54:32,108 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-17 20:54:32,108 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-17 20:54:32,109 - INFO - [JSON] Cargados 88 videos desde data.json
+2026-06-17 20:54:32,109 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-06-17 20:54:32,109 - INFO - [PROCESS] Procesando 1 videos...
+2026-06-17 20:54:32,109 - INFO - 
+--- Procesando video 1/1 ---
+2026-06-17 20:54:32,109 - INFO - [VIDEO] Título: SPIDER-MAN: UN NUEVO DÍA Tráiler 2 Español Latino (2026)
+2026-06-17 20:54:32,109 - INFO - [VIDEO] ID: t3vpxlYiKMc
+2026-06-17 20:54:32,109 - INFO - [SEARCH] Buscando JSON para: 'SPIDER-MAN: UN NUEVO DÍA Tráiler 2 Español Latino (2026)'
+2026-06-17 20:54:32,110 - INFO - [SEARCH] Primeras 3 palabras del título: ['spider-man', 'nuevo', 'dia']
+2026-06-17 20:54:32,110 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-17 20:54:32,110 - INFO - [COMPARE] Archivo: SPIDER-MAN_ UN NUEVO DÍA Tráiler 2 Español Latino (2026).json
+2026-06-17 20:54:32,110 - INFO - [COMPARE] Título JSON: 'SPIDER-MAN: UN NUEVO DÍA Tráiler 2 Español Latino (2026)'
+2026-06-17 20:54:32,110 - INFO - [COMPARE] Primeras 3 palabras JSON: ['spider-man', 'nuevo', 'dia']
+2026-06-17 20:54:32,110 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: SPIDER-MAN_ UN NUEVO DÍA Tráiler 2 Español Latino (2026).json
+2026-06-17 20:54:32,110 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-17 20:54:32,110 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-06-17 20:54:32,111 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-06-17 20:54:32,111 - INFO - [API] 🔑 API Key válida: ✅
+2026-06-17 20:54:32,111 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-06-17 20:54:47,170 - INFO - [API] 📊 Código de respuesta: 200
+2026-06-17 20:54:47,170 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-06-17 20:54:47,170 - INFO - [API] 📏 Longitud de respuesta: 1985 caracteres
+2026-06-17 20:54:47,170 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: SPIDER-MAN: UN NUEVO DÍA Tráiler 2 Oficial en Español Latino (2026)
+
+DESCRIPCIÓN: 🎬 ¡El homb...
+2026-06-17 20:54:47,171 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-06-17 20:54:47,172 - INFO - [PARSE] Datos parseados exitosamente:
+2026-06-17 20:54:47,172 - INFO -   - Título: SPIDER-MAN: UN NUEVO DÍA Tráiler 2 Oficial en Espa...
+2026-06-17 20:54:47,172 - INFO -   - Descripción: 1659 caracteres
+2026-06-17 20:54:47,172 - INFO -   - Tags: 10 elementos
+2026-06-17 20:54:47,172 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-06-17 20:54:47,172 - INFO - [UPDATE] JSON actualizado: SPIDER-MAN_ UN NUEVO DÍA Tráiler 2 Español Latino (2026).json
+2026-06-17 20:54:47,173 - INFO - [JSON] Cargados 88 videos desde data.json
+2026-06-17 20:54:47,173 - INFO - [STATUS] Video t3vpxlYiKMc actualizado a 'ok'
+2026-06-17 20:54:47,175 - INFO - [JSON] data.json actualizado exitosamente
+2026-06-17 20:54:47,175 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-06-17 20:54:47,175 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-06-17 20:54:47,175 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-06-17 20:54:47,175 - INFO - [SUMMARY] Videos fallidos: 0
+2026-06-17 20:54:47,835 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-17 20:54:47,836 - INFO - [FINISH] Proceso completado exitosamente
