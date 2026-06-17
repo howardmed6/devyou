@@ -1804,3 +1804,17 @@
 2026-06-17 01:38:58,082 - INFO - [FINISH] Proceso completado
 2026-06-17 02:12:55,918 - INFO - [PROCESS] No hay videos listos para subir
 2026-06-17 02:12:56,341 - INFO - [FINISH] Proceso completado
+2026-06-17 18:25:52,621 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-17 18:25:53,189 - INFO - [UPLOAD] Procesando: Susana y Elvira: Sin plan B | Tráiler oficial | Netflix
+2026-06-17 18:25:53,190 - INFO - [SEARCH] Buscando archivos para: 'Susana y Elvira: Sin plan B | Tráiler oficial | Netflix'
+2026-06-17 18:25:53,190 - INFO - [SEARCH] Palabras clave: ['susana', 'y', 'elvira']
+2026-06-17 18:25:53,190 - INFO - [FILES] JSON: Susana y Elvira_ Sin plan B _ Tráiler oficial _ Netflix.json
+2026-06-17 18:25:53,190 - INFO - [FILES] Video: Susana y Elvira_ Sin plan B _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-06-17 18:25:53,190 - INFO - [FILES] Thumbnail: Susana y Elvira_ Sin plan B _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-06-17 18:25:53,205 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-17 18:25:53,460 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-17 18:25:55,989 - INFO - [YOUTUBE] Video subido: LPS_ZcmU3AE
+2026-06-17 18:25:58,330 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-17 18:25:58,333 - INFO - [CLEANUP] Archivos eliminados: -uf_LZaWeN0
+2026-06-17 18:26:01,479 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-17 18:26:01,479 - INFO - [FINISH] Proceso completado
