@@ -1832,3 +1832,17 @@
 2026-06-17 20:54:53,464 - INFO - [CLEANUP] Archivos eliminados: t3vpxlYiKMc
 2026-06-17 20:54:56,344 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-06-17 20:54:56,345 - INFO - [FINISH] Proceso completado
+2026-06-18 14:05:13,606 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-18 14:05:14,206 - INFO - [UPLOAD] Procesando: El palacio del este | Avance oficial | Netflix
+2026-06-18 14:05:14,206 - INFO - [SEARCH] Buscando archivos para: 'El palacio del este | Avance oficial | Netflix'
+2026-06-18 14:05:14,206 - INFO - [SEARCH] Palabras clave: ['el', 'palacio', 'del']
+2026-06-18 14:05:14,207 - INFO - [FILES] JSON: El palacio del este _ Avance oficial _ Netflix.json
+2026-06-18 14:05:14,207 - INFO - [FILES] Video: El palacio del este _ Avance oficial _ Netflix(1080P_HD).mp4
+2026-06-18 14:05:14,207 - INFO - [FILES] Thumbnail: El palacio del este _ Avance oficial _ Netflix(1080P_HD).jpg
+2026-06-18 14:05:14,215 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-18 14:05:14,398 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-18 14:05:16,337 - INFO - [YOUTUBE] Video subido: yAeXchbUBIQ
+2026-06-18 14:05:18,251 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-18 14:05:18,255 - INFO - [CLEANUP] Archivos eliminados: dey0NDsd_Ug
+2026-06-18 14:05:21,529 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-18 14:05:21,530 - INFO - [FINISH] Proceso completado

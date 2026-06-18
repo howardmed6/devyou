@@ -7425,3 +7425,53 @@ DESCRIPCIÓN: 🎬 ¡El homb...
 2026-06-17 20:54:47,175 - INFO - [SUMMARY] Videos fallidos: 0
 2026-06-17 20:54:47,835 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-17 20:54:47,836 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-18 14:04:54,388 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-18 14:04:54,388 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-18 14:04:54,388 - INFO - [INIT] API Key disponible: Sí
+2026-06-18 14:04:54,388 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-18 14:04:54,389 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-18 14:04:54,389 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-18 14:04:54,389 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-18 14:04:54,389 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-18 14:04:54,390 - INFO - [JSON] Cargados 88 videos desde data.json
+2026-06-18 14:04:54,390 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-06-18 14:04:54,390 - INFO - [PROCESS] Procesando 1 videos...
+2026-06-18 14:04:54,390 - INFO - 
+--- Procesando video 1/1 ---
+2026-06-18 14:04:54,390 - INFO - [VIDEO] Título: El palacio del este | Avance oficial | Netflix
+2026-06-18 14:04:54,390 - INFO - [VIDEO] ID: dey0NDsd_Ug
+2026-06-18 14:04:54,390 - INFO - [SEARCH] Buscando JSON para: 'El palacio del este | Avance oficial | Netflix'
+2026-06-18 14:04:54,390 - INFO - [SEARCH] Primeras 3 palabras del título: ['palacio', 'del', 'este']
+2026-06-18 14:04:54,391 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-18 14:04:54,391 - INFO - [COMPARE] Archivo: El palacio del este _ Avance oficial _ Netflix.json
+2026-06-18 14:04:54,391 - INFO - [COMPARE] Título JSON: 'El palacio del este | Avance oficial | Netflix'
+2026-06-18 14:04:54,391 - INFO - [COMPARE] Primeras 3 palabras JSON: ['palacio', 'del', 'este']
+2026-06-18 14:04:54,391 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: El palacio del este _ Avance oficial _ Netflix.json
+2026-06-18 14:04:54,391 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-18 14:04:54,391 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-06-18 14:04:54,391 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-06-18 14:04:54,392 - INFO - [API] 🔑 API Key válida: ✅
+2026-06-18 14:04:54,392 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-06-18 14:05:12,446 - INFO - [API] 📊 Código de respuesta: 200
+2026-06-18 14:05:12,446 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-06-18 14:05:12,446 - INFO - [API] 📏 Longitud de respuesta: 2414 caracteres
+2026-06-18 14:05:12,446 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: EL PALACIO DEL ESTE - Tráiler Oficial en Español Latino (2025) | Netflix
+
+DESCRIPCIÓN: 🎬 Un ...
+2026-06-18 14:05:12,447 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-06-18 14:05:12,448 - INFO - [PARSE] Datos parseados exitosamente:
+2026-06-18 14:05:12,448 - INFO -   - Título: EL PALACIO DEL ESTE - Tráiler Oficial en Español L...
+2026-06-18 14:05:12,448 - INFO -   - Descripción: 2112 caracteres
+2026-06-18 14:05:12,448 - INFO -   - Tags: 10 elementos
+2026-06-18 14:05:12,448 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-06-18 14:05:12,448 - INFO - [UPDATE] JSON actualizado: El palacio del este _ Avance oficial _ Netflix.json
+2026-06-18 14:05:12,450 - INFO - [JSON] Cargados 88 videos desde data.json
+2026-06-18 14:05:12,450 - INFO - [STATUS] Video dey0NDsd_Ug actualizado a 'ok'
+2026-06-18 14:05:12,451 - INFO - [JSON] data.json actualizado exitosamente
+2026-06-18 14:05:12,451 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-06-18 14:05:12,451 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-06-18 14:05:12,451 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-06-18 14:05:12,451 - INFO - [SUMMARY] Videos fallidos: 0
+2026-06-18 14:05:13,100 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-18 14:05:13,101 - INFO - [FINISH] Proceso completado exitosamente
