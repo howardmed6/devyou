@@ -7475,3 +7475,53 @@ DESCRIPCIÓN: 🎬 Un ...
 2026-06-18 14:05:12,451 - INFO - [SUMMARY] Videos fallidos: 0
 2026-06-18 14:05:13,100 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-18 14:05:13,101 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-19 02:10:36,131 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-19 02:10:36,131 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-19 02:10:36,131 - INFO - [INIT] API Key disponible: Sí
+2026-06-19 02:10:36,131 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-19 02:10:36,131 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-19 02:10:36,131 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-19 02:10:36,131 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-19 02:10:36,131 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-19 02:10:36,132 - INFO - [JSON] Cargados 88 videos desde data.json
+2026-06-19 02:10:36,132 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-06-19 02:10:36,132 - INFO - [PROCESS] Procesando 1 videos...
+2026-06-19 02:10:36,132 - INFO - 
+--- Procesando video 1/1 ---
+2026-06-19 02:10:36,132 - INFO - [VIDEO] Título: Deseo | Tráiler oficial | Netflix
+2026-06-19 02:10:36,132 - INFO - [VIDEO] ID: LRbIpDkF5Cg
+2026-06-19 02:10:36,132 - INFO - [SEARCH] Buscando JSON para: 'Deseo | Tráiler oficial | Netflix'
+2026-06-19 02:10:36,139 - INFO - [SEARCH] Primeras 3 palabras del título: ['deseo', 'trailer', 'oficial']
+2026-06-19 02:10:36,139 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-19 02:10:36,140 - INFO - [COMPARE] Archivo: Deseo _ Tráiler oficial _ Netflix.json
+2026-06-19 02:10:36,140 - INFO - [COMPARE] Título JSON: 'Deseo | Tráiler oficial | Netflix'
+2026-06-19 02:10:36,140 - INFO - [COMPARE] Primeras 3 palabras JSON: ['deseo', 'trailer', 'oficial']
+2026-06-19 02:10:36,140 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Deseo _ Tráiler oficial _ Netflix.json
+2026-06-19 02:10:36,140 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-19 02:10:36,140 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-06-19 02:10:36,140 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-06-19 02:10:36,140 - INFO - [API] 🔑 API Key válida: ✅
+2026-06-19 02:10:36,140 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-06-19 02:10:52,886 - INFO - [API] 📊 Código de respuesta: 200
+2026-06-19 02:10:52,886 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-06-19 02:10:52,886 - INFO - [API] 📏 Longitud de respuesta: 2369 caracteres
+2026-06-19 02:10:52,886 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: DESEO Tráiler Oficial en Español Latino (2025) | Netflix
+
+DESCRIPCIÓN: 🎬 A veces, lo que más...
+2026-06-19 02:10:52,887 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-06-19 02:10:52,888 - INFO - [PARSE] Datos parseados exitosamente:
+2026-06-19 02:10:52,888 - INFO -   - Título: DESEO Tráiler Oficial en Español Latino (2025) | N...
+2026-06-19 02:10:52,888 - INFO -   - Descripción: 2121 caracteres
+2026-06-19 02:10:52,888 - INFO -   - Tags: 10 elementos
+2026-06-19 02:10:52,888 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-06-19 02:10:52,888 - INFO - [UPDATE] JSON actualizado: Deseo _ Tráiler oficial _ Netflix.json
+2026-06-19 02:10:52,889 - INFO - [JSON] Cargados 88 videos desde data.json
+2026-06-19 02:10:52,889 - INFO - [STATUS] Video LRbIpDkF5Cg actualizado a 'ok'
+2026-06-19 02:10:52,891 - INFO - [JSON] data.json actualizado exitosamente
+2026-06-19 02:10:52,891 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-06-19 02:10:52,891 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-06-19 02:10:52,891 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-06-19 02:10:52,891 - INFO - [SUMMARY] Videos fallidos: 0
+2026-06-19 02:10:53,334 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-19 02:10:53,335 - INFO - [FINISH] Proceso completado exitosamente

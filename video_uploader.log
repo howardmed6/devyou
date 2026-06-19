@@ -1846,3 +1846,17 @@
 2026-06-18 14:05:18,255 - INFO - [CLEANUP] Archivos eliminados: dey0NDsd_Ug
 2026-06-18 14:05:21,529 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-06-18 14:05:21,530 - INFO - [FINISH] Proceso completado
+2026-06-19 02:10:53,751 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-19 02:10:54,200 - INFO - [UPLOAD] Procesando: Deseo | Tráiler oficial | Netflix
+2026-06-19 02:10:54,200 - INFO - [SEARCH] Buscando archivos para: 'Deseo | Tráiler oficial | Netflix'
+2026-06-19 02:10:54,201 - INFO - [SEARCH] Palabras clave: ['deseo', '|', 'trailer']
+2026-06-19 02:10:54,201 - INFO - [FILES] JSON: Deseo _ Tráiler oficial _ Netflix.json
+2026-06-19 02:10:54,201 - INFO - [FILES] Video: Deseo _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-06-19 02:10:54,201 - INFO - [FILES] Thumbnail: Deseo _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-06-19 02:10:54,253 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-19 02:10:54,396 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-19 02:10:55,672 - INFO - [YOUTUBE] Video subido: yywvnvclfNo
+2026-06-19 02:10:57,414 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-19 02:10:57,418 - INFO - [CLEANUP] Archivos eliminados: LRbIpDkF5Cg
+2026-06-19 02:11:00,327 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-19 02:11:00,328 - INFO - [FINISH] Proceso completado
