@@ -7538,3 +7538,16 @@ DESCRIPCIÓN: 🎬 A veces, lo que más...
 2026-06-19 13:19:28,375 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-06-19 13:19:28,828 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-19 13:19:28,829 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-19 14:29:04,615 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-19 14:29:04,615 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-19 14:29:04,615 - INFO - [INIT] API Key disponible: Sí
+2026-06-19 14:29:04,615 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-19 14:29:04,615 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-19 14:29:04,615 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-19 14:29:04,615 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-19 14:29:04,615 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-19 14:29:04,616 - INFO - [JSON] Cargados 81 videos desde data.json
+2026-06-19 14:29:04,616 - INFO - [FILTER] Encontrados 0 videos con estado 'edited'
+2026-06-19 14:29:04,616 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
+2026-06-19 14:29:05,196 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-19 14:29:05,197 - INFO - [FINISH] Proceso completado exitosamente
