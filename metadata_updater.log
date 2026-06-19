@@ -7551,3 +7551,54 @@ DESCRIPCIÓN: 🎬 A veces, lo que más...
 2026-06-19 14:29:04,616 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-06-19 14:29:05,196 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-19 14:29:05,197 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-19 15:30:56,363 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-19 15:30:56,363 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-19 15:30:56,363 - INFO - [INIT] API Key disponible: Sí
+2026-06-19 15:30:56,363 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-19 15:30:56,364 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-19 15:30:56,364 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-19 15:30:56,364 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-19 15:30:56,364 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-19 15:30:56,365 - INFO - [JSON] Cargados 80 videos desde data.json
+2026-06-19 15:30:56,365 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-06-19 15:30:56,365 - INFO - [PROCESS] Procesando 1 videos...
+2026-06-19 15:30:56,365 - INFO - 
+--- Procesando video 1/1 ---
+2026-06-19 15:30:56,365 - INFO - [VIDEO] Título: Ranma1/2: Temporada 3 | Tráiler oficial | Netflix
+2026-06-19 15:30:56,365 - INFO - [VIDEO] ID: 2DjV6cT12gE
+2026-06-19 15:30:56,365 - INFO - [SEARCH] Buscando JSON para: 'Ranma1/2: Temporada 3 | Tráiler oficial | Netflix'
+2026-06-19 15:30:56,372 - INFO - [SEARCH] Primeras 3 palabras del título: ['ranma1/2', 'temporada', 'trailer']
+2026-06-19 15:30:56,372 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-19 15:30:56,372 - INFO - [COMPARE] Archivo: Ranma1_2_ Temporada 3 _ Tráiler oficial _ Netflix.json
+2026-06-19 15:30:56,372 - INFO - [COMPARE] Título JSON: 'Ranma1/2: Temporada 3 | Tráiler oficial | Netflix'
+2026-06-19 15:30:56,372 - INFO - [COMPARE] Primeras 3 palabras JSON: ['ranma1/2', 'temporada', 'trailer']
+2026-06-19 15:30:56,372 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Ranma1_2_ Temporada 3 _ Tráiler oficial _ Netflix.json
+2026-06-19 15:30:56,372 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-19 15:30:56,372 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-06-19 15:30:56,372 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-06-19 15:30:56,372 - INFO - [API] 🔑 API Key válida: ✅
+2026-06-19 15:30:56,372 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-06-19 15:31:13,952 - INFO - [API] 📊 Código de respuesta: 200
+2026-06-19 15:31:13,952 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-06-19 15:31:13,952 - INFO - [API] 📏 Longitud de respuesta: 2139 caracteres
+2026-06-19 15:31:13,952 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: RANMA 1/2: Temporada 3 | Tráiler Oficial (2025) | Netflix
+
+DESCRIPCIÓN:
+🎬 ¡La batalla más ép...
+2026-06-19 15:31:13,953 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-06-19 15:31:13,954 - INFO - [PARSE] Datos parseados exitosamente:
+2026-06-19 15:31:13,954 - INFO -   - Título: RANMA 1/2: Temporada 3 | Tráiler Oficial (2025) | ...
+2026-06-19 15:31:13,954 - INFO -   - Descripción: 1887 caracteres
+2026-06-19 15:31:13,954 - INFO -   - Tags: 8 elementos
+2026-06-19 15:31:13,954 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-06-19 15:31:13,954 - INFO - [UPDATE] JSON actualizado: Ranma1_2_ Temporada 3 _ Tráiler oficial _ Netflix.json
+2026-06-19 15:31:13,955 - INFO - [JSON] Cargados 80 videos desde data.json
+2026-06-19 15:31:13,955 - INFO - [STATUS] Video 2DjV6cT12gE actualizado a 'ok'
+2026-06-19 15:31:13,956 - INFO - [JSON] data.json actualizado exitosamente
+2026-06-19 15:31:13,956 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-06-19 15:31:13,957 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-06-19 15:31:13,957 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-06-19 15:31:13,957 - INFO - [SUMMARY] Videos fallidos: 0
+2026-06-19 15:31:14,381 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-19 15:31:14,381 - INFO - [FINISH] Proceso completado exitosamente

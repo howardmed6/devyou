@@ -1864,3 +1864,17 @@
 2026-06-19 13:19:29,773 - INFO - [FINISH] Proceso completado
 2026-06-19 14:29:05,508 - INFO - [PROCESS] No hay videos listos para subir
 2026-06-19 14:29:06,095 - INFO - [FINISH] Proceso completado
+2026-06-19 15:31:14,851 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-19 15:31:15,286 - INFO - [UPLOAD] Procesando: Ranma1/2: Temporada 3 | Tráiler oficial | Netflix
+2026-06-19 15:31:15,286 - INFO - [SEARCH] Buscando archivos para: 'Ranma1/2: Temporada 3 | Tráiler oficial | Netflix'
+2026-06-19 15:31:15,287 - INFO - [SEARCH] Palabras clave: ['2', 'temporada', '3']
+2026-06-19 15:31:15,287 - INFO - [FILES] JSON: Ranma1_2_ Temporada 3 _ Tráiler oficial _ Netflix.json
+2026-06-19 15:31:15,287 - INFO - [FILES] Video: Ranma1_2_ Temporada 3 _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-06-19 15:31:15,287 - INFO - [FILES] Thumbnail: Ranma1_2_ Temporada 3 _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-06-19 15:31:15,337 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-19 15:31:15,437 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-19 15:31:17,205 - INFO - [YOUTUBE] Video subido: c46N5A4Kie0
+2026-06-19 15:31:19,643 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-19 15:31:19,647 - INFO - [CLEANUP] Archivos eliminados: 2DjV6cT12gE
+2026-06-19 15:31:22,510 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-19 15:31:22,511 - INFO - [FINISH] Proceso completado
