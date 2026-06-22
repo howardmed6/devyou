@@ -1894,3 +1894,17 @@
 2026-06-22 17:29:05,762 - INFO - [FINISH] Proceso completado
 2026-06-22 18:01:21,358 - INFO - [PROCESS] No hay videos listos para subir
 2026-06-22 18:01:21,783 - INFO - [FINISH] Proceso completado
+2026-06-22 18:06:53,128 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-22 18:06:53,573 - INFO - [UPLOAD] Procesando: LOS NIÑOS DE LA RESISTENCIA Tráiler Español (2026)
+2026-06-22 18:06:53,573 - INFO - [SEARCH] Buscando archivos para: 'LOS NIÑOS DE LA RESISTENCIA Tráiler Español (2026)'
+2026-06-22 18:06:53,574 - INFO - [SEARCH] Palabras clave: ['los', 'ninos', 'de']
+2026-06-22 18:06:53,574 - INFO - [FILES] JSON: LOS NIÑOS DE LA RESISTENCIA Tráiler Español (2026).json
+2026-06-22 18:06:53,574 - INFO - [FILES] Video: LOS NIÑOS DE LA RESISTENCIA Tráiler Español (2026)(1080P_HD).mp4
+2026-06-22 18:06:53,574 - INFO - [FILES] Thumbnail: LOS NIÑOS DE LA RESISTENCIA Tráiler Español (2026)(1080P_HD).jpg
+2026-06-22 18:06:53,593 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-22 18:06:53,679 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-22 18:06:55,370 - INFO - [YOUTUBE] Video subido: 2yLUhgWhhvg
+2026-06-22 18:06:57,075 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-22 18:06:57,078 - INFO - [CLEANUP] Archivos eliminados: 52wrxjaNtYM
+2026-06-22 18:06:59,938 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-22 18:06:59,938 - INFO - [FINISH] Proceso completado

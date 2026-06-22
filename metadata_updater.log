@@ -7665,3 +7665,53 @@ DESCRIPCIÓN: 🎬 ¡El futuro tiene una...
 2026-06-22 18:01:20,542 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-06-22 18:01:20,968 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-22 18:01:20,969 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-22 18:06:36,183 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-22 18:06:36,183 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-22 18:06:36,183 - INFO - [INIT] API Key disponible: Sí
+2026-06-22 18:06:36,183 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-22 18:06:36,183 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-22 18:06:36,183 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-22 18:06:36,183 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-22 18:06:36,183 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-22 18:06:36,184 - INFO - [JSON] Cargados 81 videos desde data.json
+2026-06-22 18:06:36,184 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-06-22 18:06:36,184 - INFO - [PROCESS] Procesando 1 videos...
+2026-06-22 18:06:36,184 - INFO - 
+--- Procesando video 1/1 ---
+2026-06-22 18:06:36,184 - INFO - [VIDEO] Título: LOS NIÑOS DE LA RESISTENCIA Tráiler Español (2026)
+2026-06-22 18:06:36,184 - INFO - [VIDEO] ID: 52wrxjaNtYM
+2026-06-22 18:06:36,185 - INFO - [SEARCH] Buscando JSON para: 'LOS NIÑOS DE LA RESISTENCIA Tráiler Español (2026)'
+2026-06-22 18:06:36,193 - INFO - [SEARCH] Primeras 3 palabras del título: ['los', 'ninos', 'resistencia']
+2026-06-22 18:06:36,193 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-22 18:06:36,193 - INFO - [COMPARE] Archivo: LOS NIÑOS DE LA RESISTENCIA Tráiler Español (2026).json
+2026-06-22 18:06:36,193 - INFO - [COMPARE] Título JSON: 'LOS NIÑOS DE LA RESISTENCIA Tráiler Español (2026)'
+2026-06-22 18:06:36,193 - INFO - [COMPARE] Primeras 3 palabras JSON: ['los', 'ninos', 'resistencia']
+2026-06-22 18:06:36,194 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: LOS NIÑOS DE LA RESISTENCIA Tráiler Español (2026).json
+2026-06-22 18:06:36,194 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-22 18:06:36,194 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-06-22 18:06:36,194 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-06-22 18:06:36,194 - INFO - [API] 🔑 API Key válida: ✅
+2026-06-22 18:06:36,194 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-06-22 18:06:52,306 - INFO - [API] 📊 Código de respuesta: 200
+2026-06-22 18:06:52,306 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-06-22 18:06:52,306 - INFO - [API] 📏 Longitud de respuesta: 2237 caracteres
+2026-06-22 18:06:52,306 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: LOS NIÑOS DE LA RESISTENCIA Tráiler Oficial en Español (2025)
+
+DESCRIPCIÓN: 🎬 ¡El tráiler má...
+2026-06-22 18:06:52,307 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-06-22 18:06:52,308 - INFO - [PARSE] Datos parseados exitosamente:
+2026-06-22 18:06:52,308 - INFO -   - Título: LOS NIÑOS DE LA RESISTENCIA Tráiler Oficial en Esp...
+2026-06-22 18:06:52,308 - INFO -   - Descripción: 1954 caracteres
+2026-06-22 18:06:52,308 - INFO -   - Tags: 10 elementos
+2026-06-22 18:06:52,308 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-06-22 18:06:52,308 - INFO - [UPDATE] JSON actualizado: LOS NIÑOS DE LA RESISTENCIA Tráiler Español (2026).json
+2026-06-22 18:06:52,309 - INFO - [JSON] Cargados 81 videos desde data.json
+2026-06-22 18:06:52,309 - INFO - [STATUS] Video 52wrxjaNtYM actualizado a 'ok'
+2026-06-22 18:06:52,310 - INFO - [JSON] data.json actualizado exitosamente
+2026-06-22 18:06:52,310 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-06-22 18:06:52,311 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-06-22 18:06:52,311 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-06-22 18:06:52,311 - INFO - [SUMMARY] Videos fallidos: 0
+2026-06-22 18:06:52,736 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-22 18:06:52,737 - INFO - [FINISH] Proceso completado exitosamente
