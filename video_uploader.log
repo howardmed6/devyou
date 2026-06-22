@@ -1878,3 +1878,17 @@
 2026-06-19 15:31:19,647 - INFO - [CLEANUP] Archivos eliminados: 2DjV6cT12gE
 2026-06-19 15:31:22,510 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-06-19 15:31:22,511 - INFO - [FINISH] Proceso completado
+2026-06-22 17:28:58,032 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-22 17:28:58,551 - INFO - [UPLOAD] Procesando: KLARA Y EL SOL Tráiler Español Latino (2026) Jenna Ortega
+2026-06-22 17:28:58,552 - INFO - [SEARCH] Buscando archivos para: 'KLARA Y EL SOL Tráiler Español Latino (2026) Jenna Ortega'
+2026-06-22 17:28:58,552 - INFO - [SEARCH] Palabras clave: ['klara', 'y', 'el']
+2026-06-22 17:28:58,552 - INFO - [FILES] JSON: KLARA Y EL SOL Tráiler Español Latino (2026) Jenna Ortega.json
+2026-06-22 17:28:58,552 - INFO - [FILES] Video: KLARA Y EL SOL Tráiler Español Latino (2026) Jenna Ortega(1080P_HD).mp4
+2026-06-22 17:28:58,552 - INFO - [FILES] Thumbnail: KLARA Y EL SOL Tráiler Español Latino (2026) Jenna Ortega(1080P_HD).jpg
+2026-06-22 17:28:58,609 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-22 17:28:58,839 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-22 17:29:00,832 - INFO - [YOUTUBE] Video subido: Zg_p7-3mWEg
+2026-06-22 17:29:02,663 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-22 17:29:02,668 - INFO - [CLEANUP] Archivos eliminados: 1AAVNwA5BTI
+2026-06-22 17:29:05,761 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-22 17:29:05,762 - INFO - [FINISH] Proceso completado

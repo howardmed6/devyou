@@ -7602,3 +7602,53 @@ DESCRIPCIÓN:
 2026-06-19 15:31:13,957 - INFO - [SUMMARY] Videos fallidos: 0
 2026-06-19 15:31:14,381 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-19 15:31:14,381 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-22 17:28:41,589 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-22 17:28:41,589 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-22 17:28:41,589 - INFO - [INIT] API Key disponible: Sí
+2026-06-22 17:28:41,589 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-22 17:28:41,589 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-22 17:28:41,590 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-22 17:28:41,590 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-22 17:28:41,590 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-22 17:28:41,591 - INFO - [JSON] Cargados 101 videos desde data.json
+2026-06-22 17:28:41,591 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-06-22 17:28:41,591 - INFO - [PROCESS] Procesando 1 videos...
+2026-06-22 17:28:41,591 - INFO - 
+--- Procesando video 1/1 ---
+2026-06-22 17:28:41,591 - INFO - [VIDEO] Título: KLARA Y EL SOL Tráiler Español Latino (2026) Jenna Ortega
+2026-06-22 17:28:41,591 - INFO - [VIDEO] ID: 1AAVNwA5BTI
+2026-06-22 17:28:41,591 - INFO - [SEARCH] Buscando JSON para: 'KLARA Y EL SOL Tráiler Español Latino (2026) Jenna Ortega'
+2026-06-22 17:28:41,597 - INFO - [SEARCH] Primeras 3 palabras del título: ['klara', 'sol', 'trailer']
+2026-06-22 17:28:41,597 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-22 17:28:41,597 - INFO - [COMPARE] Archivo: KLARA Y EL SOL Tráiler Español Latino (2026) Jenna Ortega.json
+2026-06-22 17:28:41,598 - INFO - [COMPARE] Título JSON: 'KLARA Y EL SOL Tráiler Español Latino (2026) Jenna Ortega'
+2026-06-22 17:28:41,598 - INFO - [COMPARE] Primeras 3 palabras JSON: ['klara', 'sol', 'trailer']
+2026-06-22 17:28:41,598 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: KLARA Y EL SOL Tráiler Español Latino (2026) Jenna Ortega.json
+2026-06-22 17:28:41,598 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-22 17:28:41,598 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-06-22 17:28:41,598 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-06-22 17:28:41,598 - INFO - [API] 🔑 API Key válida: ✅
+2026-06-22 17:28:41,598 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-06-22 17:28:57,038 - INFO - [API] 📊 Código de respuesta: 200
+2026-06-22 17:28:57,038 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-06-22 17:28:57,039 - INFO - [API] 📏 Longitud de respuesta: 1916 caracteres
+2026-06-22 17:28:57,039 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: KLARA Y EL SOL Tráiler Oficial en Español Latino (2025)
+
+DESCRIPCIÓN: 🎬 ¡El futuro tiene una...
+2026-06-22 17:28:57,039 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-06-22 17:28:57,040 - INFO - [PARSE] Datos parseados exitosamente:
+2026-06-22 17:28:57,040 - INFO -   - Título: KLARA Y EL SOL Tráiler Oficial en Español Latino (...
+2026-06-22 17:28:57,040 - INFO -   - Descripción: 1607 caracteres
+2026-06-22 17:28:57,041 - INFO -   - Tags: 10 elementos
+2026-06-22 17:28:57,041 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-06-22 17:28:57,041 - INFO - [UPDATE] JSON actualizado: KLARA Y EL SOL Tráiler Español Latino (2026) Jenna Ortega.json
+2026-06-22 17:28:57,042 - INFO - [JSON] Cargados 101 videos desde data.json
+2026-06-22 17:28:57,042 - INFO - [STATUS] Video 1AAVNwA5BTI actualizado a 'ok'
+2026-06-22 17:28:57,044 - INFO - [JSON] data.json actualizado exitosamente
+2026-06-22 17:28:57,044 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-06-22 17:28:57,044 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-06-22 17:28:57,044 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-06-22 17:28:57,044 - INFO - [SUMMARY] Videos fallidos: 0
+2026-06-22 17:28:57,579 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-22 17:28:57,580 - INFO - [FINISH] Proceso completado exitosamente
