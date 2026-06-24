@@ -7715,3 +7715,53 @@ DESCRIPCIÓN: 🎬 ¡El tráiler má...
 2026-06-22 18:06:52,311 - INFO - [SUMMARY] Videos fallidos: 0
 2026-06-22 18:06:52,736 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-22 18:06:52,737 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-24 04:57:30,143 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-24 04:57:30,143 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-24 04:57:30,143 - INFO - [INIT] API Key disponible: Sí
+2026-06-24 04:57:30,143 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-24 04:57:30,143 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-24 04:57:30,143 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-24 04:57:30,144 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-24 04:57:30,144 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-24 04:57:30,145 - INFO - [JSON] Cargados 96 videos desde data.json
+2026-06-24 04:57:30,145 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-06-24 04:57:30,145 - INFO - [PROCESS] Procesando 1 videos...
+2026-06-24 04:57:30,145 - INFO - 
+--- Procesando video 1/1 ---
+2026-06-24 04:57:30,145 - INFO - [VIDEO] Título: Trailer oficial | Stuart no logra salvar el universo | HBO Max
+2026-06-24 04:57:30,145 - INFO - [VIDEO] ID: Qx1h4_K2mM8
+2026-06-24 04:57:30,145 - INFO - [SEARCH] Buscando JSON para: 'Trailer oficial | Stuart no logra salvar el universo | HBO Max'
+2026-06-24 04:57:30,145 - INFO - [SEARCH] Primeras 3 palabras del título: ['trailer', 'oficial', 'stuart']
+2026-06-24 04:57:30,146 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-24 04:57:30,146 - INFO - [COMPARE] Archivo: Trailer oficial _ Stuart no logra salvar el universo _ HBO Max.json
+2026-06-24 04:57:30,146 - INFO - [COMPARE] Título JSON: 'Trailer oficial | Stuart no logra salvar el universo | HBO Max'
+2026-06-24 04:57:30,146 - INFO - [COMPARE] Primeras 3 palabras JSON: ['trailer', 'oficial', 'stuart']
+2026-06-24 04:57:30,146 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Trailer oficial _ Stuart no logra salvar el universo _ HBO Max.json
+2026-06-24 04:57:30,146 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-24 04:57:30,146 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-06-24 04:57:30,146 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-06-24 04:57:30,146 - INFO - [API] 🔑 API Key válida: ✅
+2026-06-24 04:57:30,146 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-06-24 04:57:47,299 - INFO - [API] 📊 Código de respuesta: 200
+2026-06-24 04:57:47,299 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-06-24 04:57:47,299 - INFO - [API] 📏 Longitud de respuesta: 2339 caracteres
+2026-06-24 04:57:47,299 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: STUART NO LOGRA SALVAR EL UNIVERSO - Tráiler Oficial en Español Latino | HBO Max (2025)
+
+DES...
+2026-06-24 04:57:47,300 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-06-24 04:57:47,301 - INFO - [PARSE] Datos parseados exitosamente:
+2026-06-24 04:57:47,301 - INFO -   - Título: STUART NO LOGRA SALVAR EL UNIVERSO - Tráiler Ofici...
+2026-06-24 04:57:47,301 - INFO -   - Descripción: 1997 caracteres
+2026-06-24 04:57:47,301 - INFO -   - Tags: 10 elementos
+2026-06-24 04:57:47,302 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-06-24 04:57:47,302 - INFO - [UPDATE] JSON actualizado: Trailer oficial _ Stuart no logra salvar el universo _ HBO Max.json
+2026-06-24 04:57:47,303 - INFO - [JSON] Cargados 96 videos desde data.json
+2026-06-24 04:57:47,303 - INFO - [STATUS] Video Qx1h4_K2mM8 actualizado a 'ok'
+2026-06-24 04:57:47,304 - INFO - [JSON] data.json actualizado exitosamente
+2026-06-24 04:57:47,304 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-06-24 04:57:47,304 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-06-24 04:57:47,305 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-06-24 04:57:47,305 - INFO - [SUMMARY] Videos fallidos: 0
+2026-06-24 04:57:47,901 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-24 04:57:47,901 - INFO - [FINISH] Proceso completado exitosamente

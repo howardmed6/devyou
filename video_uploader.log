@@ -1908,3 +1908,17 @@
 2026-06-22 18:06:57,078 - INFO - [CLEANUP] Archivos eliminados: 52wrxjaNtYM
 2026-06-22 18:06:59,938 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-06-22 18:06:59,938 - INFO - [FINISH] Proceso completado
+2026-06-24 04:57:48,271 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-24 04:57:48,860 - INFO - [UPLOAD] Procesando: Trailer oficial | Stuart no logra salvar el universo | HBO Max
+2026-06-24 04:57:48,860 - INFO - [SEARCH] Buscando archivos para: 'Trailer oficial | Stuart no logra salvar el universo | HBO Max'
+2026-06-24 04:57:48,861 - INFO - [SEARCH] Palabras clave: ['trailer', 'oficial', '|']
+2026-06-24 04:57:48,861 - INFO - [FILES] JSON: Trailer oficial _ Stuart no logra salvar el universo _ HBO Max.json
+2026-06-24 04:57:48,861 - INFO - [FILES] Video: Trailer oficial _ Stuart no logra salvar el universo _ HBO Max(1080P_HD).mp4
+2026-06-24 04:57:48,861 - INFO - [FILES] Thumbnail: Trailer oficial _ Stuart no logra salvar el universo _ HBO Max(1080P_HD).jpg
+2026-06-24 04:57:48,878 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-24 04:57:48,975 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-24 04:57:50,595 - INFO - [YOUTUBE] Video subido: vvCkaSp8n64
+2026-06-24 04:57:52,595 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-24 04:57:52,600 - INFO - [CLEANUP] Archivos eliminados: Qx1h4_K2mM8
+2026-06-24 04:57:55,846 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-24 04:57:55,847 - INFO - [FINISH] Proceso completado
