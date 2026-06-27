@@ -1924,3 +1924,17 @@
 2026-06-24 04:57:55,847 - INFO - [FINISH] Proceso completado
 2026-06-27 01:04:41,869 - INFO - [PROCESS] No hay videos listos para subir
 2026-06-27 01:04:42,455 - INFO - [FINISH] Proceso completado
+2026-06-27 22:06:55,358 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-06-27 22:06:55,876 - INFO - [UPLOAD] Procesando: La Hipotesis del Amor - Teaser Oficial | Prime Video
+2026-06-27 22:06:55,876 - INFO - [SEARCH] Buscando archivos para: 'La Hipotesis del Amor - Teaser Oficial | Prime Video'
+2026-06-27 22:06:55,877 - INFO - [SEARCH] Palabras clave: ['la', 'hipotesis', 'del']
+2026-06-27 22:06:55,877 - INFO - [FILES] JSON: La Hipotesis del Amor - Teaser Oficial _ Prime Video.json
+2026-06-27 22:06:55,877 - INFO - [FILES] Video: La Hipotesis del Amor - Teaser Oficial _ Prime Video(1080P_HD).mp4
+2026-06-27 22:06:55,877 - INFO - [FILES] Thumbnail: La Hipotesis del Amor - Teaser Oficial _ Prime Video(1080P_HD).jpg
+2026-06-27 22:06:55,897 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-06-27 22:06:56,138 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-06-27 22:06:57,380 - INFO - [YOUTUBE] Video subido: hySbgbnjzoQ
+2026-06-27 22:07:00,195 - INFO - [YOUTUBE] Thumbnail subido
+2026-06-27 22:07:00,198 - INFO - [CLEANUP] Archivos eliminados: rfsrx3dlcaw
+2026-06-27 22:07:03,335 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-06-27 22:07:03,335 - INFO - [FINISH] Proceso completado

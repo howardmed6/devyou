@@ -7778,3 +7778,53 @@ DES...
 2026-06-27 01:04:40,921 - INFO - [EMPTY] No hay videos con estado 'edited' para procesar
 2026-06-27 01:04:41,511 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-27 01:04:41,512 - INFO - [FINISH] Proceso completado exitosamente
+2026-06-27 22:06:40,174 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-06-27 22:06:40,174 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-06-27 22:06:40,174 - INFO - [INIT] API Key disponible: Sí
+2026-06-27 22:06:40,174 - INFO - [INIT] Bot Token disponible: Sí
+2026-06-27 22:06:40,174 - INFO - [INIT] Chat ID disponible: Sí
+2026-06-27 22:06:40,174 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-06-27 22:06:40,174 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-06-27 22:06:40,175 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-27 22:06:40,175 - INFO - [JSON] Cargados 86 videos desde data.json
+2026-06-27 22:06:40,175 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-06-27 22:06:40,176 - INFO - [PROCESS] Procesando 1 videos...
+2026-06-27 22:06:40,176 - INFO - 
+--- Procesando video 1/1 ---
+2026-06-27 22:06:40,176 - INFO - [VIDEO] Título: La Hipotesis del Amor - Teaser Oficial | Prime Video
+2026-06-27 22:06:40,176 - INFO - [VIDEO] ID: rfsrx3dlcaw
+2026-06-27 22:06:40,176 - INFO - [SEARCH] Buscando JSON para: 'La Hipotesis del Amor - Teaser Oficial | Prime Video'
+2026-06-27 22:06:40,176 - INFO - [SEARCH] Primeras 3 palabras del título: ['hipotesis', 'del', 'amor']
+2026-06-27 22:06:40,176 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-06-27 22:06:40,176 - INFO - [COMPARE] Archivo: La Hipotesis del Amor - Teaser Oficial _ Prime Video.json
+2026-06-27 22:06:40,177 - INFO - [COMPARE] Título JSON: 'La Hipotesis del Amor - Teaser Oficial | Prime Video'
+2026-06-27 22:06:40,177 - INFO - [COMPARE] Primeras 3 palabras JSON: ['hipotesis', 'del', 'amor']
+2026-06-27 22:06:40,177 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: La Hipotesis del Amor - Teaser Oficial _ Prime Video.json
+2026-06-27 22:06:40,177 - INFO - [API] ✅ API Key tiene formato válido
+2026-06-27 22:06:40,177 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-06-27 22:06:40,177 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-06-27 22:06:40,177 - INFO - [API] 🔑 API Key válida: ✅
+2026-06-27 22:06:40,177 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-06-27 22:06:54,438 - INFO - [API] 📊 Código de respuesta: 200
+2026-06-27 22:06:54,439 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-06-27 22:06:54,439 - INFO - [API] 📏 Longitud de respuesta: 1959 caracteres
+2026-06-27 22:06:54,439 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: LA HIPÓTESIS DEL AMOR Tráiler Oficial (2025) | Prime Video
+
+DESCRIPCIÓN: 🎬 ¿Qué pasa cuando ...
+2026-06-27 22:06:54,440 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-06-27 22:06:54,441 - INFO - [PARSE] Datos parseados exitosamente:
+2026-06-27 22:06:54,441 - INFO -   - Título: LA HIPÓTESIS DEL AMOR Tráiler Oficial (2025) | Pri...
+2026-06-27 22:06:54,441 - INFO -   - Descripción: 1684 caracteres
+2026-06-27 22:06:54,441 - INFO -   - Tags: 10 elementos
+2026-06-27 22:06:54,441 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-06-27 22:06:54,441 - INFO - [UPDATE] JSON actualizado: La Hipotesis del Amor - Teaser Oficial _ Prime Video.json
+2026-06-27 22:06:54,442 - INFO - [JSON] Cargados 86 videos desde data.json
+2026-06-27 22:06:54,442 - INFO - [STATUS] Video rfsrx3dlcaw actualizado a 'ok'
+2026-06-27 22:06:54,443 - INFO - [JSON] data.json actualizado exitosamente
+2026-06-27 22:06:54,444 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-06-27 22:06:54,444 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-06-27 22:06:54,444 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-06-27 22:06:54,444 - INFO - [SUMMARY] Videos fallidos: 0
+2026-06-27 22:06:54,973 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-06-27 22:06:54,974 - INFO - [FINISH] Proceso completado exitosamente
