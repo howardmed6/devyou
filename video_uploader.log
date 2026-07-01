@@ -1938,3 +1938,17 @@
 2026-06-27 22:07:00,198 - INFO - [CLEANUP] Archivos eliminados: rfsrx3dlcaw
 2026-06-27 22:07:03,335 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-06-27 22:07:03,335 - INFO - [FINISH] Proceso completado
+2026-07-01 01:33:03,287 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-07-01 01:33:03,880 - INFO - [UPLOAD] Procesando: El palacio del este | Tráiler oficial | Netflix
+2026-07-01 01:33:03,880 - INFO - [SEARCH] Buscando archivos para: 'El palacio del este | Tráiler oficial | Netflix'
+2026-07-01 01:33:03,881 - INFO - [SEARCH] Palabras clave: ['el', 'palacio', 'del']
+2026-07-01 01:33:03,881 - INFO - [FILES] JSON: El palacio del este _ Tráiler oficial _ Netflix.json
+2026-07-01 01:33:03,881 - INFO - [FILES] Video: El palacio del este _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-07-01 01:33:03,881 - INFO - [FILES] Thumbnail: El palacio del este _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-07-01 01:33:03,889 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-07-01 01:33:03,988 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-07-01 01:33:05,984 - INFO - [YOUTUBE] Video subido: KI9QEwP6svA
+2026-07-01 01:33:08,544 - INFO - [YOUTUBE] Thumbnail subido
+2026-07-01 01:33:08,549 - INFO - [CLEANUP] Archivos eliminados: P1xD_ZER0-k
+2026-07-01 01:33:11,749 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-07-01 01:33:11,750 - INFO - [FINISH] Proceso completado

@@ -7828,3 +7828,53 @@ DESCRIPCIÓN: 🎬 ¿Qué pasa cuando ...
 2026-06-27 22:06:54,444 - INFO - [SUMMARY] Videos fallidos: 0
 2026-06-27 22:06:54,973 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-06-27 22:06:54,974 - INFO - [FINISH] Proceso completado exitosamente
+2026-07-01 01:32:47,019 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-07-01 01:32:47,019 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-07-01 01:32:47,019 - INFO - [INIT] API Key disponible: Sí
+2026-07-01 01:32:47,019 - INFO - [INIT] Bot Token disponible: Sí
+2026-07-01 01:32:47,019 - INFO - [INIT] Chat ID disponible: Sí
+2026-07-01 01:32:47,019 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-07-01 01:32:47,019 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-07-01 01:32:47,019 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-01 01:32:47,020 - INFO - [JSON] Cargados 101 videos desde data.json
+2026-07-01 01:32:47,020 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-07-01 01:32:47,020 - INFO - [PROCESS] Procesando 1 videos...
+2026-07-01 01:32:47,021 - INFO - 
+--- Procesando video 1/1 ---
+2026-07-01 01:32:47,021 - INFO - [VIDEO] Título: El palacio del este | Tráiler oficial | Netflix
+2026-07-01 01:32:47,021 - INFO - [VIDEO] ID: P1xD_ZER0-k
+2026-07-01 01:32:47,021 - INFO - [SEARCH] Buscando JSON para: 'El palacio del este | Tráiler oficial | Netflix'
+2026-07-01 01:32:47,021 - INFO - [SEARCH] Primeras 3 palabras del título: ['palacio', 'del', 'este']
+2026-07-01 01:32:47,022 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-07-01 01:32:47,022 - INFO - [COMPARE] Archivo: El palacio del este _ Tráiler oficial _ Netflix.json
+2026-07-01 01:32:47,022 - INFO - [COMPARE] Título JSON: 'El palacio del este | Tráiler oficial | Netflix'
+2026-07-01 01:32:47,022 - INFO - [COMPARE] Primeras 3 palabras JSON: ['palacio', 'del', 'este']
+2026-07-01 01:32:47,022 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: El palacio del este _ Tráiler oficial _ Netflix.json
+2026-07-01 01:32:47,022 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-01 01:32:47,022 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-07-01 01:32:47,022 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-07-01 01:32:47,022 - INFO - [API] 🔑 API Key válida: ✅
+2026-07-01 01:32:47,022 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-07-01 01:33:02,312 - INFO - [API] 📊 Código de respuesta: 200
+2026-07-01 01:33:02,312 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-07-01 01:33:02,312 - INFO - [API] 📏 Longitud de respuesta: 2220 caracteres
+2026-07-01 01:33:02,312 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: EL PALACIO DEL ESTE - Tráiler Oficial (2025) | Serie Coreana Netflix
+
+DESCRIPCIÓN: 🎬 Un mund...
+2026-07-01 01:33:02,313 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-07-01 01:33:02,314 - INFO - [PARSE] Datos parseados exitosamente:
+2026-07-01 01:33:02,314 - INFO -   - Título: EL PALACIO DEL ESTE - Tráiler Oficial (2025) | Ser...
+2026-07-01 01:33:02,314 - INFO -   - Descripción: 1894 caracteres
+2026-07-01 01:33:02,314 - INFO -   - Tags: 11 elementos
+2026-07-01 01:33:02,314 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-07-01 01:33:02,315 - INFO - [UPDATE] JSON actualizado: El palacio del este _ Tráiler oficial _ Netflix.json
+2026-07-01 01:33:02,315 - INFO - [JSON] Cargados 101 videos desde data.json
+2026-07-01 01:33:02,316 - INFO - [STATUS] Video P1xD_ZER0-k actualizado a 'ok'
+2026-07-01 01:33:02,317 - INFO - [JSON] data.json actualizado exitosamente
+2026-07-01 01:33:02,317 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-07-01 01:33:02,317 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-07-01 01:33:02,317 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-07-01 01:33:02,317 - INFO - [SUMMARY] Videos fallidos: 0
+2026-07-01 01:33:02,911 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-07-01 01:33:02,912 - INFO - [FINISH] Proceso completado exitosamente
