@@ -7878,3 +7878,32 @@ DESCRIPCIÓN: 🎬 Un mund...
 2026-07-01 01:33:02,317 - INFO - [SUMMARY] Videos fallidos: 0
 2026-07-01 01:33:02,911 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-07-01 01:33:02,912 - INFO - [FINISH] Proceso completado exitosamente
+2026-07-01 16:57:57,710 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-07-01 16:57:57,710 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-07-01 16:57:57,710 - INFO - [INIT] API Key disponible: Sí
+2026-07-01 16:57:57,710 - INFO - [INIT] Bot Token disponible: Sí
+2026-07-01 16:57:57,710 - INFO - [INIT] Chat ID disponible: Sí
+2026-07-01 16:57:57,710 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-07-01 16:57:57,710 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-07-01 16:57:57,710 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-01 16:57:57,711 - INFO - [JSON] Cargados 85 videos desde data.json
+2026-07-01 16:57:57,711 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-07-01 16:57:57,711 - INFO - [PROCESS] Procesando 1 videos...
+2026-07-01 16:57:57,711 - INFO - 
+--- Procesando video 1/1 ---
+2026-07-01 16:57:57,711 - INFO - [VIDEO] Título: Proyecto Final | Tráiler oficial | Netflix
+2026-07-01 16:57:57,711 - INFO - [VIDEO] ID: jmOop0Cm828
+2026-07-01 16:57:57,711 - INFO - [SEARCH] Buscando JSON para: 'Proyecto Final | Tráiler oficial | Netflix'
+2026-07-01 16:57:57,712 - INFO - [SEARCH] Primeras 3 palabras del título: ['proyecto', 'final', 'trailer']
+2026-07-01 16:57:57,712 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-07-01 16:57:57,712 - INFO - [COMPARE] Archivo: Proyecto Fin del Mundo - Tráiler Oficial I Prime Video.json
+2026-07-01 16:57:57,712 - INFO - [COMPARE] Título JSON: 'Proyecto Fin del Mundo - Tráiler Oficial I Prime Video'
+2026-07-01 16:57:57,712 - INFO - [COMPARE] Primeras 3 palabras JSON: ['proyecto', 'fin', 'del']
+2026-07-01 16:57:57,712 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Proyecto Final | Tráiler oficial | Netflix'
+2026-07-01 16:57:57,713 - ERROR - [ERROR] No se encontró JSON para el video: Proyecto Final | Tráiler oficial | Netflix
+2026-07-01 16:57:57,713 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-07-01 16:57:57,713 - INFO - [SUMMARY] Videos procesados exitosamente: 0
+2026-07-01 16:57:57,713 - INFO - [SUMMARY] Videos fallidos: 1
+2026-07-01 16:57:58,306 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-07-01 16:57:58,307 - INFO - [FINISH] Proceso completado exitosamente
