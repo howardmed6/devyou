@@ -1956,3 +1956,24 @@
 2026-07-01 16:57:59,262 - INFO - [FINISH] Proceso completado
 2026-07-01 17:27:08,598 - INFO - [PROCESS] No hay videos listos para subir
 2026-07-01 17:27:09,055 - INFO - [FINISH] Proceso completado
+2026-07-01 17:44:01,897 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-07-01 17:44:02,510 - INFO - [UPLOAD] Procesando: Proyecto Fin del Mundo - Tráiler Oficial I Prime Video
+2026-07-01 17:44:02,510 - INFO - [SEARCH] Buscando archivos para: 'Proyecto Fin del Mundo - Tráiler Oficial I Prime Video'
+2026-07-01 17:44:02,510 - INFO - [SEARCH] Palabras clave: ['proyecto', 'fin', 'del']
+2026-07-01 17:44:02,511 - WARNING - [FALLBACK] No se encontraron archivos por coincidencia para 'Proyecto Fin del Mundo - Tráiler Oficial I Prime Video', intentando con archivos únicos...
+2026-07-01 17:44:02,511 - INFO - [FALLBACK] Archivos únicos encontrados:
+2026-07-01 17:44:02,511 - INFO - [FALLBACK] JSON: Proyecto Fin del Mundo - Tráiler Oficial I Prime Video.json (Total: 1)
+2026-07-01 17:44:02,511 - INFO - [FALLBACK] Video: Proyecto Final _ Tráiler oficial _ Netflix(1080P_HD).mp4 (Total: 1)
+2026-07-01 17:44:02,511 - INFO - [FALLBACK] Thumbnail: Proyecto Final _ Tráiler oficial _ Netflix(1080P_HD).jpg (Total: 1)
+2026-07-01 17:44:02,511 - INFO - [FALLBACK] Usando video único: Proyecto Final _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-07-01 17:44:02,511 - INFO - [FALLBACK] Usando thumbnail único: Proyecto Final _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-07-01 17:44:02,511 - INFO - [FILES] JSON: Proyecto Fin del Mundo - Tráiler Oficial I Prime Video.json
+2026-07-01 17:44:02,511 - INFO - [FILES] Video: Proyecto Final _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-07-01 17:44:02,511 - INFO - [FILES] Thumbnail: Proyecto Final _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-07-01 17:44:02,520 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-07-01 17:44:02,609 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-07-01 17:44:05,027 - INFO - [YOUTUBE] Video subido: L8FMYVNbeuk
+2026-07-01 17:44:11,210 - INFO - [YOUTUBE] Thumbnail subido
+2026-07-01 17:44:11,214 - INFO - [CLEANUP] Archivos eliminados: QGTm5QJczRc
+2026-07-01 17:44:14,444 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-07-01 17:44:14,444 - INFO - [FINISH] Proceso completado

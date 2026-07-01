@@ -7933,3 +7933,65 @@ DESCRIPCIÓN: 🎬 Un mund...
 2026-07-01 17:27:07,832 - INFO - [SUMMARY] Videos fallidos: 1
 2026-07-01 17:27:08,253 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-07-01 17:27:08,254 - INFO - [FINISH] Proceso completado exitosamente
+2026-07-01 17:43:44,928 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-07-01 17:43:44,928 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-07-01 17:43:44,928 - INFO - [INIT] API Key disponible: Sí
+2026-07-01 17:43:44,928 - INFO - [INIT] Bot Token disponible: Sí
+2026-07-01 17:43:44,928 - INFO - [INIT] Chat ID disponible: Sí
+2026-07-01 17:43:44,928 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-07-01 17:43:44,929 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-07-01 17:43:44,929 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-01 17:43:44,929 - INFO - [JSON] Cargados 81 videos desde data.json
+2026-07-01 17:43:44,930 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2026-07-01 17:43:44,930 - INFO - [PROCESS] Procesando 2 videos...
+2026-07-01 17:43:44,930 - INFO - 
+--- Procesando video 1/2 ---
+2026-07-01 17:43:44,930 - INFO - [VIDEO] Título: Proyecto Final | Tráiler oficial | Netflix
+2026-07-01 17:43:44,930 - INFO - [VIDEO] ID: jmOop0Cm828
+2026-07-01 17:43:44,930 - INFO - [SEARCH] Buscando JSON para: 'Proyecto Final | Tráiler oficial | Netflix'
+2026-07-01 17:43:44,930 - INFO - [SEARCH] Primeras 3 palabras del título: ['proyecto', 'final', 'trailer']
+2026-07-01 17:43:44,931 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-07-01 17:43:44,931 - INFO - [COMPARE] Archivo: Proyecto Fin del Mundo - Tráiler Oficial I Prime Video.json
+2026-07-01 17:43:44,931 - INFO - [COMPARE] Título JSON: 'Proyecto Fin del Mundo - Tráiler Oficial I Prime Video'
+2026-07-01 17:43:44,931 - INFO - [COMPARE] Primeras 3 palabras JSON: ['proyecto', 'fin', 'del']
+2026-07-01 17:43:44,931 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Proyecto Final | Tráiler oficial | Netflix'
+2026-07-01 17:43:44,931 - ERROR - [ERROR] No se encontró JSON para el video: Proyecto Final | Tráiler oficial | Netflix
+2026-07-01 17:43:44,931 - INFO - 
+--- Procesando video 2/2 ---
+2026-07-01 17:43:44,931 - INFO - [VIDEO] Título: Proyecto Fin del Mundo - Tráiler Oficial I Prime Video
+2026-07-01 17:43:44,931 - INFO - [VIDEO] ID: QGTm5QJczRc
+2026-07-01 17:43:44,931 - INFO - [SEARCH] Buscando JSON para: 'Proyecto Fin del Mundo - Tráiler Oficial I Prime Video'
+2026-07-01 17:43:44,932 - INFO - [SEARCH] Primeras 3 palabras del título: ['proyecto', 'fin', 'del']
+2026-07-01 17:43:44,932 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-07-01 17:43:44,932 - INFO - [COMPARE] Archivo: Proyecto Fin del Mundo - Tráiler Oficial I Prime Video.json
+2026-07-01 17:43:44,932 - INFO - [COMPARE] Título JSON: 'Proyecto Fin del Mundo - Tráiler Oficial I Prime Video'
+2026-07-01 17:43:44,932 - INFO - [COMPARE] Primeras 3 palabras JSON: ['proyecto', 'fin', 'del']
+2026-07-01 17:43:44,932 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Proyecto Fin del Mundo - Tráiler Oficial I Prime Video.json
+2026-07-01 17:43:44,932 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-01 17:43:44,932 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-07-01 17:43:44,932 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-07-01 17:43:44,932 - INFO - [API] 🔑 API Key válida: ✅
+2026-07-01 17:43:44,932 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-07-01 17:44:00,768 - INFO - [API] 📊 Código de respuesta: 200
+2026-07-01 17:44:00,768 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-07-01 17:44:00,768 - INFO - [API] 📏 Longitud de respuesta: 2188 caracteres
+2026-07-01 17:44:00,768 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: PROYECTO FIN DEL MUNDO Tráiler Oficial (2025) | Prime Video
+
+DESCRIPCIÓN: 🎬 ¡La misión más a...
+2026-07-01 17:44:00,769 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-07-01 17:44:00,770 - INFO - [PARSE] Datos parseados exitosamente:
+2026-07-01 17:44:00,770 - INFO -   - Título: PROYECTO FIN DEL MUNDO Tráiler Oficial (2025) | Pr...
+2026-07-01 17:44:00,770 - INFO -   - Descripción: 1870 caracteres
+2026-07-01 17:44:00,770 - INFO -   - Tags: 10 elementos
+2026-07-01 17:44:00,770 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-07-01 17:44:00,770 - INFO - [UPDATE] JSON actualizado: Proyecto Fin del Mundo - Tráiler Oficial I Prime Video.json
+2026-07-01 17:44:00,771 - INFO - [JSON] Cargados 81 videos desde data.json
+2026-07-01 17:44:00,771 - INFO - [STATUS] Video QGTm5QJczRc actualizado a 'ok'
+2026-07-01 17:44:00,772 - INFO - [JSON] data.json actualizado exitosamente
+2026-07-01 17:44:00,772 - INFO - [SUCCESS] Video 2 procesado exitosamente
+2026-07-01 17:44:00,772 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-07-01 17:44:00,773 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-07-01 17:44:00,773 - INFO - [SUMMARY] Videos fallidos: 1
+2026-07-01 17:44:01,380 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-07-01 17:44:01,381 - INFO - [FINISH] Proceso completado exitosamente
