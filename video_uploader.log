@@ -1977,3 +1977,17 @@
 2026-07-01 17:44:11,214 - INFO - [CLEANUP] Archivos eliminados: QGTm5QJczRc
 2026-07-01 17:44:14,444 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-07-01 17:44:14,444 - INFO - [FINISH] Proceso completado
+2026-07-02 03:55:31,418 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-07-02 03:55:32,022 - INFO - [UPLOAD] Procesando: Muertos de amor | TRÁILER OFICIAL | Netflix
+2026-07-02 03:55:32,023 - INFO - [SEARCH] Buscando archivos para: 'Muertos de amor | TRÁILER OFICIAL | Netflix'
+2026-07-02 03:55:32,023 - INFO - [SEARCH] Palabras clave: ['muertos', 'de', 'amor']
+2026-07-02 03:55:32,023 - INFO - [FILES] JSON: Muertos de amor _ TRÁILER OFICIAL _ Netflix.json
+2026-07-02 03:55:32,023 - INFO - [FILES] Video: Muertos de amor _ TRÁILER OFICIAL _ Netflix(1080P_HD).mp4
+2026-07-02 03:55:32,024 - INFO - [FILES] Thumbnail: Muertos de amor _ TRÁILER OFICIAL _ Netflix(1080P_HD).jpg
+2026-07-02 03:55:32,064 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-07-02 03:55:32,238 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-07-02 03:55:34,218 - INFO - [YOUTUBE] Video subido: S8XUiHxvO78
+2026-07-02 03:55:36,387 - INFO - [YOUTUBE] Thumbnail subido
+2026-07-02 03:55:36,390 - INFO - [CLEANUP] Archivos eliminados: fSY70O0OeWs
+2026-07-02 03:55:39,577 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-07-02 03:55:39,577 - INFO - [FINISH] Proceso completado
