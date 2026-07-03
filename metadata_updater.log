@@ -8058,3 +8058,65 @@ DESCRIPCIÓN:
 2026-07-02 03:55:30,275 - INFO - [SUMMARY] Videos fallidos: 1
 2026-07-02 03:55:30,866 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-07-02 03:55:30,867 - INFO - [FINISH] Proceso completado exitosamente
+2026-07-03 14:06:59,343 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-07-03 14:06:59,343 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-07-03 14:06:59,343 - INFO - [INIT] API Key disponible: Sí
+2026-07-03 14:06:59,343 - INFO - [INIT] Bot Token disponible: Sí
+2026-07-03 14:06:59,343 - INFO - [INIT] Chat ID disponible: Sí
+2026-07-03 14:06:59,343 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-07-03 14:06:59,343 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-07-03 14:06:59,343 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-03 14:06:59,344 - INFO - [JSON] Cargados 91 videos desde data.json
+2026-07-03 14:06:59,344 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2026-07-03 14:06:59,344 - INFO - [PROCESS] Procesando 2 videos...
+2026-07-03 14:06:59,344 - INFO - 
+--- Procesando video 1/2 ---
+2026-07-03 14:06:59,345 - INFO - [VIDEO] Título: Proyecto Final | Tráiler oficial | Netflix
+2026-07-03 14:06:59,345 - INFO - [VIDEO] ID: jmOop0Cm828
+2026-07-03 14:06:59,345 - INFO - [SEARCH] Buscando JSON para: 'Proyecto Final | Tráiler oficial | Netflix'
+2026-07-03 14:06:59,350 - INFO - [SEARCH] Primeras 3 palabras del título: ['proyecto', 'final', 'trailer']
+2026-07-03 14:06:59,350 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-07-03 14:06:59,351 - INFO - [COMPARE] Archivo: Sakamoto Days _ Avance de la temporada 2 _ Netflix.json
+2026-07-03 14:06:59,351 - INFO - [COMPARE] Título JSON: 'Sakamoto Days | Avance de la temporada 2 | Netflix'
+2026-07-03 14:06:59,351 - INFO - [COMPARE] Primeras 3 palabras JSON: ['sakamoto', 'days', 'avance']
+2026-07-03 14:06:59,351 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Proyecto Final | Tráiler oficial | Netflix'
+2026-07-03 14:06:59,351 - ERROR - [ERROR] No se encontró JSON para el video: Proyecto Final | Tráiler oficial | Netflix
+2026-07-03 14:06:59,351 - INFO - 
+--- Procesando video 2/2 ---
+2026-07-03 14:06:59,351 - INFO - [VIDEO] Título: Sakamoto Days | Avance de la temporada 2 | Netflix
+2026-07-03 14:06:59,351 - INFO - [VIDEO] ID: vAYu1p-GDYw
+2026-07-03 14:06:59,351 - INFO - [SEARCH] Buscando JSON para: 'Sakamoto Days | Avance de la temporada 2 | Netflix'
+2026-07-03 14:06:59,351 - INFO - [SEARCH] Primeras 3 palabras del título: ['sakamoto', 'days', 'avance']
+2026-07-03 14:06:59,351 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-07-03 14:06:59,351 - INFO - [COMPARE] Archivo: Sakamoto Days _ Avance de la temporada 2 _ Netflix.json
+2026-07-03 14:06:59,352 - INFO - [COMPARE] Título JSON: 'Sakamoto Days | Avance de la temporada 2 | Netflix'
+2026-07-03 14:06:59,352 - INFO - [COMPARE] Primeras 3 palabras JSON: ['sakamoto', 'days', 'avance']
+2026-07-03 14:06:59,352 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Sakamoto Days _ Avance de la temporada 2 _ Netflix.json
+2026-07-03 14:06:59,352 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-03 14:06:59,352 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-07-03 14:06:59,352 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-07-03 14:06:59,352 - INFO - [API] 🔑 API Key válida: ✅
+2026-07-03 14:06:59,352 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-07-03 14:07:15,995 - INFO - [API] 📊 Código de respuesta: 200
+2026-07-03 14:07:15,996 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-07-03 14:07:15,996 - INFO - [API] 📏 Longitud de respuesta: 2331 caracteres
+2026-07-03 14:07:15,996 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: SAKAMOTO DAYS Tráiler Oficial Temporada 2 (2025) | Netflix
+
+DESCRIPCIÓN: 🔥 El legendario ase...
+2026-07-03 14:07:15,997 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-07-03 14:07:15,998 - INFO - [PARSE] Datos parseados exitosamente:
+2026-07-03 14:07:15,998 - INFO -   - Título: SAKAMOTO DAYS Tráiler Oficial Temporada 2 (2025) |...
+2026-07-03 14:07:15,998 - INFO -   - Descripción: 2014 caracteres
+2026-07-03 14:07:15,998 - INFO -   - Tags: 12 elementos
+2026-07-03 14:07:15,998 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-07-03 14:07:15,998 - INFO - [UPDATE] JSON actualizado: Sakamoto Days _ Avance de la temporada 2 _ Netflix.json
+2026-07-03 14:07:15,999 - INFO - [JSON] Cargados 91 videos desde data.json
+2026-07-03 14:07:15,999 - INFO - [STATUS] Video vAYu1p-GDYw actualizado a 'ok'
+2026-07-03 14:07:16,000 - INFO - [JSON] data.json actualizado exitosamente
+2026-07-03 14:07:16,001 - INFO - [SUCCESS] Video 2 procesado exitosamente
+2026-07-03 14:07:16,001 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-07-03 14:07:16,001 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-07-03 14:07:16,001 - INFO - [SUMMARY] Videos fallidos: 1
+2026-07-03 14:07:16,568 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-07-03 14:07:16,569 - INFO - [FINISH] Proceso completado exitosamente

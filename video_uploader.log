@@ -1991,3 +1991,17 @@
 2026-07-02 03:55:36,390 - INFO - [CLEANUP] Archivos eliminados: fSY70O0OeWs
 2026-07-02 03:55:39,577 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-07-02 03:55:39,577 - INFO - [FINISH] Proceso completado
+2026-07-03 14:07:16,986 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-07-03 14:07:17,547 - INFO - [UPLOAD] Procesando: Sakamoto Days | Avance de la temporada 2 | Netflix
+2026-07-03 14:07:17,547 - INFO - [SEARCH] Buscando archivos para: 'Sakamoto Days | Avance de la temporada 2 | Netflix'
+2026-07-03 14:07:17,547 - INFO - [SEARCH] Palabras clave: ['sakamoto', 'days', '|']
+2026-07-03 14:07:17,548 - INFO - [FILES] JSON: Sakamoto Days _ Avance de la temporada 2 _ Netflix.json
+2026-07-03 14:07:17,548 - INFO - [FILES] Video: Sakamoto Days _ Avance de la temporada 2 _ Netflix(1080P_HD).mp4
+2026-07-03 14:07:17,548 - INFO - [FILES] Thumbnail: Sakamoto Days _ Avance de la temporada 2 _ Netflix(1080P_HD).jpg
+2026-07-03 14:07:17,563 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-07-03 14:07:18,334 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-07-03 14:07:23,067 - INFO - [YOUTUBE] Video subido: hUnaAPjJJlI
+2026-07-03 14:07:28,095 - INFO - [YOUTUBE] Thumbnail subido
+2026-07-03 14:07:28,098 - INFO - [CLEANUP] Archivos eliminados: vAYu1p-GDYw
+2026-07-03 14:07:31,254 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-07-03 14:07:31,254 - INFO - [FINISH] Proceso completado
