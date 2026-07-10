@@ -2005,3 +2005,17 @@
 2026-07-03 14:07:28,098 - INFO - [CLEANUP] Archivos eliminados: vAYu1p-GDYw
 2026-07-03 14:07:31,254 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-07-03 14:07:31,254 - INFO - [FINISH] Proceso completado
+2026-07-10 01:52:20,704 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-07-10 01:52:21,312 - INFO - [UPLOAD] Procesando: Acaramelados | Avance oficial | Netflix
+2026-07-10 01:52:21,313 - INFO - [SEARCH] Buscando archivos para: 'Acaramelados | Avance oficial | Netflix'
+2026-07-10 01:52:21,313 - INFO - [SEARCH] Palabras clave: ['acaramelados', '|', 'avance']
+2026-07-10 01:52:21,313 - INFO - [FILES] JSON: Acaramelados _ Avance oficial _ Netflix.json
+2026-07-10 01:52:21,314 - INFO - [FILES] Video: Acaramelados _ Avance oficial _ Netflix(1080P_HD).mp4
+2026-07-10 01:52:21,314 - INFO - [FILES] Thumbnail: Acaramelados _ Avance oficial _ Netflix(1080P_HD).jpg
+2026-07-10 01:52:21,353 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-07-10 01:52:21,451 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-07-10 01:52:23,735 - INFO - [YOUTUBE] Video subido: CUZv-cRGvvE
+2026-07-10 01:52:25,582 - INFO - [YOUTUBE] Thumbnail subido
+2026-07-10 01:52:25,586 - INFO - [CLEANUP] Archivos eliminados: 0N_-_NBJTDs
+2026-07-10 01:52:28,810 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-07-10 01:52:28,811 - INFO - [FINISH] Proceso completado

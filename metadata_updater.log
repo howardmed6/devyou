@@ -8120,3 +8120,65 @@ DESCRIPCIÓN: 🔥 El legendario ase...
 2026-07-03 14:07:16,001 - INFO - [SUMMARY] Videos fallidos: 1
 2026-07-03 14:07:16,568 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-07-03 14:07:16,569 - INFO - [FINISH] Proceso completado exitosamente
+2026-07-10 01:52:03,043 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-07-10 01:52:03,043 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-07-10 01:52:03,043 - INFO - [INIT] API Key disponible: Sí
+2026-07-10 01:52:03,043 - INFO - [INIT] Bot Token disponible: Sí
+2026-07-10 01:52:03,043 - INFO - [INIT] Chat ID disponible: Sí
+2026-07-10 01:52:03,044 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-07-10 01:52:03,044 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-07-10 01:52:03,044 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-10 01:52:03,045 - INFO - [JSON] Cargados 116 videos desde data.json
+2026-07-10 01:52:03,045 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2026-07-10 01:52:03,045 - INFO - [PROCESS] Procesando 2 videos...
+2026-07-10 01:52:03,045 - INFO - 
+--- Procesando video 1/2 ---
+2026-07-10 01:52:03,046 - INFO - [VIDEO] Título: Proyecto Final | Tráiler oficial | Netflix
+2026-07-10 01:52:03,046 - INFO - [VIDEO] ID: jmOop0Cm828
+2026-07-10 01:52:03,046 - INFO - [SEARCH] Buscando JSON para: 'Proyecto Final | Tráiler oficial | Netflix'
+2026-07-10 01:52:03,052 - INFO - [SEARCH] Primeras 3 palabras del título: ['proyecto', 'final', 'trailer']
+2026-07-10 01:52:03,052 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-07-10 01:52:03,052 - INFO - [COMPARE] Archivo: Acaramelados _ Avance oficial _ Netflix.json
+2026-07-10 01:52:03,052 - INFO - [COMPARE] Título JSON: 'Acaramelados | Avance oficial | Netflix'
+2026-07-10 01:52:03,052 - INFO - [COMPARE] Primeras 3 palabras JSON: ['acaramelados', 'avance', 'oficial']
+2026-07-10 01:52:03,052 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Proyecto Final | Tráiler oficial | Netflix'
+2026-07-10 01:52:03,052 - ERROR - [ERROR] No se encontró JSON para el video: Proyecto Final | Tráiler oficial | Netflix
+2026-07-10 01:52:03,052 - INFO - 
+--- Procesando video 2/2 ---
+2026-07-10 01:52:03,052 - INFO - [VIDEO] Título: Acaramelados | Avance oficial | Netflix
+2026-07-10 01:52:03,052 - INFO - [VIDEO] ID: 0N_-_NBJTDs
+2026-07-10 01:52:03,053 - INFO - [SEARCH] Buscando JSON para: 'Acaramelados | Avance oficial | Netflix'
+2026-07-10 01:52:03,053 - INFO - [SEARCH] Primeras 3 palabras del título: ['acaramelados', 'avance', 'oficial']
+2026-07-10 01:52:03,053 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-07-10 01:52:03,053 - INFO - [COMPARE] Archivo: Acaramelados _ Avance oficial _ Netflix.json
+2026-07-10 01:52:03,053 - INFO - [COMPARE] Título JSON: 'Acaramelados | Avance oficial | Netflix'
+2026-07-10 01:52:03,053 - INFO - [COMPARE] Primeras 3 palabras JSON: ['acaramelados', 'avance', 'oficial']
+2026-07-10 01:52:03,053 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Acaramelados _ Avance oficial _ Netflix.json
+2026-07-10 01:52:03,053 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-10 01:52:03,053 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-07-10 01:52:03,053 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-07-10 01:52:03,053 - INFO - [API] 🔑 API Key válida: ✅
+2026-07-10 01:52:03,053 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-07-10 01:52:19,793 - INFO - [API] 📊 Código de respuesta: 200
+2026-07-10 01:52:19,793 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-07-10 01:52:19,793 - INFO - [API] 📏 Longitud de respuesta: 2293 caracteres
+2026-07-10 01:52:19,793 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: ACARAMELADOS Tráiler Oficial (2025) | Serie Coreana Netflix
+
+DESCRIPCIÓN: 🎬 ¿Qué pasa cuando...
+2026-07-10 01:52:19,794 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-07-10 01:52:19,795 - INFO - [PARSE] Datos parseados exitosamente:
+2026-07-10 01:52:19,795 - INFO -   - Título: ACARAMELADOS Tráiler Oficial (2025) | Serie Corean...
+2026-07-10 01:52:19,795 - INFO -   - Descripción: 2009 caracteres
+2026-07-10 01:52:19,795 - INFO -   - Tags: 10 elementos
+2026-07-10 01:52:19,795 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-07-10 01:52:19,795 - INFO - [UPDATE] JSON actualizado: Acaramelados _ Avance oficial _ Netflix.json
+2026-07-10 01:52:19,796 - INFO - [JSON] Cargados 116 videos desde data.json
+2026-07-10 01:52:19,796 - INFO - [STATUS] Video 0N_-_NBJTDs actualizado a 'ok'
+2026-07-10 01:52:19,798 - INFO - [JSON] data.json actualizado exitosamente
+2026-07-10 01:52:19,798 - INFO - [SUCCESS] Video 2 procesado exitosamente
+2026-07-10 01:52:19,798 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-07-10 01:52:19,798 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-07-10 01:52:19,798 - INFO - [SUMMARY] Videos fallidos: 1
+2026-07-10 01:52:20,405 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-07-10 01:52:20,406 - INFO - [FINISH] Proceso completado exitosamente
