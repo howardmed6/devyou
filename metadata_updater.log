@@ -8268,3 +8268,65 @@ DESCRIPCIÓN: 🎬 ¿Qué pasa cuando...
 2026-07-11 02:52:42,817 - INFO - [SUMMARY] Videos fallidos: 1
 2026-07-11 02:52:43,237 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-07-11 02:52:43,238 - INFO - [FINISH] Proceso completado exitosamente
+2026-07-11 03:09:04,615 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-07-11 03:09:04,615 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-07-11 03:09:04,615 - INFO - [INIT] API Key disponible: Sí
+2026-07-11 03:09:04,615 - INFO - [INIT] Bot Token disponible: Sí
+2026-07-11 03:09:04,615 - INFO - [INIT] Chat ID disponible: Sí
+2026-07-11 03:09:04,615 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-07-11 03:09:04,615 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-07-11 03:09:04,615 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-11 03:09:04,616 - INFO - [JSON] Cargados 81 videos desde data.json
+2026-07-11 03:09:04,617 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2026-07-11 03:09:04,617 - INFO - [PROCESS] Procesando 2 videos...
+2026-07-11 03:09:04,617 - INFO - 
+--- Procesando video 1/2 ---
+2026-07-11 03:09:04,617 - INFO - [VIDEO] Título: Proyecto Final | Tráiler oficial | Netflix
+2026-07-11 03:09:04,617 - INFO - [VIDEO] ID: jmOop0Cm828
+2026-07-11 03:09:04,617 - INFO - [SEARCH] Buscando JSON para: 'Proyecto Final | Tráiler oficial | Netflix'
+2026-07-11 03:09:04,623 - INFO - [SEARCH] Primeras 3 palabras del título: ['proyecto', 'final', 'trailer']
+2026-07-11 03:09:04,624 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-07-11 03:09:04,624 - INFO - [COMPARE] Archivo: Nada Entre Nosotros _ Tráiler Oficial _ HBO Max.json
+2026-07-11 03:09:04,624 - INFO - [COMPARE] Título JSON: 'Nada Entre Nosotros | Tráiler Oficial | HBO Max'
+2026-07-11 03:09:04,624 - INFO - [COMPARE] Primeras 3 palabras JSON: ['nada', 'entre', 'nosotros']
+2026-07-11 03:09:04,624 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Proyecto Final | Tráiler oficial | Netflix'
+2026-07-11 03:09:04,624 - ERROR - [ERROR] No se encontró JSON para el video: Proyecto Final | Tráiler oficial | Netflix
+2026-07-11 03:09:04,624 - INFO - 
+--- Procesando video 2/2 ---
+2026-07-11 03:09:04,624 - INFO - [VIDEO] Título: Nada Entre Nosotros | Tráiler Oficial | HBO Max
+2026-07-11 03:09:04,625 - INFO - [VIDEO] ID: u6PatgaMDs0
+2026-07-11 03:09:04,625 - INFO - [SEARCH] Buscando JSON para: 'Nada Entre Nosotros | Tráiler Oficial | HBO Max'
+2026-07-11 03:09:04,625 - INFO - [SEARCH] Primeras 3 palabras del título: ['nada', 'entre', 'nosotros']
+2026-07-11 03:09:04,625 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-07-11 03:09:04,625 - INFO - [COMPARE] Archivo: Nada Entre Nosotros _ Tráiler Oficial _ HBO Max.json
+2026-07-11 03:09:04,625 - INFO - [COMPARE] Título JSON: 'Nada Entre Nosotros | Tráiler Oficial | HBO Max'
+2026-07-11 03:09:04,625 - INFO - [COMPARE] Primeras 3 palabras JSON: ['nada', 'entre', 'nosotros']
+2026-07-11 03:09:04,625 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Nada Entre Nosotros _ Tráiler Oficial _ HBO Max.json
+2026-07-11 03:09:04,625 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-11 03:09:04,625 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-07-11 03:09:04,625 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-07-11 03:09:04,625 - INFO - [API] 🔑 API Key válida: ✅
+2026-07-11 03:09:04,626 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-07-11 03:09:21,663 - INFO - [API] 📊 Código de respuesta: 200
+2026-07-11 03:09:21,663 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-07-11 03:09:21,663 - INFO - [API] 📏 Longitud de respuesta: 2243 caracteres
+2026-07-11 03:09:21,663 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: NADA ENTRE NOSOTROS - Tráiler Oficial (2025) | HBO Max
+
+DESCRIPCIÓN: 🎬 Una historia que romp...
+2026-07-11 03:09:21,664 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-07-11 03:09:21,665 - INFO - [PARSE] Datos parseados exitosamente:
+2026-07-11 03:09:21,665 - INFO -   - Título: NADA ENTRE NOSOTROS - Tráiler Oficial (2025) | HBO...
+2026-07-11 03:09:21,665 - INFO -   - Descripción: 1956 caracteres
+2026-07-11 03:09:21,665 - INFO -   - Tags: 10 elementos
+2026-07-11 03:09:21,665 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-07-11 03:09:21,665 - INFO - [UPDATE] JSON actualizado: Nada Entre Nosotros _ Tráiler Oficial _ HBO Max.json
+2026-07-11 03:09:21,666 - INFO - [JSON] Cargados 81 videos desde data.json
+2026-07-11 03:09:21,666 - INFO - [STATUS] Video u6PatgaMDs0 actualizado a 'ok'
+2026-07-11 03:09:21,667 - INFO - [JSON] data.json actualizado exitosamente
+2026-07-11 03:09:21,667 - INFO - [SUCCESS] Video 2 procesado exitosamente
+2026-07-11 03:09:21,667 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-07-11 03:09:21,668 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-07-11 03:09:21,668 - INFO - [SUMMARY] Videos fallidos: 1
+2026-07-11 03:09:22,213 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-07-11 03:09:22,214 - INFO - [FINISH] Proceso completado exitosamente
