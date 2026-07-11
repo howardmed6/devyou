@@ -2021,3 +2021,17 @@
 2026-07-10 01:52:28,811 - INFO - [FINISH] Proceso completado
 2026-07-11 02:39:40,619 - INFO - [PROCESS] No hay videos listos para subir
 2026-07-11 02:39:41,043 - INFO - [FINISH] Proceso completado
+2026-07-11 02:52:43,659 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-07-11 02:52:44,079 - INFO - [UPLOAD] Procesando: Sterling Point - Tráiler Oficial | Prime Video
+2026-07-11 02:52:44,079 - INFO - [SEARCH] Buscando archivos para: 'Sterling Point - Tráiler Oficial | Prime Video'
+2026-07-11 02:52:44,080 - INFO - [SEARCH] Palabras clave: ['sterling', 'point', '-']
+2026-07-11 02:52:44,080 - INFO - [FILES] JSON: Sterling Point - Tráiler Oficial _ Prime Video.json
+2026-07-11 02:52:44,080 - INFO - [FILES] Video: Sterling Point - Tráiler Oficial _ Prime Video(1080P_HD).mp4
+2026-07-11 02:52:44,080 - INFO - [FILES] Thumbnail: Sterling Point - Tráiler Oficial _ Prime Video(1080P_HD).jpg
+2026-07-11 02:52:44,097 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-07-11 02:52:44,260 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-07-11 02:52:46,237 - INFO - [YOUTUBE] Video subido: MVbV8vd2TRE
+2026-07-11 02:52:48,146 - INFO - [YOUTUBE] Thumbnail subido
+2026-07-11 02:52:48,151 - INFO - [CLEANUP] Archivos eliminados: 7PGAVCQFSf4
+2026-07-11 02:52:51,006 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-07-11 02:52:51,006 - INFO - [FINISH] Proceso completado

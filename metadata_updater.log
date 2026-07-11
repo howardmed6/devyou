@@ -8208,3 +8208,63 @@ DESCRIPCIÓN: 🎬 ¿Qué pasa cuando...
 2026-07-11 02:39:39,773 - INFO - [SUMMARY] Videos fallidos: 1
 2026-07-11 02:39:40,187 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-07-11 02:39:40,188 - INFO - [FINISH] Proceso completado exitosamente
+2026-07-11 02:52:26,893 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-07-11 02:52:26,893 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-07-11 02:52:26,893 - INFO - [INIT] API Key disponible: Sí
+2026-07-11 02:52:26,893 - INFO - [INIT] Bot Token disponible: Sí
+2026-07-11 02:52:26,893 - INFO - [INIT] Chat ID disponible: Sí
+2026-07-11 02:52:26,893 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-07-11 02:52:26,893 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-07-11 02:52:26,893 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-11 02:52:26,894 - INFO - [JSON] Cargados 81 videos desde data.json
+2026-07-11 02:52:26,895 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2026-07-11 02:52:26,895 - INFO - [PROCESS] Procesando 2 videos...
+2026-07-11 02:52:26,895 - INFO - 
+--- Procesando video 1/2 ---
+2026-07-11 02:52:26,895 - INFO - [VIDEO] Título: Proyecto Final | Tráiler oficial | Netflix
+2026-07-11 02:52:26,895 - INFO - [VIDEO] ID: jmOop0Cm828
+2026-07-11 02:52:26,895 - INFO - [SEARCH] Buscando JSON para: 'Proyecto Final | Tráiler oficial | Netflix'
+2026-07-11 02:52:26,895 - INFO - [SEARCH] Primeras 3 palabras del título: ['proyecto', 'final', 'trailer']
+2026-07-11 02:52:26,896 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-07-11 02:52:26,896 - INFO - [COMPARE] Archivo: Sterling Point - Tráiler Oficial _ Prime Video.json
+2026-07-11 02:52:26,896 - INFO - [COMPARE] Título JSON: 'Sterling Point - Tráiler Oficial | Prime Video'
+2026-07-11 02:52:26,896 - INFO - [COMPARE] Primeras 3 palabras JSON: ['sterling', 'point', 'trailer']
+2026-07-11 02:52:26,896 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Proyecto Final | Tráiler oficial | Netflix'
+2026-07-11 02:52:26,896 - ERROR - [ERROR] No se encontró JSON para el video: Proyecto Final | Tráiler oficial | Netflix
+2026-07-11 02:52:26,896 - INFO - 
+--- Procesando video 2/2 ---
+2026-07-11 02:52:26,896 - INFO - [VIDEO] Título: Sterling Point - Tráiler Oficial | Prime Video
+2026-07-11 02:52:26,896 - INFO - [VIDEO] ID: 7PGAVCQFSf4
+2026-07-11 02:52:26,896 - INFO - [SEARCH] Buscando JSON para: 'Sterling Point - Tráiler Oficial | Prime Video'
+2026-07-11 02:52:26,896 - INFO - [SEARCH] Primeras 3 palabras del título: ['sterling', 'point', 'trailer']
+2026-07-11 02:52:26,896 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-07-11 02:52:26,896 - INFO - [COMPARE] Archivo: Sterling Point - Tráiler Oficial _ Prime Video.json
+2026-07-11 02:52:26,896 - INFO - [COMPARE] Título JSON: 'Sterling Point - Tráiler Oficial | Prime Video'
+2026-07-11 02:52:26,896 - INFO - [COMPARE] Primeras 3 palabras JSON: ['sterling', 'point', 'trailer']
+2026-07-11 02:52:26,896 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Sterling Point - Tráiler Oficial _ Prime Video.json
+2026-07-11 02:52:26,896 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-11 02:52:26,897 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-07-11 02:52:26,897 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-07-11 02:52:26,897 - INFO - [API] 🔑 API Key válida: ✅
+2026-07-11 02:52:26,897 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-07-11 02:52:42,812 - INFO - [API] 📊 Código de respuesta: 200
+2026-07-11 02:52:42,812 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-07-11 02:52:42,812 - INFO - [API] 📏 Longitud de respuesta: 2307 caracteres
+2026-07-11 02:52:42,812 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: STERLING POINT Tráiler Oficial (2025) | La Nueva Serie de Prime Video que Te Dejará Sin Pala...
+2026-07-11 02:52:42,813 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-07-11 02:52:42,814 - INFO - [PARSE] Datos parseados exitosamente:
+2026-07-11 02:52:42,814 - INFO -   - Título: STERLING POINT Tráiler Oficial (2025) | La Nueva S...
+2026-07-11 02:52:42,814 - INFO -   - Descripción: 1947 caracteres
+2026-07-11 02:52:42,814 - INFO -   - Tags: 10 elementos
+2026-07-11 02:52:42,814 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-07-11 02:52:42,815 - INFO - [UPDATE] JSON actualizado: Sterling Point - Tráiler Oficial _ Prime Video.json
+2026-07-11 02:52:42,815 - INFO - [JSON] Cargados 81 videos desde data.json
+2026-07-11 02:52:42,815 - INFO - [STATUS] Video 7PGAVCQFSf4 actualizado a 'ok'
+2026-07-11 02:52:42,817 - INFO - [JSON] data.json actualizado exitosamente
+2026-07-11 02:52:42,817 - INFO - [SUCCESS] Video 2 procesado exitosamente
+2026-07-11 02:52:42,817 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-07-11 02:52:42,817 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-07-11 02:52:42,817 - INFO - [SUMMARY] Videos fallidos: 1
+2026-07-11 02:52:43,237 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-07-11 02:52:43,238 - INFO - [FINISH] Proceso completado exitosamente
