@@ -8330,3 +8330,29 @@ DESCRIPCIÓN: 🎬 Una historia que romp...
 2026-07-11 03:09:21,668 - INFO - [SUMMARY] Videos fallidos: 1
 2026-07-11 03:09:22,213 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-07-11 03:09:22,214 - INFO - [FINISH] Proceso completado exitosamente
+2026-07-13 14:18:45,191 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-07-13 14:18:45,191 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-07-13 14:18:45,191 - INFO - [INIT] API Key disponible: Sí
+2026-07-13 14:18:45,191 - INFO - [INIT] Bot Token disponible: Sí
+2026-07-13 14:18:45,191 - INFO - [INIT] Chat ID disponible: Sí
+2026-07-13 14:18:45,191 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-07-13 14:18:45,191 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-07-13 14:18:45,191 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-13 14:18:45,192 - INFO - [JSON] Cargados 102 videos desde data.json
+2026-07-13 14:18:45,192 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-07-13 14:18:45,192 - INFO - [PROCESS] Procesando 1 videos...
+2026-07-13 14:18:45,192 - INFO - 
+--- Procesando video 1/1 ---
+2026-07-13 14:18:45,192 - INFO - [VIDEO] Título: Proyecto Final | Tráiler oficial | Netflix
+2026-07-13 14:18:45,192 - INFO - [VIDEO] ID: jmOop0Cm828
+2026-07-13 14:18:45,193 - INFO - [SEARCH] Buscando JSON para: 'Proyecto Final | Tráiler oficial | Netflix'
+2026-07-13 14:18:45,198 - INFO - [SEARCH] Primeras 3 palabras del título: ['proyecto', 'final', 'trailer']
+2026-07-13 14:18:45,198 - INFO - [SEARCH] Encontrados 0 archivos JSON en uploadable
+2026-07-13 14:18:45,198 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Proyecto Final | Tráiler oficial | Netflix'
+2026-07-13 14:18:45,198 - ERROR - [ERROR] No se encontró JSON para el video: Proyecto Final | Tráiler oficial | Netflix
+2026-07-13 14:18:45,199 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-07-13 14:18:45,199 - INFO - [SUMMARY] Videos procesados exitosamente: 0
+2026-07-13 14:18:45,199 - INFO - [SUMMARY] Videos fallidos: 1
+2026-07-13 14:18:45,645 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-07-13 14:18:45,646 - INFO - [FINISH] Proceso completado exitosamente
