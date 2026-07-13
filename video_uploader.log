@@ -2067,3 +2067,17 @@
 2026-07-13 21:40:11,391 - INFO - [CLEANUP] Archivos eliminados: u_ptJSr1uYo
 2026-07-13 21:40:14,640 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-07-13 21:40:14,640 - INFO - [FINISH] Proceso completado
+2026-07-13 21:49:41,976 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-07-13 21:49:42,737 - INFO - [UPLOAD] Procesando: Carrera De Bestias - Tráiler Oficial I Prime Video
+2026-07-13 21:49:42,737 - INFO - [SEARCH] Buscando archivos para: 'Carrera De Bestias - Tráiler Oficial I Prime Video'
+2026-07-13 21:49:42,737 - INFO - [SEARCH] Palabras clave: ['carrera', 'de', 'bestias']
+2026-07-13 21:49:42,738 - INFO - [FILES] JSON: Carrera De Bestias - Tráiler Oficial I Prime Video.json
+2026-07-13 21:49:42,738 - INFO - [FILES] Video: Carrera De Bestias - Tráiler Oficial I Prime Video(1080P_HD).mp4
+2026-07-13 21:49:42,738 - INFO - [FILES] Thumbnail: Carrera De Bestias - Tráiler Oficial I Prime Video(1080P_HD).jpg
+2026-07-13 21:49:42,756 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-07-13 21:49:42,856 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-07-13 21:49:44,703 - INFO - [YOUTUBE] Video subido: 5qW7IJpw0Gg
+2026-07-13 21:49:47,810 - INFO - [YOUTUBE] Thumbnail subido
+2026-07-13 21:49:47,814 - INFO - [CLEANUP] Archivos eliminados: msCY2XlemOo
+2026-07-13 21:49:51,035 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-07-13 21:49:51,036 - INFO - [FINISH] Proceso completado

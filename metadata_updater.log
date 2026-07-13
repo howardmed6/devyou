@@ -8444,3 +8444,65 @@ DESCRIPCIÓN: 🎬 Una caravana...
 2026-07-13 21:40:03,445 - INFO - [SUMMARY] Videos fallidos: 1
 2026-07-13 21:40:04,055 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-07-13 21:40:04,056 - INFO - [FINISH] Proceso completado exitosamente
+2026-07-13 21:49:24,993 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-07-13 21:49:24,993 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-07-13 21:49:24,994 - INFO - [INIT] API Key disponible: Sí
+2026-07-13 21:49:24,994 - INFO - [INIT] Bot Token disponible: Sí
+2026-07-13 21:49:24,994 - INFO - [INIT] Chat ID disponible: Sí
+2026-07-13 21:49:24,994 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-07-13 21:49:24,994 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-07-13 21:49:24,994 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-13 21:49:24,995 - INFO - [JSON] Cargados 83 videos desde data.json
+2026-07-13 21:49:24,995 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2026-07-13 21:49:24,995 - INFO - [PROCESS] Procesando 2 videos...
+2026-07-13 21:49:24,995 - INFO - 
+--- Procesando video 1/2 ---
+2026-07-13 21:49:24,995 - INFO - [VIDEO] Título: Proyecto Final | Tráiler oficial | Netflix
+2026-07-13 21:49:24,995 - INFO - [VIDEO] ID: jmOop0Cm828
+2026-07-13 21:49:24,995 - INFO - [SEARCH] Buscando JSON para: 'Proyecto Final | Tráiler oficial | Netflix'
+2026-07-13 21:49:25,004 - INFO - [SEARCH] Primeras 3 palabras del título: ['proyecto', 'final', 'trailer']
+2026-07-13 21:49:25,004 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-07-13 21:49:25,005 - INFO - [COMPARE] Archivo: Carrera De Bestias - Tráiler Oficial I Prime Video.json
+2026-07-13 21:49:25,005 - INFO - [COMPARE] Título JSON: 'Carrera De Bestias - Tráiler Oficial I Prime Video'
+2026-07-13 21:49:25,005 - INFO - [COMPARE] Primeras 3 palabras JSON: ['carrera', 'bestias', 'trailer']
+2026-07-13 21:49:25,005 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Proyecto Final | Tráiler oficial | Netflix'
+2026-07-13 21:49:25,005 - ERROR - [ERROR] No se encontró JSON para el video: Proyecto Final | Tráiler oficial | Netflix
+2026-07-13 21:49:25,005 - INFO - 
+--- Procesando video 2/2 ---
+2026-07-13 21:49:25,005 - INFO - [VIDEO] Título: Carrera De Bestias - Tráiler Oficial I Prime Video
+2026-07-13 21:49:25,005 - INFO - [VIDEO] ID: msCY2XlemOo
+2026-07-13 21:49:25,005 - INFO - [SEARCH] Buscando JSON para: 'Carrera De Bestias - Tráiler Oficial I Prime Video'
+2026-07-13 21:49:25,005 - INFO - [SEARCH] Primeras 3 palabras del título: ['carrera', 'bestias', 'trailer']
+2026-07-13 21:49:25,005 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-07-13 21:49:25,006 - INFO - [COMPARE] Archivo: Carrera De Bestias - Tráiler Oficial I Prime Video.json
+2026-07-13 21:49:25,006 - INFO - [COMPARE] Título JSON: 'Carrera De Bestias - Tráiler Oficial I Prime Video'
+2026-07-13 21:49:25,006 - INFO - [COMPARE] Primeras 3 palabras JSON: ['carrera', 'bestias', 'trailer']
+2026-07-13 21:49:25,006 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Carrera De Bestias - Tráiler Oficial I Prime Video.json
+2026-07-13 21:49:25,006 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-13 21:49:25,006 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-07-13 21:49:25,006 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-07-13 21:49:25,006 - INFO - [API] 🔑 API Key válida: ✅
+2026-07-13 21:49:25,006 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-07-13 21:49:40,990 - INFO - [API] 📊 Código de respuesta: 200
+2026-07-13 21:49:40,990 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-07-13 21:49:40,990 - INFO - [API] 📏 Longitud de respuesta: 2183 caracteres
+2026-07-13 21:49:40,990 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: CARRERA DE BESTIAS - Tráiler Oficial (2025) | Prime Video
+
+DESCRIPCIÓN: 🎬 ¡El juego más peli...
+2026-07-13 21:49:40,991 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-07-13 21:49:40,992 - INFO - [PARSE] Datos parseados exitosamente:
+2026-07-13 21:49:40,992 - INFO -   - Título: CARRERA DE BESTIAS - Tráiler Oficial (2025) | Prim...
+2026-07-13 21:49:40,992 - INFO -   - Descripción: 1884 caracteres
+2026-07-13 21:49:40,992 - INFO -   - Tags: 10 elementos
+2026-07-13 21:49:40,992 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-07-13 21:49:40,992 - INFO - [UPDATE] JSON actualizado: Carrera De Bestias - Tráiler Oficial I Prime Video.json
+2026-07-13 21:49:40,993 - INFO - [JSON] Cargados 83 videos desde data.json
+2026-07-13 21:49:40,993 - INFO - [STATUS] Video msCY2XlemOo actualizado a 'ok'
+2026-07-13 21:49:40,995 - INFO - [JSON] data.json actualizado exitosamente
+2026-07-13 21:49:40,995 - INFO - [SUCCESS] Video 2 procesado exitosamente
+2026-07-13 21:49:40,995 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-07-13 21:49:40,995 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-07-13 21:49:40,995 - INFO - [SUMMARY] Videos fallidos: 1
+2026-07-13 21:49:41,610 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-07-13 21:49:41,611 - INFO - [FINISH] Proceso completado exitosamente
