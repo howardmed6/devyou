@@ -2053,3 +2053,17 @@
 2026-07-13 14:18:46,498 - INFO - [FINISH] Proceso completado
 2026-07-13 18:21:41,887 - INFO - [PROCESS] No hay videos listos para subir
 2026-07-13 18:21:43,339 - INFO - [FINISH] Proceso completado
+2026-07-13 21:40:04,496 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-07-13 21:40:05,106 - INFO - [UPLOAD] Procesando: Toda la verdad de mis mentiras | Tráiler oficial | Netflix
+2026-07-13 21:40:05,107 - INFO - [SEARCH] Buscando archivos para: 'Toda la verdad de mis mentiras | Tráiler oficial | Netflix'
+2026-07-13 21:40:05,107 - INFO - [SEARCH] Palabras clave: ['toda', 'la', 'verdad']
+2026-07-13 21:40:05,107 - INFO - [FILES] JSON: Toda la verdad de mis mentiras _ Tráiler oficial _ Netflix.json
+2026-07-13 21:40:05,107 - INFO - [FILES] Video: Toda la verdad de mis mentiras _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-07-13 21:40:05,107 - INFO - [FILES] Thumbnail: Toda la verdad de mis mentiras _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-07-13 21:40:05,116 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-07-13 21:40:05,297 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-07-13 21:40:07,594 - INFO - [YOUTUBE] Video subido: 4LLEpB1YS2w
+2026-07-13 21:40:11,387 - INFO - [YOUTUBE] Thumbnail subido
+2026-07-13 21:40:11,391 - INFO - [CLEANUP] Archivos eliminados: u_ptJSr1uYo
+2026-07-13 21:40:14,640 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-07-13 21:40:14,640 - INFO - [FINISH] Proceso completado
