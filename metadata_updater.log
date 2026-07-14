@@ -8506,3 +8506,65 @@ DESCRIPCIÓN: 🎬 ¡El juego más peli...
 2026-07-13 21:49:40,995 - INFO - [SUMMARY] Videos fallidos: 1
 2026-07-13 21:49:41,610 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-07-13 21:49:41,611 - INFO - [FINISH] Proceso completado exitosamente
+2026-07-14 13:38:09,491 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-07-14 13:38:09,491 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-07-14 13:38:09,491 - INFO - [INIT] API Key disponible: Sí
+2026-07-14 13:38:09,491 - INFO - [INIT] Bot Token disponible: Sí
+2026-07-14 13:38:09,491 - INFO - [INIT] Chat ID disponible: Sí
+2026-07-14 13:38:09,491 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-07-14 13:38:09,491 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-07-14 13:38:09,491 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-14 13:38:09,492 - INFO - [JSON] Cargados 86 videos desde data.json
+2026-07-14 13:38:09,492 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2026-07-14 13:38:09,492 - INFO - [PROCESS] Procesando 2 videos...
+2026-07-14 13:38:09,492 - INFO - 
+--- Procesando video 1/2 ---
+2026-07-14 13:38:09,492 - INFO - [VIDEO] Título: Proyecto Final | Tráiler oficial | Netflix
+2026-07-14 13:38:09,492 - INFO - [VIDEO] ID: jmOop0Cm828
+2026-07-14 13:38:09,493 - INFO - [SEARCH] Buscando JSON para: 'Proyecto Final | Tráiler oficial | Netflix'
+2026-07-14 13:38:09,501 - INFO - [SEARCH] Primeras 3 palabras del título: ['proyecto', 'final', 'trailer']
+2026-07-14 13:38:09,501 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-07-14 13:38:09,501 - INFO - [COMPARE] Archivo: Susurran tu nombre _ Tráiler oficial _ Netflix.json
+2026-07-14 13:38:09,501 - INFO - [COMPARE] Título JSON: 'Susurran tu nombre | Tráiler oficial | Netflix'
+2026-07-14 13:38:09,502 - INFO - [COMPARE] Primeras 3 palabras JSON: ['susurran', 'nombre', 'trailer']
+2026-07-14 13:38:09,502 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Proyecto Final | Tráiler oficial | Netflix'
+2026-07-14 13:38:09,502 - ERROR - [ERROR] No se encontró JSON para el video: Proyecto Final | Tráiler oficial | Netflix
+2026-07-14 13:38:09,502 - INFO - 
+--- Procesando video 2/2 ---
+2026-07-14 13:38:09,502 - INFO - [VIDEO] Título: Susurran tu nombre | Tráiler oficial | Netflix
+2026-07-14 13:38:09,502 - INFO - [VIDEO] ID: EiGvFiCUXRo
+2026-07-14 13:38:09,502 - INFO - [SEARCH] Buscando JSON para: 'Susurran tu nombre | Tráiler oficial | Netflix'
+2026-07-14 13:38:09,502 - INFO - [SEARCH] Primeras 3 palabras del título: ['susurran', 'nombre', 'trailer']
+2026-07-14 13:38:09,502 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-07-14 13:38:09,502 - INFO - [COMPARE] Archivo: Susurran tu nombre _ Tráiler oficial _ Netflix.json
+2026-07-14 13:38:09,502 - INFO - [COMPARE] Título JSON: 'Susurran tu nombre | Tráiler oficial | Netflix'
+2026-07-14 13:38:09,503 - INFO - [COMPARE] Primeras 3 palabras JSON: ['susurran', 'nombre', 'trailer']
+2026-07-14 13:38:09,503 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: Susurran tu nombre _ Tráiler oficial _ Netflix.json
+2026-07-14 13:38:09,503 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-14 13:38:09,503 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-07-14 13:38:09,503 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-07-14 13:38:09,503 - INFO - [API] 🔑 API Key válida: ✅
+2026-07-14 13:38:09,503 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-07-14 13:38:26,451 - INFO - [API] 📊 Código de respuesta: 200
+2026-07-14 13:38:26,451 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-07-14 13:38:26,452 - INFO - [API] 📏 Longitud de respuesta: 2664 caracteres
+2026-07-14 13:38:26,452 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: SUSURRAN TU NOMBRE Tráiler Oficial (2025) | Netflix
+
+DESCRIPCIÓN: 🎬 Algunos secretos nunca m...
+2026-07-14 13:38:26,453 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-07-14 13:38:26,453 - INFO - [PARSE] Datos parseados exitosamente:
+2026-07-14 13:38:26,453 - INFO -   - Título: SUSURRAN TU NOMBRE Tráiler Oficial (2025) | Netfli...
+2026-07-14 13:38:26,454 - INFO -   - Descripción: 2405 caracteres
+2026-07-14 13:38:26,454 - INFO -   - Tags: 10 elementos
+2026-07-14 13:38:26,454 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-07-14 13:38:26,454 - INFO - [UPDATE] JSON actualizado: Susurran tu nombre _ Tráiler oficial _ Netflix.json
+2026-07-14 13:38:26,455 - INFO - [JSON] Cargados 86 videos desde data.json
+2026-07-14 13:38:26,455 - INFO - [STATUS] Video EiGvFiCUXRo actualizado a 'ok'
+2026-07-14 13:38:26,456 - INFO - [JSON] data.json actualizado exitosamente
+2026-07-14 13:38:26,456 - INFO - [SUCCESS] Video 2 procesado exitosamente
+2026-07-14 13:38:26,456 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-07-14 13:38:26,456 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-07-14 13:38:26,456 - INFO - [SUMMARY] Videos fallidos: 1
+2026-07-14 13:38:27,072 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-07-14 13:38:27,073 - INFO - [FINISH] Proceso completado exitosamente

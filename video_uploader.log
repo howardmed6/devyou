@@ -2081,3 +2081,17 @@
 2026-07-13 21:49:47,814 - INFO - [CLEANUP] Archivos eliminados: msCY2XlemOo
 2026-07-13 21:49:51,035 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-07-13 21:49:51,036 - INFO - [FINISH] Proceso completado
+2026-07-14 13:38:27,524 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-07-14 13:38:28,138 - INFO - [UPLOAD] Procesando: Susurran tu nombre | Tráiler oficial | Netflix
+2026-07-14 13:38:28,139 - INFO - [SEARCH] Buscando archivos para: 'Susurran tu nombre | Tráiler oficial | Netflix'
+2026-07-14 13:38:28,139 - INFO - [SEARCH] Palabras clave: ['susurran', 'tu', 'nombre']
+2026-07-14 13:38:28,139 - INFO - [FILES] JSON: Susurran tu nombre _ Tráiler oficial _ Netflix.json
+2026-07-14 13:38:28,139 - INFO - [FILES] Video: Susurran tu nombre _ Tráiler oficial _ Netflix(1080P_HD).mp4
+2026-07-14 13:38:28,139 - INFO - [FILES] Thumbnail: Susurran tu nombre _ Tráiler oficial _ Netflix(1080P_HD).jpg
+2026-07-14 13:38:28,158 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-07-14 13:38:28,248 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-07-14 13:38:30,668 - INFO - [YOUTUBE] Video subido: WhTpKqyIEJM
+2026-07-14 13:38:34,680 - INFO - [YOUTUBE] Thumbnail subido
+2026-07-14 13:38:34,684 - INFO - [CLEANUP] Archivos eliminados: EiGvFiCUXRo
+2026-07-14 13:38:37,922 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-07-14 13:38:37,923 - INFO - [FINISH] Proceso completado
