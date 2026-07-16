@@ -8568,3 +8568,65 @@ DESCRIPCIÓN: 🎬 Algunos secretos nunca m...
 2026-07-14 13:38:26,456 - INFO - [SUMMARY] Videos fallidos: 1
 2026-07-14 13:38:27,072 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-07-14 13:38:27,073 - INFO - [FINISH] Proceso completado exitosamente
+2026-07-16 00:55:27,923 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-07-16 00:55:27,923 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-07-16 00:55:27,923 - INFO - [INIT] API Key disponible: Sí
+2026-07-16 00:55:27,923 - INFO - [INIT] Bot Token disponible: Sí
+2026-07-16 00:55:27,923 - INFO - [INIT] Chat ID disponible: Sí
+2026-07-16 00:55:27,923 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-07-16 00:55:27,923 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-07-16 00:55:27,923 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-16 00:55:27,924 - INFO - [JSON] Cargados 106 videos desde data.json
+2026-07-16 00:55:27,924 - INFO - [FILTER] Encontrados 2 videos con estado 'edited'
+2026-07-16 00:55:27,924 - INFO - [PROCESS] Procesando 2 videos...
+2026-07-16 00:55:27,925 - INFO - 
+--- Procesando video 1/2 ---
+2026-07-16 00:55:27,925 - INFO - [VIDEO] Título: Proyecto Final | Tráiler oficial | Netflix
+2026-07-16 00:55:27,925 - INFO - [VIDEO] ID: jmOop0Cm828
+2026-07-16 00:55:27,925 - INFO - [SEARCH] Buscando JSON para: 'Proyecto Final | Tráiler oficial | Netflix'
+2026-07-16 00:55:27,932 - INFO - [SEARCH] Primeras 3 palabras del título: ['proyecto', 'final', 'trailer']
+2026-07-16 00:55:27,932 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-07-16 00:55:27,932 - INFO - [COMPARE] Archivo: LA CONSTELACIÓN DEL PERRO Tráiler 2 Español (2026) Josh Brolin.json
+2026-07-16 00:55:27,932 - INFO - [COMPARE] Título JSON: 'LA CONSTELACIÓN DEL PERRO Tráiler 2 Español (2026) Josh Brolin'
+2026-07-16 00:55:27,932 - INFO - [COMPARE] Primeras 3 palabras JSON: ['constelacion', 'del', 'perro']
+2026-07-16 00:55:27,933 - WARNING - [NOT FOUND] No se encontró JSON con coincidencia exacta para: 'Proyecto Final | Tráiler oficial | Netflix'
+2026-07-16 00:55:27,933 - ERROR - [ERROR] No se encontró JSON para el video: Proyecto Final | Tráiler oficial | Netflix
+2026-07-16 00:55:27,933 - INFO - 
+--- Procesando video 2/2 ---
+2026-07-16 00:55:27,933 - INFO - [VIDEO] Título: LA CONSTELACIÓN DEL PERRO Tráiler 2 Español (2026) Josh Brolin
+2026-07-16 00:55:27,933 - INFO - [VIDEO] ID: nUIbw52nVL4
+2026-07-16 00:55:27,933 - INFO - [SEARCH] Buscando JSON para: 'LA CONSTELACIÓN DEL PERRO Tráiler 2 Español (2026) Josh Brolin'
+2026-07-16 00:55:27,933 - INFO - [SEARCH] Primeras 3 palabras del título: ['constelacion', 'del', 'perro']
+2026-07-16 00:55:27,933 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-07-16 00:55:27,933 - INFO - [COMPARE] Archivo: LA CONSTELACIÓN DEL PERRO Tráiler 2 Español (2026) Josh Brolin.json
+2026-07-16 00:55:27,933 - INFO - [COMPARE] Título JSON: 'LA CONSTELACIÓN DEL PERRO Tráiler 2 Español (2026) Josh Brolin'
+2026-07-16 00:55:27,933 - INFO - [COMPARE] Primeras 3 palabras JSON: ['constelacion', 'del', 'perro']
+2026-07-16 00:55:27,933 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: LA CONSTELACIÓN DEL PERRO Tráiler 2 Español (2026) Josh Brolin.json
+2026-07-16 00:55:27,933 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-16 00:55:27,934 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-07-16 00:55:27,934 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-07-16 00:55:27,934 - INFO - [API] 🔑 API Key válida: ✅
+2026-07-16 00:55:27,934 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-07-16 00:55:44,631 - INFO - [API] 📊 Código de respuesta: 200
+2026-07-16 00:55:44,631 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-07-16 00:55:44,631 - INFO - [API] 📏 Longitud de respuesta: 2244 caracteres
+2026-07-16 00:55:44,631 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: LA CONSTELACIÓN DEL PERRO Tráiler 2 Oficial en Español (2026)
+
+DESCRIPCIÓN: 🎬 ¡El mundo tal ...
+2026-07-16 00:55:44,632 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-07-16 00:55:44,633 - INFO - [PARSE] Datos parseados exitosamente:
+2026-07-16 00:55:44,633 - INFO -   - Título: LA CONSTELACIÓN DEL PERRO Tráiler 2 Oficial en Esp...
+2026-07-16 00:55:44,633 - INFO -   - Descripción: 1971 caracteres
+2026-07-16 00:55:44,633 - INFO -   - Tags: 10 elementos
+2026-07-16 00:55:44,633 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-07-16 00:55:44,633 - INFO - [UPDATE] JSON actualizado: LA CONSTELACIÓN DEL PERRO Tráiler 2 Español (2026) Josh Brolin.json
+2026-07-16 00:55:44,634 - INFO - [JSON] Cargados 106 videos desde data.json
+2026-07-16 00:55:44,634 - INFO - [STATUS] Video nUIbw52nVL4 actualizado a 'ok'
+2026-07-16 00:55:44,636 - INFO - [JSON] data.json actualizado exitosamente
+2026-07-16 00:55:44,636 - INFO - [SUCCESS] Video 2 procesado exitosamente
+2026-07-16 00:55:44,636 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-07-16 00:55:44,636 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-07-16 00:55:44,636 - INFO - [SUMMARY] Videos fallidos: 1
+2026-07-16 00:55:45,059 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-07-16 00:55:45,060 - INFO - [FINISH] Proceso completado exitosamente

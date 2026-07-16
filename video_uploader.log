@@ -2095,3 +2095,17 @@
 2026-07-14 13:38:34,684 - INFO - [CLEANUP] Archivos eliminados: EiGvFiCUXRo
 2026-07-14 13:38:37,922 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-07-14 13:38:37,923 - INFO - [FINISH] Proceso completado
+2026-07-16 00:55:45,501 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-07-16 00:55:45,941 - INFO - [UPLOAD] Procesando: LA CONSTELACIÓN DEL PERRO Tráiler 2 Español (2026) Josh Brolin
+2026-07-16 00:55:45,942 - INFO - [SEARCH] Buscando archivos para: 'LA CONSTELACIÓN DEL PERRO Tráiler 2 Español (2026) Josh Brolin'
+2026-07-16 00:55:45,942 - INFO - [SEARCH] Palabras clave: ['la', 'constelacion', 'del']
+2026-07-16 00:55:45,942 - INFO - [FILES] JSON: LA CONSTELACIÓN DEL PERRO Tráiler 2 Español (2026) Josh Brolin.json
+2026-07-16 00:55:45,942 - INFO - [FILES] Video: LA CONSTELACIÓN DEL PERRO Tráiler 2 Español (2026) Josh Brolin(1080P_HD).mp4
+2026-07-16 00:55:45,942 - INFO - [FILES] Thumbnail: LA CONSTELACIÓN DEL PERRO Tráiler 2 Español (2026) Josh Brolin(1080P_HD).jpg
+2026-07-16 00:55:45,958 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-07-16 00:55:46,054 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-07-16 00:55:48,083 - INFO - [YOUTUBE] Video subido: 5ZY5z4GjfWE
+2026-07-16 00:55:49,942 - INFO - [YOUTUBE] Thumbnail subido
+2026-07-16 00:55:49,946 - INFO - [CLEANUP] Archivos eliminados: nUIbw52nVL4
+2026-07-16 00:55:52,809 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-07-16 00:55:52,809 - INFO - [FINISH] Proceso completado
