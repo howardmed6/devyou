@@ -2109,3 +2109,17 @@
 2026-07-16 00:55:49,946 - INFO - [CLEANUP] Archivos eliminados: nUIbw52nVL4
 2026-07-16 00:55:52,809 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-07-16 00:55:52,809 - INFO - [FINISH] Proceso completado
+2026-07-17 02:17:02,284 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-07-17 02:17:02,879 - INFO - [UPLOAD] Procesando: EL ULTIMO GRAN GOLPE Tráiler Español Latino (2026) Russell Crowe
+2026-07-17 02:17:02,879 - INFO - [SEARCH] Buscando archivos para: 'EL ULTIMO GRAN GOLPE Tráiler Español Latino (2026) Russell Crowe'
+2026-07-17 02:17:02,879 - INFO - [SEARCH] Palabras clave: ['el', 'ultimo', 'gran']
+2026-07-17 02:17:02,879 - INFO - [FILES] JSON: EL ULTIMO GRAN GOLPE Tráiler Español Latino Doblado (2026) Russell Crowe.json
+2026-07-17 02:17:02,879 - INFO - [FILES] Video: EL ULTIMO GRAN GOLPE Tráiler Español Latino Doblado (2026) Russell Crowe(1080P_HD).mp4
+2026-07-17 02:17:02,880 - INFO - [FILES] Thumbnail: EL ULTIMO GRAN GOLPE Tráiler Español Latino Doblado (2026) Russell Crowe(1080P_HD).jpg
+2026-07-17 02:17:02,895 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-07-17 02:17:02,984 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-07-17 02:17:05,156 - INFO - [YOUTUBE] Video subido: Z4BAuVj6ovA
+2026-07-17 02:17:07,461 - INFO - [YOUTUBE] Thumbnail subido
+2026-07-17 02:17:07,465 - INFO - [CLEANUP] Archivos eliminados: 0L7cWLoTUj8
+2026-07-17 02:17:10,723 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-07-17 02:17:10,723 - INFO - [FINISH] Proceso completado

@@ -8630,3 +8630,53 @@ DESCRIPCIÓN: 🎬 ¡El mundo tal ...
 2026-07-16 00:55:44,636 - INFO - [SUMMARY] Videos fallidos: 1
 2026-07-16 00:55:45,059 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-07-16 00:55:45,060 - INFO - [FINISH] Proceso completado exitosamente
+2026-07-17 02:16:46,925 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-07-17 02:16:46,925 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-07-17 02:16:46,925 - INFO - [INIT] API Key disponible: Sí
+2026-07-17 02:16:46,925 - INFO - [INIT] Bot Token disponible: Sí
+2026-07-17 02:16:46,925 - INFO - [INIT] Chat ID disponible: Sí
+2026-07-17 02:16:46,925 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-07-17 02:16:46,925 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-07-17 02:16:46,925 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-17 02:16:46,926 - INFO - [JSON] Cargados 91 videos desde data.json
+2026-07-17 02:16:46,926 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-07-17 02:16:46,926 - INFO - [PROCESS] Procesando 1 videos...
+2026-07-17 02:16:46,926 - INFO - 
+--- Procesando video 1/1 ---
+2026-07-17 02:16:46,926 - INFO - [VIDEO] Título: EL ULTIMO GRAN GOLPE Tráiler Español Latino (2026) Russell Crowe
+2026-07-17 02:16:46,926 - INFO - [VIDEO] ID: 0L7cWLoTUj8
+2026-07-17 02:16:46,926 - INFO - [SEARCH] Buscando JSON para: 'EL ULTIMO GRAN GOLPE Tráiler Español Latino (2026) Russell Crowe'
+2026-07-17 02:16:46,927 - INFO - [SEARCH] Primeras 3 palabras del título: ['ultimo', 'gran', 'golpe']
+2026-07-17 02:16:46,927 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-07-17 02:16:46,927 - INFO - [COMPARE] Archivo: EL ULTIMO GRAN GOLPE Tráiler Español Latino Doblado (2026) Russell Crowe.json
+2026-07-17 02:16:46,927 - INFO - [COMPARE] Título JSON: 'EL ULTIMO GRAN GOLPE Tráiler Español Latino Doblado (2026) Russell Crowe'
+2026-07-17 02:16:46,927 - INFO - [COMPARE] Primeras 3 palabras JSON: ['ultimo', 'gran', 'golpe']
+2026-07-17 02:16:46,927 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: EL ULTIMO GRAN GOLPE Tráiler Español Latino Doblado (2026) Russell Crowe.json
+2026-07-17 02:16:46,927 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-17 02:16:46,927 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-07-17 02:16:46,927 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-07-17 02:16:46,927 - INFO - [API] 🔑 API Key válida: ✅
+2026-07-17 02:16:46,927 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-07-17 02:17:01,401 - INFO - [API] 📊 Código de respuesta: 200
+2026-07-17 02:17:01,401 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-07-17 02:17:01,401 - INFO - [API] 📏 Longitud de respuesta: 1995 caracteres
+2026-07-17 02:17:01,401 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: EL ULTIMO GRAN GOLPE Tráiler Oficial en Español Latino (2025)
+
+DESCRIPCIÓN: 🎬 ¡El atraco más...
+2026-07-17 02:17:01,402 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-07-17 02:17:01,403 - INFO - [PARSE] Datos parseados exitosamente:
+2026-07-17 02:17:01,403 - INFO -   - Título: EL ULTIMO GRAN GOLPE Tráiler Oficial en Español La...
+2026-07-17 02:17:01,403 - INFO -   - Descripción: 1714 caracteres
+2026-07-17 02:17:01,403 - INFO -   - Tags: 10 elementos
+2026-07-17 02:17:01,403 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-07-17 02:17:01,403 - INFO - [UPDATE] JSON actualizado: EL ULTIMO GRAN GOLPE Tráiler Español Latino Doblado (2026) Russell Crowe.json
+2026-07-17 02:17:01,404 - INFO - [JSON] Cargados 91 videos desde data.json
+2026-07-17 02:17:01,404 - INFO - [STATUS] Video 0L7cWLoTUj8 actualizado a 'ok'
+2026-07-17 02:17:01,405 - INFO - [JSON] data.json actualizado exitosamente
+2026-07-17 02:17:01,405 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-07-17 02:17:01,405 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-07-17 02:17:01,405 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-07-17 02:17:01,405 - INFO - [SUMMARY] Videos fallidos: 0
+2026-07-17 02:17:01,986 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-07-17 02:17:01,987 - INFO - [FINISH] Proceso completado exitosamente
