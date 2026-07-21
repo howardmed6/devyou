@@ -2123,3 +2123,17 @@
 2026-07-17 02:17:07,465 - INFO - [CLEANUP] Archivos eliminados: 0L7cWLoTUj8
 2026-07-17 02:17:10,723 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
 2026-07-17 02:17:10,723 - INFO - [FINISH] Proceso completado
+2026-07-21 02:21:41,948 - INFO - [PROCESS] 1 videos listos para subir automáticamente
+2026-07-21 02:21:42,536 - INFO - [UPLOAD] Procesando: AVENGERS 5: DOOMSDAY Tráiler Español Latino Doblado (2026)
+2026-07-21 02:21:42,536 - INFO - [SEARCH] Buscando archivos para: 'AVENGERS 5: DOOMSDAY Tráiler Español Latino Doblado (2026)'
+2026-07-21 02:21:42,537 - INFO - [SEARCH] Palabras clave: ['avengers', '5', 'doomsday']
+2026-07-21 02:21:42,537 - INFO - [FILES] JSON: AVENGERS 5_ DOOMSDAY Tráiler Español Latino Doblado (2026).json
+2026-07-21 02:21:42,537 - INFO - [FILES] Video: AVENGERS 5_ DOOMSDAY Tráiler Español Latino Doblado (2026)(1080P_HD).mp4
+2026-07-21 02:21:42,537 - INFO - [FILES] Thumbnail: AVENGERS 5_ DOOMSDAY Tráiler Español Latino Doblado (2026)(1080P_HD).jpg
+2026-07-21 02:21:42,557 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-07-21 02:21:42,652 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-07-21 02:21:44,612 - INFO - [YOUTUBE] Video subido: BaW4DYxyQWw
+2026-07-21 02:21:46,500 - INFO - [YOUTUBE] Thumbnail subido
+2026-07-21 02:21:46,506 - INFO - [CLEANUP] Archivos eliminados: -h8UakY4UXA
+2026-07-21 02:21:49,828 - INFO - [FINISH] Subida automática completada: 1 éxitos, 0 errores
+2026-07-21 02:21:49,828 - INFO - [FINISH] Proceso completado

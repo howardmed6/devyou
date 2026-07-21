@@ -8680,3 +8680,53 @@ DESCRIPCIÓN: 🎬 ¡El atraco más...
 2026-07-17 02:17:01,405 - INFO - [SUMMARY] Videos fallidos: 0
 2026-07-17 02:17:01,986 - INFO - [TELEGRAM] Notificación enviada exitosamente
 2026-07-17 02:17:01,987 - INFO - [FINISH] Proceso completado exitosamente
+2026-07-21 02:21:25,087 - INFO - [INIT] Archivo data.json: /home/runner/work/devyou/devyou/data.json
+2026-07-21 02:21:25,087 - INFO - [INIT] Carpeta uploadable: /home/runner/work/devyou/devyou/uploadable
+2026-07-21 02:21:25,088 - INFO - [INIT] API Key disponible: Sí
+2026-07-21 02:21:25,088 - INFO - [INIT] Bot Token disponible: Sí
+2026-07-21 02:21:25,088 - INFO - [INIT] Chat ID disponible: Sí
+2026-07-21 02:21:25,088 - INFO - [INIT] API Key (primeros 15 chars): sk-ant-api03-wY...
+2026-07-21 02:21:25,088 - INFO - [START] Iniciando procesamiento de videos editados...
+2026-07-21 02:21:25,088 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-21 02:21:25,089 - INFO - [JSON] Cargados 124 videos desde data.json
+2026-07-21 02:21:25,089 - INFO - [FILTER] Encontrados 1 videos con estado 'edited'
+2026-07-21 02:21:25,089 - INFO - [PROCESS] Procesando 1 videos...
+2026-07-21 02:21:25,089 - INFO - 
+--- Procesando video 1/1 ---
+2026-07-21 02:21:25,089 - INFO - [VIDEO] Título: AVENGERS 5: DOOMSDAY Tráiler Español Latino Doblado (2026)
+2026-07-21 02:21:25,089 - INFO - [VIDEO] ID: -h8UakY4UXA
+2026-07-21 02:21:25,089 - INFO - [SEARCH] Buscando JSON para: 'AVENGERS 5: DOOMSDAY Tráiler Español Latino Doblado (2026)'
+2026-07-21 02:21:25,098 - INFO - [SEARCH] Primeras 3 palabras del título: ['avengers', 'doomsday', 'trailer']
+2026-07-21 02:21:25,098 - INFO - [SEARCH] Encontrados 1 archivos JSON en uploadable
+2026-07-21 02:21:25,098 - INFO - [COMPARE] Archivo: AVENGERS 5_ DOOMSDAY Tráiler Español Latino Doblado (2026).json
+2026-07-21 02:21:25,098 - INFO - [COMPARE] Título JSON: 'AVENGERS 5: DOOMSDAY Tráiler Español Latino Doblado (2026)'
+2026-07-21 02:21:25,098 - INFO - [COMPARE] Primeras 3 palabras JSON: ['avengers', 'doomsday', 'trailer']
+2026-07-21 02:21:25,098 - INFO - [MATCH] ✓ Coincidencia exacta encontrada: AVENGERS 5_ DOOMSDAY Tráiler Español Latino Doblado (2026).json
+2026-07-21 02:21:25,098 - INFO - [API] ✅ API Key tiene formato válido
+2026-07-21 02:21:25,098 - INFO - [API] 🚀 Enviando solicitud a Claude...
+2026-07-21 02:21:25,098 - INFO - [API] 🌐 Endpoint: https://api.anthropic.com/v1/messages
+2026-07-21 02:21:25,099 - INFO - [API] 🔑 API Key válida: ✅
+2026-07-21 02:21:25,099 - INFO - [API] 📊 Modelo: claude-sonnet-4-6
+2026-07-21 02:21:40,955 - INFO - [API] 📊 Código de respuesta: 200
+2026-07-21 02:21:40,955 - INFO - [API] ✅ Respuesta recibida exitosamente
+2026-07-21 02:21:40,955 - INFO - [API] 📏 Longitud de respuesta: 2177 caracteres
+2026-07-21 02:21:40,955 - INFO - [API] 📝 Inicio de respuesta: TÍTULO: AVENGERS 5: DOOMSDAY Tráiler Oficial en Español Latino (2026)
+
+DESCRIPCIÓN: 🎬 ¡El evento cin...
+2026-07-21 02:21:40,956 - INFO - [PARSE] Parseando respuesta de Claude...
+2026-07-21 02:21:40,957 - INFO - [PARSE] Datos parseados exitosamente:
+2026-07-21 02:21:40,957 - INFO -   - Título: AVENGERS 5: DOOMSDAY Tráiler Oficial en Español La...
+2026-07-21 02:21:40,957 - INFO -   - Descripción: 1868 caracteres
+2026-07-21 02:21:40,957 - INFO -   - Tags: 10 elementos
+2026-07-21 02:21:40,957 - INFO - [UPDATE] Metadatos actualizados con respuesta de Claude
+2026-07-21 02:21:40,958 - INFO - [UPDATE] JSON actualizado: AVENGERS 5_ DOOMSDAY Tráiler Español Latino Doblado (2026).json
+2026-07-21 02:21:40,959 - INFO - [JSON] Cargados 124 videos desde data.json
+2026-07-21 02:21:40,959 - INFO - [STATUS] Video -h8UakY4UXA actualizado a 'ok'
+2026-07-21 02:21:40,960 - INFO - [JSON] data.json actualizado exitosamente
+2026-07-21 02:21:40,960 - INFO - [SUCCESS] Video 1 procesado exitosamente
+2026-07-21 02:21:40,960 - INFO - 
+[SUMMARY] Procesamiento completado:
+2026-07-21 02:21:40,961 - INFO - [SUMMARY] Videos procesados exitosamente: 1
+2026-07-21 02:21:40,961 - INFO - [SUMMARY] Videos fallidos: 0
+2026-07-21 02:21:41,570 - INFO - [TELEGRAM] Notificación enviada exitosamente
+2026-07-21 02:21:41,571 - INFO - [FINISH] Proceso completado exitosamente
